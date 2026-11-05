@@ -114,7 +114,12 @@ if __name__=='__main__':
                 sys.path.insert(0,str(R/'scripts'))
                 from ml_studio.datasets import DatasetStore
                 from ml_studio.evaluation import EvaluationJobs
-                studio=DatasetStore.initialize(temp/'studio');EvaluationJobs(studio).initialize()
+                studio=DatasetStore.initialize(temp/'studio')
+                registry_status=EvaluationJobs(studio).initialize(allow_missing_baseline=True)
+                env['SHIELDVI_DEMO_V1_UNAVAILABLE']='0' if registry_status['evaluation_enabled'] else '1'
+                (temp/'studio_registry_status.json').write_text(json.dumps(registry_status),encoding='utf-8')
+                if not registry_status['evaluation_enabled']:
+                    progress('Original V1 baseline unavailable: comparison/rollback disabled. Realtime AI keeps the existing V1.1 default (0.41); no model substitution.')
                 env['SHIELDVI_STUDIO_ROOT']=str(studio.root)
                 env['PYTHONPATH']=os.pathsep.join([str(R/'scripts'),env['PYTHONPATH']])
             api=launch('T043_api',[sys.executable,'-m','uvicorn','shieldvi_social.live_app:create_app','--factory','--host','127.0.0.1','--port',str(api_port),'--loop','demo_loop:new_event_loop','--no-access-log'],SERVICE)

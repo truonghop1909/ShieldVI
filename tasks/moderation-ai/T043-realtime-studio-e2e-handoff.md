@@ -1,5 +1,19 @@
-# T043 — End-to-end demo, benchmark, kiểm thử an toàn và bàn giao
-
+# T043 — End-to-end demo, benchmark, kiểm thử an toàn và bàn giao
+
+### Follow-up 05/11/2026 — demo startup without unavailable original V1
+
+Fixed launcher coupling to optional Studio baseline, retaining approved V1.1
+realtime/default-v5/0.41. Explicit demo-only missing-baseline mode preserves
+strict registry initialization elsewhere; corrupt artifacts still fail.
+Studio marks V1 UNAVAILABLE; evaluation/rollback is blocked server-side and
+in UI. Original checkpoint is NOT restored, training from V1 remains unavailable.
+286 regression/startup tests PASS; 7 browser contexts and 12 upload/annotation
+checks PASS; 8 real-neural realtime E2E PASS; Moderator/Studio build exit0.
+Readiness remains FAIL for9missing external V1 files; lock unchanged,1302other
+entries no mismatch. Historical task status and formal gates unchanged.
+Report: docs/realtime_moderation/MISSING_BASELINE_DEMO_FIX.md.
+Receipt: reports/v1_demo_fix_20261105_verified.json. No training/download/deploy.
+
 **Dự án:** ShieldVI · **Trạng thái ban đầu:** TODO / NOT STARTED (chỉ đổi theo evidence) · **Nhánh:** Realtime Moderation & Self-service ML Studio
 
 **Mục tiêu:** Một bộ demo Windows cho client realtime moderation + Data/Label/Training Studio, có thể diễn lại được, đo hiệu năng và ghi rõ các giới hạn.

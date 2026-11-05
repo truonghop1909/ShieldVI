@@ -32,6 +32,12 @@ for(const [name,url,button] of [
 }
 if(process.env.SHIELDVI_DEMO_VISUAL_MODE){const {runVisualChecks}=await import('../reports/task_rollout_20261104/browser_visual_fix_20261105.mjs');await runVisualChecks(pages,browser,process.env.SHIELDVI_DEMO_ROOT,{audit:process.env.SHIELDVI_DEMO_VISUAL_MODE==='before'})}
 if(headless){const studio=pages[6];for(const [button,heading] of [['Labeling','Labeling · Blind mode'],['Training','Training · CPU head-only'],['Models & Evaluation','Models & Evaluation']]){await studio.getByRole('button',{name:button,exact:true}).click();await expect(studio.getByRole('heading',{name:heading,exact:true})).toBeVisible();await expect(studio.getByRole('alert')).toHaveCount(0)}
+ if(process.env.SHIELDVI_DEMO_V1_UNAVAILABLE==='1'){
+  await expect(studio.getByTestId('baseline-unavailable')).toBeVisible()
+  await expect(studio.getByRole('button',{name:'Đánh giá paired synthetic',exact:true})).toBeDisabled()
+  await expect(studio.getByRole('row').filter({has:studio.getByRole('cell',{name:'v1',exact:true})})).toContainText('UNAVAILABLE')
+  await studio.screenshot({path:path.join(process.env.SHIELDVI_DEMO_ROOT,'studio_missing_v1.png'),fullPage:true})
+ }
  let feed=null
  if(process.env.SHIELDVI_DEMO_FEED_CHECK==='1'){const {runFeedChecks}=await import('../reports/social_feed_v2_20261104/browser_feed.mjs');feed=await runFeedChecks(pages,process.env.SHIELDVI_DEMO_ROOT)}
  if(process.env.SHIELDVI_DEMO_STUDIO_CHECK==='1'){
@@ -41,5 +47,5 @@ if(headless){const studio=pages[6];for(const [button,heading] of [['Labeling','L
    fs.writeFileSync(path.join(process.env.SHIELDVI_DEMO_ROOT,task+'_browser.log'),result.stdout+result.stderr)
   }
  }
- fs.writeFileSync(path.join(process.env.SHIELDVI_DEMO_ROOT,'browser_smoke.json'),JSON.stringify({status:'PASS',contexts:pages.length,social_accounts:5,login_automated_without_credentials_in_url:true,studio_tabs:3,no_training_started:true,headless:true,feed},null,2))}
+ fs.writeFileSync(path.join(process.env.SHIELDVI_DEMO_ROOT,'browser_smoke.json'),JSON.stringify({status:'PASS',contexts:pages.length,social_accounts:5,login_automated_without_credentials_in_url:true,studio_tabs:3,no_training_started:true,headless:true,missing_v1_safely_blocked:process.env.SHIELDVI_DEMO_V1_UNAVAILABLE==='1',feed},null,2))}
 await new Promise(resolve=>browser.on('disconnected',resolve))

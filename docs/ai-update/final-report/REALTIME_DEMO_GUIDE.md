@@ -1,5 +1,10 @@
 # Realtime demo
 
+**Cập nhật 05/11/2026:** Khi thiếu baseline V1 gốc, demo vẫn khởi động với
+V1.1 mặc định hiện có. Studio báo V1 `UNAVAILABLE` và khóa so sánh/rollback;
+training dựa trên V1 chưa chạy được. Không thay checkpoint hoặc ngưỡng 0.41.
+Xem [cách xử lý và bằng chứng](../../realtime_moderation/MISSING_BASELINE_DEMO_FIX.md).
+
 From the project root in PowerShell:
 
 ```powershell

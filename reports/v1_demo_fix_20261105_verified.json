@@ -1,0 +1,83 @@
+{
+  "status": "DEMO_FIX_VERIFIED_BASELINE_NOT_RESTORED",
+  "date": "2026-11-05",
+  "timezone": "Asia/Saigon",
+  "tests": {
+    "red": {
+      "failed": 7,
+      "passed": 1
+    },
+    "targeted_pass": 12,
+    "regression_startup_pass": 286,
+    "studio_contexts": 7,
+    "upload_checks": 6,
+    "annotation_checks": 6,
+    "actual_neural_realtime_checks": 8,
+    "moderator_studio_build": "PASS"
+  },
+  "studio_root": "reports\\task_rollout_20261104\\demo_b9f7bbad22d8bdba",
+  "realtime_root": "reports\\task_rollout_20261104\\demo_b5222751c38c2ee3",
+  "job_counts": {
+    "training_runs": 0,
+    "evaluation_runs": 0
+  },
+  "current_default": "v1_1",
+  "threshold": 0.41,
+  "processor": "default-v5",
+  "baseline_restored": false,
+  "evaluation_rollback_enabled": false,
+  "readiness": {
+    "status": "FAIL",
+    "files_checked": 1311,
+    "errors": [
+      "missing:C:/Users/admin/Downloads/visobert_toxic_final/config.json",
+      "missing:C:/Users/admin/Downloads/visobert_toxic_final/model.safetensors",
+      "missing:C:/Users/admin/Downloads/visobert_toxic_final/sentencepiece.bpe.model",
+      "missing:C:/Users/admin/Downloads/visobert_toxic_final/special_tokens_map.json",
+      "missing:C:/Users/admin/Downloads/visobert_toxic_final/test_metrics.json",
+      "missing:C:/Users/admin/Downloads/visobert_toxic_final/threshold_config.json",
+      "missing:C:/Users/admin/Downloads/visobert_toxic_final/tokenizer.json",
+      "missing:C:/Users/admin/Downloads/visobert_toxic_final/tokenizer_config.json",
+      "missing:C:/Users/admin/Downloads/visobert_toxic_final/training_args.bin"
+    ],
+    "lock_sha256": "ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3",
+    "training_performed": false,
+    "model_inference_performed": false,
+    "production_changed": false,
+    "human_gold": false
+  },
+  "model_changed": false,
+  "training_performed": false,
+  "production_changed": false,
+  "files_sha256": {
+    "scripts/ml_studio/evaluation.py": "bc73c5ceb26cf455a926c3bde72b11dd21a37471a2bcb41b6bed4090608a5f9f",
+    "scripts/demo_open_browsers.mjs": "0d647685436299b2d58af69c2c36034a929438ef1ea7e10e0d95ca19138e7793",
+    "apps/moderation-web/src/EvaluationStudio.jsx": "77989caa04a097ed2d5599b4c65c3905aff58245d7b66a28757b96f9ca3e1613",
+    "reports/task_rollout_20261104/run_browser_actual.py": "b8b679c8adb3f473fff4498f488005ac31e28e7a51817b7419e9b3e98ea08bfa",
+    "services/social-api/tests/test_studio_missing_baseline.py": "24b256680e036f89d652c85e2bd2143e75f535d86a44901e5dbdf81eafa4bd39",
+    "docs/realtime_moderation/MISSING_BASELINE_DEMO_FIX.md": "971d10fe40098b28cee642e2b56c567213273a9d431cbde035362faebcc3d599",
+    "docs/ai-update/final-report/REALTIME_DEMO_GUIDE.md": "4380fc3d9379c1c833fdc1b1f3b9c45b54d9e93bbc685fa17fec6cb69c70b214",
+    "tasks/AUTO_PROGRESS.md": "49a47a247b63954d1a3a8e8b34c5f3f5d69bc9bbde625b9ba22dc575e6e481bf",
+    "tasks/moderation-ai/T043-realtime-studio-e2e-handoff.md": "4788fdfb86f7552e734ce445dda765371f64c87b96e1cf59c622fa4620d1e9b1",
+    "reports/v1_demo_fix_20261105_build.log": "80b310f8132d3017a2c75ff4d9e356e20b77ff00506cf831d223484a489b930d",
+    "reports/v1_demo_fix_20261105_build_verified.log": "092c51ee9875e5b7a54a5c43a8c74f44231b0e3beb092e964e2fce2d714e25eb",
+    "reports/v1_demo_fix_20261105_green.log": "7b04d23ab44aef13b4aff8008750d2c1bf685d44901b0940b81a8c9282dd9a12",
+    "reports/v1_demo_fix_20261105_readiness.log": "d051ffdfe806103fced810b906ac580257370d306d67dd3478fe81d999e7a04d",
+    "reports/v1_demo_fix_20261105_realtime.log": "322f408efc7146f26571c82bb1ff67dee8cb38b073fb8b9723a1bb36a4a1daf7",
+    "reports/v1_demo_fix_20261105_red.log": "e3c4bb071967c7ddfb4867922d567403f0d5e9c1c2ebe589f6a94fd6156a9445",
+    "reports/v1_demo_fix_20261105_regression.log": "59f3a4a4b349256bbbcf94c0bc1bf8352b33c6c3234d52906b4eb7c53071c893",
+    "reports/v1_demo_fix_20261105_studio.log": "748ce9a7e670e8c99d820e5a12c0d13033ee446baed0209778faf245d6009271",
+    "reports/task_rollout_20261104/demo_b9f7bbad22d8bdba/browser_smoke.json": "62688524db03159311bef86c5b254c80396c699fc03da8503f498d820a4465ea",
+    "reports/task_rollout_20261104/demo_b9f7bbad22d8bdba/interactive_check.json": "d9220df8af14153638910db009bbb8d8ec7ca1995437ce0c296ea941545b9e51",
+    "reports/task_rollout_20261104/demo_b9f7bbad22d8bdba/studio_registry_status.json": "00a1208fac9d85cbf2be723754ed33d8d31ee5b550f6326173b573055fe1c7f9",
+    "reports/task_rollout_20261104/demo_b9f7bbad22d8bdba/T039_browser_result.json": "5d825730e5a0c82a4df4c37bc144b9b70f5ce2d396fd633f19ddb12ab740f877",
+    "reports/task_rollout_20261104/demo_b9f7bbad22d8bdba/T040_browser_result.json": "5f29fd79179698e920b1b1b45fe7778e145f9b4c4570d5d2640d268c856d9609",
+    "reports/task_rollout_20261104/demo_b9f7bbad22d8bdba/T043_actual_health.json": "5daf3dcda88cd19ae1ba24e6004da62d2cbdcde4730ba4f1733791177227b83b",
+    "reports/task_rollout_20261104/demo_b9f7bbad22d8bdba/studio_missing_v1.png": "f5e4d36752b6dcd5544e4d85b519596e9f93ab1207782113b0f2a098595ef37b",
+    "reports/task_rollout_20261104/demo_b9f7bbad22d8bdba/T043_cleanup.json": "3a2e4306988ca3d5c39068c920ca7db514f5b15007eafb0a258120e9af73a06d",
+    "reports/task_rollout_20261104/demo_b5222751c38c2ee3/T043_actual_results.json": "a5a4ee29810d0ce3ac666b76f4ab760b471befe6f760e0a109b6faf1b2da7dfb",
+    "reports/task_rollout_20261104/demo_b5222751c38c2ee3/T043_browser.log": "1b5a8147e910e190b51938663296acfb35669b79bea7ae788579ef982c1aefd9",
+    "reports/task_rollout_20261104/demo_b5222751c38c2ee3/T043_cleanup.json": "6324b56f4418b8fad8cc58680de1cc542d9bb5463c9e8047b326890194fae7f7",
+    "reports/task_rollout_20261104/demo_b5222751c38c2ee3/T043_actual_health.json": "5daf3dcda88cd19ae1ba24e6004da62d2cbdcde4730ba4f1733791177227b83b"
+  }
+}

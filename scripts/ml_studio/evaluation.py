@@ -27,7 +27,7 @@ class EvaluationJobs:
         path=pointer.parent/name
         if sha_file(path)!=ref['sha256']:raise ValueError('Registry hash mismatch')
         return LocalModelRegistry(path),ref['sha256']
-    def initialize(self):
+    def initialize(self,*,allow_missing_baseline=False):
         existing=json.loads((ROOT/'configs/model_registry.repeated_recovery.local.json').read_text(encoding='utf-8'))
         models={k:existing['models'][k] for k in ('v1','v1_1','candidate_r06')}
         lock=json.loads(LOCK.read_text(encoding='utf-8'))
@@ -42,17 +42,37 @@ class EvaluationJobs:
         content=canonical(manifest);path=self.store.root/'registry'/('snapshot_'+digest(content)+'.json');path.parent.mkdir(parents=True,exist_ok=True)
         if not path.exists():path.write_bytes(content)
         registry=LocalModelRegistry(path)
-        for key in models:registry.verify(key)
+        unavailable=[]
+        for key in models:
+            try:registry.verify(key)
+            except FileNotFoundError:
+                if not allow_missing_baseline or key!='v1':raise
+                # A missing optional baseline is recoverable for realtime demo,
+                # but corruption in ANY remaining artifact must still fail.
+                entry=models[key]
+                for name,expected in entry['sha256'].items():
+                    if Path(name).name!=name:raise RegistryError('Artifact name must be a basename')
+                    artifact=Path(entry['path'])/name
+                    if artifact.exists() and sha_file(artifact)!=expected:raise RegistryError('Checkpoint integrity mismatch')
+                unavailable.append(key)
         atomic_json(path.parent/'latest.json',{'file':path.name,'sha256':sha_file(path)})
         with self.store.connect() as db:db.execute('CREATE TABLE IF NOT EXISTS evaluation_runs(id TEXT PRIMARY KEY,status TEXT NOT NULL,config_json TEXT NOT NULL,registry_sha TEXT NOT NULL,owner_id TEXT NOT NULL,created_at TEXT NOT NULL,heartbeat REAL,error_code TEXT)')
-        return {'models':list(models),'registry_sha256':sha_file(path),'default_unchanged':True}
+        return {'models':list(models),'registry_sha256':sha_file(path),'default_unchanged':True,
+            'evaluation_enabled':not unavailable,'unavailable_models':unavailable}
     def list_models(self):
         registry,sha=self.catalog()
-        return {'registry_sha256':sha,'default':'v1_1','activation_enabled':False,'formal_gate':'BLOCKED_T028_NO_HUMAN_GOLD','models':[{'id':k,'role':v['role'],'state':'CANDIDATE' if v['role']=='experimental' else 'APPROVED_EXISTING' if k in ('v1','v1_1') else 'RESEARCH',
+        unavailable=[key for key,entry in registry.models.items() if any(not (Path(entry['path'])/name).is_file() for name in entry['sha256'])]
+        blocked=registry.fallback in unavailable
+        return {'registry_sha256':sha,'default':'v1_1','activation_enabled':False,'formal_gate':'BLOCKED_T028_NO_HUMAN_GOLD',
+            'evaluation_enabled':not blocked,'evaluation_blocker':'ORIGINAL_V1_UNAVAILABLE' if blocked else None,
+            'models':[{'id':k,'role':v['role'],'available':k not in unavailable,'state':'UNAVAILABLE' if k in unavailable else 'CANDIDATE' if v['role']=='experimental' else 'APPROVED_EXISTING' if k in ('v1','v1_1') else 'RESEARCH',
             'weights_sha256':v['sha256']['model.safetensors'],'threshold':v['threshold'],'training_run':v.get('training_run'),'dataset_sources':v.get('dataset_sources'),'promotable':False} for k,v in registry.models.items()]}
     def preflight(self,value):
         value=EvaluationInput.model_validate(value);registry,sha=self.catalog()
         if len(set(value.models))!=len(value.models) or any(k not in registry.models for k in value.models):raise ValueError('Choose distinct registered models')
+        try:registry.verify(registry.fallback)
+        except (OSError,ValueError) as exc:raise ValueError('Original V1 unavailable or invalid; evaluation and rollback remain blocked. Restore the original artifacts, not a substitute model.') from exc
+        for key in value.models:registry.verify(key)
         record=self.store.get(value.dataset_version)
         if record['status']!='ACCEPTED' or record['manifest']['data_origin']!='synthetic' or not record['manifest']['split_locked']:raise ValueError('Only locked accepted synthetic development holdouts are eligible here')
         rows=[r for r in self.store.rows(value.dataset_version) if r['split']=='test']

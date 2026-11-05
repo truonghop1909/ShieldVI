@@ -1158,3 +1158,35 @@ No train, download of external models/datasets, deploy or production change.
 Details: docs/realtime_moderation/DOWNLOAD_EXPORT_FIX.md.
 Evidence: reports/download_fix_20261105_verified.json,
 download_fix_20261105_recovered.json; actual test root demo_e2716aa0ec230f62.
+
+## Missing V1 demo startup — 05/11/2026 — FIX VERIFIED / BASELINE STILL MISSING
+
+Root cause: interactive demo eagerly verified optional V1 baseline in Studio
+before starting realtime V1.1. No V1 copy found in targeted models/Downloads
+filename inventory. Added explicit demo-only allow_missing_baseline mode;
+default initialization remains strict. V1 UNAVAILABLE is visible, evaluation
+button disabled and server preflight rejects missing/invalid fallback.
+Existing V1 fragments, active V1.1 and candidate integrity are still enforced.
+No substitution, retraining, model-path/threshold/rule/reference/lock changes.
+
+Changed: scripts/ml_studio/evaluation.py, demo_open_browsers.mjs,
+reports/task_rollout_20261104/run_browser_actual.py,
+apps/moderation-web/src/EvaluationStudio.jsx; new missing-baseline tests;
+T043 follow-up, demo guide and MISSING_BASELINE_DEMO_FIX.md.
+
+RED:7FAIL/1PASS before implementation; targeted after:12PASS.
+Full Social API/Studio + startup:286PASS,1dependency warning.
+StudioCheck:7authenticated contexts,3tabs,missing-V1 UI verified,
+T039 upload6PASS,T040 annotation6PASS (synthetic automation,not human gold).
+HeadlessCheck:8PASS actual V1.1 inference/default-v5/0.41 including review,
+appeal and repeated. Build PASS/exit0; initial npm-notice wrapper error retained.
+Readiness FAIL:9missing original V1 files,1302other entries no mismatch;
+lockSHA ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3.
+
+Evidence roots: demo_b9f7bbad22d8bdba (Studio), demo_b5222751c38c2ee3 (realtime),
+under reports/task_rollout_20261104. Both checks stopped owned processes only;
+data/logs retained. Receipt reports/v1_demo_fix_20261105_verified.json.
+Next: operator can run scripts/demo_realtime_studio.ps1 -AskPassword.
+Original V1 recovery still requires exact original artifacts; training from V1
+and evaluation/rollback remain blocked until restoration. No training performed.
+Formal T028/T029 BLOCKED,T030-T033 PARTIAL and confirmed task statuses unchanged.

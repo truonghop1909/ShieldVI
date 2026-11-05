@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "local_markdown_links_checked": 73,
+  "broken_links": [],
+  "thread_files": 500,
+  "dashboard_files": 500,
+  "successful_batch_manifests": 11,
+  "batch_thread_coverage": 500,
+  "frozen_dataset_and_challenge_unchanged": true,
+  "original_notebook_execution_count": 0,
+  "task_states": {
+    "T028": "BLOCKED",
+    "synthetic_generation": "DONE",
+    "T029": "BLOCKED",
+    "T030": "DONE",
+    "T031": "BLOCKED",
+    "T032": "DONE",
+    "T033": "DONE"
+  },
+  "human_labels": 0,
+  "real_threads": 0,
+  "synthetic_threads": 500
+}

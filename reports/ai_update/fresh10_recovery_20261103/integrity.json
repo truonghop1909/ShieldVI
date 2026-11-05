@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "versioned_comments": [
+    200,
+    48,
+    24
+  ],
+  "imported_original_files_verified": 26,
+  "distinct_comment_texts": 272,
+  "near_duplicate_threshold": 0.85,
+  "near_duplicate_warnings": [],
+  "readiness": {
+    "status": "PASS",
+    "files_checked": 1311,
+    "errors": [],
+    "lock_sha256": "ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3",
+    "training_performed": false,
+    "model_inference_performed": false,
+    "production_changed": false,
+    "human_gold": false
+  },
+  "root_tests_passed": 648,
+  "root_tests_failed": 0,
+  "warning": "Starlette TestClient deprecation",
+  "old_regression_metrics_unchanged": true,
+  "new_challenge_rule_hash_unchanged": true,
+  "references_changed": false,
+  "training_performed": false,
+  "default_changed": false,
+  "v5_runtime_changed": false,
+  "new_exclusions_runtime_merged": false
+}

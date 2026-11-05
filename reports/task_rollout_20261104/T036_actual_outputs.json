@@ -1,0 +1,266 @@
+[
+  {
+    "schema_version": "1.0",
+    "request_id": "req_a",
+    "content_id": "a",
+    "content_revision": 1,
+    "model_name": "ViSoBERT V1.1 — ViCTSD",
+    "model_version": "ViSoBERT V1.1 — ViCTSD",
+    "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+    "analyzed_at": "2026-11-04T06:23:29.608007Z",
+    "model_threshold": 0.41,
+    "toxicity_score": 0.01037,
+    "ai_label": "CLEAN",
+    "lexical_review_recommended": false,
+    "directed_insult_candidate": false,
+    "reported_or_apology_context": false,
+    "lexical_signals": [],
+    "target_evidence": {
+      "target_user_id": null,
+      "method": "live_instance_unconfirmed",
+      "confidence": "none"
+    },
+    "suspected_repeated_harassment": false,
+    "evidence": [],
+    "suggested_action": "approve",
+    "decision_authority": "advisory",
+    "limitations": [
+      "Bounded snapshot; outside-window evidence unavailable. Raw cache is per immutable loaded checkpoint.",
+      "Default-v5 advisory only, never executes visibility policy."
+    ],
+    "conversation_signals": {
+      "schema_version": "live-analysis-1.0",
+      "processor": "default-v5",
+      "instance_gate_version": "live-provenance-v1",
+      "rules_version": {
+        "context": "context-v5",
+        "target": "target-v5",
+        "repeated": "repeated-v5",
+        "assessment": "context-assessment-v1"
+      },
+      "model_fingerprint": "fdcd1bd70a1d1eced24464ce7958fe25d71e754c3f0c9b01ef38170859c26143",
+      "current": {
+        "reply_to_user_id": null,
+        "directed_at_user_id": null,
+        "directed_attack_candidate": false,
+        "base_attack_instance_candidate": false,
+        "attack_instance_candidate": false,
+        "instance_gate_reason": "insufficient_context_or_target",
+        "context_tags": [],
+        "context_cues": [],
+        "assessment_label": "CLEAN",
+        "assessment_basis": "raw_model_fallback",
+        "policy_risk": "LOW",
+        "policy_executed": false
+      },
+      "attack_instances": [],
+      "context_complete": true,
+      "horizon_seconds": 1800,
+      "cached_texts": 0,
+      "neural_texts": 1,
+      "analysis_ms": 77.71099999990838
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "request_id": "req_b",
+    "content_id": "b",
+    "content_revision": 1,
+    "model_name": "ViSoBERT V1.1 — ViCTSD",
+    "model_version": "ViSoBERT V1.1 — ViCTSD",
+    "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+    "analyzed_at": "2026-11-04T06:23:29.691951Z",
+    "model_threshold": 0.41,
+    "toxicity_score": 0.967294,
+    "ai_label": "TOXIC",
+    "lexical_review_recommended": true,
+    "directed_insult_candidate": true,
+    "reported_or_apology_context": false,
+    "lexical_signals": [
+      {
+        "rule_id": "vi_oc_cho",
+        "category": "directed_insult",
+        "matched_form": "đồ ngu",
+        "strength": "context",
+        "canonical_form": "đồ ngu",
+        "language": "vi",
+        "reason": "Cụm có thể hạ nhục người khác; phải kiểm tra đối tượng và trích dẫn. Có dấu hiệu hướng tới người gần cụm từ; cần xác nhận thủ công.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 12,
+        "end": 18
+      }
+    ],
+    "target_evidence": {
+      "target_user_id": "Alice",
+      "method": "addressed_reply",
+      "confidence": "medium"
+    },
+    "suspected_repeated_harassment": false,
+    "evidence": [],
+    "suggested_action": "needs_review",
+    "decision_authority": "advisory",
+    "limitations": [
+      "Bounded snapshot; outside-window evidence unavailable. Raw cache is per immutable loaded checkpoint.",
+      "Default-v5 advisory only, never executes visibility policy."
+    ],
+    "conversation_signals": {
+      "schema_version": "live-analysis-1.0",
+      "processor": "default-v5",
+      "instance_gate_version": "live-provenance-v1",
+      "rules_version": {
+        "context": "context-v5",
+        "target": "target-v5",
+        "repeated": "repeated-v5",
+        "assessment": "context-assessment-v1"
+      },
+      "model_fingerprint": "fdcd1bd70a1d1eced24464ce7958fe25d71e754c3f0c9b01ef38170859c26143",
+      "current": {
+        "reply_to_user_id": "Alice",
+        "directed_at_user_id": "Alice",
+        "directed_attack_candidate": true,
+        "base_attack_instance_candidate": true,
+        "attack_instance_candidate": true,
+        "instance_gate_reason": "v5_grounded",
+        "context_tags": [
+          "DIRECT_ATTACK"
+        ],
+        "context_cues": [
+          "new_directed_attack"
+        ],
+        "assessment_label": "TOXIC",
+        "assessment_basis": "new_directed_attack",
+        "policy_risk": "REVIEW",
+        "policy_executed": false
+      },
+      "attack_instances": [
+        {
+          "comment_id": "b",
+          "actor_user_id": "Bob",
+          "target_user_id": "Alice",
+          "timestamp": "2026-11-04T00:01:00Z",
+          "context_confidence": "medium",
+          "target_confidence": "medium",
+          "target_method": "addressed_reply",
+          "target_evidence_ids": [
+            "b",
+            "a"
+          ]
+        }
+      ],
+      "context_complete": true,
+      "horizon_seconds": 1800,
+      "cached_texts": 1,
+      "neural_texts": 1,
+      "analysis_ms": 83.84159999968688
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "request_id": "req_c",
+    "content_id": "c",
+    "content_revision": 1,
+    "model_name": "ViSoBERT V1.1 — ViCTSD",
+    "model_version": "ViSoBERT V1.1 — ViCTSD",
+    "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+    "analyzed_at": "2026-11-04T06:23:29.752832Z",
+    "model_threshold": 0.41,
+    "toxicity_score": 0.976323,
+    "ai_label": "TOXIC",
+    "lexical_review_recommended": false,
+    "directed_insult_candidate": false,
+    "reported_or_apology_context": false,
+    "lexical_signals": [],
+    "target_evidence": {
+      "target_user_id": "Alice",
+      "method": "addressed_reply",
+      "confidence": "medium"
+    },
+    "suspected_repeated_harassment": true,
+    "evidence": [
+      {
+        "actor_user_id": "Bob",
+        "target_user_id": "Alice",
+        "evidence_comment_ids": [
+          "b",
+          "c"
+        ],
+        "n_distinct_timestamps": 2,
+        "target_confidence": "medium"
+      }
+    ],
+    "suggested_action": "needs_review",
+    "decision_authority": "advisory",
+    "limitations": [
+      "Bounded snapshot; outside-window evidence unavailable. Raw cache is per immutable loaded checkpoint.",
+      "Default-v5 advisory only, never executes visibility policy."
+    ],
+    "conversation_signals": {
+      "schema_version": "live-analysis-1.0",
+      "processor": "default-v5",
+      "instance_gate_version": "live-provenance-v1",
+      "rules_version": {
+        "context": "context-v5",
+        "target": "target-v5",
+        "repeated": "repeated-v5",
+        "assessment": "context-assessment-v1"
+      },
+      "model_fingerprint": "fdcd1bd70a1d1eced24464ce7958fe25d71e754c3f0c9b01ef38170859c26143",
+      "current": {
+        "reply_to_user_id": "Alice",
+        "directed_at_user_id": "Alice",
+        "directed_attack_candidate": true,
+        "base_attack_instance_candidate": true,
+        "attack_instance_candidate": true,
+        "instance_gate_reason": "v5_grounded",
+        "context_tags": [
+          "DIRECT_ATTACK"
+        ],
+        "context_cues": [
+          "new_directed_attack"
+        ],
+        "assessment_label": "TOXIC",
+        "assessment_basis": "new_directed_attack",
+        "policy_risk": "REVIEW",
+        "policy_executed": false
+      },
+      "attack_instances": [
+        {
+          "comment_id": "b",
+          "actor_user_id": "Bob",
+          "target_user_id": "Alice",
+          "timestamp": "2026-11-04T00:01:00Z",
+          "context_confidence": "medium",
+          "target_confidence": "medium",
+          "target_method": "addressed_reply",
+          "target_evidence_ids": [
+            "b",
+            "a"
+          ]
+        },
+        {
+          "comment_id": "c",
+          "actor_user_id": "Bob",
+          "target_user_id": "Alice",
+          "timestamp": "2026-11-04T00:02:00Z",
+          "context_confidence": "medium",
+          "target_confidence": "medium",
+          "target_method": "addressed_reply",
+          "target_evidence_ids": [
+            "c",
+            "a",
+            "b"
+          ]
+        }
+      ],
+      "context_complete": true,
+      "horizon_seconds": 1800,
+      "cached_texts": 2,
+      "neural_texts": 1,
+      "analysis_ms": 60.72200000016892
+    }
+  }
+]

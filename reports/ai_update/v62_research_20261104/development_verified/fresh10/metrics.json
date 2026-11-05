@@ -1,0 +1,207 @@
+{
+  "comments": 200,
+  "classification": {
+    "before": {
+      "n": 195,
+      "tp": 18,
+      "fp": 1,
+      "tn": 172,
+      "fn": 4,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.9473684210526315,
+      "toxic_recall": 0.8181818181818182,
+      "macro_f1": 0.9318610664616676,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "after": {
+      "n": 195,
+      "tp": 18,
+      "fp": 1,
+      "tn": 172,
+      "fn": 4,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.9473684210526315,
+      "toxic_recall": 0.8181818181818182,
+      "macro_f1": 0.9318610664616676,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    }
+  },
+  "grounding": {
+    "before": {
+      "reference_comments_with_target_coverage": 195,
+      "reference_attacks": 22,
+      "target_emissions": 16,
+      "target_correct": 16,
+      "target_precision": 1.0,
+      "target_recall": 0.7272727272727273,
+      "target_abstentions_on_reference_attacks": 6,
+      "repeated": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231,
+        "evidence_correct": 15,
+        "evidence_total": 15,
+        "evidence_precision": 1.0
+      }
+    },
+    "after": {
+      "reference_comments_with_target_coverage": 195,
+      "reference_attacks": 22,
+      "target_emissions": 16,
+      "target_correct": 16,
+      "target_precision": 1.0,
+      "target_recall": 0.7272727272727273,
+      "target_abstentions_on_reference_attacks": 6,
+      "repeated": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231,
+        "evidence_correct": 15,
+        "evidence_total": 15,
+        "evidence_precision": 1.0
+      }
+    }
+  },
+  "new_label_errors": [],
+  "remaining_errors": [
+    {
+      "thread_id": "SHIELDVI_FRESH10_01_LOP_SUA_LAPTOP",
+      "comment_id": "c15",
+      "text": "Thế mà ban đầu làm như hiểu hết rồi. Cả nhóm phải dọn hộ cái sự tự tin ấy.",
+      "reference": "TOXIC",
+      "raw_score": 0.402489,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_05_CUOC_THI_TRANG_TRI",
+      "comment_id": "c09",
+      "text": "Đúng, tự làm ra cái góc xấu vậy còn khoe thì U01 cũng tự tin vô lý thật.",
+      "reference": "TOXIC",
+      "raw_score": 0.307369,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_06_NHOM_BONG_CHUYEN",
+      "comment_id": "c07",
+      "text": "Đội hình mà cứ trông chờ U03 đỡ bóng thì chắc chờ phép màu. Có người tập mãi vẫn chẳng lên tay.",
+      "reference": "TOXIC",
+      "raw_score": 0.119616,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_06_NHOM_BONG_CHUYEN",
+      "comment_id": "c15",
+      "text": "U03 làm lại pha đó đi, mắc lỗi đơn giản vậy mà cũng cần nhắc cả chục lần, chịu thật.",
+      "reference": "TOXIC",
+      "raw_score": 0.24442,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_10_GOC_TRONG_CAY",
+      "comment_id": "c11",
+      "text": "Nói chậu hay nói t thế 😆",
+      "reference": "CLEAN",
+      "raw_score": 0.471893,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "changed_comments": [],
+  "raw_invariant": true,
+  "human_gold": false,
+  "training_performed": false,
+  "before_processor": "v6.1",
+  "after_processor": "v6.2",
+  "reference_evidence": {
+    "before": {
+      "evidence_correct": 15,
+      "evidence_emitted": 15,
+      "evidence_reference": 19,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.7894736842105263,
+      "fully_covered_events": 5,
+      "expected_events": 7,
+      "missing_evidence": [
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_01_LOP_SUA_LAPTOP",
+            "U02",
+            "U01"
+          ],
+          "missing": [
+            "c15"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_06_NHOM_BONG_CHUYEN",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c07",
+            "c11",
+            "c15"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "evidence_correct": 15,
+      "evidence_emitted": 15,
+      "evidence_reference": 19,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.7894736842105263,
+      "fully_covered_events": 5,
+      "expected_events": 7,
+      "missing_evidence": [
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_01_LOP_SUA_LAPTOP",
+            "U02",
+            "U01"
+          ],
+          "missing": [
+            "c15"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_06_NHOM_BONG_CHUYEN",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c07",
+            "c11",
+            "c15"
+          ]
+        }
+      ]
+    }
+  }
+}

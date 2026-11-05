@@ -1,0 +1,21 @@
+{
+  "original_files_checked": 68,
+  "original_changes_since_T007": [
+    "app/main.py"
+  ],
+  "previous_files_checked": 61,
+  "changes_since_T012_T017": [
+    "services/social-api/README.md",
+    "services/social-api/src/shieldvi_social/content_store.py",
+    "services/social-api/src/shieldvi_social/main.py",
+    "services/social-api/src/shieldvi_social/models.py",
+    "services/social-api/src/shieldvi_social/moderation_routes.py",
+    "services/social-api/src/shieldvi_social/worker.py"
+  ],
+  "legacy_changes_this_stage": [],
+  "default_social_db_schema_read_only": [
+    "0002_content"
+  ],
+  "real_checkpoint_inference": "NOT_RUN",
+  "live_database_migration": "NOT_RUN"
+}

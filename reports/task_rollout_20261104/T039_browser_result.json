@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "admin_authenticated_studio",
+    "utf8_file_upload_column_mapping_accepted_immutable_version",
+    "preview_labels_pseudonyms_and_group_split",
+    "authenticated_csv_export",
+    "repeat_upload_no_duplicate_version",
+    "invalid_labels_reported_without_silent_drop"
+  ],
+  "source": "synthetic_browser_fixture_not_gold",
+  "neural_inference": false
+}

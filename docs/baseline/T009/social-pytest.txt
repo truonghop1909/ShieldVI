@@ -1,0 +1,107 @@
+CWD=E:\lamDoAn\ShieldVI_V3_Hybrid_Review\services\social-api
+COMMAND=E:\lamDoAn\ShieldVI_V3_Hybrid_Review\services\social-api\.venv\Scripts\python.exe -m pytest -v -p no:cacheprovider
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.2.0, pluggy-1.7.0 -- E:\lamDoAn\ShieldVI_V3_Hybrid_Review\services\social-api\.venv\Scripts\python.exe
+rootdir: E:\lamDoAn\ShieldVI_V3_Hybrid_Review\services\social-api
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.15.1
+collecting ... collected 87 items
+
+tests/test_auth.py::test_register_login_me_logout_stores_only_hashes PASSED [  1%]
+tests/test_auth.py::test_password_salts_differ PASSED                    [  2%]
+tests/test_auth.py::test_concurrent_register_has_one_identity PASSED     [  3%]
+tests/test_auth.py::test_duplicate_identity_is_case_insensitive_and_generic[duplicate0] PASSED [  4%]
+tests/test_auth.py::test_duplicate_identity_is_case_insensitive_and_generic[duplicate1] PASSED [  5%]
+tests/test_auth.py::test_invalid_registration_never_echoes_sensitive_values[change0] PASSED [  6%]
+tests/test_auth.py::test_invalid_registration_never_echoes_sensitive_values[change1] PASSED [  8%]
+tests/test_auth.py::test_invalid_registration_never_echoes_sensitive_values[change2] PASSED [  9%]
+tests/test_auth.py::test_invalid_registration_never_echoes_sensitive_values[change3] PASSED [ 10%]
+tests/test_auth.py::test_invalid_registration_never_echoes_sensitive_values[change4] PASSED [ 11%]
+tests/test_auth.py::test_invalid_registration_never_echoes_sensitive_values[change5] PASSED [ 12%]
+tests/test_auth.py::test_invalid_registration_never_echoes_sensitive_values[change6] PASSED [ 13%]
+tests/test_auth.py::test_unknown_account_wrong_password_and_suspended_have_same_error PASSED [ 14%]
+tests/test_auth.py::test_missing_or_invalid_bearer_is_rejected[None] PASSED [ 16%]
+tests/test_auth.py::test_missing_or_invalid_bearer_is_rejected[Basic YTpi] PASSED [ 17%]
+tests/test_auth.py::test_missing_or_invalid_bearer_is_rejected[Bearer forged] PASSED [ 18%]
+tests/test_auth.py::test_missing_or_invalid_bearer_is_rejected[Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx] PASSED [ 19%]
+tests/test_auth.py::test_expired_session_rejected PASSED                 [ 20%]
+tests/test_auth.py::test_sessions_survive_restart_and_suspension_takes_effect PASSED [ 21%]
+tests/test_auth.py::test_login_upgrades_outdated_password_parameters PASSED [ 22%]
+tests/test_auth.py::test_registration_disabled_by_default PASSED         [ 24%]
+tests/test_auth.py::test_oversized_and_malformed_payload_do_not_echo_password PASSED [ 25%]
+tests/test_auth.py::test_cors_allowlist_and_no_cookie_credentials PASSED [ 26%]
+tests/test_content.py::test_create_post_comment_reply_and_atomic_outbox PASSED [ 27%]
+tests/test_content.py::test_outbox_failure_rolls_back_content_and_audit[post] PASSED [ 28%]
+tests/test_content.py::test_outbox_failure_rolls_back_content_and_audit[comment] PASSED [ 29%]
+tests/test_content.py::test_idempotent_create_and_conflicting_payload PASSED [ 31%]
+tests/test_content.py::test_concurrent_create_one_job_and_audit PASSED   [ 32%]
+tests/test_content.py::test_edit_revision_jobs_audit_and_soft_delete[posts] PASSED [ 33%]
+tests/test_content.py::test_edit_revision_jobs_audit_and_soft_delete[comments] PASSED [ 34%]
+tests/test_content.py::test_owner_idor_and_admin_permissions[posts] PASSED [ 35%]
+tests/test_content.py::test_owner_idor_and_admin_permissions[comments] PASSED [ 36%]
+tests/test_content.py::test_pending_hidden_deleted_and_flagged_feed_pagination PASSED [ 37%]
+tests/test_content.py::test_ancestor_mask_restore_and_private_child_read PASSED [ 39%]
+tests/test_content.py::test_cross_post_missing_deleted_and_inaccessible_parent PASSED [ 40%]
+tests/test_content.py::test_body_validation[] PASSED                     [ 41%]
+tests/test_content.py::test_body_validation[   \n\t] PASSED              [ 42%]
+tests/test_content.py::test_body_validation[body2] PASSED                [ 43%]
+tests/test_content.py::test_body_validation[nul\x00fixture] PASSED       [ 44%]
+tests/test_content.py::test_malformed_unicode_body_rejected PASSED       [ 45%]
+tests/test_content.py::test_no_client_author_state_or_id_injection[fields0] PASSED [ 47%]
+tests/test_content.py::test_no_client_author_state_or_id_injection[fields1] PASSED [ 48%]
+tests/test_content.py::test_no_client_author_state_or_id_injection[fields2] PASSED [ 49%]
+tests/test_content.py::test_no_client_author_state_or_id_injection[fields3] PASSED [ 50%]
+tests/test_content.py::test_html_and_unicode_stored_as_text_with_bounded_request PASSED [ 51%]
+tests/test_content.py::test_query_size_boundaries[page=0] PASSED         [ 52%]
+tests/test_content.py::test_query_size_boundaries[page=-1] PASSED        [ 54%]
+tests/test_content.py::test_query_size_boundaries[page=10001] PASSED     [ 55%]
+tests/test_content.py::test_query_size_boundaries[page_size=0] PASSED    [ 56%]
+tests/test_content.py::test_query_size_boundaries[page_size=51] PASSED   [ 57%]
+tests/test_content.py::test_query_size_boundaries[page_size=abc] PASSED  [ 58%]
+tests/test_content.py::test_anonymous_content_requests_are_rejected PASSED [ 59%]
+tests/test_content.py::test_parent_cannot_be_changed_to_create_cycle PASSED [ 60%]
+tests/test_content.py::test_db_rejects_cross_post_parent PASSED          [ 62%]
+tests/test_content.py::test_content_limit_and_idempotent_retry PASSED    [ 63%]
+tests/test_content.py::test_reply_depth_bound PASSED                     [ 64%]
+tests/test_content.py::test_concurrent_edit_rejects_stale_versions PASSED [ 65%]
+tests/test_content.py::test_replay_after_delete_returns_tombstone_without_new_job PASSED [ 66%]
+tests/test_content.py::test_comment_pagination_counts_only_visible_items PASSED [ 67%]
+tests/test_content.py::test_decision_version_guard_without_revision_change PASSED [ 68%]
+tests/test_content.py::test_content_preflight_supports_mutations_and_idempotency PASSED [ 70%]
+tests/test_content.py::test_staff_can_read_pending_but_moderator_cannot_remove_others PASSED [ 71%]
+tests/test_limits_config.py::test_auth_rate_limit_is_persistent_and_ignores_forwarded_ip PASSED [ 72%]
+tests/test_limits_config.py::test_register_is_rate_limited PASSED        [ 73%]
+tests/test_limits_config.py::test_account_limit_across_peers_and_window_reset PASSED [ 74%]
+tests/test_limits_config.py::test_unsafe_config_rejected[kwargs0] PASSED [ 75%]
+tests/test_limits_config.py::test_unsafe_config_rejected[kwargs1] PASSED [ 77%]
+tests/test_limits_config.py::test_unsafe_config_rejected[kwargs2] PASSED [ 78%]
+tests/test_limits_config.py::test_unsafe_config_rejected[kwargs3] PASSED [ 79%]
+tests/test_limits_config.py::test_unsafe_config_rejected[kwargs4] PASSED [ 80%]
+tests/test_limits_config.py::test_unsafe_config_rejected[kwargs5] PASSED [ 81%]
+tests/test_limits_config.py::test_unsafe_config_rejected[kwargs6] PASSED [ 82%]
+tests/test_limits_config.py::test_env_parsing_and_invalid_boolean PASSED [ 83%]
+tests/test_migrations.py::test_migration_upgrade_downgrade_and_metadata_match PASSED [ 85%]
+tests/test_migrations.py::test_db_rejects_invalid_roles_and_status[owner-active] PASSED [ 86%]
+tests/test_migrations.py::test_db_rejects_invalid_roles_and_status[user-unknown] PASSED [ 87%]
+tests/test_migrations.py::test_foreign_key_enforced PASSED               [ 88%]
+tests/test_migrations.py::test_unmigrated_db_does_not_auto_create_user_schema PASSED [ 89%]
+tests/test_migrations.py::test_old_or_unknown_schema_revision_refuses_startup PASSED [ 90%]
+tests/test_migrations.py::test_postgres_offline_migration_sql PASSED     [ 91%]
+tests/test_migrations.py::test_t008_upgrade_preserves_users_and_sessions_and_content_rollback PASSED [ 93%]
+tests/test_permissions.py::test_admin_route_checks_current_db_role[user-403] PASSED [ 94%]
+tests/test_permissions.py::test_admin_route_checks_current_db_role[moderator-403] PASSED [ 95%]
+tests/test_permissions.py::test_admin_route_checks_current_db_role[admin-200] PASSED [ 96%]
+tests/test_permissions.py::test_role_header_and_login_extra_field_cannot_grant_admin PASSED [ 97%]
+tests/test_permissions.py::test_me_cannot_select_someone_else PASSED     [ 98%]
+tests/test_permissions.py::test_sessions_are_distinct_and_logout_only_revokes_current PASSED [100%]
+
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  E:\lamDoAn\ShieldVI_V3_Hybrid_Review\services\social-api\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 87 passed, 1 warning in 19.29s ========================
+
+EXIT_CODE=0

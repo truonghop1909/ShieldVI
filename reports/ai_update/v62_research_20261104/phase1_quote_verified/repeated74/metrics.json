@@ -1,0 +1,196 @@
+{
+  "comments": 74,
+  "classification": {
+    "before": {
+      "n": 74,
+      "tp": 17,
+      "fp": 3,
+      "tn": 53,
+      "fn": 1,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.85,
+      "toxic_recall": 0.9444444444444444,
+      "macro_f1": 0.9291866028708133,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "after": {
+      "n": 74,
+      "tp": 17,
+      "fp": 3,
+      "tn": 53,
+      "fn": 1,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.85,
+      "toxic_recall": 0.9444444444444444,
+      "macro_f1": 0.9291866028708133,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    }
+  },
+  "grounding": {
+    "before": {
+      "reference_comments_with_target_coverage": 74,
+      "reference_attacks": 16,
+      "target_emissions": 14,
+      "target_correct": 14,
+      "target_precision": 1.0,
+      "target_recall": 0.875,
+      "target_abstentions_on_reference_attacks": 2,
+      "repeated": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "evidence_correct": 8,
+        "evidence_total": 8,
+        "evidence_precision": 1.0
+      }
+    },
+    "after": {
+      "reference_comments_with_target_coverage": 74,
+      "reference_attacks": 16,
+      "target_emissions": 14,
+      "target_correct": 14,
+      "target_precision": 1.0,
+      "target_recall": 0.875,
+      "target_abstentions_on_reference_attacks": 2,
+      "repeated": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "evidence_correct": 8,
+        "evidence_total": 8,
+        "evidence_precision": 1.0
+      }
+    }
+  },
+  "new_label_errors": [],
+  "remaining_errors": [
+    {
+      "thread_id": "REP_FRESH_02",
+      "comment_id": "REP_FRESH_02_c02",
+      "text": "Cậu đúng là cục chì cả đội phải kéo theo suốt trận.",
+      "reference": "TOXIC",
+      "raw_score": 0.077888,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "REP_FRESH_03",
+      "comment_id": "REP_FRESH_03_c03",
+      "text": "Có chữ xin lỗi rồi mà bạn vẫn tiếp tục hạ thấp mình.",
+      "reference": "CLEAN",
+      "raw_score": 0.649624,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "REP_FRESH_06",
+      "comment_id": "REP_FRESH_06_c02",
+      "text": "Bạn đừng bảo người ta ngậm miệng đi, góp ý đoạn mic mất tín hiệu thôi.",
+      "reference": "CLEAN",
+      "raw_score": 0.42151,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "REP_FRESH_07",
+      "comment_id": "REP_FRESH_07_c04",
+      "text": "Hai người đều đang xúc phạm nhau, quay lại bảng màu đi.",
+      "reference": "CLEAN",
+      "raw_score": 0.58022,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "changed_comments": [],
+  "raw_invariant": true,
+  "human_gold": false,
+  "training_performed": false,
+  "before_processor": "v6.1",
+  "after_processor": "v6.2",
+  "reference_evidence": {
+    "before": {
+      "evidence_correct": 8,
+      "evidence_emitted": 8,
+      "evidence_reference": 12,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.6666666666666666,
+      "fully_covered_events": 4,
+      "expected_events": 6,
+      "missing_evidence": [
+        {
+          "pair": [
+            "REP_FRESH_02",
+            "Khoa",
+            "Vy"
+          ],
+          "missing": [
+            "REP_FRESH_02_c02",
+            "REP_FRESH_02_c05"
+          ]
+        },
+        {
+          "pair": [
+            "REP_FRESH_11",
+            "Tien",
+            "Phuong"
+          ],
+          "missing": [
+            "REP_FRESH_11_c01",
+            "REP_FRESH_11_c05"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "evidence_correct": 8,
+      "evidence_emitted": 8,
+      "evidence_reference": 12,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.6666666666666666,
+      "fully_covered_events": 4,
+      "expected_events": 6,
+      "missing_evidence": [
+        {
+          "pair": [
+            "REP_FRESH_02",
+            "Khoa",
+            "Vy"
+          ],
+          "missing": [
+            "REP_FRESH_02_c02",
+            "REP_FRESH_02_c05"
+          ]
+        },
+        {
+          "pair": [
+            "REP_FRESH_11",
+            "Tien",
+            "Phuong"
+          ],
+          "missing": [
+            "REP_FRESH_11_c01",
+            "REP_FRESH_11_c05"
+          ]
+        }
+      ]
+    }
+  }
+}

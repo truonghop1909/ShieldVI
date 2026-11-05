@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "mode": "local_opt_in_only",
+  "production_default_changed": false,
+  "existing_default": "v1_1",
+  "fallback": "v1",
+  "candidate_available": true,
+  "candidate_run_id": "T029_genz500_head_cpu_20261103_r03",
+  "models": {
+    "v1": {
+      "path": "C:\\Users\\admin\\Downloads\\visobert_toxic_final",
+      "role": "baseline",
+      "threshold": 0.41,
+      "approved_for_selection": true,
+      "sha256": {
+        "model.safetensors": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+        "config.json": "134e14833d4f7d34dc5969390fb4d33920236def2b935ce77bcbb0c3e5dc3502",
+        "threshold_config.json": "01d27073b2774620959cb04afe2815043daf5d86e3738b3f60080236ded59fe8",
+        "tokenizer_config.json": "a01b61bae21770afdb367d1987659cde76d8dd618e66e532df830b9ab84e0a64",
+        "tokenizer.json": "3aa4fb7e7c6bee975fbb1bd6252f99acd7957573580bbcac755bdc59a5e1e03c",
+        "sentencepiece.bpe.model": "02aaf05cda4db99e86b7c76eba6258867ce4d043da0fed19c87a7d46c8b53a65",
+        "special_tokens_map.json": "06e405a36dfe4b9604f484f6a1e619af1a7f7d09e34a8555eb0b77b66318067f"
+      },
+      "model_version": "original V1"
+    },
+    "v1_1": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+      "role": "active_existing",
+      "threshold": 0.41,
+      "approved_for_selection": true,
+      "sha256": {
+        "model.safetensors": "ed93c9badcdd198d42dddd7ea3744ea961475ed69f4b3baad8726d9e57b3bce1",
+        "config.json": "1f801a60d206052245b39647217e853a65774f567f697cc935f0f81c43f59e95",
+        "threshold_config.json": "c6eb56f345912e009bbedc2ece09df581aac0ccc3a72a3c930d705ee1c509fa9",
+        "tokenizer_config.json": "255791408a94cd4d4a7e37f5f796b0baf9a870220617cae250ba2c952270c564",
+        "tokenizer.json": "f8483eb97495576dc3da7d67f2ebd8b34f65eb7c36c12f5bd68841e648f277f2",
+        "special_tokens_map.json": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307"
+      },
+      "model_version": "ViSoBERT V1.1 — ViCTSD"
+    },
+    "v2_previous": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_v2_synthetic_experiment",
+      "role": "experimental",
+      "threshold": 0.41,
+      "approved_for_selection": false,
+      "sha256": {
+        "model.safetensors": "8ca3b1bc10c511d1ac84488148de824ad81237afcf48f7a3283fd77868c9904d",
+        "config.json": "1f801a60d206052245b39647217e853a65774f567f697cc935f0f81c43f59e95",
+        "threshold_config.json": "59352b68ca1fcccf16e8d1e0d6e1a135429dd74c4d07f63167094631c8d773d3",
+        "tokenizer_config.json": "d479c85c6bfc646c149a8ff9a96967a64106140d9109eff84bca7b2adb937637",
+        "tokenizer.json": "f8483eb97495576dc3da7d67f2ebd8b34f65eb7c36c12f5bd68841e648f277f2",
+        "special_tokens_map.json": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307"
+      },
+      "model_version": "ViSoBERT V2 - synthetic experiment"
+    },
+    "candidate_cpu": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\candidates\\T029_genz500_head_cpu_20261103_r03",
+      "role": "candidate",
+      "threshold": 0.41,
+      "approved_for_selection": false,
+      "sha256": {
+        "model.safetensors": "42b26e2a23cf09c38479dd053500faba07a26fdb5a99467ac642e3cf40637fa1",
+        "config.json": "1f801a60d206052245b39647217e853a65774f567f697cc935f0f81c43f59e95",
+        "threshold_config.json": "93e63241a7fc3c94c5a8f8f51ea3e0978f839cf901509cf865ca9fc38b89b2d7",
+        "tokenizer_config.json": "255791408a94cd4d4a7e37f5f796b0baf9a870220617cae250ba2c952270c564",
+        "tokenizer.json": "f8483eb97495576dc3da7d67f2ebd8b34f65eb7c36c12f5bd68841e648f277f2",
+        "special_tokens_map.json": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307"
+      },
+      "training_strategy": "frozen_encoder_head_cpu",
+      "full_encoder_finetune": false
+    }
+  },
+  "dataset_sha256": "dd31aae46052a2dfd05692fc88686e1d3b5f76dd8e941ac9851784f949e571e6",
+  "development_lock_sha256": "64924d4a2c975208bb1f3bc64dc821346c22480526b0cdd82e4208734066c274",
+  "threshold": 0.41,
+  "rule_sha256": {
+    "services\\moderation-ai\\app\\context_signals.py": "784cc1109b979f717ecf28ca4c0d53efd088dc892391dae99827ac8aaf580a71",
+    "services\\moderation-ai\\app\\context_assessment.py": "e1c3ae7de0b0b565fe57a881ff45fb897eefa009193bce6095e3ec434e4107be",
+    "services\\moderation-ai\\app\\signal_engine.py": "e31d7b2448168257ab672e485e0c7d677a563c91ca0a47b837ae3e715c010e6e",
+    "services\\moderation-ai\\app\\target_signals.py": "0f0a2ae6c9a08568c415744d34030736c591e9f08753aa28b65670bec3ecf227"
+  },
+  "git_commit": null,
+  "git_note": "Workspace has no git metadata; hashes identify this local snapshot",
+  "evaluation_status": "REVIEW_COMPLETE",
+  "training_report_sha256": "005f20b5139b3c16d95ba211a99b2a60eb6751807435dc32989bcedcf1753103",
+  "review_decision": "REJECT_PROMOTION_KEEP_EXISTING_DEFAULT",
+  "evaluation_sha256": "41795431b9d877814a4ebdc4239b0fc9b69223b77449f5060b0dd08d8fb446a7"
+}

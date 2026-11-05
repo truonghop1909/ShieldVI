@@ -1,0 +1,27 @@
+{
+  "scope": "Fresh10 synthetic development only",
+  "milestones": [
+    {
+      "stage": "IMPORTED_AND_PRIORITY_CAUSES_VERIFIED",
+      "detail": "Imported10input/10analysis JSONs and original two CSVs verbatim,200comments/195binary/5UNCERTAIN, synthetic_reference not human gold. Replayedv5 exactly: finalTP15/FP6/FN7/TN167,target5/22,repeated2/7. Test09c17 bare khong_co_nghia DEFENSE overrides rawTOXIC; Test10c14 ngò→ngo ATTACK, addressed replyU05. Baseline lockPASS. No code fix yet; proposed changes will be opt-in experiment, frozenv5/default unchanged."
+    },
+    {
+      "stage": "DEVELOPMENT_VALIDATED_AND_EXPERIMENT_FROZEN",
+      "detail": "Opt-inv6: Fresh10TP18/FP1/FN4/TN172,MacroF1.931861,target16/22,repeated6/7,P1/R.8571,evidence15/15precision and15/19coverage; Test03/Test08full evidence. New-label-errors0. Old890regression metrics/target/repeated exactly unchanged. Initial development regressions retained in development_v1, fixed generally before freeze. Nine reference-review notes preserve originallabels. v5/default/readiness unchanged; experiment now frozen before new holdout authoring."
+    },
+    {
+      "stage": "POSTFIX_HOLDOUT_EVALUATED",
+      "detail": "Six new AI-authored threads/48comments afterexperimentfreeze; one actualr06forwardcache, no post-score code changes. Metrics, misses, false alerts and evidence retained verbatim in postfix_holdout_metrics.json. Not human gold/independent real; default and readiness unchanged."
+    },
+    {
+      "stage": "REPORT_SCOPE_FIXED_AND_REFROZEN",
+      "detail": "Two red failures reproduced reporting/assignment bug. 28 targeted tests PASS after generic reporting-scope fix, endorsed/direct quoted attacks retained. Fresh195 remains TP18/FP1/FN4/TN172; old890 metrics unchanged, no new label errors. Original experiment lock/source/48comment first-holdout outputs preserved; first holdout now development, including its new FP. context/target/repeated-v6.1-research refrozen before another small challenge, default-v5/readiness unchanged."
+    },
+    {
+      "stage": "VALIDATED_HANDOFF",
+      "detail": "648 root tests PASS/0FAIL/1deprecation warning; 28 targeted tests included. Fresh10 TP15→18/FP6→1/FN7→4,Macro.830105→.931861,target5→16/22,repeated2→6/7,evidence15/15 correct and15/19 coverage. Old890 regression unchanged. Initial48comment challenge exposed new apology FP, preserved then converted to development; reporting fix now FP1/FN0 there. New post-v6.1-freeze24comment challenge TP5/FP1/FN1/TN17,Macro.888889,target5/6,repeated1/2,P1/R.5,evidence2/2correct, no post-score changes. One metaphor miss and one raw-score FP remain; not human gold/independent real. Readiness1311filesPASS, no model/default/train/deploy. Opt-in research code only; live v5 still unchanged. T028/T029formalBLOCKED,T030–T033PARTIAL. Report docs/ai-update/final-report/FRESH10_RECOVERY.md; new exclusion extension pending a future lock revision."
+    }
+  ],
+  "training_performed": false,
+  "current": "VALIDATED_HANDOFF"
+}

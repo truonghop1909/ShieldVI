@@ -1,0 +1,17 @@
+CWD=E:\lamDoAn\ShieldVI_V3_Hybrid_Review\apps\social-web
+COMMAND=npm.cmd run build
+
+> shieldvi-social-web@0.1.0 build
+> vite build --configLoader runner
+
+vite v6.4.5 building for production...
+transforming...
+✓ 1581 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.60 kB │ gzip:  0.40 kB
+dist/assets/index-DaKKAwwC.css   20.51 kB │ gzip:  5.37 kB
+dist/assets/index-Bvtyw220.js   183.38 kB │ gzip: 58.14 kB
+✓ built in 2.01s
+
+EXIT_CODE=0

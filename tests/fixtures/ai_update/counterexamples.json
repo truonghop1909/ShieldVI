@@ -1,0 +1,191 @@
+{
+  "source_type": "synthetic",
+  "label_origin": "developer_provisional",
+  "training_eligible": false,
+  "cases": [
+    {
+      "case_id": "counter_01",
+      "text": "Mình xin lỗi vì đã gọi bạn ngu. Mình sai rồi.",
+      "expected_context": [
+        "APOLOGY"
+      ],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_02",
+      "text": "Xin lỗi nhưng mày vẫn ngu.",
+      "expected_context": [
+        "APOLOGY",
+        "DIRECT_ATTACK"
+      ],
+      "expected_attack": true,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_03",
+      "text": "Đừng gọi bạn ấy là “đồ ngu”. Góp ý đàng hoàng.",
+      "expected_context": [
+        "QUOTE",
+        "INTERVENTION"
+      ],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_04",
+      "text": "Bạn bảo tôi “ngu”, nhưng chính mày mới ngu.",
+      "expected_context": [
+        "QUOTE",
+        "DIRECT_ATTACK"
+      ],
+      "expected_attack": true,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_05",
+      "text": "Trong game NPC đứng cạnh cửa.",
+      "expected_context": [],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_06",
+      "text": "Bạn đúng là một NPC vô dụng.",
+      "expected_context": [
+        "DIRECT_ATTACK"
+      ],
+      "expected_attack": true,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_07",
+      "text": "Mình thích màu xanh hơn.",
+      "expected_context": [],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_08",
+      "text": "@U02 @U03 hai bạn xem lịch giúp mình.",
+      "expected_context": [],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_09",
+      "text": "Bạn đừng xúc phạm mình nữa.",
+      "expected_context": [
+        "SET_BOUNDARY"
+      ],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_10",
+      "text": "Dừng chửi bạn ấy đi, góp ý vào bài thôi.",
+      "expected_context": [
+        "INTERVENTION"
+      ],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_11",
+      "text": "Đm máy hết pin rồi.",
+      "expected_context": [
+        "PROFANITY_NON_DIRECTED"
+      ],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_12",
+      "text": "f*ck you, đừng làm phiền tao nữa.",
+      "expected_context": [
+        "DIRECT_ATTACK"
+      ],
+      "expected_attack": true,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_13",
+      "text": "Xin lỗi không có nghĩa là bạn được tiếp tục chửi tôi.",
+      "expected_context": [
+        "DEFENSE"
+      ],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_14",
+      "text": "Từ “l0ser” trong tin nhắn là ví dụ về lời xúc phạm.",
+      "expected_context": [
+        "QUOTE"
+      ],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_15",
+      "text": "Xin lỗi vì nói nặng. Nhưng mày đúng là đồ ngu.",
+      "expected_context": [
+        "APOLOGY",
+        "DIRECT_ATTACK"
+      ],
+      "expected_attack": true,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_16",
+      "text": "Bạn U03 đúng là đồ ngu.",
+      "expected_context": [
+        "DIRECT_ATTACK"
+      ],
+      "expected_attack": true,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_17",
+      "text": "Bạn U03 giúp mình đổi màu chữ nhé.",
+      "expected_context": [],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_18",
+      "text": "Mình bị nhắn “tao sẽ đánh mày”, nên mình báo quản trị.",
+      "expected_context": [
+        "QUOTE",
+        "DEFENSE"
+      ],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_19",
+      "text": "Tao sẽ đánh mày nếu còn đăng bài.",
+      "expected_context": [
+        "DIRECT_ATTACK"
+      ],
+      "expected_attack": true,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_20",
+      "text": "Cảm ơn vì xin lỗi, mình vẫn buồn vì lời đó.",
+      "expected_context": [
+        "DEFENSE"
+      ],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    },
+    {
+      "case_id": "counter_21",
+      "text": "Bạn không ngu đâu, chỉ cần luyện thêm.",
+      "expected_context": [],
+      "expected_attack": false,
+      "review_status": "NEEDS_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{"thread_id": "T041_SMOKE_003", "text": "Mẻ bánh yến mạch hôm nay dùng ít mật ong hơn để bà ngoại ăn thử.", "label": 0, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}
+{"thread_id": "T041_SMOKE_003", "text": "Mày đúng là đồ ngu, cân nguyên liệu ba lần vẫn sai.", "label": 1, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}
+{"thread_id": "T041_SMOKE_004", "text": "Đoạn đường qua vườn ổi có bóng mát nên đoàn mình sẽ nghỉ chân ở đó.", "label": 0, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}
+{"thread_id": "T041_SMOKE_004", "text": "Thằng ngu như mày chỉ giỏi làm cả đoàn chờ dưới nắng.", "label": 1, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}
+{"thread_id": "T041_SMOKE_005", "text": "Nhánh thử nghiệm đã có phần ghi log để nhóm tìm lỗi khi đồng bộ lịch.", "label": 0, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}
+{"thread_id": "T041_SMOKE_005", "text": "Mày là đồ ngu, viết có cái hàm nhỏ cũng làm hỏng dự án.", "label": 1, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}
+{"thread_id": "T041_SMOKE_016", "text": "Bộ ảnh chợ sớm sẽ được in cỡ nhỏ để thử cân bằng màu trên giấy nhám.", "label": 0, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}
+{"thread_id": "T041_SMOKE_016", "text": "Mày chụp như cứt mà vẫn tưởng mình là nghệ sĩ tài giỏi.", "label": 1, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}
+{"thread_id": "T041_SMOKE_017", "text": "Mình đã thay miếng lót ở phím cách và ghi lại tiếng gõ trước lúc ráp vỏ.", "label": 0, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}
+{"thread_id": "T041_SMOKE_017", "text": "Cái thứ ngu ngốc như mày chỉ biết khoe đồ mà chẳng hiểu gì.", "label": 1, "label_origin": "AI_synthetic_user_accepted", "sample_weight": 1.0}

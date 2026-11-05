@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "T020": "DONE",
+  "other_task_files_unchanged": true,
+  "report_links_valid": true,
+  "raw_fixture_snapshots": 10,
+  "comments_per_model": 150,
+  "T021_started": false
+}

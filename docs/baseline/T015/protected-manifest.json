@@ -1,0 +1,210 @@
+[
+  {
+    "path": "models/MODEL_REFINEMENT_REPORT.md",
+    "sha256": "1137ef8e9b55cff3ea327ab317f8d5835a168e311ceb3884808911883869342a"
+  },
+  {
+    "path": "models/README.md",
+    "sha256": "1baff244282db91c8d0f5bd38a8455220f1fa40e274c690a081df274c4ea724e"
+  },
+  {
+    "path": "models/visobert_head_refined/config.json",
+    "sha256": "1f801a60d206052245b39647217e853a65774f567f697cc935f0f81c43f59e95"
+  },
+  {
+    "path": "models/visobert_head_refined/initial_ce_report.json",
+    "sha256": "7cd6f2412d0387a8a98e8aa670832b15458e413550b28bbd0a9b571ccc6275cf"
+  },
+  {
+    "path": "models/visobert_head_refined/j97_baseline_diagnostic.json",
+    "sha256": "dcb6e6ea3f889d512a0861b61e60c4f867de5ed29e63452d9867a39c30ba7678"
+  },
+  {
+    "path": "models/visobert_head_refined/j97_refined_api_diagnostic.json",
+    "sha256": "8aeac5753ea6b400f2320306da2e5fc080adc0def3f7b1d6024a395532785c46"
+  },
+  {
+    "path": "models/visobert_head_refined/last_block_report.json",
+    "sha256": "cffc6666d4de07aed85b146210c4ca8e75902fe6b0f179e9edf889a382b7390e"
+  },
+  {
+    "path": "models/visobert_head_refined/model.safetensors",
+    "sha256": "ed93c9badcdd198d42dddd7ea3744ea961475ed69f4b3baad8726d9e57b3bce1"
+  },
+  {
+    "path": "models/visobert_head_refined/refinement_report.json",
+    "sha256": "6424b2fd37040e8e01f921f9affd4708b9f48192986e25647c88b5cfba6873c0"
+  },
+  {
+    "path": "models/visobert_head_refined/regularized_head_report.json",
+    "sha256": "4ba10637e294bc566542324d3925aaec4deb958eac96e0cdecff78b057bb8b11"
+  },
+  {
+    "path": "models/visobert_head_refined/special_tokens_map.json",
+    "sha256": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307"
+  },
+  {
+    "path": "models/visobert_head_refined/test_predictions.csv",
+    "sha256": "6be22ff1ffd387dcd0df4f52bcaef5ff7018717123c4b9d77ac92654d8137001"
+  },
+  {
+    "path": "models/visobert_head_refined/threshold_config.json",
+    "sha256": "c6eb56f345912e009bbedc2ece09df581aac0ccc3a72a3c930d705ee1c509fa9"
+  },
+  {
+    "path": "models/visobert_head_refined/tokenizer.json",
+    "sha256": "f8483eb97495576dc3da7d67f2ebd8b34f65eb7c36c12f5bd68841e648f277f2"
+  },
+  {
+    "path": "models/visobert_head_refined/tokenizer_config.json",
+    "sha256": "255791408a94cd4d4a7e37f5f796b0baf9a870220617cae250ba2c952270c564"
+  },
+  {
+    "path": "datasets/manifest.json",
+    "sha256": "7ec29eee8582f09efcd2367ed5ba53ed44be7878f131619e060e6006f20209f9"
+  },
+  {
+    "path": "datasets/README.md",
+    "sha256": "bfce4944122a7a70c8e2a66da81b804caa6d8993264c46c35b7ed00870e848cb"
+  },
+  {
+    "path": "datasets/training_plan.json",
+    "sha256": "6a0b870556e44cd587501d930bac7066fb5147adcc21dc78b62d32e38dd53d0d"
+  },
+  {
+    "path": "datasets/prepared/victsd_test.csv",
+    "sha256": "18abc0ff5c0442d71d6acc1aa059f0c53ec324f4ab9465bad2667a18f3ecb707"
+  },
+  {
+    "path": "datasets/prepared/victsd_train.csv",
+    "sha256": "fb3f968a0746b1ae348acad132e2f23984725dd9a8685852b1f0c3050f64564b"
+  },
+  {
+    "path": "datasets/prepared/victsd_train.jsonl",
+    "sha256": "2a5f8716ed63b9c6d19a49b1d4fcdf273be31eb84cbd42be35b81a4bb04c1c27"
+  },
+  {
+    "path": "datasets/prepared/victsd_validation.csv",
+    "sha256": "82a539b75449218b2642cce9b615bd11316531c7af249ca0d93239a328240244"
+  },
+  {
+    "path": "datasets/prepared/vihos_train.jsonl",
+    "sha256": "3fa22c287332929e0b0ee4b93460759e6c74d0434fafbbeaf0294b9067bc556c"
+  },
+  {
+    "path": "datasets/prepared/vilexnorm_train.jsonl",
+    "sha256": "47ee5b7eb65552aeb131747064d26e2cba5dba9c9da058a62bfcff6cf1246674"
+  },
+  {
+    "path": "datasets/raw/catalog.json",
+    "sha256": "5c1d097c872c2d3371c0c33539613806e2541502a937777b6d6dad9c92c02cc8"
+  },
+  {
+    "path": "datasets/review/import_rejections.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "datasets/review/mxh_style_challenge.json",
+    "sha256": "e0086a9601c361bdeaf65663d2be8d1379fd4e948f16eb41a53140208fb92bd0"
+  },
+  {
+    "path": "datasets/review/teencode_normalization_candidates.jsonl",
+    "sha256": "d108044220fe7e0c7ac252ef53aceddf69a97272e93d3bde52e6c1c2c6ff6d03"
+  },
+  {
+    "path": "datasets/processed/victsd/test.jsonl",
+    "sha256": "dc875e2dc243a83ba96af5c4770ae4ba1233288d3137273ebf3ba11b049f47c9"
+  },
+  {
+    "path": "datasets/processed/victsd/train.jsonl",
+    "sha256": "b738fc694683e3305d44dbd34e14872e81c26a4509ae7526b094b3d4a2f168b3"
+  },
+  {
+    "path": "datasets/processed/victsd/validation.jsonl",
+    "sha256": "bde36b2f535b953006b17186fbdc743907e36cbdddaaace290031fbf24f2949f"
+  },
+  {
+    "path": "datasets/processed/vihos/test.jsonl",
+    "sha256": "e1de94576eaa0fd319406fb3118cdf174d7418a8332ec13dbbaa20acc5263100"
+  },
+  {
+    "path": "datasets/processed/vihos/train.jsonl",
+    "sha256": "54ef2f44cb11285b87720d961598243694e4128c7afe2243c500c0854dba1ecc"
+  },
+  {
+    "path": "datasets/processed/vihos/validation.jsonl",
+    "sha256": "1304d3627dd43ca901e805808d6c718c11a84796463c2b864fd98fb0da44d174"
+  },
+  {
+    "path": "datasets/processed/vilexnorm/test.jsonl",
+    "sha256": "52aeca8b790153066bd399507fff3de1e2a06eb141e6b72e6a98494099526c8d"
+  },
+  {
+    "path": "datasets/processed/vilexnorm/train.jsonl",
+    "sha256": "b69c4a0b06333daf71987005115a472a8b4c2d32b23a4884861a75646c7b0d4c"
+  },
+  {
+    "path": "datasets/processed/vilexnorm/validation.jsonl",
+    "sha256": "6bf233eea1089df20088fc0313561abd56c74e5c074db772d7079683cac008d9"
+  },
+  {
+    "path": "datasets/raw/victsd/ViCTSD_test.csv",
+    "sha256": "e341013ca7441a5f2621b9347bd933f4d920d080b9931136ee8827d0ac0b2672"
+  },
+  {
+    "path": "datasets/raw/victsd/ViCTSD_train.csv",
+    "sha256": "a3e73479120738fb7965b01e23d5737c25c2cde909d7c3b5a6faf52d13a3b3f2"
+  },
+  {
+    "path": "datasets/raw/victsd/ViCTSD_valid.csv",
+    "sha256": "e3950ee6a16375d566f58d3fc1206dab76fc8e41e340bb580ca0ae2e5ea61f83"
+  },
+  {
+    "path": "datasets/raw/vihos/data__README.md",
+    "sha256": "31573e10b4098ae592615aeb83911e2d15cfe10d8032923bbe47f2ce94df5557"
+  },
+  {
+    "path": "datasets/raw/vihos/data__Span_Extraction_based_version__dev.csv",
+    "sha256": "cbc682a6fd6750de2fc79e211b07a4be63ac355110a35bd2f1a8922239534712"
+  },
+  {
+    "path": "datasets/raw/vihos/data__Span_Extraction_based_version__train.csv",
+    "sha256": "b225cf257b5ce7c77e275ba900ffc6fee490ae0a1936afc98e250040e418adac"
+  },
+  {
+    "path": "datasets/raw/vihos/data__Test_data__test.csv",
+    "sha256": "0c8d09f1e9d649ac206619a717610e805001c4e74d13325f16b931ddd43c3cd8"
+  },
+  {
+    "path": "datasets/raw/vihos/LICENSE",
+    "sha256": "67c7e50c26cad4234671da533c09513dd4e151d62db71fb42254985517fe7eba"
+  },
+  {
+    "path": "datasets/raw/vihos/README.md",
+    "sha256": "c4ffa9e8b737849ac608f4dd7f53cf32555974f90ba75e221e332c5f8e2b6294"
+  },
+  {
+    "path": "datasets/raw/vilexnorm/data__dev.csv",
+    "sha256": "c19c8334b903852ae0c549116a518ca8430a39b3042b6292a32b664dedd020d2"
+  },
+  {
+    "path": "datasets/raw/vilexnorm/data__test.csv",
+    "sha256": "a631e9a346e9de6144d87e6388b3a037830b63adf176d2ade187381f07df85bb"
+  },
+  {
+    "path": "datasets/raw/vilexnorm/data__train.csv",
+    "sha256": "616757088b9103d6f39ea2f790e9469bde5c39f13cfcf0f676aaf840916fc8b1"
+  },
+  {
+    "path": "datasets/raw/vilexnorm/README.md",
+    "sha256": "2080dd1180d680b7e652402947cae0da1f8c1c60b16c0024b5c36b3735590036"
+  },
+  {
+    "path": "shieldvi_reviews.sqlite3",
+    "sha256": "e6ddbf88e91b3b435cd81db300189ecc9c4f93442d0f432c8fbcf1815616026e"
+  },
+  {
+    "path": "services/social-api/data/social.sqlite3",
+    "sha256": "c3546c491b527c9216f44d5bbabac113011dda5c629e2a728d643fecaa0fdcb2"
+  }
+]

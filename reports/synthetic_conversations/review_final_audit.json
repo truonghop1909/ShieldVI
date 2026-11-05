@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "tests": "327 passed, 1 warning",
+  "new_synthetic_review_tests": 12,
+  "chrome": "PASS on temporary copy; synthetic and real blind modes",
+  "protected_files_unchanged": 31,
+  "synthetic_source_threads_unchanged": 200,
+  "original_synthetic_csv_checksums_unchanged": true,
+  "production_test_annotations_created": 0,
+  "real_dataset_unchanged": true,
+  "server_url": "http://127.0.0.1:8011",
+  "server_pid": 16664,
+  "live_counts": {
+    "threads": 200,
+    "comments": 2048,
+    "labeled": 0,
+    "drafts": 0
+  },
+  "source_json_csv_writes_by_reviewer": false,
+  "training_performed": false,
+  "checkpoint_or_threshold_changed": false,
+  "database": "datasets/synthetic_conversations/human_review/annotations/reviews.sqlite3",
+  "files_changed": [
+    "scripts/real_dataset/store.py",
+    "scripts/real_dataset/review_app.py",
+    "scripts/real_dataset/review_ui/index.html",
+    "scripts/real_dataset/review_ui/app.js",
+    "scripts/real_dataset/review_ui/style.css",
+    "scripts/synthetic_data/review_store.py",
+    "scripts/synthetic_data/review_app.py",
+    "scripts/review_synthetic_dataset.py",
+    "tests/test_synthetic_review.py",
+    ".gitignore",
+    "datasets/synthetic_conversations/README.md",
+    "tasks/AUTO_PROGRESS.md"
+  ]
+}

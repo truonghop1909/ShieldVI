@@ -1,0 +1,17 @@
+{
+  "attempts": [
+    {
+      "exit_code": 1,
+      "stage": "route_inventory",
+      "reason": "Installed FastAPI exposes lazy _IncludedRouter without .path",
+      "resolution": "Audit helper now records API routes from OpenAPI; no runtime code changed."
+    },
+    {
+      "exit_code": 0,
+      "stage": "complete_audit",
+      "result_file": "result.json",
+      "tests_before": "170 passed, 1 warning",
+      "tests_after": "170 passed, 1 warning"
+    }
+  ]
+}

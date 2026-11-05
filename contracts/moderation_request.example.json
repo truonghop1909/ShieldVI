@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "request_id": "req-example-001",
+  "content_id": "cmt-example-123",
+  "content_type": "comment",
+  "content_revision": 1,
+  "user_id": "user-opaque-1",
+  "text": "Mày đúng là đồ ngu.",
+  "timestamp": "2026-10-30T01:00:00Z",
+  "parent_id": null,
+  "mentioned_user_ids": [],
+  "context": {
+    "post_id": "post-example-9",
+    "source": "social-api",
+    "complete": false,
+    "recent_comments": []
+  },
+  "language_hint": "vi"
+}

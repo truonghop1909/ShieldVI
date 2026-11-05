@@ -1,0 +1,46 @@
+{
+  "blue_eyes_vi": {
+    "repository": "https://github.com/blue-eyes-vn/vietnamese-offensive-words",
+    "revision": "684b568e4d54ce47b743d7c564447e29a02cc260",
+    "files": {
+      "vn_offensive_words.txt": {
+        "url": "https://raw.githubusercontent.com/blue-eyes-vn/vietnamese-offensive-words/684b568e4d54ce47b743d7c564447e29a02cc260/vn_offensive_words.txt",
+        "local_file": "blue_eyes_vi_vn_offensive_words.txt"
+      },
+      "LICENSE.md": {
+        "url": "https://raw.githubusercontent.com/blue-eyes-vn/vietnamese-offensive-words/684b568e4d54ce47b743d7c564447e29a02cc260/LICENSE.md",
+        "local_file": "blue_eyes_vi_LICENSE.md"
+      },
+      "README.md": {
+        "url": "https://raw.githubusercontent.com/blue-eyes-vn/vietnamese-offensive-words/684b568e4d54ce47b743d7c564447e29a02cc260/README.md",
+        "local_file": "blue_eyes_vi_README.md"
+      }
+    }
+  },
+  "ldnoobw_v2": {
+    "repository": "https://github.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2",
+    "revision": "e2f7430cde6fcc755eca7243d5cf46fc0766ff29",
+    "files": {
+      "data/vi.txt": {
+        "url": "https://raw.githubusercontent.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2/e2f7430cde6fcc755eca7243d5cf46fc0766ff29/data/vi.txt",
+        "local_file": "ldnoobw_v2_data_vi.txt"
+      },
+      "data/en.txt": {
+        "url": "https://raw.githubusercontent.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2/e2f7430cde6fcc755eca7243d5cf46fc0766ff29/data/en.txt",
+        "local_file": "ldnoobw_v2_data_en.txt"
+      },
+      "LICENSE": {
+        "url": "https://raw.githubusercontent.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2/e2f7430cde6fcc755eca7243d5cf46fc0766ff29/LICENSE",
+        "local_file": "ldnoobw_v2_LICENSE"
+      },
+      "README.md": {
+        "url": "https://raw.githubusercontent.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2/e2f7430cde6fcc755eca7243d5cf46fc0766ff29/README.md",
+        "local_file": "ldnoobw_v2_README.md"
+      },
+      "SOURCES.md": {
+        "url": "https://raw.githubusercontent.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2/e2f7430cde6fcc755eca7243d5cf46fc0766ff29/SOURCES.md",
+        "local_file": "ldnoobw_v2_SOURCES.md"
+      }
+    }
+  }
+}

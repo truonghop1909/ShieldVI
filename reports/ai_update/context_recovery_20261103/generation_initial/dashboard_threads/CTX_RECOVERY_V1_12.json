@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_12",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C01",
+      "user_id": "CTX_RECOVERY_V1_12_U02",
+      "parent_id": null,
+      "text": "Tui đang ở quán, A đến đâu rồi?",
+      "timestamp": "2025-01-13T12:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C02",
+      "user_id": "CTX_RECOVERY_V1_12_U01",
+      "parent_id": "CTX_RECOVERY_V1_12_C01",
+      "text": "Sorry nha, t tới muộn vì đi nhầm cổng.",
+      "timestamp": "2025-01-13T12:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C03",
+      "user_id": "CTX_RECOVERY_V1_12_U03",
+      "parent_id": null,
+      "text": "Quán có hai cửa thật đó.",
+      "timestamp": "2025-01-13T12:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C04",
+      "user_id": "CTX_RECOVERY_V1_12_U01",
+      "parent_id": "CTX_RECOVERY_V1_12_C02",
+      "text": "Tui nhận lỗi vì không báo sớm, để mọi người chờ.",
+      "timestamp": "2025-01-13T12:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C05",
+      "user_id": "CTX_RECOVERY_V1_12_U02",
+      "parent_id": "CTX_RECOVERY_V1_12_C04",
+      "text": "Mình hơi hụt hẫng khi chờ, nhưng cảm ơn bạn đã nói rõ.",
+      "timestamp": "2025-01-13T12:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C06",
+      "user_id": "CTX_RECOVERY_V1_12_U03",
+      "parent_id": null,
+      "text": "Gọi phần của tụi mình trước nhé.",
+      "timestamp": "2025-01-13T12:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C07",
+      "user_id": "CTX_RECOVERY_V1_12_U01",
+      "parent_id": "CTX_RECOVERY_V1_12_C05",
+      "text": "Được, tui sẽ tự gọi khi tới nơi.",
+      "timestamp": "2025-01-13T12:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C08",
+      "user_id": "CTX_RECOVERY_V1_12_U02",
+      "parent_id": null,
+      "text": "Lần sau nhắn ngay khi biết trễ giúp mình.",
+      "timestamp": "2025-01-13T12:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C09",
+      "user_id": "CTX_RECOVERY_V1_12_U01",
+      "parent_id": null,
+      "text": "Tui đã lưu đúng cửa trên bản đồ.",
+      "timestamp": "2025-01-13T12:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_12_C10",
+      "user_id": "CTX_RECOVERY_V1_12_U03",
+      "parent_id": null,
+      "text": "Bàn tụi mình ở cạnh cửa sổ tầng một.",
+      "timestamp": "2025-01-13T12:07:18Z"
+    }
+  ]
+}

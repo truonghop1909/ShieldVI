@@ -1,0 +1,16 @@
+{
+  "real_model_inference": true,
+  "device": "cpu",
+  "model": "ViSoBERT V1 — ViCTSD",
+  "threshold": 0.41,
+  "registry": {
+    "requested": "v1",
+    "selected": "v1",
+    "shadow": false,
+    "fallback_used": false,
+    "failure_type": null,
+    "production_changed": false
+  },
+  "existing_default_unchanged": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+  "optimizer_steps": 0
+}

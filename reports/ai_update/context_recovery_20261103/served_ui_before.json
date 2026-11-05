@@ -1,0 +1,12 @@
+{
+  "served_assets_before": [
+    {
+      "file": "index-B6t7Eu4q.js",
+      "uses_v2": false,
+      "uses_legacy": true,
+      "has_context_assessment": false,
+      "has_context_tags": false
+    }
+  ],
+  "source_uses_v2": true
+}

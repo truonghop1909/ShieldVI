@@ -1,0 +1,20 @@
+{
+  "run_id": "T029_synthetic_only_head_cpu_20261103_r06",
+  "config_sha256": "bc589aea4f4ebd8a90021c9baa527a334406305eca14f3af6df5d1318e0fe09a",
+  "dataset_manifest_sha256": "c634273c71b858b56f5850eb280843c1b179be1f487f954c014e997f12b51652",
+  "split_manifest_sha256": "d7bc61d067373a3affa2aca9d0aaa5b50a971ad3177d9b13ea1d3200da8f7b62",
+  "prepared_manifest_sha256": "ebdc7abc36220e144e9a66ad6091d82c28903641a86b1e6b9db7b77d5d779aa8",
+  "training_implementation_sha256": "7f73dbd573f1e6170f1b7a550f01f14035e74ba2748a32850c00846dbe2823d4",
+  "baseline_path": "C:\\Users\\admin\\Downloads\\visobert_toxic_final",
+  "baseline_sha256": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "r05_path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\candidates\\T029_genz500_head_cpu_20261103_r05",
+  "selection": "Best synthetic-validation macroF1 only; no model selection on challenge. Historical ViCTSD test not read or scored.",
+  "max_candidate_runs": 1,
+  "challenge_scored_after_selection_only": true,
+  "new_real_training_used": false,
+  "independent_evaluation": false,
+  "r05_model_training_overlap_with_holdouts_must_be_checked": true,
+  "promotion_allowed": false,
+  "T028_real": "BLOCKED",
+  "formal_T029_T030_real_acceptance": "BLOCKED"
+}

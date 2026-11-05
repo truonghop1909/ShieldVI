@@ -1,0 +1,99 @@
+{
+  "$defs": {
+    "ContextComment": {
+      "additionalProperties": false,
+      "properties": {
+        "comment_id": {
+          "maxLength": 120,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9:_-]+$",
+          "title": "Comment Id",
+          "type": "string"
+        },
+        "user_id": {
+          "maxLength": 120,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9:_-]+$",
+          "title": "User Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 8000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "timestamp": {
+          "format": "date-time",
+          "title": "Timestamp",
+          "type": "string"
+        },
+        "parent_id": {
+          "anyOf": [
+            {
+              "maxLength": 120,
+              "minLength": 1,
+              "pattern": "^[A-Za-z0-9:_-]+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parent Id"
+        },
+        "mentioned_user_ids": {
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "type": "string"
+          },
+          "maxItems": 5,
+          "title": "Mentioned User Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "comment_id",
+        "user_id",
+        "text",
+        "timestamp"
+      ],
+      "title": "ContextComment",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "thread_id": {
+      "maxLength": 120,
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9:_-]+$",
+      "title": "Thread Id",
+      "type": "string"
+    },
+    "profile": {
+      "const": "conservative",
+      "default": "conservative",
+      "title": "Profile",
+      "type": "string"
+    },
+    "comments": {
+      "items": {
+        "$ref": "#/$defs/ContextComment"
+      },
+      "maxItems": 50,
+      "minItems": 1,
+      "title": "Comments",
+      "type": "array"
+    }
+  },
+  "required": [
+    "thread_id",
+    "comments"
+  ],
+  "title": "QuickConversation",
+  "type": "object"
+}

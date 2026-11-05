@@ -1,0 +1,218 @@
+{
+  "captured_at": "2026-11-02T14:37:47.083895+07:00",
+  "client_date": "2026-11-02",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\.venv\\Scripts\\python.exe",
+  "versions": {
+    "transformers": "4.57.3",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "0.36.2",
+    "fastapi": "0.162.0",
+    "torch": "2.15.0",
+    "pydantic": "2.14.1",
+    "pytest": "9.2.0",
+    "httpx": "0.28.1",
+    "uvicorn": "0.54.0",
+    "safetensors": "0.8.0",
+    "starlette": "1.10.0"
+  },
+  "git": {
+    "status": {
+      "exit_code": 128,
+      "output": "fatal: not a git repository (or any of the parent directories): .git"
+    },
+    "branch": {
+      "exit_code": 128,
+      "output": "fatal: not a git repository (or any of the parent directories): .git"
+    },
+    "commit": {
+      "exit_code": 128,
+      "output": "fatal: not a git repository (or any of the parent directories): .git"
+    }
+  },
+  "canonical_imports": {
+    "app.main": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\main.py",
+    "app.engine": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\engine.py",
+    "app.predictor": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\predictor.py",
+    "app.lexical": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\lexical.py",
+    "app.schemas": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\schemas.py",
+    "app.moderation_adapter": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\moderation_adapter.py",
+    "app.moderation_contract": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\moderation_contract.py"
+  },
+  "default_checkpoint": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+  "MODEL_PATH_override_present": false,
+  "checkpoint_configs": {
+    "V1": {
+      "path": "C:\\Users\\admin\\Downloads\\visobert_toxic_final",
+      "weights_available": true,
+      "config.json": {
+        "architectures": [
+          "XLMRobertaForSequenceClassification"
+        ],
+        "attention_probs_dropout_prob": 0.1,
+        "bos_token_id": 0,
+        "classifier_dropout": null,
+        "dtype": "float32",
+        "eos_token_id": 2,
+        "hidden_act": "gelu",
+        "hidden_dropout_prob": 0.1,
+        "hidden_size": 768,
+        "id2label": {
+          "0": "CLEAN",
+          "1": "TOXIC"
+        },
+        "initializer_range": 0.02,
+        "intermediate_size": 3072,
+        "label2id": {
+          "CLEAN": 0,
+          "TOXIC": 1
+        },
+        "layer_norm_eps": 1e-12,
+        "max_position_embeddings": 514,
+        "model_type": "xlm-roberta",
+        "num_attention_heads": 12,
+        "num_hidden_layers": 12,
+        "pad_token_id": 1,
+        "position_embedding_type": "absolute",
+        "problem_type": "single_label_classification",
+        "transformers_version": "4.57.3",
+        "type_vocab_size": 2,
+        "use_cache": true,
+        "vocab_size": 15004
+      },
+      "threshold_config.json": {
+        "threshold": 0.41,
+        "model": "uitnlp/visobert",
+        "selection_metric": "validation_macro_f1",
+        "label_mapping": {
+          "0": "CLEAN",
+          "1": "TOXIC"
+        }
+      }
+    },
+    "configured_default": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+      "weights_available": true,
+      "config.json": {
+        "architectures": [
+          "XLMRobertaForSequenceClassification"
+        ],
+        "attention_probs_dropout_prob": 0.1,
+        "bos_token_id": 0,
+        "classifier_dropout": null,
+        "dtype": "float32",
+        "eos_token_id": 2,
+        "hidden_act": "gelu",
+        "hidden_dropout_prob": 0.1,
+        "hidden_size": 768,
+        "id2label": {
+          "0": "CLEAN",
+          "1": "TOXIC"
+        },
+        "initializer_range": 0.02,
+        "intermediate_size": 3072,
+        "label2id": {
+          "CLEAN": 0,
+          "TOXIC": 1
+        },
+        "layer_norm_eps": 1e-12,
+        "max_position_embeddings": 514,
+        "model_type": "xlm-roberta",
+        "num_attention_heads": 12,
+        "num_hidden_layers": 12,
+        "pad_token_id": 1,
+        "position_embedding_type": "absolute",
+        "problem_type": "single_label_classification",
+        "transformers_version": "4.57.3",
+        "type_vocab_size": 2,
+        "use_cache": true,
+        "vocab_size": 15004
+      },
+      "threshold_config.json": {
+        "threshold": 0.41,
+        "model_version": "ViSoBERT V1.1 — ViCTSD",
+        "selected_on": "ViCTSD validation",
+        "source_checkpoint": "C:\\Users\\admin\\Downloads\\visobert_toxic_final",
+        "approval_status": "approved",
+        "report": "refinement_report.json"
+      }
+    },
+    "existing_experimental_not_selected": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_v2_synthetic_experiment",
+      "weights_available": true,
+      "config.json": {
+        "architectures": [
+          "XLMRobertaForSequenceClassification"
+        ],
+        "attention_probs_dropout_prob": 0.1,
+        "bos_token_id": 0,
+        "classifier_dropout": null,
+        "dtype": "float32",
+        "eos_token_id": 2,
+        "hidden_act": "gelu",
+        "hidden_dropout_prob": 0.1,
+        "hidden_size": 768,
+        "id2label": {
+          "0": "CLEAN",
+          "1": "TOXIC"
+        },
+        "initializer_range": 0.02,
+        "intermediate_size": 3072,
+        "label2id": {
+          "CLEAN": 0,
+          "TOXIC": 1
+        },
+        "layer_norm_eps": 1e-12,
+        "max_position_embeddings": 514,
+        "model_type": "xlm-roberta",
+        "num_attention_heads": 12,
+        "num_hidden_layers": 12,
+        "pad_token_id": 1,
+        "position_embedding_type": "absolute",
+        "problem_type": "single_label_classification",
+        "transformers_version": "4.57.3",
+        "type_vocab_size": 2,
+        "use_cache": true,
+        "vocab_size": 15004
+      },
+      "threshold_config.json": {
+        "threshold": 0.41,
+        "model_version": "ViSoBERT V2 - synthetic experiment",
+        "approval_status": "experimental_not_approved",
+        "report": "experiment_report.json",
+        "source_checkpoint": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+        "selected_on": "ViCTSD validation; AI synthetic training labels"
+      }
+    }
+  },
+  "live_port_8000": {
+    "health": {
+      "status": "NOT_REACHABLE",
+      "error_type": "URLError",
+      "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+    },
+    "openapi.json": {
+      "status": "NOT_REACHABLE",
+      "error_type": "URLError",
+      "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+    }
+  },
+  "process_probe": "CIM query denied by sandbox; live localhost GET and canonical import paths recorded instead.",
+  "mutation_policy": {
+    "STORE_SUMMARIES": false,
+    "offline": true,
+    "training": false,
+    "checkpoint_change": false,
+    "test_dataset_change": false,
+    "review_endpoints_not_called": true
+  },
+  "social_flow": "Social API worker -> authenticated POST /api/v1/moderate/comment (schema 1.0) -> advisory signals -> Social API owns visibility/audit.",
+  "static_dashboard": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\static",
+  "root_app_role": "compatibility import bridge",
+  "torch_runtime": {
+    "version": "2.15.0+cpu",
+    "cuda_available": false,
+    "threads": 6
+  },
+  "completed_at": "2026-11-02T14:38:14.823845+07:00"
+}

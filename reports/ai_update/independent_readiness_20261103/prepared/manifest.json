@@ -1,0 +1,89 @@
+{
+  "evaluation_protocol": "real_independent",
+  "development_challenge_comments": 620,
+  "status": "PREPARED_NOT_TRAINED",
+  "task_status": "BLOCKED",
+  "blockers": [
+    "T028 independent real evaluation not complete",
+    "G3 exact config/resource approval not recorded; local CUDA unavailable"
+  ],
+  "config_sha256": "c09170d006b6a6d6eefdd6d52e9be03cd2f87c9307e8ca15cfa5ec7da4b0907e",
+  "fingerprint": "c09170d006b6a6d6eefdd6d52e9be03cd2f87c9307e8ca15cfa5ec7da4b0907e:84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2:{\"gold_train\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\prepared\\\\victsd_train.csv\", \"sha256\": \"fb3f968a0746b1ae348acad132e2f23984725dd9a8685852b1f0c3050f64564b\"}, \"synthetic_development\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\synthetic_conversations\\\\genz_v2\\\\development_threads.jsonl\", \"sha256\": \"7daa4313fbd7dc4e7a51720cc91c65633691a93a31ffd93a8d1bc05ad8a1c392\"}, \"synthetic_manifest\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\synthetic_conversations\\\\genz_v2\\\\dataset_manifest.json\", \"sha256\": \"dd31aae46052a2dfd05692fc88686e1d3b5f76dd8e941ac9851784f949e571e6\"}, \"synthetic_train\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\synthetic_conversations\\\\genz_v2\\\\train_comments.csv\", \"sha256\": \"dcc75a3617ca97cdb33fed235c1a2d53aec0bbb7311aaeb4aa393cb059021102\"}, \"test_text_only\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\raw\\\\victsd\\\\ViCTSD_test.csv\", \"sha256\": \"e341013ca7441a5f2621b9347bd933f4d920d080b9931136ee8827d0ac0b2672\"}, \"validation\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\raw\\\\victsd\\\\ViCTSD_valid.csv\", \"sha256\": \"e3950ee6a16375d566f58d3fc1206dab76fc8e41e340bb580ca0ae2e5ea61f83\"}}",
+  "base_model_path": "C:\\Users\\admin\\Downloads\\visobert_toxic_final",
+  "base_model_sha256": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "threshold": 0.41,
+  "gold_train_rows": 6942,
+  "synthetic_train_rows": 4398,
+  "total_train_rows": 11340,
+  "synthetic_fraction": 0.3878306878306878,
+  "labels": {
+    "0": 10270,
+    "1": 1070
+  },
+  "synthetic_input_rows": 4398,
+  "excluded_uncertain": 79,
+  "cleanup": {
+    "gold_exact": {
+      "overlap_removed": 0,
+      "conflicting_removed": 0,
+      "duplicates_removed": 0
+    },
+    "gold_near_heldout_removed": 0,
+    "synthetic_exact": {
+      "overlap_removed": 0,
+      "conflicting_removed": 0,
+      "duplicates_removed": 0
+    },
+    "synthetic_near_heldout_removed": 0,
+    "synthetic_gold_exact_removed": 0,
+    "synthetic_gold_near_removed": 0
+  },
+  "sources": {
+    "gold_train": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\prepared\\victsd_train.csv",
+      "sha256": "fb3f968a0746b1ae348acad132e2f23984725dd9a8685852b1f0c3050f64564b"
+    },
+    "validation": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\raw\\victsd\\ViCTSD_valid.csv",
+      "sha256": "e3950ee6a16375d566f58d3fc1206dab76fc8e41e340bb580ca0ae2e5ea61f83"
+    },
+    "test_text_only": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\raw\\victsd\\ViCTSD_test.csv",
+      "sha256": "e341013ca7441a5f2621b9347bd933f4d920d080b9931136ee8827d0ac0b2672"
+    },
+    "synthetic_manifest": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_conversations\\genz_v2\\dataset_manifest.json",
+      "sha256": "dd31aae46052a2dfd05692fc88686e1d3b5f76dd8e941ac9851784f949e571e6"
+    },
+    "synthetic_train": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_conversations\\genz_v2\\train_comments.csv",
+      "sha256": "dcc75a3617ca97cdb33fed235c1a2d53aec0bbb7311aaeb4aa393cb059021102"
+    },
+    "synthetic_development": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_conversations\\genz_v2\\development_threads.jsonl",
+      "sha256": "7daa4313fbd7dc4e7a51720cc91c65633691a93a31ffd93a8d1bc05ad8a1c392"
+    }
+  },
+  "heldout_modified": false,
+  "test_labels_used": false,
+  "test_predictions_generated": false,
+  "training_performed": false,
+  "T028_manifest_status": "BLOCKED",
+  "T028_data_files": 0,
+  "independent_blind_evaluation_ready": false,
+  "approval_recorded": false,
+  "output_sha256": {
+    "train.jsonl": "7805551e7e8db15c7fd731a578ef5e707a9adf72fdf38dd547af7f6cfa9ca2ed",
+    "validation.jsonl": "e554bf12121d21581808d982d92187121d1aa69350468a4333fbfce18fd8623e"
+  },
+  "similarity_scope": {
+    "normalization": "NFC/casefold/space for comparison only",
+    "char5_jaccard": 0.9,
+    "min_chars": 40
+  },
+  "limitations": [
+    "Historical ViCTSD holdouts are not the missing T028 independent real benchmark.",
+    "AI labels remain synthetic, not human gold.",
+    "Character similarity cannot rule out all semantic paraphrases."
+  ]
+}

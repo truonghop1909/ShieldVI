@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "source_records": 18,
+  "blocked_thread_ids": 617,
+  "blocked_long_text_hashes": 5405,
+  "whole_thread_comparison_groups": 617,
+  "manifest_sha256": "e085c7bc7f22ccd475473e0d364680c517a2a42aa0d2d74df2ecde9e14159dd2",
+  "actual_real_threads_checked": 0,
+  "new_real_leakage_result": "NOT_APPLICABLE_EMPTY_DATASET",
+  "short_common_utterance_limitation": "Exact comment hashes apply only to>=80chars; whole-thread near comparison also applies."
+}

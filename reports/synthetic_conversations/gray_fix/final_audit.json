@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "cause": "Empty reviewer disabled all controls in a fresh browser",
+  "fix": "Default solo_01 only in synthetic mode; Enter/Apply with clear active ID; preserve saved reviewer",
+  "test_results": "46 passed, 1 warning; Chrome workflow PASS",
+  "source_threads_unchanged": 200,
+  "source_csv_unchanged": true,
+  "test_labels_written_to_production": 0,
+  "url": "http://127.0.0.1:8011/",
+  "user_action": "Ctrl+F5",
+  "training_performed": false
+}

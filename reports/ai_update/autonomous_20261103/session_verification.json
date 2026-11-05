@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "root_tests": {
+    "command": ".venv/Scripts/python.exe -X utf8 -m pytest tests -q -p no:cacheprovider --basetemp reports/ai_update/test_tmp/autonomous500_handoff",
+    "passed": 358,
+    "warnings": 1,
+    "evidence": "handoff_root_tests.txt"
+  },
+  "social_tests": {
+    "command": "services/social-api/.venv/Scripts/python.exe -m pytest tests (cwd services/social-api; PYTHONPATH=src; isolated basetemp)",
+    "passed": 177,
+    "warnings": 1,
+    "evidence": "social_tests_service.txt"
+  },
+  "browser_e2e": {
+    "passed": 1,
+    "command": "services/social-api/.venv/Scripts/python.exe -X utf8 scripts/run_ai_update_e2e.py",
+    "AI": "explicit fixture scores, not model inference",
+    "evidence": "e2e_runner_release.txt"
+  },
+  "frontend_builds": {
+    "social": "PASS",
+    "moderation": "PASS",
+    "legacy_dashboard": "PASS",
+    "production_static_overwritten": false
+  },
+  "real_model_inference": {
+    "V1_development_comments": 620,
+    "threshold": 0.41,
+    "candidate": null,
+    "registry_fallback_smoke": "PASS",
+    "API_recovery": "503 then200",
+    "optimizer_steps": 0
+  },
+  "regression_ablation": {
+    "comments": 150,
+    "source": "T020 cached real V1 on original inputs; B0-B3 offline replay",
+    "new_forward_claimed": false,
+    "baseline_input_sha_bound": true
+  },
+  "quality": "PASS technical; semantic naturalness and AI labels unverified by humans",
+  "resolved_attempts": [
+    "GenZ450 duplicate sentence rejected and rewritten before export; checks not relaxed.",
+    "Social tests initially used root venv without Alembic; rerun with service venv passed.",
+    "Initial E2E TEMP did not propagate; fixed TEMP/TMP for children, no fixture guard bypass.",
+    "Integrity script initially omitted .json suffix for legacy IDs; fixed audit path only; data never changed."
+  ],
+  "unresolved_failures": [
+    "GenZ Hybrid repeated recall0/7; no improvement claim.",
+    "REAL0/200, human0.",
+    "Candidate not trained: no CUDA/matching resource receipt."
+  ],
+  "test_privacy": {
+    "checked_server_files": 5,
+    "sensitive_markers_found_in": [],
+    "synthetic_markers_only": true
+  },
+  "cleanup": {
+    "owned_processes_exited": true,
+    "temporary_db_only": true,
+    "live_db_migrated": false
+  }
+}

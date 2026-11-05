@@ -1,0 +1,4 @@
+CLI alembic upgrade head EXIT_CODE=0
+LIVE GET /health 200: ready social-api
+LIVE GET /openapi.json 200; auth routes present; legacy AI routes absent
+No user account created; DB temporary; registration disabled

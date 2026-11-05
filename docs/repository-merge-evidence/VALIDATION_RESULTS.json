@@ -1,0 +1,1469 @@
+{
+  "status": "PASS",
+  "date": "2026-11-02",
+  "checks": {
+    "all_341_source_files_preserved": true,
+    "all_341_files_mapped_once": true,
+    "all_installed_files_match_recorded_hashes": true,
+    "no_ambiguous_duplicate_destinations": true,
+    "existing_README_updates_match_manifest": true,
+    "existing_runtime_models_datasets_tests_DB_untouched": true,
+    "T007-repo-blueprint_unchanged": true,
+    "T012-moderation-jobs_unchanged": true,
+    "T014-e2e-security_unchanged": true,
+    "T015-migrate-legacy_unchanged": true,
+    "T016-policy-design_unchanged": true,
+    "T017-durable-worker-and-offline_unchanged": true,
+    "T019-evaluation-and-privacy_unchanged": true,
+    "T011-moderation-adapter_unchanged": true,
+    "T020-audit-ai-snapshot-baseline_unchanged": true,
+    "T021-regression-fixtures-provisional-annotation_unchanged": true,
+    "T022-context-signals-apology-quote-defense-inte_unchanged": true,
+    "T023-lexicon-vi-en-teencode-expansion_unchanged": true,
+    "T024-target-detection-v3-explicit-and-abstain_unchanged": true,
+    "T025-repeated-harassment-v3-evidence-aware_unchanged": true,
+    "T026-api-schema-dashboard-signals-policy-bounda_unchanged": true,
+    "T027-data-ingestion-provenance-for-hard-cases_unchanged": true,
+    "T028-independent-evaluation-solo-review-protoco_unchanged": true,
+    "T029-optional-train-candidate-visobert-on-colab_unchanged": true,
+    "T030-paired-offline-evaluation-ablation_unchanged": true,
+    "T031-optional-model-registry-shadow-and-rollbac_unchanged": true,
+    "T032-social-ai-integration-offline-safety-e2e_unchanged": true,
+    "T033-technical-report-thesis-handoff_unchanged": true,
+    "T013-admin-review_unchanged": true,
+    "T018-admin-appeals-audit_unchanged": true,
+    "T008-auth-database_unchanged": true,
+    "T009-social-content_unchanged": true,
+    "T010-social-frontend_unchanged": true,
+    "13_DONE_and_14_TODO_preserved": true,
+    "AI_order_unchanged": true,
+    "single_root_AGENTS": true,
+    "root_folder_docs": true,
+    "root_folder_tasks": true,
+    "root_folder_.agents/skills": true,
+    "root_folder_contracts": true,
+    "root_folder_templates": true,
+    "root_folder_datasets/fixtures": true,
+    "root_folder_services": true,
+    "root_folder_apps": true,
+    "5_fixtures_150_comments_and_tags": true,
+    "fixtures_and_templates_byte_preserved": true,
+    "contracts_templates_JSON_parse": true,
+    "original_AI_pack_preserved": true,
+    "all_7_skills_valid_unique": true,
+    "all_active_Markdown_links_resolve": true,
+    "documentation_test_17_passed": true
+  },
+  "errors": [],
+  "source_files": 341,
+  "runtime_metadata_changes": [],
+  "task_status_counts": {
+    "DONE": 13,
+    "TODO": 14
+  },
+  "skills": [
+    {
+      "path": ".agents/skills/shieldvi-ai-integration/SKILL.md",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "path": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "path": ".agents/skills/shieldvi-architecture-migration/SKILL.md",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "path": ".agents/skills/shieldvi-moderation-admin/SKILL.md",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "path": ".agents/skills/shieldvi-moderation-policy/SKILL.md",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "path": ".agents/skills/shieldvi-social-backend/SKILL.md",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "path": ".agents/skills/shieldvi-social-frontend/SKILL.md",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    }
+  ],
+  "markdown_links_checked": 268,
+  "markdown_links": [
+    {
+      "file": "AGENTS.md",
+      "target": "docs/ai-update/INTEGRATION_NOTES.md",
+      "exists": true
+    },
+    {
+      "file": "AGENTS.md",
+      "target": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "exists": true
+    },
+    {
+      "file": "AGENTS.md",
+      "target": "tasks/moderation-ai/TASK_ORDER_AI.md",
+      "exists": true
+    },
+    {
+      "file": "AGENTS.md",
+      "target": "tasks/TASK_ORDER.md",
+      "exists": true
+    },
+    {
+      "file": "AGENTS.md",
+      "target": "docs/ai-update/05_RELEASE_GATES.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "services/moderation-ai/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "apps/moderation-web/legacy-v3/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "docs/T015_MIGRATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "docs/RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "datasets/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "services/moderation-ai/app/data/lexicon/manifest.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "services/moderation-ai/app/data/lexicon/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "models/MODEL_REFINEMENT_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "AGENTS.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "tasks/TASK_ORDER.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "docs/00_MUC_LUC.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "docs/ai-update/00_READ_ME_FIRST.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "docs/REPOSITORY_MERGE_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "docs/SOCIAL_DESIGN_README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/00_MUC_LUC.md",
+      "target": "ai-update/00_READ_ME_FIRST.md",
+      "exists": true
+    },
+    {
+      "file": "docs/00_MUC_LUC.md",
+      "target": "ai-update/INTEGRATION_NOTES.md",
+      "exists": true
+    },
+    {
+      "file": "docs/00_MUC_LUC.md",
+      "target": "../tasks/TASK_ORDER.md",
+      "exists": true
+    },
+    {
+      "file": "docs/00_MUC_LUC.md",
+      "target": "ai-update/MERGE_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03_CHINH_SACH_KIEM_DUYET.md",
+      "target": "T016_POLICY_SPEC.md",
+      "exists": true
+    },
+    {
+      "file": "docs/04_VONG_DOI_NOI_DUNG.md",
+      "target": "T016_POLICY_SPEC.md",
+      "exists": true
+    },
+    {
+      "file": "docs/04_VONG_DOI_NOI_DUNG.md",
+      "target": "T014_T019_VALIDATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/08_BAO_MAT_QUYEN_RIENG_TU.md",
+      "target": "T014_T019_VALIDATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/08_BAO_MAT_QUYEN_RIENG_TU.md",
+      "target": "RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "docs/09_TEST_DANH_GIA.md",
+      "target": "T014_T019_VALIDATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/09_TEST_DANH_GIA.md",
+      "target": "RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "docs/09_TEST_DANH_GIA.md",
+      "target": "T016_POLICY_SPEC.md",
+      "exists": true
+    },
+    {
+      "file": "docs/11_QUYET_DINH_VA_CAU_HOI_MO.md",
+      "target": "T016_POLICY_SPEC.md",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "T015_MIGRATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "T014_T019_VALIDATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "T013_T018_ADMIN_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "T012_T017_WORKER_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "../contracts/social-review.openapi.json",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "../contracts/social-worker.openapi.json",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "../services/social-api/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "../contracts/social-content.openapi.json",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "../services/social-api/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "../contracts/social-auth.openapi.json",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "../services/social-api/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "../contracts/moderation_request.schema.json",
+      "exists": true
+    },
+    {
+      "file": "docs/API_CONTRACT.md",
+      "target": "../contracts/moderation_response.schema.json",
+      "exists": true
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "target": "T015_MIGRATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "target": "T016_POLICY_SPEC.md",
+      "exists": true
+    },
+    {
+      "file": "docs/DATABASE.md",
+      "target": "T013_T018_ADMIN_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/DATABASE.md",
+      "target": "T012_T017_WORKER_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/DATABASE.md",
+      "target": "../services/social-api/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/DATABASE.md",
+      "target": "T016_POLICY_SPEC.md",
+      "exists": true
+    },
+    {
+      "file": "docs/DEMO_ABCD.md",
+      "target": "baseline/DEMO_ABCD/smoke.json",
+      "exists": true
+    },
+    {
+      "file": "docs/MIGRATION.md",
+      "target": "T015_MIGRATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/REPOSITORY_MERGE_REPORT.md",
+      "target": "SOCIAL_DESIGN_README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/REPOSITORY_MERGE_REPORT.md",
+      "target": "../AGENTS.md",
+      "exists": true
+    },
+    {
+      "file": "docs/REPOSITORY_MERGE_REPORT.md",
+      "target": "../tasks/TASK_ORDER.md",
+      "exists": true
+    },
+    {
+      "file": "docs/REPOSITORY_MERGE_REPORT.md",
+      "target": "../.agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "exists": true
+    },
+    {
+      "file": "docs/REPOSITORY_MERGE_REPORT.md",
+      "target": "ai-update/INTEGRATION_NOTES.md",
+      "exists": true
+    },
+    {
+      "file": "docs/REPOSITORY_MERGE_REPORT.md",
+      "target": "repository-merge-evidence/CONSOLIDATION_MANIFEST.json",
+      "exists": true
+    },
+    {
+      "file": "docs/REPOSITORY_MERGE_REPORT.md",
+      "target": "repository-merge-evidence/VALIDATION_RESULTS.json",
+      "exists": true
+    },
+    {
+      "file": "docs/RUN_LOCAL.md",
+      "target": "DEMO_ABCD.md",
+      "exists": true
+    },
+    {
+      "file": "docs/RUN_LOCAL.md",
+      "target": "baseline/DEMO_ABCD/smoke.json",
+      "exists": true
+    },
+    {
+      "file": "docs/RUN_LOCAL.md",
+      "target": "T015_MIGRATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/RUN_LOCAL.md",
+      "target": "../apps/moderation-web/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/RUN_LOCAL.md",
+      "target": "T014_T019_VALIDATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/SOCIAL_DESIGN_README.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/SOCIAL_DESIGN_README.md",
+      "target": "../tasks/TASK_ORDER.md",
+      "exists": true
+    },
+    {
+      "file": "docs/SOCIAL_DESIGN_README.md",
+      "target": "ai-update/00_READ_ME_FIRST.md",
+      "exists": true
+    },
+    {
+      "file": "docs/SOCIAL_DESIGN_README.md",
+      "target": "../tasks/TASK_ORDER.md",
+      "exists": true
+    },
+    {
+      "file": "docs/SOCIAL_DESIGN_README.md",
+      "target": "ai-update/MERGE_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T007_REPO_BLUEPRINT.md",
+      "target": "baseline/T007/source-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T007_REPO_BLUEPRINT.md",
+      "target": "baseline/T007/smoke.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T007_REPO_BLUEPRINT.md",
+      "target": "baseline/T007/pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T007_REPO_BLUEPRINT.md",
+      "target": "baseline/T007/frontend-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T007_REPO_BLUEPRINT.md",
+      "target": "baseline/T007/frontend-build-retry.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T007_REPO_BLUEPRINT.md",
+      "target": "baseline/T007/frontend-build/index.html",
+      "exists": true
+    },
+    {
+      "file": "docs/T007_REPO_BLUEPRINT.md",
+      "target": "baseline/T007/smoke.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T007_REPO_BLUEPRINT.md",
+      "target": "baseline/T007/integrity-check.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "baseline/T012_T017/legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "baseline/T012_T017/social-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "baseline/T012_T017/worker-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "baseline/T012_T017/live-http-smoke.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "baseline/T012_T017/browser-regression/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "baseline/T012_T017/dependency-check.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "baseline/T012_T017/integrity-check.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "baseline/T012_T017/source-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "baseline/T011/legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T012_T017_WORKER_REPORT.md",
+      "target": "../services/social-api/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "API_CONTRACT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "DATABASE.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "../contracts/social-review.openapi.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "baseline/T013_T018/source-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "baseline/T013_T018/integrity-check.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "baseline/T013_T018/social-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "baseline/T013_T018/legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "baseline/T013_T018/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "baseline/T013_T018/social-regression/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "baseline/T013_T018/frontend-builds.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "baseline/T013_T018/browser/desktop-dashboard.png",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "baseline/T013_T018/browser/mobile-detail.png",
+      "exists": true
+    },
+    {
+      "file": "docs/T013_T018_ADMIN_REPORT.md",
+      "target": "../apps/moderation-web/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/social-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/social-results.xml",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/privacy-security-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/fullstack/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/fullstack/metrics.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/fullstack/process-health.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/fullstack/cleanup.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/admin-regression/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/social-regression/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/moderation-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/social-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/outage/result.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/outage/cleanup.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/ai-evaluation.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/fullstack/browser/appeal-after-worker-recovery.png",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/social-results.xml",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/fullstack/log-privacy.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/source-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "baseline/T014_T019/integrity-check.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T014_T019_VALIDATION_REPORT.md",
+      "target": "RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/rollback-source",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/before-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/protected-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/social-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/after-legacy-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/compat-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/moderation-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/social-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/fullstack/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/fullstack/process-health.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/fullstack/cleanup.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/admin-regression/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/social-regression/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/real-http-smoke.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/integrity-check.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/after-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/before-legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/before-social-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/before-legacy-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/before-moderation-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "baseline/T015/before-social-build.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "../services/moderation-ai/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "../services/moderation-ai/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T015_MIGRATION_REPORT.md",
+      "target": "../apps/moderation-web/legacy-v3/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/T016_POLICY_SPEC.md",
+      "target": "baseline/T016/policy-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T016_POLICY_SPEC.md",
+      "target": "baseline/T016/legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/T016_POLICY_SPEC.md",
+      "target": "baseline/T016/legacy-integrity.json",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../AGENTS.md",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../../ShieldVI_SocialAI_Design_Docs_v1/",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../../ShieldVI_AI_Update_Codex_Tasks_v1/",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../REPOSITORY_MERGE_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../services/moderation-ai/app/engine.py",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../services/moderation-ai/app/lexical.py",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../services/moderation-ai/app/predictor.py",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../services/moderation-ai/app/schemas.py",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../services/moderation-ai/app/main.py",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../services/moderation-ai",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../apps/moderation-web",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../apps/moderation-web/legacy-v3",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../tests/test_engine.py",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../../tests/test_lexical.py",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/INTEGRATION_NOTES.md",
+      "target": "../T015_MIGRATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/MERGE_REPORT.md",
+      "target": "../REPOSITORY_MERGE_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/MERGE_REPORT.md",
+      "target": "merge-evidence/VALIDATION_RESULTS.json",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/MERGE_REPORT.md",
+      "target": "merge-evidence/MERGE_MANIFEST.json",
+      "exists": true
+    },
+    {
+      "file": "docs/ai-update/MERGE_REPORT.md",
+      "target": "INTEGRATION_NOTES.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/README_SOCIAL.md",
+      "target": "TASK_ORDER.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/README_SOCIAL.md",
+      "target": "moderation-ai/TASK_ORDER_AI.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/README_SOCIAL.md",
+      "target": "moderation-ai/README_AI_UPDATE.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./integration/T007-repo-blueprint.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./integration/T012-moderation-jobs.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./integration/T014-e2e-security.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./integration/T015-migrate-legacy.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./integration/T016-policy-design.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./integration/T017-durable-worker-and-offline.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./integration/T019-evaluation-and-privacy.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./moderation-ai/T011-moderation-adapter.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./moderation-web/T013-admin-review.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./moderation-web/T018-admin-appeals-audit.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./social-api/T008-auth-database.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./social-api/T009-social-content.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "./social-web/T010-social-frontend.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/TASK_ORDER_AI.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T020-audit-ai-snapshot-baseline.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T021-regression-fixtures-provisional-annotation.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T022-context-signals-apology-quote-defense-inte.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T023-lexicon-vi-en-teencode-expansion.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T024-target-detection-v3-explicit-and-abstain.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T025-repeated-harassment-v3-evidence-aware.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T026-api-schema-dashboard-signals-policy-bounda.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T027-data-ingestion-provenance-for-hard-cases.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T028-independent-evaluation-solo-review-protoco.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T029-optional-train-candidate-visobert-on-colab.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T030-paired-offline-evaluation-ablation.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T031-optional-model-registry-shadow-and-rollbac.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T032-social-ai-integration-offline-safety-e2e.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/TASK_ORDER.md",
+      "target": "moderation-ai/T033-technical-report-thesis-handoff.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T007-repo-blueprint.md",
+      "target": "../../docs/T007_REPO_BLUEPRINT.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T007-repo-blueprint.md",
+      "target": "../../docs/baseline/T007/source-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T007-repo-blueprint.md",
+      "target": "../../docs/baseline/T007/pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T007-repo-blueprint.md",
+      "target": "../../docs/baseline/T007/frontend-build.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T007-repo-blueprint.md",
+      "target": "../../docs/baseline/T007/frontend-build-retry.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T007-repo-blueprint.md",
+      "target": "../../docs/baseline/T007/smoke.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T012-moderation-jobs.md",
+      "target": "../../docs/T012_T017_WORKER_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T014-e2e-security.md",
+      "target": "../../docs/T014_T019_VALIDATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T014-e2e-security.md",
+      "target": "../../docs/RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T015-migrate-legacy.md",
+      "target": "../../docs/T015_MIGRATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T016-policy-design.md",
+      "target": "../../docs/T016_POLICY_SPEC.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T016-policy-design.md",
+      "target": "../../docs/baseline/T016/policy-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T016-policy-design.md",
+      "target": "../../docs/baseline/T016/legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T016-policy-design.md",
+      "target": "../../docs/baseline/T016/legacy-integrity.json",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T017-durable-worker-and-offline.md",
+      "target": "../../docs/T012_T017_WORKER_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T019-evaluation-and-privacy.md",
+      "target": "../../docs/T014_T019_VALIDATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/integration/T019-evaluation-and-privacy.md",
+      "target": "../../docs/RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/moderation-ai/T011-moderation-adapter.md",
+      "target": "../../docs/T012_T017_WORKER_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/moderation-web/T013-admin-review.md",
+      "target": "../../docs/T013_T018_ADMIN_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/moderation-web/T018-admin-appeals-audit.md",
+      "target": "../../docs/T013_T018_ADMIN_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T008-auth-database.md",
+      "target": "../../.agents/skills/shieldvi-social-backend/SKILL.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T008-auth-database.md",
+      "target": "../../docs/baseline/T008/social-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T008-auth-database.md",
+      "target": "../../docs/baseline/T008/legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T008-auth-database.md",
+      "target": "../../docs/baseline/T008/dependency-check.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T008-auth-database.md",
+      "target": "../../docs/baseline/T008/live-smoke.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T008-auth-database.md",
+      "target": "../../docs/baseline/T008/legacy-integrity.json",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T009-social-content.md",
+      "target": "../../.agents/skills/shieldvi-social-backend/SKILL.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T009-social-content.md",
+      "target": "../../docs/baseline/T009/live-smoke.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T009-social-content.md",
+      "target": "../../docs/baseline/T009/social-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T009-social-content.md",
+      "target": "../../docs/baseline/T009/legacy-pytest.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T009-social-content.md",
+      "target": "../../docs/baseline/T009/live-smoke.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T009-social-content.md",
+      "target": "../../docs/baseline/T009/legacy-integrity.json",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-api/T009-social-content.md",
+      "target": "../../docs/baseline/T009/social-source-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../.agents/skills/shieldvi-social-frontend/SKILL.md",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../docs/baseline/T010/social-web-source-manifest.json",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../docs/baseline/T010/frontend-build.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../docs/baseline/T010/browser-tests.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../docs/baseline/T010/dependencies.txt",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../docs/baseline/T010/integrity-check.json",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../docs/baseline/T010/browser/desktop-login.png",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../docs/baseline/T010/browser/desktop-feed.png",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../docs/baseline/T010/browser/mobile-login.png",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../docs/baseline/T010/browser/mobile-thread.png",
+      "exists": true
+    },
+    {
+      "file": "tasks/social-web/T010-social-frontend.md",
+      "target": "../../../ShieldVI_V3_Hybrid_Review/apps/social-web/README.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../docs/ai-update/INTEGRATION_NOTES.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../AGENTS.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../tasks/moderation-ai",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../tasks/moderation-ai/TASK_ORDER_AI.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../docs/ai-update/04_API_VERSIONING.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../datasets/fixtures/genz_regression/README.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../docs/ai-update/02_ANNOTATION_GUIDE.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../docs/ai-update/03_EXPERIMENT_PLAN.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../docs/ai-update/07_DATA_AND_SECURITY.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../docs/ai-update/05_RELEASE_GATES.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../docs/ai-update/06_COLAB_RUNBOOK.md",
+      "exists": true
+    },
+    {
+      "file": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "target": "../../../docs/ai-update/MERGE_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "apps/moderation-web/README.md",
+      "target": "legacy-v3/README.md",
+      "exists": true
+    },
+    {
+      "file": "apps/moderation-web/README.md",
+      "target": "../../docs/RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "apps/moderation-web/README.md",
+      "target": "../../services/social-api/README.md",
+      "exists": true
+    },
+    {
+      "file": "apps/moderation-web/README.md",
+      "target": "../../docs/T013_T018_ADMIN_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "services/moderation-ai/README.md",
+      "target": "../../apps/moderation-web/legacy-v3/README.md",
+      "exists": true
+    },
+    {
+      "file": "services/moderation-ai/README.md",
+      "target": "../../docs/T015_MIGRATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "services/moderation-ai/README.md",
+      "target": "../../docs/RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "services/social-api/README.md",
+      "target": "../../docs/RUN_LOCAL.md",
+      "exists": true
+    },
+    {
+      "file": "services/social-api/README.md",
+      "target": "../../docs/T014_T019_VALIDATION_REPORT.md",
+      "exists": true
+    },
+    {
+      "file": "services/social-api/README.md",
+      "target": "../../apps/moderation-web/README.md",
+      "exists": true
+    },
+    {
+      "file": "services/social-api/README.md",
+      "target": "../../docs/API_CONTRACT.md",
+      "exists": true
+    }
+  ],
+  "source_AI_skill_warning": [
+    {
+      "path": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "expected_sha256": "55a947e752144fbcfc3d2b90ff80674a85f64bf9a30c5b0689e4353e083747dc",
+      "actual_sha256": "fb9f586eb6a7d7113a63492f0f563b1b46c410e47f561c4fd527ca2e35f232fe",
+      "expected_bytes": 2015,
+      "actual_bytes": 5
+    }
+  ],
+  "baseline_test": {
+    "command": "python -X utf8 -m pytest <old-doc-root>/tests/test_policy_design.py -q -p no:cacheprovider",
+    "exit_code": 0,
+    "result": "17 passed in 0.18s"
+  },
+  "post_merge_test": {
+    "command": ".venv/Scripts/python.exe -X utf8 -m pytest tests/test_policy_design.py -q -p no:cacheprovider",
+    "exit_code": 0,
+    "passed": 17,
+    "warnings": 1,
+    "result": "17 passed, 1 warning in 0.04s; existing Starlette/httpx deprecation warning"
+  },
+  "no_training": true,
+  "no_deploy": true,
+  "no_AI_task_started": true,
+  "snapshots_preserved_as_history": true
+}

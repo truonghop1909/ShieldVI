@@ -1,0 +1,10 @@
+﻿from pathlib import Path
+p=Path('services/moderation-ai/app/context_signals.py');s=p.read_text(encoding='utf-8')
+s=s.replace('import re\n','import re\nimport unicodedata\n',1)
+s=s.replace("ich ky|an hai|khon nan|rac ruoi|trash", "ich ky|an hai|khon nan|rac ruoi|trash")
+s=s.replace("|\\b(?:tao|toi) se (?:danh|dap)","|\\b(?:may|m|you|ban) (?:dung la |la )?dao duc gia\\b|\\b(?:tao|toi) se (?:danh|dap)")
+s=s.replace("nhung|but|tuy nhien", "nhung|but|tuy nhien|chu")
+s=s.replace("    s=fold(text);tags=[];cues=[]", "    # Keep accented homographs distinct before folding context cues.\n    normalized=unicodedata.normalize('NFC',text)\n    s=fold(re.sub(r'(?iu)\\b(?:ngủ|ngữ|ngự)\\b','zzz',normalized));tags=[];cues=[]")
+s=s.replace("assigned_quote=bool(re.search(r'\\b(?:may|m|ban|you)\\b.{0,24}\\b(?:la|are)\\s*[“\"\\\']?\\s*$',prefix))", "assigned_quote=bool(re.search(r'\\b(?:may|m|ban|you)\\b.{0,24}\\b(?:la|are)\\s*[“\"\\\']?\\s*$',prefix)) and not STOP_ABUSE.search(prefix)")
+s=s.replace("    safe=bool(set(tags)","    blame=bool(re.search(r'\\b(?:thi|dang|xung dang) (?:phai )?chiu bi (?:chui|ha nhuc)|\\bchiu bi chui thoi\\b',s))\n    safe=not blame and bool(set(tags)")
+p.write_text(s,encoding='utf-8')

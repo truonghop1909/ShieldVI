@@ -1,0 +1,18 @@
+import {createRequire} from 'node:module'
+import fs from 'node:fs'
+import path from 'node:path'
+import assert from 'node:assert/strict'
+const require=createRequire(new URL('../../apps/social-web/package.json',import.meta.url)),{chromium,expect}=require('@playwright/test')
+const out=process.env.LIVE_TEST_ARTIFACTS,web=process.env.LIVE_TEST_ADMIN,password=process.env.LIVE_TEST_PASSWORD,browser=await chromium.launch({channel:'chrome',headless:true}),context=await browser.newContext(),page=await context.newPage(),checks=[],training=JSON.parse(fs.readFileSync(path.join(out,'T041_run_manifest.json'),'utf8'))
+try{
+ await page.goto(web+'/studio.html');await page.getByLabel('Tên tài khoản').fill('live_admin');await page.getByLabel('Mật khẩu',{exact:true}).fill(password);await page.getByRole('button',{name:'Đăng nhập Studio',exact:true}).click();await page.getByRole('button',{name:'Models & Evaluation',exact:true}).click()
+ await expect(page.getByRole('heading',{name:'Models & Evaluation',exact:true})).toBeVisible();await expect(page.locator('.studio-app')).toContainText('BLOCKED_T028_NO_HUMAN_GOLD',{timeout:30000});checks.push('hashed_readonly_registry_preserves_v1_1_default_and_formal_gate')
+ const dataset=Object.keys(training.dataset_sources)[0],candidate='T041_'+training.run_id
+ await page.getByRole('combobox',{name:'Dataset locked holdout',exact:true}).selectOption(dataset);await page.getByRole('listbox',{name:'Model A/B (Ctrl/⌘ chọn 2–3)',exact:true}).selectOption(['v1','candidate_r06',candidate])
+ await page.getByRole('button',{name:'Đánh giá paired synthetic',exact:true}).click();await expect(page.getByTestId('evaluation-status')).toHaveText(/QUEUED|RUNNING/,{timeout:30000});await expect(page.getByTestId('evaluation-status')).toHaveText('COMPLETED',{timeout:120000});checks.push('actual_paired_v1_r06_t041_inference_on_same_locked_synthetic_holdout')
+ await expect(page.getByTestId('local-rollback')).toContainText('Rollback: v1 · fallback true · actual neural true');checks.push('actual_fault_injected_shadow_fallback_to_original_v1')
+ await expect(page.getByTestId('evaluation-detail')).toContainText('Default unchanged true');await expect(page.getByTestId('evaluation-detail')).toContainText('Comments 4');checks.push('raw_and_final_metrics_separate_small_sample_scope_visible')
+ for(const format of ['json','csv','md']){const pending=page.waitForEvent('download');await page.getByRole('button',{name:`Export evaluation ${format}`,exact:true}).click();await (await pending).saveAs(path.join(out,`T042_evaluation.${format}`))}
+ const report=JSON.parse(fs.readFileSync(path.join(out,'T042_evaluation.json'),'utf8'));assert.equal(report.human_gold,false);assert.equal(report.threshold,.41);assert.equal(Object.keys(report.models).length,3);assert.equal(report.default_unchanged,true);assert.equal(report.rollback.production_changed,false);for(const m of Object.values(report.models)){assert.equal(m.raw.n,4);assert.equal(m.target.recall,null);assert.equal(m.repeated.recall,null)}checks.push('report_exports_sha_provenance_and_unavailable_target_repeated_denominators')
+ await page.screenshot({path:path.join(out,'T042_evaluation.png'),fullPage:true});fs.writeFileSync(path.join(out,'T042_browser_result.json'),JSON.stringify({status:'PASS',checks,evaluation_id:(await page.getByTestId('evaluation-detail').locator('h3').textContent()),actual_neural_inference:true,no_training:true,no_activation:true},null,2));console.log(JSON.stringify({status:'PASS',checks:checks.length,models:3}))
+}catch(error){await page.screenshot({path:path.join(out,'T042_failure.png'),fullPage:true}).catch(()=>{});throw error}finally{await context.close();await browser.close()}

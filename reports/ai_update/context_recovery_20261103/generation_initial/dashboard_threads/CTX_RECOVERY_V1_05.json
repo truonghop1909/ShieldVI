@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_05",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C01",
+      "user_id": "CTX_RECOVERY_V1_05_U01",
+      "parent_id": null,
+      "text": "Mình chưa tìm được mục xuất báo cáo.",
+      "timestamp": "2025-01-06T05:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C02",
+      "user_id": "CTX_RECOVERY_V1_05_U02",
+      "parent_id": "CTX_RECOVERY_V1_05_C01",
+      "text": "Mày ngu quá, dùng máy làm gì.",
+      "timestamp": "2025-01-06T05:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C03",
+      "user_id": "CTX_RECOVERY_V1_05_U03",
+      "parent_id": "CTX_RECOVERY_V1_05_C02",
+      "text": "Hướng dẫn thì nói bước cụ thể nhé.",
+      "timestamp": "2025-01-06T05:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C04",
+      "user_id": "CTX_RECOVERY_V1_05_U02",
+      "parent_id": "CTX_RECOVERY_V1_05_C03",
+      "text": "Xin lỗi vì đã chửi bạn. Mày vẫn là đồ vô dụng.",
+      "timestamp": "2025-01-06T05:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C05",
+      "user_id": "CTX_RECOVERY_V1_05_U01",
+      "parent_id": "CTX_RECOVERY_V1_05_C04",
+      "text": "Câu sau vẫn là xúc phạm, mình không chấp nhận.",
+      "timestamp": "2025-01-06T05:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C06",
+      "user_id": "CTX_RECOVERY_V1_05_U03",
+      "parent_id": "CTX_RECOVERY_V1_05_C04",
+      "text": "Xin lỗi không làm câu hạ nhục mới thành hợp lý.",
+      "timestamp": "2025-01-06T05:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C07",
+      "user_id": "CTX_RECOVERY_V1_05_U02",
+      "parent_id": "CTX_RECOVERY_V1_05_C06",
+      "text": "Để tui dừng nói chuyện một lúc.",
+      "timestamp": "2025-01-06T05:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C08",
+      "user_id": "CTX_RECOVERY_V1_05_U01",
+      "parent_id": null,
+      "text": "Mình hỏi bộ phận hỗ trợ riêng.",
+      "timestamp": "2025-01-06T05:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C09",
+      "user_id": "CTX_RECOVERY_V1_05_U03",
+      "parent_id": null,
+      "text": "Nhớ giữ lại thông báo lỗi, không kèm mật khẩu.",
+      "timestamp": "2025-01-06T05:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C10",
+      "user_id": "CTX_RECOVERY_V1_05_U01",
+      "parent_id": null,
+      "text": "Tui chỉ gửi tên chức năng với ảnh menu.",
+      "timestamp": "2025-01-06T05:07:18Z"
+    }
+  ]
+}

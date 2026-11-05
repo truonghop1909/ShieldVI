@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_06",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C01",
+      "user_id": "CTX_RECOVERY_V1_06_U01",
+      "parent_id": null,
+      "text": "Bài này nghe lúc làm việc khá hợp.",
+      "timestamp": "2025-01-07T06:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C02",
+      "user_id": "CTX_RECOVERY_V1_06_U03",
+      "parent_id": null,
+      "text": "Mình thích đoạn guitar ở giữa.",
+      "timestamp": "2025-01-07T06:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C03",
+      "user_id": "CTX_RECOVERY_V1_06_U02",
+      "parent_id": "CTX_RECOVERY_V1_06_C01",
+      "text": "Xin lỗi, nhưng mày vẫn ngu mới thích loại nhạc này.",
+      "timestamp": "2025-01-07T06:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C04",
+      "user_id": "CTX_RECOVERY_V1_06_U01",
+      "parent_id": "CTX_RECOVERY_V1_06_C03",
+      "text": "Bạn không thích bài hát thì nói về bài hát thôi.",
+      "timestamp": "2025-01-07T06:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C05",
+      "user_id": "CTX_RECOVERY_V1_06_U03",
+      "parent_id": "CTX_RECOVERY_V1_06_C03",
+      "text": "Đó là công kích người nghe, không phải phê bình nhạc.",
+      "timestamp": "2025-01-07T06:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C06",
+      "user_id": "CTX_RECOVERY_V1_06_U02",
+      "parent_id": "CTX_RECOVERY_V1_06_C05",
+      "text": "Phần hòa âm lặp nhiều quá.",
+      "timestamp": "2025-01-07T06:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C07",
+      "user_id": "CTX_RECOVERY_V1_06_U01",
+      "parent_id": "CTX_RECOVERY_V1_06_C06",
+      "text": "Với tui nhịp lặp giúp dễ tập trung.",
+      "timestamp": "2025-01-07T06:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C08",
+      "user_id": "CTX_RECOVERY_V1_06_U03",
+      "parent_id": null,
+      "text": "Có bản hòa âm khác trên kênh ban nhạc.",
+      "timestamp": "2025-01-07T06:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C09",
+      "user_id": "CTX_RECOVERY_V1_06_U01",
+      "parent_id": null,
+      "text": "Mình sẽ nghe thêm khi rảnh.",
+      "timestamp": "2025-01-07T06:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C10",
+      "user_id": "CTX_RECOVERY_V1_06_U02",
+      "parent_id": null,
+      "text": "tui giữ playlist riêng vậy",
+      "timestamp": "2025-01-07T06:07:18Z"
+    }
+  ]
+}

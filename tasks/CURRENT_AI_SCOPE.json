@@ -1,0 +1,270 @@
+{
+  "authority": "Latest stabilization/evaluation-readiness request; no training/r07/model/default/0.41/deploy/human-gold fabrication.",
+  "historical_statuses_preserved": true,
+  "historical_task_files": 27,
+  "T028": {
+    "historical_scope": "synthetic context recovery",
+    "historical_status": "DONE",
+    "current_scope": "200 permitted real conversations, one human two rounds, privacy/leakage checks, locked evaluation",
+    "current_status": "BLOCKED",
+    "actual_valid_real_threads": 0,
+    "missing": [
+      "200 valid real threads",
+      "source permission/provenance",
+      "human Round1 and Round2",
+      "locked independent evaluation"
+    ]
+  },
+  "T029": {
+    "historical_status": "DONE",
+    "preparation": "DONE",
+    "new_training": "BLOCKED",
+    "dependencies": [
+      "T028 real acceptance",
+      "new explicit matching training approval"
+    ]
+  },
+  "T030": {
+    "development": "DONE_SYNTHETIC_ONLY",
+    "real_world_metrics": "BLOCKED"
+  },
+  "T031": {
+    "local_registry_rollback": "DONE_R06_LOCAL_ONLY",
+    "production_activation": "NOT_AUTHORIZED"
+  },
+  "T032": {
+    "safe_integration_tests": "DONE"
+  },
+  "T033": {
+    "provisional_report": "DONE",
+    "real_world_conclusions": "BLOCKED"
+  },
+  "collection": {
+    "Wikimedia": "PAUSED_BY_USER",
+    "fake_contact_or_browser_impersonation_allowed": false,
+    "ask_contact_again_this_session": false
+  },
+  "training_allowed_this_session": false,
+  "threshold": 0.41,
+  "current_tasks": {
+    "T022": {
+      "status": "DONE",
+      "scope": "Indirect attack/context development on frozen synthetic references"
+    },
+    "T024": {
+      "status": "DONE",
+      "scope": "Target inference from actual attack clauses and available participant metadata"
+    },
+    "T025": {
+      "status": "DONE",
+      "scope": "Scoped v5 development repair of five known misses; fresh repeated4/6, two misses disclosed; not independent acceptance"
+    },
+    "T027": {
+      "status": "DONE",
+      "scope": "Source/inventory audit, paused collector guard, anonymized quarantine and human review preparation"
+    },
+    "T028": {
+      "status": "BLOCKED",
+      "scope": "Independent real200 cohort",
+      "historical_synthetic_status": "DONE",
+      "real_threads": 0,
+      "human_labels": 0,
+      "missing": [
+        "200 permitted/source-verifiable real threads",
+        "manual Round1/Round2 by same human",
+        "privacy/leakage checks and locked snapshot"
+      ],
+      "tooling_status": "PREPARED_TESTED; manual quarantine not automatically admitted"
+    },
+    "T029": {
+      "status": "BLOCKED",
+      "scope": "Formal training/acceptance tied to real T028; completed experimental r06 tracked separately",
+      "preparation_status": "DONE",
+      "prepared_rows": 11340,
+      "training_performed": false,
+      "dependencies": [
+        "T028 real criteria",
+        "new explicit matching resource/config approval"
+      ],
+      "blockers": [
+        "New formal training not authorized; completed one-run synthetic r06 exception consumed",
+        "G2: T028 independent real verified evaluation missing",
+        "G3: exact config/data/resource approval receipt missing",
+        "CUDA GPU unavailable; CPU training is disabled for full fine-tuning"
+      ],
+      "experimental_r06_training_already_completed": true
+    },
+    "T030": {
+      "status": "PARTIAL",
+      "scope": "Synthetic development evaluation tooling and before/after",
+      "real_world_metrics": "BLOCKED",
+      "formal_acceptance": "BLOCKED_T028_REAL_HUMAN_GOLD",
+      "report": "docs/ai-update/final-report/REPEATED_RECOVERY_V5.md",
+      "development_status": "DONE_SYNTHETIC_ONLY",
+      "readiness_report": "docs/ai-update/final-report/FINAL_READINESS_REPORT.md",
+      "frozen_synthetic_evaluation": "DONE"
+    },
+    "T031": {
+      "status": "PARTIAL",
+      "scope": "Actual local registry/shadow/fallback/rollback mechanics using existing candidate",
+      "promotion": "NOT_AUTHORIZED",
+      "formal_acceptance": "BLOCKED_T028_REAL_HUMAN_GOLD",
+      "report": "docs/ai-update/final-report/REPEATED_RECOVERY_V5.md",
+      "local_registry_rollback_status": "DONE_LOCAL_ONLY",
+      "readiness_report": "docs/ai-update/final-report/FINAL_READINESS_REPORT.md"
+    },
+    "T032": {
+      "status": "PARTIAL",
+      "scope": "610root/177SocialPASS plus disposable5process browserE2E and actual model isolatedASGI",
+      "formal_acceptance": "BLOCKED_T028_REAL_HUMAN_GOLD",
+      "report": "docs/ai-update/final-report/REPEATED_RECOVERY_V5.md",
+      "safe_integration_status": "DONE",
+      "readiness_report": "docs/ai-update/final-report/FINAL_READINESS_REPORT.md",
+      "technical_readiness": "DONE_VERIFIED_FROZEN"
+    },
+    "T033": {
+      "status": "PARTIAL",
+      "scope": "Provisional technical report with missing evidence explicit",
+      "real_world_conclusions": "BLOCKED",
+      "formal_acceptance": "BLOCKED_T028_REAL_HUMAN_GOLD",
+      "report": "docs/ai-update/final-report/REPEATED_RECOVERY_V5.md",
+      "provisional_report_status": "DONE_LIMITATIONS_EXPLICIT",
+      "readiness_report": "docs/ai-update/final-report/FINAL_READINESS_REPORT.md",
+      "provisional_handoff": "DONE_WITH_ACCEPTANCE_CHECKLIST"
+    }
+  },
+  "real_world_metrics_available": false,
+  "remaining_ready_work": "Safe stabilization/handoff complete. Need permitted real200 and actual solo Round1/Round2/lock for formal acceptance; no annotation requested this session.",
+  "synthetic_experiment": {
+    "authorized": false,
+    "status": "COMPLETE_TRAINED_EVALUATED_EXPERIMENTAL",
+    "run_id": "T029_synthetic_only_head_cpu_20261103_r06",
+    "config_sha256": "bc589aea4f4ebd8a90021c9baa527a334406305eca14f3af6df5d1318e0fe09a",
+    "request_sha256": "8584b0f1d2a84e193f3a74e8b603da1d4d525b9c769df31409115f43ce1a11b6",
+    "max_candidate_runs": 1,
+    "maximum_external_cost": 0,
+    "resource": "local_CPU",
+    "original_T028_real_status": "BLOCKED",
+    "original_T029_real_acceptance_unchanged": true,
+    "production_activation_allowed": false,
+    "training_performed": true,
+    "optimizer_steps": 207,
+    "elapsed_seconds": 79.75,
+    "candidate_sha256": "e5090150ab0d951887060a4cefd25c223fe7d11aa23dd174fedf8b4f18abe3b2",
+    "completed_candidate_runs": 1,
+    "validation_macro_f1": 0.8238341968911918,
+    "challenge_macro_f1": 0.8287983642654922,
+    "root_tests_passed": 591,
+    "post_scope_related_tests_passed": 45,
+    "new_training_guard": "EXPECTED_BLOCKED"
+  },
+  "followup_repeated_v5": {
+    "status": "COMPLETE_SAFE_SCOPE",
+    "training_performed": false,
+    "old_challenge_repeated_tp": 5,
+    "fresh_repeated_tp": 4,
+    "fresh_repeated_fn": 2,
+    "root_tests_passed": 610,
+    "social_tests_passed": 177,
+    "browser_e2e": "PASS_FIXTURE_AI",
+    "actual_model_registry_ASGI": "PASS",
+    "production_changed": false
+  },
+  "stabilization_readiness": {
+    "status": "DONE_SAFE_SCOPE",
+    "report": "docs/ai-update/final-report/FINAL_READINESS_REPORT.md",
+    "version_lock": "reports/ai_update/stabilization_20261103/READINESS_LOCK_T028_v2.json",
+    "version_lock_sha256": "ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3",
+    "frozen_files": 1311,
+    "root_tests_passed": 620,
+    "review_tests_passed": 48,
+    "review_browser": "PASS_NO_SUBMISSIONS",
+    "Social177_and_prior_E2E_shadow": "FROZEN_HASH_VERIFIED_NOT_RERUN",
+    "ai_social_runtime_changed": false,
+    "T028_intake_runtime_changed": true,
+    "training_performed": false,
+    "human_gold_created": false,
+    "T028_tools": "PREPARED_AND_TESTED",
+    "T028_manual_source_admission": "PARTIAL_VERIFIED_RECEIPT_SUPPORTED_ADAPTER_REQUIRED"
+  },
+  "fresh10_recovery": {
+    "status": "VERIFIED_OPT_IN_RESEARCH_ONLY",
+    "report": "docs/ai-update/final-report/FRESH10_RECOVERY.md",
+    "versions": {
+      "context": "context-v6.1-research",
+      "target": "target-v6.1-research",
+      "repeated": "repeated-v6.1-research"
+    },
+    "root_tests_passed": 648,
+    "root_tests_failed": 0,
+    "fresh10_final_macro_f1": 0.9318610664616676,
+    "fresh10_target_correct": 16,
+    "fresh10_reference_targets": 22,
+    "fresh10_repeated_tp": 6,
+    "fresh10_reference_events": 7,
+    "final_unseen_at_scoring_comments": 24,
+    "final_challenge_repeated_tp": 1,
+    "final_challenge_repeated_reference": 2,
+    "first48_reclassified_as_development": true,
+    "known_new_first48_fp_retained_in_history": true,
+    "human_gold": false,
+    "training_performed": false,
+    "production_changed": false,
+    "default_v5_changed": false,
+    "readiness_lock_changed": false,
+    "new_exclusion_extension_merged": false
+  },
+  "nov10_audit": {
+    "status": "AUDIT_COMPLETE_RULES_UNCHANGED",
+    "report": "docs/ai-update/final-report/NOV10_ROOT_CAUSE_AUDIT.md",
+    "root_tests_passed": 677,
+    "root_tests_failed": 0,
+    "supplemental_red_failed": 2,
+    "supplemental_red_passed": 1,
+    "runtime_actual_r06_probe_comments": 63,
+    "wire_exact_replay_threads": 10,
+    "attack_predicate_hits_all200": 0,
+    "nov10_macro_f1": 0.6941598360655737,
+    "nov10_target_correct": 0,
+    "nov10_reference_targets": 22,
+    "nov10_repeated_tp": 0,
+    "nov10_reference_events": 8,
+    "coverage_fixed": false,
+    "open_verified_bug": "narrative_quote_assignment_scope_on_new_challenge",
+    "overlay_exclusion_verified_threads": 10,
+    "default_exclusion_loader_changed": false,
+    "training_performed": false,
+    "rules_modified": false,
+    "default_changed": false,
+    "readiness_lock_modified": false,
+    "human_gold": false
+  },
+  "controlled_v62_research": {
+    "status": "COMPLETED_SAFE_RESEARCH_EXPERIMENTAL",
+    "report": "docs/ai-update/final-report/CONTROLLED_V62_RESEARCH.md",
+    "versions": {
+      "context": "context-v6.2-research",
+      "target": "target-v6.2-research",
+      "repeated": "repeated-v6.2-research"
+    },
+    "quote_original_expectations_fixed_on_new_processor": true,
+    "sealed_v61_unchanged": true,
+    "root_tests_passed": 722,
+    "nov10_macro_f1": 0.7191365711913658,
+    "nov10_target_correct": 2,
+    "nov10_reference_targets": 22,
+    "nov10_repeated_tp": 1,
+    "nov10_reference_events": 8,
+    "challenge_comments": 36,
+    "challenge_macro_f1": 0.9113300492610837,
+    "challenge_repeated_tp": 2,
+    "challenge_reference_events": 3,
+    "post_score_tuning": false,
+    "owner_adjudication_completed": 0,
+    "human_gold": false,
+    "default_changed": false,
+    "training_performed": false,
+    "readiness_lock_changed": false,
+    "activation_allowed": false
+  }
+}

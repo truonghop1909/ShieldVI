@@ -1,0 +1,194 @@
+{
+  "files": [
+    {
+      "path": ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+      "sha256": "55a947e752144fbcfc3d2b90ff80674a85f64bf9a30c5b0689e4353e083747dc",
+      "size_bytes": 2015
+    },
+    {
+      "path": "AGENTS_AI_ADDENDUM.md",
+      "sha256": "0205709fe41141fb756baffaf7a25732e8f14d04e93c7af75c15a8e4af111d32",
+      "size_bytes": 1981
+    },
+    {
+      "path": "PROMPT_CODEX_BAT_DAU.md",
+      "sha256": "f6841c9bd36219536598fbe0047c30be2bc74092eef2706676d76e0163c6d76e",
+      "size_bytes": 1103
+    },
+    {
+      "path": "README.md",
+      "sha256": "cda48a041919392d45089a49ece9fbdf0bb757b497b4ec3aba913df713712b5f",
+      "size_bytes": 2819
+    },
+    {
+      "path": "contracts/ai_signals_v2_draft.example.json",
+      "sha256": "e84192fe9e9513cf56b500af8c3523df1b16b94661fe1320b7b51dfc2250a23d",
+      "size_bytes": 648
+    },
+    {
+      "path": "datasets/fixtures/genz_regression/README.md",
+      "sha256": "89ffbf37f0e053f6d571ceea7ed6480b5395d87aafa447dc8e1f56737881d60d",
+      "size_bytes": 774
+    },
+    {
+      "path": "datasets/fixtures/genz_regression/SHIELDVI_01_GAME_RANK_LAG_30.json",
+      "sha256": "db0a31f70e462aaa2eb575dd443ded27100b30493dc176093b36b7c2311927c2",
+      "size_bytes": 6751
+    },
+    {
+      "path": "datasets/fixtures/genz_regression/SHIELDVI_02_SHOP_GIAY_SECONDHAND_30.json",
+      "sha256": "28a2179025e74db2dc8262bcc49a600e2ec6563e3fdc5cbb6b52bde669658d33",
+      "size_bytes": 7101
+    },
+    {
+      "path": "datasets/fixtures/genz_regression/SHIELDVI_03_DANCE_COVER_TIKTOK_30.json",
+      "sha256": "270db107f4655033e323a129e87b7c15b23a67360c2c90ecbe7e1eaaf5403fa6",
+      "size_bytes": 6904
+    },
+    {
+      "path": "datasets/fixtures/genz_regression/SHIELDVI_04_DI_CAMPING_CHIA_TIEN_30.json",
+      "sha256": "20182a7fa088789f118349aeed6fb981439e7bc0398c18d4e715ce4d33c12cba",
+      "size_bytes": 6990
+    },
+    {
+      "path": "datasets/fixtures/genz_regression/SHIELDVI_05_FANART_AI_DISPUTE_30.json",
+      "sha256": "4d6e860c47c5f722a00900166a1b68d8bf24317d9845f9b69410a25279bf3fc0",
+      "size_bytes": 6991
+    },
+    {
+      "path": "datasets/fixtures/genz_regression/synthetic_reference_tags.csv",
+      "sha256": "168923a89e7342193fa16d880cccffe10c61df1b7468e542c8215254b80106f4",
+      "size_bytes": 18840
+    },
+    {
+      "path": "docs/ai-update/00_READ_ME_FIRST.md",
+      "sha256": "dd046a5620646afd7948dd27c966331c50d1f22c25355b01f947470cd7002ba6",
+      "size_bytes": 2342
+    },
+    {
+      "path": "docs/ai-update/01_FAILURE_CASES.md",
+      "sha256": "4b262af0e3baf5ce03caae770601d3fd141c998402affca7e4d7a2f4db85f506",
+      "size_bytes": 3397
+    },
+    {
+      "path": "docs/ai-update/02_ANNOTATION_GUIDE.md",
+      "sha256": "a60b8a6474c705a03fc3e24b72048bc3d2f510e72619dd9e9a4a2f60e9849bf9",
+      "size_bytes": 3045
+    },
+    {
+      "path": "docs/ai-update/03_EXPERIMENT_PLAN.md",
+      "sha256": "149185c4d56facc5c7a18699b623fa74cc43e2e8fe5478981637187a73919dc3",
+      "size_bytes": 3326
+    },
+    {
+      "path": "docs/ai-update/04_API_VERSIONING.md",
+      "sha256": "85e71445881c3770218cfc782ad303d23eebacff41158eb43926bffa09517d8f",
+      "size_bytes": 2073
+    },
+    {
+      "path": "docs/ai-update/05_RELEASE_GATES.md",
+      "sha256": "889019c77a5adb795fc3f559646f7de445d8b97e2930efa6160ea759cf178da8",
+      "size_bytes": 2370
+    },
+    {
+      "path": "docs/ai-update/06_COLAB_RUNBOOK.md",
+      "sha256": "d861194acd955e0fd52d0913bb5cfe74343e54584f2862cb8c6c795831b95a46",
+      "size_bytes": 2243
+    },
+    {
+      "path": "docs/ai-update/07_DATA_AND_SECURITY.md",
+      "sha256": "1ca3e7c485e9b074e7dda6d035d6ae04de2e11bfff399c0d8f0feded86949274",
+      "size_bytes": 1242
+    },
+    {
+      "path": "tasks/moderation-ai/README_AI_UPDATE.md",
+      "sha256": "5a4cb3d6f6943caabb9c4cdcd7e68aacac17f288da9f5656affaac5226233e4e",
+      "size_bytes": 1017
+    },
+    {
+      "path": "tasks/moderation-ai/T020-audit-ai-snapshot-baseline.md",
+      "sha256": "e92479e54ce6725f9b8b22464be9a9efcadad6dde71b7b3f4a61e8e8c0aa0247",
+      "size_bytes": 2802
+    },
+    {
+      "path": "tasks/moderation-ai/T021-regression-fixtures-provisional-annotation.md",
+      "sha256": "fb234c889e6a8361731e5f0005c3c0a4196b8f5b5d0af3f1a123f64ec2a90692",
+      "size_bytes": 2836
+    },
+    {
+      "path": "tasks/moderation-ai/T022-context-signals-apology-quote-defense-inte.md",
+      "sha256": "6370362213f21247cf9caedf7f7b775cfec0fbe9f5759982b1974d02af854b24",
+      "size_bytes": 2745
+    },
+    {
+      "path": "tasks/moderation-ai/T023-lexicon-vi-en-teencode-expansion.md",
+      "sha256": "d4a241e85e551e61281807d375800f360f1e6e230eb71eb835785d06462c2cd5",
+      "size_bytes": 2736
+    },
+    {
+      "path": "tasks/moderation-ai/T024-target-detection-v3-explicit-and-abstain.md",
+      "sha256": "98416c8a933546c404bbcbb3e38a869eadf1efb8d5df8b6c76539d7c7e674157",
+      "size_bytes": 2761
+    },
+    {
+      "path": "tasks/moderation-ai/T025-repeated-harassment-v3-evidence-aware.md",
+      "sha256": "5da5182317d88f3b2a16d73ee42b581db9b79a66d4a36b394e069df54467e070",
+      "size_bytes": 2765
+    },
+    {
+      "path": "tasks/moderation-ai/T026-api-schema-dashboard-signals-policy-bounda.md",
+      "sha256": "73d5fe2f7e2d14568fe9145435cf7cc14d52c906198d39d2256620c1bdc73c8f",
+      "size_bytes": 2576
+    },
+    {
+      "path": "tasks/moderation-ai/T027-data-ingestion-provenance-for-hard-cases.md",
+      "sha256": "377187e249df97152c6c32ded9c04149f2eb8d750fff959c97df3daff5be40f6",
+      "size_bytes": 2756
+    },
+    {
+      "path": "tasks/moderation-ai/T028-independent-evaluation-solo-review-protoco.md",
+      "sha256": "5c8ad7f9c71dfe7816b82aad391f4727492040a82d965d855334bdeb247d7ea8",
+      "size_bytes": 2681
+    },
+    {
+      "path": "tasks/moderation-ai/T029-optional-train-candidate-visobert-on-colab.md",
+      "sha256": "14e70cef4b479800aee37437b7d09416e1b3a5608fcac1341666ca98ea7d5202",
+      "size_bytes": 2786
+    },
+    {
+      "path": "tasks/moderation-ai/T030-paired-offline-evaluation-ablation.md",
+      "sha256": "86b31e2e9ff27ea6bdeba6396b11516fe86217eb1dc2e9c39e50717269f67b06",
+      "size_bytes": 2664
+    },
+    {
+      "path": "tasks/moderation-ai/T031-optional-model-registry-shadow-and-rollbac.md",
+      "sha256": "95af254a6ef48c2d302bf561842ff96cd13b085ba5cfb506f35978b12f287645",
+      "size_bytes": 2530
+    },
+    {
+      "path": "tasks/moderation-ai/T032-social-ai-integration-offline-safety-e2e.md",
+      "sha256": "aecb6097a91f2cdb2194f1581a8e0c309996289fe1aa5c271db5363406fcd991",
+      "size_bytes": 2601
+    },
+    {
+      "path": "tasks/moderation-ai/T033-technical-report-thesis-handoff.md",
+      "sha256": "ccb4ae0fa729886636812eae1fdb8e8b3cd6a1eb5e967c912c850d2d3a4b75b0",
+      "size_bytes": 2609
+    },
+    {
+      "path": "tasks/moderation-ai/TASK_ORDER_AI.md",
+      "sha256": "f6571388118e76b3894d6c913638a7344ddf427dca69eabc3f27e096d33ffe50",
+      "size_bytes": 2896
+    },
+    {
+      "path": "templates/experiment_manifest.example.json",
+      "sha256": "38c896f37e5215155920d38f0b6b05fa3c9a307fc8315d7639b023b030f16e5a",
+      "size_bytes": 786
+    },
+    {
+      "path": "templates/solo_review_template.csv",
+      "sha256": "9849fe55b0ce241b2f0e0bb13bc40e7f980b0ce2f48cfb56df681e3d2909a69c",
+      "size_bytes": 214
+    }
+  ]
+}

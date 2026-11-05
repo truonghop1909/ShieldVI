@@ -1,0 +1,243 @@
+{
+  "classification": {
+    "before": {
+      "n": 47,
+      "tp": 4,
+      "fp": 3,
+      "tn": 36,
+      "fn": 4,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.5714285714285714,
+      "toxic_recall": 0.5,
+      "macro_f1": 0.7223628691983122,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "after": {
+      "n": 47,
+      "tp": 8,
+      "fp": 1,
+      "tn": 38,
+      "fn": 0,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.8888888888888888,
+      "toxic_recall": 1.0,
+      "macro_f1": 0.9640947288006112,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    }
+  },
+  "grounding": {
+    "before": {
+      "reference_comments_with_target_coverage": 47,
+      "reference_attacks": 8,
+      "target_emissions": 4,
+      "target_correct": 2,
+      "target_precision": 0.5,
+      "target_recall": 0.25,
+      "target_abstentions_on_reference_attacks": 6,
+      "repeated": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "evidence_correct": 0,
+        "evidence_total": 0,
+        "evidence_precision": 0.0
+      }
+    },
+    "after": {
+      "reference_comments_with_target_coverage": 47,
+      "reference_attacks": 8,
+      "target_emissions": 8,
+      "target_correct": 8,
+      "target_precision": 1.0,
+      "target_recall": 1.0,
+      "target_abstentions_on_reference_attacks": 0,
+      "repeated": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "evidence_correct": 6,
+        "evidence_total": 6,
+        "evidence_precision": 1.0
+      }
+    }
+  },
+  "comments": 48,
+  "raw_invariant": true,
+  "new_label_errors": [],
+  "remaining_errors": [
+    {
+      "thread_id": "FRESH10_POSTFIX_03",
+      "comment_id": "c03",
+      "text": "Bạn góp ý nhịp lấy hơi được mà, đừng hạ thấp người hát.",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.428879,
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "changed_comments": [
+    {
+      "thread_id": "FRESH10_POSTFIX_01",
+      "comment_id": "c02",
+      "text": "Bạn sống kiểu vô ý thức thật, cứ để mic mở suốt trận đấu.",
+      "reference": "TOXIC",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.938965,
+      "before_target": null,
+      "after_target": "H01"
+    },
+    {
+      "thread_id": "FRESH10_POSTFIX_01",
+      "comment_id": "c05",
+      "text": "Bạn còn cãi cùn khi cả đội đã nói rõ nguyên nhân rồi.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "raw_score": 0.244443,
+      "before_target": null,
+      "after_target": "H01"
+    },
+    {
+      "thread_id": "FRESH10_POSTFIX_03",
+      "comment_id": "c02",
+      "text": "Đúng là thiên tài tự phong mới nghĩ đoạn vừa rồi đủ mang đi diễn.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "raw_score": 0.182221,
+      "before_target": null,
+      "after_target": "H01"
+    },
+    {
+      "thread_id": "FRESH10_POSTFIX_03",
+      "comment_id": "c05",
+      "text": "Bạn hát dở còn thích làm trung tâm trong buổi tập của nhóm.",
+      "reference": "TOXIC",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.785142,
+      "before_target": null,
+      "after_target": "H01"
+    },
+    {
+      "thread_id": "FRESH10_POSTFIX_04",
+      "comment_id": "c02",
+      "text": "Máy ngu này lại quên mạng WiFi, t phải nhập mật khẩu lần thứ ba rồi.",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "CLEAN",
+      "raw_score": 0.222556,
+      "before_target": "H01",
+      "after_target": null
+    },
+    {
+      "thread_id": "FRESH10_POSTFIX_04",
+      "comment_id": "c06",
+      "text": "Mình đổi bạn vài hạt ngò, rồi mang thêm ống nối cho máy phun sương.",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "CLEAN",
+      "raw_score": 0.012186,
+      "before_target": "H01",
+      "after_target": null
+    },
+    {
+      "thread_id": "FRESH10_POSTFIX_06",
+      "comment_id": "c02",
+      "text": "Tôi không chấp nhận công kích, nhưng bạn cứ cãi cùn trong cuộc họp này.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "raw_score": 0.729044,
+      "before_target": null,
+      "after_target": "H01"
+    },
+    {
+      "thread_id": "FRESH10_POSTFIX_06",
+      "comment_id": "c05",
+      "text": "Bạn thích ra oai quá, mới hỏi phí mà làm như điều hành cả khu.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "raw_score": 0.133316,
+      "before_target": null,
+      "after_target": "H01"
+    }
+  ],
+  "uncertain_reference_excluded": 1,
+  "reference_evidence": {
+    "before": {
+      "evidence_correct": 0,
+      "evidence_emitted": 0,
+      "evidence_reference": 6,
+      "evidence_precision": 0,
+      "evidence_recall": 0.0,
+      "fully_covered_events": 0,
+      "expected_events": 3,
+      "missing_evidence": [
+        {
+          "pair": [
+            "FRESH10_POSTFIX_01",
+            "H02",
+            "H01"
+          ],
+          "missing": [
+            "c02",
+            "c05"
+          ]
+        },
+        {
+          "pair": [
+            "FRESH10_POSTFIX_03",
+            "H02",
+            "H01"
+          ],
+          "missing": [
+            "c02",
+            "c05"
+          ]
+        },
+        {
+          "pair": [
+            "FRESH10_POSTFIX_06",
+            "H02",
+            "H01"
+          ],
+          "missing": [
+            "c02",
+            "c05"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "evidence_correct": 6,
+      "evidence_emitted": 6,
+      "evidence_reference": 6,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "fully_covered_events": 3,
+      "expected_events": 3,
+      "missing_evidence": []
+    }
+  },
+  "human_gold": false,
+  "training_performed": false,
+  "model_sha256": "e5090150ab0d951887060a4cefd25c223fe7d11aa23dd174fedf8b4f18abe3b2",
+  "dataset_manifest_sha256": "93d1df1739f23090e9fa4d9047444201684142adfe42cbbe6c9f8f093b1c68b4",
+  "experiment_lock_sha256": "f76598de8921188a58a275efb1562453b58c8ee6cba6d65e3152468b2bfb06e9",
+  "scope": "synthetic_reference; same author; no independent real-world evaluation"
+}

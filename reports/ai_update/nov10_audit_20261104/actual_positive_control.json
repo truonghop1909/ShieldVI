@@ -1,0 +1,279 @@
+{
+  "thread_id": "actual_runtime_control",
+  "model_name": "ViSoBERT T029_synthetic_only_head_cpu_20261103_r06 (frozen encoder, CPU head) — ViCTSD",
+  "model_threshold": 0.41,
+  "repeated_rule_threshold": 0.41,
+  "profile": "conservative",
+  "research_only": false,
+  "suspected_repeated_harassment": true,
+  "risk_level": "suspected_repeated",
+  "risk_score_heuristic": 75,
+  "evidence": [
+    {
+      "actor_user_id": "B",
+      "target_user_id": "A",
+      "evidence_comment_ids": [
+        "b",
+        "c"
+      ],
+      "n_distinct_timestamps": 2,
+      "target_confidence": "medium"
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "a",
+      "user_id": "A",
+      "parent_id": null,
+      "timestamp": "2026-11-04T12:00:00Z",
+      "toxicity_score": 0.005611,
+      "toxic_for_moderation": false,
+      "toxic_for_repeated_rule": false,
+      "target_user_id": null,
+      "target_method": "undetermined",
+      "target_confidence": "none",
+      "profanity_detected": false,
+      "lexical_review_recommended": false,
+      "directed_insult_candidate": false,
+      "reported_or_apology_context": false,
+      "review_recommended": false,
+      "lexical_signals": [],
+      "analysis_signals": {
+        "context_tags": [],
+        "context": {
+          "version": "context-v6.1-research",
+          "tags": [],
+          "attack_candidate": false,
+          "confidence": "low",
+          "negated_attack": false,
+          "cues": [],
+          "needs_human_review": false,
+          "non_attack_context_confirmed": false,
+          "unresolved_new_clause": false,
+          "attack_clause_spans": []
+        },
+        "directed_attack_candidate": false,
+        "attack_confidence": "low",
+        "target_candidate": null,
+        "target_evidence": {
+          "version": "target-v6.1-research",
+          "candidate": null,
+          "method": "non_attack_or_uncertain",
+          "confidence": "none",
+          "evidence_comment_ids": [],
+          "needs_human_review": true
+        },
+        "attack_instance_candidate": false,
+        "attack_instance_basis": "insufficient_context_or_target",
+        "rule_version": "repeated-v6.1-research",
+        "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+        "needs_human_review": false
+      },
+      "reply_to_user_id": null,
+      "directed_at_user_id": null,
+      "moderation_assessment": {
+        "label": "CLEAN",
+        "basis": "raw_model_fallback",
+        "version": "context-assessment-v1",
+        "human_gold": false,
+        "advisory_only": true
+      },
+      "policy_risk": {
+        "band": "LOW",
+        "reason": "no_review_trigger",
+        "executed": false
+      }
+    },
+    {
+      "comment_id": "b",
+      "user_id": "B",
+      "parent_id": "a",
+      "timestamp": "2026-11-04T12:02:00Z",
+      "toxicity_score": 0.966784,
+      "toxic_for_moderation": true,
+      "toxic_for_repeated_rule": true,
+      "target_user_id": "A",
+      "target_method": "reply_parent_author",
+      "target_confidence": "medium",
+      "profanity_detected": false,
+      "lexical_review_recommended": true,
+      "directed_insult_candidate": true,
+      "reported_or_apology_context": false,
+      "review_recommended": true,
+      "lexical_signals": [
+        {
+          "rule_id": "vi_oc_cho",
+          "category": "directed_insult",
+          "matched_form": "đồ ngu",
+          "strength": "context",
+          "canonical_form": "đồ ngu",
+          "language": "vi",
+          "reason": "Cụm có thể hạ nhục người khác; phải kiểm tra đối tượng và trích dẫn. Có dấu hiệu hướng tới người gần cụm từ; cần xác nhận thủ công.",
+          "source_ids": [
+            "blue_eyes_vi",
+            "ldnoobw_v2_vi",
+            "shieldvi_reviewed"
+          ],
+          "start": 12,
+          "end": 18
+        }
+      ],
+      "analysis_signals": {
+        "context_tags": [
+          "DIRECT_ATTACK"
+        ],
+        "context": {
+          "version": "context-v6.1-research",
+          "tags": [
+            "DIRECT_ATTACK"
+          ],
+          "attack_candidate": true,
+          "confidence": "medium",
+          "negated_attack": false,
+          "cues": [
+            "new_directed_attack"
+          ],
+          "needs_human_review": true,
+          "non_attack_context_confirmed": false,
+          "unresolved_new_clause": false,
+          "attack_clause_spans": [
+            [
+              0,
+              18
+            ]
+          ]
+        },
+        "directed_attack_candidate": true,
+        "attack_confidence": "medium",
+        "target_candidate": "A",
+        "target_evidence": {
+          "version": "target-v6.1-research",
+          "candidate": "A",
+          "method": "addressed_reply",
+          "confidence": "medium",
+          "evidence_comment_ids": [
+            "b",
+            "a"
+          ],
+          "needs_human_review": true
+        },
+        "attack_instance_candidate": true,
+        "attack_instance_basis": "context_with_grounded_target",
+        "rule_version": "repeated-v6.1-research",
+        "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+        "needs_human_review": true
+      },
+      "reply_to_user_id": "A",
+      "directed_at_user_id": "A",
+      "moderation_assessment": {
+        "label": "TOXIC",
+        "basis": "new_directed_attack",
+        "version": "context-assessment-v1",
+        "human_gold": false,
+        "advisory_only": true
+      },
+      "policy_risk": {
+        "band": "REVIEW",
+        "reason": "attack_review",
+        "executed": false
+      }
+    },
+    {
+      "comment_id": "c",
+      "user_id": "B",
+      "parent_id": "a",
+      "timestamp": "2026-11-04T12:04:00Z",
+      "toxicity_score": 0.983625,
+      "toxic_for_moderation": true,
+      "toxic_for_repeated_rule": true,
+      "target_user_id": "A",
+      "target_method": "reply_parent_author",
+      "target_confidence": "medium",
+      "profanity_detected": false,
+      "lexical_review_recommended": false,
+      "directed_insult_candidate": false,
+      "reported_or_apology_context": false,
+      "review_recommended": true,
+      "lexical_signals": [],
+      "analysis_signals": {
+        "context_tags": [
+          "DIRECT_ATTACK"
+        ],
+        "context": {
+          "version": "context-v6.1-research",
+          "tags": [
+            "DIRECT_ATTACK"
+          ],
+          "attack_candidate": true,
+          "confidence": "medium",
+          "negated_attack": false,
+          "cues": [
+            "new_directed_attack"
+          ],
+          "needs_human_review": true,
+          "non_attack_context_confirmed": false,
+          "unresolved_new_clause": false,
+          "attack_clause_spans": [
+            [
+              0,
+              17
+            ]
+          ]
+        },
+        "directed_attack_candidate": true,
+        "attack_confidence": "medium",
+        "target_candidate": "A",
+        "target_evidence": {
+          "version": "target-v6.1-research",
+          "candidate": "A",
+          "method": "addressed_reply",
+          "confidence": "medium",
+          "evidence_comment_ids": [
+            "c",
+            "a",
+            "b"
+          ],
+          "needs_human_review": true
+        },
+        "attack_instance_candidate": true,
+        "attack_instance_basis": "context_with_grounded_target",
+        "rule_version": "repeated-v6.1-research",
+        "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+        "needs_human_review": true
+      },
+      "reply_to_user_id": "A",
+      "directed_at_user_id": "A",
+      "moderation_assessment": {
+        "label": "TOXIC",
+        "basis": "new_directed_attack",
+        "version": "context-assessment-v1",
+        "human_gold": false,
+        "advisory_only": true
+      },
+      "policy_risk": {
+        "band": "REVIEW",
+        "reason": "attack_review",
+        "executed": false
+      }
+    }
+  ],
+  "warnings": [
+    "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+    "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+    "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+    "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+    "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại.",
+    "Version 2 evidence uses context and grounded attack targets; legacy recipient fields are retained separately. Heuristics require human review, not a harassment verdict.",
+    "Opt-in v6 research only; default v5/readiness lock unchanged, synthetic references are not human gold."
+  ],
+  "analysis_version": "2.0",
+  "rule_versions": {
+    "context": "context-v6.1-research",
+    "target": "target-v6.1-research",
+    "repeated": "repeated-v6.1-research",
+    "assessment": "context-assessment-v1"
+  },
+  "source_model_threshold": 0.41,
+  "policy_executed": false,
+  "checkpoint_id": "ViSoBERT T029_synthetic_only_head_cpu_20261103_r06 (frozen encoder, CPU head) — ViCTSD"
+}

@@ -1,0 +1,24 @@
+{
+  "analysis_version": "2.0-draft",
+  "model_name": "ViSoBERT V1 — ViCTSD",
+  "model_threshold": 0.41,
+  "comments": [
+    {
+      "comment_id": "example",
+      "toxicity_score": 0.53,
+      "toxic_for_moderation": true,
+      "analysis_signals": {
+        "context_tags": [
+          "APOLOGY",
+          "QUOTE"
+        ],
+        "directed_attack_candidate": false,
+        "attack_confidence": "low",
+        "target_candidate": null,
+        "lexicon_version": "proposed-v2",
+        "needs_human_review": true
+      }
+    }
+  ],
+  "notes": "Example only: additive fields, not actual V3 response; AI does not set Social API visibility."
+}

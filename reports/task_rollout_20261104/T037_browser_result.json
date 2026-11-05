@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "checks": [
+    "two_independent_authenticated_browser_contexts",
+    "send_ack_and_two_client_delivery_without_refresh",
+    "parent_reply_persisted",
+    "automatic_reconnect_cursor_catchup",
+    "ai_outage_send_persistence_retry_and_recovery",
+    "edit_updates_peer_without_stale_body",
+    "delete_updates_peer",
+    "reload_restores_server_messages_and_session",
+    "lost_ack_retry_idempotent_no_duplicate",
+    "untrusted_text_rendered_without_html_execution",
+    "ordinary_user_admin_api_denied",
+    "sse_used_no_staff_raw_evidence_in_user_ui"
+  ],
+  "latencies": [
+    {
+      "condition": "fixture_AI_workflow",
+      "ack_ms": 53,
+      "observer_delivery_ms": 368
+    },
+    {
+      "condition": "fixture_AI_workflow",
+      "ack_ms": 48,
+      "observer_delivery_ms": 250
+    },
+    {
+      "condition": "fixture_AI_workflow",
+      "ack_ms": 47,
+      "observer_delivery_ms": 47
+    },
+    {
+      "condition": "fixture_AI_workflow",
+      "ack_ms": 51,
+      "observer_delivery_ms": 51
+    },
+    {
+      "condition": "fixture_AI_workflow",
+      "ack_ms": 51,
+      "observer_delivery_ms": 263
+    }
+  ],
+  "stream_requests": 3,
+  "contexts": 2,
+  "ai_mode": "deterministic_raw_fixture_actual_default_v5_rules_not_neural",
+  "no_page_refresh_required": true
+}

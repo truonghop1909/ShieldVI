@@ -1,0 +1,5927 @@
+{
+  "roots": [
+    "datasets/",
+    "fixtures/ (if present)",
+    "tests/",
+    "docs/"
+  ],
+  "files": [
+    {
+      "file": "datasets/manifest.json",
+      "bytes": 7414
+    },
+    {
+      "file": "datasets/training_plan.json",
+      "bytes": 894
+    },
+    {
+      "file": "datasets/ai-update/evaluation_manifest.json",
+      "bytes": 1055
+    },
+    {
+      "file": "datasets/prepared/victsd_test.csv",
+      "bytes": 194622
+    },
+    {
+      "file": "datasets/prepared/victsd_train.csv",
+      "bytes": 1376912
+    },
+    {
+      "file": "datasets/prepared/victsd_train.jsonl",
+      "bytes": 3675068
+    },
+    {
+      "file": "datasets/prepared/victsd_validation.csv",
+      "bytes": 417807
+    },
+    {
+      "file": "datasets/prepared/vihos_train.jsonl",
+      "bytes": 3806043
+    },
+    {
+      "file": "datasets/prepared/vilexnorm_train.jsonl",
+      "bytes": 4048995
+    },
+    {
+      "file": "datasets/raw/catalog.json",
+      "bytes": 5361
+    },
+    {
+      "file": "datasets/review/import_rejections.jsonl",
+      "bytes": 0
+    },
+    {
+      "file": "datasets/review/mxh_style_challenge.json",
+      "bytes": 9188
+    },
+    {
+      "file": "datasets/review/teencode_normalization_candidates.jsonl",
+      "bytes": 909724
+    },
+    {
+      "file": "datasets/synthetic_conversations/annotations.csv",
+      "bytes": 510917
+    },
+    {
+      "file": "datasets/synthetic_conversations/comments.csv",
+      "bytes": 349763
+    },
+    {
+      "file": "datasets/synthetic_conversations/manifest.json",
+      "bytes": 18642
+    },
+    {
+      "file": "datasets/ai-update/review_v1/dataset_manifest.json",
+      "bytes": 4802
+    },
+    {
+      "file": "datasets/ai-update/review_v1/rejected.jsonl",
+      "bytes": 0
+    },
+    {
+      "file": "datasets/ai-update/review_v1/review.jsonl",
+      "bytes": 1156553
+    },
+    {
+      "file": "datasets/ai-update/review_v1/test.jsonl",
+      "bytes": 0
+    },
+    {
+      "file": "datasets/ai-update/review_v1/train.jsonl",
+      "bytes": 0
+    },
+    {
+      "file": "datasets/ai-update/review_v1/validation.jsonl",
+      "bytes": 0
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/game_rank_30_reference.json",
+      "bytes": 1607
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/manifest.json",
+      "bytes": 1797
+    },
+    {
+      "file": "datasets/fixtures/genz_regression/reviewer_needed.csv",
+      "bytes": 36908
+    },
+    {
+      "file": "datasets/fixtures/genz_regression/SHIELDVI_01_GAME_RANK_LAG_30.json",
+      "bytes": 6751
+    },
+    {
+      "file": "datasets/fixtures/genz_regression/SHIELDVI_02_SHOP_GIAY_SECONDHAND_30.json",
+      "bytes": 7101
+    },
+    {
+      "file": "datasets/fixtures/genz_regression/SHIELDVI_03_DANCE_COVER_TIKTOK_30.json",
+      "bytes": 6904
+    },
+    {
+      "file": "datasets/fixtures/genz_regression/SHIELDVI_04_DI_CAMPING_CHIA_TIEN_30.json",
+      "bytes": 6990
+    },
+    {
+      "file": "datasets/fixtures/genz_regression/SHIELDVI_05_FANART_AI_DISPUTE_30.json",
+      "bytes": 6991
+    },
+    {
+      "file": "datasets/fixtures/genz_regression/synthetic_reference_tags.csv",
+      "bytes": 18840
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_01.json",
+      "bytes": 2646
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_02.json",
+      "bytes": 2677
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_03.json",
+      "bytes": 2699
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_04.json",
+      "bytes": 2713
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_05.json",
+      "bytes": 2641
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_06.json",
+      "bytes": 2574
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_07.json",
+      "bytes": 2585
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_08.json",
+      "bytes": 2688
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_09.json",
+      "bytes": 2559
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_10.json",
+      "bytes": 2619
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_11.json",
+      "bytes": 2660
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/dashboard_threads/CTX_RECOVERY_V1_12.json",
+      "bytes": 2584
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_01.json",
+      "bytes": 8746
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_02.json",
+      "bytes": 8653
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_03.json",
+      "bytes": 8781
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_04.json",
+      "bytes": 8836
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_05.json",
+      "bytes": 8739
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_06.json",
+      "bytes": 8507
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_07.json",
+      "bytes": 8532
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_08.json",
+      "bytes": 8630
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_09.json",
+      "bytes": 8519
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_10.json",
+      "bytes": 8579
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_11.json",
+      "bytes": 8652
+    },
+    {
+      "file": "datasets/fixtures/context_recovery_v1/threads/CTX_RECOVERY_V1_12.json",
+      "bytes": 8533
+    },
+    {
+      "file": "datasets/processed/victsd/test.jsonl",
+      "bytes": 524583
+    },
+    {
+      "file": "datasets/processed/victsd/train.jsonl",
+      "bytes": 3699882
+    },
+    {
+      "file": "datasets/processed/victsd/validation.jsonl",
+      "bytes": 1089818
+    },
+    {
+      "file": "datasets/processed/vihos/test.jsonl",
+      "bytes": 470998
+    },
+    {
+      "file": "datasets/processed/vihos/train.jsonl",
+      "bytes": 3814881
+    },
+    {
+      "file": "datasets/processed/vihos/validation.jsonl",
+      "bytes": 490150
+    },
+    {
+      "file": "datasets/processed/vilexnorm/test.jsonl",
+      "bytes": 508502
+    },
+    {
+      "file": "datasets/processed/vilexnorm/train.jsonl",
+      "bytes": 4054606
+    },
+    {
+      "file": "datasets/processed/vilexnorm/validation.jsonl",
+      "bytes": 528140
+    },
+    {
+      "file": "datasets/raw/victsd/ViCTSD_test.csv",
+      "bytes": 239211
+    },
+    {
+      "file": "datasets/raw/victsd/ViCTSD_train.csv",
+      "bytes": 1690621
+    },
+    {
+      "file": "datasets/raw/victsd/ViCTSD_valid.csv",
+      "bytes": 495885
+    },
+    {
+      "file": "datasets/raw/vihos/data__Span_Extraction_based_version__dev.csv",
+      "bytes": 127675
+    },
+    {
+      "file": "datasets/raw/vihos/data__Span_Extraction_based_version__train.csv",
+      "bytes": 1004691
+    },
+    {
+      "file": "datasets/raw/vihos/data__Test_data__test.csv",
+      "bytes": 121774
+    },
+    {
+      "file": "datasets/raw/vilexnorm/data__dev.csv",
+      "bytes": 155357
+    },
+    {
+      "file": "datasets/raw/vilexnorm/data__test.csv",
+      "bytes": 149943
+    },
+    {
+      "file": "datasets/raw/vilexnorm/data__train.csv",
+      "bytes": 1164631
+    },
+    {
+      "file": "datasets/real_conversations/manifests/collection_policy.json",
+      "bytes": 302
+    },
+    {
+      "file": "datasets/real_conversations/manifests/development_exclusions.json",
+      "bytes": 397672
+    },
+    {
+      "file": "datasets/real_conversations/manifests/progress.json",
+      "bytes": 844
+    },
+    {
+      "file": "datasets/real_conversations/manifests/sources.json",
+      "bytes": 609
+    },
+    {
+      "file": "datasets/real_conversations/manifests/thread.schema.json",
+      "bytes": 5450
+    },
+    {
+      "file": "datasets/real_conversations/raw/collector_state.json",
+      "bytes": 211
+    },
+    {
+      "file": "datasets/real_conversations/reports/old_dataset_audit.json",
+      "bytes": 789
+    },
+    {
+      "file": "datasets/real_conversations/reports/quality.json",
+      "bytes": 1085
+    },
+    {
+      "file": "datasets/real_conversations/batches/batch_01/blocked_attempt.json",
+      "bytes": 202
+    },
+    {
+      "file": "datasets/review/conversations_100/comments_review.csv",
+      "bytes": 547612
+    },
+    {
+      "file": "datasets/review/conversations_100/conversations_labeled.json",
+      "bytes": 1334668
+    },
+    {
+      "file": "datasets/review/conversations_100/summary.json",
+      "bytes": 1032
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_001.json",
+      "bytes": 3099
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_002.json",
+      "bytes": 3468
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_003.json",
+      "bytes": 3697
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_004.json",
+      "bytes": 4131
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_005.json",
+      "bytes": 4298
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_006.json",
+      "bytes": 4583
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_007.json",
+      "bytes": 4995
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_008.json",
+      "bytes": 5319
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_009.json",
+      "bytes": 5612
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_010.json",
+      "bytes": 5855
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_011.json",
+      "bytes": 6119
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_012.json",
+      "bytes": 3148
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_013.json",
+      "bytes": 3398
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_014.json",
+      "bytes": 3851
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_015.json",
+      "bytes": 4041
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_016.json",
+      "bytes": 4251
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_017.json",
+      "bytes": 4675
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_018.json",
+      "bytes": 5061
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_019.json",
+      "bytes": 5343
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_020.json",
+      "bytes": 5577
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_021.json",
+      "bytes": 5776
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_022.json",
+      "bytes": 6203
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_023.json",
+      "bytes": 3105
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_024.json",
+      "bytes": 3375
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_025.json",
+      "bytes": 3768
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_026.json",
+      "bytes": 4177
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_027.json",
+      "bytes": 4465
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_028.json",
+      "bytes": 4658
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_029.json",
+      "bytes": 4874
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_030.json",
+      "bytes": 5237
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_031.json",
+      "bytes": 5523
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_032.json",
+      "bytes": 5923
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_033.json",
+      "bytes": 6095
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_034.json",
+      "bytes": 3081
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_035.json",
+      "bytes": 3490
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_036.json",
+      "bytes": 3842
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_037.json",
+      "bytes": 4170
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_038.json",
+      "bytes": 4392
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_039.json",
+      "bytes": 4599
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_040.json",
+      "bytes": 4961
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_041.json",
+      "bytes": 5202
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_042.json",
+      "bytes": 5457
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_043.json",
+      "bytes": 5857
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_044.json",
+      "bytes": 6224
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_045.json",
+      "bytes": 3245
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_046.json",
+      "bytes": 3495
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_047.json",
+      "bytes": 3729
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_048.json",
+      "bytes": 4049
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_049.json",
+      "bytes": 4259
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_050.json",
+      "bytes": 4716
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_051.json",
+      "bytes": 4951
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_052.json",
+      "bytes": 5174
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_053.json",
+      "bytes": 5565
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_054.json",
+      "bytes": 5949
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_055.json",
+      "bytes": 6248
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_056.json",
+      "bytes": 3157
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_057.json",
+      "bytes": 3424
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_058.json",
+      "bytes": 3768
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_059.json",
+      "bytes": 4009
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_060.json",
+      "bytes": 4428
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_061.json",
+      "bytes": 4665
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_062.json",
+      "bytes": 5045
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_063.json",
+      "bytes": 5343
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_064.json",
+      "bytes": 5563
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_065.json",
+      "bytes": 5775
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_066.json",
+      "bytes": 6152
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_067.json",
+      "bytes": 3111
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_068.json",
+      "bytes": 3522
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_069.json",
+      "bytes": 3697
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_070.json",
+      "bytes": 3976
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_071.json",
+      "bytes": 4402
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_072.json",
+      "bytes": 4748
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_073.json",
+      "bytes": 5053
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_074.json",
+      "bytes": 5301
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_075.json",
+      "bytes": 5511
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_076.json",
+      "bytes": 5821
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_077.json",
+      "bytes": 6085
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_078.json",
+      "bytes": 3225
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_079.json",
+      "bytes": 3433
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_080.json",
+      "bytes": 3668
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_081.json",
+      "bytes": 4160
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_082.json",
+      "bytes": 4367
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_083.json",
+      "bytes": 4599
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_084.json",
+      "bytes": 4947
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_085.json",
+      "bytes": 5176
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_086.json",
+      "bytes": 5638
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_087.json",
+      "bytes": 5816
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_088.json",
+      "bytes": 6037
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_089.json",
+      "bytes": 3139
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_090.json",
+      "bytes": 3556
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_091.json",
+      "bytes": 3884
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_092.json",
+      "bytes": 4103
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_093.json",
+      "bytes": 4297
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_094.json",
+      "bytes": 4679
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_095.json",
+      "bytes": 4914
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_096.json",
+      "bytes": 5304
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_097.json",
+      "bytes": 5514
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_098.json",
+      "bytes": 5772
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_099.json",
+      "bytes": 6156
+    },
+    {
+      "file": "datasets/review/conversations_100/threads/SYN_VI_100.json",
+      "bytes": 3225
+    },
+    {
+      "file": "datasets/synthetic_conversations/batches/batch_01.json",
+      "bytes": 7510
+    },
+    {
+      "file": "datasets/synthetic_conversations/batches/batch_02.json",
+      "bytes": 7430
+    },
+    {
+      "file": "datasets/synthetic_conversations/batches/batch_03.json",
+      "bytes": 7466
+    },
+    {
+      "file": "datasets/synthetic_conversations/batches/batch_04.json",
+      "bytes": 7358
+    },
+    {
+      "file": "datasets/synthetic_conversations/batches/diversity_audit.json",
+      "bytes": 799
+    },
+    {
+      "file": "datasets/synthetic_conversations/batches/pilot_10_review.json",
+      "bytes": 608
+    },
+    {
+      "file": "datasets/synthetic_conversations/batches/thread.schema.json",
+      "bytes": 4695
+    },
+    {
+      "file": "datasets/synthetic_conversations/batches/validation_latest.json",
+      "bytes": 1833
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dataset_manifest.json",
+      "bytes": 58416
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/development_lock.json",
+      "bytes": 2813
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/development_threads.jsonl",
+      "bytes": 549205
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/excluded_training_targets.jsonl",
+      "bytes": 12914
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/labels_review.csv",
+      "bytes": 1369590
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/train_comments.csv",
+      "bytes": 599742
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/train_threads.jsonl",
+      "bytes": 4176377
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0001.json",
+      "bytes": 10461
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0002.json",
+      "bytes": 8764
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0003.json",
+      "bytes": 9983
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0004.json",
+      "bytes": 11587
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0005.json",
+      "bytes": 8996
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0006.json",
+      "bytes": 10743
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0007.json",
+      "bytes": 9957
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0008.json",
+      "bytes": 8999
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0009.json",
+      "bytes": 12744
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0010.json",
+      "bytes": 8842
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0011.json",
+      "bytes": 8441
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0012.json",
+      "bytes": 8466
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0013.json",
+      "bytes": 8828
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0014.json",
+      "bytes": 8536
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0015.json",
+      "bytes": 8946
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0016.json",
+      "bytes": 8684
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0017.json",
+      "bytes": 8717
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0018.json",
+      "bytes": 8829
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0019.json",
+      "bytes": 9141
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0020.json",
+      "bytes": 8797
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0021.json",
+      "bytes": 8871
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0022.json",
+      "bytes": 8806
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0023.json",
+      "bytes": 8919
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0024.json",
+      "bytes": 8783
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0025.json",
+      "bytes": 8699
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0026.json",
+      "bytes": 9086
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0027.json",
+      "bytes": 8638
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0028.json",
+      "bytes": 9102
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0029.json",
+      "bytes": 8826
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0030.json",
+      "bytes": 8765
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0031.json",
+      "bytes": 8706
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0032.json",
+      "bytes": 9023
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0033.json",
+      "bytes": 9192
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0034.json",
+      "bytes": 9204
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0035.json",
+      "bytes": 8682
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0036.json",
+      "bytes": 8968
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0037.json",
+      "bytes": 9099
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0038.json",
+      "bytes": 8884
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0039.json",
+      "bytes": 8686
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0040.json",
+      "bytes": 9048
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0041.json",
+      "bytes": 8850
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0042.json",
+      "bytes": 9038
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0043.json",
+      "bytes": 8851
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0044.json",
+      "bytes": 9107
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0045.json",
+      "bytes": 8643
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0046.json",
+      "bytes": 9054
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0047.json",
+      "bytes": 8842
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0048.json",
+      "bytes": 8986
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0049.json",
+      "bytes": 9218
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0050.json",
+      "bytes": 8677
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0051.json",
+      "bytes": 8825
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0052.json",
+      "bytes": 8926
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0053.json",
+      "bytes": 8928
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0054.json",
+      "bytes": 8663
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0055.json",
+      "bytes": 8825
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0056.json",
+      "bytes": 8630
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0057.json",
+      "bytes": 9049
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0058.json",
+      "bytes": 8945
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0059.json",
+      "bytes": 8772
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0060.json",
+      "bytes": 8718
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0061.json",
+      "bytes": 8720
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0062.json",
+      "bytes": 9035
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0063.json",
+      "bytes": 9092
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0064.json",
+      "bytes": 8788
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0065.json",
+      "bytes": 9006
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0066.json",
+      "bytes": 8733
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0067.json",
+      "bytes": 8845
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0068.json",
+      "bytes": 9015
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0069.json",
+      "bytes": 9099
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0070.json",
+      "bytes": 8813
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0071.json",
+      "bytes": 8933
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0072.json",
+      "bytes": 9018
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0073.json",
+      "bytes": 8906
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0074.json",
+      "bytes": 9002
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0075.json",
+      "bytes": 9005
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0076.json",
+      "bytes": 9172
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0077.json",
+      "bytes": 8801
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0078.json",
+      "bytes": 9200
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0079.json",
+      "bytes": 8939
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0080.json",
+      "bytes": 8805
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0081.json",
+      "bytes": 9064
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0082.json",
+      "bytes": 9064
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0083.json",
+      "bytes": 8909
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0084.json",
+      "bytes": 9133
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0085.json",
+      "bytes": 8875
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0086.json",
+      "bytes": 9173
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0087.json",
+      "bytes": 8908
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0088.json",
+      "bytes": 8937
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0089.json",
+      "bytes": 9106
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0090.json",
+      "bytes": 8903
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0091.json",
+      "bytes": 8803
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0092.json",
+      "bytes": 9108
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0093.json",
+      "bytes": 8897
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0094.json",
+      "bytes": 8995
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0095.json",
+      "bytes": 9017
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0096.json",
+      "bytes": 9035
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0097.json",
+      "bytes": 9095
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0098.json",
+      "bytes": 8924
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0099.json",
+      "bytes": 8781
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0100.json",
+      "bytes": 8896
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0101.json",
+      "bytes": 15672
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0102.json",
+      "bytes": 10614
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0103.json",
+      "bytes": 11624
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0104.json",
+      "bytes": 10910
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0105.json",
+      "bytes": 12153
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0106.json",
+      "bytes": 13353
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0107.json",
+      "bytes": 10779
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0108.json",
+      "bytes": 11413
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0109.json",
+      "bytes": 12432
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0110.json",
+      "bytes": 10794
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0111.json",
+      "bytes": 8897
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0112.json",
+      "bytes": 9134
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0113.json",
+      "bytes": 9162
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0114.json",
+      "bytes": 8918
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0115.json",
+      "bytes": 9101
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0116.json",
+      "bytes": 9115
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0117.json",
+      "bytes": 9212
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0118.json",
+      "bytes": 8962
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0119.json",
+      "bytes": 9179
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0120.json",
+      "bytes": 8819
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0121.json",
+      "bytes": 9086
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0122.json",
+      "bytes": 8952
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0123.json",
+      "bytes": 9167
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0124.json",
+      "bytes": 8987
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0125.json",
+      "bytes": 9237
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0126.json",
+      "bytes": 9166
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0127.json",
+      "bytes": 9050
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0128.json",
+      "bytes": 8924
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0129.json",
+      "bytes": 9214
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0130.json",
+      "bytes": 9247
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0131.json",
+      "bytes": 8897
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0132.json",
+      "bytes": 9311
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0133.json",
+      "bytes": 9035
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0134.json",
+      "bytes": 9056
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0135.json",
+      "bytes": 9302
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0136.json",
+      "bytes": 9121
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0137.json",
+      "bytes": 8906
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0138.json",
+      "bytes": 9275
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0139.json",
+      "bytes": 9037
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0140.json",
+      "bytes": 9326
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0141.json",
+      "bytes": 9049
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0142.json",
+      "bytes": 9160
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0143.json",
+      "bytes": 9176
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0144.json",
+      "bytes": 9063
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0145.json",
+      "bytes": 9278
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0146.json",
+      "bytes": 9182
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0147.json",
+      "bytes": 9064
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0148.json",
+      "bytes": 8976
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0149.json",
+      "bytes": 9294
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0150.json",
+      "bytes": 9115
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0151.json",
+      "bytes": 9036
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0152.json",
+      "bytes": 8921
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0153.json",
+      "bytes": 8992
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0154.json",
+      "bytes": 8940
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0155.json",
+      "bytes": 9110
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0156.json",
+      "bytes": 8944
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0157.json",
+      "bytes": 9010
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0158.json",
+      "bytes": 9126
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0159.json",
+      "bytes": 8909
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0160.json",
+      "bytes": 9241
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0161.json",
+      "bytes": 9273
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0162.json",
+      "bytes": 9129
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0163.json",
+      "bytes": 9172
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0164.json",
+      "bytes": 9076
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0165.json",
+      "bytes": 9147
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0166.json",
+      "bytes": 9251
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0167.json",
+      "bytes": 9137
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0168.json",
+      "bytes": 8960
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0169.json",
+      "bytes": 8999
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0170.json",
+      "bytes": 9032
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0171.json",
+      "bytes": 8952
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0172.json",
+      "bytes": 9162
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0173.json",
+      "bytes": 9220
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0174.json",
+      "bytes": 9257
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0175.json",
+      "bytes": 9175
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0176.json",
+      "bytes": 9088
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0177.json",
+      "bytes": 8905
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0178.json",
+      "bytes": 9085
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0179.json",
+      "bytes": 9178
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0180.json",
+      "bytes": 8955
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0181.json",
+      "bytes": 9210
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0182.json",
+      "bytes": 9295
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0183.json",
+      "bytes": 9199
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0184.json",
+      "bytes": 9298
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0185.json",
+      "bytes": 9060
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0186.json",
+      "bytes": 9135
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0187.json",
+      "bytes": 9286
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0188.json",
+      "bytes": 9111
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0189.json",
+      "bytes": 9430
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0190.json",
+      "bytes": 9211
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0191.json",
+      "bytes": 9059
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0192.json",
+      "bytes": 9248
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0193.json",
+      "bytes": 9230
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0194.json",
+      "bytes": 9106
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0195.json",
+      "bytes": 9321
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0196.json",
+      "bytes": 9018
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0197.json",
+      "bytes": 9298
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0198.json",
+      "bytes": 9081
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0199.json",
+      "bytes": 9355
+    },
+    {
+      "file": "datasets/synthetic_conversations/threads/SYN200_0200.json",
+      "bytes": 9426
+    },
+    {
+      "file": "datasets/synthetic_conversations/training_ai_labels_v1/excluded_uncertain.jsonl",
+      "bytes": 60509
+    },
+    {
+      "file": "datasets/synthetic_conversations/training_ai_labels_v1/manifest.json",
+      "bytes": 1515
+    },
+    {
+      "file": "datasets/synthetic_conversations/training_ai_labels_v1/train.csv",
+      "bytes": 305858
+    },
+    {
+      "file": "datasets/synthetic_conversations/training_ai_labels_v1/train.jsonl",
+      "bytes": 2140726
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/import_SGZ500_0001.json",
+      "bytes": 5579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/import_SGZ500_0051.json",
+      "bytes": 5579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/import_SGZ500_0101.json",
+      "bytes": 5579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/import_SGZ500_0151.json",
+      "bytes": 5579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/new_220.json",
+      "bytes": 2339
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/new_250.json",
+      "bytes": 3419
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/new_300.json",
+      "bytes": 5579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/new_350.json",
+      "bytes": 5579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/new_400.json",
+      "bytes": 5579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/new_450.json",
+      "bytes": 5579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/new_500.json",
+      "bytes": 5579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/quality_latest.json",
+      "bytes": 3880
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/batches/rejected_validation.json",
+      "bytes": 3856
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0001.json",
+      "bytes": 3186
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0002.json",
+      "bytes": 2718
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0003.json",
+      "bytes": 3048
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0004.json",
+      "bytes": 3582
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0005.json",
+      "bytes": 2810
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0006.json",
+      "bytes": 3400
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0007.json",
+      "bytes": 3048
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0008.json",
+      "bytes": 2833
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0009.json",
+      "bytes": 4029
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0010.json",
+      "bytes": 2796
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0011.json",
+      "bytes": 2472
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0012.json",
+      "bytes": 2502
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0013.json",
+      "bytes": 2529
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0014.json",
+      "bytes": 2520
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0015.json",
+      "bytes": 2615
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0016.json",
+      "bytes": 2579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0017.json",
+      "bytes": 2565
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0018.json",
+      "bytes": 2608
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0019.json",
+      "bytes": 2686
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0020.json",
+      "bytes": 2643
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0021.json",
+      "bytes": 2618
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0022.json",
+      "bytes": 2602
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0023.json",
+      "bytes": 2657
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0024.json",
+      "bytes": 2585
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0025.json",
+      "bytes": 2594
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0026.json",
+      "bytes": 2654
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0027.json",
+      "bytes": 2577
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0028.json",
+      "bytes": 2649
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0029.json",
+      "bytes": 2610
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0030.json",
+      "bytes": 2605
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0031.json",
+      "bytes": 2610
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0032.json",
+      "bytes": 2628
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0033.json",
+      "bytes": 2702
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0034.json",
+      "bytes": 2711
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0035.json",
+      "bytes": 2612
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0036.json",
+      "bytes": 2672
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0037.json",
+      "bytes": 2679
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0038.json",
+      "bytes": 2630
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0039.json",
+      "bytes": 2606
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0040.json",
+      "bytes": 2686
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0041.json",
+      "bytes": 2619
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0042.json",
+      "bytes": 2648
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0043.json",
+      "bytes": 2611
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0044.json",
+      "bytes": 2693
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0045.json",
+      "bytes": 2595
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0046.json",
+      "bytes": 2652
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0047.json",
+      "bytes": 2612
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0048.json",
+      "bytes": 2670
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0049.json",
+      "bytes": 2704
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0050.json",
+      "bytes": 2608
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0051.json",
+      "bytes": 2623
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0052.json",
+      "bytes": 2580
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0053.json",
+      "bytes": 2645
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0054.json",
+      "bytes": 2587
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0055.json",
+      "bytes": 2583
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0056.json",
+      "bytes": 2579
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0057.json",
+      "bytes": 2640
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0058.json",
+      "bytes": 2642
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0059.json",
+      "bytes": 2573
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0060.json",
+      "bytes": 2576
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0061.json",
+      "bytes": 2554
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0062.json",
+      "bytes": 2635
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0063.json",
+      "bytes": 2645
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0064.json",
+      "bytes": 2648
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0065.json",
+      "bytes": 2614
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0066.json",
+      "bytes": 2630
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0067.json",
+      "bytes": 2619
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0068.json",
+      "bytes": 2686
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0069.json",
+      "bytes": 2734
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0070.json",
+      "bytes": 2634
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0071.json",
+      "bytes": 2660
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0072.json",
+      "bytes": 2619
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0073.json",
+      "bytes": 2625
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0074.json",
+      "bytes": 2669
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0075.json",
+      "bytes": 2676
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0076.json",
+      "bytes": 2683
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0077.json",
+      "bytes": 2586
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0078.json",
+      "bytes": 2709
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0079.json",
+      "bytes": 2662
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0080.json",
+      "bytes": 2570
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0081.json",
+      "bytes": 2638
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0082.json",
+      "bytes": 2647
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0083.json",
+      "bytes": 2645
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0084.json",
+      "bytes": 2681
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0085.json",
+      "bytes": 2699
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0086.json",
+      "bytes": 2689
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0087.json",
+      "bytes": 2571
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0088.json",
+      "bytes": 2661
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0089.json",
+      "bytes": 2670
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0090.json",
+      "bytes": 2637
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0091.json",
+      "bytes": 2597
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0092.json",
+      "bytes": 2661
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0093.json",
+      "bytes": 2631
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0094.json",
+      "bytes": 2613
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0095.json",
+      "bytes": 2705
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0096.json",
+      "bytes": 2659
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0097.json",
+      "bytes": 2666
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0098.json",
+      "bytes": 2661
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0099.json",
+      "bytes": 2576
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0100.json",
+      "bytes": 2629
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0101.json",
+      "bytes": 4777
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0102.json",
+      "bytes": 3170
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0103.json",
+      "bytes": 3468
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0104.json",
+      "bytes": 3227
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0105.json",
+      "bytes": 3662
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0106.json",
+      "bytes": 4044
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0107.json",
+      "bytes": 3159
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0108.json",
+      "bytes": 3438
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0109.json",
+      "bytes": 3716
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0110.json",
+      "bytes": 3225
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0111.json",
+      "bytes": 2622
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0112.json",
+      "bytes": 2674
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0113.json",
+      "bytes": 2690
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0114.json",
+      "bytes": 2641
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0115.json",
+      "bytes": 2668
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0116.json",
+      "bytes": 2743
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0117.json",
+      "bytes": 2701
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0118.json",
+      "bytes": 2669
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0119.json",
+      "bytes": 2698
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0120.json",
+      "bytes": 2600
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0121.json",
+      "bytes": 2640
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0122.json",
+      "bytes": 2674
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0123.json",
+      "bytes": 2699
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0124.json",
+      "bytes": 2676
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0125.json",
+      "bytes": 2721
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0126.json",
+      "bytes": 2696
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0127.json",
+      "bytes": 2702
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0128.json",
+      "bytes": 2659
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0129.json",
+      "bytes": 2731
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0130.json",
+      "bytes": 2717
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0131.json",
+      "bytes": 2635
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0132.json",
+      "bytes": 2762
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0133.json",
+      "bytes": 2626
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0134.json",
+      "bytes": 2712
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0135.json",
+      "bytes": 2748
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0136.json",
+      "bytes": 2670
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0137.json",
+      "bytes": 2637
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0138.json",
+      "bytes": 2738
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0139.json",
+      "bytes": 2711
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0140.json",
+      "bytes": 2672
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0141.json",
+      "bytes": 2699
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0142.json",
+      "bytes": 2730
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0143.json",
+      "bytes": 2697
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0144.json",
+      "bytes": 2715
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0145.json",
+      "bytes": 2755
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0146.json",
+      "bytes": 2776
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0147.json",
+      "bytes": 2656
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0148.json",
+      "bytes": 2665
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0149.json",
+      "bytes": 2748
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0150.json",
+      "bytes": 2677
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0151.json",
+      "bytes": 2619
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0152.json",
+      "bytes": 2654
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0153.json",
+      "bytes": 2603
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0154.json",
+      "bytes": 2637
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0155.json",
+      "bytes": 2674
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0156.json",
+      "bytes": 2652
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0157.json",
+      "bytes": 2676
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0158.json",
+      "bytes": 2677
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0159.json",
+      "bytes": 2628
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0160.json",
+      "bytes": 2734
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0161.json",
+      "bytes": 2745
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0162.json",
+      "bytes": 2677
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0163.json",
+      "bytes": 2676
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0164.json",
+      "bytes": 2708
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0165.json",
+      "bytes": 2682
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0166.json",
+      "bytes": 2743
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0167.json",
+      "bytes": 2659
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0168.json",
+      "bytes": 2672
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0169.json",
+      "bytes": 2676
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0170.json",
+      "bytes": 2621
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0171.json",
+      "bytes": 2662
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0172.json",
+      "bytes": 2702
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0173.json",
+      "bytes": 2721
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0174.json",
+      "bytes": 2822
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0175.json",
+      "bytes": 2696
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0176.json",
+      "bytes": 2652
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0177.json",
+      "bytes": 2628
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0178.json",
+      "bytes": 2663
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0179.json",
+      "bytes": 2698
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0180.json",
+      "bytes": 2649
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0181.json",
+      "bytes": 2691
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0182.json",
+      "bytes": 2766
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0183.json",
+      "bytes": 2712
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0184.json",
+      "bytes": 2756
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0185.json",
+      "bytes": 2639
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0186.json",
+      "bytes": 2677
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0187.json",
+      "bytes": 2745
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0188.json",
+      "bytes": 2710
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0189.json",
+      "bytes": 2818
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0190.json",
+      "bytes": 2724
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0191.json",
+      "bytes": 2645
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0192.json",
+      "bytes": 2794
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0193.json",
+      "bytes": 2711
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0194.json",
+      "bytes": 2651
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0195.json",
+      "bytes": 2768
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0196.json",
+      "bytes": 2696
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0197.json",
+      "bytes": 2753
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0198.json",
+      "bytes": 2704
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0199.json",
+      "bytes": 2783
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0200.json",
+      "bytes": 2810
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0201.json",
+      "bytes": 2464
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0202.json",
+      "bytes": 2860
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0203.json",
+      "bytes": 2562
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0204.json",
+      "bytes": 2583
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0205.json",
+      "bytes": 2677
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0206.json",
+      "bytes": 2620
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0207.json",
+      "bytes": 2617
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0208.json",
+      "bytes": 2708
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0209.json",
+      "bytes": 2714
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0210.json",
+      "bytes": 2675
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0211.json",
+      "bytes": 2751
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0212.json",
+      "bytes": 2691
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0213.json",
+      "bytes": 2635
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0214.json",
+      "bytes": 2625
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0215.json",
+      "bytes": 2598
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0216.json",
+      "bytes": 2707
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0217.json",
+      "bytes": 2706
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0218.json",
+      "bytes": 2646
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0219.json",
+      "bytes": 2759
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0220.json",
+      "bytes": 3239
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0221.json",
+      "bytes": 2364
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0222.json",
+      "bytes": 2431
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0223.json",
+      "bytes": 2526
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0224.json",
+      "bytes": 2466
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0225.json",
+      "bytes": 2464
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0226.json",
+      "bytes": 2506
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0227.json",
+      "bytes": 2495
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0228.json",
+      "bytes": 2571
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0229.json",
+      "bytes": 2518
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0230.json",
+      "bytes": 2515
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0231.json",
+      "bytes": 2609
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0232.json",
+      "bytes": 2567
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0233.json",
+      "bytes": 2620
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0234.json",
+      "bytes": 2599
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0235.json",
+      "bytes": 2699
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0236.json",
+      "bytes": 2561
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0237.json",
+      "bytes": 2665
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0238.json",
+      "bytes": 2593
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0239.json",
+      "bytes": 2657
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0240.json",
+      "bytes": 2684
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0241.json",
+      "bytes": 2612
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0242.json",
+      "bytes": 2573
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0243.json",
+      "bytes": 2460
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0244.json",
+      "bytes": 2560
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0245.json",
+      "bytes": 2470
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0246.json",
+      "bytes": 2621
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0247.json",
+      "bytes": 2629
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0248.json",
+      "bytes": 2510
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0249.json",
+      "bytes": 2664
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0250.json",
+      "bytes": 2634
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0251.json",
+      "bytes": 2381
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0252.json",
+      "bytes": 2327
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0253.json",
+      "bytes": 2404
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0254.json",
+      "bytes": 2301
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0255.json",
+      "bytes": 2515
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0256.json",
+      "bytes": 2359
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0257.json",
+      "bytes": 2412
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0258.json",
+      "bytes": 2322
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0259.json",
+      "bytes": 2436
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0260.json",
+      "bytes": 2346
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0261.json",
+      "bytes": 2411
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0262.json",
+      "bytes": 2444
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0263.json",
+      "bytes": 2349
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0264.json",
+      "bytes": 2453
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0265.json",
+      "bytes": 2505
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0266.json",
+      "bytes": 2304
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0267.json",
+      "bytes": 2523
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0268.json",
+      "bytes": 2386
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0269.json",
+      "bytes": 2441
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0270.json",
+      "bytes": 2477
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0271.json",
+      "bytes": 2442
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0272.json",
+      "bytes": 2411
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0273.json",
+      "bytes": 2360
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0274.json",
+      "bytes": 2532
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0275.json",
+      "bytes": 2349
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0276.json",
+      "bytes": 2250
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0277.json",
+      "bytes": 2341
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0278.json",
+      "bytes": 2296
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0279.json",
+      "bytes": 2242
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0280.json",
+      "bytes": 2396
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0281.json",
+      "bytes": 2260
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0282.json",
+      "bytes": 2208
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0283.json",
+      "bytes": 2332
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0284.json",
+      "bytes": 2422
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0285.json",
+      "bytes": 2335
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0286.json",
+      "bytes": 2345
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0287.json",
+      "bytes": 2350
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0288.json",
+      "bytes": 2412
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0289.json",
+      "bytes": 2332
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0290.json",
+      "bytes": 2360
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0291.json",
+      "bytes": 2379
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0292.json",
+      "bytes": 2279
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0293.json",
+      "bytes": 2335
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0294.json",
+      "bytes": 2391
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0295.json",
+      "bytes": 2380
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0296.json",
+      "bytes": 2369
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0297.json",
+      "bytes": 2322
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0298.json",
+      "bytes": 2407
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0299.json",
+      "bytes": 2288
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0300.json",
+      "bytes": 2294
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0301.json",
+      "bytes": 2243
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0302.json",
+      "bytes": 2328
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0303.json",
+      "bytes": 2248
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0304.json",
+      "bytes": 2347
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0305.json",
+      "bytes": 2336
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0306.json",
+      "bytes": 2269
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0307.json",
+      "bytes": 2384
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0308.json",
+      "bytes": 2418
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0309.json",
+      "bytes": 2264
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0310.json",
+      "bytes": 2428
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0311.json",
+      "bytes": 2330
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0312.json",
+      "bytes": 2334
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0313.json",
+      "bytes": 2326
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0314.json",
+      "bytes": 2368
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0315.json",
+      "bytes": 2407
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0316.json",
+      "bytes": 2255
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0317.json",
+      "bytes": 2317
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0318.json",
+      "bytes": 2381
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0319.json",
+      "bytes": 2278
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0320.json",
+      "bytes": 2284
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0321.json",
+      "bytes": 2285
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0322.json",
+      "bytes": 2355
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0323.json",
+      "bytes": 2336
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0324.json",
+      "bytes": 2291
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0325.json",
+      "bytes": 2385
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0326.json",
+      "bytes": 2198
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0327.json",
+      "bytes": 2279
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0328.json",
+      "bytes": 2238
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0329.json",
+      "bytes": 2206
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0330.json",
+      "bytes": 2305
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0331.json",
+      "bytes": 2266
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0332.json",
+      "bytes": 2244
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0333.json",
+      "bytes": 2303
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0334.json",
+      "bytes": 2279
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0335.json",
+      "bytes": 2315
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0336.json",
+      "bytes": 2297
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0337.json",
+      "bytes": 2350
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0338.json",
+      "bytes": 2274
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0339.json",
+      "bytes": 2332
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0340.json",
+      "bytes": 2293
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0341.json",
+      "bytes": 2304
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0342.json",
+      "bytes": 2283
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0343.json",
+      "bytes": 2260
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0344.json",
+      "bytes": 2358
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0345.json",
+      "bytes": 2270
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0346.json",
+      "bytes": 2342
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0347.json",
+      "bytes": 2307
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0348.json",
+      "bytes": 2272
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0349.json",
+      "bytes": 2354
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0350.json",
+      "bytes": 2259
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0351.json",
+      "bytes": 2689
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0352.json",
+      "bytes": 2832
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0353.json",
+      "bytes": 2733
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0354.json",
+      "bytes": 2371
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0355.json",
+      "bytes": 2714
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0356.json",
+      "bytes": 2269
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0357.json",
+      "bytes": 2229
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0358.json",
+      "bytes": 2317
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0359.json",
+      "bytes": 2348
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0360.json",
+      "bytes": 2251
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0361.json",
+      "bytes": 2342
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0362.json",
+      "bytes": 2326
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0363.json",
+      "bytes": 2348
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0364.json",
+      "bytes": 2343
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0365.json",
+      "bytes": 2375
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0366.json",
+      "bytes": 2271
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0367.json",
+      "bytes": 2309
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0368.json",
+      "bytes": 2231
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0369.json",
+      "bytes": 2701
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0370.json",
+      "bytes": 2249
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0371.json",
+      "bytes": 2388
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0372.json",
+      "bytes": 2283
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0373.json",
+      "bytes": 2387
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0374.json",
+      "bytes": 2303
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0375.json",
+      "bytes": 2309
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0376.json",
+      "bytes": 2327
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0377.json",
+      "bytes": 2282
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0378.json",
+      "bytes": 2362
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0379.json",
+      "bytes": 2214
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0380.json",
+      "bytes": 2233
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0381.json",
+      "bytes": 2363
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0382.json",
+      "bytes": 2341
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0383.json",
+      "bytes": 2372
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0384.json",
+      "bytes": 2257
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0385.json",
+      "bytes": 2348
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0386.json",
+      "bytes": 2243
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0387.json",
+      "bytes": 2316
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0388.json",
+      "bytes": 2258
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0389.json",
+      "bytes": 2304
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0390.json",
+      "bytes": 2299
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0391.json",
+      "bytes": 2649
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0392.json",
+      "bytes": 2367
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0393.json",
+      "bytes": 2338
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0394.json",
+      "bytes": 2368
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0395.json",
+      "bytes": 2366
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0396.json",
+      "bytes": 2360
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0397.json",
+      "bytes": 2696
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0398.json",
+      "bytes": 2346
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0399.json",
+      "bytes": 2326
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0400.json",
+      "bytes": 2246
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0401.json",
+      "bytes": 2650
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0402.json",
+      "bytes": 2257
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0403.json",
+      "bytes": 2297
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0404.json",
+      "bytes": 2348
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0405.json",
+      "bytes": 2399
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0406.json",
+      "bytes": 2346
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0407.json",
+      "bytes": 2343
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0408.json",
+      "bytes": 2269
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0409.json",
+      "bytes": 2393
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0410.json",
+      "bytes": 2325
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0411.json",
+      "bytes": 2740
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0412.json",
+      "bytes": 2277
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0413.json",
+      "bytes": 2311
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0414.json",
+      "bytes": 2312
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0415.json",
+      "bytes": 2357
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0416.json",
+      "bytes": 2812
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0417.json",
+      "bytes": 2292
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0418.json",
+      "bytes": 2353
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0419.json",
+      "bytes": 2271
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0420.json",
+      "bytes": 2378
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0421.json",
+      "bytes": 2260
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0422.json",
+      "bytes": 2261
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0423.json",
+      "bytes": 2325
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0424.json",
+      "bytes": 2350
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0425.json",
+      "bytes": 2244
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0426.json",
+      "bytes": 2300
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0427.json",
+      "bytes": 2370
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0428.json",
+      "bytes": 2704
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0429.json",
+      "bytes": 2351
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0430.json",
+      "bytes": 2287
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0431.json",
+      "bytes": 2344
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0432.json",
+      "bytes": 2329
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0433.json",
+      "bytes": 2338
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0434.json",
+      "bytes": 2393
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0435.json",
+      "bytes": 2310
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0436.json",
+      "bytes": 2347
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0437.json",
+      "bytes": 2260
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0438.json",
+      "bytes": 2378
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0439.json",
+      "bytes": 2276
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0440.json",
+      "bytes": 2291
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0441.json",
+      "bytes": 2264
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0442.json",
+      "bytes": 2381
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0443.json",
+      "bytes": 2331
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0444.json",
+      "bytes": 2721
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0445.json",
+      "bytes": 2398
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0446.json",
+      "bytes": 2671
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0447.json",
+      "bytes": 2363
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0448.json",
+      "bytes": 2375
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0449.json",
+      "bytes": 2293
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0450.json",
+      "bytes": 2393
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0451.json",
+      "bytes": 2218
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0452.json",
+      "bytes": 2728
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0453.json",
+      "bytes": 2340
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0454.json",
+      "bytes": 2370
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0455.json",
+      "bytes": 2277
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0456.json",
+      "bytes": 2404
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0457.json",
+      "bytes": 2243
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0458.json",
+      "bytes": 2330
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0459.json",
+      "bytes": 2373
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0460.json",
+      "bytes": 2777
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0461.json",
+      "bytes": 2327
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0462.json",
+      "bytes": 2363
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0463.json",
+      "bytes": 2304
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0464.json",
+      "bytes": 2426
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0465.json",
+      "bytes": 2253
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0466.json",
+      "bytes": 2342
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0467.json",
+      "bytes": 2355
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0468.json",
+      "bytes": 2234
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0469.json",
+      "bytes": 2296
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0470.json",
+      "bytes": 2330
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0471.json",
+      "bytes": 2374
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0472.json",
+      "bytes": 2277
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0473.json",
+      "bytes": 2311
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0474.json",
+      "bytes": 2743
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0475.json",
+      "bytes": 2280
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0476.json",
+      "bytes": 3205
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0477.json",
+      "bytes": 2743
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0478.json",
+      "bytes": 2320
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0479.json",
+      "bytes": 2761
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0480.json",
+      "bytes": 2314
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0481.json",
+      "bytes": 2776
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0482.json",
+      "bytes": 2754
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0483.json",
+      "bytes": 2352
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0484.json",
+      "bytes": 3321
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0485.json",
+      "bytes": 2448
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0486.json",
+      "bytes": 2804
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0487.json",
+      "bytes": 2383
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0488.json",
+      "bytes": 2757
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0489.json",
+      "bytes": 2397
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0490.json",
+      "bytes": 2332
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0491.json",
+      "bytes": 2441
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0492.json",
+      "bytes": 2295
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0493.json",
+      "bytes": 2233
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0494.json",
+      "bytes": 2754
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0495.json",
+      "bytes": 2342
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0496.json",
+      "bytes": 2817
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0497.json",
+      "bytes": 2794
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0498.json",
+      "bytes": 2428
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0499.json",
+      "bytes": 2793
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/dashboard_threads/SGZ500_0500.json",
+      "bytes": 3204
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0001.json",
+      "bytes": 14133
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0002.json",
+      "bytes": 11796
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0003.json",
+      "bytes": 13566
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0004.json",
+      "bytes": 15555
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0005.json",
+      "bytes": 12137
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0006.json",
+      "bytes": 14297
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0007.json",
+      "bytes": 13494
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0008.json",
+      "bytes": 12041
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0009.json",
+      "bytes": 16977
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0010.json",
+      "bytes": 11851
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0011.json",
+      "bytes": 11670
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0012.json",
+      "bytes": 11688
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0013.json",
+      "bytes": 12322
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0014.json",
+      "bytes": 11792
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0015.json",
+      "bytes": 12470
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0016.json",
+      "bytes": 11954
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0017.json",
+      "bytes": 12089
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0018.json",
+      "bytes": 12225
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0019.json",
+      "bytes": 12697
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0020.json",
+      "bytes": 12031
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0021.json",
+      "bytes": 12249
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0022.json",
+      "bytes": 12185
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0023.json",
+      "bytes": 12258
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0024.json",
+      "bytes": 12189
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0025.json",
+      "bytes": 11927
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0026.json",
+      "bytes": 12683
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0027.json",
+      "bytes": 11853
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0028.json",
+      "bytes": 12636
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0029.json",
+      "bytes": 12241
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0030.json",
+      "bytes": 12089
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0031.json",
+      "bytes": 11931
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0032.json",
+      "bytes": 12551
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0033.json",
+      "bytes": 12733
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0034.json",
+      "bytes": 12762
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0035.json",
+      "bytes": 11909
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0036.json",
+      "bytes": 12378
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0037.json",
+      "bytes": 12619
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0038.json",
+      "bytes": 12291
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0039.json",
+      "bytes": 11946
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0040.json",
+      "bytes": 12512
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0041.json",
+      "bytes": 12235
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0042.json",
+      "bytes": 12568
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0043.json",
+      "bytes": 12217
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0044.json",
+      "bytes": 12679
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0045.json",
+      "bytes": 11865
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0046.json",
+      "bytes": 12598
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0047.json",
+      "bytes": 12239
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0048.json",
+      "bytes": 12361
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0049.json",
+      "bytes": 12799
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0050.json",
+      "bytes": 11905
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0051.json",
+      "bytes": 12126
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0052.json",
+      "bytes": 12483
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0053.json",
+      "bytes": 12378
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0054.json",
+      "bytes": 11906
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0055.json",
+      "bytes": 12213
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0056.json",
+      "bytes": 11896
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0057.json",
+      "bytes": 12607
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0058.json",
+      "bytes": 12305
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0059.json",
+      "bytes": 12177
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0060.json",
+      "bytes": 12049
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0061.json",
+      "bytes": 12039
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0062.json",
+      "bytes": 12591
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0063.json",
+      "bytes": 12614
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0064.json",
+      "bytes": 12028
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0065.json",
+      "bytes": 12550
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0066.json",
+      "bytes": 11976
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0067.json",
+      "bytes": 12231
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0068.json",
+      "bytes": 12396
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0069.json",
+      "bytes": 12522
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0070.json",
+      "bytes": 12107
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0071.json",
+      "bytes": 12319
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0072.json",
+      "bytes": 12520
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0073.json",
+      "bytes": 12288
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0074.json",
+      "bytes": 12456
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0075.json",
+      "bytes": 12406
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0076.json",
+      "bytes": 12736
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0077.json",
+      "bytes": 12179
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0078.json",
+      "bytes": 12769
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0079.json",
+      "bytes": 12359
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0080.json",
+      "bytes": 12238
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0081.json",
+      "bytes": 12589
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0082.json",
+      "bytes": 12601
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0083.json",
+      "bytes": 12275
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0084.json",
+      "bytes": 12687
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0085.json",
+      "bytes": 12121
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0086.json",
+      "bytes": 12720
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0087.json",
+      "bytes": 12463
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0088.json",
+      "bytes": 12339
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0089.json",
+      "bytes": 12670
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0090.json",
+      "bytes": 12293
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0091.json",
+      "bytes": 12185
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0092.json",
+      "bytes": 12653
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0093.json",
+      "bytes": 12264
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0094.json",
+      "bytes": 12539
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0095.json",
+      "bytes": 12399
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0096.json",
+      "bytes": 12615
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0097.json",
+      "bytes": 12625
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0098.json",
+      "bytes": 12309
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0099.json",
+      "bytes": 12189
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0100.json",
+      "bytes": 12276
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0101.json",
+      "bytes": 20809
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0102.json",
+      "bytes": 14507
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0103.json",
+      "bytes": 15861
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0104.json",
+      "bytes": 14970
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0105.json",
+      "bytes": 16398
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0106.json",
+      "bytes": 17940
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0107.json",
+      "bytes": 14827
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0108.json",
+      "bytes": 15485
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0109.json",
+      "bytes": 16865
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0110.json",
+      "bytes": 14699
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0111.json",
+      "bytes": 12290
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0112.json",
+      "bytes": 12667
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0113.json",
+      "bytes": 12701
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0114.json",
+      "bytes": 12347
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0115.json",
+      "bytes": 12616
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0116.json",
+      "bytes": 12536
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0117.json",
+      "bytes": 12775
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0118.json",
+      "bytes": 12369
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0119.json",
+      "bytes": 12751
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0120.json",
+      "bytes": 12198
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0121.json",
+      "bytes": 12615
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0122.json",
+      "bytes": 12337
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0123.json",
+      "bytes": 12686
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0124.json",
+      "bytes": 12388
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0125.json",
+      "bytes": 12767
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0126.json",
+      "bytes": 12725
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0127.json",
+      "bytes": 12443
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0128.json",
+      "bytes": 12313
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0129.json",
+      "bytes": 12800
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0130.json",
+      "bytes": 12861
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0131.json",
+      "bytes": 12297
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0132.json",
+      "bytes": 12850
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0133.json",
+      "bytes": 12552
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0134.json",
+      "bytes": 12455
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0135.json",
+      "bytes": 12835
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0136.json",
+      "bytes": 12680
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0137.json",
+      "bytes": 12286
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0138.json",
+      "bytes": 12835
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0139.json",
+      "bytes": 12461
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0140.json",
+      "bytes": 13038
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0141.json",
+      "bytes": 12426
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0142.json",
+      "bytes": 12698
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0143.json",
+      "bytes": 12715
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0144.json",
+      "bytes": 12473
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0145.json",
+      "bytes": 12820
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0146.json",
+      "bytes": 12604
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0147.json",
+      "bytes": 12610
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0148.json",
+      "bytes": 12387
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0149.json",
+      "bytes": 12889
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0150.json",
+      "bytes": 12643
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0151.json",
+      "bytes": 12560
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0152.json",
+      "bytes": 12311
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0153.json",
+      "bytes": 12515
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0154.json",
+      "bytes": 12348
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0155.json",
+      "bytes": 12640
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0156.json",
+      "bytes": 12361
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0157.json",
+      "bytes": 12375
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0158.json",
+      "bytes": 12687
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0159.json",
+      "bytes": 12338
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0160.json",
+      "bytes": 12808
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0161.json",
+      "bytes": 12821
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0162.json",
+      "bytes": 12663
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0163.json",
+      "bytes": 12737
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0164.json",
+      "bytes": 12501
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0165.json",
+      "bytes": 12701
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0166.json",
+      "bytes": 12815
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0167.json",
+      "bytes": 12695
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0168.json",
+      "bytes": 12359
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0169.json",
+      "bytes": 12414
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0170.json",
+      "bytes": 12592
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0171.json",
+      "bytes": 12320
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0172.json",
+      "bytes": 12681
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0173.json",
+      "bytes": 12778
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0174.json",
+      "bytes": 12663
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0175.json",
+      "bytes": 12708
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0176.json",
+      "bytes": 12681
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0177.json",
+      "bytes": 12288
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0178.json",
+      "bytes": 12601
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0179.json",
+      "bytes": 12759
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0180.json",
+      "bytes": 12337
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0181.json",
+      "bytes": 12782
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0182.json",
+      "bytes": 12849
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0183.json",
+      "bytes": 12730
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0184.json",
+      "bytes": 12872
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0185.json",
+      "bytes": 12584
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0186.json",
+      "bytes": 12706
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0187.json",
+      "bytes": 12826
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0188.json",
+      "bytes": 12494
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0189.json",
+      "bytes": 13030
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0190.json",
+      "bytes": 12765
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0191.json",
+      "bytes": 12593
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0192.json",
+      "bytes": 12631
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0193.json",
+      "bytes": 12782
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0194.json",
+      "bytes": 12676
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0195.json",
+      "bytes": 12883
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0196.json",
+      "bytes": 12453
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0197.json",
+      "bytes": 12855
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0198.json",
+      "bytes": 12478
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0199.json",
+      "bytes": 12946
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0200.json",
+      "bytes": 12978
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0201.json",
+      "bytes": 11211
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0202.json",
+      "bytes": 12735
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0203.json",
+      "bytes": 11669
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0204.json",
+      "bytes": 11585
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0205.json",
+      "bytes": 12231
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0206.json",
+      "bytes": 12143
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0207.json",
+      "bytes": 12501
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0208.json",
+      "bytes": 12069
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0209.json",
+      "bytes": 12139
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0210.json",
+      "bytes": 11953
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0211.json",
+      "bytes": 12164
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0212.json",
+      "bytes": 12156
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0213.json",
+      "bytes": 11625
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0214.json",
+      "bytes": 11966
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0215.json",
+      "bytes": 11844
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0216.json",
+      "bytes": 12003
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0217.json",
+      "bytes": 12207
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0218.json",
+      "bytes": 12212
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0219.json",
+      "bytes": 12562
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0220.json",
+      "bytes": 14362
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0221.json",
+      "bytes": 11031
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0222.json",
+      "bytes": 11090
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0223.json",
+      "bytes": 11639
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0224.json",
+      "bytes": 11154
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0225.json",
+      "bytes": 11527
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0226.json",
+      "bytes": 11271
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0227.json",
+      "bytes": 11482
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0228.json",
+      "bytes": 11408
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0229.json",
+      "bytes": 11474
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0230.json",
+      "bytes": 11435
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0231.json",
+      "bytes": 11763
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0232.json",
+      "bytes": 11947
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0233.json",
+      "bytes": 11650
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0234.json",
+      "bytes": 11862
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0235.json",
+      "bytes": 11694
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0236.json",
+      "bytes": 11387
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0237.json",
+      "bytes": 11989
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0238.json",
+      "bytes": 11876
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0239.json",
+      "bytes": 11604
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0240.json",
+      "bytes": 12003
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0241.json",
+      "bytes": 11656
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0242.json",
+      "bytes": 11707
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0243.json",
+      "bytes": 11338
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0244.json",
+      "bytes": 11959
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0245.json",
+      "bytes": 11208
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0246.json",
+      "bytes": 11788
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0247.json",
+      "bytes": 11987
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0248.json",
+      "bytes": 11267
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0249.json",
+      "bytes": 12034
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0250.json",
+      "bytes": 11544
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0251.json",
+      "bytes": 11201
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0252.json",
+      "bytes": 11003
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0253.json",
+      "bytes": 11304
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0254.json",
+      "bytes": 11034
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0255.json",
+      "bytes": 11746
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0256.json",
+      "bytes": 11053
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0257.json",
+      "bytes": 11169
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0258.json",
+      "bytes": 10993
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0259.json",
+      "bytes": 11395
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0260.json",
+      "bytes": 11082
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0261.json",
+      "bytes": 11366
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0262.json",
+      "bytes": 11354
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0263.json",
+      "bytes": 11019
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0264.json",
+      "bytes": 11388
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0265.json",
+      "bytes": 11607
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0266.json",
+      "bytes": 10952
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0267.json",
+      "bytes": 11854
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0268.json",
+      "bytes": 11139
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0269.json",
+      "bytes": 11328
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0270.json",
+      "bytes": 11454
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0271.json",
+      "bytes": 11261
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0272.json",
+      "bytes": 11202
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0273.json",
+      "bytes": 11077
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0274.json",
+      "bytes": 11617
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0275.json",
+      "bytes": 11036
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0276.json",
+      "bytes": 10802
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0277.json",
+      "bytes": 11368
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0278.json",
+      "bytes": 10951
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0279.json",
+      "bytes": 10786
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0280.json",
+      "bytes": 11471
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0281.json",
+      "bytes": 10878
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0282.json",
+      "bytes": 10811
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0283.json",
+      "bytes": 11019
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0284.json",
+      "bytes": 11357
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0285.json",
+      "bytes": 11097
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0286.json",
+      "bytes": 11024
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0287.json",
+      "bytes": 11146
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0288.json",
+      "bytes": 11230
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0289.json",
+      "bytes": 11067
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0290.json",
+      "bytes": 11171
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0291.json",
+      "bytes": 11369
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0292.json",
+      "bytes": 10866
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0293.json",
+      "bytes": 11045
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0294.json",
+      "bytes": 11570
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0295.json",
+      "bytes": 11131
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0296.json",
+      "bytes": 11237
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0297.json",
+      "bytes": 11104
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0298.json",
+      "bytes": 11272
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0299.json",
+      "bytes": 10908
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0300.json",
+      "bytes": 10944
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0301.json",
+      "bytes": 10812
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0302.json",
+      "bytes": 11049
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0303.json",
+      "bytes": 10865
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0304.json",
+      "bytes": 11169
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0305.json",
+      "bytes": 11281
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0306.json",
+      "bytes": 10876
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0307.json",
+      "bytes": 11239
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0308.json",
+      "bytes": 11592
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0309.json",
+      "bytes": 10960
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0310.json",
+      "bytes": 11347
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0311.json",
+      "bytes": 11008
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0312.json",
+      "bytes": 11162
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0313.json",
+      "bytes": 11063
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0314.json",
+      "bytes": 11189
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0315.json",
+      "bytes": 11355
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0316.json",
+      "bytes": 10824
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0317.json",
+      "bytes": 11023
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0318.json",
+      "bytes": 11427
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0319.json",
+      "bytes": 10899
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0320.json",
+      "bytes": 10936
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0321.json",
+      "bytes": 10900
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0322.json",
+      "bytes": 11327
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0323.json",
+      "bytes": 11085
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0324.json",
+      "bytes": 10926
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0325.json",
+      "bytes": 11219
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0326.json",
+      "bytes": 10711
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0327.json",
+      "bytes": 10996
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0328.json",
+      "bytes": 10819
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0329.json",
+      "bytes": 10749
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0330.json",
+      "bytes": 11369
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0331.json",
+      "bytes": 10832
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0332.json",
+      "bytes": 10896
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0333.json",
+      "bytes": 11103
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0334.json",
+      "bytes": 11003
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0335.json",
+      "bytes": 11278
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0336.json",
+      "bytes": 10997
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0337.json",
+      "bytes": 11140
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0338.json",
+      "bytes": 10988
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0339.json",
+      "bytes": 11181
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0340.json",
+      "bytes": 10923
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0341.json",
+      "bytes": 11006
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0342.json",
+      "bytes": 10976
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0343.json",
+      "bytes": 10824
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0344.json",
+      "bytes": 11237
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0345.json",
+      "bytes": 10832
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0346.json",
+      "bytes": 11147
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0347.json",
+      "bytes": 10988
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0348.json",
+      "bytes": 10934
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0349.json",
+      "bytes": 11423
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0350.json",
+      "bytes": 10857
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0351.json",
+      "bytes": 13337
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0352.json",
+      "bytes": 13582
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0353.json",
+      "bytes": 12997
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0354.json",
+      "bytes": 11352
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0355.json",
+      "bytes": 12908
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0356.json",
+      "bytes": 10907
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0357.json",
+      "bytes": 10819
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0358.json",
+      "bytes": 11087
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0359.json",
+      "bytes": 11205
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0360.json",
+      "bytes": 10870
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0361.json",
+      "bytes": 11154
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0362.json",
+      "bytes": 11070
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0363.json",
+      "bytes": 11138
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0364.json",
+      "bytes": 11046
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0365.json",
+      "bytes": 11162
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0366.json",
+      "bytes": 10905
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0367.json",
+      "bytes": 11225
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0368.json",
+      "bytes": 10851
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0369.json",
+      "bytes": 13083
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0370.json",
+      "bytes": 10874
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0371.json",
+      "bytes": 11296
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0372.json",
+      "bytes": 10943
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0373.json",
+      "bytes": 11282
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0374.json",
+      "bytes": 10951
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0375.json",
+      "bytes": 10959
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0376.json",
+      "bytes": 10991
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0377.json",
+      "bytes": 10987
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0378.json",
+      "bytes": 11089
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0379.json",
+      "bytes": 10773
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0380.json",
+      "bytes": 10832
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0381.json",
+      "bytes": 11372
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0382.json",
+      "bytes": 11114
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0383.json",
+      "bytes": 11392
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0384.json",
+      "bytes": 10906
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0385.json",
+      "bytes": 11231
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0386.json",
+      "bytes": 10847
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0387.json",
+      "bytes": 11133
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0388.json",
+      "bytes": 10861
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0389.json",
+      "bytes": 11080
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0390.json",
+      "bytes": 11050
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0391.json",
+      "bytes": 13034
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0392.json",
+      "bytes": 11178
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0393.json",
+      "bytes": 11047
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0394.json",
+      "bytes": 11170
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0395.json",
+      "bytes": 11510
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0396.json",
+      "bytes": 11259
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0397.json",
+      "bytes": 12878
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0398.json",
+      "bytes": 11118
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0399.json",
+      "bytes": 11087
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0400.json",
+      "bytes": 10843
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0401.json",
+      "bytes": 13234
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0402.json",
+      "bytes": 10880
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0403.json",
+      "bytes": 10898
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0404.json",
+      "bytes": 11138
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0405.json",
+      "bytes": 11313
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0406.json",
+      "bytes": 11160
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0407.json",
+      "bytes": 11144
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0408.json",
+      "bytes": 10883
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0409.json",
+      "bytes": 11288
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0410.json",
+      "bytes": 11091
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0411.json",
+      "bytes": 13399
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0412.json",
+      "bytes": 10893
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0413.json",
+      "bytes": 10979
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0414.json",
+      "bytes": 11019
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0415.json",
+      "bytes": 11210
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0416.json",
+      "bytes": 13529
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0417.json",
+      "bytes": 11013
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0418.json",
+      "bytes": 11313
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0419.json",
+      "bytes": 10895
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0420.json",
+      "bytes": 11244
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0421.json",
+      "bytes": 10848
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0422.json",
+      "bytes": 10851
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0423.json",
+      "bytes": 11076
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0424.json",
+      "bytes": 11176
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0425.json",
+      "bytes": 10843
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0426.json",
+      "bytes": 11045
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0427.json",
+      "bytes": 11124
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0428.json",
+      "bytes": 13323
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0429.json",
+      "bytes": 11293
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0430.json",
+      "bytes": 10913
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0431.json",
+      "bytes": 11102
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0432.json",
+      "bytes": 11168
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0433.json",
+      "bytes": 11042
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0434.json",
+      "bytes": 11526
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0435.json",
+      "bytes": 11012
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0436.json",
+      "bytes": 11198
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0437.json",
+      "bytes": 10868
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0438.json",
+      "bytes": 11212
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0439.json",
+      "bytes": 11137
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0440.json",
+      "bytes": 10914
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0441.json",
+      "bytes": 10878
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0442.json",
+      "bytes": 11426
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0443.json",
+      "bytes": 11186
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0444.json",
+      "bytes": 13104
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0445.json",
+      "bytes": 11174
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0446.json",
+      "bytes": 13309
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0447.json",
+      "bytes": 11180
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0448.json",
+      "bytes": 11195
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0449.json",
+      "bytes": 10920
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0450.json",
+      "bytes": 11277
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0451.json",
+      "bytes": 10810
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0452.json",
+      "bytes": 12996
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0453.json",
+      "bytes": 11276
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0454.json",
+      "bytes": 11149
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0455.json",
+      "bytes": 10939
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0456.json",
+      "bytes": 11276
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0457.json",
+      "bytes": 10834
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0458.json",
+      "bytes": 11203
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0459.json",
+      "bytes": 11258
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0460.json",
+      "bytes": 13273
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0461.json",
+      "bytes": 11053
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0462.json",
+      "bytes": 11517
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0463.json",
+      "bytes": 11012
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0464.json",
+      "bytes": 11440
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0465.json",
+      "bytes": 10847
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0466.json",
+      "bytes": 11150
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0467.json",
+      "bytes": 11156
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0468.json",
+      "bytes": 10782
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0469.json",
+      "bytes": 11006
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0470.json",
+      "bytes": 11094
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0471.json",
+      "bytes": 11146
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0472.json",
+      "bytes": 10923
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0473.json",
+      "bytes": 11191
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0474.json",
+      "bytes": 13192
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0475.json",
+      "bytes": 10928
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0476.json",
+      "bytes": 14748
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0477.json",
+      "bytes": 13271
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0478.json",
+      "bytes": 10973
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0479.json",
+      "bytes": 13008
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0480.json",
+      "bytes": 11215
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0481.json",
+      "bytes": 13162
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0482.json",
+      "bytes": 12807
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0483.json",
+      "bytes": 11132
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0484.json",
+      "bytes": 15513
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0485.json",
+      "bytes": 11330
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0486.json",
+      "bytes": 12950
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0487.json",
+      "bytes": 11295
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0488.json",
+      "bytes": 13243
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0489.json",
+      "bytes": 11336
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0490.json",
+      "bytes": 11270
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0491.json",
+      "bytes": 11816
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0492.json",
+      "bytes": 11022
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0493.json",
+      "bytes": 10867
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0494.json",
+      "bytes": 13045
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0495.json",
+      "bytes": 11151
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0496.json",
+      "bytes": 13394
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0497.json",
+      "bytes": 13191
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0498.json",
+      "bytes": 11583
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0499.json",
+      "bytes": 13149
+    },
+    {
+      "file": "datasets/synthetic_conversations/genz_v2/threads/SGZ500_0500.json",
+      "bytes": 15339
+    },
+    {
+      "file": "tests/fixtures/ai_update/camping_reference.json",
+      "bytes": 1552
+    },
+    {
+      "file": "tests/fixtures/ai_update/counterexamples.json",
+      "bytes": 5292
+    },
+    {
+      "file": "docs/ai-update/SOURCE_FILE_MANIFEST.json",
+      "bytes": 7295
+    },
+    {
+      "file": "docs/repository-merge-evidence/CONSOLIDATION_MANIFEST.json",
+      "bytes": 212987
+    },
+    {
+      "file": "docs/repository-merge-evidence/VALIDATION_RESULTS.json",
+      "bytes": 42876
+    },
+    {
+      "file": "docs/ai-update/final-report/ARTIFACTS.json",
+      "bytes": 13420
+    },
+    {
+      "file": "docs/ai-update/merge-evidence/MERGE_MANIFEST.json",
+      "bytes": 37876
+    },
+    {
+      "file": "docs/ai-update/merge-evidence/VALIDATION_RESULTS.json",
+      "bytes": 75321
+    },
+    {
+      "file": "docs/baseline/DEMO_ABCD/integrity-check.json",
+      "bytes": 223
+    },
+    {
+      "file": "docs/baseline/DEMO_ABCD/smoke.json",
+      "bytes": 350
+    },
+    {
+      "file": "docs/baseline/T007/integrity-check.json",
+      "bytes": 405
+    },
+    {
+      "file": "docs/baseline/T007/source-manifest.json",
+      "bytes": 10999
+    },
+    {
+      "file": "docs/baseline/T008/legacy-integrity.json",
+      "bytes": 58
+    },
+    {
+      "file": "docs/baseline/T008/social-source-manifest.json",
+      "bytes": 3840
+    },
+    {
+      "file": "docs/baseline/T009/legacy-integrity.json",
+      "bytes": 58
+    },
+    {
+      "file": "docs/baseline/T009/social-source-manifest.json",
+      "bytes": 5556
+    },
+    {
+      "file": "docs/baseline/T010/integrity-check.json",
+      "bytes": 125
+    },
+    {
+      "file": "docs/baseline/T010/social-web-source-manifest.json",
+      "bytes": 2594
+    },
+    {
+      "file": "docs/baseline/T012_T017/integrity-check.json",
+      "bytes": 374
+    },
+    {
+      "file": "docs/baseline/T012_T017/source-manifest.json",
+      "bytes": 10226
+    },
+    {
+      "file": "docs/baseline/T013_T018/integrity-check.json",
+      "bytes": 702
+    },
+    {
+      "file": "docs/baseline/T013_T018/social-review.openapi.json",
+      "bytes": 25296
+    },
+    {
+      "file": "docs/baseline/T013_T018/source-manifest.json",
+      "bytes": 10546
+    },
+    {
+      "file": "docs/baseline/T014_T019/ai-evaluation.json",
+      "bytes": 6381
+    },
+    {
+      "file": "docs/baseline/T014_T019/integrity-check.json",
+      "bytes": 1070
+    },
+    {
+      "file": "docs/baseline/T014_T019/source-manifest.json",
+      "bytes": 16400
+    },
+    {
+      "file": "docs/baseline/T015/after-manifest.json",
+      "bytes": 10972
+    },
+    {
+      "file": "docs/baseline/T015/before-manifest.json",
+      "bytes": 9283
+    },
+    {
+      "file": "docs/baseline/T015/integrity-check.json",
+      "bytes": 1043
+    },
+    {
+      "file": "docs/baseline/T015/protected-manifest.json",
+      "bytes": 7797
+    },
+    {
+      "file": "docs/baseline/T015/real-http-smoke.json",
+      "bytes": 962
+    },
+    {
+      "file": "docs/baseline/T016/legacy-integrity.json",
+      "bytes": 58
+    },
+    {
+      "file": "docs/baseline/T010/browser/.last-run.json",
+      "bytes": 45
+    },
+    {
+      "file": "docs/baseline/T012_T017/browser-regression/browser/.last-run.json",
+      "bytes": 45
+    },
+    {
+      "file": "docs/baseline/T013_T018/browser/.last-run.json",
+      "bytes": 45
+    },
+    {
+      "file": "docs/baseline/T013_T018/social-regression/browser/.last-run.json",
+      "bytes": 45
+    },
+    {
+      "file": "docs/baseline/T014_T019/admin-regression/social-review.openapi.json",
+      "bytes": 25296
+    },
+    {
+      "file": "docs/baseline/T014_T019/fullstack/cleanup.json",
+      "bytes": 88
+    },
+    {
+      "file": "docs/baseline/T014_T019/fullstack/log-privacy.json",
+      "bytes": 107
+    },
+    {
+      "file": "docs/baseline/T014_T019/fullstack/metrics.json",
+      "bytes": 1059
+    },
+    {
+      "file": "docs/baseline/T014_T019/fullstack/process-health.json",
+      "bytes": 120
+    },
+    {
+      "file": "docs/baseline/T014_T019/outage/cleanup.json",
+      "bytes": 61
+    },
+    {
+      "file": "docs/baseline/T014_T019/outage/progress.json",
+      "bytes": 98
+    },
+    {
+      "file": "docs/baseline/T014_T019/outage/result.json",
+      "bytes": 2981
+    },
+    {
+      "file": "docs/baseline/T014_T019/admin-regression/browser/.last-run.json",
+      "bytes": 45
+    },
+    {
+      "file": "docs/baseline/T014_T019/fullstack/browser/.last-run.json",
+      "bytes": 45
+    },
+    {
+      "file": "docs/baseline/T014_T019/social-regression/browser/.last-run.json",
+      "bytes": 45
+    },
+    {
+      "file": "docs/baseline/T015/admin-regression/social-review.openapi.json",
+      "bytes": 25296
+    },
+    {
+      "file": "docs/baseline/T015/fullstack/cleanup.json",
+      "bytes": 88
+    },
+    {
+      "file": "docs/baseline/T015/fullstack/log-privacy.json",
+      "bytes": 107
+    },
+    {
+      "file": "docs/baseline/T015/fullstack/metrics.json",
+      "bytes": 1060
+    },
+    {
+      "file": "docs/baseline/T015/fullstack/process-health.json",
+      "bytes": 120
+    },
+    {
+      "file": "docs/baseline/T015/admin-regression/browser/.last-run.json",
+      "bytes": 45
+    },
+    {
+      "file": "docs/baseline/T015/fullstack/browser/.last-run.json",
+      "bytes": 45
+    },
+    {
+      "file": "docs/baseline/T015/rollback-source/frontend/package.json",
+      "bytes": 421
+    },
+    {
+      "file": "docs/baseline/T015/rollback-source/app/data/lexicon/active.json",
+      "bytes": 16218
+    },
+    {
+      "file": "docs/baseline/T015/rollback-source/app/data/lexicon/candidates.json",
+      "bytes": 5003845
+    },
+    {
+      "file": "docs/baseline/T015/rollback-source/app/data/lexicon/manifest.json",
+      "bytes": 4140
+    },
+    {
+      "file": "docs/baseline/T015/rollback-source/app/data/lexicon/reviewed_rules.json",
+      "bytes": 13667
+    },
+    {
+      "file": "docs/baseline/T015/rollback-source/app/data/lexicon/sources/snapshots.json",
+      "bytes": 2380
+    },
+    {
+      "file": "docs/baseline/T015/social-regression/browser/.last-run.json",
+      "bytes": 45
+    }
+  ],
+  "documentary_mentions": [
+    "datasets/real_conversations/README.md",
+    "docs/09_TEST_DANH_GIA.md"
+  ],
+  "candidate_collections": []
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "real_baseline_inference": true,
+  "candidate_available": false,
+  "production_changed": false,
+  "threshold": 0.41,
+  "initial_model_unavailable": true,
+  "healthy_after_local_injection": true,
+  "fallback": {
+    "requested": "v1_1",
+    "selected": "v1",
+    "shadow": true,
+    "fallback_used": true,
+    "failure_type": "RuntimeError",
+    "production_changed": false
+  },
+  "loader_calls": 2,
+  "failure_injection": "Deliberate RuntimeError on existing v1_1 primary; actual V1 loaded on fallback. Does not claim real primary failure.",
+  "shadow_mechanism": {
+    "same_v1_both_sides": true,
+    "score_equality": true,
+    "candidate_compared": false
+  },
+  "API_legacy_v2_raw_equal": true,
+  "local_unavailable_http": 503,
+  "local_recovered_http": 200,
+  "optimizer_steps": 0,
+  "base_unchanged": true,
+  "live_database_accessed": false
+}

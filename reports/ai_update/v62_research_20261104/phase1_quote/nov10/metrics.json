@@ -1,0 +1,492 @@
+{
+  "comments": 200,
+  "classification": {
+    "before": {
+      "n": 199,
+      "tp": 7,
+      "fp": 3,
+      "tn": 174,
+      "fn": 15,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.7,
+      "toxic_recall": 0.3181818181818182,
+      "macro_f1": 0.6941598360655737,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "after": {
+      "n": 199,
+      "tp": 7,
+      "fp": 3,
+      "tn": 174,
+      "fn": 15,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.7,
+      "toxic_recall": 0.3181818181818182,
+      "macro_f1": 0.6941598360655737,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    }
+  },
+  "grounding": {
+    "before": {
+      "reference_comments_with_target_coverage": 199,
+      "reference_attacks": 22,
+      "target_emissions": 0,
+      "target_correct": 0,
+      "target_precision": 0.0,
+      "target_recall": 0.0,
+      "target_abstentions_on_reference_attacks": 22,
+      "repeated": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "evidence_correct": 0,
+        "evidence_total": 0,
+        "evidence_precision": 0.0
+      }
+    },
+    "after": {
+      "reference_comments_with_target_coverage": 199,
+      "reference_attacks": 22,
+      "target_emissions": 0,
+      "target_correct": 0,
+      "target_precision": 0.0,
+      "target_recall": 0.0,
+      "target_abstentions_on_reference_attacks": 22,
+      "repeated": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "evidence_correct": 0,
+        "evidence_total": 0,
+        "evidence_precision": 0.0
+      }
+    }
+  },
+  "new_label_errors": [],
+  "remaining_errors": [
+    {
+      "thread_id": "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+      "comment_id": "c06",
+      "text": "U03 làm cái nghề giao hàng mà chuyện canh giờ cũng không xong, chịu thật.",
+      "reference": "TOXIC",
+      "raw_score": 0.213861,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+      "comment_id": "c10",
+      "text": "Thấy cách U03 xử lý mới hiểu vì sao đơn cứ trễ, đúng là chuyên nghiệp theo kiểu ngược.",
+      "reference": "TOXIC",
+      "raw_score": 0.0782,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+      "comment_id": "c14",
+      "text": "Tới lúc cần giải quyết thì U03 chỉ biết đổ cho trời, làm ăn kiểu đó ai dám tin.",
+      "reference": "TOXIC",
+      "raw_score": 0.212317,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+      "comment_id": "c12",
+      "text": "Bạn U02 cứ học thuộc script rồi tưởng mình nói hay, nghe là biết ngay.",
+      "reference": "TOXIC",
+      "raw_score": 0.03697,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+      "comment_id": "c16",
+      "text": "Fine. Nhưng U02 còn phải nhờ người khác sửa từng chữ thì 7.0 hơi viển vông.",
+      "reference": "TOXIC",
+      "raw_score": 0.165273,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+      "comment_id": "c17",
+      "text": "Thôi ai tin U01 thì mua, tôi không rảnh chơi trò đoán xem người bán giấu gì nữa.",
+      "reference": "TOXIC",
+      "raw_score": 0.147285,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+      "comment_id": "c17",
+      "text": "Nhưng U03 đúng kiểu thích làm màu để được khen, chăm nổi một tuần không?",
+      "reference": "TOXIC",
+      "raw_score": 0.248956,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+      "comment_id": "c04",
+      "text": "Chấm 6/10 chỉ vì sốt ngọt? Review gì mà thiếu chiều sâu thế.",
+      "reference": "CLEAN",
+      "raw_score": 0.652878,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+      "comment_id": "c14",
+      "text": "U02 bị góp ý chút đã tự ái, khả năng phân biệt vị giác chắc cũng có vấn đề.",
+      "reference": "TOXIC",
+      "raw_score": 0.274936,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+      "comment_id": "c09",
+      "text": "U03 đúng kiểu cái bảng thông số biết đi, tưởng vài con số là hiểu nghề 😌",
+      "reference": "TOXIC",
+      "raw_score": 0.055348,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+      "comment_id": "c14",
+      "text": "Ừ, U03 cứ trưng benchmark ra cho oai, chắc nghĩ cả phòng phải học từ mình.",
+      "reference": "TOXIC",
+      "raw_score": 0.054079,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+      "comment_id": "c20",
+      "text": "Đã bookmark hai bài. Tui đi ngủ, deadline edit dí quá vl.",
+      "reference": "CLEAN",
+      "raw_score": 0.41498,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+      "comment_id": "c07",
+      "text": "U02 goi y nhu may copy pinterest, nao co cai gi cua minh ko?",
+      "reference": "TOXIC",
+      "raw_score": 0.024664,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+      "comment_id": "c12",
+      "text": "U02 dung ban chuyen y tuong nua, noi nhieu ma toan goi y re tien.",
+      "reference": "TOXIC",
+      "raw_score": 0.066199,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+      "comment_id": "c06",
+      "text": "U01 làm leader mà đến intro cũng phải chờ người khác chỉ từng câu, lạ nhỉ.",
+      "reference": "TOXIC",
+      "raw_score": 0.314649,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+      "comment_id": "c08",
+      "text": "Mình góp ý nhạc chứ đâu có nói leader kém. Hai việc khác nhau.",
+      "reference": "CLEAN",
+      "raw_score": 0.41018,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+      "comment_id": "c09",
+      "text": "U01 mà cũng nhận điều phối được hả, nghe cách quản lý là biết non rồi.",
+      "reference": "TOXIC",
+      "raw_score": 0.271514,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+      "comment_id": "c15",
+      "text": "Đoạn chuyển thì tùy, nhưng U01 vẫn là kiểu người chỉ biết ra lệnh rồi nhận công.",
+      "reference": "TOXIC",
+      "raw_score": 0.157067,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "changed_comments": [],
+  "raw_invariant": true,
+  "human_gold": false,
+  "training_performed": false,
+  "before_processor": "v6.1",
+  "after_processor": "v6.2",
+  "reference_evidence": {
+    "before": {
+      "evidence_correct": 0,
+      "evidence_emitted": 0,
+      "evidence_reference": 21,
+      "evidence_precision": 0,
+      "evidence_recall": 0.0,
+      "fully_covered_events": 0,
+      "expected_events": 8,
+      "missing_evidence": [
+        {
+          "pair": [
+            "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c06",
+            "c10",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c06",
+            "c12",
+            "c16"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+            "U03",
+            "U01"
+          ],
+          "missing": [
+            "c08",
+            "c13",
+            "c17"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c07",
+            "c12",
+            "c17"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c09",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c09",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c07",
+            "c12"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+            "U05",
+            "U01"
+          ],
+          "missing": [
+            "c06",
+            "c11",
+            "c15"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "evidence_correct": 0,
+      "evidence_emitted": 0,
+      "evidence_reference": 21,
+      "evidence_precision": 0,
+      "evidence_recall": 0.0,
+      "fully_covered_events": 0,
+      "expected_events": 8,
+      "missing_evidence": [
+        {
+          "pair": [
+            "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c06",
+            "c10",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c06",
+            "c12",
+            "c16"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+            "U03",
+            "U01"
+          ],
+          "missing": [
+            "c08",
+            "c13",
+            "c17"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c07",
+            "c12",
+            "c17"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c09",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c09",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c07",
+            "c12"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+            "U05",
+            "U01"
+          ],
+          "missing": [
+            "c06",
+            "c11",
+            "c15"
+          ]
+        }
+      ]
+    }
+  }
+}

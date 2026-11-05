@@ -1,0 +1,297 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "39a8175a036935cccbb2e7f3a67b567bd7d604ea8f789ff0e9c54f49d80c6228",
+    "bytes": 138
+  },
+  {
+    "path": "app/.env.moderation.example",
+    "sha256": "2e5eba98953309c0f67b3a63d22486185ebcbdca7ab7c17445de6409f6262534",
+    "bytes": 354
+  },
+  {
+    "path": "app/__init__.py",
+    "sha256": "54cfb003ed7c8c72830e3ab3752a2cf78cde7ab6ac2cdb7b86ffe5294df3026b",
+    "bytes": 70
+  },
+  {
+    "path": "app/data/lexicon/active.json",
+    "sha256": "299ed25e32ce0ad0cde1957cf9199755dd7c9e2c3316ddc7ccafbd6dcd264f68",
+    "bytes": 16218
+  },
+  {
+    "path": "app/data/lexicon/candidates.json",
+    "sha256": "a8c37290d736dbbb40ed860f94e90fbed037e305b00ed9daa379efcab08ca749",
+    "bytes": 5003845
+  },
+  {
+    "path": "app/data/lexicon/manifest.json",
+    "sha256": "b831c10cb8af38d8ecd43b5f1e35b50a35b71f122f4743730cf798b211f24531",
+    "bytes": 4140
+  },
+  {
+    "path": "app/data/lexicon/README.md",
+    "sha256": "5f680290f86e2969da0e2a9ff36d7ef57fffa6c9593f2e3ba0e3e86c49214322",
+    "bytes": 5592
+  },
+  {
+    "path": "app/data/lexicon/reviewed_rules.json",
+    "sha256": "3f56070253ae774d24ac4f997071e7bf215b636d8d77e9121695915f8df08a5d",
+    "bytes": 13667
+  },
+  {
+    "path": "app/data/lexicon/sources/blue_eyes_vi_LICENSE.md",
+    "sha256": "617a6e974eb91d7dd50388e0d2fa05eabfe8a6d65640b4dd31d34fd272d798c3",
+    "bytes": 1066
+  },
+  {
+    "path": "app/data/lexicon/sources/blue_eyes_vi_README.md",
+    "sha256": "0c4bb4b4df63688b66d5488acaa0d057eab16144238164a70658c93890cad759",
+    "bytes": 2954
+  },
+  {
+    "path": "app/data/lexicon/sources/blue_eyes_vi_vn_offensive_words.txt",
+    "sha256": "9e5fd21803717edfeb579d6e72b56f302008958adb178ffde2f25e021d91cdf6",
+    "bytes": 4426
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_data_en.txt",
+    "sha256": "49fe4672510350b1756b3fdf5c69db41625a41f3ba48740d2b9100c2d49c9d36",
+    "bytes": 124982
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_data_vi.txt",
+    "sha256": "aa76ba6cae9f8b54798c2aa316fcacd7b2a71311900dc693c836481e22b75c8e",
+    "bytes": 7263
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_LICENSE",
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "bytes": 7048
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_README.md",
+    "sha256": "fae3bd711ce9560dad51bc4266485fb4038f84cd5ab3fe73792b67923a839a54",
+    "bytes": 6814
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_SOURCES.md",
+    "sha256": "2278c49dc20f419d7995b03855335060c5cae0ab7ebb2a4fba412454ad148ef4",
+    "bytes": 5581
+  },
+  {
+    "path": "app/data/lexicon/sources/snapshots.json",
+    "sha256": "3c73ce0e4da45787d312e2ebb64fde4f81251704e9987a474b7e07fa34098478",
+    "bytes": 2380
+  },
+  {
+    "path": "app/database.py",
+    "sha256": "c9a436c9731140301f876fff4dea20c4167c76c847175a2f95f6a8f32b01428e",
+    "bytes": 1678
+  },
+  {
+    "path": "app/engine.py",
+    "sha256": "34f96dc1250cb6d653afc4075f6c6df27c50668be3adba9c3f49610aef029b2b",
+    "bytes": 6839
+  },
+  {
+    "path": "app/lexical.py",
+    "sha256": "44534c75db58469e5098905ec416596406d3c68850f2c367e254a70788872d9f",
+    "bytes": 5510
+  },
+  {
+    "path": "app/main.py",
+    "sha256": "906a417e13f1dcb81a9fb019cc9cbce8b2b1e2bf09a321af4217248383ed32c4",
+    "bytes": 5797
+  },
+  {
+    "path": "app/moderation_adapter.py",
+    "sha256": "2bbbbbd3e9e2e8b9b1211d04d0e90b612f3d749ad88c6b7a0e79ab2b64d03ab3",
+    "bytes": 6268
+  },
+  {
+    "path": "app/moderation_contract.py",
+    "sha256": "91d58bef4e4bcf883d3a77f678a0dde3649740580d4aa066fe05bd987d52d8b8",
+    "bytes": 5420
+  },
+  {
+    "path": "app/predictor.py",
+    "sha256": "9293fcf757eb7c1e9323563f234be85d9a825d0ecc30dd4df3967a989763b86e",
+    "bytes": 2761
+  },
+  {
+    "path": "app/review_store.py",
+    "sha256": "9e4385aafdfb40ed854047f3f052ed1d692e5b8b8ea72e5f5436458247f74ce3",
+    "bytes": 4345
+  },
+  {
+    "path": "app/schemas.py",
+    "sha256": "74cbaa4843134582e56f50026b8c863c5e929ba61d0753cffc3d3bbb2bcaf5f9",
+    "bytes": 4487
+  },
+  {
+    "path": "app/static/assets/index-B6t7Eu4q.js",
+    "sha256": "d7791ba798880b7a966478fef44474b1378840a25f6bf85a82439f3a6b5ea6c0",
+    "bytes": 196877
+  },
+  {
+    "path": "app/static/assets/index-BaiwjHcP.css",
+    "sha256": "43bb047edc8925510e73fbed17fb37cd30bc74e73ac80bd8585cb599407a661c",
+    "bytes": 24713
+  },
+  {
+    "path": "app/static/index.html",
+    "sha256": "7b981ec04ec96a8434490201e673aca3e00d2226fccc882141097fb3d5e34e7c",
+    "bytes": 695
+  },
+  {
+    "path": "frontend/index.html",
+    "sha256": "082679d71a6e20f9483eb5fd0595a1338af0a68b9ce86537acc9e019f957aaf5",
+    "bytes": 577
+  },
+  {
+    "path": "frontend/package.json",
+    "sha256": "c81b5466d5bf43ec5c1b4373b3ad0df2c90eb5b71e8d89375c55a003eb356331",
+    "bytes": 421
+  },
+  {
+    "path": "frontend/src/App.jsx",
+    "sha256": "a2ed668d481d8725dce27f70d175cefbd3ad12bd6cd9caede2da1d34722e338a",
+    "bytes": 39592
+  },
+  {
+    "path": "frontend/src/main.jsx",
+    "sha256": "e0872e5d0d073dc8b21df9f60d4ec76a66daeed8c26c46ea1cace58788e38685",
+    "bytes": 232
+  },
+  {
+    "path": "frontend/src/styles.css",
+    "sha256": "09174820125fc398ada9f4ad880993e44e50c4a86d57b0c20468ffa061b6bb2d",
+    "bytes": 25233
+  },
+  {
+    "path": "frontend/src/utils.js",
+    "sha256": "a0e8a24d38b77579ef950f5b163f1494eeecb23d1ca80c493bffe37a891d5d05",
+    "bytes": 4792
+  },
+  {
+    "path": "frontend/vite.config.js",
+    "sha256": "cbc64509e64910c8cb0b77eec3f101fa8bab5c6f682e9417dbfb85f440ea919a",
+    "bytes": 376
+  },
+  {
+    "path": "notebooks/08_ShieldVI_Dashboard_Colab.ipynb",
+    "sha256": "376248491a50dd8238e41e10f366ffdec4a353ccc176181748f21ac690432724",
+    "bytes": 9285
+  },
+  {
+    "path": "notebooks/09_ShieldVI_V3_Hybrid_Review_Colab.ipynb",
+    "sha256": "e785466ed6a1fce9a225735669f17893bd7f5e6e31df1a26e312effa0fed6169",
+    "bytes": 10660
+  },
+  {
+    "path": "pytest.ini",
+    "sha256": "b160d82f7811555051f8966d8e02750a985227c1d022208c784e606946f2eada",
+    "bytes": 42
+  },
+  {
+    "path": "README.md",
+    "sha256": "6a078d5df9bca60e8f3e3d9abda6051a158024ca03066fbf12007b27f4bf4742",
+    "bytes": 7852
+  },
+  {
+    "path": "requirements-dev.txt",
+    "sha256": "c23feb58b6f9cab899b3e457b6cad56158f5315b366cd0f7a210feef72af395b",
+    "bytes": 49
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "16f2d1c24323b178434eec1b85fbc54294b9f052f0619894560543bf87e725e1",
+    "bytes": 158
+  },
+  {
+    "path": "run_windows_dashboard.bat",
+    "sha256": "bc865b795b0f6adb26df4950f3dbc1fd9fb7010f95df261338c914aeb35b323f",
+    "bytes": 610
+  },
+  {
+    "path": "scripts/check_dashboard.py",
+    "sha256": "3c5cfcd86a0cfcc87b630a620b9c6a32b068457686734f2a64901697aaf64292",
+    "bytes": 711
+  },
+  {
+    "path": "scripts/evaluate_social_policy.py",
+    "sha256": "77a22b6bf87e759c9ffbe5d674ee7de45d2d4c06c43148b196fc5466bb8d4198",
+    "bytes": 10300
+  },
+  {
+    "path": "scripts/import_lexicon.py",
+    "sha256": "fbb3cd5144164b5080d206bb1a936894627785a0fe2638955a79fcd0a6c1703c",
+    "bytes": 7894
+  },
+  {
+    "path": "scripts/prepare_social_datasets.py",
+    "sha256": "f9ac3eec73d1b47f30d97119f258ff79715beb60526a6287b99bd8ba4f08465b",
+    "bytes": 14896
+  },
+  {
+    "path": "scripts/refine_last_block.py",
+    "sha256": "e983f0e147adb9a93c3b0487245047f89c7461424182a7eebd680bbd9bf66d44",
+    "bytes": 10784
+  },
+  {
+    "path": "scripts/refine_model.py",
+    "sha256": "66a00705b5673a6cc3395a7fda56a526768588df67fc93f7f188aeaeba58a190",
+    "bytes": 15106
+  },
+  {
+    "path": "tests/conftest.py",
+    "sha256": "110ca68114cf87bb5933da7e1c835bf93e9b0307d49c2476b5a8033e0d6aef6e",
+    "bytes": 680
+  },
+  {
+    "path": "tests/test_api.py",
+    "sha256": "57624b886a769bc2bef4283417dd4a03780d9e78c564f9da4854e1638445757d",
+    "bytes": 3298
+  },
+  {
+    "path": "tests/test_engine.py",
+    "sha256": "0296dda798e6921ffe44f8f8361c4f0c3707ca848defc993091353ddaf71361f",
+    "bytes": 2220
+  },
+  {
+    "path": "tests/test_evaluation.py",
+    "sha256": "80631f6b0337991e86e8c4ec41b5015403e69c62f5ebb42ae8f7310703e952b9",
+    "bytes": 1159
+  },
+  {
+    "path": "tests/test_internal_privacy.py",
+    "sha256": "372ea68fbb54c683ee2a1fed6d16873043d170bcc664af3036381dd1b3ba40d4",
+    "bytes": 1323
+  },
+  {
+    "path": "tests/test_lexical.py",
+    "sha256": "0d49a9cda1ca26a3fff303a5d1e81cc411be0c060955ea0569375f18437011cf",
+    "bytes": 3664
+  },
+  {
+    "path": "tests/test_lexicon_data.py",
+    "sha256": "666cb5c398597fa07cebc92a5c12d54ad346ff47f5618bd02a8fbe6c133b8c35",
+    "bytes": 10438
+  },
+  {
+    "path": "tests/test_model_refinement.py",
+    "sha256": "44ec8c575bea8a4898c472fe33da3517b5a0fc9b19710eef3cd4ba6ac49b5223",
+    "bytes": 3786
+  },
+  {
+    "path": "tests/test_moderation_adapter.py",
+    "sha256": "1998bd107a4087faaa5ffde668e9f67ac9cf3c87f2748452faf1c7fdfd8508ce",
+    "bytes": 5567
+  },
+  {
+    "path": "tests/test_social_datasets.py",
+    "sha256": "a1bc27c9ff4bdee86c1b2c56d366e7f103da2dbde9598ca3f80e8aa2e99825c8",
+    "bytes": 6239
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "weights_sha256": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "threshold": 0.41,
+  "input_and_baseline_sha256": {
+    "services\\moderation-ai\\app\\engine.py": "34f96dc1250cb6d653afc4075f6c6df27c50668be3adba9c3f49610aef029b2b",
+    "datasets\\fixtures\\genz_regression\\synthetic_reference_tags.csv": "168923a89e7342193fa16d880cccffe10c61df1b7468e542c8215254b80106f4",
+    "datasets\\fixtures\\genz_regression\\SHIELDVI_01_GAME_RANK_LAG_30.json": "db0a31f70e462aaa2eb575dd443ded27100b30493dc176093b36b7c2311927c2",
+    "reports\\ai_update\\baseline\\2026-11-02_T020\\V1_immutable\\SHIELDVI_01_GAME_RANK_LAG_30.response.json": "974604232b89e7665ac714c87f1fbbd10e68e9fe001b3094700e8a1bb7e9956c",
+    "datasets\\fixtures\\genz_regression\\SHIELDVI_02_SHOP_GIAY_SECONDHAND_30.json": "28a2179025e74db2dc8262bcc49a600e2ec6563e3fdc5cbb6b52bde669658d33",
+    "reports\\ai_update\\baseline\\2026-11-02_T020\\V1_immutable\\SHIELDVI_02_SHOP_GIAY_SECONDHAND_30.response.json": "19cf1f39d05efa778b48be5855ab1a3ba94c36c306880ec7724279a21539dfe5",
+    "datasets\\fixtures\\genz_regression\\SHIELDVI_03_DANCE_COVER_TIKTOK_30.json": "270db107f4655033e323a129e87b7c15b23a67360c2c90ecbe7e1eaaf5403fa6",
+    "reports\\ai_update\\baseline\\2026-11-02_T020\\V1_immutable\\SHIELDVI_03_DANCE_COVER_TIKTOK_30.response.json": "5178dc4249946eea3ca13d6ea75a60dac78b88466d32569dcd7994f4fe4e66be",
+    "datasets\\fixtures\\genz_regression\\SHIELDVI_04_DI_CAMPING_CHIA_TIEN_30.json": "20182a7fa088789f118349aeed6fb981439e7bc0398c18d4e715ce4d33c12cba",
+    "reports\\ai_update\\baseline\\2026-11-02_T020\\V1_immutable\\SHIELDVI_04_DI_CAMPING_CHIA_TIEN_30.response.json": "fc13d0bf3b8764421a4778e9de6efdacc7734ecb2f9ae6d7776816a842c03b58",
+    "datasets\\fixtures\\genz_regression\\SHIELDVI_05_FANART_AI_DISPUTE_30.json": "4d6e860c47c5f722a00900166a1b68d8bf24317d9845f9b69410a25279bf3fc0",
+    "reports\\ai_update\\baseline\\2026-11-02_T020\\V1_immutable\\SHIELDVI_05_FANART_AI_DISPUTE_30.response.json": "73e5c5767e6abd369c1764f40dba79013848886ad459f454cde6e9a2c7e4e607"
+  },
+  "real_inference_origin": "Cached real V1 T020; not a new forward in this script",
+  "protocol": "existing_synthetic_development_regression_NOT_BLIND",
+  "reference_projection": {
+    "DIRECTED_INSULT": "TOXIC",
+    "DIRECTED_ACCUSATION": "UNCERTAIN",
+    "other_tags": "CLEAN"
+  },
+  "variants": {
+    "B0": "Original T020 V1+V3 capture",
+    "B1": "V1 + new lexical detector, verified byte-identical legacy engine/context/target behavior",
+    "B2": "V1 + original per-text lexical outputs + new context tags, old target/repeated retained",
+    "B3": "V1 + new lexicon/context/target/repeated"
+  },
+  "scope": "Five exact captured inputs only; cannot replay original lexical module on unseen GenZ500 texts"
+}

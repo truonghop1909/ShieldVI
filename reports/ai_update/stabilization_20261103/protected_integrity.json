@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "protected_hashes_checked": 259,
+  "live_SQLite_unchanged": true,
+  "V1_and_candidates_unchanged": true,
+  "canonical_labels_and_old_test_unchanged": true
+}

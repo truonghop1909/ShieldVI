@@ -1,0 +1,15 @@
+{
+  "reason": "Provenance source_url empty accepted then500/private-key side effect; API red test proves500 instead422. Enforce min_length1 before staging.",
+  "changed_runtime_file": "scripts/real_dataset/intake.py",
+  "runtime_lines_changed": 1,
+  "labels_changed": false,
+  "rules_changed": false,
+  "models_changed": false,
+  "threshold_changed": false,
+  "same_human_protocol_changed": false,
+  "before": "API500",
+  "after": "API422 with no quarantine/key writes",
+  "review_protocol_tests_passed": 48,
+  "parent_lock_sha256": "f1f6fcd6978a2ee72dcc6b38256517be923e9133d85c8ff10794762efbe57ce2",
+  "human_gold_created": false
+}

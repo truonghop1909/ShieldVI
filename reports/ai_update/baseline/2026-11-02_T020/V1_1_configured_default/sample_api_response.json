@@ -1,0 +1,140 @@
+{
+  "thread_id": "DEMO_A",
+  "model_name": "ViSoBERT V1.1 — ViCTSD",
+  "model_threshold": 0.41,
+  "repeated_rule_threshold": 0.41,
+  "profile": "conservative",
+  "research_only": false,
+  "suspected_repeated_harassment": true,
+  "risk_level": "suspected_repeated",
+  "risk_score_heuristic": 75,
+  "evidence": [
+    {
+      "actor_user_id": "U02",
+      "target_user_id": "U01",
+      "evidence_comment_ids": [
+        "d2",
+        "d4"
+      ],
+      "n_distinct_timestamps": 2,
+      "target_confidence": "medium"
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "d1",
+      "user_id": "U01",
+      "parent_id": null,
+      "timestamp": "2026-10-10T10:00:00Z",
+      "toxicity_score": 0.01081,
+      "toxic_for_moderation": false,
+      "toxic_for_repeated_rule": false,
+      "target_user_id": null,
+      "target_method": "undetermined",
+      "target_confidence": "none",
+      "profanity_detected": false,
+      "lexical_review_recommended": false,
+      "directed_insult_candidate": false,
+      "reported_or_apology_context": false,
+      "review_recommended": false,
+      "lexical_signals": []
+    },
+    {
+      "comment_id": "d2",
+      "user_id": "U02",
+      "parent_id": "d1",
+      "timestamp": "2026-10-10T10:03:00Z",
+      "toxicity_score": 0.48704,
+      "toxic_for_moderation": true,
+      "toxic_for_repeated_rule": true,
+      "target_user_id": "U01",
+      "target_method": "reply_parent_author",
+      "target_confidence": "medium",
+      "profanity_detected": false,
+      "lexical_review_recommended": false,
+      "directed_insult_candidate": false,
+      "reported_or_apology_context": false,
+      "review_recommended": true,
+      "lexical_signals": []
+    },
+    {
+      "comment_id": "d3",
+      "user_id": "U01",
+      "parent_id": "d2",
+      "timestamp": "2026-10-10T10:05:00Z",
+      "toxicity_score": 0.015232,
+      "toxic_for_moderation": false,
+      "toxic_for_repeated_rule": false,
+      "target_user_id": "U02",
+      "target_method": "reply_parent_author",
+      "target_confidence": "medium",
+      "profanity_detected": false,
+      "lexical_review_recommended": false,
+      "directed_insult_candidate": false,
+      "reported_or_apology_context": false,
+      "review_recommended": false,
+      "lexical_signals": []
+    },
+    {
+      "comment_id": "d4",
+      "user_id": "U02",
+      "parent_id": "d3",
+      "timestamp": "2026-10-10T10:07:00Z",
+      "toxicity_score": 0.642735,
+      "toxic_for_moderation": true,
+      "toxic_for_repeated_rule": true,
+      "target_user_id": "U01",
+      "target_method": "reply_parent_author",
+      "target_confidence": "medium",
+      "profanity_detected": false,
+      "lexical_review_recommended": false,
+      "directed_insult_candidate": false,
+      "reported_or_apology_context": false,
+      "review_recommended": true,
+      "lexical_signals": [
+        {
+          "rule_id": "vi_short_uncertain",
+          "category": "ambiguous",
+          "matched_form": "ngu",
+          "strength": "ambiguous",
+          "canonical_form": "ngu",
+          "language": "vi",
+          "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+          "source_ids": [
+            "blue_eyes_vi",
+            "ldnoobw_v2_en",
+            "ldnoobw_v2_vi",
+            "shieldvi_reviewed"
+          ],
+          "start": 12,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "comment_id": "d5",
+      "user_id": "U03",
+      "parent_id": "d1",
+      "timestamp": "2026-10-10T10:12:00Z",
+      "toxicity_score": 0.031995,
+      "toxic_for_moderation": false,
+      "toxic_for_repeated_rule": false,
+      "target_user_id": "U01",
+      "target_method": "reply_parent_author",
+      "target_confidence": "medium",
+      "profanity_detected": false,
+      "lexical_review_recommended": false,
+      "directed_insult_candidate": false,
+      "reported_or_apology_context": false,
+      "review_recommended": false,
+      "lexical_signals": []
+    }
+  ],
+  "warnings": [
+    "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+    "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+    "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+    "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+    "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại."
+  ]
+}

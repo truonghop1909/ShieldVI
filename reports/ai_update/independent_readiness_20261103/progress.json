@@ -1,0 +1,93 @@
+{
+  "status": "COMPLETE_SAFE_SCOPES_REAL_BLOCKED",
+  "completed_task_scopes": 8,
+  "blocked_current_tasks": [
+    "T028 real acceptance",
+    "T029 new training"
+  ],
+  "historical_task_statuses_preserved": 27,
+  "root_tests_passed": 574,
+  "social_tests_passed": 177,
+  "integration_browser_pass": true,
+  "review_browser_pass": true,
+  "synthetic_metrics": {
+    "before": {
+      "n": 886,
+      "tp": 57,
+      "fp": 20,
+      "tn": 800,
+      "fn": 9,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.7402597402597403,
+      "toxic_recall": 0.8636363636363636,
+      "macro_f1": 0.8897002322416687,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "after": {
+      "n": 886,
+      "tp": 60,
+      "fp": 18,
+      "tn": 802,
+      "fn": 6,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.7692307692307693,
+      "toxic_recall": 0.9090909090909091,
+      "macro_f1": 0.9092956592956594,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    }
+  },
+  "grounding_metrics": {
+    "before": {
+      "reference_comments_with_target_coverage": 797,
+      "reference_attacks": 54,
+      "target_emissions": 30,
+      "target_correct": 30,
+      "target_precision": 1.0,
+      "target_recall": 0.5555555555555556,
+      "target_abstentions_on_reference_attacks": 24,
+      "repeated": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.3333333333333333,
+        "evidence_correct": 8,
+        "evidence_total": 8,
+        "evidence_precision": 1.0
+      }
+    },
+    "after": {
+      "reference_comments_with_target_coverage": 797,
+      "reference_attacks": 54,
+      "target_emissions": 34,
+      "target_correct": 34,
+      "target_precision": 1.0,
+      "target_recall": 0.6296296296296297,
+      "target_abstentions_on_reference_attacks": 20,
+      "repeated": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 7,
+        "precision": 1.0,
+        "recall": 0.3,
+        "f1": 0.46153846153846156,
+        "evidence_correct": 10,
+        "evidence_total": 10,
+        "evidence_precision": 1.0
+      }
+    }
+  },
+  "real_valid_threads": 0,
+  "human_labels": 0,
+  "old30_313": "NOT_FOUND",
+  "training_performed": false,
+  "production_changed": false,
+  "collector_paused": true,
+  "report": "docs/ai-update/final-report/INDEPENDENT_READINESS.md",
+  "next": "Real source/permission/privacy verification, same-human2rounds, lock; training remains gated. No more contact/path questions this session."
+}

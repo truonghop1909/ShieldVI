@@ -1,0 +1,24 @@
+{
+  "scope": "local_synthetic_not_independent_real_or_load_test",
+  "social_browser_contexts": 5,
+  "total_browser_contexts": 7,
+  "ui_action_to_ack_ms": {
+    "n": 9,
+    "p50_ms": 260,
+    "p95_ms": 901
+  },
+  "ui_action_to_result_visible_ms": {
+    "n": 9,
+    "p50_ms": 973,
+    "p95_ms": 1746
+  },
+  "notes": [
+    "UI-action timers include fill/reply/click and browser observation; not pure HTTP latency.",
+    "Separate current 3-context/4-comment neural E2E has Resource Timing ACK, SQL enqueue, queue wait, AI analysis and fanout metrics. No production SLO."
+  ],
+  "component_metrics": "reports\\task_rollout_20261104\\demo_d6c905446c193cbd\\T043_performance.json",
+  "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "logical_cpus": 12,
+  "os": "Windows-11-10.0.26300-SP0",
+  "training_performed": false
+}

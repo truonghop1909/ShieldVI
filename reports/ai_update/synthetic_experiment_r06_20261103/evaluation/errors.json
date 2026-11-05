@@ -1,0 +1,2543 @@
+[
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0205",
+    "comment_id": "SGZ500_0205_C07",
+    "split": "synthetic_validation",
+    "text": "Đầu mày chắc chỉ đủ để đội cái nón thôi.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.11039337515830994,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0205_U01",
+    "directed_at_user_id": "SGZ500_0205_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0217",
+    "comment_id": "SGZ500_0217_C01",
+    "split": "synthetic_validation",
+    "text": "Mình đã nói không muốn bị tag vào bài chê nhóm khác nữa.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.44727402925491333,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0217",
+    "comment_id": "SGZ500_0217_C04",
+    "split": "synthetic_validation",
+    "text": "Mình không tham gia công kích không có nghĩa phải nhận lời xúc phạm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.44459351897239685,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "DEFENSE"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0217_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0218",
+    "comment_id": "SGZ500_0218_C04",
+    "split": "synthetic_challenge",
+    "text": "Góp ý mốc thời gian được, đừng gọi tác giả ngu.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7663899660110474,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "SET_BOUNDARY"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 43,
+        "end": 46
+      }
+    ],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0218_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0218",
+    "comment_id": "SGZ500_0218_C06",
+    "split": "synthetic_challenge",
+    "text": "Chắc người nghe phải có lòng thương lớn lắm mới nghe hết giọng mày.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.29935505986213684,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0218_U01",
+    "directed_at_user_id": "SGZ500_0218_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0218",
+    "comment_id": "SGZ500_0218_C07",
+    "split": "synthetic_challenge",
+    "text": "Câu này vẫn hạ người dù không có từ tục.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.6215859055519104,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0218_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0219",
+    "comment_id": "SGZ500_0219_C02",
+    "split": "synthetic_validation",
+    "text": "Xin lỗi đã không hỏi, nhưng mày vô dụng nên giữ phần đó cũng thừa.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.37927255034446716,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "APOLOGY",
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0219_U01",
+    "directed_at_user_id": "SGZ500_0219_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0219",
+    "comment_id": "SGZ500_0219_C03",
+    "split": "synthetic_validation",
+    "text": "Xin lỗi kèm phủ định người khác như vậy vẫn đang công kích.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.42582187056541443,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "APOLOGY"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0219_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0255",
+    "comment_id": "SGZ500_0255_C06",
+    "split": "synthetic_challenge",
+    "text": "Đã nhắc giọng rồi còn bảo người ta câm là quá.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.791620671749115,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0255_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0255",
+    "comment_id": "SGZ500_0255_C07",
+    "split": "synthetic_challenge",
+    "text": "Mình không nhận góp ý kiểu xúc phạm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8267788887023926,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0255_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0265",
+    "comment_id": "SGZ500_0265_C02",
+    "split": "synthetic_challenge",
+    "text": "Xin lỗi đóng thiếu, nhưng khách ngu như bạn mới không biết tự mua thêm.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.07866550236940384,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "APOLOGY",
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích. Có dấu hiệu trích dẫn/tường thuật/xin lỗi; không coi là công kích trực tiếp.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 32,
+        "end": 35
+      }
+    ],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0265_U01",
+    "directed_at_user_id": "SGZ500_0265_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0296",
+    "comment_id": "SGZ500_0296_C02",
+    "split": "synthetic_validation",
+    "text": "Tui không đi được, đừng suy ra con người tui.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.515904426574707,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0296_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0296",
+    "comment_id": "SGZ500_0296_C04",
+    "split": "synthetic_validation",
+    "text": "Tui xin lỗi đã chụp mũ A là ích kỷ.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7841742038726807,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "APOLOGY"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0296_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0337",
+    "comment_id": "SGZ500_0337_C03",
+    "split": "synthetic_validation",
+    "text": "Tao sẽ đánh mày nếu tin này sai.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.20981121063232422,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0337_U01",
+    "directed_at_user_id": "SGZ500_0337_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0339",
+    "comment_id": "SGZ500_0339_C02",
+    "split": "synthetic_challenge",
+    "text": "Chắc đầu óc mày chỉ đến mức này thôi.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.28299155831336975,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0339_U01",
+    "directed_at_user_id": "SGZ500_0339_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0339",
+    "comment_id": "SGZ500_0339_C03",
+    "split": "synthetic_challenge",
+    "text": "Sai bài không cho biết giới hạn con người.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.4169730544090271,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0339_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0342",
+    "comment_id": "SGZ500_0342_C01",
+    "split": "synthetic_validation",
+    "text": "Đèn mạnh làm lớp nền trông nhạt.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7297443151473999,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0346",
+    "comment_id": "SGZ500_0346_C02",
+    "split": "synthetic_validation",
+    "text": "You are trash. Stop drawing him.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.01586819253861904,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0346_U01",
+    "directed_at_user_id": "SGZ500_0346_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0346",
+    "comment_id": "SGZ500_0346_C03",
+    "split": "synthetic_validation",
+    "text": "Nhận xét tranh, đừng hạ nhục tác giả.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.47020307183265686,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "INTERVENTION"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0346_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0346",
+    "comment_id": "SGZ500_0346_C05",
+    "split": "synthetic_validation",
+    "text": "Tỉ lệ mặt khác bản gốc quá.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.5904968976974487,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0346_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0349",
+    "comment_id": "SGZ500_0349_C05",
+    "split": "synthetic_challenge",
+    "text": "Nói nhẹ nhé, sự tồn tại của mày chỉ gây phiền.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.16708630323410034,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0349_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0349",
+    "comment_id": "SGZ500_0349_C06",
+    "split": "synthetic_challenge",
+    "text": "Đổi giọng vẫn là hạ nhục người khác.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8822829723358154,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0349_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0358",
+    "comment_id": "SGZ500_0358_C02",
+    "split": "synthetic_validation",
+    "text": "Your taste is garbage, idiot.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.017928658053278923,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "UNCERTAIN"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "en_insult",
+        "category": "directed_insult",
+        "matched_form": "idiot",
+        "strength": "context",
+        "canonical_form": "idiot",
+        "language": "en",
+        "reason": "Từ hạ nhục tiềm năng; chỉ gợi ý công kích khi có ngữ cảnh hướng vào người. Có dấu hiệu hướng tới người gần cụm từ; cần xác nhận thủ công.",
+        "source_ids": [
+          "ldnoobw_v2_en",
+          "shieldvi_reviewed"
+        ],
+        "start": 23,
+        "end": 28
+      }
+    ],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0358_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0373",
+    "comment_id": "SGZ500_0373_C03",
+    "split": "synthetic_challenge",
+    "text": "Chê kỹ thuật thì nói đúng kỹ thuật.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.49459725618362427,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0373_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0373",
+    "comment_id": "SGZ500_0373_C05",
+    "split": "synthetic_challenge",
+    "text": "Mình xin lỗi vì đã bảo giọng bạn kinh tởm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8373544216156006,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "APOLOGY"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0373_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0423",
+    "comment_id": "SGZ500_0423_C01",
+    "split": "synthetic_validation",
+    "text": "Câu này dịch làm mất ý châm biếm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8884299397468567,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0423",
+    "comment_id": "SGZ500_0423_C07",
+    "split": "synthetic_validation",
+    "text": "Tui không nói người dịch kém mọi mặt.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7022496461868286,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0438",
+    "comment_id": "SGZ500_0438_C02",
+    "split": "synthetic_challenge",
+    "text": "Tao tìm tới đánh mày nếu không xóa bài.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.11795732378959656,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0438_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0456",
+    "comment_id": "SGZ500_0456_C02",
+    "split": "synthetic_validation",
+    "text": "Giao chậm tao tới đánh mày cho nhớ.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.2247694581747055,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0456_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0462",
+    "comment_id": "SGZ500_0462_C06",
+    "split": "synthetic_challenge",
+    "text": "phấn lên màu yếu thật",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.6422335505485535,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0462",
+    "comment_id": "SGZ500_0462_C07",
+    "split": "synthetic_challenge",
+    "text": "Nhận xét đó được, lời miệt thị thì không.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.5408441424369812,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0464",
+    "comment_id": "SGZ500_0464_C02",
+    "split": "synthetic_challenge",
+    "text": "Xin lỗi đổi nhầm, nhưng mày ngu mới không tự sửa.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.20568352937698364,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "APOLOGY",
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích. Có dấu hiệu trích dẫn/tường thuật/xin lỗi; không coi là công kích trực tiếp.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 28,
+        "end": 31
+      }
+    ],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0464_U01",
+    "directed_at_user_id": "SGZ500_0464_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0481",
+    "comment_id": "SGZ500_0481_C01",
+    "split": "synthetic_challenge",
+    "text": "Người đó nhắn mình “đồ vô dụng, biến đi”.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.4976292550563812,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "QUOTE"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0482",
+    "comment_id": "SGZ500_0482_C03",
+    "split": "synthetic_validation",
+    "text": "Bạn thấy đẹp hay đang chọc tui vậy?",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.49961188435554504,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0489",
+    "comment_id": "SGZ500_0489_C01",
+    "split": "synthetic_validation",
+    "text": "Mày ngu mới không hiểu thông báo thu phí.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.3077402114868164,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 4,
+        "end": 7
+      }
+    ],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0491",
+    "comment_id": "SGZ500_0491_C06",
+    "split": "synthetic_challenge",
+    "text": "Nói nhẹ thôi, có mày hay không cũng chẳng ai cần.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.10357291251420975,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0491_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0498",
+    "comment_id": "SGZ500_0498_C05",
+    "split": "synthetic_validation",
+    "text": "Nói lịch sự nhé, khả năng hiểu của mày không đáng để giải thích.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.27431029081344604,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0498_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "V1",
+    "thread_id": "SGZ500_0498",
+    "comment_id": "SGZ500_0498_C09",
+    "split": "synthetic_validation",
+    "text": "Từ chối trả lời được, công kích thì không.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.4657805562019348,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0205",
+    "comment_id": "SGZ500_0205_C07",
+    "split": "synthetic_validation",
+    "text": "Đầu mày chắc chỉ đủ để đội cái nón thôi.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.0929013267159462,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0205_U01",
+    "directed_at_user_id": "SGZ500_0205_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0217",
+    "comment_id": "SGZ500_0217_C01",
+    "split": "synthetic_validation",
+    "text": "Mình đã nói không muốn bị tag vào bài chê nhóm khác nữa.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.43183696269989014,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0217",
+    "comment_id": "SGZ500_0217_C04",
+    "split": "synthetic_validation",
+    "text": "Mình không tham gia công kích không có nghĩa phải nhận lời xúc phạm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.41040244698524475,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "DEFENSE"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0217_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0218",
+    "comment_id": "SGZ500_0218_C04",
+    "split": "synthetic_challenge",
+    "text": "Góp ý mốc thời gian được, đừng gọi tác giả ngu.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8337618708610535,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "SET_BOUNDARY"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 43,
+        "end": 46
+      }
+    ],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0218_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0218",
+    "comment_id": "SGZ500_0218_C06",
+    "split": "synthetic_challenge",
+    "text": "Chắc người nghe phải có lòng thương lớn lắm mới nghe hết giọng mày.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.22882014513015747,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0218_U01",
+    "directed_at_user_id": "SGZ500_0218_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0218",
+    "comment_id": "SGZ500_0218_C07",
+    "split": "synthetic_challenge",
+    "text": "Câu này vẫn hạ người dù không có từ tục.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.5882169008255005,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0218_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0219",
+    "comment_id": "SGZ500_0219_C02",
+    "split": "synthetic_validation",
+    "text": "Xin lỗi đã không hỏi, nhưng mày vô dụng nên giữ phần đó cũng thừa.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.3714138865470886,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "APOLOGY",
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0219_U01",
+    "directed_at_user_id": "SGZ500_0219_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0255",
+    "comment_id": "SGZ500_0255_C06",
+    "split": "synthetic_challenge",
+    "text": "Đã nhắc giọng rồi còn bảo người ta câm là quá.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8187904357910156,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0255_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0255",
+    "comment_id": "SGZ500_0255_C07",
+    "split": "synthetic_challenge",
+    "text": "Mình không nhận góp ý kiểu xúc phạm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8638792634010315,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0255_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0265",
+    "comment_id": "SGZ500_0265_C02",
+    "split": "synthetic_challenge",
+    "text": "Xin lỗi đóng thiếu, nhưng khách ngu như bạn mới không biết tự mua thêm.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.058758728206157684,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "APOLOGY",
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích. Có dấu hiệu trích dẫn/tường thuật/xin lỗi; không coi là công kích trực tiếp.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 32,
+        "end": 35
+      }
+    ],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0265_U01",
+    "directed_at_user_id": "SGZ500_0265_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0296",
+    "comment_id": "SGZ500_0296_C02",
+    "split": "synthetic_validation",
+    "text": "Tui không đi được, đừng suy ra con người tui.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.4878363609313965,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0296_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0296",
+    "comment_id": "SGZ500_0296_C04",
+    "split": "synthetic_validation",
+    "text": "Tui xin lỗi đã chụp mũ A là ích kỷ.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8255589008331299,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "APOLOGY"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0296_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0337",
+    "comment_id": "SGZ500_0337_C03",
+    "split": "synthetic_validation",
+    "text": "Tao sẽ đánh mày nếu tin này sai.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.1688268929719925,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0337_U01",
+    "directed_at_user_id": "SGZ500_0337_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0339",
+    "comment_id": "SGZ500_0339_C02",
+    "split": "synthetic_challenge",
+    "text": "Chắc đầu óc mày chỉ đến mức này thôi.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.23824311792850494,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0339_U01",
+    "directed_at_user_id": "SGZ500_0339_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0342",
+    "comment_id": "SGZ500_0342_C01",
+    "split": "synthetic_validation",
+    "text": "Đèn mạnh làm lớp nền trông nhạt.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7493127584457397,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0346",
+    "comment_id": "SGZ500_0346_C02",
+    "split": "synthetic_validation",
+    "text": "You are trash. Stop drawing him.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.012546657584607601,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0346_U01",
+    "directed_at_user_id": "SGZ500_0346_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0346",
+    "comment_id": "SGZ500_0346_C03",
+    "split": "synthetic_validation",
+    "text": "Nhận xét tranh, đừng hạ nhục tác giả.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.44560176134109497,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "INTERVENTION"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0346_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0346",
+    "comment_id": "SGZ500_0346_C05",
+    "split": "synthetic_validation",
+    "text": "Tỉ lệ mặt khác bản gốc quá.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.5487432479858398,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0346_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0349",
+    "comment_id": "SGZ500_0349_C05",
+    "split": "synthetic_challenge",
+    "text": "Nói nhẹ nhé, sự tồn tại của mày chỉ gây phiền.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.13872937858104706,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0349_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0349",
+    "comment_id": "SGZ500_0349_C06",
+    "split": "synthetic_challenge",
+    "text": "Đổi giọng vẫn là hạ nhục người khác.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.9152549505233765,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0349_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0358",
+    "comment_id": "SGZ500_0358_C02",
+    "split": "synthetic_validation",
+    "text": "Your taste is garbage, idiot.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.01246666070073843,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "UNCERTAIN"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "en_insult",
+        "category": "directed_insult",
+        "matched_form": "idiot",
+        "strength": "context",
+        "canonical_form": "idiot",
+        "language": "en",
+        "reason": "Từ hạ nhục tiềm năng; chỉ gợi ý công kích khi có ngữ cảnh hướng vào người. Có dấu hiệu hướng tới người gần cụm từ; cần xác nhận thủ công.",
+        "source_ids": [
+          "ldnoobw_v2_en",
+          "shieldvi_reviewed"
+        ],
+        "start": 23,
+        "end": 28
+      }
+    ],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0358_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0373",
+    "comment_id": "SGZ500_0373_C03",
+    "split": "synthetic_challenge",
+    "text": "Chê kỹ thuật thì nói đúng kỹ thuật.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.5211507081985474,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0373_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0373",
+    "comment_id": "SGZ500_0373_C05",
+    "split": "synthetic_challenge",
+    "text": "Mình xin lỗi vì đã bảo giọng bạn kinh tởm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8765704035758972,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "APOLOGY"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0373_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0423",
+    "comment_id": "SGZ500_0423_C01",
+    "split": "synthetic_validation",
+    "text": "Câu này dịch làm mất ý châm biếm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.928313672542572,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0423",
+    "comment_id": "SGZ500_0423_C07",
+    "split": "synthetic_validation",
+    "text": "Tui không nói người dịch kém mọi mặt.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7389435172080994,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0438",
+    "comment_id": "SGZ500_0438_C02",
+    "split": "synthetic_challenge",
+    "text": "Tao tìm tới đánh mày nếu không xóa bài.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.08849532902240753,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0438_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0456",
+    "comment_id": "SGZ500_0456_C02",
+    "split": "synthetic_validation",
+    "text": "Giao chậm tao tới đánh mày cho nhớ.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.19356217980384827,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0456_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0459",
+    "comment_id": "SGZ500_0459_C02",
+    "split": "synthetic_validation",
+    "text": "Loại ở tạm như mày có mặt cũng chẳng ích gì.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.3761954605579376,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0459_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0462",
+    "comment_id": "SGZ500_0462_C06",
+    "split": "synthetic_challenge",
+    "text": "phấn lên màu yếu thật",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.6354508996009827,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0462",
+    "comment_id": "SGZ500_0462_C07",
+    "split": "synthetic_challenge",
+    "text": "Nhận xét đó được, lời miệt thị thì không.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.540704071521759,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0464",
+    "comment_id": "SGZ500_0464_C02",
+    "split": "synthetic_challenge",
+    "text": "Xin lỗi đổi nhầm, nhưng mày ngu mới không tự sửa.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.17505516111850739,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "APOLOGY",
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích. Có dấu hiệu trích dẫn/tường thuật/xin lỗi; không coi là công kích trực tiếp.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 28,
+        "end": 31
+      }
+    ],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0464_U01",
+    "directed_at_user_id": "SGZ500_0464_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0481",
+    "comment_id": "SGZ500_0481_C01",
+    "split": "synthetic_challenge",
+    "text": "Người đó nhắn mình “đồ vô dụng, biến đi”.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.5044118762016296,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "QUOTE"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0482",
+    "comment_id": "SGZ500_0482_C03",
+    "split": "synthetic_validation",
+    "text": "Bạn thấy đẹp hay đang chọc tui vậy?",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.4787900149822235,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0489",
+    "comment_id": "SGZ500_0489_C01",
+    "split": "synthetic_validation",
+    "text": "Mày ngu mới không hiểu thông báo thu phí.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.3224453628063202,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 4,
+        "end": 7
+      }
+    ],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0491",
+    "comment_id": "SGZ500_0491_C06",
+    "split": "synthetic_challenge",
+    "text": "Nói nhẹ thôi, có mày hay không cũng chẳng ai cần.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.0733775943517685,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0491_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0498",
+    "comment_id": "SGZ500_0498_C05",
+    "split": "synthetic_validation",
+    "text": "Nói lịch sự nhé, khả năng hiểu của mày không đáng để giải thích.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.251630961894989,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0498_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r05",
+    "thread_id": "SGZ500_0498",
+    "comment_id": "SGZ500_0498_C09",
+    "split": "synthetic_validation",
+    "text": "Từ chối trả lời được, công kích thì không.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.43925899267196655,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0205",
+    "comment_id": "SGZ500_0205_C07",
+    "split": "synthetic_validation",
+    "text": "Đầu mày chắc chỉ đủ để đội cái nón thôi.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.3771496117115021,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0205_U01",
+    "directed_at_user_id": "SGZ500_0205_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0218",
+    "comment_id": "SGZ500_0218_C04",
+    "split": "synthetic_challenge",
+    "text": "Góp ý mốc thời gian được, đừng gọi tác giả ngu.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7627424001693726,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "SET_BOUNDARY"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 43,
+        "end": 46
+      }
+    ],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0218_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0218",
+    "comment_id": "SGZ500_0218_C06",
+    "split": "synthetic_challenge",
+    "text": "Chắc người nghe phải có lòng thương lớn lắm mới nghe hết giọng mày.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.34977367520332336,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0218_U01",
+    "directed_at_user_id": "SGZ500_0218_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0218",
+    "comment_id": "SGZ500_0218_C07",
+    "split": "synthetic_challenge",
+    "text": "Câu này vẫn hạ người dù không có từ tục.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.47072023153305054,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0218_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0242",
+    "comment_id": "SGZ500_0242_C02",
+    "split": "synthetic_validation",
+    "text": "t ngồi thảm được, ghế chiếm chỗ quá",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.4842016398906708,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0242_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0255",
+    "comment_id": "SGZ500_0255_C06",
+    "split": "synthetic_challenge",
+    "text": "Đã nhắc giọng rồi còn bảo người ta câm là quá.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7837108373641968,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0255_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0255",
+    "comment_id": "SGZ500_0255_C07",
+    "split": "synthetic_challenge",
+    "text": "Mình không nhận góp ý kiểu xúc phạm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.6756128072738647,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0255_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0265",
+    "comment_id": "SGZ500_0265_C02",
+    "split": "synthetic_challenge",
+    "text": "Xin lỗi đóng thiếu, nhưng khách ngu như bạn mới không biết tự mua thêm.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.07297515869140625,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "APOLOGY",
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích. Có dấu hiệu trích dẫn/tường thuật/xin lỗi; không coi là công kích trực tiếp.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 32,
+        "end": 35
+      }
+    ],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0265_U01",
+    "directed_at_user_id": "SGZ500_0265_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0296",
+    "comment_id": "SGZ500_0296_C04",
+    "split": "synthetic_validation",
+    "text": "Tui xin lỗi đã chụp mũ A là ích kỷ.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7614806294441223,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "APOLOGY"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0296_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0337",
+    "comment_id": "SGZ500_0337_C03",
+    "split": "synthetic_validation",
+    "text": "Tao sẽ đánh mày nếu tin này sai.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.33221423625946045,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0337_U01",
+    "directed_at_user_id": "SGZ500_0337_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0342",
+    "comment_id": "SGZ500_0342_C01",
+    "split": "synthetic_validation",
+    "text": "Đèn mạnh làm lớp nền trông nhạt.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.662752091884613,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0346",
+    "comment_id": "SGZ500_0346_C02",
+    "split": "synthetic_validation",
+    "text": "You are trash. Stop drawing him.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.010034400038421154,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "DIRECT_ATTACK"
+    ],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0346_U01",
+    "directed_at_user_id": "SGZ500_0346_U01",
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "attack_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0349",
+    "comment_id": "SGZ500_0349_C05",
+    "split": "synthetic_challenge",
+    "text": "Nói nhẹ nhé, sự tồn tại của mày chỉ gây phiền.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.3586619198322296,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0349_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0349",
+    "comment_id": "SGZ500_0349_C06",
+    "split": "synthetic_challenge",
+    "text": "Đổi giọng vẫn là hạ nhục người khác.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.8205679655075073,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0349_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0358",
+    "comment_id": "SGZ500_0358_C02",
+    "split": "synthetic_validation",
+    "text": "Your taste is garbage, idiot.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.012288551777601242,
+    "raw_label": "CLEAN",
+    "context_tags": [
+      "UNCERTAIN"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "en_insult",
+        "category": "directed_insult",
+        "matched_form": "idiot",
+        "strength": "context",
+        "canonical_form": "idiot",
+        "language": "en",
+        "reason": "Từ hạ nhục tiềm năng; chỉ gợi ý công kích khi có ngữ cảnh hướng vào người. Có dấu hiệu hướng tới người gần cụm từ; cần xác nhận thủ công.",
+        "source_ids": [
+          "ldnoobw_v2_en",
+          "shieldvi_reviewed"
+        ],
+        "start": 23,
+        "end": 28
+      }
+    ],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0358_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0358",
+    "comment_id": "SGZ500_0358_C04",
+    "split": "synthetic_validation",
+    "text": "Bạn có thể chê món, đừng gọi mình ngu.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.4123161733150482,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "SET_BOUNDARY"
+    ],
+    "lexicon_signals": [
+      {
+        "rule_id": "vi_short_uncertain",
+        "category": "ambiguous",
+        "matched_form": "ngu",
+        "strength": "ambiguous",
+        "canonical_form": "ngu",
+        "language": "vi",
+        "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+        "source_ids": [
+          "blue_eyes_vi",
+          "ldnoobw_v2_en",
+          "ldnoobw_v2_vi",
+          "shieldvi_reviewed"
+        ],
+        "start": 34,
+        "end": 37
+      }
+    ],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0358_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0373",
+    "comment_id": "SGZ500_0373_C03",
+    "split": "synthetic_challenge",
+    "text": "Chê kỹ thuật thì nói đúng kỹ thuật.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.4674087464809418,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": "SGZ500_0373_U02",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0373",
+    "comment_id": "SGZ500_0373_C05",
+    "split": "synthetic_challenge",
+    "text": "Mình xin lỗi vì đã bảo giọng bạn kinh tởm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7937502861022949,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "APOLOGY"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0373_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0423",
+    "comment_id": "SGZ500_0423_C01",
+    "split": "synthetic_validation",
+    "text": "Câu này dịch làm mất ý châm biếm.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.7932326793670654,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0423",
+    "comment_id": "SGZ500_0423_C07",
+    "split": "synthetic_validation",
+    "text": "Tui không nói người dịch kém mọi mặt.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.5932955145835876,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0438",
+    "comment_id": "SGZ500_0438_C02",
+    "split": "synthetic_challenge",
+    "text": "Tao tìm tới đánh mày nếu không xóa bài.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.2078961282968521,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0438_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0462",
+    "comment_id": "SGZ500_0462_C06",
+    "split": "synthetic_challenge",
+    "text": "phấn lên màu yếu thật",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.5892367959022522,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0481",
+    "comment_id": "SGZ500_0481_C01",
+    "split": "synthetic_challenge",
+    "text": "Người đó nhắn mình “đồ vô dụng, biến đi”.",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.6575911045074463,
+    "raw_label": "TOXIC",
+    "context_tags": [
+      "QUOTE"
+    ],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_context_disagreement",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0482",
+    "comment_id": "SGZ500_0482_C03",
+    "split": "synthetic_validation",
+    "text": "Bạn thấy đẹp hay đang chọc tui vậy?",
+    "synthetic_reference": "CLEAN",
+    "label_source": "synthetic",
+    "raw_score": 0.4407513439655304,
+    "raw_label": "TOXIC",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "TOXIC",
+    "reply_to_user_id": null,
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "REVIEW",
+      "reason": "raw_model_review",
+      "executed": false
+    },
+    "human_gold": false
+  },
+  {
+    "model": "r06",
+    "thread_id": "SGZ500_0491",
+    "comment_id": "SGZ500_0491_C06",
+    "split": "synthetic_challenge",
+    "text": "Nói nhẹ thôi, có mày hay không cũng chẳng ai cần.",
+    "synthetic_reference": "TOXIC",
+    "label_source": "synthetic",
+    "raw_score": 0.21787890791893005,
+    "raw_label": "CLEAN",
+    "context_tags": [],
+    "lexicon_signals": [],
+    "advisory": "CLEAN",
+    "reply_to_user_id": "SGZ500_0491_U01",
+    "directed_at_user_id": null,
+    "policy_risk": {
+      "band": "LOW",
+      "reason": "no_review_trigger",
+      "executed": false
+    },
+    "human_gold": false
+  }
+]

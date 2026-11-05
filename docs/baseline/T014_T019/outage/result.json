@@ -1,0 +1,126 @@
+{
+  "requested_outage_seconds": 600,
+  "synthetic_recovery_predictor": true,
+  "real_model_inference": false,
+  "live_db_accessed": false,
+  "actual_ai_absent_seconds": 600.0,
+  "stats_before_recovery": {
+    "counts": {
+      "FAILED_PERMANENTLY": 1
+    },
+    "queue_size": 0,
+    "retry_attempts": 2,
+    "expired_leases": 0,
+    "oldest_wait_seconds": 601,
+    "model_availability": "unknown",
+    "failed_jobs": [
+      {
+        "job_id": "449642c6-acc6-4d67-b1a0-008893ca0bc2",
+        "entity_type": "post",
+        "entity_id": "6275ecf6-1769-4d2b-b17d-e3daea53b30b",
+        "attempts": 3,
+        "total_attempts": 3,
+        "error_code": "AI_NETWORK_ERROR"
+      }
+    ]
+  },
+  "failed_budget_requires_manual_retry": true,
+  "status": "PASS",
+  "samples": [
+    {
+      "elapsed_seconds": 0.015,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 30.015,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 60.015,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 90.031,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 120.047,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 150.047,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 180.062,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 210.078,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 240.109,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 270.109,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 300.125,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 330.14,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 360.156,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 390.172,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 420.187,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 450.203,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 480.203,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 510.219,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 540.265,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 570.281,
+      "visibility": "PENDING_MODERATION"
+    },
+    {
+      "elapsed_seconds": 600.0,
+      "visibility": "PENDING_MODERATION"
+    }
+  ],
+  "final_visibility": "PUBLISHED",
+  "audit_events": [
+    "AI_APPLIED",
+    "JOB_RETRY",
+    "AI_FAILED",
+    "AI_RETRY",
+    "AI_RETRY",
+    "CREATE"
+  ],
+  "worker_alive_after_recovery": true,
+  "no_admin_requests_during_outage": true
+}

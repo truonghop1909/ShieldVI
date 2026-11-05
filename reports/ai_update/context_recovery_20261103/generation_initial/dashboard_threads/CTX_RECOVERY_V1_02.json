@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_02",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C01",
+      "user_id": "CTX_RECOVERY_V1_02_U01",
+      "parent_id": null,
+      "text": "Đây là lịch sử chỉnh sửa báo cáo.",
+      "timestamp": "2025-01-03T02:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C02",
+      "user_id": "CTX_RECOVERY_V1_02_U02",
+      "parent_id": "CTX_RECOVERY_V1_02_C01",
+      "text": "Mày vô dụng thật, giao việc chỉ tổ hỏng.",
+      "timestamp": "2025-01-03T02:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C03",
+      "user_id": "CTX_RECOVERY_V1_02_U03",
+      "parent_id": "CTX_RECOVERY_V1_02_C02",
+      "text": "Chưa kiểm lịch sử thì đừng xúc phạm bạn.",
+      "timestamp": "2025-01-03T02:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C04",
+      "user_id": "CTX_RECOVERY_V1_02_U01",
+      "parent_id": "CTX_RECOVERY_V1_02_C02",
+      "text": "Mình có làm phần số liệu, đây là đường dẫn.",
+      "timestamp": "2025-01-03T02:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C05",
+      "user_id": "CTX_RECOVERY_V1_02_U02",
+      "parent_id": "CTX_RECOVERY_V1_02_C04",
+      "text": "Tôi xem rồi, lúc nãy nóng quá nên đã nói bậy.",
+      "timestamp": "2025-01-03T02:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C06",
+      "user_id": "CTX_RECOVERY_V1_02_U02",
+      "parent_id": "CTX_RECOVERY_V1_02_C05",
+      "text": "Mình nhận lỗi vì đã chụp mũ bạn không làm việc.",
+      "timestamp": "2025-01-03T02:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C07",
+      "user_id": "CTX_RECOVERY_V1_02_U03",
+      "parent_id": "CTX_RECOVERY_V1_02_C06",
+      "text": "Mình ghi nhận, quay lại phần báo cáo nhé.",
+      "timestamp": "2025-01-03T02:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C08",
+      "user_id": "CTX_RECOVERY_V1_02_U01",
+      "parent_id": null,
+      "text": "Tui cần chốt bảng trước tối nay.",
+      "timestamp": "2025-01-03T02:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C09",
+      "user_id": "CTX_RECOVERY_V1_02_U02",
+      "parent_id": "CTX_RECOVERY_V1_02_C08",
+      "text": "Để mình kiểm lại chú thích đơn vị.",
+      "timestamp": "2025-01-03T02:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C10",
+      "user_id": "CTX_RECOVERY_V1_02_U03",
+      "parent_id": null,
+      "text": "Mọi thay đổi nhớ ghi vào lịch sử chung.",
+      "timestamp": "2025-01-03T02:07:18Z"
+    }
+  ]
+}

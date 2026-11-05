@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "original_protected_artifacts": 31,
+  "changed": [],
+  "original200_threads_unchanged": 200,
+  "original_csvs_unchanged": 2,
+  "genz500_threads_and_exports_unchanged": 500,
+  "new_AI_dataset_threads": 12,
+  "new_AI_dataset_comments": 120,
+  "user_reference_comments": 30,
+  "user_reference_modified_after_freeze": false,
+  "threshold": 0.41,
+  "independent_test_labels_used": false,
+  "model_training_performed": false,
+  "live_database_changed": false,
+  "candidate_activated": false
+}

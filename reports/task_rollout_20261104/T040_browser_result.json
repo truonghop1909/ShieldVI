@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "unlabeled_import_full_context_blind_mode",
+    "same_authenticated_reviewer_round1_round2_autosave_cas",
+    "immutable_derived_snapshot_separate_from_source_labels",
+    "round1_change_invalidates_old_round2_confirmation",
+    "stale_round2_export_blocked",
+    "annotation_history_visible"
+  ],
+  "annotation_origin": "synthetic_browser_automation_not_human_gold",
+  "round2_gap_for_synthetic_demo": 0
+}

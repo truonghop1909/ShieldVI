@@ -1,0 +1,341 @@
+{
+  "$defs": {
+    "LexicalSignal": {
+      "additionalProperties": false,
+      "properties": {
+        "rule_id": {
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "profanity",
+            "directed_insult",
+            "ambiguous",
+            "other_sensitive"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "matched_form": {
+          "maxLength": 8000,
+          "title": "Matched Form",
+          "type": "string"
+        },
+        "strength": {
+          "maxLength": 32,
+          "title": "Strength",
+          "type": "string"
+        },
+        "canonical_form": {
+          "default": "",
+          "maxLength": 1000,
+          "title": "Canonical Form",
+          "type": "string"
+        },
+        "language": {
+          "default": "",
+          "maxLength": 32,
+          "title": "Language",
+          "type": "string"
+        },
+        "reason": {
+          "default": "",
+          "maxLength": 3000,
+          "title": "Reason",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 30,
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Start"
+        },
+        "end": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "End"
+        }
+      },
+      "required": [
+        "rule_id",
+        "category",
+        "matched_form",
+        "strength"
+      ],
+      "title": "LexicalSignal",
+      "type": "object"
+    },
+    "RepeatedEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "actor_user_id": {
+          "maxLength": 120,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9:_-]+$",
+          "title": "Actor User Id",
+          "type": "string"
+        },
+        "target_user_id": {
+          "maxLength": 120,
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9:_-]+$",
+          "title": "Target User Id",
+          "type": "string"
+        },
+        "evidence_comment_ids": {
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "type": "string"
+          },
+          "maxItems": 51,
+          "minItems": 2,
+          "title": "Evidence Comment Ids",
+          "type": "array"
+        },
+        "n_distinct_timestamps": {
+          "maximum": 51,
+          "minimum": 2,
+          "title": "N Distinct Timestamps",
+          "type": "integer"
+        },
+        "target_confidence": {
+          "enum": [
+            "medium",
+            "high"
+          ],
+          "title": "Target Confidence",
+          "type": "string"
+        }
+      },
+      "required": [
+        "actor_user_id",
+        "target_user_id",
+        "evidence_comment_ids",
+        "n_distinct_timestamps",
+        "target_confidence"
+      ],
+      "title": "RepeatedEvidence",
+      "type": "object"
+    },
+    "TargetEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "target_user_id": {
+          "anyOf": [
+            {
+              "maxLength": 120,
+              "minLength": 1,
+              "pattern": "^[A-Za-z0-9:_-]+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target User Id"
+        },
+        "method": {
+          "maxLength": 100,
+          "title": "Method",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "none",
+            "low",
+            "medium",
+            "high"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        }
+      },
+      "required": [
+        "method",
+        "confidence"
+      ],
+      "title": "TargetEvidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "request_id": {
+      "maxLength": 120,
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9:_-]+$",
+      "title": "Request Id",
+      "type": "string"
+    },
+    "content_id": {
+      "maxLength": 120,
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9:_-]+$",
+      "title": "Content Id",
+      "type": "string"
+    },
+    "content_revision": {
+      "minimum": 1,
+      "title": "Content Revision",
+      "type": "integer"
+    },
+    "model_name": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Model Name",
+      "type": "string"
+    },
+    "model_version": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Model Version",
+      "type": "string"
+    },
+    "lexicon_version": {
+      "maxLength": 100,
+      "minLength": 1,
+      "title": "Lexicon Version",
+      "type": "string"
+    },
+    "analyzed_at": {
+      "format": "date-time",
+      "title": "Analyzed At",
+      "type": "string"
+    },
+    "model_threshold": {
+      "const": 0.41,
+      "title": "Model Threshold",
+      "type": "number"
+    },
+    "toxicity_score": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Toxicity Score",
+      "type": "number"
+    },
+    "ai_label": {
+      "enum": [
+        "CLEAN",
+        "TOXIC"
+      ],
+      "title": "Ai Label",
+      "type": "string"
+    },
+    "lexical_review_recommended": {
+      "title": "Lexical Review Recommended",
+      "type": "boolean"
+    },
+    "directed_insult_candidate": {
+      "title": "Directed Insult Candidate",
+      "type": "boolean"
+    },
+    "reported_or_apology_context": {
+      "title": "Reported Or Apology Context",
+      "type": "boolean"
+    },
+    "lexical_signals": {
+      "items": {
+        "$ref": "#/$defs/LexicalSignal"
+      },
+      "maxItems": 2000,
+      "title": "Lexical Signals",
+      "type": "array"
+    },
+    "target_evidence": {
+      "$ref": "#/$defs/TargetEvidence"
+    },
+    "suspected_repeated_harassment": {
+      "title": "Suspected Repeated Harassment",
+      "type": "boolean"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/RepeatedEvidence"
+      },
+      "maxItems": 50,
+      "title": "Evidence",
+      "type": "array"
+    },
+    "suggested_action": {
+      "enum": [
+        "approve",
+        "needs_review"
+      ],
+      "title": "Suggested Action",
+      "type": "string"
+    },
+    "decision_authority": {
+      "const": "advisory",
+      "title": "Decision Authority",
+      "type": "string"
+    },
+    "limitations": {
+      "items": {
+        "maxLength": 3000,
+        "type": "string"
+      },
+      "maxItems": 30,
+      "title": "Limitations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "request_id",
+    "content_id",
+    "content_revision",
+    "model_name",
+    "model_version",
+    "lexicon_version",
+    "analyzed_at",
+    "model_threshold",
+    "toxicity_score",
+    "ai_label",
+    "lexical_review_recommended",
+    "directed_insult_candidate",
+    "reported_or_apology_context",
+    "lexical_signals",
+    "target_evidence",
+    "suspected_repeated_harassment",
+    "evidence",
+    "suggested_action",
+    "decision_authority",
+    "limitations"
+  ],
+  "title": "ModerationResponse",
+  "type": "object"
+}

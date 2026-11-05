@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "startup_tests_pass": 7,
+  "actual_browser_contexts": 4,
+  "schema_seconds": {
+    "base": 1.2,
+    "live": 1.1
+  },
+  "ai_ready_seconds": 28.6,
+  "cleanup": {
+    "owned_processes_stopped": true,
+    "owned_count": 10,
+    "temporary_db_only": true,
+    "production_changed": false
+  },
+  "training_performed": false,
+  "production_changed": false,
+  "sha256": {
+    "reports/task_rollout_20261104/run_browser_actual.py": "6539c7aa59c74b794b0e85d9f4b7370e85cff01549df53a89e3c14bb2f1b9bff",
+    "reports/task_rollout_20261104/test_demo_startup.py": "fbbbafff8fafd927a8338126eb245d5d51b581cd352f31fe27578d18be9f56c0",
+    "reports/task_rollout_20261104/check_demo_interrupt.py": "0cf9497961a490eff090909d9b30a340fae8fa2321541208a10dac3ea4f38f53",
+    "docs/ai-update/final-report/REALTIME_DEMO_GUIDE.md": "9c4c7a3c26c906e676bdf36cf85956780a72475844a8fc25b2a26c62906e9bc1",
+    "tasks/AUTO_PROGRESS.md": "871b704c273a447ddf949088f926e55ff28561232fd2aed222af62121d218778",
+    "tasks/moderation-ai/T043-realtime-studio-e2e-handoff.md": "754437d0e1591ba39353010cedb08d13b8195fab5025081b412928d9a54f2111",
+    "reports/task_rollout_20261104/DEMO_SCHEMA_FIX_tests.log": "eb2d52e8afd0e54ee0b80d73af78c4c79e9ee70b47b6fc06fc37eb5bc2229df7",
+    "reports/task_rollout_20261104/DEMO_SCHEMA_FIX_e2e.log": "405a52d75e398c9f002917402a6873f3f878490d275ca480b532492ece184fbd",
+    "reports/task_rollout_20261104/DEMO_SCHEMA_FIX_readiness.log": "3bff5fb7104cc34745b28df93e7876d70d11e63c4c5ab8a2e38eb9e179f23195",
+    "reports/task_rollout_20261104/demo_7f5a4490a6d17280/interactive_check.json": "21c8419a3741dd55a2545387faeb88bcdf93771422a14011f4b36a543e5fc0c4",
+    "reports/task_rollout_20261104/demo_7f5a4490a6d17280/T043_cleanup.json": "3a2e4306988ca3d5c39068c920ca7db514f5b15007eafb0a258120e9af73a06d"
+  }
+}

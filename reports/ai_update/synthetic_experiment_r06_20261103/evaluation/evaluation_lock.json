@@ -1,0 +1,9 @@
+{
+  "candidate_sha256": "e5090150ab0d951887060a4cefd25c223fe7d11aa23dd174fedf8b4f18abe3b2",
+  "selected_epoch": 3,
+  "split_manifest_sha256": "d7bc61d067373a3affa2aca9d0aaa5b50a971ad3177d9b13ea1d3200da8f7b62",
+  "training_complete_before_scoring": true,
+  "selection": "synthetic validation only; one challenge audit, no subsequent tuning",
+  "independent_real": false,
+  "promotion_allowed": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "original_protected_hashes": 31,
+  "original200_threads_and2CSV_unchanged": true,
+  "GenZ500_and_frozen_development_unchanged": true,
+  "context_recovery12_and_user_reference_unchanged": true,
+  "ViCTSD_original_validation_test_unchanged": true,
+  "live_SQLite_unchanged": true,
+  "original_V1_weights_and_threshold_unchanged": true,
+  "existing_approved_default_unchanged": true,
+  "candidate_separate": true,
+  "production_deployed": false
+}

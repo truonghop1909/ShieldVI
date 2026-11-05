@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    "new_synthetic_dataset_accepted_binary_and_exclusion_preflight",
+    "ui_config_pinned_v1_hash_locked_thread_splits",
+    "durable_run_queued_outside_web_request",
+    "social_write_and_moderation_recovery_during_real_cpu_training",
+    "actual_optimizer_checkpoint_hash_and_neural_reload_verified",
+    "downloadable_manifest_no_activation_no_human_gold"
+  ],
+  "elapsed_ms": 13565,
+  "run_id": "01b3fced9ac2c540be01477d",
+  "candidate_sha256": "908760d455d661df9385e58658d24ca8f1c39783fc2b9abf6079c51609c6d85c",
+  "actual_training": true,
+  "neural_reload": true
+}

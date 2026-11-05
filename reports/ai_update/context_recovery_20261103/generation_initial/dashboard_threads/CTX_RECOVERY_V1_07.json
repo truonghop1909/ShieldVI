@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_07",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C01",
+      "user_id": "CTX_RECOVERY_V1_07_U01",
+      "parent_id": null,
+      "text": "Khu mình nghỉ trưa đến mấy giờ vậy?",
+      "timestamp": "2025-01-08T07:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C02",
+      "user_id": "CTX_RECOVERY_V1_07_U03",
+      "parent_id": null,
+      "text": "Từ mười hai đến một rưỡi nhé.",
+      "timestamp": "2025-01-08T07:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C03",
+      "user_id": "CTX_RECOVERY_V1_07_U02",
+      "parent_id": "CTX_RECOVERY_V1_07_C01",
+      "text": "Mày ngu thật, nhưng đừng chửi nhau trong nhóm.",
+      "timestamp": "2025-01-08T07:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C04",
+      "user_id": "CTX_RECOVERY_V1_07_U01",
+      "parent_id": "CTX_RECOVERY_V1_07_C03",
+      "text": "Vế đầu của bạn đang xúc phạm mình đó.",
+      "timestamp": "2025-01-08T07:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C05",
+      "user_id": "CTX_RECOVERY_V1_07_U03",
+      "parent_id": "CTX_RECOVERY_V1_07_C03",
+      "text": "Nhắc ngừng chửi không xóa được câu công kích trước nó.",
+      "timestamp": "2025-01-08T07:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C06",
+      "user_id": "CTX_RECOVERY_V1_07_U02",
+      "parent_id": "CTX_RECOVERY_V1_07_C05",
+      "text": "Tui tắt thông báo nhánh này.",
+      "timestamp": "2025-01-08T07:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C07",
+      "user_id": "CTX_RECOVERY_V1_07_U01",
+      "parent_id": null,
+      "text": "Mình hỏi vì mai nhà có thợ tới.",
+      "timestamp": "2025-01-08T07:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C08",
+      "user_id": "CTX_RECOVERY_V1_07_U03",
+      "parent_id": null,
+      "text": "Bạn gửi khung giờ sửa để mình thông báo.",
+      "timestamp": "2025-01-08T07:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C09",
+      "user_id": "CTX_RECOVERY_V1_07_U01",
+      "parent_id": null,
+      "text": "Chỉ sơn cửa, không khoan trong giờ nghỉ.",
+      "timestamp": "2025-01-08T07:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_07_C10",
+      "user_id": "CTX_RECOVERY_V1_07_U03",
+      "parent_id": null,
+      "text": "Vậy ghi rõ việc làm trong đăng ký nhé.",
+      "timestamp": "2025-01-08T07:07:18Z"
+    }
+  ]
+}

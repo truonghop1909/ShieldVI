@@ -1,0 +1,16 @@
+{
+  "authorization_type": "bounded_local_cpu_request_v1",
+  "authorized_local_task_execution": true,
+  "source_user_request": "tôi muốn bạn chạy hết các task nếu bị block thì sửa task luôn",
+  "source_user_request_sha256": "eed259060220075bc3e998612b14a53b71a4641cee6ea15ec06e5bb4d4f60958",
+  "authority_interpretation": "Run remaining repository tasks with revised feasible scope. Authorizes bounded local CPU research, not paid/GPU execution or production changes.",
+  "user_approved_exact_hyperparameters": false,
+  "paid_services_allowed": false,
+  "production_changes_allowed": false,
+  "config_sha256": "05c3fa975d44c97e85042afd83001989b9263234c7e208ab7ff7d313a58d0fe3",
+  "prepared_manifest_sha256": "5acb8603bb3ccee06e6e20508b4701df2b49397ade5fc7f84f409f9e4f09a021",
+  "resource": "local_CPU",
+  "max_training_seconds": 900,
+  "max_cpu_threads": 4,
+  "maximum_external_cost": 0
+}

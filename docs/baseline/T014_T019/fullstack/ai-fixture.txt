@@ -1,0 +1,17 @@
+INFO:     Started server process [23116]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:61578 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61590 - "GET /health HTTP/1.1" 200 OK
+Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Python312\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:     127.0.0.1:62686 - "POST /api/v1/moderate/comment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62686 - "POST /api/v1/moderate/comment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62686 - "POST /api/v1/moderate/comment HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:54915 - "POST /api/v1/moderate/comment HTTP/1.1" 200 OK

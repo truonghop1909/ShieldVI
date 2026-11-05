@@ -1,0 +1,18 @@
+{
+  "thread_id": "DEMO_HYBRID_TEENCODE_EN_VI",
+  "profile": "conservative",
+  "comments": [
+    {"comment_id":"t01","user_id":"U01","timestamp":"2026-10-25T09:00:00Z","text":"Bán con Vios 2019, odo 6v, 335 củ. Bao check hãng, bác nào quan tâm ib nhé."},
+    {"comment_id":"t02","user_id":"U02","parent_id":"t01","timestamp":"2026-10-25T09:01:00Z","text":"Đ.m bác ảo giá thật đấy, xem giá thị trường chưa vậy :))"},
+    {"comment_id":"t03","user_id":"U03","parent_id":"t01","timestamp":"2026-10-25T09:02:00Z","text":"Em thấy 335 hơi cao, bác có fix chút lộc lá không?"},
+    {"comment_id":"t04","user_id":"U02","parent_id":"t01","timestamp":"2026-10-25T09:04:00Z","text":"f.u.c.k you, nói thế mà cũng đòi bán xe à?"},
+    {"comment_id":"t05","user_id":"U01","parent_id":"t04","timestamp":"2026-10-25T09:05:00Z","text":"Bác góp ý giá thì được, nhưng đừng chửi người khác ạ."},
+    {"comment_id":"t06","user_id":"U03","parent_id":"t03","timestamp":"2026-10-25T09:06:00Z","text":"dm điện thoại hết pin ngay lúc đang check bài xe =)))"},
+    {"comment_id":"t07","user_id":"U02","parent_id":"t05","timestamp":"2026-10-25T09:07:00Z","text":"you are an idiot, ngáo giá mà còn cãi."},
+    {"comment_id":"t08","user_id":"U01","parent_id":"t07","timestamp":"2026-10-25T09:08:00Z","text":"Mình xin dừng tranh luận ở đây, ai muốn xem xe cứ hẹn qua trực tiếp."},
+    {"comment_id":"t09","user_id":"U04","parent_id":"t07","timestamp":"2026-10-25T09:09:00Z","text":"Đừng gọi người khác là óc chó hay idiot nữa, tranh luận lịch sự thôi."},
+    {"comment_id":"t10","user_id":"U03","parent_id":"t06","timestamp":"2026-10-25T09:10:00Z","text":"sh1t, sạc dự phòng cũng hết pin luôn, xui ghê :v"},
+    {"comment_id":"t11","user_id":"U01","parent_id":"t09","timestamp":"2026-10-25T09:11:00Z","text":"Cảm ơn bác đã nhắc. Xe vẫn còn, cứ check thoải mái ạ."},
+    {"comment_id":"t12","user_id":"U02","parent_id":"t08","timestamp":"2026-10-25T09:12:00Z","text":"Thôi mình dừng. Về giá thì mình vẫn thấy cao, thế thôi."}
+  ]
+}

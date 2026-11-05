@@ -1,0 +1,132 @@
+﻿@@1|game|Đội mới can ngăn rồi thống nhất chiến thuật|A=đội trưởng;B=nóng nhưng nghe;C=trấn an;D=người bị chê
+A0 Tối nay tập phối hợp thôi nha.
+D.N1- Mình thử vai trò hỗ trợ lần đầu.
+B.T2D Mày đánh ngu như chó, chỉ tổ phá đội.
+C.I3B Bàn chiến thuật thì được, xúc phạm người ta thì dừng nhé.
+D.D3B Mình đang học, đừng hạ nhục mình.
+A.I3B Thôi nhục mạ đồng đội, nói lỗi di chuyển cụ thể đi.
+B.C6- D giữ gần lối vào hơn chút nhé.
+D.N7- Mình sẽ theo vị trí đó.
+C0 tui giữ góc bên cạnh cho dễ phối hợp
+A0 Ván sau mình đổi nhiệm vụ sau khi xem lại.
+@@2|hoc_tap|Nhận lỗi chụp mũ bạn trong bài nhóm|A=giữ file;B=đã nghi oan;C=nhóm trưởng
+A0 Đây là lịch sử chỉnh sửa báo cáo.
+B.T1A Mày vô dụng thật, giao việc chỉ tổ hỏng.
+C.I2B Chưa kiểm lịch sử thì đừng xúc phạm bạn.
+A.D2B Mình có làm phần số liệu, đây là đường dẫn.
+B.X4- Tôi xem rồi, lúc nãy nóng quá nên đã nói bậy.
+B.X5- Mình nhận lỗi vì đã chụp mũ bạn không làm việc.
+C.N6- Mình ghi nhận, quay lại phần báo cáo nhé.
+A0 Tui cần chốt bảng trước tối nay.
+B.N8- Để mình kiểm lại chú thích đơn vị.
+C0 Mọi thay đổi nhớ ghi vào lịch sử chung.
+@@3|mua_ban_online|Shop xin lỗi vì lời công kích trước đó|A=khách;B=shop;C=hỗ trợ
+A0 Mình xin kiểm tra đơn thiếu phụ kiện.
+B.T1A Đồ ngu, có thế cũng không biết tự tìm.
+A.D2B Mình đã xem kỹ hộp, không chấp nhận bị gọi như vậy.
+C.I2B Shop trao đổi về đơn hàng, không xúc phạm khách nhé.
+B.A3A Mình xin lỗi vì đã gọi bạn ngu, câu đó sai.
+B.A5A Xin lỗi bạn, mình không nên chửi khách khi chưa kiểm tra.
+A.R6B Mình ghi nhận, phần thiếu xử lý thế nào?
+C0 Nhờ shop kiểm lại ảnh đóng hàng.
+B.N8- Mình gửi mã phụ kiện bổ sung qua hệ thống.
+A0 Mình chờ xác nhận trên đơn nhé.
+@@4|ban_be|Người bị chửi kể lại cảm giác sau lời xin lỗi|A=người bị xúc phạm;B=đã nóng;C=bạn chung
+A0 Tui không tham gia chuyến đi lần này.
+B.T1A Mày là đồ ích kỷ, chỉ biết bản thân.
+C.I2B A báo không đi được thôi, đừng chụp mũ.
+B.A3A Xin lỗi vì đã nói nặng với bạn.
+A.D4B Cảm ơn vì đã xin lỗi, nhưng những lời đó vẫn làm mình tổn thương.
+A.D5B Mình đọc rồi, nghe vậy vẫn buồn và chưa thoải mái.
+C.N6- Hai bạn không cần giải quyết hết trong tối nay.
+B.N5- Tui để bạn có thời gian, không ép trả lời.
+A0 Lúc nào sẵn sàng mình sẽ chủ động nhắn.
+C0 Chuyện đặt vé tụi mình tạm tách ra nhé.
+@@5|cong_nghe|Xin lỗi rồi thêm một câu xúc phạm trong câu mới|A=hỏi lỗi;B=cộc;C=đồng nghiệp
+A0 Mình chưa tìm được mục xuất báo cáo.
+B.T1A Mày ngu quá, dùng máy làm gì.
+C.I2B Hướng dẫn thì nói bước cụ thể nhé.
+B.M3A Xin lỗi vì đã chửi bạn. Mày vẫn là đồ vô dụng.
+A.D4B Câu sau vẫn là xúc phạm, mình không chấp nhận.
+C.I4B Xin lỗi không làm câu hạ nhục mới thành hợp lý.
+B.N6- Để tui dừng nói chuyện một lúc.
+A0 Mình hỏi bộ phận hỗ trợ riêng.
+C0 Nhớ giữ lại thông báo lỗi, không kèm mật khẩu.
+A0 Tui chỉ gửi tên chức năng với ảnh menu.
+@@6|phim_am_nhac|Xin lỗi nhưng vẫn hạ nhục gu nhạc|A=người nghe;B=chê gu;C=can ngăn
+A0 Bài này nghe lúc làm việc khá hợp.
+C0 Mình thích đoạn guitar ở giữa.
+B.M1A Xin lỗi, nhưng mày vẫn ngu mới thích loại nhạc này.
+A.D3B Bạn không thích bài hát thì nói về bài hát thôi.
+C.I3B Đó là công kích người nghe, không phải phê bình nhạc.
+B.C5- Phần hòa âm lặp nhiều quá.
+A.C6- Với tui nhịp lặp giúp dễ tập trung.
+C0 Có bản hòa âm khác trên kênh ban nhạc.
+A0 Mình sẽ nghe thêm khi rảnh.
+B0 tui giữ playlist riêng vậy
+@@7|doi_song|Can ngăn trong một vế nhưng vẫn chửi ở vế khác|A=hỏi giờ yên tĩnh;B=khó chịu;C=quản lý
+A0 Khu mình nghỉ trưa đến mấy giờ vậy?
+C0 Từ mười hai đến một rưỡi nhé.
+B.T1A Mày ngu thật, nhưng đừng chửi nhau trong nhóm.
+A.D3B Vế đầu của bạn đang xúc phạm mình đó.
+C.I3B Nhắc ngừng chửi không xóa được câu công kích trước nó.
+B.N5- Tui tắt thông báo nhánh này.
+A0 Mình hỏi vì mai nhà có thợ tới.
+C0 Bạn gửi khung giờ sửa để mình thông báo.
+A0 Chỉ sơn cửa, không khoan trong giờ nghỉ.
+C0 Vậy ghi rõ việc làm trong đăng ký nhé.
+@@8|fanart_cosplay|Báo lại lời chửi kèm người can ngăn|A=đăng tranh;B=mod;C=fan khác
+A0 Mình muốn nhờ kiểm tra một tin nhắn.
+A.Q1- Họ nhắn “mày ngu, đồ vô dụng” khi mình đăng tranh.|Trích tin nhận được để báo cáo, không tấn công người đọc.
+B.N2- Bạn lưu mốc thời gian rồi gửi qua kênh riêng nhé.
+C.I2- Đừng gọi người khác ngu chỉ vì không thích nét vẽ của họ.
+A.D2- Mình bị chửi như vậy nên không muốn trả lời nữa.
+B0 Không cần đăng tên thật hay số điện thoại lên đây.
+C0 Tui giúp bạn tìm đúng biểu mẫu báo cáo.
+A0 Mình gửi đường dẫn tin nhắn thay vì ảnh cắt nhé.
+B0 Được, người có quyền sẽ xem theo quy trình.
+A0 Mình tạm nghỉ đăng tranh hôm nay.
+@@9|the_thao|Lời trích dẫn được dùng để chửi người nhận|A=tập chuyền;B=chê;C=đội trưởng
+A0 Cho tui thử lại pha chuyền vừa rồi.
+B.V1A Mày đúng là “đồ ngu”, nói thế mới chính xác.|Dùng câu trích để khẳng định lời hạ nhục người nhận, không phải báo lại nhằm phản đối.
+C.I2B Có thể nói lỗi chuyền, không được xúc phạm.
+A.D2B Mình sẵn sàng tập lại, không nhận lời hạ nhục.
+B.C4- Bóng đang bay hơi cao.
+C0 Vậy hai người thử chậm theo góc cố định.
+A0 Tui hạ lực cổ tay xuống chút.
+B0 pha này vừa tầm rồi
+C0 Giữ cách góp ý về động tác như vậy nhé.
+A0 Mình nghỉ uống nước rồi tập tiếp.
+@@10|game|Xin lỗi vì lag khác với đe dọa người chơi|A=người lag;B=đồng đội;C=đội trưởng
+A0 Mạng tui bị rớt, đang vào lại.
+B.N1- Tụi mình chờ ở phòng nhé.
+A.A2B Xin lỗi cả đội vì mạng chập chờn, mình đang kiểm tra.
+C0 Nếu chưa ổn thì cả đội nghỉ một ván.
+B.T3A Xin lỗi nhưng tao sẽ đánh mày nếu còn rớt mạng.|Đe dọa trực tiếp sau cụm xin lỗi, không phải nhận lỗi.
+A.D5B Mình không chấp nhận lời đe dọa như vậy.
+C.I5B Dừng đe dọa, chuyện kết nối xử lý riêng.
+B.N7- Tui rời phòng trước.
+A0 Mình cũng không tiếp tục trận này.
+C0 Tụi mình chốt lại lịch khác trong kênh chung.
+@@11|hoc_tap|Nhận lỗi cũ nhưng chửi mới sau dấu phẩy|A=giữ tài liệu;B=đã nghi oan;C=nhóm trưởng
+A0 File có đủ phần của từng người đây.
+B.X1- Tôi sai khi chưa kiểm tra đã kết luận vội.
+C.N2- Vậy bạn cập nhật lại tin nhắn trong nhóm nhé.
+B.M1A Mình nhận lỗi vì đã chửi, mày vẫn là đồ ngu.
+A.D4B Nhận lỗi rồi công kích tiếp thì mình chưa thể trao đổi.
+C.I4B Ghi nhận lỗi cũ không biện minh câu xúc phạm mới.
+B.N6- Tui sẽ dừng nhánh tranh luận này.
+A0 Mình chuyển sang kiểm lỗi chính tả thôi.
+C0 Bản cuối dùng file có ghi ngày hôm nay.
+A0 Mình thấy đúng tên file rồi.
+@@12|ban_be|Xin lỗi thân mật rồi thống nhất ranh giới không chửi ai|A=đến trễ;B=đang đợi;C=bạn chung
+B0 Tui đang ở quán, A đến đâu rồi?
+A.A1B Sorry nha, t tới muộn vì đi nhầm cổng.
+C0 Quán có hai cửa thật đó.
+A.X2- Tui nhận lỗi vì không báo sớm, để mọi người chờ.
+B.D4A Mình hơi hụt hẫng khi chờ, nhưng cảm ơn bạn đã nói rõ.
+C0 Gọi phần của tụi mình trước nhé.
+A.N5- Được, tui sẽ tự gọi khi tới nơi.
+B0 Lần sau nhắn ngay khi biết trễ giúp mình.
+A0 Tui đã lưu đúng cửa trên bản đồ.
+C0 Bàn tụi mình ở cạnh cửa sổ tầng một.

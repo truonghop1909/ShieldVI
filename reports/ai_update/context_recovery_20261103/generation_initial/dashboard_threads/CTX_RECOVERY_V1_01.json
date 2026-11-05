@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_01",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C01",
+      "user_id": "CTX_RECOVERY_V1_01_U01",
+      "parent_id": null,
+      "text": "Tối nay tập phối hợp thôi nha.",
+      "timestamp": "2025-01-02T01:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C02",
+      "user_id": "CTX_RECOVERY_V1_01_U04",
+      "parent_id": "CTX_RECOVERY_V1_01_C01",
+      "text": "Mình thử vai trò hỗ trợ lần đầu.",
+      "timestamp": "2025-01-02T01:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C03",
+      "user_id": "CTX_RECOVERY_V1_01_U02",
+      "parent_id": "CTX_RECOVERY_V1_01_C02",
+      "text": "Mày đánh ngu như chó, chỉ tổ phá đội.",
+      "timestamp": "2025-01-02T01:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C04",
+      "user_id": "CTX_RECOVERY_V1_01_U03",
+      "parent_id": "CTX_RECOVERY_V1_01_C03",
+      "text": "Bàn chiến thuật thì được, xúc phạm người ta thì dừng nhé.",
+      "timestamp": "2025-01-02T01:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C05",
+      "user_id": "CTX_RECOVERY_V1_01_U04",
+      "parent_id": "CTX_RECOVERY_V1_01_C03",
+      "text": "Mình đang học, đừng hạ nhục mình.",
+      "timestamp": "2025-01-02T01:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C06",
+      "user_id": "CTX_RECOVERY_V1_01_U01",
+      "parent_id": "CTX_RECOVERY_V1_01_C03",
+      "text": "Thôi nhục mạ đồng đội, nói lỗi di chuyển cụ thể đi.",
+      "timestamp": "2025-01-02T01:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C07",
+      "user_id": "CTX_RECOVERY_V1_01_U02",
+      "parent_id": "CTX_RECOVERY_V1_01_C06",
+      "text": "D giữ gần lối vào hơn chút nhé.",
+      "timestamp": "2025-01-02T01:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C08",
+      "user_id": "CTX_RECOVERY_V1_01_U04",
+      "parent_id": "CTX_RECOVERY_V1_01_C07",
+      "text": "Mình sẽ theo vị trí đó.",
+      "timestamp": "2025-01-02T01:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C09",
+      "user_id": "CTX_RECOVERY_V1_01_U03",
+      "parent_id": null,
+      "text": "tui giữ góc bên cạnh cho dễ phối hợp",
+      "timestamp": "2025-01-02T01:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C10",
+      "user_id": "CTX_RECOVERY_V1_01_U01",
+      "parent_id": null,
+      "text": "Ván sau mình đổi nhiệm vụ sau khi xem lại.",
+      "timestamp": "2025-01-02T01:07:18Z"
+    }
+  ]
+}

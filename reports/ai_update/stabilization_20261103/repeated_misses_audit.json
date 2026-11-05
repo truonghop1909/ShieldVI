@@ -1,0 +1,101 @@
+{
+  "status": "AUDITED_NO_TECHNICAL_FIX_JUSTIFIED",
+  "events": [
+    {
+      "thread_id": "REP_FRESH_02",
+      "classification": "KNOWN_COVERAGE_OR_SAFETY_LIMIT",
+      "cause": "Bounded context vocabulary does not recognize the new cục chì metaphor; only one qualified attack. Coverage limitation, not evidence grouping bug.",
+      "technical_bug_proven": false,
+      "runtime_changes_performed": false,
+      "facts": [
+        {
+          "comment_id": "REP_FRESH_02_c02",
+          "text": "Cậu đúng là cục chì cả đội phải kéo theo suốt trận.",
+          "actor": "Khoa",
+          "reference_target": "Vy",
+          "timestamp": "2026-11-03T02:01:00+00:00",
+          "context_attack": false,
+          "attack_instance": false,
+          "target_evidence": {
+            "version": "target-v5",
+            "candidate": null,
+            "method": "non_attack_or_uncertain",
+            "confidence": "none",
+            "evidence_comment_ids": [],
+            "needs_human_review": true
+          }
+        },
+        {
+          "comment_id": "REP_FRESH_02_c05",
+          "text": "Có cậu hay không cũng chẳng ai cần trong đội hình của tụi này.",
+          "actor": "Khoa",
+          "reference_target": "Vy",
+          "timestamp": "2026-11-03T02:04:00+00:00",
+          "context_attack": true,
+          "attack_instance": true,
+          "target_evidence": {
+            "version": "target-v5",
+            "candidate": "Vy",
+            "method": "addressed_reply",
+            "confidence": "medium",
+            "evidence_comment_ids": [
+              "REP_FRESH_02_c05",
+              "REP_FRESH_02_c03"
+            ],
+            "needs_human_review": true
+          }
+        }
+      ]
+    },
+    {
+      "thread_id": "REP_FRESH_11",
+      "classification": "KNOWN_COVERAGE_OR_SAFETY_LIMIT",
+      "cause": "66-minute gap exceeds the predeclared30-minute reciprocal root-target window; intended abstention. No window expansion to fit this challenge.",
+      "technical_bug_proven": false,
+      "runtime_changes_performed": false,
+      "facts": [
+        {
+          "comment_id": "REP_FRESH_11_c01",
+          "text": "Mày ngu thật khi diễn giải số liệu về đường chạy thế này.",
+          "actor": "Tien",
+          "reference_target": "Phuong",
+          "timestamp": "2026-11-03T11:00:00+00:00",
+          "context_attack": true,
+          "attack_instance": false,
+          "target_evidence": {
+            "version": "target-v5",
+            "candidate": null,
+            "method": "no_grounded_addressee",
+            "confidence": "none",
+            "evidence_comment_ids": [],
+            "needs_human_review": true
+          }
+        },
+        {
+          "comment_id": "REP_FRESH_11_c05",
+          "text": "Bạn vô dụng khi đến giờ vẫn chưa giải thích rõ con số đó.",
+          "actor": "Tien",
+          "reference_target": "Phuong",
+          "timestamp": "2026-11-03T12:06:00+00:00",
+          "context_attack": true,
+          "attack_instance": true,
+          "target_evidence": {
+            "version": "target-v5",
+            "candidate": "Phuong",
+            "method": "addressed_reply",
+            "confidence": "medium",
+            "evidence_comment_ids": [
+              "REP_FRESH_11_c05",
+              "REP_FRESH_11_c04"
+            ],
+            "needs_human_review": true
+          }
+        }
+      ]
+    }
+  ],
+  "source_outputs_sha256": "108dc1637597c752a60209f5e7c9eacaca2f90d873f24e4054f2aedb4affff1e",
+  "rules_unchanged_since_pre_challenge_lock": true,
+  "synthetic_reference_only": true,
+  "repeated_challenge_result_unchanged": "4/6,P1.0,R0.6667,evidence8/8"
+}

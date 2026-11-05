@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "checks": [
+    "authenticated_staff_live_stream",
+    "same_actor_target_grounded_repeated_evidence_rendered",
+    "evidence_ids_link_to_full_thread_context",
+    "stream_refresh_preserves_manual_reason_draft",
+    "manual_hide_realtime_visibility_and_author_retention",
+    "author_appeal_staff_restore_peer_recovery",
+    "append_only_manual_and_appeal_audit_visible",
+    "clarification_audit_without_automatic_visibility_change"
+  ],
+  "contexts": 3,
+  "ai_mode": "actual_approved_default_V1_1_neural_default_v5_rules",
+  "latencies": [
+    {
+      "content_id": "f7e97790-1fce-4361-87e9-5a8c9b04a9c4",
+      "ack_ms": 54,
+      "ack_fetch_ms": 21.800000000745058,
+      "author_analysis_visible_ms": 887,
+      "observed_ms": 1793778919882
+    },
+    {
+      "content_id": "97079019-39fb-48d9-81bf-3b7e34b9ce3e",
+      "ack_ms": 60,
+      "ack_fetch_ms": 19.200000001117587,
+      "author_analysis_visible_ms": 900,
+      "observed_ms": 1793778920785
+    },
+    {
+      "content_id": "627e17c0-7b49-4b54-bcf1-66b0dfdc9a87",
+      "ack_ms": 65,
+      "ack_fetch_ms": 17.200000001117587,
+      "author_analysis_visible_ms": 873,
+      "observed_ms": 1793778922872
+    },
+    {
+      "content_id": "30664fb2-bcd3-4c02-bdf2-5b0592631e36",
+      "ack_ms": 65,
+      "ack_fetch_ms": 31,
+      "author_analysis_visible_ms": 277,
+      "observed_ms": 1793778923260
+    }
+  ],
+  "auto_hide": false
+}

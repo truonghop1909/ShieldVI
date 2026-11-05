@@ -1,0 +1,19 @@
+{
+  "fresh_synthetic_controls_enabled": true,
+  "default_reviewer": "solo_01",
+  "enter_and_apply_work": true,
+  "invalid_id_keeps_current_reviewer": true,
+  "status": "PASS",
+  "test_copy_only": true,
+  "production_human_labels_created": 0,
+  "threads_displayed": 200,
+  "ai_references_not_human_confirmation": true,
+  "full_text_and_no_xss": true,
+  "uncertain_filter_and_change_reason": true,
+  "autosave_and_resume": true,
+  "confirmed_only_export": true,
+  "original_ai_label_retained": true,
+  "real_blind_ui_preserved": true,
+  "model_requests": 0,
+  "page_errors": []
+}

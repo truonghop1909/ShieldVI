@@ -1,0 +1,2173 @@
+{
+  "status": "COMPLETE_SYNTHETIC_ONLY",
+  "metrics": {
+    "V1": {
+      "before": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 12,
+            "fp": 8,
+            "tn": 283,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.6,
+            "toxic_recall": 0.8,
+            "macro_f1": 0.8333250804654617,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9640522875816994,
+            "toxic_f1": 0.6857142857142857,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                3,
+                12
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 17,
+            "fp": 8,
+            "tn": 283,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.68,
+            "toxic_recall": 0.85,
+            "macro_f1": 0.8682457153860967,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9646302250803859,
+            "toxic_f1": 0.7555555555555556,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                3,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 9,
+            "target_correct": 9,
+            "target_precision": 1.0,
+            "target_recall": 0.45,
+            "target_abstentions_on_reference_attacks": 11,
+            "repeated": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 5,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "evidence_correct": 0,
+              "evidence_total": 0,
+              "evidence_precision": 0.0
+            }
+          },
+          "fully_supported_events": 0,
+          "emitted_events": 0,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 15,
+            "fp": 3,
+            "tn": 53,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.8333333333333334,
+            "toxic_recall": 0.8333333333333334,
+            "macro_f1": 0.8898809523809523,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.918918918918919,
+            "toxic_f1": 0.8333333333333334,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 10,
+            "target_correct": 10,
+            "target_precision": 1.0,
+            "target_recall": 0.625,
+            "target_abstentions_on_reference_attacks": 6,
+            "repeated": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 4,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5,
+              "evidence_correct": 4,
+              "evidence_total": 4,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 2,
+          "emitted_events": 2,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "context_only": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 12,
+            "fp": 8,
+            "tn": 283,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.6,
+            "toxic_recall": 0.8,
+            "macro_f1": 0.8333250804654617,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9640522875816994,
+            "toxic_f1": 0.6857142857142857,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                3,
+                12
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 19,
+            "fp": 8,
+            "tn": 283,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7037037037037037,
+            "toxic_recall": 0.95,
+            "macro_f1": 0.8964292321924143,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9710610932475884,
+            "toxic_f1": 0.8085106382978724,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                1,
+                19
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 15,
+            "target_correct": 15,
+            "target_precision": 1.0,
+            "target_recall": 0.75,
+            "target_abstentions_on_reference_attacks": 5,
+            "repeated": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "evidence_correct": 8,
+              "evidence_total": 8,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 4,
+          "emitted_events": 4,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 17,
+            "fp": 3,
+            "tn": 53,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.85,
+            "toxic_recall": 0.9444444444444444,
+            "macro_f1": 0.9291866028708133,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9459459459459459,
+            "toxic_f1": 0.8947368421052632,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                1,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 13,
+            "target_correct": 13,
+            "target_precision": 1.0,
+            "target_recall": 0.8125,
+            "target_abstentions_on_reference_attacks": 3,
+            "repeated": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 6,
+              "evidence_total": 6,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 3,
+          "emitted_events": 3,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "target_repeated_only": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 12,
+            "fp": 8,
+            "tn": 283,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.6,
+            "toxic_recall": 0.8,
+            "macro_f1": 0.8333250804654617,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9640522875816994,
+            "toxic_f1": 0.6857142857142857,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                3,
+                12
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 17,
+            "fp": 8,
+            "tn": 283,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.68,
+            "toxic_recall": 0.85,
+            "macro_f1": 0.8682457153860967,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9646302250803859,
+            "toxic_f1": 0.7555555555555556,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                3,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 10,
+            "target_correct": 10,
+            "target_precision": 1.0,
+            "target_recall": 0.5,
+            "target_abstentions_on_reference_attacks": 10,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 4,
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.3333333333333333,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 15,
+            "fp": 3,
+            "tn": 53,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.8333333333333334,
+            "toxic_recall": 0.8333333333333334,
+            "macro_f1": 0.8898809523809523,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.918918918918919,
+            "toxic_f1": 0.8333333333333334,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 11,
+            "target_correct": 11,
+            "target_precision": 1.0,
+            "target_recall": 0.6875,
+            "target_abstentions_on_reference_attacks": 5,
+            "repeated": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 6,
+              "evidence_total": 6,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 3,
+          "emitted_events": 3,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "after": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 12,
+            "fp": 8,
+            "tn": 283,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.6,
+            "toxic_recall": 0.8,
+            "macro_f1": 0.8333250804654617,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9640522875816994,
+            "toxic_f1": 0.6857142857142857,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                3,
+                12
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 19,
+            "fp": 8,
+            "tn": 283,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7037037037037037,
+            "toxic_recall": 0.95,
+            "macro_f1": 0.8964292321924143,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9710610932475884,
+            "toxic_f1": 0.8085106382978724,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                1,
+                19
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 16,
+            "target_correct": 16,
+            "target_precision": 1.0,
+            "target_recall": 0.8,
+            "target_abstentions_on_reference_attacks": 4,
+            "repeated": {
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "evidence_correct": 10,
+              "evidence_total": 10,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 5,
+          "emitted_events": 5,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 17,
+            "fp": 3,
+            "tn": 53,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.85,
+            "toxic_recall": 0.9444444444444444,
+            "macro_f1": 0.9291866028708133,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9459459459459459,
+            "toxic_f1": 0.8947368421052632,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                1,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 14,
+            "target_correct": 14,
+            "target_precision": 1.0,
+            "target_recall": 0.875,
+            "target_abstentions_on_reference_attacks": 2,
+            "repeated": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8,
+              "evidence_correct": 8,
+              "evidence_total": 8,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 4,
+          "emitted_events": 4,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "raw": {
+        "synthetic_validation": {
+          "n": 306,
+          "tp": 7,
+          "fp": 12,
+          "tn": 279,
+          "fn": 8,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.3684210526315789,
+          "toxic_recall": 0.4666666666666667,
+          "macro_f1": 0.6885813148788927,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+          "accuracy": 0.934640522875817,
+          "toxic_f1": 0.4117647058823529,
+          "confusion_matrix": [
+            [
+              279,
+              12
+            ],
+            [
+              8,
+              7
+            ]
+          ],
+          "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+        },
+        "synthetic_challenge": {
+          "n": 311,
+          "tp": 13,
+          "fp": 11,
+          "tn": 280,
+          "fn": 7,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.5416666666666666,
+          "toxic_recall": 0.65,
+          "macro_f1": 0.7798836111984901,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+          "accuracy": 0.9421221864951769,
+          "toxic_f1": 0.5909090909090908,
+          "confusion_matrix": [
+            [
+              280,
+              11
+            ],
+            [
+              7,
+              13
+            ]
+          ],
+          "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+        },
+        "fresh_synthetic_challenge": {
+          "n": 74,
+          "tp": 12,
+          "fp": 3,
+          "tn": 53,
+          "fn": 6,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.8,
+          "toxic_recall": 0.6666666666666666,
+          "macro_f1": 0.824505928853755,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+          "accuracy": 0.8783783783783784,
+          "toxic_f1": 0.7272727272727272,
+          "confusion_matrix": [
+            [
+              53,
+              3
+            ],
+            [
+              6,
+              12
+            ]
+          ],
+          "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+        }
+      }
+    },
+    "r05": {
+      "before": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 11,
+            "fp": 8,
+            "tn": 283,
+            "fn": 4,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.5789473684210527,
+            "toxic_recall": 0.7333333333333333,
+            "macro_f1": 0.8131487889273357,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9607843137254902,
+            "toxic_f1": 0.6470588235294117,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 17,
+            "fp": 7,
+            "tn": 284,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7083333333333334,
+            "toxic_recall": 0.85,
+            "macro_f1": 0.8777131173324945,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9678456591639871,
+            "toxic_f1": 0.7727272727272727,
+            "confusion_matrix": [
+              [
+                284,
+                7
+              ],
+              [
+                3,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 9,
+            "target_correct": 9,
+            "target_precision": 1.0,
+            "target_recall": 0.45,
+            "target_abstentions_on_reference_attacks": 11,
+            "repeated": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 5,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "evidence_correct": 0,
+              "evidence_total": 0,
+              "evidence_precision": 0.0
+            }
+          },
+          "fully_supported_events": 0,
+          "emitted_events": 0,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 15,
+            "fp": 3,
+            "tn": 53,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.8333333333333334,
+            "toxic_recall": 0.8333333333333334,
+            "macro_f1": 0.8898809523809523,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.918918918918919,
+            "toxic_f1": 0.8333333333333334,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 10,
+            "target_correct": 10,
+            "target_precision": 1.0,
+            "target_recall": 0.625,
+            "target_abstentions_on_reference_attacks": 6,
+            "repeated": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 4,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5,
+              "evidence_correct": 4,
+              "evidence_total": 4,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 2,
+          "emitted_events": 2,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "context_only": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 11,
+            "fp": 8,
+            "tn": 283,
+            "fn": 4,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.5789473684210527,
+            "toxic_recall": 0.7333333333333333,
+            "macro_f1": 0.8131487889273357,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9607843137254902,
+            "toxic_f1": 0.6470588235294117,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 19,
+            "fp": 7,
+            "tn": 284,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7307692307692307,
+            "toxic_recall": 0.95,
+            "macro_f1": 0.9060990338164252,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9742765273311897,
+            "toxic_f1": 0.8260869565217392,
+            "confusion_matrix": [
+              [
+                284,
+                7
+              ],
+              [
+                1,
+                19
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 15,
+            "target_correct": 15,
+            "target_precision": 1.0,
+            "target_recall": 0.75,
+            "target_abstentions_on_reference_attacks": 5,
+            "repeated": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "evidence_correct": 8,
+              "evidence_total": 8,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 4,
+          "emitted_events": 4,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 17,
+            "fp": 3,
+            "tn": 53,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.85,
+            "toxic_recall": 0.9444444444444444,
+            "macro_f1": 0.9291866028708133,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9459459459459459,
+            "toxic_f1": 0.8947368421052632,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                1,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 13,
+            "target_correct": 13,
+            "target_precision": 1.0,
+            "target_recall": 0.8125,
+            "target_abstentions_on_reference_attacks": 3,
+            "repeated": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 6,
+              "evidence_total": 6,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 3,
+          "emitted_events": 3,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "target_repeated_only": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 11,
+            "fp": 8,
+            "tn": 283,
+            "fn": 4,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.5789473684210527,
+            "toxic_recall": 0.7333333333333333,
+            "macro_f1": 0.8131487889273357,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9607843137254902,
+            "toxic_f1": 0.6470588235294117,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 17,
+            "fp": 7,
+            "tn": 284,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7083333333333334,
+            "toxic_recall": 0.85,
+            "macro_f1": 0.8777131173324945,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9678456591639871,
+            "toxic_f1": 0.7727272727272727,
+            "confusion_matrix": [
+              [
+                284,
+                7
+              ],
+              [
+                3,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 10,
+            "target_correct": 10,
+            "target_precision": 1.0,
+            "target_recall": 0.5,
+            "target_abstentions_on_reference_attacks": 10,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 4,
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.3333333333333333,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 15,
+            "fp": 3,
+            "tn": 53,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.8333333333333334,
+            "toxic_recall": 0.8333333333333334,
+            "macro_f1": 0.8898809523809523,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.918918918918919,
+            "toxic_f1": 0.8333333333333334,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 11,
+            "target_correct": 11,
+            "target_precision": 1.0,
+            "target_recall": 0.6875,
+            "target_abstentions_on_reference_attacks": 5,
+            "repeated": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 6,
+              "evidence_total": 6,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 3,
+          "emitted_events": 3,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "after": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 11,
+            "fp": 8,
+            "tn": 283,
+            "fn": 4,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.5789473684210527,
+            "toxic_recall": 0.7333333333333333,
+            "macro_f1": 0.8131487889273357,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9607843137254902,
+            "toxic_f1": 0.6470588235294117,
+            "confusion_matrix": [
+              [
+                283,
+                8
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 19,
+            "fp": 7,
+            "tn": 284,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7307692307692307,
+            "toxic_recall": 0.95,
+            "macro_f1": 0.9060990338164252,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9742765273311897,
+            "toxic_f1": 0.8260869565217392,
+            "confusion_matrix": [
+              [
+                284,
+                7
+              ],
+              [
+                1,
+                19
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 16,
+            "target_correct": 16,
+            "target_precision": 1.0,
+            "target_recall": 0.8,
+            "target_abstentions_on_reference_attacks": 4,
+            "repeated": {
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "evidence_correct": 10,
+              "evidence_total": 10,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 5,
+          "emitted_events": 5,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 17,
+            "fp": 3,
+            "tn": 53,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.85,
+            "toxic_recall": 0.9444444444444444,
+            "macro_f1": 0.9291866028708133,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9459459459459459,
+            "toxic_f1": 0.8947368421052632,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                1,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 14,
+            "target_correct": 14,
+            "target_precision": 1.0,
+            "target_recall": 0.875,
+            "target_abstentions_on_reference_attacks": 2,
+            "repeated": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8,
+              "evidence_correct": 8,
+              "evidence_total": 8,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 4,
+          "emitted_events": 4,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "raw": {
+        "synthetic_validation": {
+          "n": 306,
+          "tp": 6,
+          "fp": 11,
+          "tn": 280,
+          "fn": 9,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.35294117647058826,
+          "toxic_recall": 0.4,
+          "macro_f1": 0.6702586206896552,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+          "accuracy": 0.934640522875817,
+          "toxic_f1": 0.37500000000000006,
+          "confusion_matrix": [
+            [
+              280,
+              11
+            ],
+            [
+              9,
+              6
+            ]
+          ],
+          "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+        },
+        "synthetic_challenge": {
+          "n": 311,
+          "tp": 13,
+          "fp": 10,
+          "tn": 281,
+          "fn": 7,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.5652173913043478,
+          "toxic_recall": 0.65,
+          "macro_f1": 0.7876450978029481,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+          "accuracy": 0.9453376205787781,
+          "toxic_f1": 0.6046511627906976,
+          "confusion_matrix": [
+            [
+              281,
+              10
+            ],
+            [
+              7,
+              13
+            ]
+          ],
+          "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+        },
+        "fresh_synthetic_challenge": {
+          "n": 74,
+          "tp": 12,
+          "fp": 3,
+          "tn": 53,
+          "fn": 6,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.8,
+          "toxic_recall": 0.6666666666666666,
+          "macro_f1": 0.824505928853755,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+          "accuracy": 0.8783783783783784,
+          "toxic_f1": 0.7272727272727272,
+          "confusion_matrix": [
+            [
+              53,
+              3
+            ],
+            [
+              6,
+              12
+            ]
+          ],
+          "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+        }
+      }
+    },
+    "r06": {
+      "before": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 14,
+            "fp": 5,
+            "tn": 286,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7368421052631579,
+            "toxic_recall": 0.9333333333333333,
+            "macro_f1": 0.9065743944636677,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9803921568627451,
+            "toxic_f1": 0.8235294117647058,
+            "confusion_matrix": [
+              [
+                286,
+                5
+              ],
+              [
+                1,
+                14
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 17,
+            "fp": 6,
+            "tn": 285,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7391304347826086,
+            "toxic_recall": 0.85,
+            "macro_f1": 0.8875768164839137,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9710610932475884,
+            "toxic_f1": 0.7906976744186046,
+            "confusion_matrix": [
+              [
+                285,
+                6
+              ],
+              [
+                3,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 9,
+            "target_correct": 9,
+            "target_precision": 1.0,
+            "target_recall": 0.45,
+            "target_abstentions_on_reference_attacks": 11,
+            "repeated": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 5,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "evidence_correct": 0,
+              "evidence_total": 0,
+              "evidence_precision": 0.0
+            }
+          },
+          "fully_supported_events": 0,
+          "emitted_events": 0,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 15,
+            "fp": 3,
+            "tn": 53,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.8333333333333334,
+            "toxic_recall": 0.8333333333333334,
+            "macro_f1": 0.8898809523809523,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.918918918918919,
+            "toxic_f1": 0.8333333333333334,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 10,
+            "target_correct": 10,
+            "target_precision": 1.0,
+            "target_recall": 0.625,
+            "target_abstentions_on_reference_attacks": 6,
+            "repeated": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 4,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5,
+              "evidence_correct": 4,
+              "evidence_total": 4,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 2,
+          "emitted_events": 2,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "context_only": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 14,
+            "fp": 5,
+            "tn": 286,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7368421052631579,
+            "toxic_recall": 0.9333333333333333,
+            "macro_f1": 0.9065743944636677,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9803921568627451,
+            "toxic_f1": 0.8235294117647058,
+            "confusion_matrix": [
+              [
+                286,
+                5
+              ],
+              [
+                1,
+                14
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 19,
+            "fp": 6,
+            "tn": 285,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.76,
+            "toxic_recall": 0.95,
+            "macro_f1": 0.916156364336607,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.977491961414791,
+            "toxic_f1": 0.8444444444444444,
+            "confusion_matrix": [
+              [
+                285,
+                6
+              ],
+              [
+                1,
+                19
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 15,
+            "target_correct": 15,
+            "target_precision": 1.0,
+            "target_recall": 0.75,
+            "target_abstentions_on_reference_attacks": 5,
+            "repeated": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "evidence_correct": 8,
+              "evidence_total": 8,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 4,
+          "emitted_events": 4,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 17,
+            "fp": 3,
+            "tn": 53,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.85,
+            "toxic_recall": 0.9444444444444444,
+            "macro_f1": 0.9291866028708133,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9459459459459459,
+            "toxic_f1": 0.8947368421052632,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                1,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 13,
+            "target_correct": 13,
+            "target_precision": 1.0,
+            "target_recall": 0.8125,
+            "target_abstentions_on_reference_attacks": 3,
+            "repeated": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 6,
+              "evidence_total": 6,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 3,
+          "emitted_events": 3,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "target_repeated_only": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 14,
+            "fp": 5,
+            "tn": 286,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7368421052631579,
+            "toxic_recall": 0.9333333333333333,
+            "macro_f1": 0.9065743944636677,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9803921568627451,
+            "toxic_f1": 0.8235294117647058,
+            "confusion_matrix": [
+              [
+                286,
+                5
+              ],
+              [
+                1,
+                14
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 17,
+            "fp": 6,
+            "tn": 285,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7391304347826086,
+            "toxic_recall": 0.85,
+            "macro_f1": 0.8875768164839137,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9710610932475884,
+            "toxic_f1": 0.7906976744186046,
+            "confusion_matrix": [
+              [
+                285,
+                6
+              ],
+              [
+                3,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 10,
+            "target_correct": 10,
+            "target_precision": 1.0,
+            "target_recall": 0.5,
+            "target_abstentions_on_reference_attacks": 10,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 4,
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.3333333333333333,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 15,
+            "fp": 3,
+            "tn": 53,
+            "fn": 3,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.8333333333333334,
+            "toxic_recall": 0.8333333333333334,
+            "macro_f1": 0.8898809523809523,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.918918918918919,
+            "toxic_f1": 0.8333333333333334,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 11,
+            "target_correct": 11,
+            "target_precision": 1.0,
+            "target_recall": 0.6875,
+            "target_abstentions_on_reference_attacks": 5,
+            "repeated": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 6,
+              "evidence_total": 6,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 3,
+          "emitted_events": 3,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "after": {
+        "synthetic_validation": {
+          "classification": {
+            "n": 306,
+            "tp": 14,
+            "fp": 5,
+            "tn": 286,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.7368421052631579,
+            "toxic_recall": 0.9333333333333333,
+            "macro_f1": 0.9065743944636677,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9803921568627451,
+            "toxic_f1": 0.8235294117647058,
+            "confusion_matrix": [
+              [
+                286,
+                5
+              ],
+              [
+                1,
+                14
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 306,
+            "reference_attacks": 15,
+            "target_emissions": 8,
+            "target_correct": 8,
+            "target_precision": 1.0,
+            "target_recall": 0.5333333333333333,
+            "target_abstentions_on_reference_attacks": 7,
+            "repeated": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "evidence_correct": 2,
+              "evidence_total": 2,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 1,
+          "emitted_events": 1,
+          "all_emitted_evidence_valid": true
+        },
+        "synthetic_challenge": {
+          "classification": {
+            "n": 311,
+            "tp": 19,
+            "fp": 6,
+            "tn": 285,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.76,
+            "toxic_recall": 0.95,
+            "macro_f1": 0.916156364336607,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.977491961414791,
+            "toxic_f1": 0.8444444444444444,
+            "confusion_matrix": [
+              [
+                285,
+                6
+              ],
+              [
+                1,
+                19
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 311,
+            "reference_attacks": 20,
+            "target_emissions": 16,
+            "target_correct": 16,
+            "target_precision": 1.0,
+            "target_recall": 0.8,
+            "target_abstentions_on_reference_attacks": 4,
+            "repeated": {
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "evidence_correct": 10,
+              "evidence_total": 10,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 5,
+          "emitted_events": 5,
+          "all_emitted_evidence_valid": true
+        },
+        "fresh_synthetic_challenge": {
+          "classification": {
+            "n": 74,
+            "tp": 17,
+            "fp": 3,
+            "tn": 53,
+            "fn": 1,
+            "abstained_clean": 0,
+            "abstained_toxic": 0,
+            "coverage": 1.0,
+            "toxic_precision": 0.85,
+            "toxic_recall": 0.9444444444444444,
+            "macro_f1": 0.9291866028708133,
+            "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+            "accuracy": 0.9459459459459459,
+            "toxic_f1": 0.8947368421052632,
+            "confusion_matrix": [
+              [
+                53,
+                3
+              ],
+              [
+                1,
+                17
+              ]
+            ],
+            "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+          },
+          "grounding": {
+            "reference_comments_with_target_coverage": 74,
+            "reference_attacks": 16,
+            "target_emissions": 14,
+            "target_correct": 14,
+            "target_precision": 1.0,
+            "target_recall": 0.875,
+            "target_abstentions_on_reference_attacks": 2,
+            "repeated": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8,
+              "evidence_correct": 8,
+              "evidence_total": 8,
+              "evidence_precision": 1.0
+            }
+          },
+          "fully_supported_events": 4,
+          "emitted_events": 4,
+          "all_emitted_evidence_valid": true
+        }
+      },
+      "raw": {
+        "synthetic_validation": {
+          "n": 306,
+          "tp": 11,
+          "fp": 7,
+          "tn": 284,
+          "fn": 4,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.6111111111111112,
+          "toxic_recall": 0.7333333333333333,
+          "macro_f1": 0.8238341968911918,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+          "accuracy": 0.9640522875816994,
+          "toxic_f1": 0.6666666666666666,
+          "confusion_matrix": [
+            [
+              284,
+              7
+            ],
+            [
+              4,
+              11
+            ]
+          ],
+          "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+        },
+        "synthetic_challenge": {
+          "n": 311,
+          "tp": 15,
+          "fp": 9,
+          "tn": 282,
+          "fn": 5,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.625,
+          "toxic_recall": 0.75,
+          "macro_f1": 0.8287983642654922,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+          "accuracy": 0.954983922829582,
+          "toxic_f1": 0.6818181818181818,
+          "confusion_matrix": [
+            [
+              282,
+              9
+            ],
+            [
+              5,
+              15
+            ]
+          ],
+          "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+        },
+        "fresh_synthetic_challenge": {
+          "n": 74,
+          "tp": 13,
+          "fp": 3,
+          "tn": 53,
+          "fn": 5,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.8125,
+          "toxic_recall": 0.7222222222222222,
+          "macro_f1": 0.847265221878225,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped.",
+          "accuracy": 0.8918918918918919,
+          "toxic_f1": 0.7647058823529411,
+          "confusion_matrix": [
+            [
+              53,
+              3
+            ],
+            [
+              5,
+              13
+            ]
+          ],
+          "matrix_axes": "rows reference CLEAN/TOXIC, columns prediction CLEAN/TOXIC; abstentions reported separately"
+        }
+      }
+    }
+  },
+  "raw_invariant": true,
+  "threshold": 0.41,
+  "human_gold": false,
+  "training_performed": false,
+  "new_model_created": false,
+  "default_changed": false,
+  "historical_test_scored": false,
+  "fresh_challenge_comments": 74,
+  "fresh_model_scores": "actual local inference; prior620scores from immutable r06 cache",
+  "ablation": "Context-only vs target/repeated-only vs full; lexicon unchanged and held fixed. Not retraining ablations.",
+  "rule_lock_sha256": "bc6fb6273a3bfedd866b3832eca5d7e09176ed3fd68a7a4737170c788e464f46",
+  "limitations": [
+    "All reference labels AI-authored.",
+    "Previously seen60threads are development regression.",
+    "Fresh12 authored by same assistant after rule freeze; not human/author blind.",
+    "No rule edits allowed after fresh scores; report errors without tuning."
+  ]
+}

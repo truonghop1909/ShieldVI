@@ -1,0 +1,221 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_06",
+  "topic": "phim_am_nhac",
+  "title": "Xin lỗi nhưng vẫn hạ nhục gu nhạc",
+  "data_origin": "synthetic",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C01",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_06_U01",
+      "timestamp": "2025-01-07T06:00:44Z",
+      "text": "Bài này nghe lúc làm việc khá hợp.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Bài này nghe lúc làm việc khá hợp.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C02",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_06_U03",
+      "timestamp": "2025-01-07T06:01:30Z",
+      "text": "Mình thích đoạn guitar ở giữa.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình thích đoạn guitar ở giữa.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C03",
+      "parent_id": "CTX_RECOVERY_V1_06_C01",
+      "user_id": "CTX_RECOVERY_V1_06_U02",
+      "timestamp": "2025-01-07T06:02:18Z",
+      "text": "Xin lỗi, nhưng mày vẫn ngu mới thích loại nhạc này.",
+      "annotation": {
+        "label": "TOXIC",
+        "category": "mixed_apology_attack",
+        "directed_at_user_id": "CTX_RECOVERY_V1_06_U01",
+        "is_directed_attack": true,
+        "is_repeated_attack": false,
+        "is_apology": true,
+        "is_quote": false,
+        "label_reason": "Có lời xin lỗi nhưng vẫn tiếp tục hạ nhục đối tượng trong cùng lượt. Căn cứ: Xin lỗi, nhưng mày vẫn ngu mới thích loại nhạc này.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C04",
+      "parent_id": "CTX_RECOVERY_V1_06_C03",
+      "user_id": "CTX_RECOVERY_V1_06_U01",
+      "timestamp": "2025-01-07T06:03:08Z",
+      "text": "Bạn không thích bài hát thì nói về bài hát thôi.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "defense",
+        "directed_at_user_id": "CTX_RECOVERY_V1_06_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Người bị nhắm đến đặt giới hạn hoặc tự bảo vệ, không đáp trả bằng xúc phạm. Căn cứ: Bạn không thích bài hát thì nói về bài hát thôi.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C05",
+      "parent_id": "CTX_RECOVERY_V1_06_C03",
+      "user_id": "CTX_RECOVERY_V1_06_U03",
+      "timestamp": "2025-01-07T06:03:37Z",
+      "text": "Đó là công kích người nghe, không phải phê bình nhạc.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "intervention",
+        "directed_at_user_id": "CTX_RECOVERY_V1_06_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Can ngăn công kích, hướng trao đổi về vấn đề. Căn cứ: Đó là công kích người nghe, không phải phê bình nhạc.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C06",
+      "parent_id": "CTX_RECOVERY_V1_06_C05",
+      "user_id": "CTX_RECOVERY_V1_06_U02",
+      "timestamp": "2025-01-07T06:04:31Z",
+      "text": "Phần hòa âm lặp nhiều quá.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "criticism",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Phê bình sản phẩm/hành vi cụ thể, không phủ định giá trị con người. Căn cứ: Phần hòa âm lặp nhiều quá.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C07",
+      "parent_id": "CTX_RECOVERY_V1_06_C06",
+      "user_id": "CTX_RECOVERY_V1_06_U01",
+      "timestamp": "2025-01-07T06:05:04Z",
+      "text": "Với tui nhịp lặp giúp dễ tập trung.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "criticism",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Phê bình sản phẩm/hành vi cụ thể, không phủ định giá trị con người. Căn cứ: Với tui nhịp lặp giúp dễ tập trung.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C08",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_06_U03",
+      "timestamp": "2025-01-07T06:06:02Z",
+      "text": "Có bản hòa âm khác trên kênh ban nhạc.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Có bản hòa âm khác trên kênh ban nhạc.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C09",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_06_U01",
+      "timestamp": "2025-01-07T06:06:39Z",
+      "text": "Mình sẽ nghe thêm khi rảnh.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình sẽ nghe thêm khi rảnh.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_06_C10",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_06_U02",
+      "timestamp": "2025-01-07T06:07:18Z",
+      "text": "tui giữ playlist riêng vậy",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: tui giữ playlist riêng vậy",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    }
+  ],
+  "participants": [
+    {
+      "user_id": "CTX_RECOVERY_V1_06_U01",
+      "fictional_speaker": "A",
+      "style": "người nghe"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_06_U02",
+      "fictional_speaker": "B",
+      "style": "chê gu"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_06_U03",
+      "fictional_speaker": "C",
+      "style": "can ngăn"
+    }
+  ],
+  "timestamp_origin": "synthetic_schedule_not_real",
+  "evaluation_eligible": false,
+  "human_gold": false,
+  "source_catalogue_sha256": "5bdfc7c852eba0633d6f7b7d37d589d391a42fb31e07f7fdf9d229a51d483e7c",
+  "label_source": "synthetic",
+  "training_eligible": false
+}

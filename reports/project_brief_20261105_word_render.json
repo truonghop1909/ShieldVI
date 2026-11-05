@@ -1,0 +1,19 @@
+﻿{
+    "renderer":  "Microsoft Word",
+    "page_summaries":  [
+                           {
+                               "characters":  2057,
+                               "page":  1,
+                               "ending":  "i quy và E2E với dữ liệu truy nguyên được. Giữ checkpoint gốc và ngưỡng 0,41; ngưỡng nhãn không phải lệnh tự ẩn.\r\f\r"
+                           },
+                           {
+                               "characters":  2933,
+                               "page":  2,
+                               "ending":  "EPORT.md; RESPONSIVE_VISUAL_FIX_REPORT.md. Số liệu thuộc các đợt kiểm chứng riêng, không cộng thành một benchmark.\r"
+                           }
+                       ],
+    "pages":  2,
+    "docx":  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\docs\\ai-update\\final-report\\ShieldVI_Tom_tat_de_tai_2_trang.docx",
+    "pdf_exported":  false,
+    "status":  "PASS"
+}

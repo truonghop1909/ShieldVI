@@ -1,0 +1,22 @@
+{
+  "schema_version": "studio-dataset-1.0",
+  "data_origin": "synthetic",
+  "dataset_type": "SYNTHETIC",
+  "source_sha256": "19064cbe060f3348818af31de82ffa65e80d6d0cc9c456df17cbb377730af6ad",
+  "normalized_sha256": "3e67c088bc444410ae6add5902e5bb32b713d157528384ed0c46aaae0a60f5df",
+  "request_sha256": "40f725d6fe2095959d662d2c07fff067e0cc33dd153a35d6d97508ce1054b847",
+  "parent_version": null,
+  "provenance": {},
+  "exclusions_sha256": "c9d42dcfa7bbb97cd19786d00d422d660e48a47b26e8a61d5dabca1cb6363020",
+  "split_policy": "thread-sha256-70-15-15-v1",
+  "split_locked": true,
+  "label_source": "synthetic_reference",
+  "counts": {
+    "train": 22,
+    "validation": 10,
+    "test": 4
+  },
+  "comments": 36,
+  "threads": 18,
+  "not_human_gold": true
+}

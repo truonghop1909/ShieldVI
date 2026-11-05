@@ -1,0 +1,27 @@
+{
+  "status": "GENERATED_BEFORE_RULE_CHANGES",
+  "data_origin": "synthetic",
+  "label_source": "synthetic",
+  "human_gold": false,
+  "new_threads": 12,
+  "new_comments": 120,
+  "existing_synthetic500_preserved": true,
+  "user_reference_comments": 30,
+  "source_sha256": "ec8e29d76f334cd4be6a0cee89faefffe2046b815a0964e91bc790af9e1f88a0",
+  "independent_test": false,
+  "file_sha256": {
+    "threads/CTX_RECOVERY_V1_01.json": "b1981202c057424e043ce5c511ae8348ef7881ef6e1b63d354b96e2cb2d94780",
+    "threads/CTX_RECOVERY_V1_02.json": "1a4814d1a2ac5a6bda41bbd62d8386817c9dd44379ac7f8adf3cc5447900062c",
+    "threads/CTX_RECOVERY_V1_03.json": "2695df9191999e7c399c4d4b6be0e48fb06601bf6876d56ba03ab4f07aae2771",
+    "threads/CTX_RECOVERY_V1_04.json": "6353a52abfb6b2c395745f5b2d62ed4a9a70fe6088dd5e4595725b90127cab77",
+    "threads/CTX_RECOVERY_V1_05.json": "a993913e1242858c2b804eb01c8c9e185fd3f9a0c27c85b52cda4e1327ada5fc",
+    "threads/CTX_RECOVERY_V1_06.json": "1220b20e592621d0c30f7b3e812ccdf5353fb2a998203e2559eb60afb0295d5c",
+    "threads/CTX_RECOVERY_V1_07.json": "4db8f32a3c1422894518d3e269d3755e74fbfc6a0d02f5bddc8250938a48900c",
+    "threads/CTX_RECOVERY_V1_08.json": "f10abea6cc3025266a451de99b18102b73b40c542d07c73731ea55e20a6d4892",
+    "threads/CTX_RECOVERY_V1_09.json": "f0ff517bae51cd48646df3d1c6e72d525084005175d59006336652e3f6bcc26b",
+    "threads/CTX_RECOVERY_V1_10.json": "747a19aee3da8628424fd80150821dd1a9be580f492c2beaa75baa467b8f43c8",
+    "threads/CTX_RECOVERY_V1_11.json": "c89d614572b77ed3bd61c79d46694488df816e6707443d5981983b00138faa65",
+    "threads/CTX_RECOVERY_V1_12.json": "707c32ee915a283a9eb46aedd9704e8ce21f164fd5ef80034a6f794b03853a14"
+  },
+  "user_reference_sha256": "5e8f826032d45ceb3c632d803f4a34abf561b457c3f96831a7c4fdd2c97b5a76"
+}

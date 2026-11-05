@@ -1,0 +1,221 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_05",
+  "topic": "cong_nghe",
+  "title": "Xin lỗi rồi thêm một câu xúc phạm trong câu mới",
+  "data_origin": "synthetic",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C01",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_05_U01",
+      "timestamp": "2025-01-06T05:00:44Z",
+      "text": "Mình chưa tìm được mục xuất báo cáo.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình chưa tìm được mục xuất báo cáo.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C02",
+      "parent_id": "CTX_RECOVERY_V1_05_C01",
+      "user_id": "CTX_RECOVERY_V1_05_U02",
+      "timestamp": "2025-01-06T05:01:30Z",
+      "text": "Mày ngu quá, dùng máy làm gì.",
+      "annotation": {
+        "label": "TOXIC",
+        "category": "directed_insult",
+        "directed_at_user_id": "CTX_RECOVERY_V1_05_U01",
+        "is_directed_attack": true,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Lời hạ nhục trực tiếp nhắm đến người, vượt khỏi góp ý nội dung. Căn cứ: Mày ngu quá, dùng máy làm gì.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C03",
+      "parent_id": "CTX_RECOVERY_V1_05_C02",
+      "user_id": "CTX_RECOVERY_V1_05_U03",
+      "timestamp": "2025-01-06T05:02:18Z",
+      "text": "Hướng dẫn thì nói bước cụ thể nhé.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "intervention",
+        "directed_at_user_id": "CTX_RECOVERY_V1_05_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Can ngăn công kích, hướng trao đổi về vấn đề. Căn cứ: Hướng dẫn thì nói bước cụ thể nhé.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C04",
+      "parent_id": "CTX_RECOVERY_V1_05_C03",
+      "user_id": "CTX_RECOVERY_V1_05_U02",
+      "timestamp": "2025-01-06T05:03:08Z",
+      "text": "Xin lỗi vì đã chửi bạn. Mày vẫn là đồ vô dụng.",
+      "annotation": {
+        "label": "TOXIC",
+        "category": "mixed_apology_attack",
+        "directed_at_user_id": "CTX_RECOVERY_V1_05_U01",
+        "is_directed_attack": true,
+        "is_repeated_attack": false,
+        "is_apology": true,
+        "is_quote": false,
+        "label_reason": "Có lời xin lỗi nhưng vẫn tiếp tục hạ nhục đối tượng trong cùng lượt. Căn cứ: Xin lỗi vì đã chửi bạn. Mày vẫn là đồ vô dụng.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C05",
+      "parent_id": "CTX_RECOVERY_V1_05_C04",
+      "user_id": "CTX_RECOVERY_V1_05_U01",
+      "timestamp": "2025-01-06T05:03:37Z",
+      "text": "Câu sau vẫn là xúc phạm, mình không chấp nhận.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "defense",
+        "directed_at_user_id": "CTX_RECOVERY_V1_05_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Người bị nhắm đến đặt giới hạn hoặc tự bảo vệ, không đáp trả bằng xúc phạm. Căn cứ: Câu sau vẫn là xúc phạm, mình không chấp nhận.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C06",
+      "parent_id": "CTX_RECOVERY_V1_05_C04",
+      "user_id": "CTX_RECOVERY_V1_05_U03",
+      "timestamp": "2025-01-06T05:04:31Z",
+      "text": "Xin lỗi không làm câu hạ nhục mới thành hợp lý.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "intervention",
+        "directed_at_user_id": "CTX_RECOVERY_V1_05_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Can ngăn công kích, hướng trao đổi về vấn đề. Căn cứ: Xin lỗi không làm câu hạ nhục mới thành hợp lý.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C07",
+      "parent_id": "CTX_RECOVERY_V1_05_C06",
+      "user_id": "CTX_RECOVERY_V1_05_U02",
+      "timestamp": "2025-01-06T05:05:04Z",
+      "text": "Để tui dừng nói chuyện một lúc.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Để tui dừng nói chuyện một lúc.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C08",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_05_U01",
+      "timestamp": "2025-01-06T05:06:02Z",
+      "text": "Mình hỏi bộ phận hỗ trợ riêng.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình hỏi bộ phận hỗ trợ riêng.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C09",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_05_U03",
+      "timestamp": "2025-01-06T05:06:39Z",
+      "text": "Nhớ giữ lại thông báo lỗi, không kèm mật khẩu.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Nhớ giữ lại thông báo lỗi, không kèm mật khẩu.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_05_C10",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_05_U01",
+      "timestamp": "2025-01-06T05:07:18Z",
+      "text": "Tui chỉ gửi tên chức năng với ảnh menu.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Tui chỉ gửi tên chức năng với ảnh menu.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    }
+  ],
+  "participants": [
+    {
+      "user_id": "CTX_RECOVERY_V1_05_U01",
+      "fictional_speaker": "A",
+      "style": "hỏi lỗi"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_05_U02",
+      "fictional_speaker": "B",
+      "style": "cộc"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_05_U03",
+      "fictional_speaker": "C",
+      "style": "đồng nghiệp"
+    }
+  ],
+  "timestamp_origin": "synthetic_schedule_not_real",
+  "evaluation_eligible": false,
+  "human_gold": false,
+  "source_catalogue_sha256": "91ad801f910b88adccc49cc1f12a102c08b23819776aebf96c0856af647aa90a",
+  "label_source": "synthetic",
+  "training_eligible": false
+}

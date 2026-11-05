@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    "authenticated_staff_live_stream",
+    "same_actor_target_grounded_repeated_evidence_rendered",
+    "evidence_ids_link_to_full_thread_context",
+    "stream_refresh_preserves_manual_reason_draft",
+    "manual_hide_realtime_visibility_and_author_retention",
+    "author_appeal_staff_restore_peer_recovery",
+    "append_only_manual_and_appeal_audit_visible",
+    "clarification_audit_without_automatic_visibility_change"
+  ],
+  "contexts": 3,
+  "ai_mode": "synthetic_raw_fixture_actual_default_v5_rules_not_neural",
+  "auto_hide": false
+}

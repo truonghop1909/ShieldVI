@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_03",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C01",
+      "user_id": "CTX_RECOVERY_V1_03_U01",
+      "parent_id": null,
+      "text": "Mình xin kiểm tra đơn thiếu phụ kiện.",
+      "timestamp": "2025-01-04T03:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C02",
+      "user_id": "CTX_RECOVERY_V1_03_U02",
+      "parent_id": "CTX_RECOVERY_V1_03_C01",
+      "text": "Đồ ngu, có thế cũng không biết tự tìm.",
+      "timestamp": "2025-01-04T03:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C03",
+      "user_id": "CTX_RECOVERY_V1_03_U01",
+      "parent_id": "CTX_RECOVERY_V1_03_C02",
+      "text": "Mình đã xem kỹ hộp, không chấp nhận bị gọi như vậy.",
+      "timestamp": "2025-01-04T03:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C04",
+      "user_id": "CTX_RECOVERY_V1_03_U03",
+      "parent_id": "CTX_RECOVERY_V1_03_C02",
+      "text": "Shop trao đổi về đơn hàng, không xúc phạm khách nhé.",
+      "timestamp": "2025-01-04T03:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C05",
+      "user_id": "CTX_RECOVERY_V1_03_U02",
+      "parent_id": "CTX_RECOVERY_V1_03_C03",
+      "text": "Mình xin lỗi vì đã gọi bạn ngu, câu đó sai.",
+      "timestamp": "2025-01-04T03:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C06",
+      "user_id": "CTX_RECOVERY_V1_03_U02",
+      "parent_id": "CTX_RECOVERY_V1_03_C05",
+      "text": "Xin lỗi bạn, mình không nên chửi khách khi chưa kiểm tra.",
+      "timestamp": "2025-01-04T03:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C07",
+      "user_id": "CTX_RECOVERY_V1_03_U01",
+      "parent_id": "CTX_RECOVERY_V1_03_C06",
+      "text": "Mình ghi nhận, phần thiếu xử lý thế nào?",
+      "timestamp": "2025-01-04T03:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C08",
+      "user_id": "CTX_RECOVERY_V1_03_U03",
+      "parent_id": null,
+      "text": "Nhờ shop kiểm lại ảnh đóng hàng.",
+      "timestamp": "2025-01-04T03:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C09",
+      "user_id": "CTX_RECOVERY_V1_03_U02",
+      "parent_id": "CTX_RECOVERY_V1_03_C08",
+      "text": "Mình gửi mã phụ kiện bổ sung qua hệ thống.",
+      "timestamp": "2025-01-04T03:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_03_C10",
+      "user_id": "CTX_RECOVERY_V1_03_U01",
+      "parent_id": null,
+      "text": "Mình chờ xác nhận trên đơn nhé.",
+      "timestamp": "2025-01-04T03:07:18Z"
+    }
+  ]
+}

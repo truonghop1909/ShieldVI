@@ -1,0 +1,19 @@
+{
+  "before_sha256": "bb6af33b93e93608315ed33564b4cb1a334a3aa1a31be093333c89d7c0fb2351",
+  "score_cache_sha256": "37c9e32afb81fa84387f9ce0731ef34478c4cae3558c564c71e659726ef951b4",
+  "source_hashes": {
+    "services/moderation-ai/app/context_signals.py": "da48f2399346d08f84deb39c6e57e49653f7558d06cdcec87477676f6d051788",
+    "services/moderation-ai/app/target_signals.py": "0f0a2ae6c9a08568c415744d34030736c591e9f08753aa28b65670bec3ecf227",
+    "services/moderation-ai/app/signal_engine.py": "8a0e012192d93120635b3b0cf1bff382822dad117de5be9cff577ad6559f4ee8",
+    "scripts/real_dataset/store.py": "2f7ee8ae711642e8408badd8687de9fc3012d83c7aa2110433cc0b9fc5c75e94",
+    "scripts/real_dataset/collector.py": "88e606620b67b2e172b32bc0b83c7e4fdbda49b31fe28db236e460af1d8cc772",
+    "scripts/real_dataset/review_app.py": "ba704ce4f472173b42e2828a8fbf88977ffb6ca596c92d57d22684c28fb5ec8f",
+    "scripts/real_dataset/validation.py": "083a24b283ec9d6025d720e500926729b50e0dc39bbdd3d866561663504608ec"
+  },
+  "reference_hashes": {
+    "tests\\fixtures\\ai_update\\camping_reference.json": "73e67e1b3023c88cc11c2c73f7e7414e16acb5b4c5b1dbbbc51f2df93db2bfad",
+    "tests\\fixtures\\ai_update\\counterexamples.json": "49d32d732c0a53557d135a8d3e1daa0fa0f36b1cc4b7c36a3339c2b3fd312f7c"
+  },
+  "comments": 890,
+  "human_gold": false
+}

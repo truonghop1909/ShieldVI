@@ -1,0 +1,9 @@
+{
+  "process_id": 15620,
+  "port": 8010,
+  "mode": "real_blind_review",
+  "dataset_root": "datasets/real_conversations",
+  "status": "READY",
+  "collector": "PAUSED",
+  "no_auto_labels": true
+}

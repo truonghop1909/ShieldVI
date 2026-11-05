@@ -1,0 +1,19 @@
+{
+  "files_checked": 68,
+  "changed_or_missing": [],
+  "new_source_files": [],
+  "legacy_static_vs_isolated_build": [
+    {
+      "path": "index.html",
+      "matches_baseline_build": true
+    },
+    {
+      "path": "assets/index-B6t7Eu4q.js",
+      "matches_baseline_build": true
+    },
+    {
+      "path": "assets/index-BaiwjHcP.css",
+      "matches_baseline_build": true
+    }
+  ]
+}

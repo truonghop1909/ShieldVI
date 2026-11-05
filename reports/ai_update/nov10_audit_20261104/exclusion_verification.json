@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "manifest": "datasets/real_conversations/manifests/development_exclusions.research_20261104.json",
+  "manifest_sha256": "48fdbe400f81679227d8051896f674435486877eb5b1cde41949180f48ed0b22",
+  "default_manifest_sha256": "907d04e350f340d08fe0e27a97179a26e9447ad4ac4df18310dde16935bcf504",
+  "default_manifest_modified": false,
+  "nov10_checks": [
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c10"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c17"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c09"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c12"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c01",
+        "c15"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    }
+  ],
+  "registered_new_threads": 34,
+  "default_runtime_loader_changed": false,
+  "required_for_future_evaluation": "Run explicit versioned-overlay preflight; no current independent cohort is available."
+}

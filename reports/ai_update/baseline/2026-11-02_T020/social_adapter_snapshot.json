@@ -1,0 +1,15 @@
+{
+  "worker": "services/social-api/src/shieldvi_social/worker.py",
+  "http_client": "services/social-api/src/shieldvi_social/ai_client.py",
+  "post_endpoint": "/api/v1/moderate/comment",
+  "contract_schema_version": "1.0",
+  "vendored_contracts_byte_identical": true,
+  "source_files": {
+    "services\\moderation-ai\\app\\moderation_contract.py": "91d58bef4e4bcf883d3a77f678a0dde3649740580d4aa066fe05bd987d52d8b8",
+    "services\\social-api\\src\\shieldvi_social\\moderation_contract.py": "91d58bef4e4bcf883d3a77f678a0dde3649740580d4aa066fe05bd987d52d8b8",
+    "services\\social-api\\src\\shieldvi_social\\ai_client.py": "5b1bd42cf52870739c7bd8d5800f3453b412ef45fbec031d132480c8c4c78a7e",
+    "services\\social-api\\src\\shieldvi_social\\worker.py": "a6c54b644dfa965db7eeeacddf284852c5bfdedfc5d31665e59c27d2ebfe93ca"
+  },
+  "policy_owner": "Social API; AI is advisory; HIGH auto-hold not changed",
+  "scope": "Source/contract inspection and isolated adapter smoke; not a live Social worker E2E."
+}

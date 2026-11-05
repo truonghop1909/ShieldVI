@@ -1,0 +1,172 @@
+{
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 432,
+      "sha256": "01f78a2b26f23604f7e2936e99ca882014630b464d0ab68fe8d35532706e3ec2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 80,
+      "sha256": "ddc8ab58c8e2080172d463619d8de9ca5f72a78540274c79ece610953be624cf"
+    },
+    {
+      "path": "alembic.ini",
+      "bytes": 100,
+      "sha256": "8965c450bfd77867a3b02b26c5a0cfce35002fbba0f57fd2cd25aa0009393d70"
+    },
+    {
+      "path": "migrations/env.py",
+      "bytes": 1022,
+      "sha256": "0b65061b9d129b41a9ab871bfd68231402d2a0a92ecf76aea367c6fba4c2f136"
+    },
+    {
+      "path": "migrations/script.py.mako",
+      "bytes": 358,
+      "sha256": "d7558dcb7ce01d3e44830898336d3027de66e5ffdb1491c0cd27f6159b021902"
+    },
+    {
+      "path": "migrations/versions/0001_users.py",
+      "bytes": 1942,
+      "sha256": "fe468ffb6368f1282cfbd8a275d35393f193d3434542663f94307588a0eb269c"
+    },
+    {
+      "path": "migrations/versions/0002_content.py",
+      "bytes": 5509,
+      "sha256": "e47f77d8c87061f7f670f652211238a1fb55e39297d4e733937c975f67f862a9"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 582,
+      "sha256": "3f9fc8babc50842b42523dd8c46418a8401536a3b06b868bf27381ef4fce7c3f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12560,
+      "sha256": "eb378c4422b6b66e42f697dac9c497bb41f88a0f1ddcf0534d2172cc5f6aa238"
+    },
+    {
+      "path": "requirements-dev.lock",
+      "bytes": 756,
+      "sha256": "459fdc141a81d09ad0d1f401114f8d5b9fd2212d37bfa6628fdf08602a6ef067"
+    },
+    {
+      "path": "src/shieldvi_social/__init__.py",
+      "bytes": 69,
+      "sha256": "228a4e05a88b9569f44f7d7758f89a9a9b6d409fbec7be8aebbe701a9d68b4f5"
+    },
+    {
+      "path": "src/shieldvi_social/config.py",
+      "bytes": 3616,
+      "sha256": "86274bd2f1e67ef8eaa170f180bc537ec15fd6e3b36dbdedf08a415054701e52"
+    },
+    {
+      "path": "src/shieldvi_social/content_routes.py",
+      "bytes": 9057,
+      "sha256": "373b0e620020d2734800ab6f822b74e804baf1e8ca240d670cba000bcf990a9c"
+    },
+    {
+      "path": "src/shieldvi_social/content_schemas.py",
+      "bytes": 1841,
+      "sha256": "0b5e2f9dfc6fe4adae796358b89e833dcb9d6150f329aa50d138104c3d96abdb"
+    },
+    {
+      "path": "src/shieldvi_social/content_store.py",
+      "bytes": 6943,
+      "sha256": "c7399747db08a1307ed1173ec22daf37a3d2f1eb5c221702375d72550898cbea"
+    },
+    {
+      "path": "src/shieldvi_social/db.py",
+      "bytes": 1101,
+      "sha256": "d7cd129798c9b785c768916d893d67233860276a2ecf0136c0bbbda677792f05"
+    },
+    {
+      "path": "src/shieldvi_social/dependencies.py",
+      "bytes": 1931,
+      "sha256": "2a7fa622a81c31d7bc819fa06042f970d7d1703b6ca2810b769198e1b6076fab"
+    },
+    {
+      "path": "src/shieldvi_social/main.py",
+      "bytes": 2786,
+      "sha256": "237d992e2a321f380f7858d4f3fbe6e12439a972b05c0aa11cd4144483d48556"
+    },
+    {
+      "path": "src/shieldvi_social/middleware.py",
+      "bytes": 1600,
+      "sha256": "eeb730f0b4a6c836964c3860e816a67e9dc3325452226fe3d6bb8e09742efa48"
+    },
+    {
+      "path": "src/shieldvi_social/models.py",
+      "bytes": 7988,
+      "sha256": "1dbd29f5162184d89b741c42c27e890cddbdfd7d5a95f9622794ac567350bd69"
+    },
+    {
+      "path": "src/shieldvi_social/rate_limit.py",
+      "bytes": 1846,
+      "sha256": "1697381a0fc5b2dfea19e0fa3c77e2c7058ba033dc11055c3540bf80d00708b8"
+    },
+    {
+      "path": "src/shieldvi_social/routes.py",
+      "bytes": 3127,
+      "sha256": "b1f1cf815bc7e61527a3fbe9fb7f9c0c4b7db12b240b1cfa85cc1890a5670bd5"
+    },
+    {
+      "path": "src/shieldvi_social/schemas.py",
+      "bytes": 1422,
+      "sha256": "dbde4a2886588a4cf02e3def18e9971bca85164cfbe5b04f14818a5e10e52f2a"
+    },
+    {
+      "path": "src/shieldvi_social/security.py",
+      "bytes": 527,
+      "sha256": "ff4c154bdaadb68462d0acebb4ca51afdb18dfc23fc58968a5eccb5443c3b1f5"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 1737,
+      "sha256": "1044cd155f72c3f430d50bff2ceb952db0df3c0c18137b383a8a60e86aafd4cd"
+    },
+    {
+      "path": "tests/test_auth.py",
+      "bytes": 7530,
+      "sha256": "b6efccabdadbfc833789c0351e31ca0869fb22f3fd5eb46af51962d832753912"
+    },
+    {
+      "path": "tests/test_content.py",
+      "bytes": 21810,
+      "sha256": "7495d25abcd4fb3dc7c7e0260e820d12962cb0ad9e2e84447fb7c5b3b45f9901"
+    },
+    {
+      "path": "tests/test_limits_config.py",
+      "bytes": 2864,
+      "sha256": "2405c257e7d5464fa4a38a3d3144ddba5b5e518ecdf7d7cb766909aeb07886b8"
+    },
+    {
+      "path": "tests/test_migrations.py",
+      "bytes": 5262,
+      "sha256": "3fc60a611a9d834a31371082aa5d7974d6574c9f78d6dc3455db3ccbfc9b0817"
+    },
+    {
+      "path": "tests/test_permissions.py",
+      "bytes": 2039,
+      "sha256": "738c1fd1091cec9af6c9878c0e33cd077dee285cc21a4f3a0ee25d6c4f275b89"
+    }
+  ],
+  "added_since_T008": [
+    "migrations/versions/0002_content.py",
+    "src/shieldvi_social/content_routes.py",
+    "src/shieldvi_social/content_schemas.py",
+    "src/shieldvi_social/content_store.py",
+    "tests/test_content.py"
+  ],
+  "changed_since_T008": [
+    ".env.example",
+    "README.md",
+    "src/shieldvi_social/config.py",
+    "src/shieldvi_social/db.py",
+    "src/shieldvi_social/dependencies.py",
+    "src/shieldvi_social/main.py",
+    "src/shieldvi_social/middleware.py",
+    "src/shieldvi_social/models.py",
+    "tests/test_migrations.py"
+  ]
+}

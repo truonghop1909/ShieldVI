@@ -1,0 +1,86 @@
+{
+  "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Moi_Task_Mot_File",
+  "source_files_verified": 13,
+  "backup_sha256": "ea2ef963f45e740d5e794e93b51c4a446d1ff5a3d7235a2c5a85865db9a63f0f",
+  "before_sha256": {
+    "tasks/moderation-ai/T034-realtime-moderation-architecture.md": "8a3039eb90584bba1886986ee21ed00eea5bd2762464ba1e0103c3deb80e4850",
+    "tasks/moderation-ai/T035-durable-live-messaging-ai-jobs.md": "7987507b9ca3a1243ac4eb4fe6413906ad522592332f6cd52ff9ed986212d7fc",
+    "tasks/moderation-ai/T036-incremental-conversation-analysis.md": "eaa9878a7620e26c824a5bbc288900be815c6ee528839e9657c693a99aae96eb",
+    "tasks/moderation-ai/T037-live-conversation-client.md": "8de6b1de2d0c92f993dbc06d966f17e33a8766a7f25edf30aae1f0dfb72ecace",
+    "tasks/moderation-ai/T038-live-moderator-board.md": "64b4e5c328ec2ea5f5691edc39a0bf3b493ccd7fdb9f41ea2ad11417d38e134e",
+    "tasks/moderation-ai/T039-dataset-center.md": "c85079163679bdf0dedd049af43b2358d22bd9458ef49e606eb00490e9f42b3b",
+    "tasks/moderation-ai/T040-annotation-studio.md": "5a0bfa32c4b1e030bbf7d15433685481ae236d21ea1c432042841c5f3d04abc0",
+    "tasks/moderation-ai/T041-training-studio.md": "870541aac65580fa0a9236a6dc74daed6d62ed22f9b43414c71e79df83d5e0b4",
+    "tasks/moderation-ai/T042-evaluation-studio-model-registry.md": "348bfeba9d0d4f4b66723efd4834e1cbca9939711eaee3d01bfd057253dc8b7f",
+    "tasks/moderation-ai/T043-realtime-studio-e2e-handoff.md": "754437d0e1591ba39353010cedb08d13b8195fab5025081b412928d9a54f2111",
+    "tasks/moderation-ai/AUTO_EXECUTION_STATE.json": "ae701c5960f0ae0a5046918f558267d5d446be3bb6ca47f70b0bd1fef131226f",
+    "tasks/moderation-ai/TASK_ORDER_AI.md": "dd63c94a2ed93e592ba2e4dc6ff98ebdb6e1030da68e94309be808c680dfc324",
+    "tasks/TASK_ORDER.md": "b4e67aa9be2460a447645360b16b2e92a4793495354ade78afe16fb5121493c8",
+    "tasks/AUTO_PROGRESS.md": "871b704c273a447ddf949088f926e55ff28561232fd2aed222af62121d218778",
+    "tasks/moderation-ai/TASK_MERGE_REPORT.md": "f1f9ca2696d18b2303a6eb6565ec0dc9fc03c8e3a3efabb374316dc413f645c8",
+    "tasks/AUTO_RESUME_T034_T043.md": "0cc762373a6407a995a8aab21ffacd16bae69d6c0b2decb937d873c8fcd296d8",
+    "tasks/moderation-ai/RULES_REALTIME_STUDIO.md": "8aad8704ca7022edcd7cb8a38dd806f8e21fd6b6e3ca734b671a5d5dbc04c646"
+  },
+  "tasks": {
+    "T034": {
+      "source": "tasks/moderation-ai/T034_SOCIAL_POST_COMMENT_REALTIME_ARCHITECTURE.md",
+      "source_sha256": "e5d9ffa77359ecbedddc36cd2c95d3cfd7092b9b095645a106e70d42b0270d3d",
+      "destination": "tasks/moderation-ai/T034-realtime-moderation-architecture.md",
+      "id_collision": "merged; old body preserved"
+    },
+    "T035": {
+      "source": "tasks/moderation-ai/T035_POST_COMMENT_REPLY_API_DURABLE_AI_JOBS.md",
+      "source_sha256": "cb595bedc1684ba30813a2239ebf646f10028b17d0fefd44530bebaa3549882f",
+      "destination": "tasks/moderation-ai/T035-durable-live-messaging-ai-jobs.md",
+      "id_collision": "merged; old body preserved"
+    },
+    "T036": {
+      "source": "tasks/moderation-ai/T036_CONTEXTUAL_COMMENT_MODERATION_INCREMENTAL.md",
+      "source_sha256": "12ad77a4a84350e29ee033ec28762aa0c02a4a5a9924051811580acc9904b2eb",
+      "destination": "tasks/moderation-ai/T036-incremental-conversation-analysis.md",
+      "id_collision": "merged; old body preserved"
+    },
+    "T037": {
+      "source": "tasks/moderation-ai/T037_SOCIAL_FEED_POST_COMMENT_LIVE_CLIENT.md",
+      "source_sha256": "6840325230178f3a90cf29de928f4fce3d6fb60e4d9f069dcf28f5c721e52a84",
+      "destination": "tasks/moderation-ai/T037-live-conversation-client.md",
+      "id_collision": "merged; old body preserved"
+    },
+    "T038": {
+      "source": "tasks/moderation-ai/T038_MODERATOR_LIVE_POST_COMMENT_REVIEW.md",
+      "source_sha256": "13fff342b8f4d67fe42fccf98c8a38c3483e4a74ac4e05ab5c23ff7fba0b97ab",
+      "destination": "tasks/moderation-ai/T038-live-moderator-board.md",
+      "id_collision": "merged; old body preserved"
+    },
+    "T039": {
+      "source": "tasks/moderation-ai/T039_DATASET_CENTER_UPLOAD_VALIDATE_VERSION.md",
+      "source_sha256": "1dc62631345c12cacddfa6eeba286a28df190a1e4077dff1a32e8a4febb9bca1",
+      "destination": "tasks/moderation-ai/T039-dataset-center.md",
+      "id_collision": "merged; old body preserved"
+    },
+    "T040": {
+      "source": "tasks/moderation-ai/T040_ANNOTATION_STUDIO_SOLO_ROUND1_ROUND2.md",
+      "source_sha256": "8c01b6a4b75c560d43831e9ea1c49c0c4f30f559f3d9238a2e3117a25c757dac",
+      "destination": "tasks/moderation-ai/T040-annotation-studio.md",
+      "id_collision": "merged; old body preserved"
+    },
+    "T041": {
+      "source": "tasks/moderation-ai/T041_TRAINING_STUDIO_ACTUAL_TRAINING_UI.md",
+      "source_sha256": "81c1d96567f1f36f87829a1bc0707df4443d250cbfbafa5dd25385c0f934a68b",
+      "destination": "tasks/moderation-ai/T041-training-studio.md",
+      "id_collision": "merged; old body preserved"
+    },
+    "T042": {
+      "source": "tasks/moderation-ai/T042_EVALUATION_STUDIO_MODEL_REGISTRY.md",
+      "source_sha256": "8804b790bff74dfd878e0f12ad84f41a7b9f0f980df425ae89cc1151dd2a7300",
+      "destination": "tasks/moderation-ai/T042-evaluation-studio-model-registry.md",
+      "id_collision": "merged; old body preserved"
+    },
+    "T043": {
+      "source": "tasks/moderation-ai/T043_E2E_WINDOWS_SOCIAL_DEMO_AND_AI_STUDIO_HANDOFF.md",
+      "source_sha256": "d636f668b1fcecb441f886ae978bf342c8dba6ab932b431de6266f05277d769b",
+      "destination": "tasks/moderation-ai/T043-realtime-studio-e2e-handoff.md",
+      "id_collision": "merged; old body preserved"
+    }
+  }
+}

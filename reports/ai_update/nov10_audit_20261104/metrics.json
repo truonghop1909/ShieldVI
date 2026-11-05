@@ -1,0 +1,351 @@
+{
+  "raw": {
+    "n": 199,
+    "tp": 7,
+    "fp": 4,
+    "tn": 173,
+    "fn": 15,
+    "abstained_clean": 0,
+    "abstained_toxic": 0,
+    "coverage": 1.0,
+    "toxic_precision": 0.6363636363636364,
+    "toxic_recall": 0.3181818181818182,
+    "macro_f1": 0.6860938148609381,
+    "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+  },
+  "before": {
+    "classification": {
+      "n": 199,
+      "tp": 7,
+      "fp": 3,
+      "tn": 174,
+      "fn": 15,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.7,
+      "toxic_recall": 0.3181818181818182,
+      "macro_f1": 0.6941598360655737,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "grounding": {
+      "reference_comments_with_target_coverage": 199,
+      "reference_attacks": 22,
+      "target_emissions": 0,
+      "target_correct": 0,
+      "target_precision": 0.0,
+      "target_recall": 0.0,
+      "target_abstentions_on_reference_attacks": 22,
+      "repeated": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "evidence_correct": 0,
+        "evidence_total": 0,
+        "evidence_precision": 0.0
+      }
+    },
+    "evidence": {
+      "evidence_correct": 0,
+      "evidence_emitted": 0,
+      "evidence_reference": 21,
+      "evidence_precision": 0,
+      "evidence_recall": 0.0,
+      "fully_covered_events": 0,
+      "expected_events": 8,
+      "missing_evidence": [
+        {
+          "pair": [
+            "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c06",
+            "c10",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c06",
+            "c12",
+            "c16"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+            "U03",
+            "U01"
+          ],
+          "missing": [
+            "c08",
+            "c13",
+            "c17"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c07",
+            "c12",
+            "c17"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c09",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c09",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c07",
+            "c12"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+            "U05",
+            "U01"
+          ],
+          "missing": [
+            "c06",
+            "c11",
+            "c15"
+          ]
+        }
+      ]
+    }
+  },
+  "after": {
+    "classification": {
+      "n": 199,
+      "tp": 7,
+      "fp": 3,
+      "tn": 174,
+      "fn": 15,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.7,
+      "toxic_recall": 0.3181818181818182,
+      "macro_f1": 0.6941598360655737,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "grounding": {
+      "reference_comments_with_target_coverage": 199,
+      "reference_attacks": 22,
+      "target_emissions": 0,
+      "target_correct": 0,
+      "target_precision": 0.0,
+      "target_recall": 0.0,
+      "target_abstentions_on_reference_attacks": 22,
+      "repeated": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "evidence_correct": 0,
+        "evidence_total": 0,
+        "evidence_precision": 0.0
+      }
+    },
+    "evidence": {
+      "evidence_correct": 0,
+      "evidence_emitted": 0,
+      "evidence_reference": 21,
+      "evidence_precision": 0,
+      "evidence_recall": 0.0,
+      "fully_covered_events": 0,
+      "expected_events": 8,
+      "missing_evidence": [
+        {
+          "pair": [
+            "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c06",
+            "c10",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c06",
+            "c12",
+            "c16"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+            "U03",
+            "U01"
+          ],
+          "missing": [
+            "c08",
+            "c13",
+            "c17"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c07",
+            "c12",
+            "c17"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c09",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c09",
+            "c14"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+            "U04",
+            "U02"
+          ],
+          "missing": [
+            "c07",
+            "c12"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+            "U05",
+            "U01"
+          ],
+          "missing": [
+            "c06",
+            "c11",
+            "c15"
+          ]
+        }
+      ]
+    }
+  },
+  "wire_exact_replay_threads": 10,
+  "comments": 200,
+  "labels": {
+    "CLEAN": 177,
+    "TOXIC": 22,
+    "UNCERTAIN": 1
+  },
+  "all_attack_candidates_false": true,
+  "all_attack_instances_false": true,
+  "pattern_hit_counts": {},
+  "predicate_decisions": {},
+  "context_tags": {
+    "APOLOGY": 3,
+    "PROFANITY_NON_DIRECTED": 5,
+    "QUOTE": 8,
+    "SET_BOUNDARY": 2,
+    "INTERVENTION": 1,
+    "ACKNOWLEDGEMENT": 1
+  },
+  "declared_layer_versions": {
+    "assessment": "context-assessment-v1",
+    "context": "context-v6.1-research",
+    "repeated": "repeated-v6.1-research",
+    "target": "target-v6.1-research"
+  },
+  "processor_sha256": "8f3a4fe5b78b99b126a418b8ef1c40c756c995c22c876265e09f419a60b7c493",
+  "rules_modified": false,
+  "training_performed": false,
+  "human_gold": false,
+  "false_positives": [
+    {
+      "thread_id": "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+      "comment_id": "c04",
+      "reference": "CLEAN",
+      "raw": "TOXIC",
+      "final": "TOXIC"
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+      "comment_id": "c20",
+      "reference": "CLEAN",
+      "raw": "TOXIC",
+      "final": "TOXIC"
+    },
+    {
+      "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+      "comment_id": "c08",
+      "reference": "CLEAN",
+      "raw": "TOXIC",
+      "final": "TOXIC"
+    }
+  ],
+  "missing_external_evaluation_file": true,
+  "trace_wire_omission": "research_trace is not in AnalysisSignalsOut; response serialization omits it, while internal traces exist",
+  "historical_process_hash_provenance": "Exports carry versions but no process/source hash; exact replay establishes consistency, not cryptographic identity of the original process."
+}

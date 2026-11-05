@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-11-03T10:37:46.985970+00:00",
+  "method": "Primary documentation/repository/license metadata browsing only; no comment corpus downloaded",
+  "sources": [
+    {
+      "name": "Wikimedia vi talk",
+      "primary_urls": [
+        "https://www.mediawiki.org/wiki/API:Etiquette",
+        "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_User-Agent_Policy/en"
+      ],
+      "observed_license": "Existing metadata: CC-BY-SA-4.0; collector still rechecks API rights receipt before content",
+      "status": "PAUSED_BY_USER",
+      "reason": "No operator contact; user explicitly refuses further contact requests and browser impersonation. No collection attempted."
+    },
+    {
+      "name": "ViHOS",
+      "primary_urls": [
+        "https://github.com/phusroyal/ViHOS",
+        "https://raw.githubusercontent.com/phusroyal/ViHOS/master/LICENSE"
+      ],
+      "observed_license": "MIT repository license; not assumed to establish every underlying source-comment right",
+      "status": "NOT_ELIGIBLE_FOR_T028",
+      "reason": "Existing flat span/comment dataset, no verified multi-party thread graph/provenance; already in development inventory. No new download."
+    },
+    {
+      "name": "ViHSD",
+      "primary_urls": [
+        "https://github.com/sonlam1102/vihsd"
+      ],
+      "observed_license": "No clear dataset-use grant located in inspected primary repository pages",
+      "status": "HOLD_RIGHTS_AND_SCHEMA",
+      "reason": "Comment-level CLEAN/OFFENSIVE/HATE release, not verified complete threads with parent/user/time and current source permission."
+    },
+    {
+      "name": "ViCTSD",
+      "primary_urls": [
+        "https://github.com/tarudesu/ViCTSD"
+      ],
+      "observed_license": "Local user copy explicitly not reverified in datasets/manifest.json",
+      "status": "NOT_INDEPENDENT_T028",
+      "reason": "Already supervised train/validation/test classification data; cannot assemble comments into invented new real threads."
+    },
+    {
+      "name": "ViLexNorm",
+      "primary_urls": [
+        "https://github.com/ngxtnhi/ViLexNorm"
+      ],
+      "observed_license": "CC-BY-NC-SA-4.0 recorded with primary README hash in local manifest",
+      "status": "SCHEMA_UNSUITABLE",
+      "reason": "Normalization pairs, not source-verifiable multi-party threads; already a development source."
+    },
+    {
+      "name": "mDIA Vietnamese",
+      "primary_urls": [
+        "https://github.com/DoctorDream/mDIA",
+        "https://huggingface.co/datasets/SEACrowd/mdia/blob/main/README.md"
+      ],
+      "observed_license": "SEACrowd wrapper declares CC-BY-4.0; original README citation has paper copyright, not a verified dataset grant",
+      "status": "HOLD_UPSTREAM_RIGHTS_AND_PROVENANCE",
+      "reason": "Parent-response pairs do not establish full10–30comment threads, stable actors/timestamps/source URLs. No raw Reddit scrape or reconstruction attempted."
+    }
+  ],
+  "accepted_new_threads": 0,
+  "accepted_new_comments": 0,
+  "source_rights_not_inferred_from_public_visibility": true
+}

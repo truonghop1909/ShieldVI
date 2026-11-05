@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "protocol": "synthetic_research_v1",
+  "task_status": "TODO",
+  "files_changed": [
+    "tasks/moderation-ai/T028-independent-evaluation-solo-review-protoco.md",
+    "docs/ai-update/05_RELEASE_GATES.md",
+    "docs/ai-update/03_EXPERIMENT_PLAN.md",
+    "docs/ai-update/02_ANNOTATION_GUIDE.md",
+    "docs/ai-update/06_COLAB_RUNBOOK.md",
+    "tasks/moderation-ai/T029-optional-train-candidate-visobert-on-colab.md",
+    "tasks/moderation-ai/T030-paired-offline-evaluation-ablation.md",
+    "AGENTS.md",
+    ".agents/skills/shieldvi-ai-upgrade/SKILL.md",
+    "tasks/moderation-ai/TASK_ORDER_AI.md",
+    "tasks/TASK_ORDER.md",
+    "docs/ai-update/T029_TRAINING_PREPARATION.md",
+    "datasets/synthetic_conversations/README.md",
+    "datasets/real_conversations/README.md",
+    "datasets/ai-update/README.md",
+    "tasks/AUTO_PROGRESS.md"
+  ],
+  "runtime_data_config_hashes_unchanged": {
+    "scripts/train_t029_candidate.py": "de219857211f60afbcc8c6e6e5004c092b4c78c84caa431f5e24c6f8ea92712f",
+    "scripts/prepare_t029_training.py": "e694447d94e378f8bfae862e1ab530f929ce8677f2f9a99b5e5436074f7a8ff9",
+    "scripts/evaluate_ai_update.py": "02f50beb0335e359372f1604d8fe9ddab4b5e87fd4743d4581d6c3f66f2645b9",
+    "configs/t029_candidate.json": "1f3a214bd5d3d5ac5d6e3dd157145751a2e4de0c2180627af9b7a3ab8ef9a8fe",
+    "datasets/ai-update/evaluation_manifest.json": "2f92bd5dc8b2c6abf267eb499d28c5118d400361d1fd57bce29605dc1a4f2b7c",
+    "datasets/synthetic_conversations/manifest.json": "0ecedfab9c1005025a36115fe33be6f0bd7a56d140e17d42afb11e898c0704bd",
+    "datasets/synthetic_conversations/training_ai_labels_v1/manifest.json": "362a83b14df63bdd4fadd27dce6f54ffff5d2fc734b8986a0481979d49e1a136",
+    "reports/ai_update/T029/prepared/manifest.json": "4695f67b27180216ac30e100776c26416986548de680e65760cc4c943bd55f36"
+  },
+  "training_performed": false,
+  "dataset_generated_in_this_turn": false,
+  "validation": {
+    "local_links": "PASS",
+    "task_indices": "PASS",
+    "history_preserved": true,
+    "runtime_hashes": "PASS",
+    "pytest": "4 passed, 1 warning"
+  }
+}

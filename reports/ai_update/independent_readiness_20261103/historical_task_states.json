@@ -1,0 +1,110 @@
+[
+  {
+    "file": "tasks/integration/T007-repo-blueprint.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/integration/T012-moderation-jobs.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/integration/T014-e2e-security.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/integration/T015-migrate-legacy.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/integration/T016-policy-design.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/integration/T017-durable-worker-and-offline.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/integration/T019-evaluation-and-privacy.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T011-moderation-adapter.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T020-audit-ai-snapshot-baseline.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T021-regression-fixtures-provisional-annotation.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T022-context-signals-apology-quote-defense-inte.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T023-lexicon-vi-en-teencode-expansion.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T024-target-detection-v3-explicit-and-abstain.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T025-repeated-harassment-v3-evidence-aware.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T026-api-schema-dashboard-signals-policy-bounda.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T027-data-ingestion-provenance-for-hard-cases.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T028-independent-evaluation-solo-review-protoco.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T029-optional-train-candidate-visobert-on-colab.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T030-paired-offline-evaluation-ablation.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T031-optional-model-registry-shadow-and-rollbac.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T032-social-ai-integration-offline-safety-e2e.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-ai/T033-technical-report-thesis-handoff.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-web/T013-admin-review.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/moderation-web/T018-admin-appeals-audit.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/social-api/T008-auth-database.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/social-api/T009-social-content.md",
+    "historical_status": "DONE"
+  },
+  {
+    "file": "tasks/social-web/T010-social-frontend.md",
+    "historical_status": "DONE"
+  }
+]

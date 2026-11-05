@@ -1,0 +1,7 @@
+{
+  "social-api": true,
+  "ai-fixture": true,
+  "social-web": true,
+  "moderation-web": true,
+  "worker": true
+}

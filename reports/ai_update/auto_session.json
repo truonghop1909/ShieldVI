@@ -1,0 +1,155 @@
+{
+  "authorization": "User autonomous runner 2026-11-02; no training/deploy/external upload authorized",
+  "tasks": {
+    "T021": {
+      "status": "DONE",
+      "note": "5 immutable threads validated; 150 NEEDS_REVIEW rows and 21 semantic counterexamples. No gold labels invented; no fixtures copied twice. Initial tmp_path permission/setup errors resolved using workspace basetemp.",
+      "files": [
+        "scripts/ai_regression_data.py",
+        "tests/test_ai_regression.py",
+        "tests/fixtures/ai_update/counterexamples.json",
+        "datasets/fixtures/genz_regression/reviewer_needed.csv",
+        "scripts/ai_task_progress.py"
+      ],
+      "tests": [
+        "pytest tests/test_ai_regression.py -q --basetemp reports/ai_update/test_tmp/T021_2: 4 passed, 1 warning"
+      ]
+    },
+    "T022": {
+      "status": "DONE",
+      "note": "Standalone typed multi-tag context signals, mixed apology+attack preserved; original fixture recovery cases and raw model invariance verified. Target/repeated integration remains T024/T025.",
+      "files": [
+        "services/moderation-ai/app/context_signals.py",
+        "tests/test_context_signals.py"
+      ],
+      "tests": [
+        "Context/regression subset 32 tests passed inside 128-test combined run"
+      ]
+    },
+    "T023": {
+      "status": "DONE",
+      "note": "4 new local reviewed slang rules plus vkl; original djt reused after duplicate-alias guard caught attempted duplicate. Offline rebuild reproducible; email/domain and benign NPC protected. No model score/policy changes.",
+      "files": [
+        "services/moderation-ai/app/lexical.py",
+        "services/moderation-ai/app/data/lexicon/reviewed_rules.json",
+        "services/moderation-ai/app/data/lexicon/active.json",
+        "services/moderation-ai/app/data/lexicon/candidates.json",
+        "services/moderation-ai/app/data/lexicon/manifest.json",
+        "tests/test_lexicon_update.py"
+      ],
+      "tests": [
+        "Combined context/regression/lexicon suite: 128 passed, 1 warning"
+      ]
+    },
+    "T024": {
+      "status": "DONE",
+      "note": "Separate attack-target inference with mapped textual/platform references, conflict abstention, low parent/history candidates; no legacy target redefinition. Test exposed overly broad addressed-reply cue; restricted to second-person addressee.",
+      "files": [
+        "services/moderation-ai/app/target_signals.py",
+        "tests/test_target_signals.py"
+      ],
+      "tests": [
+        "pytest target/context/engine: 39 passed, 1 warning"
+      ]
+    },
+    "T025": {
+      "status": "DONE",
+      "note": "Versioned v2 engine qualifies evidence using context + grounded recipient + profile model threshold; 0.03 stays research-only. Legacy v1 behavior kept for compatibility. Recovery-only turns excluded; previous genuine attacks remain.",
+      "files": [
+        "services/moderation-ai/app/signal_engine.py",
+        "services/moderation-ai/app/context_signals.py",
+        "services/moderation-ai/app/target_signals.py",
+        "tests/test_signal_engine.py"
+      ],
+      "tests": [
+        "signal/target/context/internal legacy regression: 60 passed, 1 warning"
+      ]
+    },
+    "T026": {
+      "status": "DONE",
+      "note": "Typed /api/v2/analyze and research UI show raw model/context/attack target/human authority separately. Legacy /api/analyze and Social internal 1.0 unchanged; Social v3 promotion remains T032-gated. UI build isolated, not deployed.",
+      "files": [
+        "services/moderation-ai/app/main.py",
+        "services/moderation-ai/app/schemas.py",
+        "services/moderation-ai/app/signal_engine.py",
+        "apps/moderation-web/legacy-v3/src/App.jsx",
+        "tests/test_api_v2.py",
+        "contracts/analysis_response_v2.schema.json",
+        "docs/ai-update/V2_COMPATIBILITY.md",
+        "reports/ai_update/T026/real_smoke.json"
+      ],
+      "tests": [
+        "Full backend: 243 passed, 1 warning",
+        "npm build isolated output: PASS, 1578 modules",
+        "Real CPU model: 5 fixtures API v1/v2 HTTP200, scores and labels identical"
+      ]
+    },
+    "T027": {
+      "status": "DONE",
+      "note": "Local ingest prepared 1645 synthetic NEEDS_REVIEW records, 418 unique normalized texts; raw text preserved, exact/near-duplicate thread components audited. Empty train/validation/test partitions correctly enforce verification/license/development gates; not ready for training.",
+      "files": [
+        "scripts/prepare_ai_update_data.py",
+        "tests/test_ai_data_ingestion.py",
+        "datasets/ai-update/review_v1/dataset_manifest.json",
+        "datasets/ai-update/README.md"
+      ],
+      "tests": [
+        "Data ingestion 7 tests passed; timezone-instant guard corrected and checked; all source rows accounted for"
+      ]
+    },
+    "T028": {
+      "status": "BLOCKED",
+      "note": "Safe evaluation tooling and manifest prepared, but zero rights-approved independent real conversations and zero human VERIFIED_SOLO blind labels were supplied. Synthetic/dev/trained-on texts are rejected (including disguised/near duplicates); no benchmark metric published.",
+      "files": [
+        "scripts/evaluate_ai_update.py",
+        "tests/test_independent_evaluation.py",
+        "datasets/ai-update/evaluation_manifest.json",
+        "reports/ai_update/T028/evaluation_gate.json"
+      ],
+      "tests": [
+        "Full backend regression: 261 passed, 1 warning",
+        "Evaluation CLI returned expected exit 2 / BLOCKED; metrics=null"
+      ]
+    }
+  },
+  "next_task": "Provide independent rights-approved real data and human labels for T028; T029/T030/T031/T032/T033 not dependency-ready",
+  "final_summary": {
+    "DONE_this_session": 7,
+    "BLOCKED": 1,
+    "WAITING_APPROVAL": 0,
+    "prior_DONE": [
+      "T020"
+    ],
+    "current_task": null,
+    "stop_reason": "No safe dependency-ready task remains; T028 needs independent real data and verified human labels",
+    "next_task": "T028 after data/annotation blockers resolved",
+    "remaining_dependency_blockers": {
+      "T029": [
+        "T028"
+      ],
+      "T030": [
+        "T028"
+      ],
+      "T031": [
+        "T030"
+      ],
+      "T032": [
+        "T030"
+      ],
+      "T033": [
+        "T030",
+        "T032"
+      ]
+    }
+  },
+  "final_verification": {
+    "backend": "265 passed, 1 warning in 3.85s",
+    "frontend_build": "PASS, 1578 modules, isolated reports/ai_update/frontend_build_final",
+    "protected_files_unchanged": 31,
+    "existing_social_tasks_unchanged": true,
+    "browser_UI_tests": "NOT_RUN_build_only",
+    "Social_API_v3_promotion": "NOT_DONE_T032_dependency_gate",
+    "training": false,
+    "production_deploy": false
+  }
+}

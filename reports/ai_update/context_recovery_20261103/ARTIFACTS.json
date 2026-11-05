@@ -1,0 +1,218 @@
+{
+  "scope": "GAME_RANK_30 recovery, synthetic-only",
+  "historical_handoffs_not_rewritten": true,
+  "linked_files_checked": 69,
+  "missing_links": [],
+  "files": {
+    ".agents/skills/shieldvi-ai-upgrade/SKILL.md": {
+      "sha256": "7b19fe487d01f05c7b6ce913731a848fe4e0b3c3bebd752a1b93c1a2c706408c",
+      "bytes": 3901
+    },
+    "AGENTS.md": {
+      "sha256": "0028c956f6e5adf6cec64cd976678f1366d0593b47bb04375c3b99b185a6c44d",
+      "bytes": 6341
+    },
+    "apps/moderation-web/legacy-v3/src/App.jsx": {
+      "sha256": "ce16f04c8d2b93b54bcc36a8a48758ed84eb19cbcd0d21d72656d2472e4b631a",
+      "bytes": 41212
+    },
+    "apps/moderation-web/legacy-v3/src/utils.js": {
+      "sha256": "a064f6024ed01eb552721057294149bc2bbfcd5ab0a1b48e4ed1ff3938cad67d",
+      "bytes": 5181
+    },
+    "contracts/analysis_response_v2.schema.json": {
+      "sha256": "d91b8fbf2b5762ba4ea344ad8198e1b3ac42e3ef9b765a0ee4dfe9776106a69b",
+      "bytes": 16198
+    },
+    "datasets/fixtures/context_recovery_v1/game_rank_30_reference.json": {
+      "sha256": "5e8f826032d45ceb3c632d803f4a34abf561b457c3f96831a7c4fdd2c97b5a76",
+      "bytes": 1607
+    },
+    "datasets/fixtures/context_recovery_v1/manifest.json": {
+      "sha256": "849006cf85214d4b793596ff067034bae12ec9e3b89adcecf2219b88a1e2b8ba",
+      "bytes": 1797
+    },
+    "datasets/fixtures/context_recovery_v1/README.md": {
+      "sha256": "cda33f2097b974c3cd01ea664d739b49d49940507cda210076ec54b18a0afa5d",
+      "bytes": 1125
+    },
+    "docs/ai-update/CONTEXT_RECOVERY_GAME_RANK_30.md": {
+      "sha256": "37501dc60e4da21ebc055331c9eb1696aaa80101f2bfa3e56ac6081410e06e7a",
+      "bytes": 9367
+    },
+    "reports/ai_update/context_recovery_20261103/after.json": {
+      "sha256": "d07049daf129d5c13eebe71404fdd990101872b8e723b8c7a6ec6b5f68f34e4c",
+      "bytes": 2289051
+    },
+    "reports/ai_update/context_recovery_20261103/attempt1_before_after.json": {
+      "sha256": "d575eaea089e2e87fa25cdc85e861cd4f04cd717c8e4022f92862737bccc2abd",
+      "bytes": 6914
+    },
+    "reports/ai_update/context_recovery_20261103/before.json": {
+      "sha256": "f38b392b680d9dea834dbcc69326d67d218d032e35f42ecd31925f9c1e7fe136",
+      "bytes": 1769402
+    },
+    "reports/ai_update/context_recovery_20261103/before_after.json": {
+      "sha256": "ca6c1987acfc3659277dc1c47f0227bf04c593bb3b009eba1f121345e68231e4",
+      "bytes": 4662
+    },
+    "reports/ai_update/context_recovery_20261103/before_lock.json": {
+      "sha256": "02b974cd24220002309e832793e10373d6cda9f4f8f84b626a75942ac6e08f31",
+      "bytes": 1355
+    },
+    "reports/ai_update/context_recovery_20261103/dashboard_browser_smoke.json": {
+      "sha256": "81473f4b2740a8175d597c54a01878edfea0bb1900a87a4fc26e8a10569b7ed5",
+      "bytes": 288
+    },
+    "reports/ai_update/context_recovery_20261103/dashboard_build.txt": {
+      "sha256": "ea982a3f33aafbfed6bffe337dddf0aad2e040a242ed3db6f31d7d9f5afd8e5e",
+      "bytes": 1348
+    },
+    "reports/ai_update/context_recovery_20261103/game_after_api.json": {
+      "sha256": "3dc5752b49ba2e3634c5bdbbd5bb9782f7221322e2222993598e1336cf8b9191",
+      "bytes": 69530
+    },
+    "reports/ai_update/context_recovery_20261103/handoff_tests.txt": {
+      "sha256": "f585686f6f6ff8fba9a9761d594464360e7f7c9d30cca591c66bb8cfc72c94ee",
+      "bytes": 1994
+    },
+    "reports/ai_update/context_recovery_20261103/inputs.json": {
+      "sha256": "72405187e24b8a7112dade2b19e99b87704af8ad31ae5317431fe9741a2126af",
+      "bytes": 284120
+    },
+    "reports/ai_update/context_recovery_20261103/integrity_audit.json": {
+      "sha256": "31a6b0fa2138750485fd5d9526dcd4e8a3cd4df9a76df09806afb5c5a052a7b1",
+      "bytes": 528
+    },
+    "reports/ai_update/context_recovery_20261103/paired_comments.json": {
+      "sha256": "4b614deb8478264684f18298281d3ad9dec7a48cbd8f94f4de35a94ce012e801",
+      "bytes": 411407
+    },
+    "reports/ai_update/context_recovery_20261103/progress.json": {
+      "sha256": "70a2c3df3411d6e570e1c68e7de30d79d16587f8d26af9b78107d1c5ad00c49d",
+      "bytes": 1459
+    },
+    "reports/ai_update/context_recovery_20261103/real_api_after.json": {
+      "sha256": "b6ad30d5d9eb9cc41a1f97de41e600a6c968687d9fd3a5781ec9e041528aef51",
+      "bytes": 69506
+    },
+    "reports/ai_update/context_recovery_20261103/real_api_smoke.json": {
+      "sha256": "03cc4c5607da21ac2e1f34759a9768369eb27a0a0867241579a9cc055bf49ec3",
+      "bytes": 438
+    },
+    "reports/ai_update/context_recovery_20261103/score_cache.json": {
+      "sha256": "37c9e32afb81fa84387f9ce0731ef34478c4cae3558c564c71e659726ef951b4",
+      "bytes": 25463
+    },
+    "reports/ai_update/context_recovery_20261103/served_ui_after.json": {
+      "sha256": "7c3897b59f679eec189d9499474241a0b44dd4360b0d8afb4b267bab406e0e39",
+      "bytes": 169
+    },
+    "reports/ai_update/context_recovery_20261103/served_ui_before.json": {
+      "sha256": "55d4960d04cfd7bdab1db7dd62c9306ff89f41669041d9f1207bf87abbd0626c",
+      "bytes": 243
+    },
+    "reports/ai_update/context_recovery_20261103/social_e2e_runner.txt": {
+      "sha256": "186576ef36c207dddf106b9425e9d7313e9f6b9639a30426587c39588c276abd",
+      "bytes": 744
+    },
+    "reports/ai_update/context_recovery_20261103/social_tests.txt": {
+      "sha256": "1b3ddfe14fc45abfee086aa4db0bd77e7ad6115e755a9504a0abc4f80e6e165a",
+      "bytes": 1568
+    },
+    "reports/ai_update/context_recovery_20261103/target_repeated_comparison.json": {
+      "sha256": "55745d5332411b53287dc028defc230a843be3d9a2b1e798833d9c08a9b8502b",
+      "bytes": 2493
+    },
+    "scripts/audit_context_recovery_evidence.py": {
+      "sha256": "0404a7a71f121c2754bcd9caf267b6890c22b9a316dd2d94735d66f669e25386",
+      "bytes": 3827
+    },
+    "scripts/evaluate_context_recovery.py": {
+      "sha256": "ab3165d630aee70e4b71ec491a3cdc751619c410601ce988a7d6b9e4148211af",
+      "bytes": 8796
+    },
+    "scripts/generate_context_recovery_dataset.py": {
+      "sha256": "b0cdffc0e46d525570af1e2769d5b2283227a1ce3e5fbc4c19edda8f0374f21a",
+      "bytes": 6057
+    },
+    "scripts/smoke_context_dashboard.mjs": {
+      "sha256": "9aec01f8e95e27ba340f3c72f5adb5e2c69ec250f2547477c54cd58a44545773",
+      "bytes": 4472
+    },
+    "scripts/synthetic_data/context_recovery_catalogue.txt": {
+      "sha256": "ec8e29d76f334cd4be6a0cee89faefffe2046b815a0964e91bc790af9e1f88a0",
+      "bytes": 8609
+    },
+    "services/moderation-ai/app/context_assessment.py": {
+      "sha256": "e1c3ae7de0b0b565fe57a881ff45fb897eefa009193bce6095e3ec434e4107be",
+      "bytes": 1493
+    },
+    "services/moderation-ai/app/context_signals.py": {
+      "sha256": "784cc1109b979f717ecf28ca4c0d53efd088dc892391dae99827ac8aaf580a71",
+      "bytes": 7076
+    },
+    "services/moderation-ai/app/engine.py": {
+      "sha256": "34f96dc1250cb6d653afc4075f6c6df27c50668be3adba9c3f49610aef029b2b",
+      "bytes": 6839
+    },
+    "services/moderation-ai/app/lexical.py": {
+      "sha256": "0a0e8254a8c8b93ee6cae3919555a3430a9d2d1c509faf36b4e0b335909150f4",
+      "bytes": 5916
+    },
+    "services/moderation-ai/app/schemas.py": {
+      "sha256": "361206812bab41779ed468e513223c891eb18afa21bfad2760e9dad7e0b10b6c",
+      "bytes": 5762
+    },
+    "services/moderation-ai/app/signal_engine.py": {
+      "sha256": "e31d7b2448168257ab672e485e0c7d677a563c91ca0a47b837ae3e715c010e6e",
+      "bytes": 3857
+    },
+    "services/moderation-ai/app/target_signals.py": {
+      "sha256": "0f0a2ae6c9a08568c415744d34030736c591e9f08753aa28b65670bec3ecf227",
+      "bytes": 2439
+    },
+    "tasks/AUTO_PROGRESS.md": {
+      "sha256": "c975d6988e45490829bf4802f5ed189e74e013552b854cc1afd25a9004e016a6",
+      "bytes": 44406
+    },
+    "tasks/moderation-ai/T022-context-signals-apology-quote-defense-inte.md": {
+      "sha256": "9503e00206ca1e90660896a6e58e0b11159776684e9025422c1993ccf2ee45eb",
+      "bytes": 3685
+    },
+    "tasks/moderation-ai/T024-target-detection-v3-explicit-and-abstain.md": {
+      "sha256": "73d5f76bf61d6a8219c08cc2c26f9a89b1805a1c42671e6f2b009a1f632d6b64",
+      "bytes": 3732
+    },
+    "tasks/moderation-ai/T025-repeated-harassment-v3-evidence-aware.md": {
+      "sha256": "4901ff2f4aa70537c476976e82e6975d2a266c8a7ea874fe030080e8aee9b3b5",
+      "bytes": 3837
+    },
+    "tasks/moderation-ai/T026-api-schema-dashboard-signals-policy-bounda.md": {
+      "sha256": "b24ffb4f86f521a0627fa8badf8d67aaf667697eb2bd760251ee47e1655c7e71",
+      "bytes": 3871
+    },
+    "tasks/moderation-ai/T028-independent-evaluation-solo-review-protoco.md": {
+      "sha256": "df2861461786f60b71bf5fbe90cd3cd5f29dac29b35f4bca4f442eda6b36b5f9",
+      "bytes": 24191
+    },
+    "tasks/moderation-ai/T029-optional-train-candidate-visobert-on-colab.md": {
+      "sha256": "bd61b71817e03146a3eeaed308ea48319fcd6c957a2bbd3f75e965858d8c9e1d",
+      "bytes": 6784
+    },
+    "tasks/moderation-ai/TASK_ORDER_AI.md": {
+      "sha256": "6ec098c6a21b861929b4f0c3d2c15c691bd5e56c08b27533974310fc8b0de8d8",
+      "bytes": 4385
+    },
+    "tasks/TASK_ORDER.md": {
+      "sha256": "c46407a40ef22a3188f1e3ec120709ba69e267f3b3705d848ebe90a95f9982c7",
+      "bytes": 8439
+    },
+    "tests/test_context_recovery_regression.py": {
+      "sha256": "0b48b8026ea4bbac51fd36d666141e132da2a92551c600fb59a4be39bddff01a",
+      "bytes": 7704
+    }
+  },
+  "dataset_thread_checksums_in": "datasets/fixtures/context_recovery_v1/manifest.json",
+  "protected_unchanged_in": "reports/ai_update/context_recovery_20261103/integrity_audit.json"
+}

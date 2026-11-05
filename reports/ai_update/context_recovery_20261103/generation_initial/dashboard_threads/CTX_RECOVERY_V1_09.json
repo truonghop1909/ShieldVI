@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_09",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C01",
+      "user_id": "CTX_RECOVERY_V1_09_U01",
+      "parent_id": null,
+      "text": "Cho tui thử lại pha chuyền vừa rồi.",
+      "timestamp": "2025-01-10T09:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C02",
+      "user_id": "CTX_RECOVERY_V1_09_U02",
+      "parent_id": "CTX_RECOVERY_V1_09_C01",
+      "text": "Mày đúng là “đồ ngu”, nói thế mới chính xác.",
+      "timestamp": "2025-01-10T09:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C03",
+      "user_id": "CTX_RECOVERY_V1_09_U03",
+      "parent_id": "CTX_RECOVERY_V1_09_C02",
+      "text": "Có thể nói lỗi chuyền, không được xúc phạm.",
+      "timestamp": "2025-01-10T09:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C04",
+      "user_id": "CTX_RECOVERY_V1_09_U01",
+      "parent_id": "CTX_RECOVERY_V1_09_C02",
+      "text": "Mình sẵn sàng tập lại, không nhận lời hạ nhục.",
+      "timestamp": "2025-01-10T09:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C05",
+      "user_id": "CTX_RECOVERY_V1_09_U02",
+      "parent_id": "CTX_RECOVERY_V1_09_C04",
+      "text": "Bóng đang bay hơi cao.",
+      "timestamp": "2025-01-10T09:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C06",
+      "user_id": "CTX_RECOVERY_V1_09_U03",
+      "parent_id": null,
+      "text": "Vậy hai người thử chậm theo góc cố định.",
+      "timestamp": "2025-01-10T09:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C07",
+      "user_id": "CTX_RECOVERY_V1_09_U01",
+      "parent_id": null,
+      "text": "Tui hạ lực cổ tay xuống chút.",
+      "timestamp": "2025-01-10T09:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C08",
+      "user_id": "CTX_RECOVERY_V1_09_U02",
+      "parent_id": null,
+      "text": "pha này vừa tầm rồi",
+      "timestamp": "2025-01-10T09:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C09",
+      "user_id": "CTX_RECOVERY_V1_09_U03",
+      "parent_id": null,
+      "text": "Giữ cách góp ý về động tác như vậy nhé.",
+      "timestamp": "2025-01-10T09:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C10",
+      "user_id": "CTX_RECOVERY_V1_09_U01",
+      "parent_id": null,
+      "text": "Mình nghỉ uống nước rồi tập tiếp.",
+      "timestamp": "2025-01-10T09:07:18Z"
+    }
+  ]
+}

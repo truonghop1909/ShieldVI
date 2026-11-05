@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "word_pages": 2,
+  "renderer": "Microsoft Word",
+  "bold_keyword_phrases": [
+    "ShieldVI",
+    "AI hỗ trợ",
+    "người kiểm duyệt",
+    "ViSoBERT",
+    "0,41",
+    "synthetic",
+    "human gold"
+  ],
+  "zip_xml_valid": true,
+  "app_code_changed": false,
+  "training_performed": false,
+  "sha256": {
+    "docs/ai-update/final-report/ShieldVI_Tom_tat_de_tai_2_trang.docx": "b2a305c762182fe351dfe547db4c64df9b7434094f84be46513a0c34d5b38d1c",
+    "reports/project_brief_20261105_word_render.json": "b7375bdc0000599b689c6d023d23bce3ad718b982a6c1a0953cef154707bb934"
+  }
+}

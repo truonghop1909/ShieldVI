@@ -1,0 +1,1441 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Vietnamese Cyberbullying Detection API",
+    "description": "Prototype AI hỗ trợ kiểm duyệt. Chỉ sử dụng với quyền truy cập hợp lệ; không tự động kết luận hành vi bắt nạt.",
+    "version": "0.3.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/analyze": {
+      "post": {
+        "summary": "Analyze",
+        "operationId": "analyze_api_analyze_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AnalyzeRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnalyzeResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/reviews/batch": {
+      "post": {
+        "summary": "Upsert Reviews",
+        "operationId": "upsert_reviews_api_reviews_batch_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HumanReviewBatch"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/reviews": {
+      "get": {
+        "summary": "Get Reviews",
+        "operationId": "get_reviews_api_reviews_get",
+        "parameters": [
+          {
+            "name": "thread_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 120
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Thread Id"
+            }
+          },
+          {
+            "name": "reviewer_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 30
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Reviewer Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/reviews/stats": {
+      "get": {
+        "summary": "Get Review Stats",
+        "operationId": "get_review_stats_api_reviews_stats_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/reviews/export": {
+      "get": {
+        "summary": "Download Reviews",
+        "operationId": "download_reviews_api_reviews_export_get",
+        "parameters": [
+          {
+            "name": "thread_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 120
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Thread Id"
+            }
+          },
+          {
+            "name": "reviewer_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 30
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Reviewer Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/recent": {
+      "get": {
+        "summary": "Recent",
+        "operationId": "recent_api_recent_get",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "default": 30,
+              "title": "Limit"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "summary": "Index",
+        "operationId": "index__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/moderate/comment": {
+      "post": {
+        "tags": [
+          "internal-moderation"
+        ],
+        "summary": "Endpoint",
+        "operationId": "endpoint_api_v1_moderate_comment_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ModerationRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ModerationResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AnalyzeRequest": {
+        "properties": {
+          "thread_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "title": "Thread Id"
+          },
+          "comments": {
+            "items": {
+              "$ref": "#/components/schemas/CommentIn"
+            },
+            "type": "array",
+            "maxItems": 500,
+            "minItems": 1,
+            "title": "Comments"
+          },
+          "profile": {
+            "type": "string",
+            "enum": [
+              "conservative",
+              "research_synthetic"
+            ],
+            "title": "Profile",
+            "default": "conservative"
+          }
+        },
+        "type": "object",
+        "required": [
+          "thread_id",
+          "comments"
+        ],
+        "title": "AnalyzeRequest"
+      },
+      "AnalyzeResponse": {
+        "properties": {
+          "thread_id": {
+            "type": "string",
+            "title": "Thread Id"
+          },
+          "model_name": {
+            "type": "string",
+            "title": "Model Name"
+          },
+          "model_threshold": {
+            "type": "number",
+            "title": "Model Threshold"
+          },
+          "repeated_rule_threshold": {
+            "type": "number",
+            "title": "Repeated Rule Threshold"
+          },
+          "profile": {
+            "type": "string",
+            "title": "Profile"
+          },
+          "research_only": {
+            "type": "boolean",
+            "title": "Research Only"
+          },
+          "suspected_repeated_harassment": {
+            "type": "boolean",
+            "title": "Suspected Repeated Harassment"
+          },
+          "risk_level": {
+            "type": "string",
+            "enum": [
+              "none",
+              "needs_review",
+              "suspected_repeated"
+            ],
+            "title": "Risk Level"
+          },
+          "risk_score_heuristic": {
+            "type": "integer",
+            "title": "Risk Score Heuristic"
+          },
+          "evidence": {
+            "items": {
+              "$ref": "#/components/schemas/EvidenceOut"
+            },
+            "type": "array",
+            "title": "Evidence"
+          },
+          "comments": {
+            "items": {
+              "$ref": "#/components/schemas/CommentOut"
+            },
+            "type": "array",
+            "title": "Comments"
+          },
+          "warnings": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Warnings"
+          }
+        },
+        "type": "object",
+        "required": [
+          "thread_id",
+          "model_name",
+          "model_threshold",
+          "repeated_rule_threshold",
+          "profile",
+          "research_only",
+          "suspected_repeated_harassment",
+          "risk_level",
+          "risk_score_heuristic",
+          "evidence",
+          "comments",
+          "warnings"
+        ],
+        "title": "AnalyzeResponse"
+      },
+      "CommentIn": {
+        "properties": {
+          "comment_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "title": "Comment Id"
+          },
+          "user_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "title": "User Id",
+            "description": "Pseudonymous ID, not a real username"
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 8000,
+            "minLength": 1,
+            "title": "Text"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Timestamp"
+          },
+          "parent_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 120
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Parent Id"
+          },
+          "mentioned_user_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 5,
+            "title": "Mentioned User Ids",
+            "description": "Optional platform-resolved user IDs; not annotated labels"
+          }
+        },
+        "type": "object",
+        "required": [
+          "comment_id",
+          "user_id",
+          "text",
+          "timestamp"
+        ],
+        "title": "CommentIn"
+      },
+      "CommentOut": {
+        "properties": {
+          "comment_id": {
+            "type": "string",
+            "title": "Comment Id"
+          },
+          "user_id": {
+            "type": "string",
+            "title": "User Id"
+          },
+          "parent_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Parent Id"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Timestamp"
+          },
+          "toxicity_score": {
+            "type": "number",
+            "title": "Toxicity Score"
+          },
+          "toxic_for_moderation": {
+            "type": "boolean",
+            "title": "Toxic For Moderation"
+          },
+          "toxic_for_repeated_rule": {
+            "type": "boolean",
+            "title": "Toxic For Repeated Rule"
+          },
+          "target_user_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target User Id"
+          },
+          "target_method": {
+            "type": "string",
+            "title": "Target Method"
+          },
+          "target_confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "none"
+            ],
+            "title": "Target Confidence"
+          },
+          "profanity_detected": {
+            "type": "boolean",
+            "title": "Profanity Detected",
+            "default": false
+          },
+          "lexical_review_recommended": {
+            "type": "boolean",
+            "title": "Lexical Review Recommended",
+            "default": false
+          },
+          "directed_insult_candidate": {
+            "type": "boolean",
+            "title": "Directed Insult Candidate",
+            "default": false
+          },
+          "reported_or_apology_context": {
+            "type": "boolean",
+            "title": "Reported Or Apology Context",
+            "default": false
+          },
+          "review_recommended": {
+            "type": "boolean",
+            "title": "Review Recommended",
+            "default": false
+          },
+          "lexical_signals": {
+            "items": {
+              "$ref": "#/components/schemas/LexicalSignalOut"
+            },
+            "type": "array",
+            "title": "Lexical Signals"
+          }
+        },
+        "type": "object",
+        "required": [
+          "comment_id",
+          "user_id",
+          "parent_id",
+          "timestamp",
+          "toxicity_score",
+          "toxic_for_moderation",
+          "toxic_for_repeated_rule",
+          "target_user_id",
+          "target_method",
+          "target_confidence"
+        ],
+        "title": "CommentOut"
+      },
+      "ContextComment": {
+        "properties": {
+          "comment_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "Comment Id"
+          },
+          "user_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "User Id"
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 8000,
+            "minLength": 1,
+            "title": "Text"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Timestamp"
+          },
+          "parent_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1,
+                "pattern": "^[A-Za-z0-9:_-]+$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Parent Id"
+          },
+          "mentioned_user_ids": {
+            "items": {
+              "type": "string",
+              "maxLength": 120,
+              "minLength": 1,
+              "pattern": "^[A-Za-z0-9:_-]+$"
+            },
+            "type": "array",
+            "maxItems": 5,
+            "title": "Mentioned User Ids"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "comment_id",
+          "user_id",
+          "text",
+          "timestamp"
+        ],
+        "title": "ContextComment"
+      },
+      "EvidenceOut": {
+        "properties": {
+          "actor_user_id": {
+            "type": "string",
+            "title": "Actor User Id"
+          },
+          "target_user_id": {
+            "type": "string",
+            "title": "Target User Id"
+          },
+          "evidence_comment_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Evidence Comment Ids"
+          },
+          "n_distinct_timestamps": {
+            "type": "integer",
+            "title": "N Distinct Timestamps"
+          },
+          "target_confidence": {
+            "type": "string",
+            "title": "Target Confidence"
+          }
+        },
+        "type": "object",
+        "required": [
+          "actor_user_id",
+          "target_user_id",
+          "evidence_comment_ids",
+          "n_distinct_timestamps",
+          "target_confidence"
+        ],
+        "title": "EvidenceOut"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HealthResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "model_loaded": {
+            "type": "boolean",
+            "title": "Model Loaded"
+          },
+          "model_path": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model Path"
+          },
+          "details": {
+            "type": "string",
+            "title": "Details"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "model_loaded",
+          "model_path",
+          "details"
+        ],
+        "title": "HealthResponse"
+      },
+      "HumanReviewBatch": {
+        "properties": {
+          "thread_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "title": "Thread Id"
+          },
+          "reviewer_id": {
+            "type": "string",
+            "maxLength": 30,
+            "minLength": 1,
+            "title": "Reviewer Id"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/HumanReviewItem"
+            },
+            "type": "array",
+            "maxItems": 500,
+            "minItems": 1,
+            "title": "Items"
+          }
+        },
+        "type": "object",
+        "required": [
+          "thread_id",
+          "reviewer_id",
+          "items"
+        ],
+        "title": "HumanReviewBatch"
+      },
+      "HumanReviewItem": {
+        "properties": {
+          "comment_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "title": "Comment Id"
+          },
+          "human_label": {
+            "type": "string",
+            "enum": [
+              "clean",
+              "toxic",
+              "uncertain"
+            ],
+            "title": "Human Label"
+          },
+          "ai_label": {
+            "type": "string",
+            "enum": [
+              "clean",
+              "toxic"
+            ],
+            "title": "Ai Label"
+          },
+          "toxicity_score": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Toxicity Score"
+          },
+          "lexical_flag": {
+            "type": "boolean",
+            "title": "Lexical Flag",
+            "default": false
+          }
+        },
+        "type": "object",
+        "required": [
+          "comment_id",
+          "human_label",
+          "ai_label",
+          "toxicity_score"
+        ],
+        "title": "HumanReviewItem"
+      },
+      "LexicalSignal": {
+        "properties": {
+          "rule_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "title": "Rule Id"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "profanity",
+              "directed_insult",
+              "ambiguous",
+              "other_sensitive"
+            ],
+            "title": "Category"
+          },
+          "matched_form": {
+            "type": "string",
+            "maxLength": 8000,
+            "title": "Matched Form"
+          },
+          "strength": {
+            "type": "string",
+            "maxLength": 32,
+            "title": "Strength"
+          },
+          "canonical_form": {
+            "type": "string",
+            "maxLength": 1000,
+            "title": "Canonical Form",
+            "default": ""
+          },
+          "language": {
+            "type": "string",
+            "maxLength": 32,
+            "title": "Language",
+            "default": ""
+          },
+          "reason": {
+            "type": "string",
+            "maxLength": 3000,
+            "title": "Reason",
+            "default": ""
+          },
+          "source_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 30,
+            "title": "Source Ids"
+          },
+          "start": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Start"
+          },
+          "end": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "End"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "rule_id",
+          "category",
+          "matched_form",
+          "strength"
+        ],
+        "title": "LexicalSignal"
+      },
+      "LexicalSignalOut": {
+        "properties": {
+          "rule_id": {
+            "type": "string",
+            "title": "Rule Id"
+          },
+          "category": {
+            "type": "string",
+            "title": "Category"
+          },
+          "matched_form": {
+            "type": "string",
+            "title": "Matched Form"
+          },
+          "strength": {
+            "type": "string",
+            "title": "Strength"
+          },
+          "canonical_form": {
+            "type": "string",
+            "title": "Canonical Form",
+            "default": ""
+          },
+          "language": {
+            "type": "string",
+            "title": "Language",
+            "default": ""
+          },
+          "reason": {
+            "type": "string",
+            "title": "Reason",
+            "default": ""
+          },
+          "source_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Source Ids"
+          },
+          "start": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Start"
+          },
+          "end": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "End"
+          }
+        },
+        "type": "object",
+        "required": [
+          "rule_id",
+          "category",
+          "matched_form",
+          "strength"
+        ],
+        "title": "LexicalSignalOut"
+      },
+      "ModerationContext": {
+        "properties": {
+          "post_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "Post Id"
+          },
+          "source": {
+            "type": "string",
+            "const": "social-api",
+            "title": "Source",
+            "default": "social-api"
+          },
+          "complete": {
+            "type": "boolean",
+            "title": "Complete",
+            "default": false
+          },
+          "recent_comments": {
+            "items": {
+              "$ref": "#/components/schemas/ContextComment"
+            },
+            "type": "array",
+            "maxItems": 50,
+            "title": "Recent Comments"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "post_id"
+        ],
+        "title": "ModerationContext"
+      },
+      "ModerationRequest": {
+        "properties": {
+          "schema_version": {
+            "type": "string",
+            "const": "1.0",
+            "title": "Schema Version"
+          },
+          "request_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "Request Id"
+          },
+          "content_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "Content Id"
+          },
+          "content_type": {
+            "type": "string",
+            "enum": [
+              "post",
+              "comment"
+            ],
+            "title": "Content Type",
+            "default": "comment"
+          },
+          "content_revision": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Content Revision"
+          },
+          "user_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "User Id"
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 8000,
+            "minLength": 1,
+            "title": "Text"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Timestamp"
+          },
+          "parent_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1,
+                "pattern": "^[A-Za-z0-9:_-]+$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Parent Id"
+          },
+          "mentioned_user_ids": {
+            "items": {
+              "type": "string",
+              "maxLength": 120,
+              "minLength": 1,
+              "pattern": "^[A-Za-z0-9:_-]+$"
+            },
+            "type": "array",
+            "maxItems": 5,
+            "title": "Mentioned User Ids"
+          },
+          "context": {
+            "$ref": "#/components/schemas/ModerationContext"
+          },
+          "language_hint": {
+            "type": "string",
+            "enum": [
+              "vi",
+              "en",
+              "mixed",
+              "unknown"
+            ],
+            "title": "Language Hint",
+            "default": "vi"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "schema_version",
+          "request_id",
+          "content_id",
+          "content_revision",
+          "user_id",
+          "text",
+          "timestamp",
+          "context"
+        ],
+        "title": "ModerationRequest"
+      },
+      "ModerationResponse": {
+        "properties": {
+          "schema_version": {
+            "type": "string",
+            "const": "1.0",
+            "title": "Schema Version"
+          },
+          "request_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "Request Id"
+          },
+          "content_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "Content Id"
+          },
+          "content_revision": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Content Revision"
+          },
+          "model_name": {
+            "type": "string",
+            "maxLength": 200,
+            "minLength": 1,
+            "title": "Model Name"
+          },
+          "model_version": {
+            "type": "string",
+            "maxLength": 200,
+            "minLength": 1,
+            "title": "Model Version"
+          },
+          "lexicon_version": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Lexicon Version"
+          },
+          "analyzed_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Analyzed At"
+          },
+          "model_threshold": {
+            "type": "number",
+            "const": 0.41,
+            "title": "Model Threshold"
+          },
+          "toxicity_score": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Toxicity Score"
+          },
+          "ai_label": {
+            "type": "string",
+            "enum": [
+              "CLEAN",
+              "TOXIC"
+            ],
+            "title": "Ai Label"
+          },
+          "lexical_review_recommended": {
+            "type": "boolean",
+            "title": "Lexical Review Recommended"
+          },
+          "directed_insult_candidate": {
+            "type": "boolean",
+            "title": "Directed Insult Candidate"
+          },
+          "reported_or_apology_context": {
+            "type": "boolean",
+            "title": "Reported Or Apology Context"
+          },
+          "lexical_signals": {
+            "items": {
+              "$ref": "#/components/schemas/LexicalSignal"
+            },
+            "type": "array",
+            "maxItems": 2000,
+            "title": "Lexical Signals"
+          },
+          "target_evidence": {
+            "$ref": "#/components/schemas/TargetEvidence"
+          },
+          "suspected_repeated_harassment": {
+            "type": "boolean",
+            "title": "Suspected Repeated Harassment"
+          },
+          "evidence": {
+            "items": {
+              "$ref": "#/components/schemas/RepeatedEvidence"
+            },
+            "type": "array",
+            "maxItems": 50,
+            "title": "Evidence"
+          },
+          "suggested_action": {
+            "type": "string",
+            "enum": [
+              "approve",
+              "needs_review"
+            ],
+            "title": "Suggested Action"
+          },
+          "decision_authority": {
+            "type": "string",
+            "const": "advisory",
+            "title": "Decision Authority"
+          },
+          "limitations": {
+            "items": {
+              "type": "string",
+              "maxLength": 3000
+            },
+            "type": "array",
+            "maxItems": 30,
+            "title": "Limitations"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "schema_version",
+          "request_id",
+          "content_id",
+          "content_revision",
+          "model_name",
+          "model_version",
+          "lexicon_version",
+          "analyzed_at",
+          "model_threshold",
+          "toxicity_score",
+          "ai_label",
+          "lexical_review_recommended",
+          "directed_insult_candidate",
+          "reported_or_apology_context",
+          "lexical_signals",
+          "target_evidence",
+          "suspected_repeated_harassment",
+          "evidence",
+          "suggested_action",
+          "decision_authority",
+          "limitations"
+        ],
+        "title": "ModerationResponse"
+      },
+      "RepeatedEvidence": {
+        "properties": {
+          "actor_user_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "Actor User Id"
+          },
+          "target_user_id": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9:_-]+$",
+            "title": "Target User Id"
+          },
+          "evidence_comment_ids": {
+            "items": {
+              "type": "string",
+              "maxLength": 120,
+              "minLength": 1,
+              "pattern": "^[A-Za-z0-9:_-]+$"
+            },
+            "type": "array",
+            "maxItems": 51,
+            "minItems": 2,
+            "title": "Evidence Comment Ids"
+          },
+          "n_distinct_timestamps": {
+            "type": "integer",
+            "maximum": 51.0,
+            "minimum": 2.0,
+            "title": "N Distinct Timestamps"
+          },
+          "target_confidence": {
+            "type": "string",
+            "enum": [
+              "medium",
+              "high"
+            ],
+            "title": "Target Confidence"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "actor_user_id",
+          "target_user_id",
+          "evidence_comment_ids",
+          "n_distinct_timestamps",
+          "target_confidence"
+        ],
+        "title": "RepeatedEvidence"
+      },
+      "TargetEvidence": {
+        "properties": {
+          "target_user_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1,
+                "pattern": "^[A-Za-z0-9:_-]+$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target User Id"
+          },
+          "method": {
+            "type": "string",
+            "maxLength": 100,
+            "title": "Method"
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ],
+            "title": "Confidence"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "method",
+          "confidence"
+        ],
+        "title": "TargetEvidence"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

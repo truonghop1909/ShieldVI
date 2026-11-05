@@ -1,0 +1,29 @@
+{
+  "original_files_checked": 68,
+  "original_changes_since_T007": [
+    "app/main.py"
+  ],
+  "previous_files_checked": 61,
+  "changes_since_T013_T018": [
+    "services/social-api/src/shieldvi_social/content_schemas.py",
+    "services/social-api/src/shieldvi_social/db.py",
+    "services/social-api/src/shieldvi_social/main.py",
+    "services/social-api/src/shieldvi_social/moderation_routes.py",
+    "services/social-api/src/shieldvi_social/routes.py",
+    "services/social-api/src/shieldvi_social/worker.py",
+    "apps/moderation-web/playwright.config.js",
+    "apps/moderation-web/README.md"
+  ],
+  "social_and_moderation_web_product_source_unchanged": true,
+  "raw_dataset_files_hash_checked": 9,
+  "checkpoint_and_threshold_unchanged": true,
+  "evaluation_source_hashes_match": true,
+  "browser_bundle_service_key_references": [],
+  "default_social_db_schema_read_only": [
+    "0002_content"
+  ],
+  "live_db_migrated": false,
+  "git_commit": null,
+  "real_checkpoint_evaluation": "PASS_CPU",
+  "ai_process_outage_wall_seconds": 600.0
+}

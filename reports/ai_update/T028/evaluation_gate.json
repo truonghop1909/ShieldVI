@@ -1,0 +1,5 @@
+{
+  "status": "BLOCKED",
+  "reason": "No approved independent real dataset or human-verified labels; synthetic development fixtures cannot substitute",
+  "metrics": null
+}

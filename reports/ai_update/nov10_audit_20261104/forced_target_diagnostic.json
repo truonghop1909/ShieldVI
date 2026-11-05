@@ -1,0 +1,354 @@
+[
+  {
+    "thread_id": "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+    "comment_id": "c06",
+    "diagnostic_only": true,
+    "reference_target": "U03",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U03",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c06"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+    "comment_id": "c10",
+    "diagnostic_only": true,
+    "reference_target": "U03",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U03",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c10"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+    "comment_id": "c14",
+    "diagnostic_only": true,
+    "reference_target": "U03",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U03",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c14"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+    "comment_id": "c06",
+    "diagnostic_only": true,
+    "reference_target": "U02",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U02",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c06"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+    "comment_id": "c12",
+    "diagnostic_only": true,
+    "reference_target": "U02",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U02",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c12"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+    "comment_id": "c16",
+    "diagnostic_only": true,
+    "reference_target": "U02",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U02",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c16"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+    "comment_id": "c08",
+    "diagnostic_only": true,
+    "reference_target": "U01",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U01",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c08"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+    "comment_id": "c13",
+    "diagnostic_only": true,
+    "reference_target": "U01",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U01",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c13"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+    "comment_id": "c17",
+    "diagnostic_only": true,
+    "reference_target": "U01",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U01",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c17"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+    "comment_id": "c07",
+    "diagnostic_only": true,
+    "reference_target": "U03",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U03",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c07"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+    "comment_id": "c12",
+    "diagnostic_only": true,
+    "reference_target": "U03",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U03",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c12"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+    "comment_id": "c17",
+    "diagnostic_only": true,
+    "reference_target": "U03",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U03",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c17"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+    "comment_id": "c09",
+    "diagnostic_only": true,
+    "reference_target": "U02",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U02",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c09"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+    "comment_id": "c14",
+    "diagnostic_only": true,
+    "reference_target": "U02",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U02",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c14"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+    "comment_id": "c09",
+    "diagnostic_only": true,
+    "reference_target": "U03",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U03",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c09"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+    "comment_id": "c14",
+    "diagnostic_only": true,
+    "reference_target": "U03",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U03",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c14"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+    "comment_id": "c07",
+    "diagnostic_only": true,
+    "reference_target": "U02",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U02",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c07"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+    "comment_id": "c12",
+    "diagnostic_only": true,
+    "reference_target": "U02",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U02",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c12"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+    "comment_id": "c06",
+    "diagnostic_only": true,
+    "reference_target": "U01",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U01",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c06"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+    "comment_id": "c09",
+    "diagnostic_only": true,
+    "reference_target": "U01",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U01",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c09"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+    "comment_id": "c11",
+    "diagnostic_only": true,
+    "reference_target": "U01",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U01",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c11"
+      ],
+      "needs_human_review": true
+    }
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+    "comment_id": "c15",
+    "diagnostic_only": true,
+    "reference_target": "U01",
+    "forced_context_target": {
+      "version": "target-v5",
+      "candidate": "U01",
+      "method": "mapped_text_reference",
+      "confidence": "high",
+      "evidence_comment_ids": [
+        "c15"
+      ],
+      "needs_human_review": true
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "transport": "Recorded API response replay; raw scores originally real V1",
+  "focus_rows": 5,
+  "raw_and_assessment_separate": true,
+  "reply_target_separate": true,
+  "csv_fields_separate": true,
+  "human_labels_saved": 0,
+  "external_requests_allowed": false
+}

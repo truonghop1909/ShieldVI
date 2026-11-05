@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source": "actual approved default neural inference, synthetic controls only",
+  "clean_reply_recipient_resolved": true,
+  "clean_reply_not_attack": true,
+  "direct_attacks_actor_target_correct": 2,
+  "repeated_pair_correct": true,
+  "clean_reply_excluded_from_evidence": true,
+  "source_result_sha256": "947a4777a805abfb89a261ed9dc83c91df000d47f68dd3118eea7a7596ee170e",
+  "checkpoint_changed": false,
+  "threshold": 0.41,
+  "training_performed": false
+}

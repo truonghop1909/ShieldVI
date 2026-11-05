@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "fixture": "SHIELDVI_01_GAME_RANK_LAG_30.json",
+      "raw_scores_and_labels_unchanged": true,
+      "model": "ViSoBERT V1.1 — ViCTSD",
+      "legacy_chains": 1,
+      "v2_chains": 1,
+      "evaluation_kind": "synthetic developer behavior only, not gold metrics"
+    },
+    {
+      "fixture": "SHIELDVI_02_SHOP_GIAY_SECONDHAND_30.json",
+      "raw_scores_and_labels_unchanged": true,
+      "model": "ViSoBERT V1.1 — ViCTSD",
+      "legacy_chains": 1,
+      "v2_chains": 0,
+      "evaluation_kind": "synthetic developer behavior only, not gold metrics"
+    },
+    {
+      "fixture": "SHIELDVI_03_DANCE_COVER_TIKTOK_30.json",
+      "raw_scores_and_labels_unchanged": true,
+      "model": "ViSoBERT V1.1 — ViCTSD",
+      "legacy_chains": 2,
+      "v2_chains": 1,
+      "evaluation_kind": "synthetic developer behavior only, not gold metrics"
+    },
+    {
+      "fixture": "SHIELDVI_04_DI_CAMPING_CHIA_TIEN_30.json",
+      "raw_scores_and_labels_unchanged": true,
+      "model": "ViSoBERT V1.1 — ViCTSD",
+      "legacy_chains": 2,
+      "v2_chains": 0,
+      "evaluation_kind": "synthetic developer behavior only, not gold metrics"
+    },
+    {
+      "fixture": "SHIELDVI_05_FANART_AI_DISPUTE_30.json",
+      "raw_scores_and_labels_unchanged": true,
+      "model": "ViSoBERT V1.1 — ViCTSD",
+      "legacy_chains": 1,
+      "v2_chains": 0,
+      "evaluation_kind": "synthetic developer behavior only, not gold metrics"
+    }
+  ],
+  "checkpoint_default_unchanged": true,
+  "source_snapshot": {
+    "context_signals.py": "428fb37343c49a118ac34aa011b84a436f54691110c88ca0afc2e4e790583350",
+    "target_signals.py": "0f0a2ae6c9a08568c415744d34030736c591e9f08753aa28b65670bec3ecf227"
+  }
+}

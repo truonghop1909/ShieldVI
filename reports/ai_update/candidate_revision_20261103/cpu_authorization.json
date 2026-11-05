@@ -1,0 +1,17 @@
+{
+  "authorization_type": "bounded_local_cpu_request_v1",
+  "authorized_local_task_execution": true,
+  "paid_services_allowed": false,
+  "production_activation_allowed": false,
+  "source_user_request": "task nào bị từ chối thì sửa task rồi thực hiện tiếp đi",
+  "source_user_request_sha256": "4a15a3d6a38d2fb65b7620b677a2cf6f779d017ffafaec64140ea0a69f9bc413",
+  "config_sha256": "696cd8a9dc0664771eead80158753a57083f23128ac15ecef773f5df6808ae25",
+  "prepared_manifest_sha256": "471db4034f17b56eb164d6e0ad266db543c339770a655d3e429958ea41406214",
+  "resource": "local_CPU",
+  "max_training_seconds": 900,
+  "maximum_external_cost": 0,
+  "max_cpu_threads": 4,
+  "user_approved_exact_hyperparameters": false,
+  "max_candidate_runs_this_followup": 1,
+  "scope_interpretation": "Continued local task rework: one bounded frozen-encoder head-only attempt. Not paid GPU, full fine-tuning or promotion."
+}

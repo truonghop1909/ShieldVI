@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-29",
+  "normalization": "NFC + casefold + whitespace; accents preserved; global exact-term deduplication.",
+  "activation_policy": {
+    "date": "2026-10-29",
+    "method": "Conservative engineering review of explicit aliases; not a gold dataset or measured accuracy claim.",
+    "policy": "Only these reviewed aliases/patterns are enabled. Unknown imported entries remain pending_review. Ambiguous and other_sensitive matches never imply an insult."
+  },
+  "totals": {
+    "raw_lines": 14240,
+    "removed_blank": 0,
+    "removed_comments": 24,
+    "removed_invalid": 11,
+    "removed_duplicates_within_sources": 0,
+    "removed_duplicates_across_sources": 436,
+    "unique_imported_entries": 13769,
+    "enabled_imported_entries": 224,
+    "pending_review_entries": 13528,
+    "excluded_entries": 17,
+    "active_rules": 20,
+    "active_aliases_including_project_rules": 244,
+    "categories_enabled": {
+      "profanity": 12,
+      "directed_insult": 5,
+      "ambiguous": 1,
+      "other_sensitive": 2
+    },
+    "removed_during_cleanup": 471
+  },
+  "sources": [
+    {
+      "id": "blue_eyes_vi",
+      "language_hint": "vi",
+      "repository": "https://github.com/blue-eyes-vn/vietnamese-offensive-words",
+      "revision": "684b568e4d54ce47b743d7c564447e29a02cc260",
+      "url": "https://raw.githubusercontent.com/blue-eyes-vn/vietnamese-offensive-words/684b568e4d54ce47b743d7c564447e29a02cc260/vn_offensive_words.txt",
+      "license": "MIT",
+      "license_url": "https://raw.githubusercontent.com/blue-eyes-vn/vietnamese-offensive-words/684b568e4d54ce47b743d7c564447e29a02cc260/LICENSE.md",
+      "local_file": "sources/blue_eyes_vi_vn_offensive_words.txt",
+      "local_license": "sources/blue_eyes_vi_LICENSE.md",
+      "sha256": "9e5fd21803717edfeb579d6e72b56f302008958adb178ffde2f25e021d91cdf6",
+      "raw_lines": 454,
+      "blank": 0,
+      "comments": 24,
+      "invalid": 0,
+      "duplicates_within_source": 0,
+      "unique_entries": 430,
+      "duplicates_across_sources": 0
+    },
+    {
+      "id": "ldnoobw_v2_vi",
+      "language_hint": "vi",
+      "repository": "https://github.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2",
+      "revision": "e2f7430cde6fcc755eca7243d5cf46fc0766ff29",
+      "url": "https://raw.githubusercontent.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2/e2f7430cde6fcc755eca7243d5cf46fc0766ff29/data/vi.txt",
+      "license": "CC0-1.0",
+      "license_url": "https://raw.githubusercontent.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2/e2f7430cde6fcc755eca7243d5cf46fc0766ff29/LICENSE",
+      "local_file": "sources/ldnoobw_v2_data_vi.txt",
+      "local_license": "sources/ldnoobw_v2_LICENSE",
+      "sha256": "aa76ba6cae9f8b54798c2aa316fcacd7b2a71311900dc693c836481e22b75c8e",
+      "raw_lines": 790,
+      "blank": 0,
+      "comments": 0,
+      "invalid": 0,
+      "duplicates_within_source": 0,
+      "unique_entries": 790,
+      "duplicates_across_sources": 427
+    },
+    {
+      "id": "ldnoobw_v2_en",
+      "language_hint": "en",
+      "repository": "https://github.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2",
+      "revision": "e2f7430cde6fcc755eca7243d5cf46fc0766ff29",
+      "url": "https://raw.githubusercontent.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2/e2f7430cde6fcc755eca7243d5cf46fc0766ff29/data/en.txt",
+      "license": "CC0-1.0",
+      "license_url": "https://raw.githubusercontent.com/LDNOOBWV2/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words_V2/e2f7430cde6fcc755eca7243d5cf46fc0766ff29/LICENSE",
+      "local_file": "sources/ldnoobw_v2_data_en.txt",
+      "local_license": "sources/ldnoobw_v2_LICENSE",
+      "sha256": "49fe4672510350b1756b3fdf5c69db41625a41f3ba48740d2b9100c2d49c9d36",
+      "raw_lines": 12996,
+      "blank": 0,
+      "comments": 0,
+      "invalid": 11,
+      "duplicates_within_source": 0,
+      "unique_entries": 12985,
+      "duplicates_across_sources": 9
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+
+Running 1 test using 1 worker
+
+  ok 1 tests\fullstack.spec.js:26:1 › five-process register -> AI moderation -> outage/admin offline -> review -> appeal -> recovery (12.0s)
+
+  1 passed (13.0s)
+(node:18372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node.EXE --trace-warnings ...` to show where the warning was created)
+
+EXIT_CODE=0

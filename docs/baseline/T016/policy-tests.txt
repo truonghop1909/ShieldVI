@@ -1,0 +1,30 @@
+CWD=E:\lamDoAn\ShieldVI_SocialAI_Design_Docs_v1
+COMMAND=E:\lamDoAn\ShieldVI_V3_Hybrid_Review\.venv\Scripts\python.exe -m pytest tests/test_policy_design.py -v -p no:cacheprovider
+STORE_SUMMARIES=0
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.2.0, pluggy-1.7.0 -- E:\lamDoAn\ShieldVI_V3_Hybrid_Review\.venv\Scripts\python.exe
+rootdir: E:\lamDoAn\ShieldVI_SocialAI_Design_Docs_v1
+plugins: anyio-4.15.1
+collecting ... collected 17 items
+
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[ordinary] PASSED [  5%]
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[untargeted_profanity] PASSED [ 11%]
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[quoted_explanation] PASSED [ 17%]
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[teencode_vi] PASSED [ 23%]
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[teencode_en] PASSED [ 29%]
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[teencode_en_untargeted] PASSED [ 35%]
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[directed_insult] PASSED [ 41%]
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[model_false_positive] PASSED [ 47%]
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[at_threshold] PASSED [ 52%]
+tests/test_policy_design.py::test_real_legacy_signals_for_policy_acceptance_cases[ambiguous_abbreviation] PASSED [ 58%]
+tests/test_policy_design.py::test_repeated_requires_context_not_keywords[True-False-0.9-True] PASSED [ 64%]
+tests/test_policy_design.py::test_repeated_requires_context_not_keywords[False-False-0.9-False] PASSED [ 70%]
+tests/test_policy_design.py::test_repeated_requires_context_not_keywords[True-True-0.9-False] PASSED [ 76%]
+tests/test_policy_design.py::test_repeated_requires_context_not_keywords[True-False-0.02-False] PASSED [ 82%]
+tests/test_policy_design.py::test_shadow_acceptance_table_cannot_hold_hide_or_ban PASSED [ 88%]
+tests/test_policy_design.py::test_false_positive_pair_does_not_become_high PASSED [ 94%]
+tests/test_policy_design.py::test_existing_example_is_draft_with_enforcement_disabled PASSED [100%]
+
+============================= 17 passed in 0.17s ==============================
+
+EXIT_CODE=0

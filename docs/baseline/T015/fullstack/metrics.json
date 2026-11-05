@@ -1,0 +1,43 @@
+{
+  "synthetic_ai": true,
+  "real_model_inference": false,
+  "processes": [
+    "social-api",
+    "ai-fixture",
+    "worker",
+    "social-web",
+    "moderation-web"
+  ],
+  "measurements": {
+    "post_create_ms": 167,
+    "create_to_public_ms": 2832,
+    "outage_to_retry_observed_ms": 1255
+  },
+  "admin_offline_auto_publish_verified": true,
+  "retry_observed": true,
+  "worker_recovery_and_manual_guard_verified": true,
+  "browser_ai_requests": 0,
+  "final_worker_stats": {
+    "counts": {
+      "FAILED_PERMANENTLY": 1,
+      "SUCCEEDED": 5
+    },
+    "queue_size": 0,
+    "retry_attempts": 2,
+    "expired_leases": 0,
+    "oldest_wait_seconds": 18,
+    "model_availability": "degraded",
+    "failed_jobs": [
+      {
+        "job_id": "a3be7510-d4c9-44af-8a2f-f761b8bb98a9",
+        "entity_type": "post",
+        "entity_id": "0bc74899-ee35-44c8-870a-713708803c92",
+        "attempts": 3,
+        "total_attempts": 3,
+        "error_code": "AI_TIMEOUT"
+      }
+    ]
+  },
+  "total_synthetic_appeals_resolved": 1,
+  "appeal_overturn_fraction_synthetic": 1
+}

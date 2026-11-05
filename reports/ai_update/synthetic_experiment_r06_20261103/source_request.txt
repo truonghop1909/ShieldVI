@@ -1,0 +1,377 @@
+# SHIELDVI — AUTO SYNTHETIC DATASET GENERATION & EXPERIMENTAL VISOBERT TRAINING
+
+Bạn là Senior NLP Engineer, Data Engineer và Machine Learning Engineer phụ trách ShieldVI.
+
+Tôi quyết định triển khai ngay một thí nghiệm huấn luyện ViSoBERT bằng dữ liệu synthetic do AI tạo.
+
+Tôi sẽ tự thu thập và gán nhãn dữ liệu thật sau.
+
+**MỤC TIÊU: TỰ ĐỘNG SINH DATASET → VALIDATE → HUẤN LUYỆN CANDIDATE → ĐÁNH GIÁ → LƯU KẾT QUẢ.**
+
+Không chỉ viết tài liệu hoặc generator rồi dừng.
+
+## 1. Khảo sát repository
+
+Đọc AGENTS.md, AUTO_PROGRESS.md, các task T028–T030 và skill dataset nếu có.
+
+Tìm:
+- Dataset synthetic Gen Z đã có.
+- Dataset ViCTSD gốc nếu có.
+- ViSoBERT V1 baseline.
+- Candidate T029 hiện có.
+- Các notebook và training scripts.
+- Các regression fixtures.
+- Các báo cáo evaluation.
+
+Đặc biệt kiểm tra candidate:
+`T029_genz500_head_cpu_20261103_r05`
+
+Xác định model này đã học từ dữ liệu gì, phương pháp huấn luyện và những hạn chế đã biết.
+
+Không tạo lại dữ liệu hoặc code đã có nếu không cần.
+
+## 2. Tạo dataset synthetic Gen Z
+
+Mục tiêu 500 hội thoại, mỗi hội thoại 10–30 bình luận, 3–6 người tham gia.
+
+Chủ đề:
+- Game, esports.
+- Idol, fan và anti-fan.
+- TikTok, livestream.
+- Học tập và đồ án nhóm.
+- Shop online.
+- Tình bạn.
+- Review phim và nhạc.
+- Bóng đá.
+- AI và lập trình.
+- Cosplay, fanart.
+- Nhà trọ.
+- Đời sống thường ngày.
+
+Bộ dữ liệu phải chứa:
+
+1. Hội thoại CLEAN hoàn toàn.
+2. Tranh luận gay gắt nhưng không xúc phạm.
+3. Chửi thề cảm thán.
+4. Xúc phạm trực tiếp.
+5. Công kích gián tiếp.
+6. Mỉa mai hạ thấp năng lực.
+7. Công kích lặp lại cùng mục tiêu.
+8. Hai người chửi nhau.
+9. Nhiều người công kích một người.
+10. Can ngăn.
+11. Tự bảo vệ.
+12. Xin lỗi.
+13. Trích dẫn lời xúc phạm.
+14. Chửi tục tiếng Anh.
+15. Teencode và ký tự biến dạng.
+16. Đùa giỡn và trường hợp mơ hồ.
+17. Phê bình chuyên môn không công kích.
+18. Xin lỗi nhưng tiếp tục xúc phạm.
+19. Hội thoại kết thúc mở.
+20. Hội thoại không xảy ra mâu thuẫn.
+
+Không tạo 500 thread theo cùng một kịch bản.
+
+## 3. Sinh dữ liệu tự nhiên
+
+Trước mỗi thread phải xác định:
+- Chủ đề.
+- Bối cảnh.
+- Vai trò và tính cách của từng người.
+- Quan hệ giữa các nhân vật.
+- Phong cách ngôn ngữ.
+- Diễn biến hội thoại.
+- Loại xung đột nếu có.
+- Kết thúc phù hợp.
+
+Dùng:
+- Tiếng Việt có dấu/không dấu.
+- Teencode ko, k, khum, t, m, mn, bt.
+- Slang bro, noob, n0ob, cringe, trash, NPC, loser.
+- Từ tục dm, đm, dcm, vl, vkl.
+- Biến dạng d.m, f*ck, sh1t.
+- Emoji và viết tắt tự nhiên.
+
+Không nhồi từ tục vào mọi hội thoại.
+
+Không sử dụng cùng phong cách cho tất cả nhân vật.
+
+Không lặp lại các câu thoại hoặc chỉ thay username.
+
+Không sử dụng cùng một công thức mở đầu và kết thúc.
+
+## 4. Gán nhãn synthetic
+
+Mỗi comment cần có:
+
+- thread_id
+- comment_id
+- parent_id
+- user_id
+- timestamp
+- text
+- label
+- category
+- directed_at_user_id
+- has_profanity
+- is_directed_attack
+- is_repeated_attack
+- is_apology
+- is_quote
+- label_reason
+- label_source="synthetic"
+
+Label gồm:
+- CLEAN
+- TOXIC
+- UNCERTAIN
+
+Quy tắc:
+- Có từ tục không đồng nghĩa với TOXIC.
+- Phê bình không đồng nghĩa với xúc phạm.
+- Xin lỗi không tự động CLEAN nếu có công kích mới.
+- Trích dẫn hoặc can ngăn không phải hành vi công kích mới.
+- Target phải có bằng chứng.
+- Repeated attack cần nhiều lần cùng actor và target.
+- Không ép UNCERTAIN thành nhãn nhị phân.
+
+Tách nhãn synthetic dự kiến khỏi dự đoán của mô hình.
+
+## 5. Sinh theo batch
+
+Không sinh toàn bộ 500 thread trong một lần.
+
+Quy trình:
+1. Sinh thử 20 thread.
+2. Validate.
+3. Sửa các lỗi kỹ thuật.
+4. Tiếp tục theo batch 25–50 thread.
+5. Chống duplicate và near-duplicate.
+6. Lưu checkpoint sau mỗi batch.
+7. Hỗ trợ resume.
+8. Kết thúc khi có 500 thread hợp lệ hoặc gặp giới hạn thực tế.
+
+Tôi cho phép tự tiếp tục batch khi validation đạt.
+
+Sử dụng khả năng tạo nội dung LLM có sẵn của Codex nếu môi trường hỗ trợ.
+
+Nếu chỉ dùng Python template generator, phải ghi rõ rằng dữ liệu là rule-based, không tuyên bố có chất lượng tương đương LLM.
+
+Không dùng dịch vụ API có phí hoặc GPU trả phí nếu chưa được tôi chấp thuận riêng.
+
+## 6. Kiểm tra chất lượng
+
+Validator phải kiểm tra:
+- JSON schema.
+- Parent ID.
+- Timestamp.
+- Số nhân vật.
+- Số bình luận.
+- Trùng văn bản.
+- Near-duplicate.
+- Trùng kịch bản.
+- Phân bố nhãn.
+- Phân bố chủ đề.
+- Nhãn lời xin lỗi.
+- Target evidence.
+- Repeated evidence.
+- Leakage giữa các split.
+
+Kiểm tra đặc biệt những câu:
+- Công kích gián tiếp.
+- Mỉa mai.
+- Can ngăn.
+- Tự bảo vệ.
+- Trích dẫn.
+- Xin lỗi.
+
+Tạo danh sách các bản ghi cần human review.
+
+Không tự động coi nhãn AI tạo là human gold.
+
+## 7. Chuẩn bị dữ liệu huấn luyện
+
+Tạo thư mục:
+
+datasets/synthetic_genz/
+
+Gồm:
+- threads/
+- batches/
+- train_comments.csv
+- train_threads.jsonl
+- labels_review.csv
+- dataset_manifest.json
+- quality_report.md
+- README.md
+
+Nếu đã có các file này, tái sử dụng và cập nhật an toàn.
+
+Tạo các tập:
+- synthetic_train
+- synthetic_validation
+- synthetic_challenge
+
+Chia theo thread/scenario family và kiểm tra leakage.
+
+Không đưa các test DIV10 đã sử dụng để sửa rule vào independent evaluation.
+
+Không đưa UNCERTAIN vào binary training nếu chưa có chính sách xử lý nhãn phù hợp.
+
+Nếu có quyền sử dụng tập ViCTSD training gốc, đề xuất thí nghiệm bổ sung synthetic vào dữ liệu training thật với tỷ lệ có kiểm soát.
+
+Không được sử dụng ViCTSD test để train hoặc chọn hyperparameters.
+
+## 8. HUẤN LUYỆN VISoBERT CANDIDATE
+
+Tôi cho phép chạy thí nghiệm huấn luyện candidate trên tài nguyên sẵn có không phát sinh chi phí.
+
+Không ghi đè ViSoBERT V1.
+
+Không thay threshold V1 = 0.41.
+
+Không thay model production.
+
+Thực hiện:
+
+A. Xác minh checkpoint V1 và môi trường.
+
+B. Kiểm tra candidate hiện có để tránh huấn luyện lại cùng cấu hình vô ích.
+
+C. Tạo training manifest.
+
+D. Chuẩn bị dữ liệu sạch.
+
+E. Huấn luyện candidate mới ở output directory riêng nếu tài nguyên cho phép.
+
+F. Ghi seed, epochs, batch size, learning rate, max length, optimizer, model hash và dataset version.
+
+G. Early stopping theo validation hợp lệ.
+
+H. Lưu best checkpoint.
+
+I. Chạy inference smoke test.
+
+J. Xuất training report.
+
+Ưu tiên thí nghiệm nhỏ có thể tái lập trước khi thử cấu hình lớn hơn.
+
+Phân biệt rõ:
+- Frozen encoder + classifier head training.
+- Full/partial encoder fine-tuning.
+
+Không gọi frozen encoder training là full fine-tuning.
+
+Nếu chỉ có CPU và full fine-tuning không khả thi, có thể chạy thí nghiệm head-only ngắn rồi chuẩn bị notebook Colab đầy đủ. Không báo đã huấn luyện full model khi chưa thực hiện.
+
+Nếu thiếu tài nguyên hoặc bị giới hạn phiên, lưu checkpoint và trạng thái chính xác; không giả định quá trình đã hoàn thành.
+
+## 9. SO SÁNH MÔ HÌNH
+
+So sánh:
+- ViSoBERT V1.
+- Existing candidate r05 nếu có.
+- Candidate mới.
+- Candidate + context/lexicon nếu phù hợp.
+
+Chạy trên cùng các tập validation hợp lệ.
+
+Báo cáo:
+- Accuracy.
+- Macro-F1.
+- Toxic Precision.
+- Toxic Recall.
+- Toxic F1.
+- Confusion Matrix.
+- False Positive.
+- False Negative.
+
+Đánh giá riêng:
+- Direct insults.
+- Indirect insults.
+- Teencode.
+- Apology.
+- Quote.
+- Intervention.
+- Self-defense.
+- Repeated harassment.
+
+Không đánh đồng toxic classifier metrics với target/repeated metrics.
+
+Báo rõ mọi số liệu đang được đo trên dữ liệu synthetic hoặc validation gốc.
+
+Nếu chưa có tập real-world human gold độc lập, không kết luận candidate tốt hơn trên dữ liệu thực tế.
+
+Không dùng test set gốc để điều chỉnh threshold hoặc lựa chọn mô hình.
+
+## 10. GIỮ NGUYÊN T028
+
+T028 cần real-world independent evaluation.
+
+Hiện tôi chưa có đủ hội thoại thật và nhãn người duyệt.
+
+Vì vậy:
+- Không đánh dấu T028 DONE.
+- Không dùng synthetic để thay thế T028.
+- Đánh dấu thí nghiệm huấn luyện synthetic là EXPERIMENTAL.
+- Không tự bỏ qua acceptance criteria của T029/T030.
+- Ghi rõ các bước phụ thuộc human gold vẫn BLOCKED.
+
+Sau này tôi sẽ tự thu thập và gán nhãn dữ liệu thật để đánh giá chính thức.
+
+## 11. ĐẦU RA
+
+Tạo hoặc cập nhật:
+
+- Dataset 500 thread synthetic.
+- Dataset manifest.
+- Quality report.
+- Training script.
+- Colab notebook.
+- Training config.
+- Model candidate directory.
+- Checkpoint manifest.
+- Evaluation report.
+- Comparison report.
+- Error analysis.
+- README hướng dẫn chạy lại.
+
+Cập nhật AUTO_PROGRESS.md sau mỗi batch và mỗi thí nghiệm.
+
+## 12. THỰC HIỆN TỰ ĐỘNG
+
+Làm theo thứ tự:
+
+1. Audit dữ liệu và model hiện có.
+2. Kiểm tra r05.
+3. Sinh hoặc bổ sung synthetic dataset.
+4. Validate và deduplicate.
+5. Chuẩn bị train/validation.
+6. Chạy training candidate nếu đủ tài nguyên.
+7. Lưu checkpoint.
+8. Đánh giá candidate.
+9. So sánh với V1.
+10. Xuất kết quả.
+11. Cập nhật tiến độ.
+
+Không cần hỏi lại sau mỗi batch.
+
+Không hỏi lại về dataset thật hoặc tài khoản Wikimedia trong thí nghiệm synthetic này.
+
+Không git push, deploy hoặc thay production model.
+
+Không tự ý làm sai lệch nhãn và metrics.
+
+**HÃY BẮT ĐẦU THỰC THI NGAY, KHÔNG CHỈ VIẾT KẾ HOẠCH.**
+
+Báo cáo cuối tối đa 200 từ:
+- Số thread synthetic.
+- Tổng bình luận.
+- Phân bố nhãn.
+- Chất lượng và duplicate.
+- Candidate đã train hay chưa.
+- Phương pháp train.
+- Kết quả validation.
+- Kết quả so sánh V1.
+- Task/blocker còn lại.

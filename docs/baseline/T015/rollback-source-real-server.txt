@@ -1,0 +1,19 @@
+INFO:     Started server process [20292]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:50610 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50624 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50625 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50626 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50628 - "GET /dashboard/assets/index-B6t7Eu4q.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50629 - "GET /dashboard/assets/index-BaiwjHcP.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50630 - "POST /api/reviews/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50631 - "GET /api/reviews?thread_id=migration-synthetic HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50632 - "GET /api/reviews/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50633 - "GET /api/reviews/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50634 - "GET /api/recent HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50635 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50636 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50637 - "GET /redoc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50638 - "POST /api/v1/moderate/comment HTTP/1.1" 200 OK

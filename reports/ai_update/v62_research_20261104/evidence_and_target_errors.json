@@ -1,0 +1,179 @@
+{
+  "emitted_target_errors": [],
+  "emitted_evidence_errors": [],
+  "missing_reference_evidence": [
+    {
+      "cohort": "fresh10",
+      "pair": [
+        "SHIELDVI_FRESH10_01_LOP_SUA_LAPTOP",
+        "U02",
+        "U01"
+      ],
+      "missing": [
+        "c15"
+      ]
+    },
+    {
+      "cohort": "fresh10",
+      "pair": [
+        "SHIELDVI_FRESH10_06_NHOM_BONG_CHUYEN",
+        "U02",
+        "U03"
+      ],
+      "missing": [
+        "c07",
+        "c11",
+        "c15"
+      ]
+    },
+    {
+      "cohort": "nov10",
+      "pair": [
+        "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+        "U02",
+        "U03"
+      ],
+      "missing": [
+        "c06",
+        "c10",
+        "c14"
+      ]
+    },
+    {
+      "cohort": "nov10",
+      "pair": [
+        "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+        "U04",
+        "U02"
+      ],
+      "missing": [
+        "c06",
+        "c12",
+        "c16"
+      ]
+    },
+    {
+      "cohort": "nov10",
+      "pair": [
+        "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+        "U03",
+        "U01"
+      ],
+      "missing": [
+        "c08",
+        "c13",
+        "c17"
+      ]
+    },
+    {
+      "cohort": "nov10",
+      "pair": [
+        "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+        "U02",
+        "U03"
+      ],
+      "missing": [
+        "c07",
+        "c12",
+        "c17"
+      ]
+    },
+    {
+      "cohort": "nov10",
+      "pair": [
+        "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+        "U04",
+        "U02"
+      ],
+      "missing": [
+        "c09",
+        "c14"
+      ]
+    },
+    {
+      "cohort": "nov10",
+      "pair": [
+        "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+        "U02",
+        "U03"
+      ],
+      "missing": [
+        "c09",
+        "c14"
+      ]
+    },
+    {
+      "cohort": "nov10",
+      "pair": [
+        "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+        "U04",
+        "U02"
+      ],
+      "missing": [
+        "c07",
+        "c12"
+      ]
+    },
+    {
+      "cohort": "nov10",
+      "pair": [
+        "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+        "U05",
+        "U01"
+      ],
+      "missing": [
+        "c06"
+      ]
+    },
+    {
+      "cohort": "nov_audit24",
+      "pair": [
+        "NOV10_AUDIT_CHALLENGE_01",
+        "N02",
+        "N01"
+      ],
+      "missing": [
+        "c02",
+        "c05"
+      ]
+    },
+    {
+      "cohort": "repeated74",
+      "pair": [
+        "REP_FRESH_02",
+        "Khoa",
+        "Vy"
+      ],
+      "missing": [
+        "REP_FRESH_02_c02",
+        "REP_FRESH_02_c05"
+      ]
+    },
+    {
+      "cohort": "repeated74",
+      "pair": [
+        "REP_FRESH_11",
+        "Tien",
+        "Phuong"
+      ],
+      "missing": [
+        "REP_FRESH_11_c01",
+        "REP_FRESH_11_c05"
+      ]
+    },
+    {
+      "cohort": "postfreeze36",
+      "pair": [
+        "V62_POSTFREEZE_04",
+        "N02",
+        "N03"
+      ],
+      "missing": [
+        "c03",
+        "c05"
+      ]
+    }
+  ],
+  "human_gold": false,
+  "note": "Unknown/UNCERTAIN reference grounding is omitted, never silently treated as verified; completeness is separate from emitted correctness."
+}

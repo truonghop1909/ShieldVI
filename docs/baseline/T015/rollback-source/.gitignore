@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.db
+frontend/node_modules/
+app/static/
+.env
+.DS_Store
+models/**/.cache/
+models/**/*.safetensors

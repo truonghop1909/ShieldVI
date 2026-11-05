@@ -1,0 +1,1 @@
+{"status": "PASS", "method": "injected KeyboardInterrupt at first HTTP readiness wait; real owned Social process cleaned up", "root": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\task_rollout_20261104\\demo_a69eaf3c271240ab", "cleanup": {"owned_processes_stopped": true, "owned_count": 1, "temporary_db_only": true, "production_changed": false}, "training_started": false}

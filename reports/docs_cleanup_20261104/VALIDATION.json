@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "moves_verified": 38,
+  "merged_files": 1,
+  "redundant_pointer_pages_removed": 1,
+  "backup_files_verified": 62,
+  "backup_sha256": "61bd4b17bfdc478c1c2b2e97baafd4f4a6bfa59fb031a06dc18ec1e06f37c32b",
+  "task_statuses_unchanged": 37,
+  "protected_documents_unchanged": 2,
+  "active_documents": 89,
+  "exact_duplicate_groups": [],
+  "broken_local_links": [],
+  "top_level_project_markdown": [
+    "AGENTS.md",
+    "README.md"
+  ],
+  "top_level_docs_markdown": [
+    "CHANGELOG.md",
+    "ORGANIZATION.md",
+    "README.md"
+  ],
+  "runtime_code_changed": false,
+  "model_or_dataset_changed": false,
+  "training_performed": false
+}

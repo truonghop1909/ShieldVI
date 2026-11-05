@@ -1,0 +1,162 @@
+{
+  "source_predictions_sha256": "fdc341e69c1a3e5e5a94f3bc85f395e66146867f8053be5b9bc63af0bbf05dd1",
+  "metrics": {
+    "V1": {
+      "synthetic_validation": {
+        "raw": {
+          "n": 13,
+          "threshold": 0.41,
+          "tp": 0,
+          "fp": 0,
+          "tn": 13,
+          "fn": 0,
+          "macro_f1": 0.5,
+          "toxic_precision": 0.0,
+          "toxic_recall": 0.0,
+          "accuracy": 1.0,
+          "brier": 0.01870081142790127,
+          "log_loss": 0.1093635039641775
+        },
+        "hybrid": {
+          "n": 13,
+          "tp": 0,
+          "fp": 0,
+          "tn": 13,
+          "fn": 0,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.0,
+          "toxic_recall": 0.0,
+          "macro_f1": 0.5,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        }
+      },
+      "synthetic_challenge": {
+        "raw": {
+          "n": 0
+        },
+        "hybrid": {
+          "n": 0,
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 0.0,
+          "toxic_precision": 0.0,
+          "toxic_recall": 0.0,
+          "macro_f1": 0.0,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        }
+      }
+    },
+    "r05": {
+      "synthetic_validation": {
+        "raw": {
+          "n": 13,
+          "threshold": 0.41,
+          "tp": 0,
+          "fp": 0,
+          "tn": 13,
+          "fn": 0,
+          "macro_f1": 0.5,
+          "toxic_precision": 0.0,
+          "toxic_recall": 0.0,
+          "accuracy": 1.0,
+          "brier": 0.015285173976053957,
+          "log_loss": 0.08956990522586081
+        },
+        "hybrid": {
+          "n": 13,
+          "tp": 0,
+          "fp": 0,
+          "tn": 13,
+          "fn": 0,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.0,
+          "toxic_recall": 0.0,
+          "macro_f1": 0.5,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        }
+      },
+      "synthetic_challenge": {
+        "raw": {
+          "n": 0
+        },
+        "hybrid": {
+          "n": 0,
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 0.0,
+          "toxic_precision": 0.0,
+          "toxic_recall": 0.0,
+          "macro_f1": 0.0,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        }
+      }
+    },
+    "r06": {
+      "synthetic_validation": {
+        "raw": {
+          "n": 13,
+          "threshold": 0.41,
+          "tp": 0,
+          "fp": 1,
+          "tn": 12,
+          "fn": 0,
+          "macro_f1": 0.48,
+          "toxic_precision": 0.0,
+          "toxic_recall": 0.0,
+          "accuracy": 0.9230769230769231,
+          "brier": 0.02779362795310247,
+          "log_loss": 0.1319666514184078
+        },
+        "hybrid": {
+          "n": 13,
+          "tp": 0,
+          "fp": 1,
+          "tn": 12,
+          "fn": 0,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.0,
+          "toxic_recall": 0.0,
+          "macro_f1": 0.48,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        }
+      },
+      "synthetic_challenge": {
+        "raw": {
+          "n": 0
+        },
+        "hybrid": {
+          "n": 0,
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 0.0,
+          "toxic_precision": 0.0,
+          "toxic_recall": 0.0,
+          "macro_f1": 0.0,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        }
+      }
+    }
+  },
+  "reason": "Original reporting regex omitted user-requested single-letter t/m/k and accented đm/vl forms. Corrected mask only; reference labels, model predictions and aggregate metrics unchanged.",
+  "new_model_inference_performed": false,
+  "hyperparameters_changed": false,
+  "scope": "heuristic teencode slice, not a human annotation"
+}

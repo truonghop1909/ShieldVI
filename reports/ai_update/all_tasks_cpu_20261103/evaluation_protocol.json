@@ -1,0 +1,21 @@
+{
+  "frozen_before_candidate_test_scoring": true,
+  "threshold": 0.41,
+  "selection": "ViCTSD validation macroF1 only; no new candidate run after viewing test",
+  "original_validation_gate": {
+    "macroF1_min_delta": 0.005,
+    "precision_loss_allowed": 0,
+    "recall_loss_allowed": 0
+  },
+  "test_final_audit_gate": {
+    "macroF1_loss_allowed": 0,
+    "precision_loss_allowed": 0.02,
+    "recall_loss_allowed": 0.02
+  },
+  "also_check_existing_default": "Same strict validation and final test gates; diagnostic comparison included",
+  "gate_implementation_sha256": "66a00705b5673a6cc3395a7fda56a526768588df67fc93f7f188aeaeba58a190",
+  "outcome_if_failed": "REJECT_PROMOTION; keep existing default; training task still records actual trained candidate",
+  "production_activation_allowed": false,
+  "synthetic_data_not_human_gold": true,
+  "additional_regression_gate_before_test": "Preserve all30 user GAME advisory labels and exact U02->U03 evidence c08,c11,c15,c18; no new synthetic advisory errors versus original V1"
+}

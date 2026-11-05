@@ -1,0 +1,98 @@
+[
+  {
+    "thread_id": "SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA",
+    "actor_user_id": "U02",
+    "target_user_id": "U03",
+    "expected_repeated": "true",
+    "evidence_comment_ids": "c06;c10;c14",
+    "notes": "Cùng actor-target, nhiều lời công kích; phần quyết định lặp lại cần xét cửa sổ thời gian và bằng chứng.",
+    "span_minutes": 16.0,
+    "distinct_timestamps": 3,
+    "qualified_instances": 0,
+    "first_failed_gate": "context.attack_candidate=false"
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS",
+    "actor_user_id": "U04",
+    "target_user_id": "U02",
+    "expected_repeated": "true",
+    "evidence_comment_ids": "c06;c12;c16",
+    "notes": "Cùng actor-target, nhiều lời công kích; phần quyết định lặp lại cần xét cửa sổ thời gian và bằng chứng.",
+    "span_minutes": 20.0,
+    "distinct_timestamps": 3,
+    "qualified_instances": 0,
+    "first_failed_gate": "context.attack_candidate=false"
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND",
+    "actor_user_id": "U03",
+    "target_user_id": "U01",
+    "expected_repeated": "true",
+    "evidence_comment_ids": "c08;c13;c17",
+    "notes": "Cùng actor-target, nhiều lời công kích; phần quyết định lặp lại cần xét cửa sổ thời gian và bằng chứng.",
+    "span_minutes": 18.0,
+    "distinct_timestamps": 3,
+    "qualified_instances": 0,
+    "first_failed_gate": "context.attack_candidate=false"
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_15_CUU_HO_MEO_MUN",
+    "actor_user_id": "U02",
+    "target_user_id": "U03",
+    "expected_repeated": "true",
+    "evidence_comment_ids": "c07;c12;c17",
+    "notes": "Cùng actor-target, nhiều lời công kích; phần quyết định lặp lại cần xét cửa sổ thời gian và bằng chứng.",
+    "span_minutes": 20.0,
+    "distinct_timestamps": 3,
+    "qualified_instances": 0,
+    "first_failed_gate": "context.attack_candidate=false"
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_16_REVIEW_BANH_MI",
+    "actor_user_id": "U04",
+    "target_user_id": "U02",
+    "expected_repeated": "true",
+    "evidence_comment_ids": "c09;c14",
+    "notes": "Cùng actor-target, nhiều lời công kích; phần quyết định lặp lại cần xét cửa sổ thời gian và bằng chứng.",
+    "span_minutes": 10.0,
+    "distinct_timestamps": 2,
+    "qualified_instances": 0,
+    "first_failed_gate": "context.attack_candidate=false"
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH",
+    "actor_user_id": "U02",
+    "target_user_id": "U03",
+    "expected_repeated": "true",
+    "evidence_comment_ids": "c09;c14",
+    "notes": "Cùng actor-target, nhiều lời công kích; phần quyết định lặp lại cần xét cửa sổ thời gian và bằng chứng.",
+    "span_minutes": 10.0,
+    "distinct_timestamps": 2,
+    "qualified_instances": 0,
+    "first_failed_gate": "context.attack_candidate=false"
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN",
+    "actor_user_id": "U04",
+    "target_user_id": "U02",
+    "expected_repeated": "true",
+    "evidence_comment_ids": "c07;c12",
+    "notes": "Cùng actor-target, nhiều lời công kích; phần quyết định lặp lại cần xét cửa sổ thời gian và bằng chứng.",
+    "span_minutes": 10.0,
+    "distinct_timestamps": 2,
+    "qualified_instances": 0,
+    "first_failed_gate": "context.attack_candidate=false"
+  },
+  {
+    "thread_id": "SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM",
+    "actor_user_id": "U05",
+    "target_user_id": "U01",
+    "expected_repeated": "true",
+    "evidence_comment_ids": "c06;c11;c15",
+    "notes": "Cùng actor-target, nhiều lời công kích; phần quyết định lặp lại cần xét cửa sổ thời gian và bằng chứng.",
+    "span_minutes": 18.0,
+    "distinct_timestamps": 3,
+    "qualified_instances": 0,
+    "first_failed_gate": "context.attack_candidate=false"
+  }
+]

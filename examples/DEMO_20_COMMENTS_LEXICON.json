@@ -1,0 +1,46 @@
+{
+  "thread_id": "DEMO_A",
+  "profile": "conservative",
+  "comments": [
+    {
+      "comment_id": "d1",
+      "user_id": "U01",
+      "text": "Mình mới đăng bản thiết kế, mọi người góp ý nhé.",
+      "parent_id": null,
+      "timestamp": "2026-10-10T10:00:00.000Z",
+      "mentioned_user_ids": []
+    },
+    {
+      "comment_id": "d2",
+      "user_id": "U02",
+      "text": "Bạn chẳng biết gì mà cũng đăng bài sao?",
+      "parent_id": "d1",
+      "timestamp": "2026-10-10T10:03:00.000Z",
+      "mentioned_user_ids": []
+    },
+    {
+      "comment_id": "d3",
+      "user_id": "U01",
+      "text": "Bạn có thể góp ý cụ thể hơn không?",
+      "parent_id": "d2",
+      "timestamp": "2026-10-10T10:05:00.000Z",
+      "mentioned_user_ids": []
+    },
+    {
+      "comment_id": "d4",
+      "user_id": "U02",
+      "text": "Bài của bạn ngu ngốc thật đấy.",
+      "parent_id": "d3",
+      "timestamp": "2026-10-10T10:07:00.000Z",
+      "mentioned_user_ids": []
+    },
+    {
+      "comment_id": "d5",
+      "user_id": "U03",
+      "text": "Màu sắc đẹp, nhưng nên tăng độ tương phản.",
+      "parent_id": "d1",
+      "timestamp": "2026-10-10T10:12:00.000Z",
+      "mentioned_user_ids": []
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "live-1.0",
+      "default": "live-1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "event_id": {
+      "minimum": 1,
+      "title": "Event Id",
+      "type": "integer"
+    },
+    "event_type": {
+      "enum": [
+        "conversation.message.created",
+        "conversation.content.updated",
+        "moderation.job.updated",
+        "moderation.analysis.updated",
+        "moderation.analysis.failed",
+        "moderation.review.updated"
+      ],
+      "title": "Event Type",
+      "type": "string"
+    },
+    "thread_id": {
+      "format": "uuid",
+      "title": "Thread Id",
+      "type": "string"
+    },
+    "content_id": {
+      "format": "uuid",
+      "title": "Content Id",
+      "type": "string"
+    },
+    "content_revision": {
+      "minimum": 1,
+      "title": "Content Revision",
+      "type": "integer"
+    },
+    "decision_version": {
+      "minimum": 0,
+      "title": "Decision Version",
+      "type": "integer"
+    },
+    "analysis_revision": {
+      "anyOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Analysis Revision"
+    },
+    "analysis_status": {
+      "enum": [
+        "QUEUED",
+        "PROCESSING",
+        "COMPLETED",
+        "RETRYING",
+        "FAILED",
+        "SUPERSEDED",
+        "NOT_ANALYZED"
+      ],
+      "title": "Analysis Status",
+      "type": "string"
+    },
+    "correlation_id": {
+      "anyOf": [
+        {
+          "format": "uuid",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Correlation Id"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "event_id",
+    "event_type",
+    "thread_id",
+    "content_id",
+    "content_revision",
+    "decision_version",
+    "analysis_status",
+    "created_at"
+  ],
+  "title": "LiveEventEnvelope",
+  "type": "object"
+}

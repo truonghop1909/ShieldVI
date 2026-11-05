@@ -1,0 +1,9 @@
+{
+  "cases": 24,
+  "comments_per_full_context": 20,
+  "human_decisions": 0,
+  "human_gold": false,
+  "source_reference_modified": false,
+  "annotation_version": "pending_owner_decisions_v1",
+  "html_has_no_network_calls": true
+}

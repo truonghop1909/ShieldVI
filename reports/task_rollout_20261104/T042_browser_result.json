@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "hashed_readonly_registry_preserves_v1_1_default_and_formal_gate",
+    "actual_paired_v1_r06_t041_inference_on_same_locked_synthetic_holdout",
+    "actual_fault_injected_shadow_fallback_to_original_v1",
+    "raw_and_final_metrics_separate_small_sample_scope_visible",
+    "report_exports_sha_provenance_and_unavailable_target_repeated_denominators"
+  ],
+  "evaluation_id": "bdf418515f7d970fe8d1efaa",
+  "actual_neural_inference": true,
+  "no_training": true,
+  "no_activation": true
+}

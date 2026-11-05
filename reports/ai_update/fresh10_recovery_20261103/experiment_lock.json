@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-11-03T14:38:50.221480+00:00",
+  "experimental_module_sha256": "cc050329f0e520a6bf01c1a8d2ed81d07986a83fa5a245a40fee2a81d745f73e",
+  "import_manifest_sha256": "4637ce75f148e5d07076938093451a7dfb113e40fd92b3b06036ef0a9b22a0b4",
+  "existing_readiness_lock_sha256": "ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3",
+  "promotion_allowed": false,
+  "training_allowed": false,
+  "new_holdout_authored_after_lock": true,
+  "post_holdout_rule_tuning_allowed": false,
+  "reference_labels_changed": false
+}

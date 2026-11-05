@@ -1,0 +1,54 @@
+{
+  "8020": {
+    "health": "ready",
+    "model_loaded": true,
+    "model_path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+    "dashboard_status": 200,
+    "updated_bundle_served": true,
+    "legacy_api": 200,
+    "v2_api": 200,
+    "all30_AI_reference_labels_match": true,
+    "raw_scores_and_legacy_fields_unchanged": true,
+    "evidence": {
+      "actor_user_id": "U04",
+      "target_user_id": "U03",
+      "evidence_comment_ids": [
+        "c09",
+        "c12",
+        "c15",
+        "c18"
+      ],
+      "n_distinct_timestamps": 4,
+      "target_confidence": "medium"
+    },
+    "c09_raw_score": 0.403386,
+    "c09_advisory": "TOXIC",
+    "policy_executed": false
+  },
+  "8021": {
+    "health": "ready",
+    "model_loaded": true,
+    "model_path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\candidates\\T029_genz500_head_cpu_20261103_r05",
+    "dashboard_status": 200,
+    "updated_bundle_served": true,
+    "legacy_api": 200,
+    "v2_api": 200,
+    "all30_AI_reference_labels_match": true,
+    "raw_scores_and_legacy_fields_unchanged": true,
+    "evidence": {
+      "actor_user_id": "U04",
+      "target_user_id": "U03",
+      "evidence_comment_ids": [
+        "c09",
+        "c12",
+        "c15",
+        "c18"
+      ],
+      "n_distinct_timestamps": 4,
+      "target_confidence": "medium"
+    },
+    "c09_raw_score": 0.406288,
+    "c09_advisory": "TOXIC",
+    "policy_executed": false
+  }
+}

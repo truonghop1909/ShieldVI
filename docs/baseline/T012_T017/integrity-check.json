@@ -1,0 +1,19 @@
+{
+  "legacy_files_checked": 68,
+  "changed_original_files": [
+    "app/main.py"
+  ],
+  "expected_legacy_change": [
+    "app/main.py"
+  ],
+  "social_web_changed_files": [
+    "README.md"
+  ],
+  "expected_social_web_change": [
+    "README.md"
+  ],
+  "default_social_db_schema_read_only": [
+    "0002_content"
+  ],
+  "real_checkpoint_inference": "NOT_RUN"
+}

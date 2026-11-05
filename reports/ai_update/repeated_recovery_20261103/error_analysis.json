@@ -1,0 +1,895 @@
+{
+  "changed_labels": {
+    "V1": [
+      {
+        "thread_id": "SGZ500_0349",
+        "comment_id": "SGZ500_0349_C05",
+        "reference": "TOXIC",
+        "text": "Nói nhẹ nhé, sự tồn tại của mày chỉ gây phiền.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.167086,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0491",
+        "comment_id": "SGZ500_0491_C06",
+        "reference": "TOXIC",
+        "text": "Nói nhẹ thôi, có mày hay không cũng chẳng ai cần.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.103573,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_01",
+        "comment_id": "REP_FRESH_01_c05",
+        "reference": "TOXIC",
+        "text": "Sự tồn tại của cậu chỉ gây phiền cho mấy buổi test âm thanh.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.260899,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_02",
+        "comment_id": "REP_FRESH_02_c05",
+        "reference": "TOXIC",
+        "text": "Có cậu hay không cũng chẳng ai cần trong đội hình của tụi này.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.095478,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      }
+    ],
+    "r05": [
+      {
+        "thread_id": "SGZ500_0349",
+        "comment_id": "SGZ500_0349_C05",
+        "reference": "TOXIC",
+        "text": "Nói nhẹ nhé, sự tồn tại của mày chỉ gây phiền.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.138729,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0491",
+        "comment_id": "SGZ500_0491_C06",
+        "reference": "TOXIC",
+        "text": "Nói nhẹ thôi, có mày hay không cũng chẳng ai cần.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.073378,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_01",
+        "comment_id": "REP_FRESH_01_c05",
+        "reference": "TOXIC",
+        "text": "Sự tồn tại của cậu chỉ gây phiền cho mấy buổi test âm thanh.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.212105,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_02",
+        "comment_id": "REP_FRESH_02_c05",
+        "reference": "TOXIC",
+        "text": "Có cậu hay không cũng chẳng ai cần trong đội hình của tụi này.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.071771,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      }
+    ],
+    "r06": [
+      {
+        "thread_id": "SGZ500_0349",
+        "comment_id": "SGZ500_0349_C05",
+        "reference": "TOXIC",
+        "text": "Nói nhẹ nhé, sự tồn tại của mày chỉ gây phiền.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.358662,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0491",
+        "comment_id": "SGZ500_0491_C06",
+        "reference": "TOXIC",
+        "text": "Nói nhẹ thôi, có mày hay không cũng chẳng ai cần.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.217879,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_01",
+        "comment_id": "REP_FRESH_01_c05",
+        "reference": "TOXIC",
+        "text": "Sự tồn tại của cậu chỉ gây phiền cho mấy buổi test âm thanh.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.133017,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_02",
+        "comment_id": "REP_FRESH_02_c05",
+        "reference": "TOXIC",
+        "text": "Có cậu hay không cũng chẳng ai cần trong đội hình của tụi này.",
+        "before": "CLEAN",
+        "after": "TOXIC",
+        "raw_score": 0.146562,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      }
+    ]
+  },
+  "remaining_errors": {
+    "V1": [
+      {
+        "thread_id": "SGZ500_0217",
+        "comment_id": "SGZ500_0217_C01",
+        "reference": "CLEAN",
+        "text": "Mình đã nói không muốn bị tag vào bài chê nhóm khác nữa.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.447274,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0296",
+        "comment_id": "SGZ500_0296_C02",
+        "reference": "CLEAN",
+        "text": "Tui không đi được, đừng suy ra con người tui.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.515904,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0342",
+        "comment_id": "SGZ500_0342_C01",
+        "reference": "CLEAN",
+        "text": "Đèn mạnh làm lớp nền trông nhạt.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.729744,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0346",
+        "comment_id": "SGZ500_0346_C05",
+        "reference": "CLEAN",
+        "text": "Tỉ lệ mặt khác bản gốc quá.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.590497,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0358",
+        "comment_id": "SGZ500_0358_C02",
+        "reference": "TOXIC",
+        "text": "Your taste is garbage, idiot.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.017929,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0423",
+        "comment_id": "SGZ500_0423_C01",
+        "reference": "CLEAN",
+        "text": "Câu này dịch làm mất ý châm biếm.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.88843,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0423",
+        "comment_id": "SGZ500_0423_C07",
+        "reference": "CLEAN",
+        "text": "Tui không nói người dịch kém mọi mặt.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.70225,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0456",
+        "comment_id": "SGZ500_0456_C02",
+        "reference": "TOXIC",
+        "text": "Giao chậm tao tới đánh mày cho nhớ.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.224769,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0482",
+        "comment_id": "SGZ500_0482_C03",
+        "reference": "CLEAN",
+        "text": "Bạn thấy đẹp hay đang chọc tui vậy?",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.499612,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0498",
+        "comment_id": "SGZ500_0498_C05",
+        "reference": "TOXIC",
+        "text": "Nói lịch sự nhé, khả năng hiểu của mày không đáng để giải thích.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.27431,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0498",
+        "comment_id": "SGZ500_0498_C09",
+        "reference": "CLEAN",
+        "text": "Từ chối trả lời được, công kích thì không.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.465781,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0218",
+        "comment_id": "SGZ500_0218_C07",
+        "reference": "CLEAN",
+        "text": "Câu này vẫn hạ người dù không có từ tục.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.621586,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0255",
+        "comment_id": "SGZ500_0255_C06",
+        "reference": "CLEAN",
+        "text": "Đã nhắc giọng rồi còn bảo người ta câm là quá.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.791621,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0255",
+        "comment_id": "SGZ500_0255_C07",
+        "reference": "CLEAN",
+        "text": "Mình không nhận góp ý kiểu xúc phạm.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.826779,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0339",
+        "comment_id": "SGZ500_0339_C03",
+        "reference": "CLEAN",
+        "text": "Sai bài không cho biết giới hạn con người.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.416973,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0349",
+        "comment_id": "SGZ500_0349_C06",
+        "reference": "CLEAN",
+        "text": "Đổi giọng vẫn là hạ nhục người khác.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.882283,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0373",
+        "comment_id": "SGZ500_0373_C03",
+        "reference": "CLEAN",
+        "text": "Chê kỹ thuật thì nói đúng kỹ thuật.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.494597,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0438",
+        "comment_id": "SGZ500_0438_C02",
+        "reference": "TOXIC",
+        "text": "Tao tìm tới đánh mày nếu không xóa bài.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.117957,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0462",
+        "comment_id": "SGZ500_0462_C06",
+        "reference": "CLEAN",
+        "text": "phấn lên màu yếu thật",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.642234,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0462",
+        "comment_id": "SGZ500_0462_C07",
+        "reference": "CLEAN",
+        "text": "Nhận xét đó được, lời miệt thị thì không.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.540844,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_02",
+        "comment_id": "REP_FRESH_02_c02",
+        "reference": "TOXIC",
+        "text": "Cậu đúng là cục chì cả đội phải kéo theo suốt trận.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.048593,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_03",
+        "comment_id": "REP_FRESH_03_c03",
+        "reference": "CLEAN",
+        "text": "Có chữ xin lỗi rồi mà bạn vẫn tiếp tục hạ thấp mình.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.681023,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_06",
+        "comment_id": "REP_FRESH_06_c02",
+        "reference": "CLEAN",
+        "text": "Bạn đừng bảo người ta ngậm miệng đi, góp ý đoạn mic mất tín hiệu thôi.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.608209,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_07",
+        "comment_id": "REP_FRESH_07_c04",
+        "reference": "CLEAN",
+        "text": "Hai người đều đang xúc phạm nhau, quay lại bảng màu đi.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.678106,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      }
+    ],
+    "r05": [
+      {
+        "thread_id": "SGZ500_0217",
+        "comment_id": "SGZ500_0217_C01",
+        "reference": "CLEAN",
+        "text": "Mình đã nói không muốn bị tag vào bài chê nhóm khác nữa.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.431837,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0296",
+        "comment_id": "SGZ500_0296_C02",
+        "reference": "CLEAN",
+        "text": "Tui không đi được, đừng suy ra con người tui.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.487836,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0342",
+        "comment_id": "SGZ500_0342_C01",
+        "reference": "CLEAN",
+        "text": "Đèn mạnh làm lớp nền trông nhạt.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.749313,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0346",
+        "comment_id": "SGZ500_0346_C05",
+        "reference": "CLEAN",
+        "text": "Tỉ lệ mặt khác bản gốc quá.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.548743,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0358",
+        "comment_id": "SGZ500_0358_C02",
+        "reference": "TOXIC",
+        "text": "Your taste is garbage, idiot.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.012467,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0423",
+        "comment_id": "SGZ500_0423_C01",
+        "reference": "CLEAN",
+        "text": "Câu này dịch làm mất ý châm biếm.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.928314,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0423",
+        "comment_id": "SGZ500_0423_C07",
+        "reference": "CLEAN",
+        "text": "Tui không nói người dịch kém mọi mặt.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.738944,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0456",
+        "comment_id": "SGZ500_0456_C02",
+        "reference": "TOXIC",
+        "text": "Giao chậm tao tới đánh mày cho nhớ.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.193562,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0459",
+        "comment_id": "SGZ500_0459_C02",
+        "reference": "TOXIC",
+        "text": "Loại ở tạm như mày có mặt cũng chẳng ích gì.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.376195,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0482",
+        "comment_id": "SGZ500_0482_C03",
+        "reference": "CLEAN",
+        "text": "Bạn thấy đẹp hay đang chọc tui vậy?",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.47879,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0498",
+        "comment_id": "SGZ500_0498_C05",
+        "reference": "TOXIC",
+        "text": "Nói lịch sự nhé, khả năng hiểu của mày không đáng để giải thích.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.251631,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0498",
+        "comment_id": "SGZ500_0498_C09",
+        "reference": "CLEAN",
+        "text": "Từ chối trả lời được, công kích thì không.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.439259,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0218",
+        "comment_id": "SGZ500_0218_C07",
+        "reference": "CLEAN",
+        "text": "Câu này vẫn hạ người dù không có từ tục.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.588217,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0255",
+        "comment_id": "SGZ500_0255_C06",
+        "reference": "CLEAN",
+        "text": "Đã nhắc giọng rồi còn bảo người ta câm là quá.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.81879,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0255",
+        "comment_id": "SGZ500_0255_C07",
+        "reference": "CLEAN",
+        "text": "Mình không nhận góp ý kiểu xúc phạm.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.863879,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0349",
+        "comment_id": "SGZ500_0349_C06",
+        "reference": "CLEAN",
+        "text": "Đổi giọng vẫn là hạ nhục người khác.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.915255,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0373",
+        "comment_id": "SGZ500_0373_C03",
+        "reference": "CLEAN",
+        "text": "Chê kỹ thuật thì nói đúng kỹ thuật.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.521151,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0438",
+        "comment_id": "SGZ500_0438_C02",
+        "reference": "TOXIC",
+        "text": "Tao tìm tới đánh mày nếu không xóa bài.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.088495,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0462",
+        "comment_id": "SGZ500_0462_C06",
+        "reference": "CLEAN",
+        "text": "phấn lên màu yếu thật",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.635451,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0462",
+        "comment_id": "SGZ500_0462_C07",
+        "reference": "CLEAN",
+        "text": "Nhận xét đó được, lời miệt thị thì không.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.540704,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_02",
+        "comment_id": "REP_FRESH_02_c02",
+        "reference": "TOXIC",
+        "text": "Cậu đúng là cục chì cả đội phải kéo theo suốt trận.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.028234,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_03",
+        "comment_id": "REP_FRESH_03_c03",
+        "reference": "CLEAN",
+        "text": "Có chữ xin lỗi rồi mà bạn vẫn tiếp tục hạ thấp mình.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.712693,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_06",
+        "comment_id": "REP_FRESH_06_c02",
+        "reference": "CLEAN",
+        "text": "Bạn đừng bảo người ta ngậm miệng đi, góp ý đoạn mic mất tín hiệu thôi.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.593503,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_07",
+        "comment_id": "REP_FRESH_07_c04",
+        "reference": "CLEAN",
+        "text": "Hai người đều đang xúc phạm nhau, quay lại bảng màu đi.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.69888,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      }
+    ],
+    "r06": [
+      {
+        "thread_id": "SGZ500_0242",
+        "comment_id": "SGZ500_0242_C02",
+        "reference": "CLEAN",
+        "text": "t ngồi thảm được, ghế chiếm chỗ quá",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.484202,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0342",
+        "comment_id": "SGZ500_0342_C01",
+        "reference": "CLEAN",
+        "text": "Đèn mạnh làm lớp nền trông nhạt.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.662752,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0358",
+        "comment_id": "SGZ500_0358_C02",
+        "reference": "TOXIC",
+        "text": "Your taste is garbage, idiot.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.012289,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0423",
+        "comment_id": "SGZ500_0423_C01",
+        "reference": "CLEAN",
+        "text": "Câu này dịch làm mất ý châm biếm.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.793233,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0423",
+        "comment_id": "SGZ500_0423_C07",
+        "reference": "CLEAN",
+        "text": "Tui không nói người dịch kém mọi mặt.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.593296,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0482",
+        "comment_id": "SGZ500_0482_C03",
+        "reference": "CLEAN",
+        "text": "Bạn thấy đẹp hay đang chọc tui vậy?",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.440751,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0218",
+        "comment_id": "SGZ500_0218_C07",
+        "reference": "CLEAN",
+        "text": "Câu này vẫn hạ người dù không có từ tục.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.47072,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0255",
+        "comment_id": "SGZ500_0255_C06",
+        "reference": "CLEAN",
+        "text": "Đã nhắc giọng rồi còn bảo người ta câm là quá.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.783711,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0255",
+        "comment_id": "SGZ500_0255_C07",
+        "reference": "CLEAN",
+        "text": "Mình không nhận góp ý kiểu xúc phạm.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.675613,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0349",
+        "comment_id": "SGZ500_0349_C06",
+        "reference": "CLEAN",
+        "text": "Đổi giọng vẫn là hạ nhục người khác.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.820568,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0373",
+        "comment_id": "SGZ500_0373_C03",
+        "reference": "CLEAN",
+        "text": "Chê kỹ thuật thì nói đúng kỹ thuật.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.467409,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0438",
+        "comment_id": "SGZ500_0438_C02",
+        "reference": "TOXIC",
+        "text": "Tao tìm tới đánh mày nếu không xóa bài.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.207896,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "SGZ500_0462",
+        "comment_id": "SGZ500_0462_C06",
+        "reference": "CLEAN",
+        "text": "phấn lên màu yếu thật",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.589237,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_02",
+        "comment_id": "REP_FRESH_02_c02",
+        "reference": "TOXIC",
+        "text": "Cậu đúng là cục chì cả đội phải kéo theo suốt trận.",
+        "before": "CLEAN",
+        "after": "CLEAN",
+        "raw_score": 0.077888,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_03",
+        "comment_id": "REP_FRESH_03_c03",
+        "reference": "CLEAN",
+        "text": "Có chữ xin lỗi rồi mà bạn vẫn tiếp tục hạ thấp mình.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.649624,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_06",
+        "comment_id": "REP_FRESH_06_c02",
+        "reference": "CLEAN",
+        "text": "Bạn đừng bảo người ta ngậm miệng đi, góp ý đoạn mic mất tín hiệu thôi.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.42151,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      },
+      {
+        "thread_id": "REP_FRESH_07",
+        "comment_id": "REP_FRESH_07_c04",
+        "reference": "CLEAN",
+        "text": "Hai người đều đang xúc phạm nhau, quay lại bảng màu đi.",
+        "before": "TOXIC",
+        "after": "TOXIC",
+        "raw_score": 0.58022,
+        "label_source": "synthetic_reference",
+        "human_gold": false
+      }
+    ]
+  },
+  "fresh_missing_events": [
+    [
+      "REP_FRESH_02",
+      "Khoa",
+      "Vy"
+    ],
+    [
+      "REP_FRESH_11",
+      "Tien",
+      "Phuong"
+    ]
+  ],
+  "broad_missing_events": [
+    [
+      "CTX_RECOVERY_V1_05",
+      "CTX_RECOVERY_V1_05_U02",
+      "CTX_RECOVERY_V1_05_U01"
+    ],
+    [
+      "SGZ500_0498",
+      "SGZ500_0498_U02",
+      "SGZ500_0498_U01"
+    ]
+  ],
+  "new_errors": {
+    "V1": [],
+    "r05": [],
+    "r06": []
+  },
+  "historical_summary_correction": "Archived metrics and known-target coverage give target33/54 and repeated2/10; prior prose34/3 was stale. DANCE emission lacks target references, so excluded, not counted TP."
+}

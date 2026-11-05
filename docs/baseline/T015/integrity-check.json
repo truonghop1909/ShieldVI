@@ -1,0 +1,33 @@
+{
+  "relocated_or_retained_source_files_checked": 59,
+  "intentional_changed_original_paths": [
+    ".gitignore",
+    "app/database.py",
+    "app/main.py",
+    "app/predictor.py",
+    "app/review_store.py",
+    "frontend/package.json",
+    "frontend/vite.config.js",
+    "notebooks/08_ShieldVI_Dashboard_Colab.ipynb",
+    "notebooks/09_ShieldVI_V3_Hybrid_Review_Colab.ipynb",
+    "README.md",
+    "requirements.txt",
+    "run_windows_dashboard.bat",
+    "scripts/check_dashboard.py",
+    "scripts/evaluate_social_policy.py",
+    "scripts/import_lexicon.py",
+    "tests/test_model_refinement.py"
+  ],
+  "missing_after_mapping": [],
+  "rollback_source_modified": [],
+  "protected_models_datasets_databases_checked": 52,
+  "changed_protected_assets": [],
+  "lexicon_static_react_v3_source_byte_unchanged": true,
+  "social_web_product_changes": [],
+  "default_social_db_schema_read_only": [
+    "0002_content"
+  ],
+  "live_database_migration": false,
+  "real_http_before_after_equal": true,
+  "git_commit": null
+}

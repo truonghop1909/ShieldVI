@@ -1,0 +1,217 @@
+{
+  "started_at_utc": "2026-10-30T01:25:14.195077+00:00",
+  "finished_at_utc": "2026-10-30T01:27:36.681936+00:00",
+  "mode": "real_checkpoint_cpu_inference",
+  "model": {
+    "name": "ViSoBERT V1.1 — ViCTSD",
+    "path_relative": "models\\visobert_head_refined",
+    "weights_sha256": "ed93c9badcdd198d42dddd7ea3744ea961475ed69f4b3baad8726d9e57b3bce1",
+    "threshold_config_sha256": "c6eb56f345912e009bbedc2ece09df581aac0ccc3a72a3c930d705ee1c509fa9",
+    "threshold": 0.41,
+    "lexicon_sha256": "299ed25e32ce0ad0cde1957cf9199755dd7c9e2c3316ddc7ccafbd6dcd264f68",
+    "device": "cpu",
+    "cpu_threads": 2,
+    "load_seconds": 4.190148000008776,
+    "torch": "2.15.0+cpu",
+    "transformers": "4.57.3"
+  },
+  "dataset": {
+    "name": "ViCTSD original official test local copy",
+    "path": "datasets\\raw\\victsd\\ViCTSD_test.csv",
+    "sha256": "e341013ca7441a5f2621b9347bd933f4d920d080b9931136ee8827d0ac0b2672",
+    "n": 1000,
+    "full_official_test": true,
+    "source": "local_user_provided_original_ViCTSD_files",
+    "license": "not_reverified_for_local_user_copy",
+    "label_origin": "user_provided_original_ViCTSD_Toxicity",
+    "selection": "all original rows in original order; no resplit/filter/tuning",
+    "blind_holdout": false,
+    "blind_note": "Official test has been inspected in earlier project reports; this is reproduction, not a fresh blind holdout."
+  },
+  "classifier": {
+    "n": 1000,
+    "support": {
+      "clean": 890,
+      "toxic": 110
+    },
+    "confusion_matrix": [
+      [
+        843,
+        47
+      ],
+      [
+        52,
+        58
+      ]
+    ],
+    "matrix_rows": "gold clean,toxic",
+    "matrix_columns": "predicted negative,positive",
+    "precision": 0.5523809523809524,
+    "recall": 0.5272727272727272,
+    "f1": 0.5395348837209303,
+    "macro_f1": 0.7420363494234903,
+    "accuracy": 0.901,
+    "false_positive_rate": 0.052808988764044947,
+    "false_negative_rate": 0.4727272727272727,
+    "fpr_wilson_95": [
+      0.03994354484908627,
+      0.06951821467791422
+    ],
+    "fnr_wilson_95": [
+      0.381932067205923,
+      0.5653630565376131
+    ]
+  },
+  "lexicon_screening_vs_toxicity_proxy": {
+    "n": 1000,
+    "support": {
+      "clean": 890,
+      "toxic": 110
+    },
+    "confusion_matrix": [
+      [
+        890,
+        0
+      ],
+      [
+        110,
+        0
+      ]
+    ],
+    "matrix_rows": "gold clean,toxic",
+    "matrix_columns": "predicted negative,positive",
+    "precision": null,
+    "recall": 0.0,
+    "f1": 0.0,
+    "macro_f1": 0.4708994708994709,
+    "accuracy": 0.89,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 1.0,
+    "fpr_wilson_95": [
+      0,
+      0.004297695953555817
+    ],
+    "fnr_wilson_95": [
+      0.9662560647018358,
+      0.9999999999999999
+    ]
+  },
+  "hybrid_review_screening_vs_toxicity_proxy": {
+    "n": 1000,
+    "support": {
+      "clean": 890,
+      "toxic": 110
+    },
+    "confusion_matrix": [
+      [
+        843,
+        47
+      ],
+      [
+        52,
+        58
+      ]
+    ],
+    "matrix_rows": "gold clean,toxic",
+    "matrix_columns": "predicted negative,positive",
+    "precision": 0.5523809523809524,
+    "recall": 0.5272727272727272,
+    "f1": 0.5395348837209303,
+    "macro_f1": 0.7420363494234903,
+    "accuracy": 0.901,
+    "false_positive_rate": 0.052808988764044947,
+    "false_negative_rate": 0.4727272727272727,
+    "fpr_wilson_95": [
+      0.03994354484908627,
+      0.06951821467791422
+    ],
+    "fnr_wilson_95": [
+      0.381932067205923,
+      0.5653630565376131
+    ]
+  },
+  "policy_shadow": {
+    "risk_counts": {
+      "LOW": 895,
+      "REVIEW": 105
+    },
+    "visibility_counts": {
+      "PUBLISHED": 895,
+      "PUBLISHED_FLAGGED": 105
+    },
+    "review_load": 0.105,
+    "review_count": 105,
+    "target_unknown_fraction": 1.0,
+    "adapter_cached_postprocess": {
+      "n": 1000,
+      "median_ms": 0.22329999774228781,
+      "p95_ms": 0.6825000018579885,
+      "sum_ms": 283.4127999667544
+    }
+  },
+  "latency": {
+    "real_forward_batches": {
+      "n": 65,
+      "median_ms": 2184.615299993311,
+      "p95_ms": 2873.8950999977533,
+      "sum_ms": 137797.9433000728
+    },
+    "amortized_per_item": {
+      "n": 1030,
+      "median_ms": 136.53845624958194,
+      "p95_ms": 179.61844374985958,
+      "sum_ms": 137797.9433000728
+    },
+    "note": "Warm-up excluded. 16-item CPU batches, including separately reported synthetic inputs. Not HTTP or singleton production latency."
+  },
+  "synthetic_separate": {
+    "dataset_id": "shieldvi_mxh_style_challenge_v1",
+    "sha256": "e0086a9601c361bdeaf65663d2be8d1379fd4e948f16eb41a53140208fb92bd0",
+    "n": 30,
+    "is_gold": false,
+    "classification_quality": null,
+    "policy_behavior_only": {
+      "risk_counts": {
+        "LOW": 18,
+        "REVIEW": 12
+      },
+      "visibility_counts": {
+        "PUBLISHED": 18,
+        "PUBLISHED_FLAGGED": 12
+      },
+      "review_load": 0.4,
+      "review_count": 12,
+      "target_unknown_fraction": 1.0,
+      "adapter_cached_postprocess": {
+        "n": 30,
+        "median_ms": 0.20640000002458692,
+        "p95_ms": 0.3597000031732023,
+        "sum_ms": 6.7192999995313585
+      }
+    }
+  },
+  "not_evaluated": {
+    "high_auto_hold_precision_recall_fp_fn": null,
+    "target_precision_recall": null,
+    "repeated_event_f1": null,
+    "reason": "No independent human-labelled HIGH/target/thread-event gold. ViCTSD toxicity is not policy severity or harassment."
+  },
+  "recommendation": {
+    "high_auto_hold_enabled": false,
+    "reason": "No calibrated HIGH rule, independent thread gold or activation approval."
+  },
+  "privacy": {
+    "raw_text_exported": false,
+    "per_row_predictions_exported": false,
+    "network_downloads": false,
+    "training": false,
+    "live_social_db_accessed": false,
+    "threshold_changed": false
+  },
+  "source_hashes": {
+    "evaluator": "77a22b6bf87e759c9ffbe5d674ee7de45d2d4c06c43148b196fc5466bb8d4198",
+    "active_policy": "602ee9996700c268653c183e5f325038f7b0d8fc70470bae107bd1f8727457b9",
+    "predictor": "9293fcf757eb7c1e9323563f234be85d9a825d0ecc30dd4df3967a989763b86e",
+    "adapter": "2bbbbbd3e9e2e8b9b1211d04d0e90b612f3d749ad88c6b7a0e79ab2b64d03ab3"
+  }
+}

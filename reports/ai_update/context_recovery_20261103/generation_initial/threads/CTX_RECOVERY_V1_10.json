@@ -1,0 +1,221 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_10",
+  "topic": "game",
+  "title": "Xin lỗi vì lag khác với đe dọa người chơi",
+  "data_origin": "synthetic",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C01",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_10_U01",
+      "timestamp": "2025-01-11T10:00:44Z",
+      "text": "Mạng tui bị rớt, đang vào lại.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mạng tui bị rớt, đang vào lại.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C02",
+      "parent_id": "CTX_RECOVERY_V1_10_C01",
+      "user_id": "CTX_RECOVERY_V1_10_U02",
+      "timestamp": "2025-01-11T10:01:30Z",
+      "text": "Tụi mình chờ ở phòng nhé.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Tụi mình chờ ở phòng nhé.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C03",
+      "parent_id": "CTX_RECOVERY_V1_10_C02",
+      "user_id": "CTX_RECOVERY_V1_10_U01",
+      "timestamp": "2025-01-11T10:02:18Z",
+      "text": "Xin lỗi cả đội vì mạng chập chờn, mình đang kiểm tra.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "apology",
+        "directed_at_user_id": "CTX_RECOVERY_V1_10_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": true,
+        "is_quote": false,
+        "label_reason": "Thừa nhận và xin lỗi hành vi trước; phát ngôn hiện tại không tiếp tục công kích. Căn cứ: Xin lỗi cả đội vì mạng chập chờn, mình đang kiểm tra.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C04",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_10_U03",
+      "timestamp": "2025-01-11T10:03:08Z",
+      "text": "Nếu chưa ổn thì cả đội nghỉ một ván.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Nếu chưa ổn thì cả đội nghỉ một ván.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C05",
+      "parent_id": "CTX_RECOVERY_V1_10_C03",
+      "user_id": "CTX_RECOVERY_V1_10_U02",
+      "timestamp": "2025-01-11T10:03:37Z",
+      "text": "Xin lỗi nhưng tao sẽ đánh mày nếu còn rớt mạng.",
+      "annotation": {
+        "label": "TOXIC",
+        "category": "directed_insult",
+        "directed_at_user_id": "CTX_RECOVERY_V1_10_U01",
+        "is_directed_attack": true,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Đe dọa trực tiếp sau cụm xin lỗi, không phải nhận lỗi. Căn cứ: Xin lỗi nhưng tao sẽ đánh mày nếu còn rớt mạng.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C06",
+      "parent_id": "CTX_RECOVERY_V1_10_C05",
+      "user_id": "CTX_RECOVERY_V1_10_U01",
+      "timestamp": "2025-01-11T10:04:31Z",
+      "text": "Mình không chấp nhận lời đe dọa như vậy.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "defense",
+        "directed_at_user_id": "CTX_RECOVERY_V1_10_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Người bị nhắm đến đặt giới hạn hoặc tự bảo vệ, không đáp trả bằng xúc phạm. Căn cứ: Mình không chấp nhận lời đe dọa như vậy.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C07",
+      "parent_id": "CTX_RECOVERY_V1_10_C05",
+      "user_id": "CTX_RECOVERY_V1_10_U03",
+      "timestamp": "2025-01-11T10:05:04Z",
+      "text": "Dừng đe dọa, chuyện kết nối xử lý riêng.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "intervention",
+        "directed_at_user_id": "CTX_RECOVERY_V1_10_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Can ngăn công kích, hướng trao đổi về vấn đề. Căn cứ: Dừng đe dọa, chuyện kết nối xử lý riêng.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C08",
+      "parent_id": "CTX_RECOVERY_V1_10_C07",
+      "user_id": "CTX_RECOVERY_V1_10_U02",
+      "timestamp": "2025-01-11T10:06:02Z",
+      "text": "Tui rời phòng trước.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Tui rời phòng trước.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C09",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_10_U01",
+      "timestamp": "2025-01-11T10:06:39Z",
+      "text": "Mình cũng không tiếp tục trận này.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình cũng không tiếp tục trận này.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C10",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_10_U03",
+      "timestamp": "2025-01-11T10:07:18Z",
+      "text": "Tụi mình chốt lại lịch khác trong kênh chung.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Tụi mình chốt lại lịch khác trong kênh chung.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    }
+  ],
+  "participants": [
+    {
+      "user_id": "CTX_RECOVERY_V1_10_U01",
+      "fictional_speaker": "A",
+      "style": "người lag"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_10_U02",
+      "fictional_speaker": "B",
+      "style": "đồng đội"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_10_U03",
+      "fictional_speaker": "C",
+      "style": "đội trưởng"
+    }
+  ],
+  "timestamp_origin": "synthetic_schedule_not_real",
+  "evaluation_eligible": false,
+  "human_gold": false,
+  "source_catalogue_sha256": "c4b6d3466b506d2edc0bbb7ddd5103308527bd2e4f95eee3f8bde3b6bf73e462",
+  "label_source": "synthetic",
+  "training_eligible": false
+}

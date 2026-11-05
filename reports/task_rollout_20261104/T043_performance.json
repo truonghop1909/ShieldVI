@@ -1,0 +1,120 @@
+{
+  "scope": "single_local_synthetic_workflow_not_load_test",
+  "concurrent_browser_contexts": 3,
+  "messages": 4,
+  "ai_model": "ViSoBERT V1.1 — ViCTSD",
+  "model_threshold": 0.41,
+  "model_fingerprint": "fdcd1bd70a1d1eced24464ce7958fe25d71e754c3f0c9b01ef38170859c26143",
+  "cpu_threads_for_neural_server": 2,
+  "host_logical_cpus": 12,
+  "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "os": "Windows-11-10.0.26300-SP0",
+  "percentiles": "p50 median; p95 nearest-rank; tiny n, no production SLO",
+  "notes": [
+    "ACK uses browser Resource Timing fetch duration through same-origin Vite proxy.",
+    "Enqueue SQL duration is actual INSERT execution before commit, joined only to committed messages; commit/lock time is in ACK. Enqueue spacing is millisecond notification spacing in one atomic content/job commit, not isolated queue insertion CPU time.",
+    "AI analysis includes neural/cache and context/target/repeated processing.",
+    "Fanout includes SSE polling window, snapshot fetch, render and Playwright observation; not isolated network time."
+  ],
+  "measurements": [
+    {
+      "content_id": "f7e97790-1fce-4361-87e9-5a8c9b04a9c4",
+      "ack_ms": 54,
+      "ack_fetch_ms": 21.800000000745058,
+      "author_analysis_visible_ms": 887,
+      "observed_ms": 1793778919882,
+      "enqueue_sql_insert_ms": 0.165,
+      "enqueue_commit_spacing_ms": 0,
+      "queue_wait_ms": 36,
+      "ai_analysis_ms": 123.39459999930114,
+      "fanout_snapshot_render_observation_ms": 631
+    },
+    {
+      "content_id": "97079019-39fb-48d9-81bf-3b7e34b9ce3e",
+      "ack_ms": 60,
+      "ack_fetch_ms": 19.200000001117587,
+      "author_analysis_visible_ms": 900,
+      "observed_ms": 1793778920785,
+      "enqueue_sql_insert_ms": 0.1794,
+      "enqueue_commit_spacing_ms": 0,
+      "queue_wait_ms": 31,
+      "ai_analysis_ms": 70.90269999935117,
+      "fanout_snapshot_render_observation_ms": 732
+    },
+    {
+      "content_id": "627e17c0-7b49-4b54-bcf1-66b0dfdc9a87",
+      "ack_ms": 65,
+      "ack_fetch_ms": 17.200000001117587,
+      "author_analysis_visible_ms": 873,
+      "observed_ms": 1793778922872,
+      "enqueue_sql_insert_ms": 0.1356,
+      "enqueue_commit_spacing_ms": 0,
+      "queue_wait_ms": 39,
+      "ai_analysis_ms": 57.57590000030177,
+      "fanout_snapshot_render_observation_ms": 706
+    },
+    {
+      "content_id": "30664fb2-bcd3-4c02-bdf2-5b0592631e36",
+      "ack_ms": 65,
+      "ack_fetch_ms": 31,
+      "author_analysis_visible_ms": 277,
+      "observed_ms": 1793778923260,
+      "enqueue_sql_insert_ms": 0.1482,
+      "enqueue_commit_spacing_ms": 0,
+      "queue_wait_ms": 50,
+      "ai_analysis_ms": 77.52760000039416,
+      "fanout_snapshot_render_observation_ms": 81
+    }
+  ],
+  "summary": {
+    "ack_fetch_ms": {
+      "n": 4,
+      "p50_ms": 20.5,
+      "p95_ms": 31,
+      "min_ms": 17.2,
+      "max_ms": 31
+    },
+    "enqueue_sql_insert_ms": {
+      "n": 4,
+      "p50_ms": 0.157,
+      "p95_ms": 0.179,
+      "min_ms": 0.136,
+      "max_ms": 0.179
+    },
+    "enqueue_commit_spacing_ms": {
+      "n": 4,
+      "p50_ms": 0.0,
+      "p95_ms": 0,
+      "min_ms": 0,
+      "max_ms": 0
+    },
+    "queue_wait_ms": {
+      "n": 4,
+      "p50_ms": 37.5,
+      "p95_ms": 50,
+      "min_ms": 31,
+      "max_ms": 50
+    },
+    "ai_analysis_ms": {
+      "n": 4,
+      "p50_ms": 74.215,
+      "p95_ms": 123.395,
+      "min_ms": 57.576,
+      "max_ms": 123.395
+    },
+    "fanout_snapshot_render_observation_ms": {
+      "n": 4,
+      "p50_ms": 668.5,
+      "p95_ms": 732,
+      "min_ms": 81,
+      "max_ms": 732
+    },
+    "author_analysis_visible_ms": {
+      "n": 4,
+      "p50_ms": 880.0,
+      "p95_ms": 900,
+      "min_ms": 277,
+      "max_ms": 900
+    }
+  }
+}

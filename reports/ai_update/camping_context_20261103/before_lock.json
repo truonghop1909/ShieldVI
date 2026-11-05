@@ -1,0 +1,17 @@
+{
+  "reference_sha256": "73e67e1b3023c88cc11c2c73f7e7414e16acb5b4c5b1dbbbc51f2df93db2bfad",
+  "input_sha256": "20182a7fa088789f118349aeed6fb981439e7bc0398c18d4e715ce4d33c12cba",
+  "before_sha256": "d07049daf129d5c13eebe71404fdd990101872b8e723b8c7a6ec6b5f68f34e4c",
+  "before_live_sha256": "c0289ee0381ffb553f0ba582fc62cc192977986880fdc6199c6cbca35689e162",
+  "baseline_scores_sha256": "37c9e32afb81fa84387f9ce0731ef34478c4cae3558c564c71e659726ef951b4",
+  "source_sha256": {
+    "context_signals.py": "784cc1109b979f717ecf28ca4c0d53efd088dc892391dae99827ac8aaf580a71",
+    "target_signals.py": "0f0a2ae6c9a08568c415744d34030736c591e9f08753aa28b65670bec3ecf227",
+    "signal_engine.py": "e31d7b2448168257ab672e485e0c7d677a563c91ca0a47b837ae3e715c010e6e",
+    "schemas.py": "361206812bab41779ed468e513223c891eb18afa21bfad2760e9dad7e0b10b6c",
+    "App.jsx": "ce16f04c8d2b93b54bcc36a8a48758ed84eb19cbcd0d21d72656d2472e4b631a"
+  },
+  "human_gold": false,
+  "independent_test_scored": false,
+  "rule_changes_started": false
+}

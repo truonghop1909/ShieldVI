@@ -1,0 +1,16 @@
+{
+  "authorization_type": "bounded_local_cpu_request_v1",
+  "authorized_local_task_execution": true,
+  "source_user_request": "hãy nạp dataset mới để train mô hình đi",
+  "source_user_request_sha256": "add45d791140194e789fe840464229f29e9981fdb4cb9b52cd0bbe33b732cbd4",
+  "config_sha256": "b07f074fdcd6fd61e8c8e97e80bffb041e161ba93d2f825bc3a01b8dd2eeb657",
+  "prepared_manifest_sha256": "fded02e7183065e2dc70616314908fa17a9a9ac21ec09874d63abcee95af3f6a",
+  "resource": "local_CPU",
+  "max_training_seconds": 900,
+  "maximum_external_cost": 0,
+  "max_cpu_threads": 4,
+  "paid_services_allowed": false,
+  "production_activation_allowed": false,
+  "user_approved_exact_hyperparameters": false,
+  "scope": "Explicit train request; one local frozen-encoder head-only continuation. No GPU cost or active checkpoint replacement."
+}

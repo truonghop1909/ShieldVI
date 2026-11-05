@@ -1,0 +1,112 @@
+{
+  "API_routes": [
+    {
+      "path": "/health",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "path": "/api/analyze",
+      "methods": [
+        "post"
+      ]
+    },
+    {
+      "path": "/api/reviews/batch",
+      "methods": [
+        "post"
+      ]
+    },
+    {
+      "path": "/api/reviews",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "path": "/api/reviews/stats",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "path": "/api/reviews/export",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "path": "/api/recent",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "path": "/",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "path": "/api/v1/moderate/comment",
+      "methods": [
+        "post"
+      ]
+    }
+  ],
+  "framework_and_mount_routes": [
+    {
+      "path": "/openapi.json",
+      "route_class": "Route"
+    },
+    {
+      "path": "/docs",
+      "route_class": "Route"
+    },
+    {
+      "path": "/docs/oauth2-redirect",
+      "route_class": "Route"
+    },
+    {
+      "path": "/redoc",
+      "route_class": "Route"
+    },
+    {
+      "path": "/health",
+      "route_class": "APIRoute"
+    },
+    {
+      "path": "/api/analyze",
+      "route_class": "APIRoute"
+    },
+    {
+      "path": "/api/reviews/batch",
+      "route_class": "APIRoute"
+    },
+    {
+      "path": "/api/reviews",
+      "route_class": "APIRoute"
+    },
+    {
+      "path": "/api/reviews/stats",
+      "route_class": "APIRoute"
+    },
+    {
+      "path": "/api/reviews/export",
+      "route_class": "APIRoute"
+    },
+    {
+      "path": "/api/recent",
+      "route_class": "APIRoute"
+    },
+    {
+      "path": "/",
+      "route_class": "APIRoute"
+    },
+    {
+      "path": "/dashboard",
+      "route_class": "Mount"
+    }
+  ]
+}

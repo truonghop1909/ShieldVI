@@ -1,0 +1,475 @@
+{
+  "classification": {
+    "before": {
+      "n": 195,
+      "tp": 15,
+      "fp": 6,
+      "tn": 167,
+      "fn": 7,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.7142857142857143,
+      "toxic_recall": 0.6818181818181818,
+      "macro_f1": 0.8301052208297031,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "after": {
+      "n": 195,
+      "tp": 18,
+      "fp": 1,
+      "tn": 171,
+      "fn": 4,
+      "abstained_clean": 1,
+      "abstained_toxic": 0,
+      "coverage": 0.9948717948717949,
+      "toxic_precision": 0.9473684210526315,
+      "toxic_recall": 0.8181818181818182,
+      "macro_f1": 0.93040370058873,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    }
+  },
+  "grounding": {
+    "before": {
+      "reference_comments_with_target_coverage": 195,
+      "reference_attacks": 22,
+      "target_emissions": 6,
+      "target_correct": 5,
+      "target_precision": 0.8333333333333334,
+      "target_recall": 0.22727272727272727,
+      "target_abstentions_on_reference_attacks": 17,
+      "repeated": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 5,
+        "precision": 1.0,
+        "recall": 0.2857142857142857,
+        "f1": 0.4444444444444444,
+        "evidence_correct": 4,
+        "evidence_total": 4,
+        "evidence_precision": 1.0
+      }
+    },
+    "after": {
+      "reference_comments_with_target_coverage": 195,
+      "reference_attacks": 22,
+      "target_emissions": 15,
+      "target_correct": 15,
+      "target_precision": 1.0,
+      "target_recall": 0.6818181818181818,
+      "target_abstentions_on_reference_attacks": 7,
+      "repeated": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231,
+        "evidence_correct": 14,
+        "evidence_total": 14,
+        "evidence_precision": 1.0
+      }
+    }
+  },
+  "comments": 200,
+  "raw_invariant": true,
+  "new_label_errors": [
+    {
+      "thread_id": "SHIELDVI_FRESH10_04_CLB_DOC_SACH",
+      "comment_id": "c17",
+      "text": "Bản dịch kia dùng “trở lại” còn bản này dùng “quay về”, nghĩa lệch nhẹ.",
+      "reference": "CLEAN",
+      "before": "CLEAN",
+      "after": "UNCERTAIN",
+      "raw_score": 0.03428,
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "remaining_errors": [
+    {
+      "thread_id": "SHIELDVI_FRESH10_01_LOP_SUA_LAPTOP",
+      "comment_id": "c15",
+      "text": "Thế mà ban đầu làm như hiểu hết rồi. Cả nhóm phải dọn hộ cái sự tự tin ấy.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "raw_score": 0.402489,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_04_CLB_DOC_SACH",
+      "comment_id": "c17",
+      "text": "Bản dịch kia dùng “trở lại” còn bản này dùng “quay về”, nghĩa lệch nhẹ.",
+      "reference": "CLEAN",
+      "before": "CLEAN",
+      "after": "UNCERTAIN",
+      "raw_score": 0.03428,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_05_CUOC_THI_TRANG_TRI",
+      "comment_id": "c09",
+      "text": "Đúng, tự làm ra cái góc xấu vậy còn khoe thì U01 cũng tự tin vô lý thật.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "raw_score": 0.307369,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_06_NHOM_BONG_CHUYEN",
+      "comment_id": "c07",
+      "text": "Đội hình mà cứ trông chờ U03 đỡ bóng thì chắc chờ phép màu. Có người tập mãi vẫn chẳng lên tay.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "raw_score": 0.119616,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_06_NHOM_BONG_CHUYEN",
+      "comment_id": "c15",
+      "text": "U03 làm lại pha đó đi, mắc lỗi đơn giản vậy mà cũng cần nhắc cả chục lần, chịu thật.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "raw_score": 0.24442,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_10_GOC_TRONG_CAY",
+      "comment_id": "c11",
+      "text": "Nói chậu hay nói t thế 😆",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.471893,
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "changed_comments": [
+    {
+      "thread_id": "SHIELDVI_FRESH10_01_LOP_SUA_LAPTOP",
+      "comment_id": "c06",
+      "text": "Tháo máy mà còn không biết đọc biểu đồ thì cũng tài thật. Người ta chỉ từng bước vẫn loay hoay.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "raw_score": 0.15136,
+      "before_target": null,
+      "after_target": "U01"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_01_LOP_SUA_LAPTOP",
+      "comment_id": "c11",
+      "text": "Khó tin là đọc hướng dẫn còn cần người bế tận tay. Đúng là chuyên gia tự phong 🙃",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "raw_score": 0.191687,
+      "before_target": null,
+      "after_target": "U01"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_02_NONG_TRAI_GAME",
+      "comment_id": "c10",
+      "text": "T đang khịa cái cuốc gỗ của chính t đó, xài chậm kinh khủng.",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "CLEAN",
+      "raw_score": 0.49494,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_04_CLB_DOC_SACH",
+      "comment_id": "c17",
+      "text": "Bản dịch kia dùng “trở lại” còn bản này dùng “quay về”, nghĩa lệch nhẹ.",
+      "reference": "CLEAN",
+      "before": "CLEAN",
+      "after": "UNCERTAIN",
+      "raw_score": 0.03428,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_05_CUOC_THI_TRANG_TRI",
+      "comment_id": "c08",
+      "text": "Bạn có thể chê bố cục, đừng chê con người mình thế.",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "CLEAN",
+      "raw_score": 0.77712,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_05_CUOC_THI_TRANG_TRI",
+      "comment_id": "c10",
+      "text": "Khoan, không thích thì nhận xét đồ vật thôi. Sao quay sang công kích chủ bài?",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "CLEAN",
+      "raw_score": 0.570396,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_05_CUOC_THI_TRANG_TRI",
+      "comment_id": "c13",
+      "text": "Nói thẳng khác với hạ nhục, mình không tiếp kiểu đó.",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "CLEAN",
+      "raw_score": 0.431275,
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_07_PHAN_LOAI_RAC",
+      "comment_id": "c06",
+      "text": "@U03 m làm bừa rồi nói xin lỗi là xong à? Sống kiểu vô ý thức thật.",
+      "reference": "TOXIC",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.874613,
+      "before_target": null,
+      "after_target": "U03"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_07_PHAN_LOAI_RAC",
+      "comment_id": "c07",
+      "text": "@U02 có góp ý thì nói, mày làm như mình là quản lý cả tầng, thích ra oai quá.",
+      "reference": "TOXIC",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.512911,
+      "before_target": null,
+      "after_target": "U02"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_07_PHAN_LOAI_RAC",
+      "comment_id": "c11",
+      "text": "Mày còn bảo người khác ra oai, chính mày làm sai mà còn cãi cùn.",
+      "reference": "TOXIC",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.818988,
+      "before_target": null,
+      "after_target": "U03"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_07_PHAN_LOAI_RAC",
+      "comment_id": "c12",
+      "text": "Nói như ông là đúng hết thì khỏi cần họp tầng. Đúng là kiểu người thích bắt nạt.",
+      "reference": "TOXIC",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.767514,
+      "before_target": null,
+      "after_target": "U02"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_08_BETA_APP_HOC_NGOAI_NGU",
+      "comment_id": "c13",
+      "text": "T bảo thật @U01: code kiểu này thì f*cking clueless, đem khoe chi cho quê.",
+      "reference": "TOXIC",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.429178,
+      "before_target": null,
+      "after_target": "U01"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_09_AM_NHAC_OPEN_MIC",
+      "comment_id": "c07",
+      "text": "@U03 hát không ra hồn mà đòi lên sân khấu thì đúng là làm trò cười.",
+      "reference": "TOXIC",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.81355,
+      "before_target": null,
+      "after_target": "U03"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_09_AM_NHAC_OPEN_MIC",
+      "comment_id": "c12",
+      "text": "Vậy mà còn nhạy cảm, hát dở còn thích làm trung tâm, khum biết ngại à?",
+      "reference": "TOXIC",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.823986,
+      "before_target": null,
+      "after_target": "U03"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_09_AM_NHAC_OPEN_MIC",
+      "comment_id": "c17",
+      "text": "Nhưng t xin lỗi không có nghĩa b hát hay đâu, cái kiểu lên sân khấu phông bạt vẫn cringe lắm.",
+      "reference": "TOXIC",
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "raw_score": 0.798809,
+      "before_target": null,
+      "after_target": "U03"
+    },
+    {
+      "thread_id": "SHIELDVI_FRESH10_10_GOC_TRONG_CAY",
+      "comment_id": "c14",
+      "text": "Quá tuyệt, t đổi bạn ít hạt ngò nha.",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "CLEAN",
+      "raw_score": 0.01156,
+      "before_target": "U05",
+      "after_target": null
+    }
+  ],
+  "uncertain_reference_excluded": 5,
+  "reference_evidence": {
+    "before": {
+      "evidence_correct": 4,
+      "evidence_emitted": 4,
+      "evidence_reference": 19,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.21052631578947367,
+      "fully_covered_events": 0,
+      "expected_events": 7,
+      "missing_evidence": [
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_01_LOP_SUA_LAPTOP",
+            "U02",
+            "U01"
+          ],
+          "missing": [
+            "c06",
+            "c11",
+            "c15"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_03_MAY_ANH_FILM",
+            "U03",
+            "U02"
+          ],
+          "missing": [
+            "c07"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_06_NHOM_BONG_CHUYEN",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c07",
+            "c11",
+            "c15"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_07_PHAN_LOAI_RAC",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c06",
+            "c11"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_07_PHAN_LOAI_RAC",
+            "U03",
+            "U02"
+          ],
+          "missing": [
+            "c07",
+            "c12"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_08_BETA_APP_HOC_NGOAI_NGU",
+            "U02",
+            "U01"
+          ],
+          "missing": [
+            "c13"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_09_AM_NHAC_OPEN_MIC",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c07",
+            "c12",
+            "c17"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "evidence_correct": 14,
+      "evidence_emitted": 14,
+      "evidence_reference": 19,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.7368421052631579,
+      "fully_covered_events": 4,
+      "expected_events": 7,
+      "missing_evidence": [
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_01_LOP_SUA_LAPTOP",
+            "U02",
+            "U01"
+          ],
+          "missing": [
+            "c15"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_03_MAY_ANH_FILM",
+            "U03",
+            "U02"
+          ],
+          "missing": [
+            "c07"
+          ]
+        },
+        {
+          "pair": [
+            "SHIELDVI_FRESH10_06_NHOM_BONG_CHUYEN",
+            "U02",
+            "U03"
+          ],
+          "missing": [
+            "c07",
+            "c11",
+            "c15"
+          ]
+        }
+      ]
+    }
+  },
+  "scope": "Fresh10 development regression; imported user-r06 score cache only",
+  "human_gold": false,
+  "training_performed": false,
+  "default_changed": false,
+  "readiness_lock_modified": false
+}

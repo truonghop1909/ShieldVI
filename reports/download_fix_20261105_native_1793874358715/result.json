@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    "reproduced_correct_suggested_name_but_actual_uuid_without_extension_in_unfixed_context",
+    "actual_native_disk_filename_json_and_utf8_content_without_saveAs",
+    "chrome_downloads_ui_shows_json_filename",
+    "repeat_export_keeps_both_files_without_overwriting",
+    "shared_studio_csv_jsonl_extensions_and_utf8_content_preserved",
+    "configuration_scoped_to_fixed_context_only",
+    "named_export_survives_browser_context_close"
+  ],
+  "files": [
+    "conversation_analysis_20261105_102559_951_ca680c8c7f93a167.json",
+    "conversation_analysis_20261105_102600_450_c5d27db428e09661.json",
+    "dataset_20261105_102600_562_aec8b8618e7024fd.csv",
+    "dataset_20261105_102600_678_4b0dc04757b7af9a.jsonl"
+  ],
+  "root": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\download_fix_20261105_native_1793874358715"
+}

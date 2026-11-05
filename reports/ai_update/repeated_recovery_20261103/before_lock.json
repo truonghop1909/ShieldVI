@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "context_signals.py": "7743ffc7d012be2c197fcec1220b5b57f0546a21dbafde0d712f6a9ef8438a3c",
+    "target_signals.py": "b6db5323343cab9453d8788fd0ce09326f771033fe445cfc09c6507623dabe12",
+    "signal_engine.py": "517437722c148b84e6e586bb4946c88e5455f6d5edea9ac7234f1cc19147b672"
+  },
+  "previous_outputs_sha256": "808af38aa34de9c96dc3bf68cdd267843d750030eb06a8210a8e445ae88f5fcf",
+  "previous_predictions_sha256": "fdc341e69c1a3e5e5a94f3bc85f395e66146867f8053be5b9bc63af0bbf05dd1",
+  "frozen_dataset_manifest_sha256": "c634273c71b858b56f5850eb280843c1b179be1f487f954c014e997f12b51652",
+  "T028_real": "BLOCKED",
+  "training_allowed": false
+}

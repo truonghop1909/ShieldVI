@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "source_pack_files_verified": 13,
+  "historical_statuses_unchanged": 27,
+  "new_tasks": 10,
+  "states": {
+    "T034": "DONE_VERIFIED",
+    "T035": "DONE_VERIFIED",
+    "T036": "DONE_VERIFIED",
+    "T037": "DONE_VERIFIED",
+    "T038": "DONE_VERIFIED",
+    "T039": "DONE_VERIFIED",
+    "T040": "DONE_VERIFIED",
+    "T041": "DONE_VERIFIED",
+    "T042": "DONE_VERIFIED",
+    "T043": "DONE_VERIFIED"
+  },
+  "local_links_checked": 36,
+  "task_required_items_verified": 20,
+  "readiness_lock_sha256": "ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3",
+  "source_pack_retained": true,
+  "git_metadata_available": false,
+  "production_changed": false
+}

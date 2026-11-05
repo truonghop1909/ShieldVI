@@ -1,0 +1,1417 @@
+﻿thread_id,comment_id,text,original_label,original_target,label_source,human_gold,review_status,adjudication_question,adjudicated_label,adjudicated_target,decision_reason,reviewer,actor_user_id,parent_id,reply_to_user_id,full_conversation_context
+SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA,c06,"U03 làm cái nghề giao hàng mà chuyện canh giờ cũng không xong, chịu thật.",TOXIC,U03,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Phàn nàn chất lượng dịch vụ có bằng chứng hay suy diễn hạ thấp người giao hàng? Xem cả lời giải thích về mưa và việc giao trễ.,,,,,U02,c05,U03,"c01 · U01 · reply=∅ · 2026-10-21T10:00:00Z · reference=CLEAN · target=∅
+Ủa mn ơi app báo đơn tới lúc 18h mà mưa quá trời, có ai nhận được hàng chưa?
+
+c02 · U03 · reply=U01 · 2026-10-21T10:02:00Z · reference=CLEAN · target=∅
+Mình ship tuyến này nè, đường ngập đoạn cầu, chắc chậm 15p. Xin lỗi cả nhà nha.
+
+c03 · U04 · reply=U01 · 2026-10-21T10:04:00Z · reference=CLEAN · target=∅
+Bên mình cũng kẹt. Thôi chờ chứ ép chạy mưa nguy hiểm á.
+
+c04 · U02 · reply=U03 · 2026-10-21T10:06:00Z · reference=CLEAN · target=∅
+Mình đặt từ 5h, đồ ăn nguội hết thì sao? Có được hoàn phí ship không?
+
+c05 · U03 · reply=U02 · 2026-10-21T10:08:00Z · reference=CLEAN · target=∅
+Bạn inbox mã đơn qua app giùm, mình không nhận thông tin cá nhân trong group.
+
+c06 · U02 · reply=U03 · 2026-10-21T10:10:00Z · reference=TOXIC · target=U03
+U03 làm cái nghề giao hàng mà chuyện canh giờ cũng không xong, chịu thật.
+
+c07 · U05 · reply=U02 · 2026-10-21T10:12:00Z · reference=CLEAN · target=∅
+Góp ý thì góp ý, chứ công kích người chạy xe làm gì bro.
+
+c08 · U01 · reply=U03 · 2026-10-21T10:14:00Z · reference=CLEAN · target=∅
+Đơn mình tới rồi, hộp hơi ướt nhưng đồ bên trong ổn.
+
+c09 · U03 · reply=U02 · 2026-10-21T10:16:00Z · reference=CLEAN · target=∅
+Mình hiểu bạn bực, đường hôm nay tắc thật. Mình báo lại cửa hàng.
+
+c10 · U02 · reply=U03 · 2026-10-21T10:18:00Z · reference=TOXIC · target=U03
+Thấy cách U03 xử lý mới hiểu vì sao đơn cứ trễ, đúng là chuyên nghiệp theo kiểu ngược.
+
+c11 · U04 · reply=U02 · 2026-10-21T10:20:00Z · reference=CLEAN · target=∅
+Bạn đang mỉa mai người ta đấy, app có mục khiếu nại rõ ràng mà.
+
+c12 · U01 · reply=U02 · 2026-10-21T10:22:00Z · reference=CLEAN · target=∅
+Nếu còn nóng thì món trễ 15 phút vẫn chấp nhận được, tùy trường hợp thôi.
+
+c13 · U03 · reply=U04 · 2026-10-21T10:24:00Z · reference=CLEAN · target=∅
+Cảm ơn bạn nhắc, mình gửi tình trạng chuyến đi cho hỗ trợ rồi.
+
+c14 · U02 · reply=U03 · 2026-10-21T10:26:00Z · reference=TOXIC · target=U03
+Tới lúc cần giải quyết thì U03 chỉ biết đổ cho trời, làm ăn kiểu đó ai dám tin.
+
+c15 · U05 · reply=U02 · 2026-10-21T10:28:00Z · reference=CLEAN · target=∅
+Không ai phủ nhận đơn trễ, nhưng nói người ta không đáng tin là quá rồi.
+
+c16 · U02 · reply=U05 · 2026-10-21T10:30:00Z · reference=CLEAN · target=∅
+Ờ thôi, tui sẽ gửi ticket. Nhưng dịch vụ kiểu này chán thiệt.
+
+c17 · U03 · reply=U02 · 2026-10-21T10:32:00Z · reference=CLEAN · target=∅
+Ok bạn, mình sẽ bổ sung bằng chứng chuyến giao nếu hỗ trợ yêu cầu.
+
+c18 · U04 · reply=U03 · 2026-10-21T10:34:00Z · reference=CLEAN · target=∅
+Có số ticket thì nhớ che thông tin nha, public lên lại lộ địa chỉ.
+
+c19 · U01 · reply=U01 · 2026-10-21T10:36:00Z · reference=CLEAN · target=∅
+Cảm ơn mọi người, ai đang đi đường nhớ chạy cẩn thận nghen ☔
+
+c20 · U05 · reply=U01 · 2026-10-21T10:38:00Z · reference=CLEAN · target=∅
+Mưa nay đúng kiểu muốn bơi về nhà luôn vl 😭"
+SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA,c10,"Thấy cách U03 xử lý mới hiểu vì sao đơn cứ trễ, đúng là chuyên nghiệp theo kiểu ngược.",TOXIC,U03,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Phàn nàn chất lượng dịch vụ có bằng chứng hay suy diễn hạ thấp người giao hàng? Xem cả lời giải thích về mưa và việc giao trễ.,,,,,U02,c09,U03,"c01 · U01 · reply=∅ · 2026-10-21T10:00:00Z · reference=CLEAN · target=∅
+Ủa mn ơi app báo đơn tới lúc 18h mà mưa quá trời, có ai nhận được hàng chưa?
+
+c02 · U03 · reply=U01 · 2026-10-21T10:02:00Z · reference=CLEAN · target=∅
+Mình ship tuyến này nè, đường ngập đoạn cầu, chắc chậm 15p. Xin lỗi cả nhà nha.
+
+c03 · U04 · reply=U01 · 2026-10-21T10:04:00Z · reference=CLEAN · target=∅
+Bên mình cũng kẹt. Thôi chờ chứ ép chạy mưa nguy hiểm á.
+
+c04 · U02 · reply=U03 · 2026-10-21T10:06:00Z · reference=CLEAN · target=∅
+Mình đặt từ 5h, đồ ăn nguội hết thì sao? Có được hoàn phí ship không?
+
+c05 · U03 · reply=U02 · 2026-10-21T10:08:00Z · reference=CLEAN · target=∅
+Bạn inbox mã đơn qua app giùm, mình không nhận thông tin cá nhân trong group.
+
+c06 · U02 · reply=U03 · 2026-10-21T10:10:00Z · reference=TOXIC · target=U03
+U03 làm cái nghề giao hàng mà chuyện canh giờ cũng không xong, chịu thật.
+
+c07 · U05 · reply=U02 · 2026-10-21T10:12:00Z · reference=CLEAN · target=∅
+Góp ý thì góp ý, chứ công kích người chạy xe làm gì bro.
+
+c08 · U01 · reply=U03 · 2026-10-21T10:14:00Z · reference=CLEAN · target=∅
+Đơn mình tới rồi, hộp hơi ướt nhưng đồ bên trong ổn.
+
+c09 · U03 · reply=U02 · 2026-10-21T10:16:00Z · reference=CLEAN · target=∅
+Mình hiểu bạn bực, đường hôm nay tắc thật. Mình báo lại cửa hàng.
+
+c10 · U02 · reply=U03 · 2026-10-21T10:18:00Z · reference=TOXIC · target=U03
+Thấy cách U03 xử lý mới hiểu vì sao đơn cứ trễ, đúng là chuyên nghiệp theo kiểu ngược.
+
+c11 · U04 · reply=U02 · 2026-10-21T10:20:00Z · reference=CLEAN · target=∅
+Bạn đang mỉa mai người ta đấy, app có mục khiếu nại rõ ràng mà.
+
+c12 · U01 · reply=U02 · 2026-10-21T10:22:00Z · reference=CLEAN · target=∅
+Nếu còn nóng thì món trễ 15 phút vẫn chấp nhận được, tùy trường hợp thôi.
+
+c13 · U03 · reply=U04 · 2026-10-21T10:24:00Z · reference=CLEAN · target=∅
+Cảm ơn bạn nhắc, mình gửi tình trạng chuyến đi cho hỗ trợ rồi.
+
+c14 · U02 · reply=U03 · 2026-10-21T10:26:00Z · reference=TOXIC · target=U03
+Tới lúc cần giải quyết thì U03 chỉ biết đổ cho trời, làm ăn kiểu đó ai dám tin.
+
+c15 · U05 · reply=U02 · 2026-10-21T10:28:00Z · reference=CLEAN · target=∅
+Không ai phủ nhận đơn trễ, nhưng nói người ta không đáng tin là quá rồi.
+
+c16 · U02 · reply=U05 · 2026-10-21T10:30:00Z · reference=CLEAN · target=∅
+Ờ thôi, tui sẽ gửi ticket. Nhưng dịch vụ kiểu này chán thiệt.
+
+c17 · U03 · reply=U02 · 2026-10-21T10:32:00Z · reference=CLEAN · target=∅
+Ok bạn, mình sẽ bổ sung bằng chứng chuyến giao nếu hỗ trợ yêu cầu.
+
+c18 · U04 · reply=U03 · 2026-10-21T10:34:00Z · reference=CLEAN · target=∅
+Có số ticket thì nhớ che thông tin nha, public lên lại lộ địa chỉ.
+
+c19 · U01 · reply=U01 · 2026-10-21T10:36:00Z · reference=CLEAN · target=∅
+Cảm ơn mọi người, ai đang đi đường nhớ chạy cẩn thận nghen ☔
+
+c20 · U05 · reply=U01 · 2026-10-21T10:38:00Z · reference=CLEAN · target=∅
+Mưa nay đúng kiểu muốn bơi về nhà luôn vl 😭"
+SHIELDVI_NOV10_11_GIAO_HANG_TROI_MUA,c14,"Tới lúc cần giải quyết thì U03 chỉ biết đổ cho trời, làm ăn kiểu đó ai dám tin.",TOXIC,U03,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Phàn nàn chất lượng dịch vụ có bằng chứng hay suy diễn hạ thấp người giao hàng? Xem cả lời giải thích về mưa và việc giao trễ.,,,,,U02,c13,U03,"c01 · U01 · reply=∅ · 2026-10-21T10:00:00Z · reference=CLEAN · target=∅
+Ủa mn ơi app báo đơn tới lúc 18h mà mưa quá trời, có ai nhận được hàng chưa?
+
+c02 · U03 · reply=U01 · 2026-10-21T10:02:00Z · reference=CLEAN · target=∅
+Mình ship tuyến này nè, đường ngập đoạn cầu, chắc chậm 15p. Xin lỗi cả nhà nha.
+
+c03 · U04 · reply=U01 · 2026-10-21T10:04:00Z · reference=CLEAN · target=∅
+Bên mình cũng kẹt. Thôi chờ chứ ép chạy mưa nguy hiểm á.
+
+c04 · U02 · reply=U03 · 2026-10-21T10:06:00Z · reference=CLEAN · target=∅
+Mình đặt từ 5h, đồ ăn nguội hết thì sao? Có được hoàn phí ship không?
+
+c05 · U03 · reply=U02 · 2026-10-21T10:08:00Z · reference=CLEAN · target=∅
+Bạn inbox mã đơn qua app giùm, mình không nhận thông tin cá nhân trong group.
+
+c06 · U02 · reply=U03 · 2026-10-21T10:10:00Z · reference=TOXIC · target=U03
+U03 làm cái nghề giao hàng mà chuyện canh giờ cũng không xong, chịu thật.
+
+c07 · U05 · reply=U02 · 2026-10-21T10:12:00Z · reference=CLEAN · target=∅
+Góp ý thì góp ý, chứ công kích người chạy xe làm gì bro.
+
+c08 · U01 · reply=U03 · 2026-10-21T10:14:00Z · reference=CLEAN · target=∅
+Đơn mình tới rồi, hộp hơi ướt nhưng đồ bên trong ổn.
+
+c09 · U03 · reply=U02 · 2026-10-21T10:16:00Z · reference=CLEAN · target=∅
+Mình hiểu bạn bực, đường hôm nay tắc thật. Mình báo lại cửa hàng.
+
+c10 · U02 · reply=U03 · 2026-10-21T10:18:00Z · reference=TOXIC · target=U03
+Thấy cách U03 xử lý mới hiểu vì sao đơn cứ trễ, đúng là chuyên nghiệp theo kiểu ngược.
+
+c11 · U04 · reply=U02 · 2026-10-21T10:20:00Z · reference=CLEAN · target=∅
+Bạn đang mỉa mai người ta đấy, app có mục khiếu nại rõ ràng mà.
+
+c12 · U01 · reply=U02 · 2026-10-21T10:22:00Z · reference=CLEAN · target=∅
+Nếu còn nóng thì món trễ 15 phút vẫn chấp nhận được, tùy trường hợp thôi.
+
+c13 · U03 · reply=U04 · 2026-10-21T10:24:00Z · reference=CLEAN · target=∅
+Cảm ơn bạn nhắc, mình gửi tình trạng chuyến đi cho hỗ trợ rồi.
+
+c14 · U02 · reply=U03 · 2026-10-21T10:26:00Z · reference=TOXIC · target=U03
+Tới lúc cần giải quyết thì U03 chỉ biết đổ cho trời, làm ăn kiểu đó ai dám tin.
+
+c15 · U05 · reply=U02 · 2026-10-21T10:28:00Z · reference=CLEAN · target=∅
+Không ai phủ nhận đơn trễ, nhưng nói người ta không đáng tin là quá rồi.
+
+c16 · U02 · reply=U05 · 2026-10-21T10:30:00Z · reference=CLEAN · target=∅
+Ờ thôi, tui sẽ gửi ticket. Nhưng dịch vụ kiểu này chán thiệt.
+
+c17 · U03 · reply=U02 · 2026-10-21T10:32:00Z · reference=CLEAN · target=∅
+Ok bạn, mình sẽ bổ sung bằng chứng chuyến giao nếu hỗ trợ yêu cầu.
+
+c18 · U04 · reply=U03 · 2026-10-21T10:34:00Z · reference=CLEAN · target=∅
+Có số ticket thì nhớ che thông tin nha, public lên lại lộ địa chỉ.
+
+c19 · U01 · reply=U01 · 2026-10-21T10:36:00Z · reference=CLEAN · target=∅
+Cảm ơn mọi người, ai đang đi đường nhớ chạy cẩn thận nghen ☔
+
+c20 · U05 · reply=U01 · 2026-10-21T10:38:00Z · reference=CLEAN · target=∅
+Mưa nay đúng kiểu muốn bơi về nhà luôn vl 😭"
+SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS,c06,Trình U02 kiểu đó mà còn đăng ký band 7? ambitious dữ 😏,TOXIC,U02,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Nhận xét trình độ/band mục tiêu hoặc học thuộc script là góp ý cụ thể hay chế giễu cá nhân trong ngữ cảnh này?,,,,,U04,c05,U02,"c01 · U01 · reply=∅ · 2026-10-22T10:00:00Z · reference=CLEAN · target=∅
+Speaking club tối nay topic: a place you want to revisit. Ai vào call 8pm?
+
+c02 · U02 · reply=U01 · 2026-10-22T10:02:00Z · reference=CLEAN · target=∅
+Me! Nhưng mic mình rè, cho mình text vài ý trước nha.
+
+c03 · U03 · reply=U01 · 2026-10-22T10:04:00Z · reference=CLEAN · target=∅
+I can host. Nhớ đừng bật auto-correct transcript nhé.
+
+c04 · U04 · reply=U02 · 2026-10-22T10:06:00Z · reference=CLEAN · target=∅
+Hôm qua U02 phát âm “beach” hơi sai. Bạn thử nghe lại âm /i:/ nha.
+
+c05 · U02 · reply=U04 · 2026-10-22T10:08:00Z · reference=CLEAN · target=∅
+Ok cảm ơn góp ý. Mình luyện lại, đừng clip đoạn đó đăng đâu nha.
+
+c06 · U04 · reply=U02 · 2026-10-22T10:10:00Z · reference=TOXIC · target=U02
+Trình U02 kiểu đó mà còn đăng ký band 7? ambitious dữ 😏
+
+c07 · U05 · reply=U04 · 2026-10-22T10:12:00Z · reference=CLEAN · target=∅
+Đặt mục tiêu cao đâu có nghĩa được quyền chế giễu.
+
+c08 · U01 · reply=U04 · 2026-10-22T10:14:00Z · reference=CLEAN · target=∅
+Mình nhắc lần nữa: feedback vào pronunciation, không phán xét người học.
+
+c09 · U02 · reply=U04 · 2026-10-22T10:16:00Z · reference=CLEAN · target=∅
+Mình biết còn yếu, nhưng bạn góp ý cụ thể giúp mình được không?
+
+c10 · U03 · reply=U02 · 2026-10-22T10:18:00Z · reference=CLEAN · target=∅
+Mình có bảng minimal pairs miễn phí, gửi link trong group resource nhé.
+
+c11 · U05 · reply=U03 · 2026-10-22T10:20:00Z · reference=CLEAN · target=∅
+Ôi mic mình nghe như robot, cringe quá 😂
+
+c12 · U04 · reply=U02 · 2026-10-22T10:22:00Z · reference=TOXIC · target=U02
+Bạn U02 cứ học thuộc script rồi tưởng mình nói hay, nghe là biết ngay.
+
+c13 · U02 · reply=U04 · 2026-10-22T10:24:00Z · reference=CLEAN · target=∅
+Bạn nói vậy trước cả nhóm làm mình khó xử. Chỉ lỗi cụ thể thôi.
+
+c14 · U03 · reply=U04 · 2026-10-22T10:26:00Z · reference=CLEAN · target=∅
+“Học thuộc script” không phải lúc nào cũng sai; vấn đề là có hiểu ý không.
+
+c15 · U01 · reply=U02 · 2026-10-22T10:28:00Z · reference=CLEAN · target=∅
+Mình sẽ mute nếu công kích cá nhân tiếp diễn. Bây giờ quay lại topic nhé.
+
+c16 · U04 · reply=U01 · 2026-10-22T10:30:00Z · reference=TOXIC · target=U02
+Fine. Nhưng U02 còn phải nhờ người khác sửa từng chữ thì 7.0 hơi viển vông.
+
+c17 · U05 · reply=U04 · 2026-10-22T10:32:00Z · reference=CLEAN · target=∅
+Thôi bạn, stop being mean. Ai cũng từng bắt đầu từ band thấp.
+
+c18 · U02 · reply=U03 · 2026-10-22T10:34:00Z · reference=CLEAN · target=∅
+Cho mình cái link minimal pairs với U03, thanks.
+
+c19 · U03 · reply=U02 · 2026-10-22T10:36:00Z · reference=CLEAN · target=∅
+Sent in resources. Tối nay tập 2 lượt, không record.
+
+c20 · U01 · reply=U03 · 2026-10-22T10:38:00Z · reference=CLEAN · target=∅
+Thanks mọi người. 8pm sharp, be kind pls 🙌"
+SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS,c12,"Bạn U02 cứ học thuộc script rồi tưởng mình nói hay, nghe là biết ngay.",TOXIC,U02,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Nhận xét trình độ/band mục tiêu hoặc học thuộc script là góp ý cụ thể hay chế giễu cá nhân trong ngữ cảnh này?,,,,,U04,c09,U02,"c01 · U01 · reply=∅ · 2026-10-22T10:00:00Z · reference=CLEAN · target=∅
+Speaking club tối nay topic: a place you want to revisit. Ai vào call 8pm?
+
+c02 · U02 · reply=U01 · 2026-10-22T10:02:00Z · reference=CLEAN · target=∅
+Me! Nhưng mic mình rè, cho mình text vài ý trước nha.
+
+c03 · U03 · reply=U01 · 2026-10-22T10:04:00Z · reference=CLEAN · target=∅
+I can host. Nhớ đừng bật auto-correct transcript nhé.
+
+c04 · U04 · reply=U02 · 2026-10-22T10:06:00Z · reference=CLEAN · target=∅
+Hôm qua U02 phát âm “beach” hơi sai. Bạn thử nghe lại âm /i:/ nha.
+
+c05 · U02 · reply=U04 · 2026-10-22T10:08:00Z · reference=CLEAN · target=∅
+Ok cảm ơn góp ý. Mình luyện lại, đừng clip đoạn đó đăng đâu nha.
+
+c06 · U04 · reply=U02 · 2026-10-22T10:10:00Z · reference=TOXIC · target=U02
+Trình U02 kiểu đó mà còn đăng ký band 7? ambitious dữ 😏
+
+c07 · U05 · reply=U04 · 2026-10-22T10:12:00Z · reference=CLEAN · target=∅
+Đặt mục tiêu cao đâu có nghĩa được quyền chế giễu.
+
+c08 · U01 · reply=U04 · 2026-10-22T10:14:00Z · reference=CLEAN · target=∅
+Mình nhắc lần nữa: feedback vào pronunciation, không phán xét người học.
+
+c09 · U02 · reply=U04 · 2026-10-22T10:16:00Z · reference=CLEAN · target=∅
+Mình biết còn yếu, nhưng bạn góp ý cụ thể giúp mình được không?
+
+c10 · U03 · reply=U02 · 2026-10-22T10:18:00Z · reference=CLEAN · target=∅
+Mình có bảng minimal pairs miễn phí, gửi link trong group resource nhé.
+
+c11 · U05 · reply=U03 · 2026-10-22T10:20:00Z · reference=CLEAN · target=∅
+Ôi mic mình nghe như robot, cringe quá 😂
+
+c12 · U04 · reply=U02 · 2026-10-22T10:22:00Z · reference=TOXIC · target=U02
+Bạn U02 cứ học thuộc script rồi tưởng mình nói hay, nghe là biết ngay.
+
+c13 · U02 · reply=U04 · 2026-10-22T10:24:00Z · reference=CLEAN · target=∅
+Bạn nói vậy trước cả nhóm làm mình khó xử. Chỉ lỗi cụ thể thôi.
+
+c14 · U03 · reply=U04 · 2026-10-22T10:26:00Z · reference=CLEAN · target=∅
+“Học thuộc script” không phải lúc nào cũng sai; vấn đề là có hiểu ý không.
+
+c15 · U01 · reply=U02 · 2026-10-22T10:28:00Z · reference=CLEAN · target=∅
+Mình sẽ mute nếu công kích cá nhân tiếp diễn. Bây giờ quay lại topic nhé.
+
+c16 · U04 · reply=U01 · 2026-10-22T10:30:00Z · reference=TOXIC · target=U02
+Fine. Nhưng U02 còn phải nhờ người khác sửa từng chữ thì 7.0 hơi viển vông.
+
+c17 · U05 · reply=U04 · 2026-10-22T10:32:00Z · reference=CLEAN · target=∅
+Thôi bạn, stop being mean. Ai cũng từng bắt đầu từ band thấp.
+
+c18 · U02 · reply=U03 · 2026-10-22T10:34:00Z · reference=CLEAN · target=∅
+Cho mình cái link minimal pairs với U03, thanks.
+
+c19 · U03 · reply=U02 · 2026-10-22T10:36:00Z · reference=CLEAN · target=∅
+Sent in resources. Tối nay tập 2 lượt, không record.
+
+c20 · U01 · reply=U03 · 2026-10-22T10:38:00Z · reference=CLEAN · target=∅
+Thanks mọi người. 8pm sharp, be kind pls 🙌"
+SHIELDVI_NOV10_12_LUYEN_SPEAKING_IELTS,c16,Fine. Nhưng U02 còn phải nhờ người khác sửa từng chữ thì 7.0 hơi viển vông.,TOXIC,U02,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Nhận xét trình độ/band mục tiêu hoặc học thuộc script là góp ý cụ thể hay chế giễu cá nhân trong ngữ cảnh này?,,,,,U04,c15,U01,"c01 · U01 · reply=∅ · 2026-10-22T10:00:00Z · reference=CLEAN · target=∅
+Speaking club tối nay topic: a place you want to revisit. Ai vào call 8pm?
+
+c02 · U02 · reply=U01 · 2026-10-22T10:02:00Z · reference=CLEAN · target=∅
+Me! Nhưng mic mình rè, cho mình text vài ý trước nha.
+
+c03 · U03 · reply=U01 · 2026-10-22T10:04:00Z · reference=CLEAN · target=∅
+I can host. Nhớ đừng bật auto-correct transcript nhé.
+
+c04 · U04 · reply=U02 · 2026-10-22T10:06:00Z · reference=CLEAN · target=∅
+Hôm qua U02 phát âm “beach” hơi sai. Bạn thử nghe lại âm /i:/ nha.
+
+c05 · U02 · reply=U04 · 2026-10-22T10:08:00Z · reference=CLEAN · target=∅
+Ok cảm ơn góp ý. Mình luyện lại, đừng clip đoạn đó đăng đâu nha.
+
+c06 · U04 · reply=U02 · 2026-10-22T10:10:00Z · reference=TOXIC · target=U02
+Trình U02 kiểu đó mà còn đăng ký band 7? ambitious dữ 😏
+
+c07 · U05 · reply=U04 · 2026-10-22T10:12:00Z · reference=CLEAN · target=∅
+Đặt mục tiêu cao đâu có nghĩa được quyền chế giễu.
+
+c08 · U01 · reply=U04 · 2026-10-22T10:14:00Z · reference=CLEAN · target=∅
+Mình nhắc lần nữa: feedback vào pronunciation, không phán xét người học.
+
+c09 · U02 · reply=U04 · 2026-10-22T10:16:00Z · reference=CLEAN · target=∅
+Mình biết còn yếu, nhưng bạn góp ý cụ thể giúp mình được không?
+
+c10 · U03 · reply=U02 · 2026-10-22T10:18:00Z · reference=CLEAN · target=∅
+Mình có bảng minimal pairs miễn phí, gửi link trong group resource nhé.
+
+c11 · U05 · reply=U03 · 2026-10-22T10:20:00Z · reference=CLEAN · target=∅
+Ôi mic mình nghe như robot, cringe quá 😂
+
+c12 · U04 · reply=U02 · 2026-10-22T10:22:00Z · reference=TOXIC · target=U02
+Bạn U02 cứ học thuộc script rồi tưởng mình nói hay, nghe là biết ngay.
+
+c13 · U02 · reply=U04 · 2026-10-22T10:24:00Z · reference=CLEAN · target=∅
+Bạn nói vậy trước cả nhóm làm mình khó xử. Chỉ lỗi cụ thể thôi.
+
+c14 · U03 · reply=U04 · 2026-10-22T10:26:00Z · reference=CLEAN · target=∅
+“Học thuộc script” không phải lúc nào cũng sai; vấn đề là có hiểu ý không.
+
+c15 · U01 · reply=U02 · 2026-10-22T10:28:00Z · reference=CLEAN · target=∅
+Mình sẽ mute nếu công kích cá nhân tiếp diễn. Bây giờ quay lại topic nhé.
+
+c16 · U04 · reply=U01 · 2026-10-22T10:30:00Z · reference=TOXIC · target=U02
+Fine. Nhưng U02 còn phải nhờ người khác sửa từng chữ thì 7.0 hơi viển vông.
+
+c17 · U05 · reply=U04 · 2026-10-22T10:32:00Z · reference=CLEAN · target=∅
+Thôi bạn, stop being mean. Ai cũng từng bắt đầu từ band thấp.
+
+c18 · U02 · reply=U03 · 2026-10-22T10:34:00Z · reference=CLEAN · target=∅
+Cho mình cái link minimal pairs với U03, thanks.
+
+c19 · U03 · reply=U02 · 2026-10-22T10:36:00Z · reference=CLEAN · target=∅
+Sent in resources. Tối nay tập 2 lượt, không record.
+
+c20 · U01 · reply=U03 · 2026-10-22T10:38:00Z · reference=CLEAN · target=∅
+Thanks mọi người. 8pm sharp, be kind pls 🙌"
+SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND,c08,"U01 bán hàng mà mô tả như đọc quảng cáo, chắc nghĩ khách toàn người dễ dắt mũi.",TOXIC,U01,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Khiếu nại mô tả hàng và độ trung thực có căn cứ trong thread không? Ranh giới với công kích người bán nằm ở đâu?,,,,,U03,c06,U01,"c01 · U01 · reply=∅ · 2026-10-24T10:00:00Z · reference=CLEAN · target=∅
+Pass đôi sneaker size 42, đế còn tốt, có bill điện tử. Giá 650k, fix nhẹ.
+
+c02 · U02 · reply=U01 · 2026-10-24T10:02:00Z · reference=CLEAN · target=∅
+Có ảnh đế trái và tem size rõ hơn k shop?
+
+c03 · U01 · reply=U02 · 2026-10-24T10:04:00Z · reference=CLEAN · target=∅
+Có, mình chụp dưới nắng rồi up album 2 nha.
+
+c04 · U03 · reply=U01 · 2026-10-24T10:06:00Z · reference=CLEAN · target=∅
+Ông nói “còn tốt” mà gót xước nhiều quá. Giá này cao đấy.
+
+c05 · U04 · reply=U03 · 2026-10-24T10:08:00Z · reference=CLEAN · target=∅
+Giày dùng rồi thì có xước, quan trọng tình trạng keo thôi.
+
+c06 · U01 · reply=U03 · 2026-10-24T10:10:00Z · reference=CLEAN · target=∅
+Cảm ơn góp ý. Mình ghi rõ 2 vết xước ở gót, ai cần mình quay video.
+
+c07 · U05 · reply=U01 · 2026-10-24T10:12:00Z · reference=CLEAN · target=∅
+Cho mình xin video đi ạ. Quan tâm thật.
+
+c08 · U03 · reply=U01 · 2026-10-24T10:14:00Z · reference=TOXIC · target=U01
+U01 bán hàng mà mô tả như đọc quảng cáo, chắc nghĩ khách toàn người dễ dắt mũi.
+
+c09 · U02 · reply=U03 · 2026-10-24T10:16:00Z · reference=CLEAN · target=∅
+Nói về vết xước thôi bạn, đừng quy chụp người bán.
+
+c10 · U01 · reply=U03 · 2026-10-24T10:18:00Z · reference=CLEAN · target=∅
+Mình không lừa ai cả; ảnh và video có hết ở album.
+
+c11 · U04 · reply=U01 · 2026-10-24T10:20:00Z · reference=CLEAN · target=∅
+Tôi xem video rồi, phần keo ở mũi có vẻ bị hở chút. Nên giảm giá.
+
+c12 · U05 · reply=U04 · 2026-10-24T10:22:00Z · reference=CLEAN · target=∅
+Đúng, chỗ keo hơi bong thật. Mình trả 500k được không?
+
+c13 · U03 · reply=U05 · 2026-10-24T10:24:00Z · reference=TOXIC · target=U01
+Khách chỉ ra lỗi mà U01 còn nói vòng vo, kiểu bán đồ thiếu trung thực quá.
+
+c14 · U01 · reply=U03 · 2026-10-24T10:26:00Z · reference=CLEAN · target=∅
+Mình đã ghi lại lỗi keo trong mô tả. Ai không yên tâm thì không mua cũng được.
+
+c15 · U02 · reply=U01 · 2026-10-24T10:28:00Z · reference=CLEAN · target=∅
+Câu “thiếu trung thực” là nhận xét về người, không phải mô tả giày.
+
+c16 · U04 · reply=U05 · 2026-10-24T10:30:00Z · reference=CLEAN · target=∅
+Mua giày cũ mà giá mới thì vl thật, nhưng 500k nghe hợp lý hơn.
+
+c17 · U03 · reply=U01 · 2026-10-24T10:32:00Z · reference=TOXIC · target=U01
+Thôi ai tin U01 thì mua, tôi không rảnh chơi trò đoán xem người bán giấu gì nữa.
+
+c18 · U05 · reply=U01 · 2026-10-24T10:34:00Z · reference=CLEAN · target=∅
+Mình xin rút offer, form giày không hợp thôi, không liên quan tranh cãi.
+
+c19 · U01 · reply=U05 · 2026-10-24T10:36:00Z · reference=CLEAN · target=∅
+Ok bạn, cảm ơn đã xem. Mình cập nhật giá xuống 550k.
+
+c20 · U02 · reply=U01 · 2026-10-24T10:38:00Z · reference=CLEAN · target=∅
+Ai mua nhớ hỏi kỹ size insole nha, chân bè hay bị chật."
+SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND,c13,"Khách chỉ ra lỗi mà U01 còn nói vòng vo, kiểu bán đồ thiếu trung thực quá.",TOXIC,U01,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Khiếu nại mô tả hàng và độ trung thực có căn cứ trong thread không? Ranh giới với công kích người bán nằm ở đâu?,,,,,U03,c12,U05,"c01 · U01 · reply=∅ · 2026-10-24T10:00:00Z · reference=CLEAN · target=∅
+Pass đôi sneaker size 42, đế còn tốt, có bill điện tử. Giá 650k, fix nhẹ.
+
+c02 · U02 · reply=U01 · 2026-10-24T10:02:00Z · reference=CLEAN · target=∅
+Có ảnh đế trái và tem size rõ hơn k shop?
+
+c03 · U01 · reply=U02 · 2026-10-24T10:04:00Z · reference=CLEAN · target=∅
+Có, mình chụp dưới nắng rồi up album 2 nha.
+
+c04 · U03 · reply=U01 · 2026-10-24T10:06:00Z · reference=CLEAN · target=∅
+Ông nói “còn tốt” mà gót xước nhiều quá. Giá này cao đấy.
+
+c05 · U04 · reply=U03 · 2026-10-24T10:08:00Z · reference=CLEAN · target=∅
+Giày dùng rồi thì có xước, quan trọng tình trạng keo thôi.
+
+c06 · U01 · reply=U03 · 2026-10-24T10:10:00Z · reference=CLEAN · target=∅
+Cảm ơn góp ý. Mình ghi rõ 2 vết xước ở gót, ai cần mình quay video.
+
+c07 · U05 · reply=U01 · 2026-10-24T10:12:00Z · reference=CLEAN · target=∅
+Cho mình xin video đi ạ. Quan tâm thật.
+
+c08 · U03 · reply=U01 · 2026-10-24T10:14:00Z · reference=TOXIC · target=U01
+U01 bán hàng mà mô tả như đọc quảng cáo, chắc nghĩ khách toàn người dễ dắt mũi.
+
+c09 · U02 · reply=U03 · 2026-10-24T10:16:00Z · reference=CLEAN · target=∅
+Nói về vết xước thôi bạn, đừng quy chụp người bán.
+
+c10 · U01 · reply=U03 · 2026-10-24T10:18:00Z · reference=CLEAN · target=∅
+Mình không lừa ai cả; ảnh và video có hết ở album.
+
+c11 · U04 · reply=U01 · 2026-10-24T10:20:00Z · reference=CLEAN · target=∅
+Tôi xem video rồi, phần keo ở mũi có vẻ bị hở chút. Nên giảm giá.
+
+c12 · U05 · reply=U04 · 2026-10-24T10:22:00Z · reference=CLEAN · target=∅
+Đúng, chỗ keo hơi bong thật. Mình trả 500k được không?
+
+c13 · U03 · reply=U05 · 2026-10-24T10:24:00Z · reference=TOXIC · target=U01
+Khách chỉ ra lỗi mà U01 còn nói vòng vo, kiểu bán đồ thiếu trung thực quá.
+
+c14 · U01 · reply=U03 · 2026-10-24T10:26:00Z · reference=CLEAN · target=∅
+Mình đã ghi lại lỗi keo trong mô tả. Ai không yên tâm thì không mua cũng được.
+
+c15 · U02 · reply=U01 · 2026-10-24T10:28:00Z · reference=CLEAN · target=∅
+Câu “thiếu trung thực” là nhận xét về người, không phải mô tả giày.
+
+c16 · U04 · reply=U05 · 2026-10-24T10:30:00Z · reference=CLEAN · target=∅
+Mua giày cũ mà giá mới thì vl thật, nhưng 500k nghe hợp lý hơn.
+
+c17 · U03 · reply=U01 · 2026-10-24T10:32:00Z · reference=TOXIC · target=U01
+Thôi ai tin U01 thì mua, tôi không rảnh chơi trò đoán xem người bán giấu gì nữa.
+
+c18 · U05 · reply=U01 · 2026-10-24T10:34:00Z · reference=CLEAN · target=∅
+Mình xin rút offer, form giày không hợp thôi, không liên quan tranh cãi.
+
+c19 · U01 · reply=U05 · 2026-10-24T10:36:00Z · reference=CLEAN · target=∅
+Ok bạn, cảm ơn đã xem. Mình cập nhật giá xuống 550k.
+
+c20 · U02 · reply=U01 · 2026-10-24T10:38:00Z · reference=CLEAN · target=∅
+Ai mua nhớ hỏi kỹ size insole nha, chân bè hay bị chật."
+SHIELDVI_NOV10_14_CHO_GIAY_SECONDHAND,c17,"Thôi ai tin U01 thì mua, tôi không rảnh chơi trò đoán xem người bán giấu gì nữa.",TOXIC,U01,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Khiếu nại mô tả hàng và độ trung thực có căn cứ trong thread không? Ranh giới với công kích người bán nằm ở đâu?,,,,,U03,c14,U01,"c01 · U01 · reply=∅ · 2026-10-24T10:00:00Z · reference=CLEAN · target=∅
+Pass đôi sneaker size 42, đế còn tốt, có bill điện tử. Giá 650k, fix nhẹ.
+
+c02 · U02 · reply=U01 · 2026-10-24T10:02:00Z · reference=CLEAN · target=∅
+Có ảnh đế trái và tem size rõ hơn k shop?
+
+c03 · U01 · reply=U02 · 2026-10-24T10:04:00Z · reference=CLEAN · target=∅
+Có, mình chụp dưới nắng rồi up album 2 nha.
+
+c04 · U03 · reply=U01 · 2026-10-24T10:06:00Z · reference=CLEAN · target=∅
+Ông nói “còn tốt” mà gót xước nhiều quá. Giá này cao đấy.
+
+c05 · U04 · reply=U03 · 2026-10-24T10:08:00Z · reference=CLEAN · target=∅
+Giày dùng rồi thì có xước, quan trọng tình trạng keo thôi.
+
+c06 · U01 · reply=U03 · 2026-10-24T10:10:00Z · reference=CLEAN · target=∅
+Cảm ơn góp ý. Mình ghi rõ 2 vết xước ở gót, ai cần mình quay video.
+
+c07 · U05 · reply=U01 · 2026-10-24T10:12:00Z · reference=CLEAN · target=∅
+Cho mình xin video đi ạ. Quan tâm thật.
+
+c08 · U03 · reply=U01 · 2026-10-24T10:14:00Z · reference=TOXIC · target=U01
+U01 bán hàng mà mô tả như đọc quảng cáo, chắc nghĩ khách toàn người dễ dắt mũi.
+
+c09 · U02 · reply=U03 · 2026-10-24T10:16:00Z · reference=CLEAN · target=∅
+Nói về vết xước thôi bạn, đừng quy chụp người bán.
+
+c10 · U01 · reply=U03 · 2026-10-24T10:18:00Z · reference=CLEAN · target=∅
+Mình không lừa ai cả; ảnh và video có hết ở album.
+
+c11 · U04 · reply=U01 · 2026-10-24T10:20:00Z · reference=CLEAN · target=∅
+Tôi xem video rồi, phần keo ở mũi có vẻ bị hở chút. Nên giảm giá.
+
+c12 · U05 · reply=U04 · 2026-10-24T10:22:00Z · reference=CLEAN · target=∅
+Đúng, chỗ keo hơi bong thật. Mình trả 500k được không?
+
+c13 · U03 · reply=U05 · 2026-10-24T10:24:00Z · reference=TOXIC · target=U01
+Khách chỉ ra lỗi mà U01 còn nói vòng vo, kiểu bán đồ thiếu trung thực quá.
+
+c14 · U01 · reply=U03 · 2026-10-24T10:26:00Z · reference=CLEAN · target=∅
+Mình đã ghi lại lỗi keo trong mô tả. Ai không yên tâm thì không mua cũng được.
+
+c15 · U02 · reply=U01 · 2026-10-24T10:28:00Z · reference=CLEAN · target=∅
+Câu “thiếu trung thực” là nhận xét về người, không phải mô tả giày.
+
+c16 · U04 · reply=U05 · 2026-10-24T10:30:00Z · reference=CLEAN · target=∅
+Mua giày cũ mà giá mới thì vl thật, nhưng 500k nghe hợp lý hơn.
+
+c17 · U03 · reply=U01 · 2026-10-24T10:32:00Z · reference=TOXIC · target=U01
+Thôi ai tin U01 thì mua, tôi không rảnh chơi trò đoán xem người bán giấu gì nữa.
+
+c18 · U05 · reply=U01 · 2026-10-24T10:34:00Z · reference=CLEAN · target=∅
+Mình xin rút offer, form giày không hợp thôi, không liên quan tranh cãi.
+
+c19 · U01 · reply=U05 · 2026-10-24T10:36:00Z · reference=CLEAN · target=∅
+Ok bạn, cảm ơn đã xem. Mình cập nhật giá xuống 550k.
+
+c20 · U02 · reply=U01 · 2026-10-24T10:38:00Z · reference=CLEAN · target=∅
+Ai mua nhớ hỏi kỹ size insole nha, chân bè hay bị chật."
+SHIELDVI_NOV10_15_CUU_HO_MEO_MUN,c07,"U03 nhận nuôi bằng cảm xúc thôi à, thiếu hiểu biết vậy rồi hại cả mèo.",TOXIC,U03,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Cảnh báo thiếu kinh nghiệm chăm mèo hay quy chụp động cơ/năng lực cá nhân? Có công kích mới sau xin lỗi không?,,,,,U02,c06,U03,"c01 · U01 · reply=∅ · 2026-10-25T10:00:00Z · reference=CLEAN · target=∅
+Nhờ group tìm nhà cho bé mèo Mun khoảng 6 tháng. Đã tẩy giun, chưa triệt sản.
+
+c02 · U03 · reply=U01 · 2026-10-25T10:02:00Z · reference=CLEAN · target=∅
+Mình nhận chăm tạm 2 tuần được nếu bé không cần cách ly đặc biệt.
+
+c03 · U04 · reply=U01 · 2026-10-25T10:04:00Z · reference=CLEAN · target=∅
+Bạn có phiếu khám hoặc xét nghiệm FeLV/FIV chưa?
+
+c04 · U01 · reply=U04 · 2026-10-25T10:06:00Z · reference=CLEAN · target=∅
+Chưa có xét nghiệm, mình ghi rõ để người nhận chuẩn bị. Mai đi khám.
+
+c05 · U02 · reply=U03 · 2026-10-25T10:08:00Z · reference=CLEAN · target=∅
+Chưa có phiếu mà U03 đã xung phong, hơi liều đấy. Nên hỏi kỹ trước.
+
+c06 · U03 · reply=U02 · 2026-10-25T10:10:00Z · reference=CLEAN · target=∅
+Mình có phòng riêng cho bé, vẫn sẽ đợi xét nghiệm rồi quyết định.
+
+c07 · U02 · reply=U03 · 2026-10-25T10:12:00Z · reference=TOXIC · target=U03
+U03 nhận nuôi bằng cảm xúc thôi à, thiếu hiểu biết vậy rồi hại cả mèo.
+
+c08 · U05 · reply=U02 · 2026-10-25T10:14:00Z · reference=CLEAN · target=∅
+Nhắc quy trình cách ly là tốt, nhưng đừng công kích bạn ấy.
+
+c09 · U04 · reply=U03 · 2026-10-25T10:16:00Z · reference=CLEAN · target=∅
+Mình gửi checklist cách ly 14 ngày, ai cần tải về nhé.
+
+c10 · U01 · reply=U04 · 2026-10-25T10:18:00Z · reference=CLEAN · target=∅
+Checklist hữu ích quá. Mai có kết quả khám mình update.
+
+c11 · U03 · reply=U02 · 2026-10-25T10:20:00Z · reference=CLEAN · target=∅
+Bạn có thể góp ý mà không gọi mình thiếu hiểu biết được không?
+
+c12 · U02 · reply=U03 · 2026-10-25T10:22:00Z · reference=TOXIC · target=U03
+Nghe U03 nói thì ai cũng biết bạn ấy chưa biết gì mà cứ đòi làm người hùng.
+
+c13 · U05 · reply=U02 · 2026-10-25T10:24:00Z · reference=CLEAN · target=∅
+Đừng dùng “người hùng” để mỉa mai nữa. Bạn ấy đã nói sẽ chờ kết quả.
+
+c14 · U03 · reply=U05 · 2026-10-25T10:26:00Z · reference=CLEAN · target=∅
+Thôi mình không tranh luận. Mình ưu tiên sức khỏe của Mun.
+
+c15 · U02 · reply=U03 · 2026-10-25T10:28:00Z · reference=CLEAN · target=∅
+Xin lỗi vì lời nói lúc nãy. Mình vẫn thấy cần xác minh điều kiện nuôi.
+
+c16 · U04 · reply=U02 · 2026-10-25T10:30:00Z · reference=CLEAN · target=∅
+Ok, phần xác minh thì mọi người đều đồng ý mà.
+
+c17 · U02 · reply=U02 · 2026-10-25T10:32:00Z · reference=TOXIC · target=U03
+Nhưng U03 đúng kiểu thích làm màu để được khen, chăm nổi một tuần không?
+
+c18 · U01 · reply=U02 · 2026-10-25T10:34:00Z · reference=CLEAN · target=∅
+Dừng chuyện phán xét cá nhân tại đây nhé. Mình chỉ cập nhật hồ sơ Mun thôi.
+
+c19 · U03 · reply=U01 · 2026-10-25T10:36:00Z · reference=CLEAN · target=∅
+Cảm ơn. Nếu tình trạng sức khỏe phù hợp, mình vẫn hỗ trợ đón bé.
+
+c20 · U05 · reply=U03 · 2026-10-25T10:38:00Z · reference=CLEAN · target=∅
+Hy vọng bé sớm có nhà, nhớ che số điện thoại khi up phiếu khám nha."
+SHIELDVI_NOV10_15_CUU_HO_MEO_MUN,c12,Nghe U03 nói thì ai cũng biết bạn ấy chưa biết gì mà cứ đòi làm người hùng.,TOXIC,U03,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Cảnh báo thiếu kinh nghiệm chăm mèo hay quy chụp động cơ/năng lực cá nhân? Có công kích mới sau xin lỗi không?,,,,,U02,c11,U03,"c01 · U01 · reply=∅ · 2026-10-25T10:00:00Z · reference=CLEAN · target=∅
+Nhờ group tìm nhà cho bé mèo Mun khoảng 6 tháng. Đã tẩy giun, chưa triệt sản.
+
+c02 · U03 · reply=U01 · 2026-10-25T10:02:00Z · reference=CLEAN · target=∅
+Mình nhận chăm tạm 2 tuần được nếu bé không cần cách ly đặc biệt.
+
+c03 · U04 · reply=U01 · 2026-10-25T10:04:00Z · reference=CLEAN · target=∅
+Bạn có phiếu khám hoặc xét nghiệm FeLV/FIV chưa?
+
+c04 · U01 · reply=U04 · 2026-10-25T10:06:00Z · reference=CLEAN · target=∅
+Chưa có xét nghiệm, mình ghi rõ để người nhận chuẩn bị. Mai đi khám.
+
+c05 · U02 · reply=U03 · 2026-10-25T10:08:00Z · reference=CLEAN · target=∅
+Chưa có phiếu mà U03 đã xung phong, hơi liều đấy. Nên hỏi kỹ trước.
+
+c06 · U03 · reply=U02 · 2026-10-25T10:10:00Z · reference=CLEAN · target=∅
+Mình có phòng riêng cho bé, vẫn sẽ đợi xét nghiệm rồi quyết định.
+
+c07 · U02 · reply=U03 · 2026-10-25T10:12:00Z · reference=TOXIC · target=U03
+U03 nhận nuôi bằng cảm xúc thôi à, thiếu hiểu biết vậy rồi hại cả mèo.
+
+c08 · U05 · reply=U02 · 2026-10-25T10:14:00Z · reference=CLEAN · target=∅
+Nhắc quy trình cách ly là tốt, nhưng đừng công kích bạn ấy.
+
+c09 · U04 · reply=U03 · 2026-10-25T10:16:00Z · reference=CLEAN · target=∅
+Mình gửi checklist cách ly 14 ngày, ai cần tải về nhé.
+
+c10 · U01 · reply=U04 · 2026-10-25T10:18:00Z · reference=CLEAN · target=∅
+Checklist hữu ích quá. Mai có kết quả khám mình update.
+
+c11 · U03 · reply=U02 · 2026-10-25T10:20:00Z · reference=CLEAN · target=∅
+Bạn có thể góp ý mà không gọi mình thiếu hiểu biết được không?
+
+c12 · U02 · reply=U03 · 2026-10-25T10:22:00Z · reference=TOXIC · target=U03
+Nghe U03 nói thì ai cũng biết bạn ấy chưa biết gì mà cứ đòi làm người hùng.
+
+c13 · U05 · reply=U02 · 2026-10-25T10:24:00Z · reference=CLEAN · target=∅
+Đừng dùng “người hùng” để mỉa mai nữa. Bạn ấy đã nói sẽ chờ kết quả.
+
+c14 · U03 · reply=U05 · 2026-10-25T10:26:00Z · reference=CLEAN · target=∅
+Thôi mình không tranh luận. Mình ưu tiên sức khỏe của Mun.
+
+c15 · U02 · reply=U03 · 2026-10-25T10:28:00Z · reference=CLEAN · target=∅
+Xin lỗi vì lời nói lúc nãy. Mình vẫn thấy cần xác minh điều kiện nuôi.
+
+c16 · U04 · reply=U02 · 2026-10-25T10:30:00Z · reference=CLEAN · target=∅
+Ok, phần xác minh thì mọi người đều đồng ý mà.
+
+c17 · U02 · reply=U02 · 2026-10-25T10:32:00Z · reference=TOXIC · target=U03
+Nhưng U03 đúng kiểu thích làm màu để được khen, chăm nổi một tuần không?
+
+c18 · U01 · reply=U02 · 2026-10-25T10:34:00Z · reference=CLEAN · target=∅
+Dừng chuyện phán xét cá nhân tại đây nhé. Mình chỉ cập nhật hồ sơ Mun thôi.
+
+c19 · U03 · reply=U01 · 2026-10-25T10:36:00Z · reference=CLEAN · target=∅
+Cảm ơn. Nếu tình trạng sức khỏe phù hợp, mình vẫn hỗ trợ đón bé.
+
+c20 · U05 · reply=U03 · 2026-10-25T10:38:00Z · reference=CLEAN · target=∅
+Hy vọng bé sớm có nhà, nhớ che số điện thoại khi up phiếu khám nha."
+SHIELDVI_NOV10_15_CUU_HO_MEO_MUN,c17,"Nhưng U03 đúng kiểu thích làm màu để được khen, chăm nổi một tuần không?",TOXIC,U03,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Cảnh báo thiếu kinh nghiệm chăm mèo hay quy chụp động cơ/năng lực cá nhân? Có công kích mới sau xin lỗi không?,,,,,U02,c15,U02,"c01 · U01 · reply=∅ · 2026-10-25T10:00:00Z · reference=CLEAN · target=∅
+Nhờ group tìm nhà cho bé mèo Mun khoảng 6 tháng. Đã tẩy giun, chưa triệt sản.
+
+c02 · U03 · reply=U01 · 2026-10-25T10:02:00Z · reference=CLEAN · target=∅
+Mình nhận chăm tạm 2 tuần được nếu bé không cần cách ly đặc biệt.
+
+c03 · U04 · reply=U01 · 2026-10-25T10:04:00Z · reference=CLEAN · target=∅
+Bạn có phiếu khám hoặc xét nghiệm FeLV/FIV chưa?
+
+c04 · U01 · reply=U04 · 2026-10-25T10:06:00Z · reference=CLEAN · target=∅
+Chưa có xét nghiệm, mình ghi rõ để người nhận chuẩn bị. Mai đi khám.
+
+c05 · U02 · reply=U03 · 2026-10-25T10:08:00Z · reference=CLEAN · target=∅
+Chưa có phiếu mà U03 đã xung phong, hơi liều đấy. Nên hỏi kỹ trước.
+
+c06 · U03 · reply=U02 · 2026-10-25T10:10:00Z · reference=CLEAN · target=∅
+Mình có phòng riêng cho bé, vẫn sẽ đợi xét nghiệm rồi quyết định.
+
+c07 · U02 · reply=U03 · 2026-10-25T10:12:00Z · reference=TOXIC · target=U03
+U03 nhận nuôi bằng cảm xúc thôi à, thiếu hiểu biết vậy rồi hại cả mèo.
+
+c08 · U05 · reply=U02 · 2026-10-25T10:14:00Z · reference=CLEAN · target=∅
+Nhắc quy trình cách ly là tốt, nhưng đừng công kích bạn ấy.
+
+c09 · U04 · reply=U03 · 2026-10-25T10:16:00Z · reference=CLEAN · target=∅
+Mình gửi checklist cách ly 14 ngày, ai cần tải về nhé.
+
+c10 · U01 · reply=U04 · 2026-10-25T10:18:00Z · reference=CLEAN · target=∅
+Checklist hữu ích quá. Mai có kết quả khám mình update.
+
+c11 · U03 · reply=U02 · 2026-10-25T10:20:00Z · reference=CLEAN · target=∅
+Bạn có thể góp ý mà không gọi mình thiếu hiểu biết được không?
+
+c12 · U02 · reply=U03 · 2026-10-25T10:22:00Z · reference=TOXIC · target=U03
+Nghe U03 nói thì ai cũng biết bạn ấy chưa biết gì mà cứ đòi làm người hùng.
+
+c13 · U05 · reply=U02 · 2026-10-25T10:24:00Z · reference=CLEAN · target=∅
+Đừng dùng “người hùng” để mỉa mai nữa. Bạn ấy đã nói sẽ chờ kết quả.
+
+c14 · U03 · reply=U05 · 2026-10-25T10:26:00Z · reference=CLEAN · target=∅
+Thôi mình không tranh luận. Mình ưu tiên sức khỏe của Mun.
+
+c15 · U02 · reply=U03 · 2026-10-25T10:28:00Z · reference=CLEAN · target=∅
+Xin lỗi vì lời nói lúc nãy. Mình vẫn thấy cần xác minh điều kiện nuôi.
+
+c16 · U04 · reply=U02 · 2026-10-25T10:30:00Z · reference=CLEAN · target=∅
+Ok, phần xác minh thì mọi người đều đồng ý mà.
+
+c17 · U02 · reply=U02 · 2026-10-25T10:32:00Z · reference=TOXIC · target=U03
+Nhưng U03 đúng kiểu thích làm màu để được khen, chăm nổi một tuần không?
+
+c18 · U01 · reply=U02 · 2026-10-25T10:34:00Z · reference=CLEAN · target=∅
+Dừng chuyện phán xét cá nhân tại đây nhé. Mình chỉ cập nhật hồ sơ Mun thôi.
+
+c19 · U03 · reply=U01 · 2026-10-25T10:36:00Z · reference=CLEAN · target=∅
+Cảm ơn. Nếu tình trạng sức khỏe phù hợp, mình vẫn hỗ trợ đón bé.
+
+c20 · U05 · reply=U03 · 2026-10-25T10:38:00Z · reference=CLEAN · target=∅
+Hy vọng bé sớm có nhà, nhớ che số điện thoại khi up phiếu khám nha."
+SHIELDVI_NOV10_16_REVIEW_BANH_MI,c04,Chấm 6/10 chỉ vì sốt ngọt? Review gì mà thiếu chiều sâu thế.,CLEAN,,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Nhận xét chiều sâu review/vị giác là phê bình nội dung hay hạ thấp người review? So sánh c04/c09/c14.,,,,,U04,c02,U02,"c01 · U01 · reply=∅ · 2026-10-26T10:00:00Z · reference=CLEAN · target=∅
+Quán bánh mì mới trước cổng trường có ai ăn chưa? Nhìn pate hấp dẫn ghê 🤤
+
+c02 · U02 · reply=U01 · 2026-10-26T10:02:00Z · reference=CLEAN · target=∅
+T mới thử. Bánh giòn nhưng sốt ngọt quá, mình cho 6/10.
+
+c03 · U03 · reply=U02 · 2026-10-26T10:04:00Z · reference=CLEAN · target=∅
+Gu mỗi người khác mà, t thấy sốt vừa. Riêng dưa leo hơi nhiều.
+
+c04 · U04 · reply=U02 · 2026-10-26T10:06:00Z · reference=CLEAN · target=∅
+Chấm 6/10 chỉ vì sốt ngọt? Review gì mà thiếu chiều sâu thế.
+
+c05 · U02 · reply=U04 · 2026-10-26T10:08:00Z · reference=CLEAN · target=∅
+Mình có nói bánh giòn với topping rồi mà, chấm cá nhân thôi.
+
+c06 · U05 · reply=U01 · 2026-10-26T10:10:00Z · reference=CLEAN · target=∅
+Giá nhiêu vậy mn, 20k hay 30k?
+
+c07 · U01 · reply=U05 · 2026-10-26T10:12:00Z · reference=CLEAN · target=∅
+29k ổ đầy. Combo nước thêm 8k á.
+
+c08 · U03 · reply=U04 · 2026-10-26T10:14:00Z · reference=CLEAN · target=∅
+Bạn U04 thử giải thích tiêu chí chấm điểm xem, biết đâu mình học được.
+
+c09 · U04 · reply=U02 · 2026-10-26T10:16:00Z · reference=TOXIC · target=U02
+U02 ăn được một ổ đã làm chuyên gia, đúng là càng thiếu hiểu biết càng hay phán.
+
+c10 · U02 · reply=U04 · 2026-10-26T10:18:00Z · reference=CLEAN · target=∅
+Mình chỉ viết cảm nhận, đâu nhận là chuyên gia. Bạn không đồng ý cứ nói về món.
+
+c11 · U05 · reply=U02 · 2026-10-26T10:20:00Z · reference=CLEAN · target=∅
++1, feedback vào món thôi, đừng đá qua người review.
+
+c12 · U01 · reply=U03 · 2026-10-26T10:22:00Z · reference=CLEAN · target=∅
+Bánh xíu mại có ai test chưa? Mình thích loại ít ngọt.
+
+c13 · U03 · reply=U01 · 2026-10-26T10:24:00Z · reference=CLEAN · target=∅
+Xíu mại ngon, nhưng hơi cay. Ai không ăn cay nhớ dặn.
+
+c14 · U04 · reply=U02 · 2026-10-26T10:26:00Z · reference=TOXIC · target=U02
+U02 bị góp ý chút đã tự ái, khả năng phân biệt vị giác chắc cũng có vấn đề.
+
+c15 · U02 · reply=U04 · 2026-10-26T10:28:00Z · reference=CLEAN · target=∅
+Nói mình “có vấn đề” vì nhận xét sốt là không ổn. Mình dừng ở đây.
+
+c16 · U05 · reply=U02 · 2026-10-26T10:30:00Z · reference=CLEAN · target=∅
+Đọc review online mà căng như thi MasterChef trời ơi :)))
+
+c17 · U01 · reply=U01 · 2026-10-26T10:32:00Z · reference=CLEAN · target=∅
+Ngày mai quán có món chay không ta?
+
+c18 · U03 · reply=U01 · 2026-10-26T10:34:00Z · reference=CLEAN · target=∅
+Có bánh đậu hũ, nghe nói bán từ 7h.
+
+c19 · U04 · reply=U05 · 2026-10-26T10:36:00Z · reference=CLEAN · target=∅
+Thôi chuyện ăn uống mà war ghê, mình đi ăn lại cho chắc.
+
+c20 · U02 · reply=U03 · 2026-10-26T10:38:00Z · reference=CLEAN · target=∅
+Cảm ơn review đậu hũ, hôm nào mình thử."
+SHIELDVI_NOV10_16_REVIEW_BANH_MI,c09,"U02 ăn được một ổ đã làm chuyên gia, đúng là càng thiếu hiểu biết càng hay phán.",TOXIC,U02,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Nhận xét chiều sâu review/vị giác là phê bình nội dung hay hạ thấp người review? So sánh c04/c09/c14.,,,,,U04,c05,U02,"c01 · U01 · reply=∅ · 2026-10-26T10:00:00Z · reference=CLEAN · target=∅
+Quán bánh mì mới trước cổng trường có ai ăn chưa? Nhìn pate hấp dẫn ghê 🤤
+
+c02 · U02 · reply=U01 · 2026-10-26T10:02:00Z · reference=CLEAN · target=∅
+T mới thử. Bánh giòn nhưng sốt ngọt quá, mình cho 6/10.
+
+c03 · U03 · reply=U02 · 2026-10-26T10:04:00Z · reference=CLEAN · target=∅
+Gu mỗi người khác mà, t thấy sốt vừa. Riêng dưa leo hơi nhiều.
+
+c04 · U04 · reply=U02 · 2026-10-26T10:06:00Z · reference=CLEAN · target=∅
+Chấm 6/10 chỉ vì sốt ngọt? Review gì mà thiếu chiều sâu thế.
+
+c05 · U02 · reply=U04 · 2026-10-26T10:08:00Z · reference=CLEAN · target=∅
+Mình có nói bánh giòn với topping rồi mà, chấm cá nhân thôi.
+
+c06 · U05 · reply=U01 · 2026-10-26T10:10:00Z · reference=CLEAN · target=∅
+Giá nhiêu vậy mn, 20k hay 30k?
+
+c07 · U01 · reply=U05 · 2026-10-26T10:12:00Z · reference=CLEAN · target=∅
+29k ổ đầy. Combo nước thêm 8k á.
+
+c08 · U03 · reply=U04 · 2026-10-26T10:14:00Z · reference=CLEAN · target=∅
+Bạn U04 thử giải thích tiêu chí chấm điểm xem, biết đâu mình học được.
+
+c09 · U04 · reply=U02 · 2026-10-26T10:16:00Z · reference=TOXIC · target=U02
+U02 ăn được một ổ đã làm chuyên gia, đúng là càng thiếu hiểu biết càng hay phán.
+
+c10 · U02 · reply=U04 · 2026-10-26T10:18:00Z · reference=CLEAN · target=∅
+Mình chỉ viết cảm nhận, đâu nhận là chuyên gia. Bạn không đồng ý cứ nói về món.
+
+c11 · U05 · reply=U02 · 2026-10-26T10:20:00Z · reference=CLEAN · target=∅
++1, feedback vào món thôi, đừng đá qua người review.
+
+c12 · U01 · reply=U03 · 2026-10-26T10:22:00Z · reference=CLEAN · target=∅
+Bánh xíu mại có ai test chưa? Mình thích loại ít ngọt.
+
+c13 · U03 · reply=U01 · 2026-10-26T10:24:00Z · reference=CLEAN · target=∅
+Xíu mại ngon, nhưng hơi cay. Ai không ăn cay nhớ dặn.
+
+c14 · U04 · reply=U02 · 2026-10-26T10:26:00Z · reference=TOXIC · target=U02
+U02 bị góp ý chút đã tự ái, khả năng phân biệt vị giác chắc cũng có vấn đề.
+
+c15 · U02 · reply=U04 · 2026-10-26T10:28:00Z · reference=CLEAN · target=∅
+Nói mình “có vấn đề” vì nhận xét sốt là không ổn. Mình dừng ở đây.
+
+c16 · U05 · reply=U02 · 2026-10-26T10:30:00Z · reference=CLEAN · target=∅
+Đọc review online mà căng như thi MasterChef trời ơi :)))
+
+c17 · U01 · reply=U01 · 2026-10-26T10:32:00Z · reference=CLEAN · target=∅
+Ngày mai quán có món chay không ta?
+
+c18 · U03 · reply=U01 · 2026-10-26T10:34:00Z · reference=CLEAN · target=∅
+Có bánh đậu hũ, nghe nói bán từ 7h.
+
+c19 · U04 · reply=U05 · 2026-10-26T10:36:00Z · reference=CLEAN · target=∅
+Thôi chuyện ăn uống mà war ghê, mình đi ăn lại cho chắc.
+
+c20 · U02 · reply=U03 · 2026-10-26T10:38:00Z · reference=CLEAN · target=∅
+Cảm ơn review đậu hũ, hôm nào mình thử."
+SHIELDVI_NOV10_16_REVIEW_BANH_MI,c14,"U02 bị góp ý chút đã tự ái, khả năng phân biệt vị giác chắc cũng có vấn đề.",TOXIC,U02,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Nhận xét chiều sâu review/vị giác là phê bình nội dung hay hạ thấp người review? So sánh c04/c09/c14.,,,,,U04,c10,U02,"c01 · U01 · reply=∅ · 2026-10-26T10:00:00Z · reference=CLEAN · target=∅
+Quán bánh mì mới trước cổng trường có ai ăn chưa? Nhìn pate hấp dẫn ghê 🤤
+
+c02 · U02 · reply=U01 · 2026-10-26T10:02:00Z · reference=CLEAN · target=∅
+T mới thử. Bánh giòn nhưng sốt ngọt quá, mình cho 6/10.
+
+c03 · U03 · reply=U02 · 2026-10-26T10:04:00Z · reference=CLEAN · target=∅
+Gu mỗi người khác mà, t thấy sốt vừa. Riêng dưa leo hơi nhiều.
+
+c04 · U04 · reply=U02 · 2026-10-26T10:06:00Z · reference=CLEAN · target=∅
+Chấm 6/10 chỉ vì sốt ngọt? Review gì mà thiếu chiều sâu thế.
+
+c05 · U02 · reply=U04 · 2026-10-26T10:08:00Z · reference=CLEAN · target=∅
+Mình có nói bánh giòn với topping rồi mà, chấm cá nhân thôi.
+
+c06 · U05 · reply=U01 · 2026-10-26T10:10:00Z · reference=CLEAN · target=∅
+Giá nhiêu vậy mn, 20k hay 30k?
+
+c07 · U01 · reply=U05 · 2026-10-26T10:12:00Z · reference=CLEAN · target=∅
+29k ổ đầy. Combo nước thêm 8k á.
+
+c08 · U03 · reply=U04 · 2026-10-26T10:14:00Z · reference=CLEAN · target=∅
+Bạn U04 thử giải thích tiêu chí chấm điểm xem, biết đâu mình học được.
+
+c09 · U04 · reply=U02 · 2026-10-26T10:16:00Z · reference=TOXIC · target=U02
+U02 ăn được một ổ đã làm chuyên gia, đúng là càng thiếu hiểu biết càng hay phán.
+
+c10 · U02 · reply=U04 · 2026-10-26T10:18:00Z · reference=CLEAN · target=∅
+Mình chỉ viết cảm nhận, đâu nhận là chuyên gia. Bạn không đồng ý cứ nói về món.
+
+c11 · U05 · reply=U02 · 2026-10-26T10:20:00Z · reference=CLEAN · target=∅
++1, feedback vào món thôi, đừng đá qua người review.
+
+c12 · U01 · reply=U03 · 2026-10-26T10:22:00Z · reference=CLEAN · target=∅
+Bánh xíu mại có ai test chưa? Mình thích loại ít ngọt.
+
+c13 · U03 · reply=U01 · 2026-10-26T10:24:00Z · reference=CLEAN · target=∅
+Xíu mại ngon, nhưng hơi cay. Ai không ăn cay nhớ dặn.
+
+c14 · U04 · reply=U02 · 2026-10-26T10:26:00Z · reference=TOXIC · target=U02
+U02 bị góp ý chút đã tự ái, khả năng phân biệt vị giác chắc cũng có vấn đề.
+
+c15 · U02 · reply=U04 · 2026-10-26T10:28:00Z · reference=CLEAN · target=∅
+Nói mình “có vấn đề” vì nhận xét sốt là không ổn. Mình dừng ở đây.
+
+c16 · U05 · reply=U02 · 2026-10-26T10:30:00Z · reference=CLEAN · target=∅
+Đọc review online mà căng như thi MasterChef trời ơi :)))
+
+c17 · U01 · reply=U01 · 2026-10-26T10:32:00Z · reference=CLEAN · target=∅
+Ngày mai quán có món chay không ta?
+
+c18 · U03 · reply=U01 · 2026-10-26T10:34:00Z · reference=CLEAN · target=∅
+Có bánh đậu hũ, nghe nói bán từ 7h.
+
+c19 · U04 · reply=U05 · 2026-10-26T10:36:00Z · reference=CLEAN · target=∅
+Thôi chuyện ăn uống mà war ghê, mình đi ăn lại cho chắc.
+
+c20 · U02 · reply=U03 · 2026-10-26T10:38:00Z · reference=CLEAN · target=∅
+Cảm ơn review đậu hũ, hôm nào mình thử."
+SHIELDVI_NOV10_17_DI_CHUNG_XE_VE_QUE,c16,"U02 hỏi mãi thế, kiểu này không tự đọc thông báo thì đi xe cũng mệt.",UNCERTAIN,U02,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Lời phàn nàn ứng xử còn mơ hồ; giữ UNCERTAIN hay đủ bằng chứng cho CLEAN/TOXIC?,,,,,U03,c15,U02,"c01 · U01 · reply=∅ · 2026-10-27T10:00:00Z · reference=CLEAN · target=∅
+Chiều thứ sáu có 3 ghế đi Huế, xuất phát 17:30 ở bến xe phía nam.
+
+c02 · U02 · reply=U01 · 2026-10-27T10:02:00Z · reference=CLEAN · target=∅
+Cho em hỏi có ghé đoạn cầu vượt không anh?
+
+c03 · U01 · reply=U02 · 2026-10-27T10:04:00Z · reference=CLEAN · target=∅
+Có, nhưng chỉ đón ở trạm bus, không dừng giữa đường được.
+
+c04 · U03 · reply=U02 · 2026-10-27T10:06:00Z · reference=CLEAN · target=∅
+Hỏi gì cũng phút chót, U02 tính cả xe phải chờ mình à?
+
+c05 · U02 · reply=U03 · 2026-10-27T10:08:00Z · reference=CLEAN · target=∅
+Em hỏi trước hai ngày mà, có bắt ai đợi mô 😅
+
+c06 · U04 · reply=U01 · 2026-10-27T10:11:00Z · reference=CLEAN · target=∅
+Có cho mang vali 24 inch không ạ?
+
+c07 · U01 · reply=U04 · 2026-10-27T10:13:00Z · reference=CLEAN · target=∅
+Được một vali và một balo, cốp hơi chật.
+
+c08 · U05 · reply=U01 · 2026-10-27T10:15:00Z · reference=CLEAN · target=∅
+Xe có máy lạnh mạnh không, tui hơi say xe.
+
+c09 · U01 · reply=U05 · 2026-10-27T10:17:00Z · reference=CLEAN · target=∅
+Có nhưng mình không bật quá lạnh. Ai say nên chuẩn bị thuốc phù hợp.
+
+c10 · U03 · reply=U02 · 2026-10-27T10:20:00Z · reference=CLEAN · target=∅
+Xin lỗi, mình tưởng U02 hỏi sát giờ. Đọc lại thấy nhầm ngày.
+
+c11 · U02 · reply=U03 · 2026-10-27T10:22:00Z · reference=CLEAN · target=∅
+Không sao, cảm ơn bạn đã nói lại nha.
+
+c12 · U04 · reply=U01 · 2026-10-27T10:24:00Z · reference=CLEAN · target=∅
+Em sẽ mang vali nhỏ thôi, khỏi vướng.
+
+c13 · U05 · reply=U02 · 2026-10-27T10:28:00Z · reference=CLEAN · target=∅
+Răng mọi người thức khuya dữ, mai còn đi làm mà 😂
+
+c14 · U01 · reply=U05 · 2026-10-27T10:30:00Z · reference=CLEAN · target=∅
+Group để chốt xe thôi nè, ai có số điện thoại gửi riêng nhé.
+
+c15 · U02 · reply=U01 · 2026-10-27T10:32:00Z · reference=CLEAN · target=∅
+Em đã nhắn riêng rồi. Vé có chuyển khoản cọc không ạ?
+
+c16 · U03 · reply=U02 · 2026-10-27T11:15:00Z · reference=UNCERTAIN · target=U02
+U02 hỏi mãi thế, kiểu này không tự đọc thông báo thì đi xe cũng mệt.
+
+c17 · U04 · reply=U03 · 2026-10-27T11:17:00Z · reference=CLEAN · target=∅
+Không chắc bạn ấy có thấy tin ghim, chỉ giúp số cọc đi.
+
+c18 · U01 · reply=U04 · 2026-10-27T11:19:00Z · reference=CLEAN · target=∅
+Cọc 50k, hoàn nếu báo hủy trước 24h.
+
+c19 · U05 · reply=U01 · 2026-10-27T11:21:00Z · reference=CLEAN · target=∅
+Chốt vậy nha, mong không tắc đường.
+
+c20 · U02 · reply=U05 · 2026-10-27T11:23:00Z · reference=CLEAN · target=∅
+Dạ em cảm ơn mọi người, hẹn thứ sáu!"
+SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH,c09,"U03 đúng kiểu cái bảng thông số biết đi, tưởng vài con số là hiểu nghề 😌",TOXIC,U03,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Ẩn dụ bảng thông số và nhận xét trưng benchmark là chê lập luận hay công kích nhân cách/người nói?,,,,,U02,c08,U04,"c01 · U01 · reply=∅ · 2026-10-28T10:00:00Z · reference=CLEAN · target=∅
+Edit 4K nhẹ nhàng nên mua màn IPS 27 inch 2K hay VA 32 inch 4K vậy mọi người?
+
+c02 · U03 · reply=U01 · 2026-10-28T10:02:00Z · reference=CLEAN · target=∅
+Nếu ưu tiên màu thì xem coverage sRGB/Delta E, không chỉ resolution.
+
+c03 · U02 · reply=U01 · 2026-10-28T10:04:00Z · reference=CLEAN · target=∅
+Mua 4K khỏi nghĩ, 2K giờ cổ quá rồi.
+
+c04 · U04 · reply=U02 · 2026-10-28T10:06:00Z · reference=CLEAN · target=∅
+Nói vậy thiếu điều kiện ngân sách. 4K không tự động màu chuẩn hơn.
+
+c05 · U02 · reply=U04 · 2026-10-28T10:08:00Z · reference=CLEAN · target=∅
+Ok point taken. Nhưng scaling Windows với 2K vẫn hơi chán.
+
+c06 · U05 · reply=U01 · 2026-10-28T10:10:00Z · reference=CLEAN · target=∅
+Tui dùng màn 1080p edit shorts mà vẫn sống khỏe lol.
+
+c07 · U03 · reply=U02 · 2026-10-28T10:12:00Z · reference=CLEAN · target=∅
+Có ai dùng colorimeter hiệu chuẩn chưa, mình xin trải nghiệm.
+
+c08 · U04 · reply=U03 · 2026-10-28T10:14:00Z · reference=CLEAN · target=∅
+U03 đưa tiêu chí rõ rồi, đây là ví dụ tranh luận kỹ thuật tử tế.
+
+c09 · U02 · reply=U04 · 2026-10-28T10:16:00Z · reference=TOXIC · target=U03
+U03 đúng kiểu cái bảng thông số biết đi, tưởng vài con số là hiểu nghề 😌
+
+c10 · U03 · reply=U02 · 2026-10-28T10:18:00Z · reference=CLEAN · target=∅
+Nếu bạn thấy mình sai, dẫn benchmark cụ thể nha. Đừng gọi mình như vậy.
+
+c11 · U01 · reply=U03 · 2026-10-28T10:20:00Z · reference=CLEAN · target=∅
+Mình từng thuê colorimeter một ngày, khác biệt rõ lúc in ảnh.
+
+c12 · U05 · reply=U03 · 2026-10-28T10:22:00Z · reference=CLEAN · target=∅
+Bạn U03 trả lời đúng trọng tâm mà. Câu “bảng thông số biết đi” nghe như hạ thấp người.
+
+c13 · U04 · reply=U01 · 2026-10-28T10:24:00Z · reference=CLEAN · target=∅
+Chuyện màn hình thôi, không cần công kích cá nhân.
+
+c14 · U02 · reply=U03 · 2026-10-28T10:26:00Z · reference=TOXIC · target=U03
+Ừ, U03 cứ trưng benchmark ra cho oai, chắc nghĩ cả phòng phải học từ mình.
+
+c15 · U03 · reply=U02 · 2026-10-28T10:28:00Z · reference=CLEAN · target=∅
+Mình chỉ chia sẻ cách chọn màn phù hợp công việc, không dạy ai cả.
+
+c16 · U01 · reply=U03 · 2026-10-28T10:30:00Z · reference=CLEAN · target=∅
+Thôi mình sẽ ra cửa hàng xem trực tiếp 2 mẫu, cảm ơn mọi người.
+
+c17 · U05 · reply=U02 · 2026-10-28T10:32:00Z · reference=CLEAN · target=∅
+Cà khịa kiểu đó không giúp người hỏi chọn hàng đâu bro.
+
+c18 · U02 · reply=U05 · 2026-10-28T10:34:00Z · reference=CLEAN · target=∅
+Nói chung IPS 2K vẫn có lý nếu budget thấp. Mình rút câu nói quá.
+
+c19 · U04 · reply=U02 · 2026-10-28T10:36:00Z · reference=CLEAN · target=∅
+Ok, ai có link review calibration gửi U01 nhé.
+
+c20 · U01 · reply=U04 · 2026-10-28T10:38:00Z · reference=CLEAN · target=∅
+Đã bookmark hai bài. Tui đi ngủ, deadline edit dí quá vl."
+SHIELDVI_NOV10_18_TRANH_LUAN_MAN_HINH,c14,"Ừ, U03 cứ trưng benchmark ra cho oai, chắc nghĩ cả phòng phải học từ mình.",TOXIC,U03,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Ẩn dụ bảng thông số và nhận xét trưng benchmark là chê lập luận hay công kích nhân cách/người nói?,,,,,U02,c10,U03,"c01 · U01 · reply=∅ · 2026-10-28T10:00:00Z · reference=CLEAN · target=∅
+Edit 4K nhẹ nhàng nên mua màn IPS 27 inch 2K hay VA 32 inch 4K vậy mọi người?
+
+c02 · U03 · reply=U01 · 2026-10-28T10:02:00Z · reference=CLEAN · target=∅
+Nếu ưu tiên màu thì xem coverage sRGB/Delta E, không chỉ resolution.
+
+c03 · U02 · reply=U01 · 2026-10-28T10:04:00Z · reference=CLEAN · target=∅
+Mua 4K khỏi nghĩ, 2K giờ cổ quá rồi.
+
+c04 · U04 · reply=U02 · 2026-10-28T10:06:00Z · reference=CLEAN · target=∅
+Nói vậy thiếu điều kiện ngân sách. 4K không tự động màu chuẩn hơn.
+
+c05 · U02 · reply=U04 · 2026-10-28T10:08:00Z · reference=CLEAN · target=∅
+Ok point taken. Nhưng scaling Windows với 2K vẫn hơi chán.
+
+c06 · U05 · reply=U01 · 2026-10-28T10:10:00Z · reference=CLEAN · target=∅
+Tui dùng màn 1080p edit shorts mà vẫn sống khỏe lol.
+
+c07 · U03 · reply=U02 · 2026-10-28T10:12:00Z · reference=CLEAN · target=∅
+Có ai dùng colorimeter hiệu chuẩn chưa, mình xin trải nghiệm.
+
+c08 · U04 · reply=U03 · 2026-10-28T10:14:00Z · reference=CLEAN · target=∅
+U03 đưa tiêu chí rõ rồi, đây là ví dụ tranh luận kỹ thuật tử tế.
+
+c09 · U02 · reply=U04 · 2026-10-28T10:16:00Z · reference=TOXIC · target=U03
+U03 đúng kiểu cái bảng thông số biết đi, tưởng vài con số là hiểu nghề 😌
+
+c10 · U03 · reply=U02 · 2026-10-28T10:18:00Z · reference=CLEAN · target=∅
+Nếu bạn thấy mình sai, dẫn benchmark cụ thể nha. Đừng gọi mình như vậy.
+
+c11 · U01 · reply=U03 · 2026-10-28T10:20:00Z · reference=CLEAN · target=∅
+Mình từng thuê colorimeter một ngày, khác biệt rõ lúc in ảnh.
+
+c12 · U05 · reply=U03 · 2026-10-28T10:22:00Z · reference=CLEAN · target=∅
+Bạn U03 trả lời đúng trọng tâm mà. Câu “bảng thông số biết đi” nghe như hạ thấp người.
+
+c13 · U04 · reply=U01 · 2026-10-28T10:24:00Z · reference=CLEAN · target=∅
+Chuyện màn hình thôi, không cần công kích cá nhân.
+
+c14 · U02 · reply=U03 · 2026-10-28T10:26:00Z · reference=TOXIC · target=U03
+Ừ, U03 cứ trưng benchmark ra cho oai, chắc nghĩ cả phòng phải học từ mình.
+
+c15 · U03 · reply=U02 · 2026-10-28T10:28:00Z · reference=CLEAN · target=∅
+Mình chỉ chia sẻ cách chọn màn phù hợp công việc, không dạy ai cả.
+
+c16 · U01 · reply=U03 · 2026-10-28T10:30:00Z · reference=CLEAN · target=∅
+Thôi mình sẽ ra cửa hàng xem trực tiếp 2 mẫu, cảm ơn mọi người.
+
+c17 · U05 · reply=U02 · 2026-10-28T10:32:00Z · reference=CLEAN · target=∅
+Cà khịa kiểu đó không giúp người hỏi chọn hàng đâu bro.
+
+c18 · U02 · reply=U05 · 2026-10-28T10:34:00Z · reference=CLEAN · target=∅
+Nói chung IPS 2K vẫn có lý nếu budget thấp. Mình rút câu nói quá.
+
+c19 · U04 · reply=U02 · 2026-10-28T10:36:00Z · reference=CLEAN · target=∅
+Ok, ai có link review calibration gửi U01 nhé.
+
+c20 · U01 · reply=U04 · 2026-10-28T10:38:00Z · reference=CLEAN · target=∅
+Đã bookmark hai bài. Tui đi ngủ, deadline edit dí quá vl."
+SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN,c07,"U02 goi y nhu may copy pinterest, nao co cai gi cua minh ko?",TOXIC,U02,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Phê bình ý tưởng giống Pinterest có bằng chứng hay chế giễu thiếu sáng tạo? Lời yêu cầu ngừng bàn có hạ nhục không?,,,,,U04,c02,U02,"c01 · U01 · reply=∅ · 2026-10-29T10:00:00Z · reference=CLEAN · target=∅
+live ve fanart toi nay nha mn, ai co y tuong background drop nhe 💜
+
+c02 · U02 · reply=U01 · 2026-10-29T10:02:00Z · reference=CLEAN · target=∅
+ve canh thanh pho neon di b oi
+
+c03 · U03 · reply=U01 · 2026-10-29T10:04:00Z · reference=CLEAN · target=∅
+oat, lineart nay muot vl 🔥
+
+c04 · U04 · reply=U03 · 2026-10-29T10:06:00Z · reference=CLEAN · target=∅
+hieu ung anh sang on ap phết, t thich phan toc.
+
+c05 · U05 · reply=U02 · 2026-10-29T10:08:00Z · reference=CLEAN · target=∅
+cho xin brush nen? (khong xin file tranh)
+
+c06 · U01 · reply=U05 · 2026-10-29T10:10:00Z · reference=CLEAN · target=∅
+brush mac dinh procreate thoi, t gui ten sau.
+
+c07 · U04 · reply=U02 · 2026-10-29T10:12:00Z · reference=TOXIC · target=U02
+U02 goi y nhu may copy pinterest, nao co cai gi cua minh ko?
+
+c08 · U02 · reply=U04 · 2026-10-29T10:14:00Z · reference=CLEAN · target=∅
+idea common ma? t chi suggest background thoi
+
+c09 · U03 · reply=U04 · 2026-10-29T10:16:00Z · reference=CLEAN · target=∅
+ban ay co che bai ai dau, de nguoi ve tu chon di.
+
+c10 · U05 · reply=U03 · 2026-10-29T10:18:00Z · reference=CLEAN · target=∅
+DM cai layer lag qua, app dung 2 lan roi 😭
+
+c11 · U01 · reply=U05 · 2026-10-29T10:20:00Z · reference=CLEAN · target=∅
+save file di, nay t cung tung crash roi.
+
+c12 · U04 · reply=U02 · 2026-10-29T10:22:00Z · reference=TOXIC · target=U02
+U02 dung ban chuyen y tuong nua, noi nhieu ma toan goi y re tien.
+
+c13 · U02 · reply=U04 · 2026-10-29T10:24:00Z · reference=CLEAN · target=∅
+Stop. neu ko thich idea thi bo qua, dung nham vao t.
+
+c14 · U03 · reply=U02 · 2026-10-29T10:26:00Z · reference=CLEAN · target=∅
+mod oi ban U04 dang atac ca nhan, xem giup.
+
+c15 · U01 · reply=U03 · 2026-10-29T10:28:00Z · reference=CLEAN · target=∅
+minh nhac chat: gop y ve art, ko cong kich nguoi xem nha.
+
+c16 · U04 · reply=U01 · 2026-10-29T10:30:00Z · reference=CLEAN · target=∅
+ok sorry, t noi hoi qua. background neon actually hop.
+
+c17 · U05 · reply=U04 · 2026-10-29T10:32:00Z · reference=CLEAN · target=∅
+lol plot twist, gio chon mau nao? cyan hay hong
+
+c18 · U02 · reply=U05 · 2026-10-29T10:34:00Z · reference=CLEAN · target=∅
+cyan pls, nhung tuy artist quyet nha
+
+c19 · U01 · reply=U02 · 2026-10-29T10:36:00Z · reference=CLEAN · target=∅
+chot cyan + purple. cam on mn da xem live nhe
+
+c20 · U03 · reply=U01 · 2026-10-29T10:38:00Z · reference=CLEAN · target=∅
+art dep du ba, hẹn live sau ✨"
+SHIELDVI_NOV10_19_LIVESTREAM_VE_TRUYEN,c12,"U02 dung ban chuyen y tuong nua, noi nhieu ma toan goi y re tien.",TOXIC,U02,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Phê bình ý tưởng giống Pinterest có bằng chứng hay chế giễu thiếu sáng tạo? Lời yêu cầu ngừng bàn có hạ nhục không?,,,,,U04,c08,U02,"c01 · U01 · reply=∅ · 2026-10-29T10:00:00Z · reference=CLEAN · target=∅
+live ve fanart toi nay nha mn, ai co y tuong background drop nhe 💜
+
+c02 · U02 · reply=U01 · 2026-10-29T10:02:00Z · reference=CLEAN · target=∅
+ve canh thanh pho neon di b oi
+
+c03 · U03 · reply=U01 · 2026-10-29T10:04:00Z · reference=CLEAN · target=∅
+oat, lineart nay muot vl 🔥
+
+c04 · U04 · reply=U03 · 2026-10-29T10:06:00Z · reference=CLEAN · target=∅
+hieu ung anh sang on ap phết, t thich phan toc.
+
+c05 · U05 · reply=U02 · 2026-10-29T10:08:00Z · reference=CLEAN · target=∅
+cho xin brush nen? (khong xin file tranh)
+
+c06 · U01 · reply=U05 · 2026-10-29T10:10:00Z · reference=CLEAN · target=∅
+brush mac dinh procreate thoi, t gui ten sau.
+
+c07 · U04 · reply=U02 · 2026-10-29T10:12:00Z · reference=TOXIC · target=U02
+U02 goi y nhu may copy pinterest, nao co cai gi cua minh ko?
+
+c08 · U02 · reply=U04 · 2026-10-29T10:14:00Z · reference=CLEAN · target=∅
+idea common ma? t chi suggest background thoi
+
+c09 · U03 · reply=U04 · 2026-10-29T10:16:00Z · reference=CLEAN · target=∅
+ban ay co che bai ai dau, de nguoi ve tu chon di.
+
+c10 · U05 · reply=U03 · 2026-10-29T10:18:00Z · reference=CLEAN · target=∅
+DM cai layer lag qua, app dung 2 lan roi 😭
+
+c11 · U01 · reply=U05 · 2026-10-29T10:20:00Z · reference=CLEAN · target=∅
+save file di, nay t cung tung crash roi.
+
+c12 · U04 · reply=U02 · 2026-10-29T10:22:00Z · reference=TOXIC · target=U02
+U02 dung ban chuyen y tuong nua, noi nhieu ma toan goi y re tien.
+
+c13 · U02 · reply=U04 · 2026-10-29T10:24:00Z · reference=CLEAN · target=∅
+Stop. neu ko thich idea thi bo qua, dung nham vao t.
+
+c14 · U03 · reply=U02 · 2026-10-29T10:26:00Z · reference=CLEAN · target=∅
+mod oi ban U04 dang atac ca nhan, xem giup.
+
+c15 · U01 · reply=U03 · 2026-10-29T10:28:00Z · reference=CLEAN · target=∅
+minh nhac chat: gop y ve art, ko cong kich nguoi xem nha.
+
+c16 · U04 · reply=U01 · 2026-10-29T10:30:00Z · reference=CLEAN · target=∅
+ok sorry, t noi hoi qua. background neon actually hop.
+
+c17 · U05 · reply=U04 · 2026-10-29T10:32:00Z · reference=CLEAN · target=∅
+lol plot twist, gio chon mau nao? cyan hay hong
+
+c18 · U02 · reply=U05 · 2026-10-29T10:34:00Z · reference=CLEAN · target=∅
+cyan pls, nhung tuy artist quyet nha
+
+c19 · U01 · reply=U02 · 2026-10-29T10:36:00Z · reference=CLEAN · target=∅
+chot cyan + purple. cam on mn da xem live nhe
+
+c20 · U03 · reply=U01 · 2026-10-29T10:38:00Z · reference=CLEAN · target=∅
+art dep du ba, hẹn live sau ✨"
+SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM,c06,"U01 làm leader mà đến intro cũng phải chờ người khác chỉ từng câu, lạ nhỉ.",TOXIC,U01,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Góp ý trách nhiệm điều phối có bằng chứng hay công kích/quy chụp nhận công? Giữ riêng từng actor.,,,,,U05,c04,U01,"c01 · U01 · reply=∅ · 2026-10-30T10:00:00Z · reference=CLEAN · target=∅
+Nhóm ơi tập podcast về tiêu dùng xanh lên sóng tối mai. Mình gửi bản nháp intro.
+
+c02 · U02 · reply=U01 · 2026-10-30T10:02:00Z · reference=CLEAN · target=∅
+Intro hơi dài, nên cắt đoạn giải thích thuật ngữ để vào nội dung nhanh hơn.
+
+c03 · U03 · reply=U01 · 2026-10-30T10:04:00Z · reference=CLEAN · target=∅
+Mix âm tốt rồi. Nhưng nhạc nền khúc 00:45 hơi to.
+
+c04 · U01 · reply=U02 · 2026-10-30T10:06:00Z · reference=CLEAN · target=∅
+Ok mình cắt khoảng 20 giây và hạ volume nền.
+
+c05 · U04 · reply=U01 · 2026-10-30T10:08:00Z · reference=CLEAN · target=∅
+Bạn đừng ôm hết việc, nếu cần mình chỉnh transcript nha.
+
+c06 · U05 · reply=U01 · 2026-10-30T10:10:00Z · reference=TOXIC · target=U01
+U01 làm leader mà đến intro cũng phải chờ người khác chỉ từng câu, lạ nhỉ.
+
+c07 · U01 · reply=U05 · 2026-10-30T10:12:00Z · reference=CLEAN · target=∅
+Mình đang xin feedback trước khi đăng, đó là quy trình nhóm mà.
+
+c08 · U03 · reply=U05 · 2026-10-30T10:14:00Z · reference=CLEAN · target=∅
+Mình góp ý nhạc chứ đâu có nói leader kém. Hai việc khác nhau.
+
+c09 · U02 · reply=U01 · 2026-10-30T10:16:00Z · reference=TOXIC · target=U01
+U01 mà cũng nhận điều phối được hả, nghe cách quản lý là biết non rồi.
+
+c10 · U04 · reply=U02 · 2026-10-30T10:18:00Z · reference=CLEAN · target=∅
+Mọi người dừng nhận xét về năng lực cá nhân, còn lỗi nào thì liệt kê cụ thể.
+
+c11 · U05 · reply=U01 · 2026-10-30T10:20:00Z · reference=TOXIC · target=U01
+Nói thật, U01 chỉ giỏi gom deadline cho người khác gánh, tự làm chẳng ra gì.
+
+c12 · U01 · reply=U05 · 2026-10-30T10:22:00Z · reference=CLEAN · target=∅
+Phần mình làm có trong drive. Nếu cần phân chia lại, mình sẵn sàng.
+
+c13 · U03 · reply=U01 · 2026-10-30T10:24:00Z · reference=CLEAN · target=∅
+Mình xác nhận U01 có xử lý cả kịch bản lẫn hậu kỳ. Đừng nói sai dữ kiện.
+
+c14 · U02 · reply=U03 · 2026-10-30T10:26:00Z · reference=CLEAN · target=∅
+Ok xin lỗi vì nói bạn non. Đoạn chuyển cảnh vẫn cần rút 5 giây.
+
+c15 · U05 · reply=U02 · 2026-10-30T10:28:00Z · reference=TOXIC · target=U01
+Đoạn chuyển thì tùy, nhưng U01 vẫn là kiểu người chỉ biết ra lệnh rồi nhận công.
+
+c16 · U04 · reply=U05 · 2026-10-30T10:30:00Z · reference=CLEAN · target=∅
+“Chỉ biết ra lệnh” là cáo buộc về người, không phải góp ý audio.
+
+c17 · U01 · reply=U04 · 2026-10-30T10:32:00Z · reference=CLEAN · target=∅
+Mình đề nghị họp 10 phút để phân vai lại, không tranh cãi trong thread nữa.
+
+c18 · U03 · reply=U01 · 2026-10-30T10:34:00Z · reference=CLEAN · target=∅
+Tôi tham gia được lúc 21h, cần thì gửi calendar invite.
+
+c19 · U02 · reply=U01 · 2026-10-30T10:36:00Z · reference=CLEAN · target=∅
+21h ok, mình sẽ mang danh sách chỗ cần chỉnh.
+
+c20 · U05 · reply=U03 · 2026-10-30T10:38:00Z · reference=CLEAN · target=∅
+Tối nay mình bận, phần review âm thanh mình sẽ gửi trước."
+SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM,c09,"U01 mà cũng nhận điều phối được hả, nghe cách quản lý là biết non rồi.",TOXIC,U01,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Góp ý trách nhiệm điều phối có bằng chứng hay công kích/quy chụp nhận công? Giữ riêng từng actor.,,,,,U02,c07,U01,"c01 · U01 · reply=∅ · 2026-10-30T10:00:00Z · reference=CLEAN · target=∅
+Nhóm ơi tập podcast về tiêu dùng xanh lên sóng tối mai. Mình gửi bản nháp intro.
+
+c02 · U02 · reply=U01 · 2026-10-30T10:02:00Z · reference=CLEAN · target=∅
+Intro hơi dài, nên cắt đoạn giải thích thuật ngữ để vào nội dung nhanh hơn.
+
+c03 · U03 · reply=U01 · 2026-10-30T10:04:00Z · reference=CLEAN · target=∅
+Mix âm tốt rồi. Nhưng nhạc nền khúc 00:45 hơi to.
+
+c04 · U01 · reply=U02 · 2026-10-30T10:06:00Z · reference=CLEAN · target=∅
+Ok mình cắt khoảng 20 giây và hạ volume nền.
+
+c05 · U04 · reply=U01 · 2026-10-30T10:08:00Z · reference=CLEAN · target=∅
+Bạn đừng ôm hết việc, nếu cần mình chỉnh transcript nha.
+
+c06 · U05 · reply=U01 · 2026-10-30T10:10:00Z · reference=TOXIC · target=U01
+U01 làm leader mà đến intro cũng phải chờ người khác chỉ từng câu, lạ nhỉ.
+
+c07 · U01 · reply=U05 · 2026-10-30T10:12:00Z · reference=CLEAN · target=∅
+Mình đang xin feedback trước khi đăng, đó là quy trình nhóm mà.
+
+c08 · U03 · reply=U05 · 2026-10-30T10:14:00Z · reference=CLEAN · target=∅
+Mình góp ý nhạc chứ đâu có nói leader kém. Hai việc khác nhau.
+
+c09 · U02 · reply=U01 · 2026-10-30T10:16:00Z · reference=TOXIC · target=U01
+U01 mà cũng nhận điều phối được hả, nghe cách quản lý là biết non rồi.
+
+c10 · U04 · reply=U02 · 2026-10-30T10:18:00Z · reference=CLEAN · target=∅
+Mọi người dừng nhận xét về năng lực cá nhân, còn lỗi nào thì liệt kê cụ thể.
+
+c11 · U05 · reply=U01 · 2026-10-30T10:20:00Z · reference=TOXIC · target=U01
+Nói thật, U01 chỉ giỏi gom deadline cho người khác gánh, tự làm chẳng ra gì.
+
+c12 · U01 · reply=U05 · 2026-10-30T10:22:00Z · reference=CLEAN · target=∅
+Phần mình làm có trong drive. Nếu cần phân chia lại, mình sẵn sàng.
+
+c13 · U03 · reply=U01 · 2026-10-30T10:24:00Z · reference=CLEAN · target=∅
+Mình xác nhận U01 có xử lý cả kịch bản lẫn hậu kỳ. Đừng nói sai dữ kiện.
+
+c14 · U02 · reply=U03 · 2026-10-30T10:26:00Z · reference=CLEAN · target=∅
+Ok xin lỗi vì nói bạn non. Đoạn chuyển cảnh vẫn cần rút 5 giây.
+
+c15 · U05 · reply=U02 · 2026-10-30T10:28:00Z · reference=TOXIC · target=U01
+Đoạn chuyển thì tùy, nhưng U01 vẫn là kiểu người chỉ biết ra lệnh rồi nhận công.
+
+c16 · U04 · reply=U05 · 2026-10-30T10:30:00Z · reference=CLEAN · target=∅
+“Chỉ biết ra lệnh” là cáo buộc về người, không phải góp ý audio.
+
+c17 · U01 · reply=U04 · 2026-10-30T10:32:00Z · reference=CLEAN · target=∅
+Mình đề nghị họp 10 phút để phân vai lại, không tranh cãi trong thread nữa.
+
+c18 · U03 · reply=U01 · 2026-10-30T10:34:00Z · reference=CLEAN · target=∅
+Tôi tham gia được lúc 21h, cần thì gửi calendar invite.
+
+c19 · U02 · reply=U01 · 2026-10-30T10:36:00Z · reference=CLEAN · target=∅
+21h ok, mình sẽ mang danh sách chỗ cần chỉnh.
+
+c20 · U05 · reply=U03 · 2026-10-30T10:38:00Z · reference=CLEAN · target=∅
+Tối nay mình bận, phần review âm thanh mình sẽ gửi trước."
+SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM,c11,"Nói thật, U01 chỉ giỏi gom deadline cho người khác gánh, tự làm chẳng ra gì.",TOXIC,U01,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Góp ý trách nhiệm điều phối có bằng chứng hay công kích/quy chụp nhận công? Giữ riêng từng actor.,,,,,U05,c07,U01,"c01 · U01 · reply=∅ · 2026-10-30T10:00:00Z · reference=CLEAN · target=∅
+Nhóm ơi tập podcast về tiêu dùng xanh lên sóng tối mai. Mình gửi bản nháp intro.
+
+c02 · U02 · reply=U01 · 2026-10-30T10:02:00Z · reference=CLEAN · target=∅
+Intro hơi dài, nên cắt đoạn giải thích thuật ngữ để vào nội dung nhanh hơn.
+
+c03 · U03 · reply=U01 · 2026-10-30T10:04:00Z · reference=CLEAN · target=∅
+Mix âm tốt rồi. Nhưng nhạc nền khúc 00:45 hơi to.
+
+c04 · U01 · reply=U02 · 2026-10-30T10:06:00Z · reference=CLEAN · target=∅
+Ok mình cắt khoảng 20 giây và hạ volume nền.
+
+c05 · U04 · reply=U01 · 2026-10-30T10:08:00Z · reference=CLEAN · target=∅
+Bạn đừng ôm hết việc, nếu cần mình chỉnh transcript nha.
+
+c06 · U05 · reply=U01 · 2026-10-30T10:10:00Z · reference=TOXIC · target=U01
+U01 làm leader mà đến intro cũng phải chờ người khác chỉ từng câu, lạ nhỉ.
+
+c07 · U01 · reply=U05 · 2026-10-30T10:12:00Z · reference=CLEAN · target=∅
+Mình đang xin feedback trước khi đăng, đó là quy trình nhóm mà.
+
+c08 · U03 · reply=U05 · 2026-10-30T10:14:00Z · reference=CLEAN · target=∅
+Mình góp ý nhạc chứ đâu có nói leader kém. Hai việc khác nhau.
+
+c09 · U02 · reply=U01 · 2026-10-30T10:16:00Z · reference=TOXIC · target=U01
+U01 mà cũng nhận điều phối được hả, nghe cách quản lý là biết non rồi.
+
+c10 · U04 · reply=U02 · 2026-10-30T10:18:00Z · reference=CLEAN · target=∅
+Mọi người dừng nhận xét về năng lực cá nhân, còn lỗi nào thì liệt kê cụ thể.
+
+c11 · U05 · reply=U01 · 2026-10-30T10:20:00Z · reference=TOXIC · target=U01
+Nói thật, U01 chỉ giỏi gom deadline cho người khác gánh, tự làm chẳng ra gì.
+
+c12 · U01 · reply=U05 · 2026-10-30T10:22:00Z · reference=CLEAN · target=∅
+Phần mình làm có trong drive. Nếu cần phân chia lại, mình sẵn sàng.
+
+c13 · U03 · reply=U01 · 2026-10-30T10:24:00Z · reference=CLEAN · target=∅
+Mình xác nhận U01 có xử lý cả kịch bản lẫn hậu kỳ. Đừng nói sai dữ kiện.
+
+c14 · U02 · reply=U03 · 2026-10-30T10:26:00Z · reference=CLEAN · target=∅
+Ok xin lỗi vì nói bạn non. Đoạn chuyển cảnh vẫn cần rút 5 giây.
+
+c15 · U05 · reply=U02 · 2026-10-30T10:28:00Z · reference=TOXIC · target=U01
+Đoạn chuyển thì tùy, nhưng U01 vẫn là kiểu người chỉ biết ra lệnh rồi nhận công.
+
+c16 · U04 · reply=U05 · 2026-10-30T10:30:00Z · reference=CLEAN · target=∅
+“Chỉ biết ra lệnh” là cáo buộc về người, không phải góp ý audio.
+
+c17 · U01 · reply=U04 · 2026-10-30T10:32:00Z · reference=CLEAN · target=∅
+Mình đề nghị họp 10 phút để phân vai lại, không tranh cãi trong thread nữa.
+
+c18 · U03 · reply=U01 · 2026-10-30T10:34:00Z · reference=CLEAN · target=∅
+Tôi tham gia được lúc 21h, cần thì gửi calendar invite.
+
+c19 · U02 · reply=U01 · 2026-10-30T10:36:00Z · reference=CLEAN · target=∅
+21h ok, mình sẽ mang danh sách chỗ cần chỉnh.
+
+c20 · U05 · reply=U03 · 2026-10-30T10:38:00Z · reference=CLEAN · target=∅
+Tối nay mình bận, phần review âm thanh mình sẽ gửi trước."
+SHIELDVI_NOV10_20_DANH_GIA_PODCAST_NHOM,c15,"Đoạn chuyển thì tùy, nhưng U01 vẫn là kiểu người chỉ biết ra lệnh rồi nhận công.",TOXIC,U01,synthetic_reference,False,PENDING_OWNER_ADJUDICATION,Góp ý trách nhiệm điều phối có bằng chứng hay công kích/quy chụp nhận công? Giữ riêng từng actor.,,,,,U05,c14,U02,"c01 · U01 · reply=∅ · 2026-10-30T10:00:00Z · reference=CLEAN · target=∅
+Nhóm ơi tập podcast về tiêu dùng xanh lên sóng tối mai. Mình gửi bản nháp intro.
+
+c02 · U02 · reply=U01 · 2026-10-30T10:02:00Z · reference=CLEAN · target=∅
+Intro hơi dài, nên cắt đoạn giải thích thuật ngữ để vào nội dung nhanh hơn.
+
+c03 · U03 · reply=U01 · 2026-10-30T10:04:00Z · reference=CLEAN · target=∅
+Mix âm tốt rồi. Nhưng nhạc nền khúc 00:45 hơi to.
+
+c04 · U01 · reply=U02 · 2026-10-30T10:06:00Z · reference=CLEAN · target=∅
+Ok mình cắt khoảng 20 giây và hạ volume nền.
+
+c05 · U04 · reply=U01 · 2026-10-30T10:08:00Z · reference=CLEAN · target=∅
+Bạn đừng ôm hết việc, nếu cần mình chỉnh transcript nha.
+
+c06 · U05 · reply=U01 · 2026-10-30T10:10:00Z · reference=TOXIC · target=U01
+U01 làm leader mà đến intro cũng phải chờ người khác chỉ từng câu, lạ nhỉ.
+
+c07 · U01 · reply=U05 · 2026-10-30T10:12:00Z · reference=CLEAN · target=∅
+Mình đang xin feedback trước khi đăng, đó là quy trình nhóm mà.
+
+c08 · U03 · reply=U05 · 2026-10-30T10:14:00Z · reference=CLEAN · target=∅
+Mình góp ý nhạc chứ đâu có nói leader kém. Hai việc khác nhau.
+
+c09 · U02 · reply=U01 · 2026-10-30T10:16:00Z · reference=TOXIC · target=U01
+U01 mà cũng nhận điều phối được hả, nghe cách quản lý là biết non rồi.
+
+c10 · U04 · reply=U02 · 2026-10-30T10:18:00Z · reference=CLEAN · target=∅
+Mọi người dừng nhận xét về năng lực cá nhân, còn lỗi nào thì liệt kê cụ thể.
+
+c11 · U05 · reply=U01 · 2026-10-30T10:20:00Z · reference=TOXIC · target=U01
+Nói thật, U01 chỉ giỏi gom deadline cho người khác gánh, tự làm chẳng ra gì.
+
+c12 · U01 · reply=U05 · 2026-10-30T10:22:00Z · reference=CLEAN · target=∅
+Phần mình làm có trong drive. Nếu cần phân chia lại, mình sẵn sàng.
+
+c13 · U03 · reply=U01 · 2026-10-30T10:24:00Z · reference=CLEAN · target=∅
+Mình xác nhận U01 có xử lý cả kịch bản lẫn hậu kỳ. Đừng nói sai dữ kiện.
+
+c14 · U02 · reply=U03 · 2026-10-30T10:26:00Z · reference=CLEAN · target=∅
+Ok xin lỗi vì nói bạn non. Đoạn chuyển cảnh vẫn cần rút 5 giây.
+
+c15 · U05 · reply=U02 · 2026-10-30T10:28:00Z · reference=TOXIC · target=U01
+Đoạn chuyển thì tùy, nhưng U01 vẫn là kiểu người chỉ biết ra lệnh rồi nhận công.
+
+c16 · U04 · reply=U05 · 2026-10-30T10:30:00Z · reference=CLEAN · target=∅
+“Chỉ biết ra lệnh” là cáo buộc về người, không phải góp ý audio.
+
+c17 · U01 · reply=U04 · 2026-10-30T10:32:00Z · reference=CLEAN · target=∅
+Mình đề nghị họp 10 phút để phân vai lại, không tranh cãi trong thread nữa.
+
+c18 · U03 · reply=U01 · 2026-10-30T10:34:00Z · reference=CLEAN · target=∅
+Tôi tham gia được lúc 21h, cần thì gửi calendar invite.
+
+c19 · U02 · reply=U01 · 2026-10-30T10:36:00Z · reference=CLEAN · target=∅
+21h ok, mình sẽ mang danh sách chỗ cần chỉnh.
+
+c20 · U05 · reply=U03 · 2026-10-30T10:38:00Z · reference=CLEAN · target=∅
+Tối nay mình bận, phần review âm thanh mình sẽ gửi trước."

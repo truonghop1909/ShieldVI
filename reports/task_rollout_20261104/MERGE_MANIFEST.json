@@ -1,0 +1,85 @@
+{
+  "source_untouched": true,
+  "files": [
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T034_KIẾN_TRÚC_VÀ_CONTRACT_KIỂM_DUYỆT_HỘI_THOẠI_REALTIME.md",
+      "source_sha256": "28bb1fed2baabb34697556fb742595478eb504b99b996301d1c67427ff889aab",
+      "destination": "tasks/moderation-ai/T034-realtime-moderation-architecture.md"
+    },
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T035_SOCIAL_API__NHẬN_TIN_NHẮN_VÀ_HÀNG_ĐỢI_AI_BỀN_VỮNG.md",
+      "source_sha256": "9384a9ce7dd25632877dc981599610c2c90096f619d63f099ca110d7ae3c85e3",
+      "destination": "tasks/moderation-ai/T035-durable-live-messaging-ai-jobs.md"
+    },
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T036_MODERATION_AI__INCREMENTAL_THREAD_ANALYSIS_VÀ_REPEATED_EVENTS.md",
+      "source_sha256": "ae3b6dd83778fd00f4e0fc7ae88d8fb69c272e4ad0abfb665fefc74e124f29eb",
+      "destination": "tasks/moderation-ai/T036-incremental-conversation-analysis.md"
+    },
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T037_CLIENT_UI__HỘI_THOẠI_REALTIME_VÀ_TRẠNG_THÁI_KIỂM_DUYỆT.md",
+      "source_sha256": "38050a89b5ba4bc47558191d60a65afcdf67ce9975500e06276d7e6f0f33ae6e",
+      "destination": "tasks/moderation-ai/T037-live-conversation-client.md"
+    },
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T038_MODERATOR_LIVE_BOARD_VÀ_LUỒNG_XỬ_LÝ_THỦ_CÔNG.md",
+      "source_sha256": "1e36924993afd264a4094b25e4cfb3cb59e400df3e81c86fbfc5eb2bb02b8a77",
+      "destination": "tasks/moderation-ai/T038-live-moderator-board.md"
+    },
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T039_DATASET_CENTER__UPLOAD__CHUẨN_HÓA__PHIÊN_BẢN_DỮ_LIỆU.md",
+      "source_sha256": "8a3d27297cf33add784632da66bfff6e2ec6f3341bc18866690732dd67680a1e",
+      "destination": "tasks/moderation-ai/T039-dataset-center.md"
+    },
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T040_ANNOTATION_STUDIO__TỰ_GÁN_NHÃN_THEO_HỘI_THOẠI.md",
+      "source_sha256": "6713ac07d012a5c950de28b7852e3dce594606f2172beb71974f3cfb92d81b86",
+      "destination": "tasks/moderation-ai/T040-annotation-studio.md"
+    },
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T041_TRAINING_STUDIO__UI_CHỌN_DATASET_VÀ_HUẤN_LUYỆN_VISOBERT_CANDIDATE.md",
+      "source_sha256": "feb3e51d8c8520e9017e7b46901dd98b895ee9d021ce594a586cee00a1d95775",
+      "destination": "tasks/moderation-ai/T041-training-studio.md"
+    },
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T042_EVALUATION_STUDIO__MODEL_REGISTRY_VÀ_SHADOW_SO_SÁNH.md",
+      "source_sha256": "39f43abeb0cf23198be2b8171ffe7dd8e00e9a224d1014c28bff321ecf648c34",
+      "destination": "tasks/moderation-ai/T042-evaluation-studio-model-registry.md"
+    },
+    {
+      "source": "E:\\lamDoAn\\ShieldVI_T034_T043_Realtime_Training_Tasks\\ShieldVI_T034_T043\\tasks\\moderation-ai\\T043_END_TO_END_DEMO__BENCHMARK__KIỂM_THỬ_AN_TOÀN_VÀ_BÀN_GIAO.md",
+      "source_sha256": "e8ffbba7eee7784d88084f30d7ee10eb657a769936c8ba2c5edf801f97cd38a6",
+      "destination": "tasks/moderation-ai/T043-realtime-studio-e2e-handoff.md"
+    }
+  ],
+  "original_pack_files_verified": 13,
+  "historical_states": {
+    "tasks/integration/T007-repo-blueprint.md": "DONE — đạt tiêu chí khảo sát/kế hoạch T007; inference thật và Colab chưa kiểm chứng (xem giới hạn bên dưới).  ",
+    "tasks/integration/T012-moderation-jobs.md": "DONE — mocked/cross-service/live HTTP stub tests đạt; inference thật chưa kiểm chứng.  ",
+    "tasks/integration/T014-e2e-security.md": "DONE  ",
+    "tasks/integration/T015-migrate-legacy.md": "DONE  ",
+    "tasks/integration/T016-policy-design.md": "DONE (thiết kế và kiểm chứng phạm vi T016; chưa duyệt active config/HIGH auto-hold) | **Phụ thuộc:** T007 | **Skill:** `$shieldvi-moderation-policy`",
+    "tasks/integration/T017-durable-worker-and-offline.md": "DONE (durable worker + offline/manual fallback, stub inference) | **Phụ thuộc:** T009, T011, T012 | **Skill:** `$shieldvi-social-backend`, `$shieldvi-moderation-policy`",
+    "tasks/integration/T019-evaluation-and-privacy.md": "DONE (local evaluation, giới hạn policy gold ghi rõ) | **Phụ thuộc:** T012, T013 | **Skill:** `$shieldvi-moderation-policy`, `$shieldvi-ai-integration`",
+    "tasks/moderation-ai/T011-moderation-adapter.md": "DONE — 130 test V3/adapter pass với predictor giả; inference checkpoint thật chưa kiểm chứng.  ",
+    "tasks/moderation-ai/T020-audit-ai-snapshot-baseline.md": "DONE",
+    "tasks/moderation-ai/T021-regression-fixtures-provisional-annotation.md": "DONE",
+    "tasks/moderation-ai/T022-context-signals-apology-quote-defense-inte.md": "DONE",
+    "tasks/moderation-ai/T023-lexicon-vi-en-teencode-expansion.md": "DONE",
+    "tasks/moderation-ai/T024-target-detection-v3-explicit-and-abstain.md": "DONE",
+    "tasks/moderation-ai/T025-repeated-harassment-v3-evidence-aware.md": "DONE",
+    "tasks/moderation-ai/T026-api-schema-dashboard-signals-policy-bounda.md": "DONE",
+    "tasks/moderation-ai/T027-data-ingestion-provenance-for-hard-cases.md": "DONE",
+    "tasks/moderation-ai/T028-independent-evaluation-solo-review-protoco.md": "DONE",
+    "tasks/moderation-ai/T029-optional-train-candidate-visobert-on-colab.md": "DONE",
+    "tasks/moderation-ai/T030-paired-offline-evaluation-ablation.md": "DONE",
+    "tasks/moderation-ai/T031-optional-model-registry-shadow-and-rollbac.md": "DONE",
+    "tasks/moderation-ai/T032-social-ai-integration-offline-safety-e2e.md": "DONE",
+    "tasks/moderation-ai/T033-technical-report-thesis-handoff.md": "DONE",
+    "tasks/moderation-web/T013-admin-review.md": "DONE",
+    "tasks/moderation-web/T018-admin-appeals-audit.md": "DONE | **Phụ thuộc:** T013, T016 | **Skill:** `$shieldvi-moderation-admin`",
+    "tasks/social-api/T008-auth-database.md": "DONE — auth/users/roles và SQLite migration đã kiểm thử; PostgreSQL server chưa kiểm chứng.  ",
+    "tasks/social-api/T009-social-content.md": "DONE — CRUD/feed/outbox đã kiểm thử độc lập AI; publish/worker thuộc task sau.  ",
+    "tasks/social-web/T010-social-frontend.md": "DONE — build và 9 ca Chrome với Social API thật/DB tạm đạt.  "
+  }
+}

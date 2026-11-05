@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "id": "vi_dit_me",
+      "canonical": "địt mẹ",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "địt mẹ",
+        "dit me",
+        "địt mịe",
+        "địt má",
+        "địt bố",
+        "địt cha",
+        "địt cụ",
+        "dis me",
+        "disme",
+        "dismje",
+        "dis mia",
+        "dis mie"
+      ],
+      "patterns": [
+        "[đd][._·-]?[ịiјj][._·-]?t[ ._·-]{1,3}m[._·-]?[ẹe]"
+      ],
+      "reason": "Cụm chửi tục; cần đọc ngữ cảnh, không tự kết luận nhắm vào người.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_dm",
+      "canonical": "địt mẹ / đụ má",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "đm",
+        "dm",
+        "đmm",
+        "dmm",
+        "đmmm",
+        "dmmm",
+        "đmmmm",
+        "dmmmm",
+        "đcm",
+        "dcm",
+        "đcmm",
+        "dcmm",
+        "đcmmm",
+        "dcmmm",
+        "dkm",
+        "clm",
+        "cmm",
+        "cmn",
+        "cmnl"
+      ],
+      "patterns": [
+        "[đd][._·-]m{1,3}"
+      ],
+      "reason": "Viết tắt chửi thề trong hội thoại; có thể chỉ là cảm thán.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_en",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_dit",
+      "canonical": "địt",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "địt",
+        "dit",
+        "đjt",
+        "djt",
+        "đệch"
+      ],
+      "reason": "Từ tục hoặc biến thể teencode; cần xác nhận ngữ cảnh.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_du_ma",
+      "canonical": "đụ má",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "đụ má",
+        "du ma",
+        "đụ mẹ",
+        "du me",
+        "đù má",
+        "đù mẹ",
+        "đậu má",
+        "đậu mẹ",
+        "đủ má",
+        "đủ mẹ",
+        "đú má",
+        "đú mẹ",
+        "dou ma",
+        "dou má",
+        "doma",
+        "duoma",
+        "đờ mờ",
+        "đê mờ",
+        "đụ"
+      ],
+      "reason": "Cụm chửi thề tiếng Việt, không tự chứng minh hành vi công kích.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_deo",
+      "canonical": "đéo",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "đéo",
+        "deo",
+        "đếch",
+        "dech",
+        "đếk",
+        "dek",
+        "đách",
+        "đết",
+        "đệt",
+        "đel",
+        "đél",
+        "dell hiểu",
+        "dell hieu",
+        "dell biết",
+        "dell biet",
+        "dell nói",
+        "dell noi",
+        "dell chịu",
+        "dell chiu",
+        "dell được",
+        "dell duoc",
+        "dell nghe",
+        "dell làm",
+        "dell lam",
+        "deohieukieugi",
+        "dellhieukieugi"
+      ],
+      "patterns": [
+        "d[e3][._·-]?o"
+      ],
+      "reason": "Cách phủ định thô tục; không đồng nhất với từ vô hại ‘đeo’.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_lon",
+      "canonical": "lồn",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "lồn",
+        "loz",
+        "lìn",
+        "cailon",
+        "matlon",
+        "matloz",
+        "matlol",
+        "xàm lol",
+        "xam lol",
+        "xạo lol",
+        "xao lol",
+        "cái lol",
+        "cai lol",
+        "cái lon",
+        "cai lon",
+        "như lol",
+        "nhu lol",
+        "như lon",
+        "nhu lon",
+        "mặt lol",
+        "mat lol",
+        "mặt lon",
+        "mat lon",
+        "thangmatlon",
+        "thangml"
+      ],
+      "reason": "Từ tục hoặc biến thể đã rà soát; dạng ‘lon’ đứng riêng được xử lý là mơ hồ.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_vcl",
+      "canonical": "vãi lồn",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "vcl",
+        "vkl",
+        "vl",
+        "vlon",
+        "vloz",
+        "vlol",
+        "vailon",
+        "vai lon",
+        "vãi lồn",
+        "vai lol",
+        "vailol",
+        "vleu"
+      ],
+      "reason": "Viết tắt/cụm cảm thán tục; chưa đủ để xác định đối tượng bị công kích.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_cac",
+      "canonical": "cặc",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "cặc",
+        "cặk",
+        "kak",
+        "kac",
+        "cak",
+        "concak",
+        "caiconcac",
+        "caiconcak",
+        "con cặc"
+      ],
+      "reason": "Từ tục; không khớp từ ‘các’ hoặc dạng không dấu ‘cac’ một cách chắc chắn.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_en",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_buoi",
+      "canonical": "buồi",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "buồi",
+        "bòi",
+        "dau buoi",
+        "daubuoi",
+        "caidaubuoi",
+        "nhucaidaubuoi",
+        "dau boi",
+        "dauboi",
+        "caidauboi"
+      ],
+      "reason": "Từ tục hoặc cụm biến thể đã rà soát; ‘buoi’ đứng riêng có thể là ‘bưởi/buổi’.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_cut",
+      "canonical": "cứt",
+      "language": "vi",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "cứt",
+        "cứk",
+        "cuccut",
+        "cutcut",
+        "cười ỉa",
+        "cười ẻ"
+      ],
+      "reason": "Từ thô tục; có thể được nhắc trong ngữ cảnh tường thuật.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_oc_cho",
+      "canonical": "óc chó",
+      "language": "vi",
+      "category": "directed_insult",
+      "strength": "context",
+      "aliases": [
+        "óc chó",
+        "oc cho",
+        "occho",
+        "não tàn",
+        "nao tan",
+        "đồ ngu",
+        "do ngu",
+        "thằng ngu",
+        "thang ngu",
+        "con ngu",
+        "ngu như chó",
+        "ngu nhu cho",
+        "ngu vcl"
+      ],
+      "reason": "Cụm có thể hạ nhục người khác; phải kiểm tra đối tượng và trích dẫn.",
+      "canonical_by_alias": {
+        "óc chó": "óc chó",
+        "oc cho": "óc chó",
+        "occho": "óc chó",
+        "não tàn": "não tàn",
+        "nao tan": "não tàn",
+        "đồ ngu": "đồ ngu",
+        "do ngu": "đồ ngu",
+        "thằng ngu": "thằng ngu",
+        "thang ngu": "thằng ngu",
+        "con ngu": "con ngu",
+        "ngu như chó": "ngu như chó",
+        "ngu nhu cho": "ngu như chó",
+        "ngu vcl": "ngu vãi lồn"
+      },
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_cho_ma",
+      "canonical": "chó má",
+      "language": "vi",
+      "category": "directed_insult",
+      "strength": "context",
+      "aliases": [
+        "chó má",
+        "cho ma",
+        "láo chó",
+        "lao cho",
+        "thằng chó",
+        "thang cho",
+        "thằng điên",
+        "thang dien",
+        "đồ điên",
+        "do dien",
+        "sủa bậy",
+        "sủa càn"
+      ],
+      "reason": "Cụm công kích tiềm năng; tường thuật hoặc nghĩa đen cần người kiểm duyệt xác nhận.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_short_uncertain",
+      "canonical": "viết tắt / từ đa nghĩa",
+      "language": "vi",
+      "category": "ambiguous",
+      "strength": "ambiguous",
+      "aliases": [
+        "cc",
+        "cl",
+        "lon",
+        "cac",
+        "ngu",
+        "buoi",
+        "cu",
+        "ml",
+        "clgt",
+        "sml",
+        "hãm",
+        "vãi"
+      ],
+      "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+      "canonical_by_alias": {
+        "cc": "cc",
+        "cl": "cl",
+        "lon": "lon",
+        "cac": "cac",
+        "ngu": "ngu",
+        "buoi": "buoi",
+        "cu": "cu",
+        "ml": "ml",
+        "clgt": "clgt",
+        "sml": "sml",
+        "hãm": "hãm",
+        "vãi": "vãi"
+      },
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_en",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "vi_sensitive",
+      "canonical": "thuật ngữ nhạy cảm",
+      "language": "vi",
+      "category": "other_sensitive",
+      "strength": "context",
+      "aliases": [
+        "hiếp dâm",
+        "hãm hiếp",
+        "bạo dâm",
+        "dương vật",
+        "âm đạo",
+        "quan hệ tình dục",
+        "thủ dâm"
+      ],
+      "reason": "Thuật ngữ nhạy cảm có thể thuộc y tế, giáo dục hoặc tin tức; không phải bằng chứng chửi tục/công kích.",
+      "canonical_by_alias": {
+        "hiếp dâm": "hiếp dâm",
+        "hãm hiếp": "hãm hiếp",
+        "bạo dâm": "bạo dâm",
+        "dương vật": "dương vật",
+        "âm đạo": "âm đạo",
+        "quan hệ tình dục": "quan hệ tình dục",
+        "thủ dâm": "thủ dâm"
+      },
+      "sources": [
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "en_fuck",
+      "canonical": "fuck",
+      "language": "en",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "fuck",
+        "fck",
+        "fuk",
+        "fucking",
+        "fucker",
+        "motherfucker",
+        "wtf",
+        "stfu",
+        "f u c k",
+        "f uc k",
+        "f uck",
+        "f**k",
+        "f*ck",
+        "f-u-c-k",
+        "f-uck",
+        "f.u.c.k",
+        "f.uck",
+        "f_u_c_k",
+        "fu*k",
+        "fu.ck"
+      ],
+      "patterns": [
+        "f[ ._·-]{0,3}[u*][ ._·-]{0,3}c[ ._·-]{0,3}k",
+        "f\\*{1,3}k",
+        "f[u*]\\*k"
+      ],
+      "reason": "Chửi thề tiếng Anh, gồm dạng che ký tự; không tự xác định có đối tượng bị công kích.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_en",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "en_shit",
+      "canonical": "shit",
+      "language": "en",
+      "category": "profanity",
+      "strength": "strong",
+      "aliases": [
+        "shit",
+        "sh1t",
+        "bullshit",
+        "holy shit",
+        "$h!t",
+        "5h17",
+        "5h1t",
+        "5hit",
+        "s h i t",
+        "s hit",
+        "s-h-1-t",
+        "s-h-i-t",
+        "s-hit",
+        "s.hit",
+        "s_h_i_t"
+      ],
+      "patterns": [
+        "[s$5][ ._·-]{0,2}h[ ._·-]{0,2}[i1!][ ._·-]{0,2}[t7]"
+      ],
+      "reason": "Từ tục tiếng Anh hoặc leetspeak; thường cũng được dùng để cảm thán.",
+      "sources": [
+        "ldnoobw_v2_en",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "en_bitch",
+      "canonical": "bitch",
+      "language": "en",
+      "category": "directed_insult",
+      "strength": "context",
+      "aliases": [
+        "bitch",
+        "b1tch",
+        "son of a bitch"
+      ],
+      "patterns": [
+        "b[!1i][._·-]{0,2}t[._·-]{0,2}c[._·-]{0,2}h"
+      ],
+      "reason": "Từ có thể xúc phạm; cần phân biệt cách dùng, trích dẫn và đối tượng.",
+      "sources": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_en",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "en_insult",
+      "canonical": "asshole",
+      "language": "en",
+      "category": "directed_insult",
+      "strength": "context",
+      "aliases": [
+        "idiot",
+        "moron",
+        "dumbass",
+        "asshole",
+        "a55hole",
+        "a$$hole",
+        "@$$hole",
+        "a$$h0le",
+        "a55h0le",
+        "assh0le"
+      ],
+      "patterns": [
+        "[a@][s5$]{2}h[o0]le"
+      ],
+      "reason": "Từ hạ nhục tiềm năng; chỉ gợi ý công kích khi có ngữ cảnh hướng vào người.",
+      "canonical_by_alias": {
+        "idiot": "idiot",
+        "moron": "moron",
+        "dumbass": "dumbass",
+        "asshole": "asshole",
+        "a55hole": "asshole",
+        "a$$hole": "asshole"
+      },
+      "sources": [
+        "ldnoobw_v2_en",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "en_rude_command",
+      "canonical": "shut up",
+      "language": "en",
+      "category": "directed_insult",
+      "strength": "context",
+      "aliases": [
+        "shut up",
+        "shut the fuck up"
+      ],
+      "reason": "Mệnh lệnh thô lỗ có thể nhắm vào người; không tự gán nhãn TOXIC.",
+      "sources": [
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    },
+    {
+      "id": "en_sensitive",
+      "canonical": "sensitive terminology",
+      "language": "en",
+      "category": "other_sensitive",
+      "strength": "context",
+      "aliases": [
+        "sex",
+        "sexual",
+        "sexuality",
+        "penis",
+        "vagina",
+        "rape",
+        "suicide",
+        "pornography"
+      ],
+      "reason": "Thuật ngữ nhạy cảm có thể thuộc giáo dục/y tế/tin tức; không phải bằng chứng lăng mạ.",
+      "canonical_by_alias": {
+        "sex": "sex",
+        "sexual": "sexual",
+        "sexuality": "sexuality",
+        "penis": "penis",
+        "vagina": "vagina",
+        "rape": "rape",
+        "suicide": "suicide",
+        "pornography": "pornography"
+      },
+      "sources": [
+        "ldnoobw_v2_en",
+        "shieldvi_reviewed"
+      ],
+      "status": "enabled_reviewed"
+    }
+  ]
+}

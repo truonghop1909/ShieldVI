@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-11-03T10:37:47.359731+00:00",
+  "target_threads": 200,
+  "actual_threads": 0,
+  "comments": 0,
+  "remaining_threads_to_target": 200,
+  "t028_real_acceptance_ready": false,
+  "manual_intake_pending": 0,
+  "users": 0,
+  "source_counts": {},
+  "sources_audited_allowed": [
+    "vi.wikipedia.org"
+  ],
+  "topic_count": 0,
+  "length_distribution": {},
+  "duplicate_comment_texts": 0,
+  "near_duplicate_threads": 0,
+  "recognized_pii_remaining": 0,
+  "errors": [],
+  "warnings": [],
+  "annotations": {
+    "labeled": 0,
+    "unlabeled": 0,
+    "uncertain": 0,
+    "round2_done": 0,
+    "label_distribution": {}
+  },
+  "style_heuristics": {
+    "teencode_comment_count": 0,
+    "emoji_comment_count": 0,
+    "english_slang_comment_count": 0,
+    "method": "bounded lexical heuristics, not reliable language/topic/abuse labels"
+  },
+  "evaluation_locked": false,
+  "dataset_status": "EMPTY_DATASET",
+  "independent_evaluation_ready": false,
+  "training_performed": false,
+  "representativeness_warning": "Wikimedia community/talk discussions differ from general social media. No coverage/category/toxicity claims without human review."
+}

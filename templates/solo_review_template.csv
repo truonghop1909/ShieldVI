@@ -1,0 +1,2 @@
+﻿thread_id,comment_id,source_type,comment_label,context_tags,target_user_id,target_confidence,attack_instance,review_status,annotator_id,reviewed_at,notes
+SHIELDVI_GENZ_EXAMPLE,c001,synthetic,,,,,,DRAFT,solo,,

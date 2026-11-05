@@ -1,0 +1,358 @@
+{
+  "scope": "T034–T043 local development",
+  "source_manifest_sha256": "e6a695399b20d95cc4d7adc7a669c676b3bd22898556d10a55a62e05d768bea5",
+  "historical_task_states": {
+    "tasks/integration/T007-repo-blueprint.md": "DONE — đạt tiêu chí khảo sát/kế hoạch T007; inference thật và Colab chưa kiểm chứng (xem giới hạn bên dưới).  ",
+    "tasks/integration/T012-moderation-jobs.md": "DONE — mocked/cross-service/live HTTP stub tests đạt; inference thật chưa kiểm chứng.  ",
+    "tasks/integration/T014-e2e-security.md": "DONE  ",
+    "tasks/integration/T015-migrate-legacy.md": "DONE  ",
+    "tasks/integration/T016-policy-design.md": "DONE (thiết kế và kiểm chứng phạm vi T016; chưa duyệt active config/HIGH auto-hold) | **Phụ thuộc:** T007 | **Skill:** `$shieldvi-moderation-policy`",
+    "tasks/integration/T017-durable-worker-and-offline.md": "DONE (durable worker + offline/manual fallback, stub inference) | **Phụ thuộc:** T009, T011, T012 | **Skill:** `$shieldvi-social-backend`, `$shieldvi-moderation-policy`",
+    "tasks/integration/T019-evaluation-and-privacy.md": "DONE (local evaluation, giới hạn policy gold ghi rõ) | **Phụ thuộc:** T012, T013 | **Skill:** `$shieldvi-moderation-policy`, `$shieldvi-ai-integration`",
+    "tasks/moderation-ai/T011-moderation-adapter.md": "DONE — 130 test V3/adapter pass với predictor giả; inference checkpoint thật chưa kiểm chứng.  ",
+    "tasks/moderation-ai/T020-audit-ai-snapshot-baseline.md": "DONE",
+    "tasks/moderation-ai/T021-regression-fixtures-provisional-annotation.md": "DONE",
+    "tasks/moderation-ai/T022-context-signals-apology-quote-defense-inte.md": "DONE",
+    "tasks/moderation-ai/T023-lexicon-vi-en-teencode-expansion.md": "DONE",
+    "tasks/moderation-ai/T024-target-detection-v3-explicit-and-abstain.md": "DONE",
+    "tasks/moderation-ai/T025-repeated-harassment-v3-evidence-aware.md": "DONE",
+    "tasks/moderation-ai/T026-api-schema-dashboard-signals-policy-bounda.md": "DONE",
+    "tasks/moderation-ai/T027-data-ingestion-provenance-for-hard-cases.md": "DONE",
+    "tasks/moderation-ai/T028-independent-evaluation-solo-review-protoco.md": "DONE",
+    "tasks/moderation-ai/T029-optional-train-candidate-visobert-on-colab.md": "DONE",
+    "tasks/moderation-ai/T030-paired-offline-evaluation-ablation.md": "DONE",
+    "tasks/moderation-ai/T031-optional-model-registry-shadow-and-rollbac.md": "DONE",
+    "tasks/moderation-ai/T032-social-ai-integration-offline-safety-e2e.md": "DONE",
+    "tasks/moderation-ai/T033-technical-report-thesis-handoff.md": "DONE",
+    "tasks/moderation-web/T013-admin-review.md": "DONE",
+    "tasks/moderation-web/T018-admin-appeals-audit.md": "DONE | **Phụ thuộc:** T013, T016 | **Skill:** `$shieldvi-moderation-admin`",
+    "tasks/social-api/T008-auth-database.md": "DONE — auth/users/roles và SQLite migration đã kiểm thử; PostgreSQL server chưa kiểm chứng.  ",
+    "tasks/social-api/T009-social-content.md": "DONE — CRUD/feed/outbox đã kiểm thử độc lập AI; publish/worker thuộc task sau.  ",
+    "tasks/social-web/T010-social-frontend.md": "DONE — build và 9 ca Chrome với Social API thật/DB tạm đạt.  "
+  },
+  "tasks": {
+    "T034": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T034-realtime-moderation-architecture.md",
+      "dependencies": [],
+      "evidence": [
+        "docs/realtime_moderation/ARCHITECTURE.md",
+        "contracts/realtime_event.schema.json",
+        "reports/task_rollout_20261104/T034_tests_final.log"
+      ],
+      "detail": "Architecture/sequence/transport ADR/contracts/budgets/failure+compatibility plan complete. SSE authenticated fetch chosen over extraWebSocket; public-post+membership visibility preserved.13contract testsPASS including malformed identity/time, privacy fields, ordering/stale versions; no runtime/model/DB changes."
+    },
+    "T035": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T035-durable-live-messaging-ai-jobs.md",
+      "dependencies": [
+        "T034"
+      ],
+      "evidence": [
+        "services/social-api/src/shieldvi_social/live_app.py",
+        "services/social-api/src/shieldvi_social/live_store.py",
+        "services/social-api/src/shieldvi_social/live_routes.py",
+        "reports/task_rollout_20261104/T035_social_regression.log",
+        "docs/realtime_moderation/RUN_LOCAL.md"
+      ],
+      "detail": "Additive canonical Social extension implemented: explicit membership+postvisibility, existing idempotent comment/job transaction, atomic durable minimal events, auth SSE/poll/replay, worker hooks/retry/restart/stale handling.26newcontract/integration testsPASS; fullSocial203PASS/1deprecationwarning. Initial2failures retained: bulkSQL stale invalidation event gap fixed; expiryfixture corrected to satisfy existingDBconstraint. SQLite rollback/deactivation/concurrentPOST/privacy verified; AIresponses are unitfixtures, not claimed realmodel. Base0004/source/readiness1311SHA remain unchanged."
+    },
+    "T036": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T036-incremental-conversation-analysis.md",
+      "dependencies": [
+        "T034",
+        "T035"
+      ],
+      "evidence": [
+        "docs/realtime_moderation/INCREMENTAL_AI.md",
+        "contracts/live_moderation_response.schema.json",
+        "reports/task_rollout_20261104/T036_actual_benchmark.json",
+        "reports/task_rollout_20261104/T036_root_regression.log",
+        "reports/task_rollout_20261104/T036_social_regression.log"
+      ],
+      "detail": "Additive default-v5 incremental adapter/client implemented; per-model/text LRU raw cache, typed context/target/instances/evidence,1800s horizon and worker snapshot dependency CAS. Explicit live-provenance-v1 subtractive report/quote gate preserves base-v5 flags/raw/assessment, prevents inherited pure-apology instanceFP; fresh outsidequote attack retained.15AIunit+4worker testsPASS, full737root/207SocialPASS. Actual approveddefaultV1.1 CPU2threads smoke6→3neuraltexts, scoresinvariant, grounded[b,c]; measured274.6676→222.9778ms(single sample). Original apps/weights/default/0.41/readiness baseline untouched; experimental selector rejected by liveclient."
+    },
+    "T037": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T037-live-conversation-client.md",
+      "dependencies": [
+        "T034",
+        "T035",
+        "T036"
+      ],
+      "evidence": [
+        "apps/social-web/src/live.jsx",
+        "reports/task_rollout_20261104/T037_browser_result.json",
+        "reports/task_rollout_20261104/T037_build_final.log",
+        "reports/task_rollout_20261104/T037_cleanup.json"
+      ],
+      "detail": "12 real Chrome two-client workflow checks PASS with temporary SQLite, authenticated SSE, actual default-v5 rules and explicitly non-neural raw fixture. Includes offline reconnect regression fixed via snapshot retry, AI503 recovery, idempotent lost ACK, edit/delete, reload, XSS and RBAC. Dedicated production build PASS. Actual neural incremental timing is separately retained under T036."
+    },
+    "T038": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T038-live-moderator-board.md",
+      "dependencies": [
+        "T035",
+        "T036",
+        "T037"
+      ],
+      "evidence": [
+        "docs/realtime_moderation/MODERATOR_LIVE.md",
+        "reports/task_rollout_20261104/T038_browser_result.json",
+        "reports/task_rollout_20261104/T038_backend_tests_fixed.log",
+        "reports/task_rollout_20261104/T038_build_final.log"
+      ],
+      "detail": "33 related backend tests PASS; 8 Chrome E2E checks PASS in three authenticated contexts: same actor-target repeated evidence, preserved moderator draft, manual hide, author appeal, restore, audit and clarification. Source/rules/model defaults unchanged. Old dashboard retained. Dedicated build PASS. Search/thread/risk/time filters explicitly page-scoped; Studio trainer maps to existing admin, no role migration."
+    },
+    "T039": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T039-dataset-center.md",
+      "dependencies": [
+        "T034"
+      ],
+      "evidence": [
+        "docs/ml_studio/DATASETS.md",
+        "reports/task_rollout_20261104/T039_backend_final.log",
+        "reports/task_rollout_20261104/T039_browser_result.json",
+        "reports/task_rollout_20261104/T039_build.log"
+      ],
+      "detail": "17 related backend tests PASS and 6 real Chrome Studio checks PASS; immutable UTF8 CSV/JSON/JSONL imports, mapping, preview/export, rights/PII/formula quarantine, pinned exact/near leakage audit, duplicate replay, explicit lineage and thread splits. Dedicated build PASS. ZIP unsupported and rejected; real source verification remains manual and quarantined; no human gold or training claimed."
+    },
+    "T040": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T040-annotation-studio.md",
+      "dependencies": [
+        "T039"
+      ],
+      "evidence": [
+        "docs/ml_studio/ANNOTATION.md",
+        "reports/task_rollout_20261104/T040_backend_fixed.log",
+        "reports/task_rollout_20261104/T040_browser_result.json",
+        "reports/task_rollout_20261104/T040_build.log"
+      ],
+      "detail": "20 related backend tests PASS; 6 Chrome annotation workflow checks PASS after fixing verified navigation race. Blind context, autosave CAS, same reviewer two rounds, stale R2 invalidation, append-only history and immutable child snapshots verified. Synthetic browser entries remain reference, not human gold. Real-review minimum gap300seconds and source quarantine remain enforced. Dedicated build PASS."
+    },
+    "T041": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T041-training-studio.md",
+      "dependencies": [
+        "T039"
+      ],
+      "evidence": [
+        "docs/ml_studio/TRAINING.md",
+        "reports/task_rollout_20261104/T041_backend_service_final.log",
+        "reports/task_rollout_20261104/T041_browser_result.json",
+        "reports/task_rollout_20261104/T041_retained.json",
+        "reports/task_rollout_20261104/T041_run_manifest.json"
+      ],
+      "detail": "7 backend tests PASS, 6 real Chrome checks PASS and build PASS. Actual retained synthetic-only V1 frozen-encoder CPU-head run:18threads/36comments, train22/validation10/test4,1epoch/3optimizersteps,2threads,trainer3.36s,reloaderror0.0,base/encoder/sources unchanged. Tiny synthetic validation Macro-F1=1.0 is workflow evidence only. Durable queued/running/cancel/crash/restart guards tested; no model/default/threshold/lock mutation. Training authorization for this smoke consumed; do not automatically rerun it during final regression."
+    },
+    "T042": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T042-evaluation-studio-model-registry.md",
+      "dependencies": [
+        "T041"
+      ],
+      "evidence": [
+        "docs/ml_studio/EVALUATION.md",
+        "reports/task_rollout_20261104/T042_browser_result.json",
+        "reports/task_rollout_20261104/T042_evaluation.json",
+        "reports/task_rollout_20261104/T042_backend_tests.log",
+        "reports/task_rollout_20261104/T042_build.log"
+      ],
+      "detail": "4 backend guard tests PASS,5 Chrome checks PASS and build PASS. Actual paired V1/r06/T041 inference on same4 locked synthetic holdout comments; raw/final confusion/P/R/F1 reported separately, error exports and hashes retained. Target/repeated/evidence reference denominators absent on this cohort: null, not invented. Actual fault-injected local shadow fallback to V1+neural probes PASS. Promotion denied server-side, v1_1 default unchanged; no training."
+    },
+    "T043": {
+      "status": "DONE_VERIFIED",
+      "file": "tasks/moderation-ai/T043-realtime-studio-e2e-handoff.md",
+      "dependencies": [
+        "T035",
+        "T036",
+        "T037",
+        "T038",
+        "T039",
+        "T040",
+        "T041",
+        "T042"
+      ],
+      "evidence": [
+        "docs/ai-update/final-report/T034_T043_FINAL_REPORT.md",
+        "docs/ai-update/final-report/REALTIME_DEMO_GUIDE.md",
+        "reports/task_rollout_20261104/T043_root_regression.log",
+        "reports/task_rollout_20261104/T043_social_final.log",
+        "reports/task_rollout_20261104/T043_transport_tests.log",
+        "reports/task_rollout_20261104/T043_browser_result.json",
+        "reports/task_rollout_20261104/T043_interactive_check.json",
+        "reports/task_rollout_20261104/T043_performance.json",
+        "reports/task_rollout_20261104/T043_readiness_final.log"
+      ],
+      "detail": "Final737AI/root+244Social Python tests PASS/0FAIL (one deprecation warning per suite),4frontend transport tests PASS,original and opt-in builds PASS. Actual approved-default V1.1 neural HTTP/worker/SQLite E2E:8checks/3contexts PASS; four-context auto-login/Studio tabs/Windows stop script PASS. Enqueue SQL/ACK/queue/inference/fanout measured on4synthetic messages; tiny local sample, not SLO.1311 readiness files and13source-pack entries unchanged;27historical statuses preserved. Five canonical handoff guides/report complete. No extra training, promotion, deploy or production changes."
+    }
+  },
+  "training_authorization": "T041 synthetic-only eligible bounded CPU smoke max4threads/900s/cost0; no r07/default/promotion",
+  "current": null,
+  "production_activation_allowed": false,
+  "next_ready": [],
+  "local_rollout_complete": true,
+  "training_smoke_authorization_consumed": true,
+  "training_smoke_run_id": "01b3fced9ac2c540be01477d",
+  "automatic_additional_training_allowed": false,
+  "final_summary": {
+    "DONE_VERIFIED": 10,
+    "PARTIAL": 0,
+    "BLOCKED": 0,
+    "WAITING_APPROVAL": 0,
+    "python_pass": 981,
+    "frontend_transport_pass": 4,
+    "FAIL": 0,
+    "formal_existing": {
+      "T028": "BLOCKED",
+      "T029": "BLOCKED",
+      "T030": "PARTIAL",
+      "T031": "PARTIAL",
+      "T032": "PARTIAL",
+      "T033": "PARTIAL"
+    }
+  },
+  "social_feed_v2": {
+    "current": null,
+    "tasks": {
+      "T034": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [],
+        "evidence": [
+          "docs/realtime_moderation/REPO_AUDIT.md",
+          "reports/social_feed_v2_20261104/T034_contract.log"
+        ],
+        "detail": "Audited actual post/comment APIs, authenticated SSE, worker/context, Studio and Social Feed UI gaps. Added transport ADR, state mapping, RBAC and acceptance trace.13 contract tests PASS; original model/readiness/runtime untouched."
+      },
+      "T035": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [
+          "T034"
+        ],
+        "evidence": [
+          "services/social-api/tests/test_live_api.py",
+          "reports/social_feed_v2_20261104/T035_backend.log"
+        ],
+        "detail": "14 actual temporary-SQLite tests PASS, including five authenticated actors creating a post and comments/reply with one durable job each, publication privacy, same-key races, replay and RBAC. Demo seeds five normal accounts plus staff; canonical API reused."
+      },
+      "T036": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [
+          "T035"
+        ],
+        "evidence": [
+          "reports/social_feed_v2_20261104/T036_worker.log",
+          "reports/social_feed_v2_20261104/T036_incremental.log"
+        ],
+        "detail": "5 Social worker tests and15 incremental analyzer tests PASS. Explicit new test verifies post text, parent chain and current reply in AI payload without account names/email; existing stale/forged-target/experimental-processor guards pass. No model or rule changes."
+      },
+      "T037": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [
+          "T034",
+          "T035",
+          "T036"
+        ],
+        "evidence": [
+          "apps/social-web/src/live.jsx",
+          "reports/social_feed_v2_20261104/T037_build.log",
+          "reports/social_feed_v2_20261104/T037_feed_e2e.log",
+          "reports/social_feed_v2_20261104/T037_feed_e2e_retry1.log",
+          "reports/social_feed_v2_20261104/T037_feed_e2e_retry2.log",
+          "reports/task_rollout_20261104/demo_5a35dbbdda80d3dc/social_feed_result.json"
+        ],
+        "detail": "Social Feed/cards/post composer and serialized public-feed refresh implemented; reply context/metadata rendered, post retries reuse idempotency key. Build PASS. Actual seven-context Chrome check PASS: five authenticated users discover a new post, comment/reply, receive AI/repeated and manual review/appeal updates without reload/duplicates. Two failed attempts retained (initial send timeout; Windows Proactor accept WinError64 on retry); demo-only Selector loop passed."
+      },
+      "T038": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [
+          "T035",
+          "T036",
+          "T037"
+        ],
+        "evidence": [
+          "reports/social_feed_v2_20261104/live_regression.log",
+          "reports/social_feed_v2_20261104/T038_build.log",
+          "reports/social_feed_v2_20261104/T038_feed_e2e.log",
+          "reports/task_rollout_20261104/demo_1a59f364c7adc9e5/social_feed_result.json"
+        ],
+        "detail": "Added authenticated moderator deep links and exact comment context restoration after login.22 related backend tests PASS, Moderator build PASS, actual seven-context Chrome9checks PASS including five actors, repeated evidence, manual hide/appeal/restore, deep-link reauth, reconnect, XSS and >30comment thread. All owned demo processes stopped."
+      },
+      "T039": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [
+          "T038"
+        ],
+        "evidence": [
+          "reports/social_feed_v2_20261104/T039_backend.log",
+          "reports\\task_rollout_20261104\\demo_6a5b68a80812e8d6\\T039_browser_result.json"
+        ],
+        "detail": "Reused existing Dataset Center;14 validator/API tests PASS and6 actual Chrome upload/mapping/preview/export/idempotency/rejection checks PASS on a fresh synthetic-only Studio. No source rights or human gold fabricated."
+      },
+      "T040": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [
+          "T039"
+        ],
+        "evidence": [
+          "reports/social_feed_v2_20261104/T040_backend.log",
+          "reports\\task_rollout_20261104\\demo_6a5b68a80812e8d6\\T040_browser_result.json"
+        ],
+        "detail": "6 annotation backend tests and6 actual Chrome tests PASS: full context, one authenticated reviewer, two rounds, autosave/history, immutable child snapshot and stale Round2 export rejection. Automated synthetic test annotations are not human gold."
+      },
+      "T041": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [
+          "T039"
+        ],
+        "evidence": [
+          "reports/social_feed_v2_20261104/T041_backend.log",
+          "reports/social_feed_v2_20261104/T041_receipt_reverified.json",
+          "reports/task_rollout_20261104/T041_browser_result.json",
+          "reports/task_rollout_20261104/T041_concurrency.json"
+        ],
+        "detail": "7 guard/lifecycle tests PASS. Retained actual CPU frozen-encoder smoke/checkpoint/source SHA reverified (not rerun), including authenticated UI execution and47ms Social ACK during that actual training. Candidate remains experimental, threshold.41; no new training authorized/needed for existing receipt."
+      },
+      "T042": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [
+          "T041"
+        ],
+        "evidence": [
+          "reports/social_feed_v2_20261104/T042_backend.log",
+          "reports/social_feed_v2_20261104/T042_report_reverified.json",
+          "reports/task_rollout_20261104/T042_evaluation.json"
+        ],
+        "detail": "4 registry/evaluation guards PASS. Historical actual paired inference on the same4 synthetic holdout comments reverified against registry/model/dataset SHA; confusion counts and Macro-F1 recalculated. Target/repeated reference denominators remain absent/null. No claim of new inference or real-world evaluation; default/no-promotion gates unchanged."
+      },
+      "T043": {
+        "status": "DONE_VERIFIED",
+        "dependencies": [
+          "T034",
+          "T035",
+          "T036",
+          "T037",
+          "T038",
+          "T039",
+          "T040",
+          "T041",
+          "T042"
+        ],
+        "evidence": [
+          "docs/realtime_moderation/SOCIAL_FEED_V2_ACCEPTANCE.md",
+          "reports/social_feed_v2_20261104/root_regression_utf8.log",
+          "reports/social_feed_v2_20261104/social_regression_sse_final.log",
+          "reports/social_feed_v2_20261104/T043_sse_red.log",
+          "reports/social_feed_v2_20261104/T043_sse_green.log",
+          "reports/social_feed_v2_20261104/T043_feed_e2e_sse_fix.log",
+          "reports/social_feed_v2_20261104/T043_original_e2e.log"
+        ],
+        "detail": "Final744root/startup+247Social Python tests PASS,4transport tests PASS, both UI builds PASS. SSE scheduling RED→GREEN and full10-check7-context Social Feed/AI offline-recovery E2E PASS; original8-check3-context actual neural E2E PASS. All owned processes stopped;1311readiness files unchanged. Retained actual training/evaluation receipts reverified, not rerun. No production/default/training changes."
+      }
+    },
+    "automatic_training_rerun_allowed": false
+  }
+}

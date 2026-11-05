@@ -1,0 +1,71 @@
+{
+  "status": "VALIDATION_SCREEN_COMPLETE",
+  "decision": "REJECT_PROMOTION_KEEP_EXISTING_DEFAULT",
+  "candidate_validation": {
+    "n": 2000,
+    "threshold": 0.41,
+    "tp": 122,
+    "fp": 77,
+    "tn": 1691,
+    "fn": 110,
+    "macro_f1": 0.7568648304977315,
+    "toxic_precision": 0.6130653266331658,
+    "toxic_recall": 0.5258620689655172,
+    "accuracy": 0.9065,
+    "brier": 0.06887702204499009,
+    "log_loss": 0.2364994242293376
+  },
+  "reference_validation": {
+    "original_V1": {
+      "n": 2000,
+      "threshold": 0.41,
+      "tp": 124,
+      "fp": 73,
+      "tn": 1695,
+      "fn": 108,
+      "macro_f1": 0.7637012478793492,
+      "toxic_precision": 0.6294416243654822,
+      "toxic_recall": 0.5344827586206896,
+      "accuracy": 0.9095,
+      "brier": 0.06883178418148976,
+      "log_loss": 0.23610279020802036
+    },
+    "existing_default_V1_1": {
+      "n": 2000,
+      "threshold": 0.41,
+      "tp": 118,
+      "fp": 64,
+      "tn": 1704,
+      "fn": 114,
+      "macro_f1": 0.760205415046706,
+      "toxic_precision": 0.6483516483516484,
+      "toxic_recall": 0.5086206896551724,
+      "accuracy": 0.911,
+      "brier": 0.06864601732605209,
+      "log_loss": 0.23574398452635292
+    }
+  },
+  "gates": {
+    "original_V1": {
+      "macro_f1": false,
+      "toxic_precision": false,
+      "toxic_recall": false
+    },
+    "existing_default_V1_1": {
+      "macro_f1": false,
+      "toxic_precision": false,
+      "toxic_recall": true
+    }
+  },
+  "threshold": 0.41,
+  "training_report_sha256": "3e90bb8b646acc29d3b00ae64421558f9b0cce5b6c1c257e2991822ed99fb06c",
+  "candidate_sha256": "604223f61d8972993c3ed35310e8c8acd90965c14b56643041d0e6493337226b",
+  "reference_sha256": "e79202be719062dd4a1911756c4241faf31b529e31f674d9337a583f7a356c39",
+  "original_protocol_sha256": "82132e8abdb6b85ce79ef8161f8c061516b2e5a02c59cc5e772a8ae77339191d",
+  "test_scored": false,
+  "regression_scored": false,
+  "promotion_allowed": false,
+  "production_changed": false,
+  "historical_data_not_fresh_blind": true,
+  "next_action": "Stop this recipe; retain default and negative result. Do not relax gates or rescore test."
+}

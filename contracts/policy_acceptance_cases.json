@@ -1,0 +1,44 @@
+{
+  "artifact_type": "design_test_vectors_not_runtime_config",
+  "policy_version": "social-policy-draft-0.2",
+  "prediction_source": "synthetic_stub_not_real_inference",
+  "cases": [
+    {"id":"ordinary", "text":"Bài này hay.", "score":0.02, "lexical_review":false, "risk":"LOW", "visibility":"PUBLISHED", "queue":false},
+    {"id":"untargeted_profanity", "text":"Đm điện thoại hết pin.", "score":0.02, "lexical_review":true, "directed":false, "risk":"REVIEW", "visibility":"PUBLISHED_FLAGGED", "queue":true},
+    {"id":"quoted_explanation", "text":"Tôi trích dẫn \"fuck you\" để báo cáo.", "score":0.02, "lexical_review":true, "directed":false, "reported":true, "risk":"REVIEW", "visibility":"PUBLISHED_FLAGGED", "queue":true},
+    {"id":"teencode_vi", "text":"đ.m mày", "score":0.02, "lexical_review":true, "risk":"REVIEW", "visibility":"PUBLISHED_FLAGGED", "queue":true},
+    {"id":"teencode_en", "text":"f.u.c.k you", "score":0.02, "lexical_review":true, "risk":"REVIEW", "visibility":"PUBLISHED_FLAGGED", "queue":true},
+    {"id":"teencode_en_untargeted", "text":"sh1t", "score":0.02, "lexical_review":true, "directed":false, "risk":"REVIEW", "visibility":"PUBLISHED_FLAGGED", "queue":true},
+    {"id":"directed_insult", "text":"Mày đúng là đồ ngu.", "score":0.9, "lexical_review":true, "directed":true, "risk":"REVIEW", "visibility":"PUBLISHED_FLAGGED", "queue":true},
+    {"id":"model_false_positive", "text":"Bài này hay.", "score":0.9, "lexical_review":false, "risk":"REVIEW", "visibility":"PUBLISHED_FLAGGED", "queue":true},
+    {"id":"at_threshold", "text":"Tôi không đồng ý với lập luận của bạn.", "score":0.41, "lexical_review":false, "risk":"REVIEW", "visibility":"PUBLISHED_FLAGGED", "queue":true},
+    {"id":"ambiguous_abbreviation", "text":"cc", "score":0.02, "lexical_review":false, "risk":"LOW", "visibility":"PUBLISHED", "queue":false}
+  ],
+  "shadow_table": [
+    {"risk":"LOW", "visibility":"PUBLISHED", "queue":false},
+    {"risk":"REVIEW", "visibility":"PUBLISHED_FLAGGED", "queue":true},
+    {"risk":"HIGH", "visibility":"PUBLISHED_FLAGGED", "queue":true, "proposed_visibility":"HELD_FOR_REVIEW"},
+    {"risk":"UNKNOWN", "visibility":"PENDING_MODERATION", "queue":true}
+  ],
+  "future_integration_cases": [
+    {"id":"timeout_503_schema_error", "expect":"UNKNOWN/pending; bounded retry or manual; no public body"},
+    {"id":"repeated_valid_context", "expect":"REVIEW/flagged/high priority; never HIGH solely from V3 heuristic"},
+    {"id":"single_insult", "expect":"No repeated evidence from one comment"},
+    {"id":"late_after_manual_decision", "expect":"STALE_IGNORED; preserve human decision/version"},
+    {"id":"late_after_edit", "expect":"STALE_IGNORED; preserve new pending revision"},
+    {"id":"duplicate_request", "expect":"No duplicate action/audit; different payload same key conflicts"},
+    {"id":"two_moderators", "expect":"One compare-and-swap success, other 409"},
+    {"id":"ai_cannot_change_visibility", "expect":"AI has no Social DB write privileges"},
+    {"id":"non_author_appeal", "expect":"403/404; no content disclosure"},
+    {"id":"appeal_pending_or_denied", "expect":"Does not publish; denied remains HIDDEN"},
+    {"id":"appeal_accepted", "expect":"PUBLISHED/RESOLVED with RESTORED outcome and audit"},
+    {"id":"worker_restart_expired_lease", "expect":"Reclaim atomically; old worker token cannot finalize"},
+    {"id":"permanent_ai_failure", "expect":"FAILED_PERMANENTLY job; pending content retained and manual queue"},
+    {"id":"parent_hidden_restore", "expect":"Mask descendants without changing child states; restore only otherwise public children"},
+    {"id":"direct_child_url", "expect":"Ancestor checks apply even when bypassing feed"},
+    {"id":"author_deleted_late_result", "expect":"DELETED_BY_AUTHOR terminal; no body or automatic resurrection"},
+    {"id":"report_brigading", "expect":"Deduplicate reports; count alone cannot HIGH/hold/hide"},
+    {"id":"kill_switch", "expect":"New HIGH becomes flagged; existing hidden/held not auto-restored"},
+    {"id":"enable_without_approval", "expect":"Reject enforce/hold config without validation/rule/approval"}
+  ]
+}

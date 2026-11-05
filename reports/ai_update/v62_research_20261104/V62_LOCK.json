@@ -1,0 +1,24 @@
+{
+  "frozen_at": "2026-11-04T02:58:18.586332+00:00",
+  "version": "v6.2-research",
+  "status": "EXPERIMENTAL_NOT_PROMOTED",
+  "files": {
+    "services/moderation-ai/app/experiments/research_v62.py": "9cc5b884de389a71eabdb4a1d2644d7609ef48672c6df298b0a57a9080da43f5",
+    "services/moderation-ai/app/experiments/fresh10_v6.py": "8f3a4fe5b78b99b126a418b8ef1c40c756c995c22c876265e09f419a60b7c493",
+    "services/moderation-ai/app/context_signals.py": "e3618ee129e885fc1695bfcacafab4c6db48f04df29f6c24c262a25abc4be19c",
+    "services/moderation-ai/app/target_signals.py": "26f97546d7071ac2fe01687f02551a9ad7fe4ef59560dabd7534994cc8dc9276",
+    "services/moderation-ai/app/signal_engine.py": "7c03eb932b2d960d2da77088bfc5bbf46f153af43f331b1f4aae31a190c69605",
+    "services/moderation-ai/app/context_assessment.py": "e1c3ae7de0b0b565fe57a881ff45fb897eefa009193bce6095e3ec434e4107be",
+    "tests/test_research_v62.py": "ee6bae0df73bb32e4c561e22fee8d0304cca2114a30b0e9c36a299f250448f49",
+    "tests/test_nov10_adjudication_export.py": "7ad432315a8a1c0da51cc28fe8215630b4b81b8b984abb95c3cd3d1e570def6e",
+    "scripts/evaluate_research_v62.py": "8aa6f071378a948d0a794ea98ae666b87fa08e9274c1b0f6cc9c80fcd7042a24"
+  },
+  "readiness_lock_sha256": "ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3",
+  "r06_weights_sha256": "e5090150ab0d951887060a4cefd25c223fe7d11aa23dd174fedf8b4f18abe3b2",
+  "development_summary_sha256": "4fbed10bfdc684d894eff99f72ff475c257877947c53485505d64156ac53e647",
+  "post_inference_tuning_allowed": false,
+  "new_challenge_authoring_after_this_lock": true,
+  "training_allowed": false,
+  "default_activation_allowed": false,
+  "human_gold": false
+}

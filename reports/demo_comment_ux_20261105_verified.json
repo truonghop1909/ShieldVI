@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "actual_chrome_checks": 5,
+  "readiness_files": 1311,
+  "user_demo_preserved": true,
+  "test_owned_processes_stopped": true,
+  "training_performed": false,
+  "production_changed": false,
+  "sha256": {
+    "apps/social-web/src/live.jsx": "6bc39ffde23c7fcee79f6dff5cedeb81102b1a1085ff36cde75443577f16fe41",
+    "reports/task_rollout_20261104/run_browser_actual.py": "d2d61fb46cfbdd2d7d32f76bc9970d49ddd91f70d7e11be3cdecfda44141e580",
+    "reports/task_rollout_20261104/browser_comment_ux_20261105.mjs": "054e33c4e297b87bc29f48b5b5ea8e7849217bde29766126e38e1ca97cb66d1a",
+    "docs/ai-update/final-report/REALTIME_DEMO_GUIDE.md": "7873a9cd474018cdac00d1b92ecde7a76ec14ed912de0abb8d004cce397d1488",
+    "tasks/AUTO_PROGRESS.md": "f6ba1d00881febebf63f9d2ff7510be85c378bf791b4e33fd3a09494ed49352f",
+    "tasks/moderation-ai/T037-live-conversation-client.md": "615f036e0535308857c0380c1ff8cd5cefd03c8a29b8ad4d9af34bbf88593b3b",
+    "reports/demo_comment_ux_20261105_red.log": "43c715b7e00d84f1bd927833befdc572ed4ed5e007343289941b5968837f9c8c",
+    "reports/demo_comment_ux_20261105_green.log": "b9b59c8eabec975bef80daab91fe1f8111410ce6df7942cd18188ce5a5ea6eb5",
+    "reports/demo_comment_ux_20261105_green2.log": "f0d68e8674d97a8328bf06292e074b34dc618ad3b23574b0e7a75b04798a1a2c",
+    "reports/demo_comment_ux_20261105_build_final.log": "35ff378fca0b1bcb24b24a8ff2a7c7acc30ac0e51ea966b47106ab5b33d673fb",
+    "reports/demo_comment_ux_20261105_readiness.log": "3bff5fb7104cc34745b28df93e7876d70d11e63c4c5ab8a2e38eb9e179f23195",
+    "reports\\task_rollout_20261104\\demo_c3e8fe3c93dba913\\comment_ux_result.json": "1e5a6587763006cb65e8fe730e9f0c8eb8387187ac9422a144a676e1a87f2153",
+    "reports\\task_rollout_20261104\\demo_c3e8fe3c93dba913\\comment_ux.png": "4de140363a77c9fdd339ec6e7a4081abc027bc1c2ddd80b948d8ece01f77c56f"
+  }
+}

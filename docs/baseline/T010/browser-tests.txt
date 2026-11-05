@@ -1,0 +1,18 @@
+
+Running 9 tests using 1 worker
+
+  ok 1 tests\social.spec.js:17:1 › register, publish pending, comment, reply, edit, delete and logout with real API (1.5s)
+  ok 2 tests\social.spec.js:53:1 › feed pagination and real private content permissions (892ms)
+  ok 3 tests\social.spec.js:68:1 › escaped full text, reply and mobile layout (768ms)
+  ok 4 tests\social.spec.js:88:1 › network retry preserves draft and uses the same idempotency key (720ms)
+  ok 5 tests\social.spec.js:111:1 › 401 clears session and browser storage contains no token (977ms)
+  ok 6 tests\social.spec.js:124:1 › backend registration-disabled, validation and rate limit errors are honest (636ms)
+  ok 7 tests\social.spec.js:145:1 › newer decision conflict and failed logout keep the UI truthful (772ms)
+  ok 8 tests\social.spec.js:163:1 › server-provided session deadline returns to login (1.9s)
+  ok 9 tests\social.spec.js:174:1 › late create response after logout cannot reopen a private post (639ms)
+
+  9 passed (9.7s)
+(node:19488) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node.EXE --trace-warnings ...` to show where the warning was created)
+
+EXIT_CODE=0

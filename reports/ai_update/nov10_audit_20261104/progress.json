@@ -1,0 +1,24 @@
+{
+  "scope": "NOV10 root-cause audit",
+  "training_performed": false,
+  "rules_modified": false,
+  "milestones": [
+    {
+      "stage": "IMPORTED",
+      "detail": "NOV10:10inputs/10analysis JSONs, two original reference CSVs and source docs byte-preserved; user aggregate stored separately because no evaluation file was present. Synthetic development only; no reference/model/rule edits."
+    },
+    {
+      "stage": "ROOT_CAUSE_REPLAYED",
+      "detail": "NOV10 v6.1 cached replay exactly matches all10wire exports/200comments, not a v5 assumption. Per-comment predicate/qualification traces and8event timelines saved. No rule changes. Target/event metrics remain0/22and0/8; detailed audit now available for distinguishing linguistic coverage from runtime problems."
+    },
+    {
+      "stage": "RUNTIME_CONFIRMED_AND_RULES_UNCHANGED",
+      "detail": "Actual instrumented canonical ASGI r06 probes63comments PASS: Test12/15/20 each calls contextv6.1 exactly20times and scores match exports with maxdiff0. Positive control creates B→A repeated evidence, so pipeline not globally disabled. All7attack predicate families have0hits across NOV10/200comments; target rejects attack_candidatefalse. Eight referencepairs span10–20min but have0instances; no technical fault proven, no redtechnical tests fabricated or rule change. New diagnostic tests26PASS plus priorFresh28PASS; small new challenge will be authored only after frozen hash receipt."
+    },
+    {
+      "stage": "AUDIT_COMPLETE_WITH_OPEN_COVERAGE_AND_QUOTE_BUG",
+      "detail": "Root677PASS/0FAIL/1warning; actualASGI r06 probes63commentsPASS, exactwire10/10. NOV10 all7attackpredicatefamilies0hits before/aftermasking; targetearlyreturn→0instances→0/8events, not globaldisable/timewindow. NOV10 metrics unchangedTP7/FP3/FN15/TN174,Macro.694160,target0/22. OldFresh10+890regression unchanged. Newpostfreeze24commentchallenge:23binaryTP6/FP1/FN0/TN16,Macro.946387,target5/6,repeated1/2,evidence2/2correct/2of4coverage; found narrativequote scopebug, supplementalred2FAIL/1PASS retained, NOTfixed.24adjudicationcandidates pending, no referencemodification. Explicitversionedoverlay excludes10/10NOV10; defaultlockedloader unchanged. No model/rule/train/default/deploy/readiness changes. AuditDONE; coverage/quoteimplementationOPEN; T028/T029formalBLOCKED,T030–T033PARTIAL. Report docs/ai-update/final-report/NOV10_ROOT_CAUSE_AUDIT.md; resume evidence README, no need to rerun inference."
+    }
+  ],
+  "current": "AUDIT_COMPLETE_WITH_OPEN_COVERAGE_AND_QUOTE_BUG"
+}

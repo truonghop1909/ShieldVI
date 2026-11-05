@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "protected_originals": 31,
+  "V1_defaultV1_1_r03_r04_r05_unchanged": true,
+  "threshold": 0.41,
+  "legacy200_GenZ500_unchanged": true,
+  "context_references_unchanged": true,
+  "original_test_validation_SQLite_unchanged": true,
+  "raw_scores_legacy_recipients_and_lexicon_unchanged": true,
+  "legacy_engine_and_target_module_unchanged": true,
+  "training_performed": false,
+  "production_changed": false
+}

@@ -1,0 +1,9 @@
+INFO:     Started server process [26868]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:54697 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54746 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62059 - "POST /api/v1/moderate/comment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62059 - "POST /api/v1/moderate/comment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62059 - "POST /api/v1/moderate/comment HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:51496 - "POST /api/v1/moderate/comment HTTP/1.1" 200 OK

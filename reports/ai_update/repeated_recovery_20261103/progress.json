@@ -1,0 +1,35 @@
+{
+  "training_performed": false,
+  "T028": "BLOCKED",
+  "milestones": [
+    {
+      "stage": "IN_PROGRESS",
+      "details": "Five r06 events traced; frozen original references and before sources captured. Four failures lack context constructions; one root attack lacks grounded target. Regression tests added before runtime changes; no training/default changes, T028 real remains BLOCKED."
+    },
+    {
+      "stage": "REPEATED_FIX_VERIFIED",
+      "details": "Five formerly missed r06 events now recovered with exact reference evidence in focused tests (86PASS); four context families plus bounded reciprocal root exchange. Broad cached890comment replay: no new label errors, FP18 unchanged/FN6to4; recomputed event TP2to8/10, FP0, evidence20/20 correct. Root regression running; no fresh challenge read yet. Historical aggregate counts will be audited against archived outputs before final report."
+    },
+    {
+      "stage": "T030_SYNTHETIC_VERIFIED",
+      "details": "Locked rule challenge12threads/74comments: actual V1/r05/r06 inference, no post-score rule changes, exact/near overlap0. Old challenge repeated0to5/5 (evidence10/10); fresh2to4/6, precision1/recall0.6667, evidence8/8, two misses retained. Raw V1/r05/r06 comparison plus context-only/target-repeated-only/full ablation saved. T028 real and formal acceptance remain unmet."
+    },
+    {
+      "stage": "T031_LOCAL_VERIFIED",
+      "details": "Separate local registry candidate_r06 verified by SHA; actual model shadow and injected candidate-loader failure fall back to V1. Isolated ASGI200->503->200 rollback; exact attack evidence b/d excludes intervention/apology c/e. Implicit candidate selection refused, default unchanged. Production release remains unapproved/dependency BLOCKED."
+    },
+    {
+      "stage": "T032_SAFE_INTEGRATION_VERIFIED",
+      "details": "177Social testsPASS using service own venv (root venv lacked Alembic, retained failure log). Five-process browser E2E PASS on disposable SQLite/accounts: Dashboard/review/appeal/offline/retry/recovery;2actual retry attempts,1resolved synthetic appeal, owned processes cleaned up, log privacyPASS. AI in browser E2E is a fixture, not real-model accuracy; actual r06/V1 ASGI tests recorded separately. No live DB migration/frontend code change."
+    },
+    {
+      "stage": "T033_IN_PROGRESS",
+      "details": "Final locked-source regression610PASS/177SocialPASS/browserE2EPASS/actual registryPASS. Preparing technical report with raw-vs-hybrid comparison, ablations, 2fresh repeated misses, source-label/hash checks and current T028-T033 acceptance table. Historical aggregate note corrected using archived metrics:33/54target and2/10validated events before, not stale34/3 summary; DANCE emission has no grounding reference and is omitted, not counted TP."
+    },
+    {
+      "stage": "COMPLETE_SAFE_SCOPE",
+      "details": "\n## Current verified follow-up — repeated/context/target v5\n\nT028 BLOCKED(real0/200,humanlabels0); T029 formalBLOCKED(r06 experimental already trained, no r07); T030/T031/T032/T033 PARTIAL (safe synthetic/local work verified; missing independent acceptance, no production authorization). Historical DONE preserved; current scope tasks/CURRENT_AI_SCOPE.json.\n\nFive event regression red5FAIL before fix; old challenge repeated0/5→5/5, evidence10/10correct. Fresh post-freeze12threads/74comments:2/6→4/6, precision1/recall.6667, evidence8/8correct;2misses retained, no post-score rule changes. Canonical500/5115 unchanged. Broad890replay known886 FP18→18/FN6→4; repeated2/10→8/10,FP0,evidence20/20; no new label errors. Old prose34target/3events superseded by archived/recomputed33/54and2/10; DANCE lacks grounding refs and cannot count as TP.\n\nTests610rootPASS/177SocialPASS/browserfiveprocessE2EPASS; actual r06 shadow/fallbackV1/ASGI200→503→200PASS. Browser uses fixtureAI/disposableSQLite, actual models tested separately. Model/default/V1/0.41/test/SQLite/reference labels unchanged; no training/deploy. Runtime context_signals.py/target_signals.py/signal_engine.py+contract defaults; two new test files, reusable evaluate_repeated_recovery.py,12new fixture JSONs/manifest, isolated registry, real-cohort development exclusions, report/progress/task notes. Full file inventory/hashes in reports/ai_update/repeated_recovery_20261103/ARTIFACTS.json.\n\nReport docs/ai-update/final-report/REPEATED_RECOVERY_V5.md; evidence/reproduction reports/ai_update/repeated_recovery_20261103/README.md. Next: real permitted source/human rounds for acceptance; new predeclared holdout before further rule tuning. Do not train r07, recreate500, change default or call synthetic human gold.\n"
+    }
+  ],
+  "current": "COMPLETE_SAFE_SCOPE"
+}

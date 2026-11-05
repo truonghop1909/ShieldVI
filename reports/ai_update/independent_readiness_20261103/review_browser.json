@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "session": {
+    "mode": "real",
+    "blind_review": true,
+    "model_predictions_enabled": false
+  },
+  "manual_intake_enabled": true,
+  "reviewer_entry_enabled": true,
+  "real_candidate_threads": 0,
+  "no_labels_submitted": true,
+  "page_errors": [],
+  "external_requests": []
+}

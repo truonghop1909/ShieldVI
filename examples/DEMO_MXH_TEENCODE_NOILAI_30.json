@@ -1,0 +1,247 @@
+{
+  "thread_id": "DEMO_MXH_TEENCODE_NOILAI_30",
+  "profile": "conservative",
+  "_provenance": "AI-authored fictional challenge, not real social-media data or gold labels.",
+  "comments": [
+    {
+      "comment_id": "mx01",
+      "user_id": "A",
+      "text": "Ê mn, tối nay có ai vô làm vài ván hong? Tui mới xong deadline, não loading nãy h :)))",
+      "parent_id": null,
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:00:00+07:00"
+    },
+    {
+      "comment_id": "mx02",
+      "user_id": "C",
+      "text": "Có tui nè ní, mà khum bật mic đc nha, nhà đang ồn xỉu. Đợi tui kiếm cái tai nghe đã.",
+      "parent_id": "mx01",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:01:00+07:00"
+    },
+    {
+      "comment_id": "mx03",
+      "user_id": "B",
+      "text": "K0 bt tối nay mạng có ổn ko, hôm qua ping 300 nhìn nhân vật chạy như đi bộ dưỡng sinh =)))",
+      "parent_id": "mx01",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:02:00+07:00"
+    },
+    {
+      "comment_id": "mx04",
+      "user_id": "A",
+      "text": "Hông sao, mình chơi thường thui chứ có đánh giải đâu bà. Lag thì nghỉ tí r vô lại.",
+      "parent_id": "mx03",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:03:00+07:00"
+    },
+    {
+      "comment_id": "mx05",
+      "user_id": "C",
+      "text": "Đm cái tai nghe mới sạc mà hết pin nữa rồi, cay thật chứ. Tui kiếm dây cắm đã.",
+      "parent_id": "mx02",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:04:00+07:00"
+    },
+    {
+      "comment_id": "mx06",
+      "user_id": "B",
+      "text": "Mày chơi ngu vcl còn bày đặt chỉ người khác, bớt gáy giùm tao cái.",
+      "parent_id": "mx04",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:05:00+07:00"
+    },
+    {
+      "comment_id": "mx07",
+      "user_id": "A",
+      "text": "Ủa tui rủ chơi cho vui mà sao ông quay qua chửi tui z? Góp ý lỗi gì thì nói lỗi đó đi.",
+      "parent_id": "mx06",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:06:00+07:00"
+    },
+    {
+      "comment_id": "mx08",
+      "user_id": "C",
+      "text": "Từ từ hai ông ơi, tui còn chưa vô phòng nữa mà cmt căng ngang rồi. Uống miếng nước coi.",
+      "parent_id": "mx07",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:07:00+07:00"
+    },
+    {
+      "comment_id": "mx09",
+      "user_id": "A",
+      "text": "Tui gửi mã phòng trong group á, kéo lên xíu là thấy. Ai mic rè thì mute giùm, nghe tiếng quạt tưởng hiệu ứng game :))",
+      "parent_id": "mx08",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:08:00+07:00"
+    },
+    {
+      "comment_id": "mx10",
+      "user_id": "B",
+      "text": "Nói mãi không hiểu, mày đúng là óc chó. Cái việc đơn giản vậy cũng làm sai.",
+      "parent_id": "mx07",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:09:00+07:00"
+    },
+    {
+      "comment_id": "mx11",
+      "user_id": "C",
+      "text": "Tui chụp lại câu “mày đúng là óc chó” để gửi mod nha. Trích lại chứ tui không gọi ai như vậy.",
+      "parent_id": "mx10",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:10:00+07:00"
+    },
+    {
+      "comment_id": "mx12",
+      "user_id": "A",
+      "text": "C ơi hạ hỏa xíu, để tui tự nói chuyện. B công kích tui thì cũng đừng cuốn vô chửi lại, mệt thêm thôi.",
+      "parent_id": "mx11",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:11:00+07:00"
+    },
+    {
+      "comment_id": "mx13",
+      "user_id": "B",
+      "text": "Thôi được, đoạn đó tui nóng nên nói quá. Cho tui rút câu vừa nãy, quay lại chuyện game đi.",
+      "parent_id": "mx12",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:12:00+07:00"
+    },
+    {
+      "comment_id": "mx14",
+      "user_id": "C",
+      "text": "Ừa, vậy nói chuyện đc nè. Tui góp ý thật là âm thanh hơi to, giảm hiệu ứng xíu nghe bước chân dễ hơn.",
+      "parent_id": "mx13",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:13:00+07:00"
+    },
+    {
+      "comment_id": "mx15",
+      "user_id": "B",
+      "text": "Sh1t, tui bật nhầm preset tăng bass từ chiều. Reset lại phát, quê ngang luôn :)))",
+      "parent_id": "mx14",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:14:00+07:00"
+    },
+    {
+      "comment_id": "mx16",
+      "user_id": "A",
+      "text": "Combo bass boost với tiếng quạt thì nghe ai nổi ní =))) Đổi preset mặc định thử coi.",
+      "parent_id": "mx15",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:15:00+07:00"
+    },
+    {
+      "comment_id": "mx17",
+      "user_id": "C",
+      "text": "Vãi, bảo sao tui tưởng loa hư. Mà “vãi” ở đây là ngạc nhiên thôi nha, tui đang khen vụ sửa âm thanh á.",
+      "parent_id": "mx16",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:16:00+07:00"
+    },
+    {
+      "comment_id": "mx18",
+      "user_id": "B",
+      "text": "Nãy lướt group thấy có người cmt “nốn lừng”, tui đọc hai lần mới hiểu họ đang đùa kiểu nói lái. Mấy câu kiểu này phải coi nguyên ngữ cảnh.",
+      "parent_id": "mx17",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:17:00+07:00"
+    },
+    {
+      "comment_id": "mx19",
+      "user_id": "A",
+      "text": "Ừ, như câu “đốn cửa lòng” á, đọc mặt chữ với hiểu cách nói lái có khi khác nhau. Đừng thấy chữ lạ là gắn nhãn ai liền.",
+      "parent_id": "mx18",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:18:00+07:00"
+    },
+    {
+      "comment_id": "mx20",
+      "user_id": "C",
+      "text": "Tui còn thấy người ta gõ “đỗn lì” nữa, mà hông chắc họ định nói gì. Cái nào không rõ thì để người đọc xem lại thôi.",
+      "parent_id": "mx19",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:19:00+07:00"
+    },
+    {
+      "comment_id": "mx21",
+      "user_id": "B",
+      "text": "Ok vụ đó để sau. Vào ván mới đê, tui afk 2p lấy nước r quay lại, đừng kick nha.",
+      "parent_id": "mx20",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:20:00+07:00"
+    },
+    {
+      "comment_id": "mx22",
+      "user_id": "C",
+      "text": "F*ck cái nút bấm bị kẹt, tui bấm hoài nó không nhận. Ai biết cách vệ sinh bàn phím cơ hong?",
+      "parent_id": "mx21",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:21:00+07:00"
+    },
+    {
+      "comment_id": "mx23",
+      "user_id": "A",
+      "text": "Thử rút dây rồi cắm lại trước đã bà. Đừng tháo switch khi còn điện nha, tối tui gửi clip hướng dẫn cho.",
+      "parent_id": "mx22",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:22:00+07:00"
+    },
+    {
+      "comment_id": "mx24",
+      "user_id": "B",
+      "text": "F.u.c.k you, mày im đi. Tao không cần nghe cái giọng dạy đời đó.",
+      "parent_id": "mx23",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:23:00+07:00"
+    },
+    {
+      "comment_id": "mx25",
+      "user_id": "A",
+      "text": "Ông đang khó chịu với tui thì nói chuyện cụ thể, đừng chửi nữa. Tui đang trả lời câu hỏi sửa bàn phím của C mà.",
+      "parent_id": "mx24",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:24:00+07:00"
+    },
+    {
+      "comment_id": "mx26",
+      "user_id": "C",
+      "text": "Tui không đồng ý cách ông B nói chuyện, nhưng mình góp ý hành vi thôi, đừng lôi người nhà hay ngoại hình vào nhé.",
+      "parent_id": "mx25",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:25:00+07:00"
+    },
+    {
+      "comment_id": "mx27",
+      "user_id": "B",
+      "text": "Xin lỗi vì đã nói “f.u.c.k you” với A. Tui rút lời, nãy nóng quá nên rep thiếu suy nghĩ.",
+      "parent_id": "mx26",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:26:00+07:00"
+    },
+    {
+      "comment_id": "mx28",
+      "user_id": "A",
+      "text": "Tui nhận lời xin lỗi. Chốt lại là chơi vui, lag thì nghỉ, ai góp ý thao tác cứ nói rõ chỗ cần sửa là đc.",
+      "parent_id": "mx27",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:27:00+07:00"
+    },
+    {
+      "comment_id": "mx29",
+      "user_id": "C",
+      "text": "Mai nhớ cc tui trong mail gửi bản thiết kế nha. Với mua giúp tui lon nước, các loại vị bưởi đều đc, đừng lấy vị cà phê :))",
+      "parent_id": "mx28",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:28:00+07:00"
+    },
+    {
+      "comment_id": "mx30",
+      "user_id": "A",
+      "text": "Oke ní, tui note lại r. Làm nốt ván này thui rồi đi ngủ nha mn, mai còn chạy deadline chứ thức nữa là lag ngoài đời luôn =)))",
+      "parent_id": "mx29",
+      "mentioned_user_ids": [],
+      "timestamp": "2026-10-29T18:29:00+07:00"
+    }
+  ]
+}

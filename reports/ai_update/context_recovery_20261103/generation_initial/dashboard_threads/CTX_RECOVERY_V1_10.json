@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_10",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C01",
+      "user_id": "CTX_RECOVERY_V1_10_U01",
+      "parent_id": null,
+      "text": "Mạng tui bị rớt, đang vào lại.",
+      "timestamp": "2025-01-11T10:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C02",
+      "user_id": "CTX_RECOVERY_V1_10_U02",
+      "parent_id": "CTX_RECOVERY_V1_10_C01",
+      "text": "Tụi mình chờ ở phòng nhé.",
+      "timestamp": "2025-01-11T10:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C03",
+      "user_id": "CTX_RECOVERY_V1_10_U01",
+      "parent_id": "CTX_RECOVERY_V1_10_C02",
+      "text": "Xin lỗi cả đội vì mạng chập chờn, mình đang kiểm tra.",
+      "timestamp": "2025-01-11T10:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C04",
+      "user_id": "CTX_RECOVERY_V1_10_U03",
+      "parent_id": null,
+      "text": "Nếu chưa ổn thì cả đội nghỉ một ván.",
+      "timestamp": "2025-01-11T10:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C05",
+      "user_id": "CTX_RECOVERY_V1_10_U02",
+      "parent_id": "CTX_RECOVERY_V1_10_C03",
+      "text": "Xin lỗi nhưng tao sẽ đánh mày nếu còn rớt mạng.",
+      "timestamp": "2025-01-11T10:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C06",
+      "user_id": "CTX_RECOVERY_V1_10_U01",
+      "parent_id": "CTX_RECOVERY_V1_10_C05",
+      "text": "Mình không chấp nhận lời đe dọa như vậy.",
+      "timestamp": "2025-01-11T10:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C07",
+      "user_id": "CTX_RECOVERY_V1_10_U03",
+      "parent_id": "CTX_RECOVERY_V1_10_C05",
+      "text": "Dừng đe dọa, chuyện kết nối xử lý riêng.",
+      "timestamp": "2025-01-11T10:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C08",
+      "user_id": "CTX_RECOVERY_V1_10_U02",
+      "parent_id": "CTX_RECOVERY_V1_10_C07",
+      "text": "Tui rời phòng trước.",
+      "timestamp": "2025-01-11T10:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C09",
+      "user_id": "CTX_RECOVERY_V1_10_U01",
+      "parent_id": null,
+      "text": "Mình cũng không tiếp tục trận này.",
+      "timestamp": "2025-01-11T10:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_10_C10",
+      "user_id": "CTX_RECOVERY_V1_10_U03",
+      "parent_id": null,
+      "text": "Tụi mình chốt lại lịch khác trong kênh chung.",
+      "timestamp": "2025-01-11T10:07:18Z"
+    }
+  ]
+}

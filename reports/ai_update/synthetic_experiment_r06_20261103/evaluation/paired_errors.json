@@ -1,0 +1,69 @@
+{
+  "V1": {
+    "synthetic_validation": {
+      "wins": 11,
+      "losses": 2,
+      "win_ids": [
+        "SGZ500_0217_C01",
+        "SGZ500_0217_C04",
+        "SGZ500_0219_C02",
+        "SGZ500_0219_C03",
+        "SGZ500_0296_C02",
+        "SGZ500_0346_C03",
+        "SGZ500_0346_C05",
+        "SGZ500_0456_C02",
+        "SGZ500_0489_C01",
+        "SGZ500_0498_C05",
+        "SGZ500_0498_C09"
+      ],
+      "loss_ids": [
+        "SGZ500_0242_C02",
+        "SGZ500_0358_C04"
+      ]
+    },
+    "synthetic_challenge": {
+      "wins": 4,
+      "losses": 0,
+      "win_ids": [
+        "SGZ500_0339_C02",
+        "SGZ500_0339_C03",
+        "SGZ500_0462_C07",
+        "SGZ500_0464_C02"
+      ],
+      "loss_ids": []
+    }
+  },
+  "r05": {
+    "synthetic_validation": {
+      "wins": 11,
+      "losses": 2,
+      "win_ids": [
+        "SGZ500_0217_C01",
+        "SGZ500_0217_C04",
+        "SGZ500_0219_C02",
+        "SGZ500_0296_C02",
+        "SGZ500_0346_C03",
+        "SGZ500_0346_C05",
+        "SGZ500_0456_C02",
+        "SGZ500_0459_C02",
+        "SGZ500_0489_C01",
+        "SGZ500_0498_C05",
+        "SGZ500_0498_C09"
+      ],
+      "loss_ids": [
+        "SGZ500_0242_C02",
+        "SGZ500_0358_C04"
+      ]
+    },
+    "synthetic_challenge": {
+      "wins": 3,
+      "losses": 0,
+      "win_ids": [
+        "SGZ500_0339_C02",
+        "SGZ500_0462_C07",
+        "SGZ500_0464_C02"
+      ],
+      "loss_ids": []
+    }
+  }
+}

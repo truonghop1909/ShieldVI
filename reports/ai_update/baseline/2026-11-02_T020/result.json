@@ -1,0 +1,222 @@
+{
+  "status": "PASS",
+  "task": "T020",
+  "started_at": "2026-11-02T14:37:47.083895+07:00",
+  "completed_at": "2026-11-02T14:38:14.840713+07:00",
+  "elapsed_seconds": 33.81,
+  "pytest_before": {
+    "command": [
+      "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\.venv\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "-q",
+      "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\ai_update\\baseline\\2026-11-02_T020\\test_tmp_before"
+    ],
+    "cwd": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai",
+    "exit_code": 0,
+    "elapsed_seconds": 5.157,
+    "log": "pytest_before.txt",
+    "summary": "170 passed, 1 warning in 3.64s"
+  },
+  "pytest_after": {
+    "command": [
+      "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\.venv\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "-q",
+      "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\ai_update\\baseline\\2026-11-02_T020\\test_tmp_after"
+    ],
+    "cwd": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai",
+    "exit_code": 0,
+    "elapsed_seconds": 5.062,
+    "log": "pytest_after.txt",
+    "summary": "170 passed, 1 warning in 3.68s"
+  },
+  "protected_files": 71,
+  "protected_hashes_unchanged": true,
+  "API_smoke": {
+    "missing_model": {
+      "health_status": 200,
+      "health": {
+        "status": "model_unavailable",
+        "model_loaded": false,
+        "model_path": null,
+        "details": "Checkpoint chưa được gắn vào MODEL_PATH; không tạo điểm toxic giả."
+      },
+      "analyze_status": 503,
+      "response": {
+        "detail": "Checkpoint chưa được gắn vào MODEL_PATH; không tạo điểm toxic giả."
+      }
+    },
+    "mock_only": {
+      "status_code": 200,
+      "response": {
+        "thread_id": "DEMO_A",
+        "model_name": "T020 MOCK ONLY",
+        "model_threshold": 0.41,
+        "repeated_rule_threshold": 0.41,
+        "profile": "conservative",
+        "research_only": false,
+        "suspected_repeated_harassment": false,
+        "risk_level": "none",
+        "risk_score_heuristic": 0,
+        "evidence": [],
+        "comments": [
+          {
+            "comment_id": "d1",
+            "user_id": "U01",
+            "parent_id": null,
+            "timestamp": "2026-10-10T10:00:00Z",
+            "toxicity_score": 0.1,
+            "toxic_for_moderation": false,
+            "toxic_for_repeated_rule": false,
+            "target_user_id": null,
+            "target_method": "undetermined",
+            "target_confidence": "none",
+            "profanity_detected": false,
+            "lexical_review_recommended": false,
+            "directed_insult_candidate": false,
+            "reported_or_apology_context": false,
+            "review_recommended": false,
+            "lexical_signals": []
+          },
+          {
+            "comment_id": "d2",
+            "user_id": "U02",
+            "parent_id": "d1",
+            "timestamp": "2026-10-10T10:03:00Z",
+            "toxicity_score": 0.1,
+            "toxic_for_moderation": false,
+            "toxic_for_repeated_rule": false,
+            "target_user_id": "U01",
+            "target_method": "reply_parent_author",
+            "target_confidence": "medium",
+            "profanity_detected": false,
+            "lexical_review_recommended": false,
+            "directed_insult_candidate": false,
+            "reported_or_apology_context": false,
+            "review_recommended": false,
+            "lexical_signals": []
+          },
+          {
+            "comment_id": "d3",
+            "user_id": "U01",
+            "parent_id": "d2",
+            "timestamp": "2026-10-10T10:05:00Z",
+            "toxicity_score": 0.1,
+            "toxic_for_moderation": false,
+            "toxic_for_repeated_rule": false,
+            "target_user_id": "U02",
+            "target_method": "reply_parent_author",
+            "target_confidence": "medium",
+            "profanity_detected": false,
+            "lexical_review_recommended": false,
+            "directed_insult_candidate": false,
+            "reported_or_apology_context": false,
+            "review_recommended": false,
+            "lexical_signals": []
+          },
+          {
+            "comment_id": "d4",
+            "user_id": "U02",
+            "parent_id": "d3",
+            "timestamp": "2026-10-10T10:07:00Z",
+            "toxicity_score": 0.1,
+            "toxic_for_moderation": false,
+            "toxic_for_repeated_rule": false,
+            "target_user_id": "U01",
+            "target_method": "reply_parent_author",
+            "target_confidence": "medium",
+            "profanity_detected": false,
+            "lexical_review_recommended": false,
+            "directed_insult_candidate": false,
+            "reported_or_apology_context": false,
+            "review_recommended": false,
+            "lexical_signals": [
+              {
+                "rule_id": "vi_short_uncertain",
+                "category": "ambiguous",
+                "matched_form": "ngu",
+                "strength": "ambiguous",
+                "canonical_form": "ngu",
+                "language": "vi",
+                "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+                "source_ids": [
+                  "blue_eyes_vi",
+                  "ldnoobw_v2_en",
+                  "ldnoobw_v2_vi",
+                  "shieldvi_reviewed"
+                ],
+                "start": 12,
+                "end": 15
+              }
+            ]
+          },
+          {
+            "comment_id": "d5",
+            "user_id": "U03",
+            "parent_id": "d1",
+            "timestamp": "2026-10-10T10:12:00Z",
+            "toxicity_score": 0.1,
+            "toxic_for_moderation": false,
+            "toxic_for_repeated_rule": false,
+            "target_user_id": "U01",
+            "target_method": "reply_parent_author",
+            "target_confidence": "medium",
+            "profanity_detected": false,
+            "lexical_review_recommended": false,
+            "directed_insult_candidate": false,
+            "reported_or_apology_context": false,
+            "review_recommended": false,
+            "lexical_signals": []
+          }
+        ],
+        "warnings": [
+          "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+          "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+          "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+          "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+          "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại."
+        ]
+      },
+      "proves_real_inference": false
+    },
+    "V1_immutable": {
+      "status": "REAL_INFERENCE_PASS",
+      "comments": 150,
+      "sample_http": 200,
+      "internal_http": 200,
+      "summary_file": "V1_immutable/summary.json"
+    },
+    "V1_1_configured_default": {
+      "status": "REAL_INFERENCE_PASS",
+      "comments": 150,
+      "sample_http": 200,
+      "internal_http": 200,
+      "summary_file": "V1_1_configured_default/summary.json"
+    }
+  },
+  "current_default_unchanged": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+  "baseline_V1_threshold": 0.41,
+  "git_available": false,
+  "live_server_on_8000_observed": "NOT_REACHABLE",
+  "frontend_build": "NOT_RUN_no_frontend_changes",
+  "notes": [
+    "All real API inference runs used isolated in-process TestClient, no live server/default selection changed.",
+    "Fixtures are synthetic developer regression, not independent gold; no accuracy/F1 claim.",
+    "Source branch/commit unavailable because workspace is not a Git repository.",
+    "V1 and configured V1.1 baselines recorded separately; experimental V2 was only hashed, not activated or trained."
+  ]
+}

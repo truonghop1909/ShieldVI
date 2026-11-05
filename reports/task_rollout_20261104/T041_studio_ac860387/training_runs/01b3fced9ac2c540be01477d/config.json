@@ -1,0 +1,17 @@
+{
+  "dataset_versions": [
+    "40f725d6fe2095959d662d2c"
+  ],
+  "mode": "synthetic-only",
+  "base_model": "V1",
+  "strategy": "head-only-cpu",
+  "epochs": 1,
+  "learning_rate": 3e-05,
+  "batch_size": 8,
+  "max_length": 64,
+  "cpu_threads": 2,
+  "max_seconds": 180,
+  "seed": 20261104,
+  "balanced_class_weights": false,
+  "early_stopping_patience": 2
+}

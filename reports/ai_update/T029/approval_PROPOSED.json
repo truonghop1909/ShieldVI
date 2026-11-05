@@ -1,0 +1,9 @@
+{
+  "approved": false,
+  "config_sha256": "1f3a214bd5d3d5ac5d6e3dd157145751a2e4de0c2180627af9b7a3ab8ef9a8fe",
+  "prepared_manifest_sha256": "4695f67b27180216ac30e100776c26416986548de680e65760cc4c943bd55f36",
+  "resource": "Colab_GPU",
+  "max_training_seconds": 3600,
+  "cost_acknowledged": false,
+  "note": "Proposal only. Do not set approved/cost_acknowledged true without actual user approval. Colab preparation uses a new path and needs a matching new receipt."
+}

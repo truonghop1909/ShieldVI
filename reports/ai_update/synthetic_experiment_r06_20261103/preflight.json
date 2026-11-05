@@ -1,0 +1,9 @@
+{
+  "status": "READY_TO_RUN",
+  "blockers": [],
+  "versions": {
+    "transformers": "4.57.3",
+    "huggingface-hub": "0.36.2"
+  },
+  "training_performed": false
+}

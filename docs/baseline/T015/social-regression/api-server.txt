@@ -1,0 +1,78 @@
+INFO:     Started server process [14904]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:50814 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50829 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62721 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:64952 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56708 - "GET /api/v1/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61344 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61345 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55504 - "POST /api/v1/posts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58115 - "GET /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58117 - "GET /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50364 - "GET /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50366 - "GET /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59714 - "POST /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc/comments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51889 - "GET /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60766 - "POST /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc/comments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63645 - "GET /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64684 - "PATCH /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51621 - "GET /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51622 - "GET /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50673 - "DELETE /api/v1/posts/5582f8ae-5850-471b-acab-e7b55b2519cc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61266 - "POST /api/v1/auth/logout HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:63806 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64806 - "GET /api/v1/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64301 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64302 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64949 - "GET /api/v1/feed?page=2&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64010 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57819 - "GET /api/v1/posts/10000000-0000-4000-8000-0000000000f0 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57818 - "GET /api/v1/posts/10000000-0000-4000-8000-0000000000f0 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52541 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62803 - "GET /api/v1/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65138 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65137 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59374 - "GET /api/v1/posts/10000000-0000-4000-8000-000000000001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59373 - "GET /api/v1/posts/10000000-0000-4000-8000-000000000001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56277 - "GET /api/v1/posts/10000000-0000-4000-8000-000000000001/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56276 - "GET /api/v1/posts/10000000-0000-4000-8000-000000000001/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61002 - "POST /api/v1/posts/10000000-0000-4000-8000-000000000001/comments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56982 - "GET /api/v1/posts/10000000-0000-4000-8000-000000000001/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55435 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57176 - "GET /api/v1/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53648 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53649 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53651 - "POST /api/v1/posts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63317 - "POST /api/v1/posts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61274 - "GET /api/v1/posts/79a65d1b-4601-4782-8a65-af367ff73812 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49801 - "GET /api/v1/posts/79a65d1b-4601-4782-8a65-af367ff73812 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63158 - "GET /api/v1/posts/79a65d1b-4601-4782-8a65-af367ff73812/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63159 - "GET /api/v1/posts/79a65d1b-4601-4782-8a65-af367ff73812/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65288 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49843 - "GET /api/v1/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51034 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58876 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52197 - "GET /api/v1/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54071 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54072 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63938 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63700 - "GET /api/v1/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63966 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63967 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49684 - "POST /api/v1/posts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55983 - "GET /api/v1/posts/4d0f288c-486d-4bc8-bf2e-528d47b9545d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55982 - "GET /api/v1/posts/4d0f288c-486d-4bc8-bf2e-528d47b9545d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50413 - "GET /api/v1/posts/4d0f288c-486d-4bc8-bf2e-528d47b9545d/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50412 - "GET /api/v1/posts/4d0f288c-486d-4bc8-bf2e-528d47b9545d/comments?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64298 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64516 - "GET /api/v1/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61016 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60070 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64599 - "GET /api/v1/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50446 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /api/v1/feed?page=1&page_size=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50450 - "POST /api/v1/posts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:49342 - "POST /api/v1/auth/logout HTTP/1.1" 204 No Content

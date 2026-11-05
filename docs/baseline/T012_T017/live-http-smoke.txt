@@ -1,0 +1,4 @@
+AI down: queued content retained; one retry scheduled; nothing fail-open published
+AI recovered via authenticated real HTTP adapter: benign -> PUBLISHED; profanity -> PUBLISHED_FLAGGED, never hidden
+AI offline again: moderator HTTP approval succeeds without model; subsequent worker cannot overwrite it
+Synthetic predictor only; no real checkpoint loaded; temporary DB/accounts only; EXIT_CODE=0

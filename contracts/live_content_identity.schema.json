@@ -1,0 +1,55 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "author_id": {
+      "maxLength": 120,
+      "minLength": 1,
+      "title": "Author Id",
+      "type": "string"
+    },
+    "author_username": {
+      "anyOf": [
+        {
+          "maxLength": 30,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Author Username"
+    },
+    "reply_to_user_id": {
+      "anyOf": [
+        {
+          "maxLength": 120,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Reply To User Id"
+    },
+    "reply_to_username": {
+      "anyOf": [
+        {
+          "maxLength": 30,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Reply To Username"
+    }
+  },
+  "required": [
+    "author_id",
+    "author_username",
+    "reply_to_user_id",
+    "reply_to_username"
+  ],
+  "title": "LiveIdentity",
+  "type": "object"
+}

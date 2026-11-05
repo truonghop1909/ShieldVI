@@ -1,0 +1,621 @@
+﻿thread_id,comment_id,scenario,text,ai_reference,reference_attack,reference_target,semantic_role,raw_score,raw_toxic,hybrid_raw_toxic,hybrid_attack,hybrid_target,hybrid_qualified_attack,context_tags,lexical_review,profanity_detected,reference_profanity
+SGZ500_0201,SGZ500_0201_C01,normal_chat,"phòng mở r nha, ai vào thì ping tui",CLEAN,False,,normal,0.020084,False,False,False,,False,[],False,False,False
+SGZ500_0201,SGZ500_0201_C02,normal_chat,"tui console, ô nhập mã đâu mất tiêu 💀",CLEAN,False,,normal,0.042826,False,False,False,,False,[],False,False,False
+SGZ500_0201,SGZ500_0201_C03,normal_chat,Game này phải bật crossplay ở cả hai máy.,CLEAN,False,,normal,0.063211,False,False,False,,False,[],False,False,False
+SGZ500_0201,SGZ500_0201_C04,normal_chat,"À tui tắt từ đợt test, để bật lại.",CLEAN,False,,normal,0.03406,False,False,False,,False,[],False,False,False
+SGZ500_0201,SGZ500_0201_C05,normal_chat,"doi ti, may tui dang update nua =))",CLEAN,False,,normal,0.086815,False,False,False,,False,[],False,False,False
+SGZ500_0201,SGZ500_0201_C06,normal_chat,"Bạn tải xong rồi mới nhập mã, tránh báo sai phiên bản.",CLEAN,False,,normal,0.019171,False,False,False,,False,[],False,False,False
+SGZ500_0201,SGZ500_0201_C07,normal_chat,"bật xong rồi, room vẫn giữ tên Nồi Cơm",CLEAN,False,,normal,0.050837,False,False,False,,False,[],False,False,False
+SGZ500_0201,SGZ500_0201_C08,normal_chat,thấy Nồi Cơm mà bụng réo theo luôn,CLEAN,False,,normal,0.095709,False,False,False,,False,[],False,False,False
+SGZ500_0201,SGZ500_0201_C09,normal_chat,"Mình vào được rồi, còn chờ máy B thôi.",CLEAN,False,,normal,0.012141,False,False,False,,False,[],False,False,False
+SGZ500_0201,SGZ500_0201_C10,normal_chat,"87%, hai ông cứu thế giới trước đi 🥲",CLEAN,False,,normal,0.186612,False,False,False,,False,[],False,False,False
+SGZ500_0204,SGZ500_0204_C01,direct_insult,chỗ này từ mét sang cm nhân 10 hay 100 nhỉ?,CLEAN,False,,normal,0.028736,False,False,False,,False,[],False,False,False
+SGZ500_0204,SGZ500_0204_C02,direct_insult,"Nhân 100, có mỗi cái đó mày cũng ngu.",TOXIC,True,SGZ500_0204_U01,directed_insult,0.458035,True,True,True,SGZ500_0204_U01,True,['DIRECT_ATTACK'],False,False,False
+SGZ500_0204,SGZ500_0204_C03,direct_insult,"Đưa đáp án được rồi, đâu cần chửi người hỏi.",CLEAN,False,,intervention,0.134111,False,False,False,,False,[],False,False,False
+SGZ500_0204,SGZ500_0204_C04,direct_insult,"Mình hỏi vì đang nhầm, không phải để bạn xúc phạm.",CLEAN,False,,defense,0.245846,False,False,False,,False,[],False,False,False
+SGZ500_0204,SGZ500_0204_C05,direct_insult,Phần bảng trước cũng phải kiểm lại đơn vị.,CLEAN,False,,criticism,0.034879,False,False,False,,False,[],False,False,False
+SGZ500_0204,SGZ500_0204_C06,direct_insult,"Mình kiểm hết cột, chỗ diện tích mới là cái nhầm lớn.",CLEAN,False,,normal,0.011608,False,False,False,,False,[],False,False,False
+SGZ500_0204,SGZ500_0204_C07,direct_insult,"Diện tích phải xét bình phương hệ số, khác độ dài nhé.",CLEAN,False,,normal,0.005518,False,False,False,,False,[],False,False,False
+SGZ500_0204,SGZ500_0204_C08,direct_insult,"Đúng, hàng cuối đề đang dùng mét vuông.",CLEAN,False,,normal,0.008707,False,False,False,,False,[],False,False,False
+SGZ500_0204,SGZ500_0204_C09,direct_insult,"Cảm ơn, mình tách hai loại đơn vị ra rồi.",CLEAN,False,,normal,0.011827,False,False,False,,False,[],False,False,False
+SGZ500_0204,SGZ500_0204_C10,direct_insult,"Ghi đơn vị cạnh mỗi số, lần sau dễ tự soát hơn.",CLEAN,False,,normal,0.012452,False,False,False,,False,[],False,False,False
+SGZ500_0205,SGZ500_0205_C01,repeated_attack,"Đơn ghi bàn giao hôm qua mà hãng chưa quét, shop kiểm giúp nhé.",CLEAN,False,,normal,0.019768,False,False,False,,False,[],False,False,False
+SGZ500_0205,SGZ500_0205_C02,repeated_attack,"Shop đang xin biên nhận từ kho, chưa xác nhận đã giao hãng.",CLEAN,False,,normal,0.019398,False,False,False,,False,[],False,False,False
+SGZ500_0205,SGZ500_0205_C03,repeated_attack,"Mày đéo biết đợi à, cái loại khách hãm.",TOXIC,True,SGZ500_0205_U01,directed_insult,0.882596,True,True,False,,False,['PROFANITY_NON_DIRECTED'],True,True,True
+SGZ500_0205,SGZ500_0205_C04,repeated_attack,"Mình cùng kho cũng chưa quét, có thể cập nhật theo đợt.",CLEAN,False,,normal,0.008678,False,False,False,,False,[],False,False,False
+SGZ500_0205,SGZ500_0205_C05,repeated_attack,"Mình hỏi tình trạng, bạn đừng chửi khi chưa biết đơn của mình.",CLEAN,False,,defense,0.038869,False,False,False,,False,['SET_BOUNDARY'],False,False,False
+SGZ500_0205,SGZ500_0205_C06,repeated_attack,"B không phải nhân viên shop, xin đừng trả lời khách kiểu đó.",CLEAN,False,,criticism,0.363922,False,False,False,,False,[],False,False,False
+SGZ500_0205,SGZ500_0205_C07,repeated_attack,Đầu mày chắc chỉ đủ để đội cái nón thôi.,TOXIC,True,SGZ500_0205_U01,indirect_attack,0.110393,False,False,False,,False,[],False,False,False
+SGZ500_0205,SGZ500_0205_C08,repeated_attack,Đang hỏi vận chuyển mà B công kích A lần nữa rồi.,CLEAN,False,,intervention,0.0796,False,False,False,,False,[],False,False,False
+SGZ500_0205,SGZ500_0205_C09,repeated_attack,Khi có biên nhận thì shop gửi trong phần đơn giúp mình.,CLEAN,False,,normal,0.0165,False,False,False,,False,[],False,False,False
+SGZ500_0205,SGZ500_0205_C10,repeated_attack,"Mình sẽ báo kết quả kiểm kho, hiện chưa hẹn ngày chắc chắn.",CLEAN,False,,normal,0.007962,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C01,apology_response,B cho tui nói lại chuyện tui gọi bạn làm tạ tối qua.,CLEAN,False,,normal,0.042163,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C02,apology_response,"Bạn nói được, nhưng mình vẫn chưa muốn ghép đội ngay.",CLEAN,False,,defense,0.029103,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C03,apology_response,"Nói trong nhóm này thôi, không lôi người ngoài vào nhé.",CLEAN,False,,normal,0.29244,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C04,apology_response,"Tui xin lỗi vì xúc phạm B, thua trận không phải lý do nói thế.",CLEAN,False,,apology,0.406669,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C05,apology_response,"Mình ghi nhận, nhưng chưa sẵn sàng nhận lời xin lỗi lúc này.",CLEAN,False,,reconciliation,0.066806,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C06,apology_response,"Vậy chỗ đội cuối tuần để tui tìm người khác, không ép B.",CLEAN,False,,normal,0.048274,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C07,apology_response,"Ừ, tui tôn trọng, không nhắn riêng dồn bạn nữa.",CLEAN,False,,normal,0.137411,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C08,apology_response,"Lần tới góp ý bằng pha bóng, giữ quy tắc cho cả đội.",CLEAN,False,,normal,0.022545,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C09,apology_response,"Mình vẫn đọc thông báo đội, tạm chưa đá chung thôi.",CLEAN,False,,normal,0.035298,False,False,False,,False,[],False,False,False
+SGZ500_0210,SGZ500_0210_C10,apology_response,"Đã rõ, lịch tập cá nhân của bạn không bị xóa nha.",CLEAN,False,,normal,0.015216,False,False,False,,False,[],False,False,False
+SGZ500_0217,SGZ500_0217_C01,self_defense,Mình đã nói không muốn bị tag vào bài chê nhóm khác nữa.,CLEAN,False,,defense,0.447274,True,True,False,,False,[],False,False,False
+SGZ500_0217,SGZ500_0217_C02,self_defense,"Mày nhát thật, đừng giả làm người có lập trường.",TOXIC,True,SGZ500_0217_U01,directed_insult,0.879244,True,True,False,,False,[],False,False,False
+SGZ500_0217,SGZ500_0217_C03,self_defense,Tui đọc lại thấy A đã yêu cầu từ hôm qua rồi.,CLEAN,False,,normal,0.054298,False,False,False,,False,[],False,False,False
+SGZ500_0217,SGZ500_0217_C04,self_defense,Mình không tham gia công kích không có nghĩa phải nhận lời xúc phạm.,CLEAN,False,,defense,0.444594,True,True,False,,False,['DEFENSE'],False,False,False
+SGZ500_0217,SGZ500_0217_C05,self_defense,B bỏ tag và dừng gọi A bằng cách đó nhé.,CLEAN,False,,intervention,0.027221,False,False,False,,False,['SET_BOUNDARY'],False,False,False
+SGZ500_0217,SGZ500_0217_C06,self_defense,Nếu A tự tắt thông báo thì có phải nhanh hơn không?,CLEAN,False,,normal,0.042318,False,False,False,,False,[],False,False,False
+SGZ500_0217,SGZ500_0217_C07,self_defense,"Cài đặt hỗ trợ thôi, yêu cầu không tag vẫn cần được tôn trọng.",CLEAN,False,,criticism,0.012004,False,False,False,,False,[],False,False,False
+SGZ500_0217,SGZ500_0217_C08,self_defense,"Mình tắt thêm thông báo, đồng thời giữ yêu cầu không bị réo.",CLEAN,False,,normal,0.018517,False,False,False,,False,[],False,False,False
+SGZ500_0217,SGZ500_0217_C09,self_defense,Tui ghim nguyên tắc không kéo người khác vào tranh cãi khi họ từ chối.,CLEAN,False,,normal,0.089895,False,False,False,,False,[],False,False,False
+SGZ500_0217,SGZ500_0217_C10,self_defense,"Mình chặn lượt tag từ B, vẫn ở nhóm nghe nhạc như trước.",CLEAN,False,,normal,0.028786,False,False,False,,False,[],False,False,False
+SGZ500_0218,SGZ500_0218_C01,subtle_escalation,Mày nói ngu thế thì làm clip dạy ai hả?,TOXIC,True,SGZ500_0218_U01,directed_insult,0.756043,True,True,True,,False,['DIRECT_ATTACK'],False,False,False
+SGZ500_0218,SGZ500_0218_C02,subtle_escalation,"Bạn chỉ giúp đoạn thông tin sai, mình sẽ kiểm lại nguồn.",CLEAN,False,,normal,0.01499,False,False,False,,False,[],False,False,False
+SGZ500_0218,SGZ500_0218_C03,subtle_escalation,"Mốc năm ở đầu clip lệch một năm, mình gửi nguồn đúng.",CLEAN,False,,criticism,0.022897,False,False,False,,False,[],False,False,False
+SGZ500_0218,SGZ500_0218_C04,subtle_escalation,"Góp ý mốc thời gian được, đừng gọi tác giả ngu.",CLEAN,False,,intervention,0.76639,True,True,False,,False,['SET_BOUNDARY'],False,False,False
+SGZ500_0218,SGZ500_0218_C05,subtle_escalation,Mình sửa phụ đề và ghim đính chính ở bài gốc nhé.,CLEAN,False,,normal,0.025456,False,False,False,,False,[],False,False,False
+SGZ500_0218,SGZ500_0218_C06,subtle_escalation,Chắc người nghe phải có lòng thương lớn lắm mới nghe hết giọng mày.,TOXIC,True,SGZ500_0218_U01,indirect_attack,0.299355,False,False,False,,False,[],False,False,False
+SGZ500_0218,SGZ500_0218_C07,subtle_escalation,Câu này vẫn hạ người dù không có từ tục.,CLEAN,False,,intervention,0.621586,True,True,False,,False,[],False,False,False
+SGZ500_0218,SGZ500_0218_C08,subtle_escalation,"Nhớ sửa cả mô tả, đang để lại mốc cũ ở đó.",CLEAN,False,,normal,0.012431,False,False,False,,False,[],False,False,False
+SGZ500_0218,SGZ500_0218_C09,subtle_escalation,"Mô tả đã đổi, mình giữ lịch sử sửa để mọi người biết.",CLEAN,False,,normal,0.014813,False,False,False,,False,[],False,False,False
+SGZ500_0218,SGZ500_0218_C10,subtle_escalation,Nguồn mới có tên tổ chức phát hành không?,CLEAN,False,,normal,0.01989,False,False,False,,False,[],False,False,False
+SGZ500_0219,SGZ500_0219_C01,mixed_apology_attack,B chia việc lại mà chưa hỏi nên phần số liệu của mình bị bỏ.,CLEAN,False,,criticism,0.022913,False,False,False,,False,[],False,False,False
+SGZ500_0219,SGZ500_0219_C02,mixed_apology_attack,"Xin lỗi đã không hỏi, nhưng mày vô dụng nên giữ phần đó cũng thừa.",TOXIC,True,SGZ500_0219_U01,mixed_apology_attack,0.379273,False,False,True,SGZ500_0219_U01,False,"['APOLOGY', 'DIRECT_ATTACK']",False,False,False
+SGZ500_0219,SGZ500_0219_C03,mixed_apology_attack,Xin lỗi kèm phủ định người khác như vậy vẫn đang công kích.,CLEAN,False,,intervention,0.425822,True,True,False,,False,['APOLOGY'],False,False,False
+SGZ500_0219,SGZ500_0219_C04,mixed_apology_attack,Có thể xem phần số liệu nào dùng được trước khi đổi phân công.,CLEAN,False,,normal,0.008386,False,False,False,,False,[],False,False,False
+SGZ500_0219,SGZ500_0219_C05,mixed_apology_attack,"Mình cần trao đổi phần việc, không nhận lời gọi mình vô dụng.",CLEAN,False,,defense,0.113823,False,False,False,,False,['UNCERTAIN'],False,False,False
+SGZ500_0219,SGZ500_0219_C06,mixed_apology_attack,"Tui có bảng đối chiếu nguồn của A, phần đó dùng được.",CLEAN,False,,normal,0.010694,False,False,False,,False,[],False,False,False
+SGZ500_0219,SGZ500_0219_C07,mixed_apology_attack,Nhưng thiếu ghi chú đơn vị ở hai hàng cuối.,CLEAN,False,,criticism,0.02488,False,False,False,,False,[],False,False,False
+SGZ500_0219,SGZ500_0219_C08,mixed_apology_attack,"Mình bổ sung đơn vị, nhận xét cụ thể như vậy mình sửa được.",CLEAN,False,,normal,0.010533,False,False,False,,False,[],False,False,False
+SGZ500_0219,SGZ500_0219_C09,mixed_apology_attack,Đổi người phụ trách sau khi mọi người kiểm phần cần bổ sung nhé.,CLEAN,False,,normal,0.014284,False,False,False,,False,[],False,False,False
+SGZ500_0219,SGZ500_0219_C10,mixed_apology_attack,"Mình ghi biên bản phần đã làm, không xóa công sức cũ.",CLEAN,False,,normal,0.02084,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C01,heated_debate,t đặt bàn tối sáu nha,CLEAN,False,,normal,0.023597,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C02,heated_debate,"tối sáu t làm, đã báo mà",CLEAN,False,,normal,0.026383,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C03,heated_debate,"Khoan đặt, chưa hỏi đủ người.",CLEAN,False,,normal,0.042243,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C04,heated_debate,t nhớ nhầm ca của b qua thứ bảy,CLEAN,False,,normal,0.032665,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C05,heated_debate,Nhầm được nhưng đừng lấy im lặng làm đồng ý.,CLEAN,False,,criticism,0.265263,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C06,heated_debate,ừ t hủy giữ bàn tạm trước,CLEAN,False,,normal,0.052464,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C07,heated_debate,Thử chốt giờ sau khi điền lịch.,CLEAN,False,,normal,0.024581,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C08,heated_debate,tui rảnh trưa chủ nhật,CLEAN,False,,normal,0.070634,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C09,heated_debate,có quán nào mở trưa hong,CLEAN,False,,normal,0.035514,False,False,False,,False,[],False,False,False
+SGZ500_0221,SGZ500_0221_C10,heated_debate,"Tìm quán sau, chốt người trước đã.",CLEAN,False,,normal,0.026467,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C01,heated_debate,"xe gần kín r, bớt ghế hay bớt thùng đồ đây",CLEAN,False,,normal,0.059796,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C02,heated_debate,"t ngồi thảm được, ghế chiếm chỗ quá",CLEAN,False,,criticism,0.393462,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C03,heated_debate,"Nhưng nền có thể ẩm, không phải ai cũng ngồi thấp được.",CLEAN,False,,criticism,0.028584,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C04,heated_debate,"ghế tui gấp bằng cây bánh mì, có tính ngoại lệ ko =))",CLEAN,False,,normal,0.045758,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C05,heated_debate,"gửi kích thước đã gấp, nhìn ảnh khó đo",CLEAN,False,,normal,0.022699,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C06,heated_debate,"vậy ưu tiên người cần ghế, ai ngồi thảm đc thì tự chọn",CLEAN,False,,normal,0.014749,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C07,heated_debate,"Thảm cũng cần loại chống ẩm, đừng dùng khăn thay đại.",CLEAN,False,,normal,0.019534,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C08,heated_debate,"đo rồi, tui ghi trong bảng đồ chung nha",CLEAN,False,,normal,0.025541,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C09,heated_debate,"ok cân cả tải xe, không chỉ nhìn vừa cốp",CLEAN,False,,normal,0.009316,False,False,False,,False,[],False,False,False
+SGZ500_0242,SGZ500_0242_C10,heated_debate,"t bỏ ghế của t, giữ thảm đúng loại",CLEAN,False,,normal,0.092604,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C01,normal_chat,món chung chọn mức cay nào giờ,CLEAN,False,,normal,0.074688,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C02,normal_chat,t cay cao nha nhưng ko ép ai đâu,CLEAN,False,,normal,0.136276,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C03,normal_chat,"Mình không ăn cay, tách sốt được thì tốt.",CLEAN,False,,normal,0.019576,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C04,normal_chat,giải pháp chia đôi nồi như hòa đàm 😂,CLEAN,False,,normal,0.055569,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C05,normal_chat,"quán tách sốt được, gọi mức gốc không cay nha",CLEAN,False,,normal,0.048261,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C06,normal_chat,"ok t tự thêm vào bát, khỏi đỏ cả nồi",CLEAN,False,,normal,0.046894,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C07,normal_chat,"Vậy mình ăn chung được, cảm ơn.",CLEAN,False,,normal,0.007958,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C08,normal_chat,tui ngồi xa góc ớt của B một chút,CLEAN,False,,normal,0.039729,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C09,normal_chat,ai có dị ứng gì báo quán trước nữa nha,CLEAN,False,,normal,0.03367,False,False,False,,False,[],False,False,False
+SGZ500_0243,SGZ500_0243_C10,normal_chat,"t nhắc quán giữ muỗng ớt riêng, đừng dùng chung",CLEAN,False,,normal,0.030114,False,False,False,,False,[],False,False,False
+SGZ500_0247,SGZ500_0247_C01,mixed_apology_attack,"Meme này lấy ảnh người thật để cười, tui không share nhé.",CLEAN,False,,criticism,0.370679,False,False,False,,False,[],False,False,False
+SGZ500_0247,SGZ500_0247_C02,mixed_apology_attack,"Xin lỗi chứ mày đạo đức giả phát ngán, bớt làm màu.",TOXIC,True,SGZ500_0247_U01,mixed_apology_attack,0.880439,True,True,False,,False,['APOLOGY'],False,False,False
+SGZ500_0247,SGZ500_0247_C03,mixed_apology_attack,Ảnh người đó có đồng ý dùng làm meme không?,CLEAN,False,,normal,0.147662,False,False,False,,False,[],False,False,False
+SGZ500_0247,SGZ500_0247_C04,mixed_apology_attack,Lời xin lỗi kèm chê người vẫn đang công kích A.,CLEAN,False,,intervention,0.293321,False,False,False,,False,[],False,False,False
+SGZ500_0247,SGZ500_0247_C05,mixed_apology_attack,"Mình từ chối share ảnh, không nhận lời hạ nhục đó.",CLEAN,False,,defense,0.197846,False,False,False,,False,[],False,False,False
+SGZ500_0247,SGZ500_0247_C06,mixed_apology_attack,"Ảnh công khai mà, tui tưởng dùng vui được.",CLEAN,False,,criticism,0.045648,False,False,False,,False,[],False,False,False
+SGZ500_0247,SGZ500_0247_C07,mixed_apology_attack,Công khai không tự có nghĩa đồng ý bị chế giễu.,CLEAN,False,,criticism,0.072865,False,False,False,,False,[],False,False,False
+SGZ500_0247,SGZ500_0247_C08,mixed_apology_attack,Có thể làm meme không dùng mặt người không liên quan.,CLEAN,False,,normal,0.141863,False,False,False,,False,[],False,False,False
+SGZ500_0247,SGZ500_0247_C09,mixed_apology_attack,"t đồng ý hướng đó, còn ảnh cũ t không đăng lại",CLEAN,False,,normal,0.116984,False,False,False,,False,[],False,False,False
+SGZ500_0247,SGZ500_0247_C10,mixed_apology_attack,vậy t hỏi người làm bản meme xem có đổi ảnh được không,CLEAN,False,,normal,0.154488,False,False,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C01,repeated_attack,Tối nay mình thử bình luận trận giao hữu.,CLEAN,False,,normal,0.041559,False,False,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C02,repeated_attack,"Giọng mày như vịt nghẹt, nghe phát ngán.",TOXIC,True,SGZ500_0255_U01,directed_insult,0.89367,True,True,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C03,repeated_attack,Bạn góp ý tốc độ nói giúp mình được không?,CLEAN,False,SGZ500_0255_U02,defense,0.019826,False,False,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C04,repeated_attack,"Mic hơi vang, phần thông tin cầu thủ ổn.",CLEAN,False,,criticism,0.138516,False,False,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C05,repeated_attack,Mày câm hẳn đi thì đỡ tra tấn tai người ta.,TOXIC,True,SGZ500_0255_U01,directed_insult,0.688333,True,True,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C06,repeated_attack,Đã nhắc giọng rồi còn bảo người ta câm là quá.,CLEAN,False,SGZ500_0255_U02,intervention,0.791621,True,True,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C07,repeated_attack,Mình không nhận góp ý kiểu xúc phạm.,CLEAN,False,SGZ500_0255_U02,defense,0.826779,True,True,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C08,repeated_attack,Livestream công khai thì chịu người khác nói chứ.,CLEAN,False,,criticism,0.262312,False,False,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C09,repeated_attack,Công khai không phải giấy phép để hạ nhục.,CLEAN,False,SGZ500_0255_U02,intervention,0.085628,False,False,False,,False,[],False,False,False
+SGZ500_0255,SGZ500_0255_C10,repeated_attack,Mình lưu đoạn này gửi quản trị nhóm xử lý.,CLEAN,False,,normal,0.020885,False,False,False,,False,[],False,False,False
+SGZ500_0258,SGZ500_0258_C01,profanity_venting,vcl đáy nồi thành bánh than rồi,CLEAN,False,,profanity_exclamation,0.115444,False,False,False,,False,['PROFANITY_NON_DIRECTED'],True,True,True
+SGZ500_0258,SGZ500_0258_C02,profanity_venting,món mới à đầu bếp =)),CLEAN,False,,normal,0.049232,False,False,False,,False,[],False,False,False
+SGZ500_0258,SGZ500_0258_C03,profanity_venting,bếp gas nhà trọ mạnh hơn tui tưởng,CLEAN,False,,normal,0.013167,False,False,False,,False,[],False,False,False
+SGZ500_0258,SGZ500_0258_C04,profanity_venting,"Nhấc nồi ra, đừng cạo phần cháy trộn lên.",CLEAN,False,,normal,0.157139,False,False,False,,False,[],False,False,False
+SGZ500_0258,SGZ500_0258_C05,profanity_venting,tụi tui ăn lớp trên được hông?,CLEAN,False,,normal,0.050758,False,False,False,,False,[],False,False,False
+SGZ500_0258,SGZ500_0258_C06,profanity_venting,Nếu có mùi khét cả nồi thì nấu mẻ khác.,CLEAN,False,,normal,0.055211,False,False,False,,False,[],False,False,False
+SGZ500_0258,SGZ500_0258_C07,profanity_venting,Lớp trên còn trắng nhưng hơi ám mùi.,CLEAN,False,,normal,0.093849,False,False,False,,False,[],False,False,False
+SGZ500_0258,SGZ500_0258_C08,profanity_venting,"thôi đổi sang mì, cơm để xử lý sau",CLEAN,False,,normal,0.018202,False,False,False,,False,[],False,False,False
+SGZ500_0258,SGZ500_0258_C09,profanity_venting,tui rửa nồi bằng gì cho đỡ cực 🥲,CLEAN,False,,normal,0.046462,False,False,False,,False,[],False,False,False
+SGZ500_0258,SGZ500_0258_C10,profanity_venting,"Ngâm nước ấm trước, tránh chà bằng vật sắc.",CLEAN,False,,normal,0.011294,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C01,normal_chat,Nhạc cuối clip mình ghi ở mô tả rồi nha.,CLEAN,False,,normal,0.021627,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C02,normal_chat,"Link đó ra bài khác, có thiếu ký tự không?",CLEAN,False,,normal,0.069756,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C03,normal_chat,mystery soundtrack unlocked 😂,CLEAN,False,,normal,0.075664,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C04,normal_chat,Tui dán nhầm link bản remix mất rồi.,CLEAN,False,,normal,0.22464,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C05,normal_chat,Đoạn có piano là bản gốc à?,CLEAN,False,,normal,0.386541,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C06,normal_chat,"Đúng, bản gốc chậm hơn clip vì tui tăng tốc.",CLEAN,False,,normal,0.215436,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C07,normal_chat,vậy ghi speed up để mọi người khỏi tìm lạc,CLEAN,False,,normal,0.025596,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C08,normal_chat,Tên tác giả cũng sửa cho khớp nhé.,CLEAN,False,,normal,0.048887,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C09,normal_chat,"Đã đổi phần mô tả, ghim thêm đính chính.",CLEAN,False,,normal,0.019531,False,False,False,,False,[],False,False,False
+SGZ500_0263,SGZ500_0263_C10,normal_chat,tai tui cuối cùng được nghỉ công việc thám tử,CLEAN,False,,normal,0.035296,False,False,False,,False,[],False,False,False
+SGZ500_0265,SGZ500_0265_C01,mixed_apology_attack,Hộp hàng thiếu một linh kiện so với mô tả.,CLEAN,False,,criticism,0.04231,False,False,False,,False,[],False,False,False
+SGZ500_0265,SGZ500_0265_C02,mixed_apology_attack,"Xin lỗi đóng thiếu, nhưng khách ngu như bạn mới không biết tự mua thêm.",TOXIC,True,SGZ500_0265_U01,mixed_apology_attack,0.078666,False,False,True,SGZ500_0265_U01,False,"['APOLOGY', 'DIRECT_ATTACK']",False,False,False
+SGZ500_0265,SGZ500_0265_C03,mixed_apology_attack,"Thiếu hàng là việc của shop, đừng xúc phạm khách.",CLEAN,False,SGZ500_0265_U02,intervention,0.221303,False,False,False,,False,['SET_BOUNDARY'],False,False,False
+SGZ500_0265,SGZ500_0265_C04,mixed_apology_attack,Mình mua bộ đầy đủ và yêu cầu gửi phần thiếu.,CLEAN,False,SGZ500_0265_U02,defense,0.013223,False,False,False,,False,[],False,False,False
+SGZ500_0265,SGZ500_0265_C05,mixed_apology_attack,Phí vận chuyển linh kiện còn cao hơn giá món đó.,CLEAN,False,,criticism,0.017723,False,False,False,,False,[],False,False,False
+SGZ500_0265,SGZ500_0265_C06,mixed_apology_attack,Chi phí đó không làm thay đổi nội dung đơn.,CLEAN,False,,criticism,0.021358,False,False,False,,False,[],False,False,False
+SGZ500_0265,SGZ500_0265_C07,mixed_apology_attack,Hai bên nên ghi phương án xử lý trên sàn.,CLEAN,False,,normal,0.0124,False,False,False,,False,[],False,False,False
+SGZ500_0265,SGZ500_0265_C08,mixed_apology_attack,Shop có thể hoàn tiền phần thiếu.,CLEAN,False,,normal,0.031358,False,False,False,,False,[],False,False,False
+SGZ500_0265,SGZ500_0265_C09,mixed_apology_attack,Gửi đề xuất chính thức giúp mình xem.,CLEAN,False,,normal,0.015428,False,False,False,,False,[],False,False,False
+SGZ500_0265,SGZ500_0265_C10,mixed_apology_attack,Nhớ giữ cả ảnh mở hộp và hóa đơn.,CLEAN,False,,normal,0.009511,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C01,normal_chat,Tranh bạn đặt năm ngoái mình muốn sửa để đưa portfolio.,CLEAN,False,,normal,0.010913,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C02,normal_chat,Bạn định sửa mặt nhân vật hay chỉ nền?,CLEAN,False,,normal,0.071386,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C03,normal_chat,Có thể giữ cả bản giao khách và bản chỉnh riêng.,CLEAN,False,,normal,0.014158,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C04,normal_chat,"Mình muốn sửa ánh sáng, không đổi thiết kế.",CLEAN,False,,normal,0.019625,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C05,normal_chat,"Vậy ghi rõ bản cập nhật, đừng thay link bản cũ nhé.",CLEAN,False,,normal,0.028651,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C06,normal_chat,"Ừ, bản đã giao mình vẫn giữ nguyên.",CLEAN,False,,normal,0.011292,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C07,normal_chat,Nhớ kiểm tra thỏa thuận đăng công khai hồi đó.,CLEAN,False,,normal,0.012374,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C08,normal_chat,Có được đăng nhưng không kèm tên thật của mình.,CLEAN,False,,normal,0.03016,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C09,normal_chat,Mình chỉ ghi commission cá nhân ẩn danh.,CLEAN,False,,normal,0.033294,False,False,False,,False,[],False,False,False
+SGZ500_0271,SGZ500_0271_C10,normal_chat,"Thế ok, gửi mình xem bản mới khi xong nha.",CLEAN,False,,normal,0.015494,False,False,False,,False,[],False,False,False
+SGZ500_0277,SGZ500_0277_C01,direct_insult,Mình xin rút phần trang trí tháng này.,CLEAN,False,,normal,0.015234,False,False,False,,False,[],False,False,False
+SGZ500_0277,SGZ500_0277_C02,direct_insult,Bạn bàn giao file đang làm nhé.,CLEAN,False,,normal,0.010906,False,False,False,,False,[],False,False,False
+SGZ500_0277,SGZ500_0277_C03,direct_insult,Vô dụng như mày tham gia chỉ phá kế hoạch.,TOXIC,True,SGZ500_0277_U02,directed_insult,0.83833,True,True,True,SGZ500_0277_U02,True,['DIRECT_ATTACK'],False,False,False
+SGZ500_0277,SGZ500_0277_C04,direct_insult,"Bạn ấy báo rút, đừng công kích.",CLEAN,False,SGZ500_0277_U03,intervention,0.160657,False,False,False,,False,['INTERVENTION'],False,False,False
+SGZ500_0277,SGZ500_0277_C05,direct_insult,Mình không thể tiếp tục vì lịch cá nhân.,CLEAN,False,SGZ500_0277_U03,defense,0.038804,False,False,False,,False,[],False,False,False
+SGZ500_0277,SGZ500_0277_C06,direct_insult,Hạn gửi bản nháp là tối nay được không?,CLEAN,False,,normal,0.045088,False,False,False,,False,[],False,False,False
+SGZ500_0277,SGZ500_0277_C07,direct_insult,"Được, file có ghi phần chưa xong.",CLEAN,False,,normal,0.01885,False,False,False,,False,[],False,False,False
+SGZ500_0277,SGZ500_0277_C08,direct_insult,ai nhận phần còn lại đây,CLEAN,False,,normal,0.048544,False,False,False,,False,[],False,False,False
+SGZ500_0277,SGZ500_0277_C09,direct_insult,Mình xem khối lượng rồi trả lời.,CLEAN,False,,normal,0.01791,False,False,False,,False,[],False,False,False
+SGZ500_0277,SGZ500_0277_C10,direct_insult,Chưa ai nhận thì giảm hạng mục.,CLEAN,False,,normal,0.07948,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C01,ambiguous_banter,Set này toàn đồ mua lại nè.,CLEAN,False,,normal,0.018817,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C02,ambiguous_banter,trông giàu dữ ha 😌,UNCERTAIN,False,,ambiguous,0.124504,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C03,ambiguous_banter,Áo khoác cậu sửa vai chưa?,CLEAN,False,,normal,0.063123,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C04,ambiguous_banter,"Sửa rồi, tay vẫn hơi dài.",CLEAN,False,,normal,0.063802,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C05,ambiguous_banter,tui hỏi giá set được hông,CLEAN,False,,normal,0.041083,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C06,ambiguous_banter,"Tổng 320k, chưa tính sửa áo.",CLEAN,False,,normal,0.019086,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C07,ambiguous_banter,Hợp dáng hơn lúc còn vai rộng.,CLEAN,False,,normal,0.029111,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C08,ambiguous_banter,đôi giày nhìn còn mới ghê,CLEAN,False,,normal,0.04313,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C09,ambiguous_banter,Giày là đồ cũ của chị tui.,CLEAN,False,,normal,0.118793,False,False,False,,False,[],False,False,False
+SGZ500_0282,SGZ500_0282_C10,ambiguous_banter,Vậy để tay áo gập thử xem.,CLEAN,False,,normal,0.026104,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C01,profanity_venting,"vãi, thang lại đứng tầng mười rồi",CLEAN,False,,profanity_exclamation,0.094238,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C02,profanity_venting,Mình đã nhận thông báo lỗi.,CLEAN,False,,normal,0.020567,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C03,profanity_venting,thang bên phải vẫn dùng được nha,CLEAN,False,,normal,0.009916,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C04,profanity_venting,"Tui đang đứng ngoài, không bị kẹt trong.",CLEAN,False,,normal,0.009775,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C05,profanity_venting,Cảm ơn bạn xác nhận vị trí.,CLEAN,False,,normal,0.008329,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C06,profanity_venting,Bảng bảo trì hôm qua ghi xong rồi mà.,CLEAN,False,,normal,0.028883,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C07,profanity_venting,Cần cập nhật nguyên nhân chứ cứ báo chung chung.,CLEAN,False,,criticism,0.058445,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C08,profanity_venting,Đơn vị bảo trì đang kiểm tra bộ cửa.,CLEAN,False,,normal,0.01573,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C09,profanity_venting,có thời gian dự kiến thì nhắn nhóm nhé,CLEAN,False,,normal,0.012223,False,False,False,,False,[],False,False,False
+SGZ500_0289,SGZ500_0289_C10,profanity_venting,Tui đi thang còn lại xuống trước.,CLEAN,False,,normal,0.011206,False,False,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C01,apology_response,"Mày ích kỷ, chỉ biết cái thân mày.",TOXIC,True,SGZ500_0296_U01,directed_insult,0.963852,True,True,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C02,apology_response,"Tui không đi được, đừng suy ra con người tui.",CLEAN,False,SGZ500_0296_U02,defense,0.515905,True,True,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C03,apology_response,B đang giận thì nghỉ chat chút đi.,CLEAN,False,SGZ500_0296_U02,intervention,0.222396,False,False,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C04,apology_response,Tui xin lỗi đã chụp mũ A là ích kỷ.,CLEAN,False,SGZ500_0296_U01,apology,0.784174,True,True,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C05,apology_response,Tui nghe rồi nhưng chưa muốn nói tiếp.,CLEAN,False,,normal,0.223775,False,False,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C06,apology_response,Mình tạm dừng chuyện chuyến đi nhé.,CLEAN,False,,normal,0.015333,False,False,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C07,apology_response,Tui không ép bạn trả lời ngay.,CLEAN,False,,normal,0.077474,False,False,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C08,apology_response,Hôm khác tui sẽ chủ động nhắn.,CLEAN,False,,normal,0.021235,False,False,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C09,apology_response,Đồ đã đặt tui giữ nguyên đến mai.,CLEAN,False,,normal,0.014796,False,False,False,,False,[],False,False,False
+SGZ500_0296,SGZ500_0296_C10,apology_response,"Ừ, tui tự giải quyết phần vé của tui.",CLEAN,False,,normal,0.023649,False,False,False,,False,[],False,False,False
+SGZ500_0309,SGZ500_0309_C01,normal_chat,Trang thành viên thiếu tên mình.,CLEAN,False,,criticism,0.077316,False,False,False,,False,[],False,False,False
+SGZ500_0309,SGZ500_0309_C02,normal_chat,Mình kiểm lại file ngay.,CLEAN,False,,normal,0.011783,False,False,False,,False,[],False,False,False
+SGZ500_0309,SGZ500_0309_C03,normal_chat,B làm phần khảo sát đó.,CLEAN,False,,normal,0.015834,False,False,False,,False,[],False,False,False
+SGZ500_0309,SGZ500_0309_C04,normal_chat,"Xin lỗi B, mình bỏ sót khi sửa bìa.",CLEAN,False,SGZ500_0309_U02,apology,0.039713,False,False,False,,False,['APOLOGY'],False,False,False
+SGZ500_0309,SGZ500_0309_C05,normal_chat,Còn kịp nộp bản thay thế không?,CLEAN,False,,normal,0.024137,False,False,False,,False,[],False,False,False
+SGZ500_0309,SGZ500_0309_C06,normal_chat,Hệ thống vẫn mở đến tối.,CLEAN,False,,normal,0.019786,False,False,False,,False,[],False,False,False
+SGZ500_0309,SGZ500_0309_C07,normal_chat,Chụp bản mới trước khi bấm gửi nha.,CLEAN,False,,normal,0.017982,False,False,False,,False,[],False,False,False
+SGZ500_0309,SGZ500_0309_C08,normal_chat,Mình thêm tên và phần phân công rồi.,CLEAN,False,,normal,0.012386,False,False,False,,False,[],False,False,False
+SGZ500_0309,SGZ500_0309_C09,normal_chat,"Mình xem đúng rồi, nộp giúp nhé.",CLEAN,False,,normal,0.009537,False,False,False,,False,[],False,False,False
+SGZ500_0309,SGZ500_0309_C10,normal_chat,Nhớ tải biên nhận bản cuối.,CLEAN,False,,normal,0.026132,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C01,heated_debate,"Rừng gần hơn, đỡ ngồi xe lâu.",CLEAN,False,,normal,0.006532,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C02,heated_debate,Nhưng mưa vậy đường mòn khó đi.,CLEAN,False,,criticism,0.011425,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C03,heated_debate,Biển cũng có cảnh báo sóng mạnh.,CLEAN,False,,normal,0.005618,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C04,heated_debate,Hay chọn chỗ nghỉ có hoạt động trong nhà?,CLEAN,False,,normal,0.012385,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C05,heated_debate,Vậy khác gì ở thành phố đâu.,CLEAN,False,,normal,0.075562,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C06,heated_debate,Mục tiêu là nghỉ ngơi hay phải đi xa?,CLEAN,False,,normal,0.021766,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C07,heated_debate,Tui muốn đổi không khí thôi.,CLEAN,False,,normal,0.01677,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C08,heated_debate,"Tui muốn bơi, lịch này chắc không hợp.",CLEAN,False,,normal,0.043723,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C09,heated_debate,Có thể lùi chuyến chính sang tháng sau.,CLEAN,False,,normal,0.007095,False,False,False,,False,[],False,False,False
+SGZ500_0317,SGZ500_0317_C10,heated_debate,Cuối tuần này gặp ăn sáng cũng được.,CLEAN,False,,normal,0.02145,False,False,False,,False,[],False,False,False
+SGZ500_0318,SGZ500_0318_C01,subtle_escalation,Nước sốt lần này hơi mặn nhỉ?,CLEAN,False,,normal,0.069207,False,False,False,,False,[],False,False,False
+SGZ500_0318,SGZ500_0318_C02,subtle_escalation,Mày ngu bếp núc thật sự.,TOXIC,True,SGZ500_0318_U01,directed_insult,0.923809,True,True,True,SGZ500_0318_U01,True,['DIRECT_ATTACK'],False,False,False
+SGZ500_0318,SGZ500_0318_C03,subtle_escalation,Nói vị món ăn thôi nhé.,CLEAN,False,SGZ500_0318_U02,intervention,0.063473,False,False,False,,False,[],False,False,False
+SGZ500_0318,SGZ500_0318_C04,subtle_escalation,Tui muốn biết nên giảm phần nào.,CLEAN,False,SGZ500_0318_U02,defense,0.023346,False,False,False,,False,[],False,False,False
+SGZ500_0318,SGZ500_0318_C05,subtle_escalation,"Nói cũng vô ích, mày chẳng có chút giá trị gì ở đây.",TOXIC,True,SGZ500_0318_U01,indirect_attack,0.548499,True,True,False,,False,[],False,False,False
+SGZ500_0318,SGZ500_0318_C06,subtle_escalation,Đó không phải nhận xét về món ăn.,CLEAN,False,SGZ500_0318_U02,intervention,0.080249,False,False,False,,False,[],False,False,False
+SGZ500_0318,SGZ500_0318_C07,subtle_escalation,Tui không tiếp tục nhận xét với B nữa.,CLEAN,False,,normal,0.214582,False,False,False,,False,[],False,False,False
+SGZ500_0318,SGZ500_0318_C08,subtle_escalation,Giảm phần nước tương trước đi.,CLEAN,False,,criticism,0.023298,False,False,False,,False,[],False,False,False
+SGZ500_0318,SGZ500_0318_C09,subtle_escalation,Tui ghi lượng vào sổ cho lần sau.,CLEAN,False,,normal,0.020018,False,False,False,,False,[],False,False,False
+SGZ500_0318,SGZ500_0318_C10,subtle_escalation,Thử nửa mẻ trước cho dễ điều chỉnh.,CLEAN,False,,normal,0.009244,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C01,normal_chat,Mình không theo voice chat được.,CLEAN,False,,normal,0.092418,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C02,normal_chat,Dùng ping với chữ trong game nhé?,CLEAN,False,,normal,0.052026,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C03,normal_chat,Tui gán sẵn mấy câu báo đường.,CLEAN,False,,normal,0.060472,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C04,normal_chat,Có thông báo bắt đầu bằng chữ là ổn.,CLEAN,False,,normal,0.017879,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C05,normal_chat,Tui ghi kế hoạch trước mỗi vòng.,CLEAN,False,,normal,0.022159,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C06,normal_chat,Âm báo mục tiêu có biểu tượng trên màn hình.,CLEAN,False,,normal,0.018068,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C07,normal_chat,Mình bật biểu tượng rồi.,CLEAN,False,,normal,0.036117,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C08,normal_chat,Ai đổi chiến thuật nhớ ping lại.,CLEAN,False,,normal,0.019523,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C09,normal_chat,Để thử một trận không tính điểm trước.,CLEAN,False,,normal,0.023005,False,False,False,,False,[],False,False,False
+SGZ500_0321,SGZ500_0321_C10,normal_chat,Tui vào phòng rồi nha.,CLEAN,False,,normal,0.031105,False,False,False,,False,[],False,False,False
+SGZ500_0337,SGZ500_0337_C01,direct_insult,Mình nghe lịch diễn có thể đổi.,CLEAN,False,,normal,0.053943,False,False,False,,False,[],False,False,False
+SGZ500_0337,SGZ500_0337_C02,direct_insult,Nguồn chưa xác nhận thì ghi rõ nhé.,CLEAN,False,,normal,0.014305,False,False,False,,False,[],False,False,False
+SGZ500_0337,SGZ500_0337_C03,direct_insult,Tao sẽ đánh mày nếu tin này sai.,TOXIC,True,SGZ500_0337_U01,threat,0.209811,False,False,True,SGZ500_0337_U01,False,['DIRECT_ATTACK'],False,False,False
+SGZ500_0337,SGZ500_0337_C04,direct_insult,Tin chưa chắc đúng nhưng đe dọa là không được.,CLEAN,False,SGZ500_0337_U02,defense,0.090936,False,False,False,,False,[],False,False,False
+SGZ500_0337,SGZ500_0337_C05,direct_insult,"Dừng đe dọa, mình đang xử lý nguồn tin.",CLEAN,False,SGZ500_0337_U02,intervention,0.022202,False,False,False,,False,[],False,False,False
+SGZ500_0337,SGZ500_0337_C06,direct_insult,Mình sửa thành chưa xác nhận.,CLEAN,False,,normal,0.016724,False,False,False,,False,[],False,False,False
+SGZ500_0337,SGZ500_0337_C07,direct_insult,tin đồn làm người ta mất công,CLEAN,False,,normal,0.225017,False,False,False,,False,[],False,False,False
+SGZ500_0337,SGZ500_0337_C08,direct_insult,"Có thể phê bình tin, không đe dọa người.",CLEAN,False,,normal,0.060433,False,False,False,,False,[],False,False,False
+SGZ500_0337,SGZ500_0337_C09,direct_insult,Mình gỡ ảnh không có nguồn.,CLEAN,False,,normal,0.02609,False,False,False,,False,[],False,False,False
+SGZ500_0337,SGZ500_0337_C10,direct_insult,Chờ thông báo chính thức rồi cập nhật.,CLEAN,False,,normal,0.014179,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C01,constructive_criticism,Phụ đề ghi sai tên xã rồi.,CLEAN,False,,criticism,0.153124,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C02,constructive_criticism,Mình dùng nhận dạng tự động.,CLEAN,False,,normal,0.007722,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C03,constructive_criticism,Tui xem tắt tiếng nên tưởng đúng.,CLEAN,False,,normal,0.386696,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C04,constructive_criticism,"Chữ cuối là Sơn, không phải Sông.",CLEAN,False,,normal,0.084069,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C05,constructive_criticism,Sửa phụ đề trên clip được không nhỉ?,CLEAN,False,,normal,0.038,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C06,constructive_criticism,Nền tảng cho tải lại bản phụ đề.,CLEAN,False,,normal,0.032357,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C07,constructive_criticism,Mình gửi tên đầy đủ qua đây.,CLEAN,False,,normal,0.007391,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C08,constructive_criticism,"Đã thay, phần mô tả cũng sửa.",CLEAN,False,,normal,0.027401,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C09,constructive_criticism,Nhớ kiểm cả phụ đề tiếng Anh.,CLEAN,False,,normal,0.046956,False,False,False,,False,[],False,False,False
+SGZ500_0338,SGZ500_0338_C10,constructive_criticism,Tên riêng giữ nguyên dấu nhé.,CLEAN,False,,normal,0.012579,False,False,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C01,self_defense,Mình làm sai phần chứng minh.,CLEAN,False,,normal,0.021724,False,False,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C02,self_defense,Chắc đầu óc mày chỉ đến mức này thôi.,TOXIC,True,SGZ500_0339_U01,indirect_attack,0.282992,False,False,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C03,self_defense,Sai bài không cho biết giới hạn con người.,CLEAN,False,SGZ500_0339_U02,intervention,0.416973,True,True,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C04,self_defense,"Mình tự xem lỗi, đừng kết luận về mình.",CLEAN,False,SGZ500_0339_U02,defense,0.14137,False,False,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C05,self_defense,tui nói học kiểu đó không lên nổi,CLEAN,False,,normal,0.278726,False,False,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C06,self_defense,Có thể bàn phương pháp cụ thể.,CLEAN,False,,normal,0.009638,False,False,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C07,self_defense,Mình thiếu giả thiết ở dòng ba.,CLEAN,False,,normal,0.039756,False,False,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C08,self_defense,"Ừ, nên đánh dấu trước khi biến đổi.",CLEAN,False,,normal,0.021184,False,False,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C09,self_defense,"tùy, tui làm bài khác",CLEAN,False,,normal,0.060582,False,False,False,,False,[],False,False,False
+SGZ500_0339,SGZ500_0339_C10,self_defense,Mình hỏi thầy phần chưa hiểu.,CLEAN,False,,normal,0.044875,False,False,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C01,heated_debate,Đèn mạnh làm lớp nền trông nhạt.,CLEAN,False,,normal,0.729744,True,True,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C02,heated_debate,Tui vẫn muốn giữ tàn nhang.,CLEAN,False,,normal,0.030449,False,False,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C03,heated_debate,Có thể tăng má mà không che hết da.,CLEAN,False,,normal,0.021796,False,False,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C04,heated_debate,Nhưng ảnh nhóm dễ bị chìm mặt.,CLEAN,False,,criticism,0.123886,False,False,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C05,heated_debate,Tui ưu tiên nhìn giống mình hơn.,CLEAN,False,,criticism,0.092482,False,False,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C06,heated_debate,Thử chụp trước một tấm test.,CLEAN,False,,normal,0.022347,False,False,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C07,heated_debate,"Được, dùng đúng đèn hôm diễn nhé.",CLEAN,False,,normal,0.00979,False,False,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C08,heated_debate,Mình thử hai mức màu môi.,CLEAN,False,,normal,0.037281,False,False,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C09,heated_debate,Tui chuẩn bị tẩy trang từng vùng.,CLEAN,False,,normal,0.016385,False,False,False,,False,[],False,False,False
+SGZ500_0342,SGZ500_0342_C10,heated_debate,Giữ cùng thông số máy để so.,CLEAN,False,,normal,0.008491,False,False,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C01,english_abuse,Mình thử vẽ nhân vật theo nét riêng.,CLEAN,False,,normal,0.026405,False,False,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C02,english_abuse,You are trash. Stop drawing him.,TOXIC,True,SGZ500_0346_U01,directed_insult,0.015868,False,False,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C03,english_abuse,"Nhận xét tranh, đừng hạ nhục tác giả.",CLEAN,False,SGZ500_0346_U02,intervention,0.470203,True,True,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C04,english_abuse,Bạn không thích nét vẽ có thể bỏ qua.,CLEAN,False,SGZ500_0346_U02,defense,0.026272,False,False,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C05,english_abuse,Tỉ lệ mặt khác bản gốc quá.,CLEAN,False,,criticism,0.590497,True,True,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C06,english_abuse,Có thể nói điểm đó từ đầu.,CLEAN,False,,normal,0.028074,False,False,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C07,english_abuse,Mình cố ý cách điệu phần mắt.,CLEAN,False,,normal,0.086825,False,False,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C08,english_abuse,vậy đừng gắn thẻ bản gốc,CLEAN,False,,normal,0.033904,False,False,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C09,english_abuse,Fanart không bắt buộc giống hoàn toàn.,CLEAN,False,,normal,0.028421,False,False,False,,False,[],False,False,False
+SGZ500_0346,SGZ500_0346_C10,english_abuse,Mình giữ chú thích phiên bản cách điệu.,CLEAN,False,,normal,0.041007,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C01,constructive_criticism,Một ngày mình ghé sáu điểm nhé.,CLEAN,False,,normal,0.00652,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C02,constructive_criticism,Có tính giờ ăn trưa chưa?,CLEAN,False,,normal,0.064293,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C03,constructive_criticism,Sáu điểm xa nhau khó đi kịp.,CLEAN,False,,criticism,0.007714,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C04,constructive_criticism,Tui muốn tranh thủ vì chỉ có một hôm.,CLEAN,False,,normal,0.016175,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C05,constructive_criticism,Di chuyển nhiều hơn thời gian ở mỗi nơi.,CLEAN,False,,criticism,0.008588,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C06,constructive_criticism,"Chọn hai điểm chính, còn lại dự phòng.",CLEAN,False,,normal,0.011458,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C07,constructive_criticism,Vậy bỏ điểm đồi phía bắc.,CLEAN,False,,normal,0.013301,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C08,constructive_criticism,Giữ giờ quay về trước tối nhé.,CLEAN,False,,normal,0.013338,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C09,constructive_criticism,Tui tính lại khoảng cách đường bộ.,CLEAN,False,,normal,0.010088,False,False,False,,False,[],False,False,False
+SGZ500_0347,SGZ500_0347_C10,constructive_criticism,Có bản mới mình cùng xem lại.,CLEAN,False,,normal,0.007444,False,False,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C01,subtle_escalation,Túi rác trước cửa làm chặn lối.,CLEAN,False,,normal,0.025318,False,False,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C02,subtle_escalation,Mày rảnh quá thì ngậm miệng đi.,TOXIC,True,SGZ500_0349_U01,directed_insult,0.815201,True,True,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C03,subtle_escalation,Mình bàn lối đi chung thôi.,CLEAN,False,SGZ500_0349_U02,intervention,0.017039,False,False,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C04,subtle_escalation,"Mình cần đưa xe ra, không kiếm chuyện.",CLEAN,False,SGZ500_0349_U02,defense,0.00837,False,False,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C05,subtle_escalation,"Nói nhẹ nhé, sự tồn tại của mày chỉ gây phiền.",TOXIC,True,SGZ500_0349_U01,indirect_attack,0.167086,False,False,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C06,subtle_escalation,Đổi giọng vẫn là hạ nhục người khác.,CLEAN,False,SGZ500_0349_U02,intervention,0.882283,True,True,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C07,subtle_escalation,Mình gửi ảnh lối bị chắn cho ban quản lý.,CLEAN,False,,normal,0.015407,False,False,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C08,subtle_escalation,tui dọn sau giờ cơm,CLEAN,False,,normal,0.067454,False,False,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C09,subtle_escalation,Lối thoát cần thông ngay nhé.,CLEAN,False,,normal,0.008456,False,False,False,,False,[],False,False,False
+SGZ500_0349,SGZ500_0349_C10,subtle_escalation,Mình chờ xác nhận đã dọn.,CLEAN,False,,normal,0.014797,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C01,normal_chat,Mỗi người đem một món nhé.,CLEAN,False,,normal,0.009837,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C02,normal_chat,Tui mang cuốn rau nấm.,CLEAN,False,,normal,0.018804,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C03,normal_chat,tui mang bụng đói được hông 😭,CLEAN,False,,normal,0.050217,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C04,normal_chat,Bếp mini của tui cần tránh gió.,CLEAN,False,,normal,0.00975,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C05,normal_chat,"Tui đến muộn, mua nước dọc đường.",CLEAN,False,,normal,0.025589,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C06,normal_chat,Ghi số tiền để khỏi mua trùng.,CLEAN,False,,normal,0.015118,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C07,normal_chat,Món nóng chỉ làm ở khu cho phép.,CLEAN,False,,normal,0.013943,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C08,normal_chat,"Vậy tui bỏ bếp, đem bánh mì.",CLEAN,False,,normal,0.033327,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C09,normal_chat,Cuốn của tui để riêng nước chấm.,CLEAN,False,,normal,0.038799,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C10,normal_chat,"tui nhận trái cây, đùa thôi =))",CLEAN,False,,normal,0.05205,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C11,normal_chat,Có cần đá lạnh không cả nhóm?,CLEAN,False,,normal,0.030038,False,False,False,,False,[],False,False,False
+SGZ500_0351,SGZ500_0351_C12,normal_chat,"Tui có thùng nhỏ, E mua hai túi đá.",CLEAN,False,,normal,0.015013,False,False,False,,False,[],False,False,False
+SGZ500_0358,SGZ500_0358_C01,english_abuse,Mình thích vị chua của món này.,CLEAN,False,,normal,0.012327,False,False,False,,False,[],False,False,False
+SGZ500_0358,SGZ500_0358_C02,english_abuse,"Your taste is garbage, idiot.",TOXIC,True,SGZ500_0358_U01,directed_insult,0.017929,False,False,False,,False,['UNCERTAIN'],True,False,False
+SGZ500_0358,SGZ500_0358_C03,english_abuse,Không thích cùng món thì nói sở thích thôi.,CLEAN,False,SGZ500_0358_U02,intervention,0.086998,False,False,False,,False,[],False,False,False
+SGZ500_0358,SGZ500_0358_C04,english_abuse,"Bạn có thể chê món, đừng gọi mình ngu.",CLEAN,False,SGZ500_0358_U02,defense,0.364131,False,False,False,,False,['SET_BOUNDARY'],False,False,False
+SGZ500_0358,SGZ500_0358_C05,english_abuse,Chua quá làm mất mùi nguyên liệu.,CLEAN,False,,criticism,0.165286,False,False,False,,False,[],False,False,False
+SGZ500_0358,SGZ500_0358_C06,english_abuse,Đó là nhận xét cụ thể hơn.,CLEAN,False,,normal,0.017608,False,False,False,,False,[],False,False,False
+SGZ500_0358,SGZ500_0358_C07,english_abuse,Khẩu vị mình thích nhiều chua.,CLEAN,False,,normal,0.014307,False,False,False,,False,[],False,False,False
+SGZ500_0358,SGZ500_0358_C08,english_abuse,tui sẽ không gọi lại món này,CLEAN,False,,normal,0.057034,False,False,False,,False,[],False,False,False
+SGZ500_0358,SGZ500_0358_C09,english_abuse,Quán có bản giảm chua không nhỉ?,CLEAN,False,,normal,0.035515,False,False,False,,False,[],False,False,False
+SGZ500_0358,SGZ500_0358_C10,english_abuse,Menu ghi có thể chỉnh nước sốt.,CLEAN,False,,normal,0.015918,False,False,False,,False,[],False,False,False
+SGZ500_0364,SGZ500_0364_C01,heated_debate,AI viết đoạn này nhanh hơn tui nhiều.,CLEAN,False,,normal,0.231336,False,False,False,,False,[],False,False,False
+SGZ500_0364,SGZ500_0364_C02,heated_debate,Nhanh nhưng nó xử lý lỗi chưa đúng.,CLEAN,False,,criticism,0.021172,False,False,False,,False,[],False,False,False
+SGZ500_0364,SGZ500_0364_C03,heated_debate,Test trường hợp dữ liệu rỗng chưa?,CLEAN,False,,normal,0.021976,False,False,False,,False,[],False,False,False
+SGZ500_0364,SGZ500_0364_C04,heated_debate,"Chưa, tui mới thử luồng chính.",CLEAN,False,,normal,0.020777,False,False,False,,False,[],False,False,False
+SGZ500_0364,SGZ500_0364_C05,heated_debate,Vậy tốc độ chưa nói hết chất lượng.,CLEAN,False,,normal,0.046036,False,False,False,,False,[],False,False,False
+SGZ500_0364,SGZ500_0364_C06,heated_debate,Mình thêm ca dữ liệu rỗng vào kiểm tra.,CLEAN,False,,normal,0.009216,False,False,False,,False,[],False,False,False
+SGZ500_0364,SGZ500_0364_C07,heated_debate,Ca đó đang ném ngoại lệ thật.,CLEAN,False,,normal,0.062708,False,False,False,,False,[],False,False,False
+SGZ500_0364,SGZ500_0364_C08,heated_debate,"Dùng gợi ý được, vẫn phải đọc lại.",CLEAN,False,,normal,0.054924,False,False,False,,False,['SET_BOUNDARY'],False,False,False
+SGZ500_0364,SGZ500_0364_C09,heated_debate,Còn quyền truy cập dữ liệu nữa nhé.,CLEAN,False,,normal,0.011855,False,False,False,,False,[],False,False,False
+SGZ500_0364,SGZ500_0364_C10,heated_debate,"Tui giữ phần đã hiểu, bỏ đoạn chưa xác minh.",CLEAN,False,,normal,0.090923,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C01,normal_chat,Mèo xám nhà mình chạy ra ngoài.,CLEAN,False,,normal,0.016556,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C02,normal_chat,Có đeo vòng màu cam không?,CLEAN,False,,normal,0.072719,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C03,normal_chat,Tôi thấy gần bãi xe lúc chiều.,CLEAN,False,,normal,0.011838,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C04,normal_chat,Đừng đăng số căn hộ đầy đủ nhé.,CLEAN,False,,normal,0.010611,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C05,normal_chat,Tui kiểm tra bụi cây sau nhà.,CLEAN,False,,normal,0.01574,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C06,normal_chat,"Có vòng cam, đuôi hơi ngắn.",CLEAN,False,,normal,0.036439,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C07,normal_chat,"Tui để cửa sân hé, không đuổi nó.",CLEAN,False,,normal,0.052965,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C08,normal_chat,Bãi xe đã nhờ mọi người nhìn gầm.,CLEAN,False,,normal,0.013576,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C09,normal_chat,Ai thấy nhắn chủ qua nhóm riêng.,CLEAN,False,,normal,0.017136,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C10,normal_chat,"Có tiếng kêu gần kho, tui đứng chờ.",CLEAN,False,,normal,0.014635,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C11,normal_chat,Mình mang đồ ăn ra ngay.,CLEAN,False,,normal,0.007437,False,False,False,,False,[],False,False,False
+SGZ500_0369,SGZ500_0369_C12,normal_chat,Mọi người đừng tụ lại làm mèo hoảng.,CLEAN,False,,normal,0.130103,False,False,False,,False,[],False,False,False
+SGZ500_0373,SGZ500_0373_C01,apology_response,Mình cover đoạn điệp khúc này.,CLEAN,False,,normal,0.098608,False,False,False,,False,[],False,False,False
+SGZ500_0373,SGZ500_0373_C02,apology_response,"Giọng mày kinh tởm, câm đi.",TOXIC,True,SGZ500_0373_U01,directed_insult,0.969008,True,True,True,SGZ500_0373_U01,True,['DIRECT_ATTACK'],False,False,False
+SGZ500_0373,SGZ500_0373_C03,apology_response,Chê kỹ thuật thì nói đúng kỹ thuật.,CLEAN,False,SGZ500_0373_U02,intervention,0.494597,True,True,False,,False,[],False,False,False
+SGZ500_0373,SGZ500_0373_C04,apology_response,Mình nhận góp ý nhưng không nhận lời hạ nhục.,CLEAN,False,SGZ500_0373_U02,defense,0.178492,False,False,False,,False,[],False,False,False
+SGZ500_0373,SGZ500_0373_C05,apology_response,Mình xin lỗi vì đã bảo giọng bạn kinh tởm.,CLEAN,False,SGZ500_0373_U01,apology,0.837354,True,True,False,,False,['APOLOGY'],False,False,False
+SGZ500_0373,SGZ500_0373_C06,apology_response,"Mình chấp nhận, lần sau nói cụ thể nhé.",CLEAN,False,SGZ500_0373_U02,reconciliation,0.036011,False,False,False,,False,[],False,False,False
+SGZ500_0373,SGZ500_0373_C07,apology_response,Đoạn lên cao đang thiếu hơi.,CLEAN,False,,criticism,0.041161,False,False,False,,False,[],False,False,False
+SGZ500_0373,SGZ500_0373_C08,apology_response,Bạn thử hạ tông một chút xem.,CLEAN,False,,normal,0.025261,False,False,False,,False,[],False,False,False
+SGZ500_0373,SGZ500_0373_C09,apology_response,Tui thử lại với nhạc thấp hơn.,CLEAN,False,,normal,0.261603,False,False,False,,False,[],False,False,False
+SGZ500_0373,SGZ500_0373_C10,apology_response,Giữ bản cũ để tự so tiến bộ nha.,CLEAN,False,,normal,0.010828,False,False,False,,False,[],False,False,False
+SGZ500_0375,SGZ500_0375_C01,normal_chat,Đứng trên hậu vệ là việt vị luôn hả?,CLEAN,False,,normal,0.095877,False,False,False,,False,[],False,False,False
+SGZ500_0375,SGZ500_0375_C02,normal_chat,Cần xét lúc đồng đội chuyền bóng nữa.,CLEAN,False,,normal,0.05148,False,False,False,,False,[],False,False,False
+SGZ500_0375,SGZ500_0375_C03,normal_chat,Chỉ vị trí thôi chưa đủ kết luận.,CLEAN,False,,normal,0.049833,False,False,False,,False,[],False,False,False
+SGZ500_0375,SGZ500_0375_C04,normal_chat,Nếu không tham gia pha bóng thì sao?,CLEAN,False,,normal,0.067759,False,False,False,,False,[],False,False,False
+SGZ500_0375,SGZ500_0375_C05,normal_chat,Còn phải xét ảnh hưởng tình huống.,CLEAN,False,,normal,0.038743,False,False,False,,False,[],False,False,False
+SGZ500_0375,SGZ500_0375_C06,normal_chat,Mình dùng một ví dụ đơn giản nhé.,CLEAN,False,,normal,0.006929,False,False,False,,False,[],False,False,False
+SGZ500_0375,SGZ500_0375_C07,normal_chat,Ví dụ có thủ môn ra cao đi.,CLEAN,False,,normal,0.037194,False,False,False,,False,[],False,False,False
+SGZ500_0375,SGZ500_0375_C08,normal_chat,Vậy nhớ xét hai cầu thủ phòng ngự cuối.,CLEAN,False,,normal,0.035763,False,False,True,,False,['DIRECT_ATTACK'],False,False,False
+SGZ500_0375,SGZ500_0375_C09,normal_chat,Để mình vẽ vị trí trên bảng.,CLEAN,False,,normal,0.013365,False,False,False,,False,[],False,False,False
+SGZ500_0375,SGZ500_0375_C10,normal_chat,Nhìn hình chắc tui dễ hiểu hơn.,CLEAN,False,,normal,0.065173,False,False,False,,False,[],False,False,False
+SGZ500_0382,SGZ500_0382_C01,heated_debate,Tui thay đồ chỉnh tề mới làm việc được.,CLEAN,False,,normal,0.031651,False,False,False,,False,[],False,False,False
+SGZ500_0382,SGZ500_0382_C02,heated_debate,Tui mặc đồ nhà lại tập trung hơn.,CLEAN,False,,normal,0.058381,False,False,False,,False,[],False,False,False
+SGZ500_0382,SGZ500_0382_C03,heated_debate,Miễn họp vẫn phù hợp bối cảnh nha.,CLEAN,False,,normal,0.014574,False,False,False,,False,[],False,False,False
+SGZ500_0382,SGZ500_0382_C04,heated_debate,Đồ ngủ làm tui muốn nằm tiếp.,CLEAN,False,,criticism,0.032519,False,False,False,,False,['UNCERTAIN'],False,False,False
+SGZ500_0382,SGZ500_0382_C05,heated_debate,Tui thấy thay đồ mất nhịp buổi sáng.,CLEAN,False,,criticism,0.215067,False,False,False,,False,[],False,False,False
+SGZ500_0382,SGZ500_0382_C06,heated_debate,Hai người đang nói thói quen cá nhân thôi.,CLEAN,False,,normal,0.102698,False,False,False,,False,[],False,False,False
+SGZ500_0382,SGZ500_0382_C07,heated_debate,"Ừ, không phải quy định ai cũng theo.",CLEAN,False,,normal,0.043141,False,False,False,,False,[],False,False,False
+SGZ500_0382,SGZ500_0382_C08,heated_debate,Khi có video call tui vẫn đổi áo.,CLEAN,False,,normal,0.060491,False,False,False,,False,[],False,False,False
+SGZ500_0382,SGZ500_0382_C09,heated_debate,Góc camera mới là thứ tui hay quên 😭,CLEAN,False,,normal,0.046049,False,False,False,,False,[],False,False,False
+SGZ500_0382,SGZ500_0382_C10,heated_debate,Tui quay nhầm giá phơi đồ suốt.,CLEAN,False,,normal,0.043332,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C01,constructive_criticism,Tiền điện tháng này tăng khá nhiều.,CLEAN,False,,normal,0.014927,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C02,constructive_criticism,Đèn bếp thường sáng cả đêm không cần thiết.,CLEAN,False,,criticism,0.015328,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C03,constructive_criticism,Tui quên tắt sau khi nấu.,CLEAN,False,,normal,0.039997,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C04,constructive_criticism,Máy lạnh cũng dùng lâu hơn tháng trước.,CLEAN,False,,normal,0.009241,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C05,constructive_criticism,Mình tách thói quen và thời tiết nhé.,CLEAN,False,,normal,0.013673,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C06,constructive_criticism,Tui đặt nhắc tắt đèn sau bữa tối.,CLEAN,False,,normal,0.072457,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C07,constructive_criticism,Còn máy lạnh thống nhất giờ dùng chung.,CLEAN,False,,normal,0.011959,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C08,constructive_criticism,Không cần quy hết cho một người.,CLEAN,False,,normal,0.035482,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C09,constructive_criticism,Mình xem lại hóa đơn trước đã.,CLEAN,False,,normal,0.012541,False,False,False,,False,[],False,False,False
+SGZ500_0399,SGZ500_0399_C10,constructive_criticism,"Tui chụp chỉ số, che mã khách hàng.",CLEAN,False,,normal,0.030957,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C01,no_conflict,Đề đầu: 🌧️🚉👋,CLEAN,False,,normal,0.022161,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C02,no_conflict,bài chia tay ở ga tàu hả,CLEAN,False,,normal,0.053888,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C03,no_conflict,Có chữ mưa trong điệp khúc không?,CLEAN,False,,normal,0.099711,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C04,no_conflict,tui chỉ thấy dự báo thời tiết 😭,CLEAN,False,,normal,0.059781,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C05,no_conflict,Đừng lộ lời nguyên bài nha.,CLEAN,False,,normal,0.316303,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C06,no_conflict,Mỗi người một lượt đoán trước.,CLEAN,False,,normal,0.014604,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C07,no_conflict,Gợi ý: tên bài có hai chữ.,CLEAN,False,,normal,0.021799,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C08,no_conflict,vậy tui đoán Trạm Cuối,CLEAN,False,,normal,0.08122,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C09,no_conflict,Tui chọn Mưa Xa.,CLEAN,False,,normal,0.014775,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C10,no_conflict,đáp án tui là Lỡ Chuyến =)),CLEAN,False,,normal,0.029347,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C11,no_conflict,Cho thêm mốc năm phát hành đi.,CLEAN,False,,normal,0.025739,False,False,False,,False,[],False,False,False
+SGZ500_0401,SGZ500_0401_C12,no_conflict,"Chưa ai trùng đáp án, giữ lượt hai nhé.",CLEAN,False,,normal,0.015318,False,False,False,,False,[],False,False,False
+SGZ500_0423,SGZ500_0423_C01,constructive_criticism,Câu này dịch làm mất ý châm biếm.,CLEAN,False,,criticism,0.88843,True,True,False,,False,[],False,False,False
+SGZ500_0423,SGZ500_0423_C02,constructive_criticism,Bản gốc dùng một thành ngữ khó đó.,CLEAN,False,,normal,0.08726,False,False,True,,False,['DIRECT_ATTACK'],False,False,False
+SGZ500_0423,SGZ500_0423_C03,constructive_criticism,Có phương án nào ngắn tương đương không?,CLEAN,False,,normal,0.017588,False,False,False,,False,[],False,False,False
+SGZ500_0423,SGZ500_0423_C04,constructive_criticism,Có thể đổi cách gọi ở cuối câu.,CLEAN,False,,normal,0.020626,False,False,False,,False,[],False,False,False
+SGZ500_0423,SGZ500_0423_C05,constructive_criticism,Nhưng còn giới hạn tốc độ đọc.,CLEAN,False,,normal,0.030316,False,False,False,,False,[],False,False,False
+SGZ500_0423,SGZ500_0423_C06,constructive_criticism,Mình so hai bản trên cùng thời lượng nhé.,CLEAN,False,,normal,0.008452,False,False,False,,False,[],False,False,False
+SGZ500_0423,SGZ500_0423_C07,constructive_criticism,Tui không nói người dịch kém mọi mặt.,CLEAN,False,,normal,0.70225,True,True,False,,False,[],False,False,False
+SGZ500_0423,SGZ500_0423_C08,constructive_criticism,Vậy ghi rõ nhận xét một câu thôi.,CLEAN,False,,normal,0.030399,False,False,False,,False,[],False,False,False
+SGZ500_0423,SGZ500_0423_C09,constructive_criticism,Cần thêm ngữ cảnh cảnh trước nữa.,CLEAN,False,,normal,0.040742,False,False,False,,False,['UNCERTAIN'],False,False,False
+SGZ500_0423,SGZ500_0423_C10,constructive_criticism,Mình bổ sung trước khi gửi góp ý.,CLEAN,False,,normal,0.009548,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C01,ambiguous_banter,Pha cuối tui sút trúng cột.,CLEAN,False,,normal,0.050273,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C02,ambiguous_banter,sát thủ vòng cấm ghê thật 🤡,UNCERTAIN,False,,ambiguous,0.132517,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C03,ambiguous_banter,"Góc sút khó, cậu đã tạo cơ hội.",CLEAN,False,,normal,0.01939,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C04,ambiguous_banter,Tui hơi vội khi thấy thủ môn lên.,CLEAN,False,,normal,0.090909,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C05,ambiguous_banter,tui trên khán đài cũng tưởng vào,CLEAN,False,,normal,0.031064,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C06,ambiguous_banter,Tập thêm quả ngang thân nhé.,CLEAN,False,,normal,0.180501,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C07,ambiguous_banter,Mai tui ghé sân sớm.,CLEAN,False,,normal,0.014437,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C08,ambiguous_banter,tui đem bóng theo luôn,CLEAN,False,,normal,0.036653,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C09,ambiguous_banter,Nhớ khởi động trước khi sút mạnh.,CLEAN,False,,normal,0.021779,False,False,False,,False,[],False,False,False
+SGZ500_0425,SGZ500_0425_C10,ambiguous_banter,Tui muốn tập chậm từng nhịp đầu.,CLEAN,False,,normal,0.034095,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C01,direct_insult,Món tới nguội và thiếu phần rau.,CLEAN,False,,criticism,0.149787,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C02,direct_insult,Tao tìm tới đánh mày nếu không xóa bài.,TOXIC,True,SGZ500_0438_U01,threat,0.117957,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C03,direct_insult,"Quán có thể phản hồi, không được đe dọa.",CLEAN,False,SGZ500_0438_U02,intervention,0.030868,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C04,direct_insult,Mình mô tả trải nghiệm và giữ hóa đơn.,CLEAN,False,SGZ500_0438_U02,defense,0.006607,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C05,direct_insult,bài này làm ảnh hưởng quán tui,CLEAN,False,,normal,0.307434,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C06,direct_insult,Nếu có thông tin sai thì chỉ rõ bằng chứng.,CLEAN,False,,normal,0.024115,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C07,direct_insult,Mình sẵn sàng sửa điều sai thực tế.,CLEAN,False,,normal,0.01461,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C08,direct_insult,tui làm việc với nền tảng,CLEAN,False,,normal,0.027472,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C09,direct_insult,Mình chuyển báo cáo an toàn đúng kênh.,CLEAN,False,,normal,0.008752,False,False,False,,False,[],False,False,False
+SGZ500_0438,SGZ500_0438_C10,direct_insult,Mình không đăng địa chỉ riêng trong trao đổi.,CLEAN,False,,normal,0.023282,False,False,False,,False,[],False,False,False
+SGZ500_0443,SGZ500_0443_C01,mixed_apology_attack,Bạn chưa che đoạn kết phim.,CLEAN,False,,criticism,0.301697,False,False,False,,False,[],False,False,False
+SGZ500_0443,SGZ500_0443_C02,mixed_apology_attack,"Xin lỗi spoil, nhưng mày ngu mới vào đọc bình luận.",TOXIC,True,SGZ500_0443_U01,mixed_apology_attack,0.709836,True,True,True,SGZ500_0443_U01,True,"['APOLOGY', 'DIRECT_ATTACK']",False,False,False
+SGZ500_0443,SGZ500_0443_C03,mixed_apology_attack,Nhận lỗi không kèm xúc phạm người nhắc.,CLEAN,False,SGZ500_0443_U02,intervention,0.209721,False,False,False,,False,[],False,False,False
+SGZ500_0443,SGZ500_0443_C04,mixed_apology_attack,Mình đang đọc nhánh không có cảnh báo.,CLEAN,False,SGZ500_0443_U02,defense,0.039501,False,False,False,,False,[],False,False,False
+SGZ500_0443,SGZ500_0443_C05,mixed_apology_attack,tui tưởng ai cũng xem rồi,CLEAN,False,,normal,0.047306,False,False,False,,False,[],False,False,False
+SGZ500_0443,SGZ500_0443_C06,mixed_apology_attack,Mỗi người có lịch xem khác nhau.,CLEAN,False,,normal,0.017538,False,False,False,,False,[],False,False,False
+SGZ500_0443,SGZ500_0443_C07,mixed_apology_attack,Thêm cảnh báo cho người sau nhé.,CLEAN,False,,normal,0.010384,False,False,False,,False,[],False,False,False
+SGZ500_0443,SGZ500_0443_C08,mixed_apology_attack,tui đã thu gọn nội dung,CLEAN,False,,normal,0.044862,False,False,False,,False,[],False,False,False
+SGZ500_0443,SGZ500_0443_C09,mixed_apology_attack,Mình nhắc quy tắc spoiler trên bài.,CLEAN,False,,normal,0.021469,False,False,False,,False,[],False,False,False
+SGZ500_0443,SGZ500_0443_C10,mixed_apology_attack,Mình rời nhánh này để tránh đọc thêm.,CLEAN,False,,normal,0.035147,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C01,normal_chat,Mình chia việc trước khi sơn nha.,CLEAN,False,,normal,0.013324,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C02,normal_chat,Tui pha hai mẫu màu bạc.,CLEAN,False,,normal,0.047411,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C03,normal_chat,Tui xử lý phần mép còn xước.,CLEAN,False,,normal,0.043353,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C04,normal_chat,Chụp mẫu dưới cùng nguồn sáng nhé.,CLEAN,False,,normal,0.016615,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C05,normal_chat,Chiều mai cần đóng gói rồi.,CLEAN,False,,normal,0.010501,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C06,normal_chat,Cọ nhỏ ở hộp bên trái.,CLEAN,False,,normal,0.036107,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C07,normal_chat,Chưa sơn khi bề mặt chưa sẵn sàng.,CLEAN,False,,normal,0.019436,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C08,normal_chat,Mẫu số hai ít xanh hơn.,CLEAN,False,,normal,0.018809,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C09,normal_chat,"Phần mép đã mịn, còn bụi.",CLEAN,False,,normal,0.083663,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C10,normal_chat,Tui lấy khăn phù hợp để lau.,CLEAN,False,,normal,0.012913,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C11,normal_chat,Ảnh hai mẫu đã gửi đủ góc.,CLEAN,False,,normal,0.046997,False,False,False,,False,[],False,False,False
+SGZ500_0446,SGZ500_0446_C12,normal_chat,Chờ khô theo hướng dẫn rồi mới bọc.,CLEAN,False,,normal,0.015509,False,False,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C01,self_defense,Đừng quay cận mặt mình bằng drone nhé.,CLEAN,False,,normal,0.091705,False,False,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C02,self_defense,"Mày làm như mày quý giá lắm, đồ thần kinh.",TOXIC,True,SGZ500_0447_U01,directed_insult,0.927806,True,True,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C03,self_defense,Ai không đồng ý lên hình thì tôn trọng.,CLEAN,False,SGZ500_0447_U02,intervention,0.093055,False,False,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C04,self_defense,Mình có quyền không xuất hiện trong video.,CLEAN,False,SGZ500_0447_U02,defense,0.037751,False,False,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C05,self_defense,đang quay phong cảnh chung mà,CLEAN,False,,normal,0.082406,False,False,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C06,self_defense,Vậy tránh cận người và tuân thủ khu vực cho phép.,CLEAN,False,,normal,0.008366,False,False,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C07,self_defense,Tui đứng ngoài khung ở điểm nghỉ.,CLEAN,False,,normal,0.039518,False,False,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C08,self_defense,tui chỉ lấy cảnh từ xa,CLEAN,False,,normal,0.042785,False,False,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C09,self_defense,Cho mọi người biết trước khi quay nha.,CLEAN,False,,normal,0.019146,False,False,False,,False,[],False,False,False
+SGZ500_0447,SGZ500_0447_C10,self_defense,Bản có mặt mình thì đừng đăng.,CLEAN,False,,normal,0.368578,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C01,normal_chat,Tui mặc sơ mi xanh nhạt được không?,CLEAN,False,,normal,0.069488,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C02,normal_chat,Miễn sạch và bạn thấy thoải mái.,CLEAN,False,,normal,0.010949,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C03,normal_chat,Áo đó hợp quần xám hơn.,CLEAN,False,,normal,0.089404,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C04,normal_chat,Còn tùy môi trường nơi phỏng vấn nữa.,CLEAN,False,,normal,0.032944,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C05,normal_chat,Họ ghi trang phục lịch sự thôi.,CLEAN,False,,normal,0.048229,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C06,normal_chat,Vậy đừng mua mới chỉ để một buổi.,CLEAN,False,,normal,0.022092,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C07,normal_chat,Tui có áo khoác cho mượn.,CLEAN,False,,normal,0.01614,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C08,normal_chat,Thử ngồi xuống xem có bị căng không.,CLEAN,False,,normal,0.047542,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C09,normal_chat,"Áo này ngồi vừa, không kéo vai.",CLEAN,False,,normal,0.052953,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C10,normal_chat,Chuẩn bị giấy tờ còn quan trọng hơn phối thêm.,CLEAN,False,,normal,0.024649,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C11,normal_chat,Tui đem cây lăn bụi sang.,CLEAN,False,,normal,0.018532,False,False,False,,False,[],False,False,False
+SGZ500_0452,SGZ500_0452_C12,normal_chat,"Được, tui chuẩn bị bộ đang có.",CLEAN,False,,normal,0.008255,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C01,direct_insult,Phụ kiện cần thêm một ngày để khô.,CLEAN,False,,normal,0.009599,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C02,direct_insult,Giao chậm tao tới đánh mày cho nhớ.,TOXIC,True,SGZ500_0456_U01,threat,0.224769,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C03,direct_insult,"Có thể bàn thời hạn, không được đe dọa.",CLEAN,False,SGZ500_0456_U02,intervention,0.030909,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C04,direct_insult,"Mình sẽ trao đổi phương án hợp đồng, không nhận đe dọa.",CLEAN,False,SGZ500_0456_U02,defense,0.023259,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C05,direct_insult,Bạn đã hẹn hôm nay mà.,CLEAN,False,,criticism,0.016954,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C06,direct_insult,Cần xác nhận thỏa thuận ban đầu.,CLEAN,False,,normal,0.010778,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C07,direct_insult,Mình có thể hoàn phần chưa làm theo thỏa thuận.,CLEAN,False,,normal,0.01112,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C08,direct_insult,tui muốn có đồ trước sự kiện,CLEAN,False,,normal,0.014752,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C09,direct_insult,Hai bên ghi phương án bằng văn bản.,CLEAN,False,,normal,0.030553,False,False,False,,False,[],False,False,False
+SGZ500_0456,SGZ500_0456_C10,direct_insult,Mình giữ bản trao đổi và ảnh tiến độ.,CLEAN,False,,normal,0.014466,False,False,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C01,indirect_attack,Mình xin vào nhóm thông báo tòa nhà.,CLEAN,False,,normal,0.013242,False,False,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C02,indirect_attack,Loại ở tạm như mày có mặt cũng chẳng ích gì.,TOXIC,True,SGZ500_0459_U01,indirect_attack,0.410523,True,True,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C03,indirect_attack,Cư dân thuê hay mua đều cần thông báo.,CLEAN,False,SGZ500_0459_U02,intervention,0.012799,False,False,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C04,indirect_attack,Mình sống ở đây và cần biết quy định chung.,CLEAN,False,SGZ500_0459_U02,defense,0.010861,False,False,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C05,indirect_attack,nhóm nhiều người quá loãng thôi,CLEAN,False,,normal,0.184756,False,False,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C06,indirect_attack,"Vậy giữ đúng nội dung, không loại người theo hoàn cảnh.",CLEAN,False,,normal,0.049871,False,False,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C07,indirect_attack,Mình chỉ theo dõi tin cần thiết.,CLEAN,False,,normal,0.007982,False,False,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C08,indirect_attack,Mẫu nội quy ở tin ghim đầu tiên.,CLEAN,False,,normal,0.012555,False,False,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C09,indirect_attack,tui tắt thông báo nhóm vậy,CLEAN,False,,normal,0.080175,False,False,False,,False,[],False,False,False
+SGZ500_0459,SGZ500_0459_C10,indirect_attack,Tui đã đọc phần giờ yên tĩnh.,CLEAN,False,,normal,0.017779,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C01,no_conflict,Tháng tới đọc cuốn nào mọi người?,CLEAN,False,,normal,0.02879,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C02,no_conflict,Tui đề cử truyện ngắn.,CLEAN,False,,normal,0.066373,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C03,no_conflict,Có cuốn khoa học phổ thông mới đó.,CLEAN,False,,normal,0.011266,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C04,no_conflict,Tui chỉ đọc nổi dưới ba trăm trang.,CLEAN,False,,normal,0.244117,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C05,no_conflict,Tui cần bản nghe hợp pháp.,CLEAN,False,,normal,0.022982,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C06,no_conflict,Mỗi đề cử ghi độ dài với bản phát hành nhé.,CLEAN,False,,normal,0.020456,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C07,no_conflict,Truyện của tui có bản số.,CLEAN,False,,normal,0.037998,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C08,no_conflict,Cuốn khoa học dài hơn bốn trăm trang.,CLEAN,False,,normal,0.040118,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C09,no_conflict,Vậy để dành tháng nghỉ dài được không?,CLEAN,False,,normal,0.025474,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C10,no_conflict,Bản nghe truyện ngắn có đủ chương.,CLEAN,False,,normal,0.094007,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C11,no_conflict,Mình mở bình chọn giữa các lựa chọn phù hợp.,CLEAN,False,,normal,0.00909,False,False,False,,False,[],False,False,False
+SGZ500_0460,SGZ500_0460_C12,no_conflict,"Được, đừng chọn chỉ vì đề cử của tui.",CLEAN,False,,normal,0.066692,False,False,False,,False,[],False,False,False
+SGZ500_0461,SGZ500_0461_C01,normal_chat,"Xin lỗi B, mình phải hủy hẹn vì việc gia đình.",CLEAN,False,SGZ500_0461_U02,apology,0.063076,False,False,False,,False,['APOLOGY'],False,False,False
+SGZ500_0461,SGZ500_0461_C02,normal_chat,Mình đã ra quán rồi.,CLEAN,False,,normal,0.014828,False,False,False,,False,[],False,False,False
+SGZ500_0461,SGZ500_0461_C03,normal_chat,B có muốn tui ghé ngồi cùng không?,CLEAN,False,,normal,0.027035,False,False,False,,False,[],False,False,False
+SGZ500_0461,SGZ500_0461_C04,normal_chat,"Tui báo muộn, phần đồ đã gọi tui gửi lại.",CLEAN,False,,normal,0.036569,False,False,False,,False,[],False,False,False
+SGZ500_0461,SGZ500_0461_C05,normal_chat,"Không cần, nhưng lần sau báo sớm hơn nhé.",CLEAN,False,,normal,0.015447,False,False,False,,False,[],False,False,False
+SGZ500_0461,SGZ500_0461_C06,normal_chat,"Tui ở gần, ghé được mười lăm phút.",CLEAN,False,,normal,0.014833,False,False,False,,False,[],False,False,False
+SGZ500_0461,SGZ500_0461_C07,normal_chat,Để hôm khác tui chủ động sắp lịch lại.,CLEAN,False,,normal,0.018544,False,False,False,,False,[],False,False,False
+SGZ500_0461,SGZ500_0461_C08,normal_chat,Mình cần biết trước một ngày.,CLEAN,False,,normal,0.010294,False,False,False,,False,[],False,False,False
+SGZ500_0461,SGZ500_0461_C09,normal_chat,Hai người cứ chốt khi rảnh hẳn.,CLEAN,False,,normal,0.043423,False,False,False,,False,[],False,False,False
+SGZ500_0461,SGZ500_0461_C10,normal_chat,"Ừ, chưa chắc thì mình không hẹn vội.",CLEAN,False,,normal,0.034746,False,False,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C01,group_attack,Tui dùng bảng phấn bình dân này.,CLEAN,False,,normal,0.024454,False,False,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C02,group_attack,Nghèo như mày thì review ai thèm nghe.,TOXIC,True,SGZ500_0462_U01,indirect_attack,0.457858,True,True,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C03,group_attack,Đồ rác dùng hàng rẻ rồi bày đặt dạy đời.,TOXIC,True,SGZ500_0462_U01,directed_insult,0.856395,True,True,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C04,group_attack,"Nhận xét sản phẩm, không hạ nhục người dùng.",CLEAN,False,SGZ500_0462_U03,intervention,0.058037,False,False,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C05,group_attack,Mình chia sẻ trong tầm ngân sách của mình.,CLEAN,False,SGZ500_0462_U02,defense,0.007941,False,False,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C06,group_attack,phấn lên màu yếu thật,CLEAN,False,,normal,0.642233,True,True,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C07,group_attack,"Nhận xét đó được, lời miệt thị thì không.",CLEAN,False,,normal,0.540844,True,True,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C08,group_attack,Mình có ghi cần tán hai lớp.,CLEAN,False,,normal,0.027537,False,False,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C09,group_attack,có ảnh dưới nắng không,CLEAN,False,,normal,0.033769,False,False,False,,False,[],False,False,False
+SGZ500_0462,SGZ500_0462_C10,group_attack,"Có trong ảnh thứ ba, không chỉnh màu.",CLEAN,False,,normal,0.045839,False,False,False,,False,[],False,False,False
+SGZ500_0464,SGZ500_0464_C01,mixed_apology_attack,Cấu hình mới làm mình không đăng nhập được.,CLEAN,False,,criticism,0.045162,False,False,False,,False,[],False,False,False
+SGZ500_0464,SGZ500_0464_C02,mixed_apology_attack,"Xin lỗi đổi nhầm, nhưng mày ngu mới không tự sửa.",TOXIC,True,SGZ500_0464_U01,mixed_apology_attack,0.205684,False,False,True,SGZ500_0464_U01,False,"['APOLOGY', 'DIRECT_ATTACK']",False,False,False
+SGZ500_0464,SGZ500_0464_C03,mixed_apology_attack,Lỗi cấu hình với xúc phạm là hai việc riêng.,CLEAN,False,SGZ500_0464_U02,intervention,0.080467,False,False,False,,False,[],False,False,False
+SGZ500_0464,SGZ500_0464_C04,mixed_apology_attack,Mình không có quyền sửa phần đó.,CLEAN,False,SGZ500_0464_U02,defense,0.063674,False,False,False,,False,[],False,False,False
+SGZ500_0464,SGZ500_0464_C05,mixed_apology_attack,tui tưởng tài khoản nào cũng vào được,CLEAN,False,,normal,0.025487,False,False,False,,False,[],False,False,False
+SGZ500_0464,SGZ500_0464_C06,mixed_apology_attack,Vậy kiểm quyền trước khi yêu cầu người dùng sửa.,CLEAN,False,,normal,0.021431,False,False,False,,False,[],False,False,False
+SGZ500_0464,SGZ500_0464_C07,mixed_apology_attack,Mình gửi mã lỗi không kèm mật khẩu.,CLEAN,False,,normal,0.020659,False,False,False,,False,[],False,False,False
+SGZ500_0464,SGZ500_0464_C08,mixed_apology_attack,tui khôi phục quyền truy cập mẫu,CLEAN,False,,normal,0.021717,False,False,False,,False,[],False,False,False
+SGZ500_0464,SGZ500_0464_C09,mixed_apology_attack,Thử trên tài khoản kiểm tra trước nhé.,CLEAN,False,,normal,0.012994,False,False,False,,False,[],False,False,False
+SGZ500_0464,SGZ500_0464_C10,mixed_apology_attack,Mình chờ xác nhận rồi đăng nhập lại.,CLEAN,False,,normal,0.014432,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C01,normal_chat,Mình thử kết nối trước buổi học nha.,CLEAN,False,,normal,0.015436,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C02,normal_chat,Mạng tui chỉ ổn khi tắt camera.,CLEAN,False,,normal,0.093392,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C03,normal_chat,Tiếng A đang vọng một lần.,CLEAN,False,,normal,0.029816,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C04,normal_chat,A mở hai thiết bị trong phòng à?,CLEAN,False,,normal,0.033335,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C05,normal_chat,"Đúng, điện thoại cũng vào lớp.",CLEAN,False,,normal,0.025714,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C06,normal_chat,Tắt mic và loa một thiết bị nhé.,CLEAN,False,,normal,0.074654,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C07,normal_chat,Tui ghi hướng dẫn vào tin ghim.,CLEAN,False,,normal,0.013729,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C08,normal_chat,Tui nghe rõ khi giảm chất lượng hình.,CLEAN,False,,normal,0.03379,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C09,normal_chat,Tài liệu nên gửi riêng để B xem nét.,CLEAN,False,,normal,0.014998,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C10,normal_chat,Mình gửi bản nhẹ không có thông tin riêng.,CLEAN,False,,normal,0.022487,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C11,normal_chat,Đã ghi cả cách xin phát biểu bằng chat.,CLEAN,False,,normal,0.086257,False,False,False,,False,[],False,False,False
+SGZ500_0474,SGZ500_0474_C12,normal_chat,Vậy tui theo học không cần bật hình.,CLEAN,False,,normal,0.043352,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C01,quoted_abuse,"Người đó nhắn mình “đồ vô dụng, biến đi”.",CLEAN,False,,quote,0.497629,True,True,False,,False,['QUOTE'],False,False,False
+SGZ500_0481,SGZ500_0481_C02,quoted_abuse,Cho tui tên để nói chuyện với họ.,CLEAN,False,,normal,0.025283,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C03,quoted_abuse,Đừng kéo người sang công kích lại nha.,CLEAN,False,,normal,0.277746,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C04,quoted_abuse,A muốn hỗ trợ theo cách nào?,CLEAN,False,,normal,0.013287,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C05,quoted_abuse,Mình muốn ngừng nhận tin và lưu bằng chứng.,CLEAN,False,,normal,0.021563,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C06,quoted_abuse,Bạn gửi báo cáo riêng được.,CLEAN,False,,normal,0.014744,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C07,quoted_abuse,"Ừ, tui không nhắn sang bên đó.",CLEAN,False,,normal,0.042839,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C08,quoted_abuse,Tui giúp bạn sắp mốc thời gian.,CLEAN,False,,normal,0.022103,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C09,quoted_abuse,Không cần đăng ảnh người kia lên nhóm.,CLEAN,False,,normal,0.068797,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C10,quoted_abuse,Mình phản hồi qua kênh riêng theo quy trình.,CLEAN,False,,normal,0.011915,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C11,quoted_abuse,A nghỉ đọc chat một lúc cũng được.,CLEAN,False,,normal,0.144496,False,False,False,,False,[],False,False,False
+SGZ500_0481,SGZ500_0481_C12,quoted_abuse,"Tui tắt thông báo, có gì nhờ C nhắc.",CLEAN,False,,normal,0.048241,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C01,ambiguous_banter,Tui thử eyeliner hai màu nè.,CLEAN,False,,normal,0.030736,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C02,ambiguous_banter,nghệ thuật dữ ha 🙃,UNCERTAIN,False,,ambiguous,0.160182,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C03,ambiguous_banter,Bạn thấy đẹp hay đang chọc tui vậy?,CLEAN,False,,normal,0.499612,True,True,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C04,ambiguous_banter,"tui thích thật, mặt đó tui dùng quen tay",CLEAN,False,,normal,0.035829,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C05,ambiguous_banter,Emoji này mỗi người hiểu một kiểu.,CLEAN,False,,normal,0.078868,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C06,ambiguous_banter,Tui đọc thành mỉa nên hơi khựng.,CLEAN,False,,normal,0.192807,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C07,ambiguous_banter,vậy tui nói rõ: phối xanh tím hợp lắm,CLEAN,False,,normal,0.055324,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C08,ambiguous_banter,Có ảnh nhìn thẳng mắt không?,CLEAN,False,,normal,0.089605,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C09,ambiguous_banter,"Có, nhưng hai bên tui kẻ chưa đều.",CLEAN,False,,normal,0.046017,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C10,ambiguous_banter,"nét trái đậm hơn, tui nghĩ thêm sáng sẽ rõ",CLEAN,False,,normal,0.053807,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C11,ambiguous_banter,Tui giữ ảnh cả hai góc cho đủ.,CLEAN,False,,normal,0.030125,False,False,False,,False,[],False,False,False
+SGZ500_0482,SGZ500_0482_C12,ambiguous_banter,"Cảm ơn, tui muốn thử cách phối này.",CLEAN,False,,normal,0.014734,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C01,normal_chat,Nguồn ảnh này không phải tài khoản bạn ghi.,CLEAN,False,,normal,0.03333,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C02,normal_chat,Tui lấy từ bài chia sẻ lại.,CLEAN,False,,normal,0.0327,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C03,normal_chat,Mình là người chụp ảnh gốc.,CLEAN,False,,normal,0.063199,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C04,normal_chat,"Xin lỗi bạn, mình đã ghi nguồn chưa đúng.",CLEAN,False,SGZ500_0486_U03,apology,0.031161,False,False,False,,False,['APOLOGY'],False,False,False
+SGZ500_0486,SGZ500_0486_C05,normal_chat,Bạn dẫn về trang ảnh gốc giúp nhé.,CLEAN,False,,normal,0.010418,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C06,normal_chat,Bài chia sẻ lại cũng có chú thích tác giả.,CLEAN,False,,normal,0.017676,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C07,normal_chat,Mình bỏ sót phần chú thích đó.,CLEAN,False,,normal,0.022899,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C08,normal_chat,Giữ nguyên điều kiện sử dụng ảnh nha.,CLEAN,False,,normal,0.007442,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C09,normal_chat,Mình kiểm tra trước khi giữ ảnh trong bài.,CLEAN,False,,normal,0.017387,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C10,normal_chat,Nếu không đủ quyền thì dùng link thay ảnh.,CLEAN,False,,normal,0.033971,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C11,normal_chat,Mình chuyển sang dẫn link cho chắc.,CLEAN,False,,normal,0.023163,False,False,False,,False,[],False,False,False
+SGZ500_0486,SGZ500_0486_C12,normal_chat,Cảm ơn đã sửa và ghi rõ sự thay đổi.,CLEAN,False,,normal,0.01203,False,False,False,,False,[],False,False,False
+SGZ500_0489,SGZ500_0489_C01,intervention,Mày ngu mới không hiểu thông báo thu phí.,TOXIC,True,SGZ500_0489_U01,directed_insult,0.30774,False,False,True,,False,['DIRECT_ATTACK'],False,False,False
+SGZ500_0489,SGZ500_0489_C02,intervention,"Mình hỏi cách tính, không đồng ý bị gọi ngu.",CLEAN,False,SGZ500_0489_U02,defense,0.232243,False,False,False,,False,['UNCERTAIN'],False,False,False
+SGZ500_0489,SGZ500_0489_C03,intervention,"Mình giải thích bảng thu, dừng xúc phạm cư dân.",CLEAN,False,SGZ500_0489_U02,intervention,0.21964,False,False,False,,False,['SET_BOUNDARY'],False,False,False
+SGZ500_0489,SGZ500_0489_C04,intervention,Cột diện tích đang khác hợp đồng.,CLEAN,False,,normal,0.010913,False,False,False,,False,[],False,False,False
+SGZ500_0489,SGZ500_0489_C05,intervention,Tui nhận bảng từ hệ thống.,CLEAN,False,,normal,0.017615,False,False,False,,False,[],False,False,False
+SGZ500_0489,SGZ500_0489_C06,intervention,Vậy chưa thể kết luận người hỏi sai.,CLEAN,False,,normal,0.085251,False,False,False,,False,[],False,False,False
+SGZ500_0489,SGZ500_0489_C07,intervention,"Mình gửi phần diện tích, che thông tin khác.",CLEAN,False,,normal,0.008729,False,False,False,,False,[],False,False,False
+SGZ500_0489,SGZ500_0489_C08,intervention,tui đối chiếu với bảng đã nhận,CLEAN,False,,normal,0.024003,False,False,False,,False,[],False,False,False
+SGZ500_0489,SGZ500_0489_C09,intervention,Trước khi xác minh thì ghi khoản này đang xem xét.,CLEAN,False,,normal,0.020988,False,False,False,,False,[],False,False,False
+SGZ500_0489,SGZ500_0489_C10,intervention,Nhờ phản hồi bằng văn bản sau khi kiểm nhé.,CLEAN,False,,normal,0.015988,False,False,False,,False,[],False,False,False
+SGZ500_0491,SGZ500_0491_C01,subtle_escalation,"Còn thiếu A, mọi người chờ hay vào trước?",CLEAN,False,,normal,0.019291,False,False,False,,False,[],False,False,False
+SGZ500_0491,SGZ500_0491_C02,subtle_escalation,Tui trễ mười phút do xe hỏng.,CLEAN,False,,normal,0.026298,False,False,False,,False,[],False,False,False
+SGZ500_0491,SGZ500_0491_C03,subtle_escalation,Mày đúng là đồ vô dụng.,TOXIC,True,SGZ500_0491_U01,directed_insult,0.96983,True,True,True,SGZ500_0491_U01,True,['DIRECT_ATTACK'],False,False,False
+SGZ500_0491,SGZ500_0491_C04,subtle_escalation,"Trễ giờ thì bàn cách xử lý, đừng hạ nhục.",CLEAN,False,SGZ500_0491_U02,intervention,0.203803,False,False,False,,False,[],False,False,False
+SGZ500_0491,SGZ500_0491_C05,subtle_escalation,Tui chịu phần bất tiện nhưng không nhận lời xúc phạm.,CLEAN,False,SGZ500_0491_U02,defense,0.299627,False,False,False,,False,[],False,False,False
+SGZ500_0491,SGZ500_0491_C06,subtle_escalation,"Nói nhẹ thôi, có mày hay không cũng chẳng ai cần.",TOXIC,True,SGZ500_0491_U01,indirect_attack,0.103573,False,False,False,,False,[],False,False,False
+SGZ500_0491,SGZ500_0491_C07,subtle_escalation,"Câu đó vẫn phủ nhận người khác, dừng nhé.",CLEAN,False,SGZ500_0491_U02,intervention,0.184744,False,False,False,,False,[],False,False,False
+SGZ500_0491,SGZ500_0491_C08,subtle_escalation,Tụi mình vào trước như đã thống nhất.,CLEAN,False,,normal,0.018593,False,False,False,,False,[],False,False,False
+SGZ500_0491,SGZ500_0491_C09,subtle_escalation,Tui tự mua vé rồi gặp ở sảnh sau.,CLEAN,False,,normal,0.014135,False,False,False,,False,[],False,False,False
+SGZ500_0491,SGZ500_0491_C10,subtle_escalation,"Được, không ai cần chờ ngoài trời nữa.",CLEAN,False,,normal,0.009141,False,False,False,,False,[],False,False,False
+SGZ500_0498,SGZ500_0498_C01,subtle_escalation,Bạn cân bột trước hay sau rây vậy?,CLEAN,False,,normal,0.032822,False,False,False,,False,[],False,False,False
+SGZ500_0498,SGZ500_0498_C02,subtle_escalation,Mày ngu thế thì khỏi học làm bánh.,TOXIC,True,SGZ500_0498_U01,directed_insult,0.421726,True,True,True,SGZ500_0498_U01,True,['DIRECT_ATTACK'],False,False,False
+SGZ500_0498,SGZ500_0498_C03,subtle_escalation,"Câu hỏi cụ thể mà, đừng xúc phạm.",CLEAN,False,SGZ500_0498_U02,intervention,0.095773,False,False,False,,False,['SET_BOUNDARY'],False,False,False
+SGZ500_0498,SGZ500_0498_C04,subtle_escalation,Mình chỉ cần làm đúng lượng trong bài.,CLEAN,False,SGZ500_0498_U02,defense,0.010699,False,False,False,,False,[],False,False,False
+SGZ500_0498,SGZ500_0498_C05,subtle_escalation,"Nói lịch sự nhé, khả năng hiểu của mày không đáng để giải thích.",TOXIC,True,SGZ500_0498_U01,indirect_attack,0.27431,False,False,False,,False,[],False,False,False
+SGZ500_0498,SGZ500_0498_C06,subtle_escalation,Câu đó vẫn hạ nhục người hỏi.,CLEAN,False,SGZ500_0498_U02,intervention,0.278581,False,False,False,,False,[],False,False,False
+SGZ500_0498,SGZ500_0498_C07,subtle_escalation,Mình không hỏi thêm ở đây nữa.,CLEAN,False,,normal,0.034379,False,False,False,,False,[],False,False,False
+SGZ500_0498,SGZ500_0498_C08,subtle_escalation,"tùy, tui không có nghĩa vụ dạy",CLEAN,False,,normal,0.111179,False,False,False,,False,['DEFENSE'],False,False,False
+SGZ500_0498,SGZ500_0498_C09,subtle_escalation,"Từ chối trả lời được, công kích thì không.",CLEAN,False,,normal,0.46578,True,True,False,,False,[],False,False,False
+SGZ500_0498,SGZ500_0498_C10,subtle_escalation,Mình tìm tài liệu khác có hướng dẫn rõ.,CLEAN,False,,normal,0.010379,False,False,False,,False,[],False,False,False

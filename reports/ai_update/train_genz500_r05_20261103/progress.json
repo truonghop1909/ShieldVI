@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_TRAINED_NOT_ACTIVATED",
+  "run_id": "T029_genz500_head_cpu_20261103_r05",
+  "training_performed": true,
+  "optimizer_steps": 534,
+  "training_seconds": 474.17,
+  "selected_epoch": 2,
+  "validation_macro_f1": 0.7554181669950404,
+  "decision": "REJECT_PROMOTION_KEEP_EXISTING_DEFAULT",
+  "related_tests_passed": 42,
+  "integrity": "PASS",
+  "test_scored": false,
+  "default_changed": false,
+  "report": "docs/ai-update/final-report/GENZ500_TRAIN_R05.md",
+  "next": "Keep default; review validation/remaining gates before any adoption"
+}

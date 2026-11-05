@@ -1,0 +1,18 @@
+{
+  "command": [
+    "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "pytest",
+    "tests",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\ai_update\\test_tmp\\final_4",
+    "--tb=short"
+  ],
+  "exit_code": 0,
+  "summary": "265 passed, 1 warning in 3.85s"
+}

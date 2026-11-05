@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "mode": "isolated_empty_real_review_UI",
+  "round2_selectable": true,
+  "intake_enabled": true,
+  "model_predictions_enabled": false,
+  "review_submissions": 0,
+  "writes": 0,
+  "external_requests": 0,
+  "page_errors": [],
+  "real_data_added": 0,
+  "human_gold_created": false
+}

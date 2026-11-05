@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "frozen_at": "2026-11-03T12:07:32.711875+00:00",
+    "rule_sha256": {
+      "context_signals.py": "e3618ee129e885fc1695bfcacafab4c6db48f04df29f6c24c262a25abc4be19c",
+      "target_signals.py": "26f97546d7071ac2fe01687f02551a9ad7fe4ef59560dabd7534994cc8dc9276",
+      "signal_engine.py": "7c03eb932b2d960d2da77088bfc5bbf46f153af43f331b1f4aae31a190c69605"
+    },
+    "fresh_challenge_authored_after_this_lock": true,
+    "do_not_tune_after_challenge": true,
+    "synthetic_only": true
+  },
+  "fresh_manifest_sha256": "bfbc609aadec23c5b26ceb9a3c06a922d7454572b5e01a47e5a74bd6d01fd234",
+  "cached_predictions_sha256": "fdc341e69c1a3e5e5a94f3bc85f395e66146867f8053be5b9bc63af0bbf05dd1",
+  "training_performed": false,
+  "human_gold": false,
+  "one_pass_no_post_score_rule_tuning": true,
+  "fresh_comments": 74,
+  "real_world_metrics": false
+}

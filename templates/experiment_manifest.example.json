@@ -1,0 +1,29 @@
+{
+  "artifact": "ShieldVI_AI_Update_Codex_Tasks_v1",
+  "model_baseline": {
+    "name": "ViSoBERT V1 — ViCTSD",
+    "threshold": 0.41,
+    "immutable_checkpoint": "/content/drive/MyDrive/visobert_toxic_final"
+  },
+  "data": {
+    "development_synthetic_threads": 5,
+    "development_synthetic_comments": 150,
+    "label_status": "synthetic_reference_only",
+    "blind_test_included": false
+  },
+  "candidate": {
+    "status": "not_trained",
+    "requires_user_approval": true,
+    "output_root": "/content/drive/MyDrive/shieldvi_candidates/<run_id>"
+  },
+  "evaluation": {
+    "baseline": "V1 + existing rules",
+    "variants": [
+      "B1 lexicon",
+      "B2 context",
+      "B3 hybrid",
+      "B4 trained candidate optional"
+    ],
+    "test_splits": "must remain independent"
+  }
+}

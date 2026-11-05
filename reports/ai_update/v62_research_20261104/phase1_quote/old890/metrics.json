@@ -1,0 +1,394 @@
+{
+  "comments": 890,
+  "classification": {
+    "before": {
+      "n": 886,
+      "tp": 62,
+      "fp": 18,
+      "tn": 802,
+      "fn": 4,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.775,
+      "toxic_recall": 0.9393939393939394,
+      "macro_f1": 0.9178924665958987,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "after": {
+      "n": 886,
+      "tp": 62,
+      "fp": 20,
+      "tn": 800,
+      "fn": 4,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.7560975609756098,
+      "toxic_recall": 0.9393939393939394,
+      "macro_f1": 0.9115297563573426,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    }
+  },
+  "grounding": {
+    "before": {
+      "reference_comments_with_target_coverage": 797,
+      "reference_attacks": 54,
+      "target_emissions": 41,
+      "target_correct": 41,
+      "target_precision": 1.0,
+      "target_recall": 0.7592592592592593,
+      "target_abstentions_on_reference_attacks": 13,
+      "repeated": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "evidence_correct": 20,
+        "evidence_total": 20,
+        "evidence_precision": 1.0
+      }
+    },
+    "after": {
+      "reference_comments_with_target_coverage": 797,
+      "reference_attacks": 54,
+      "target_emissions": 41,
+      "target_correct": 41,
+      "target_precision": 1.0,
+      "target_recall": 0.7592592592592593,
+      "target_abstentions_on_reference_attacks": 13,
+      "repeated": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "evidence_correct": 20,
+        "evidence_total": 20,
+        "evidence_precision": 1.0
+      }
+    }
+  },
+  "new_label_errors": [
+    {
+      "thread_id": "SHIELDVI_GENZ_02_02_SHOP_GIAY_SECONDHAND",
+      "comment_id": "c16",
+      "text": "Ê shop, câu này hơi toxic rồi nha. T đang cân nhắc mua mà rén ngang",
+      "reference": "CLEAN",
+      "raw_score": 0.465991,
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "CTX_RECOVERY_V1_05",
+      "comment_id": "CTX_RECOVERY_V1_05_C05",
+      "text": "Câu sau vẫn là xúc phạm, mình không chấp nhận.",
+      "reference": "CLEAN",
+      "raw_score": 0.733019,
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "remaining_errors": [
+    {
+      "thread_id": "SHIELDVI_GENZ_02_02_SHOP_GIAY_SECONDHAND",
+      "comment_id": "c16",
+      "text": "Ê shop, câu này hơi toxic rồi nha. T đang cân nhắc mua mà rén ngang",
+      "reference": "CLEAN",
+      "raw_score": 0.465991,
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_GENZ_03_03_DANCE_COVER_TIKTOK",
+      "comment_id": "c10",
+      "text": "Fan bảo kê à? T nói thật thôi chứ ai rảnh khen cho vừa lòng",
+      "reference": "CLEAN",
+      "raw_score": 0.506705,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SHIELDVI_GENZ_03_03_DANCE_COVER_TIKTOK",
+      "comment_id": "c18",
+      "text": "Ơ hay, drama queen cả hội, f*ck this comment section 🙃",
+      "reference": "CLEAN",
+      "raw_score": 0.43521,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "CTX_RECOVERY_V1_05",
+      "comment_id": "CTX_RECOVERY_V1_05_C05",
+      "text": "Câu sau vẫn là xúc phạm, mình không chấp nhận.",
+      "reference": "CLEAN",
+      "raw_score": 0.733019,
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0217",
+      "comment_id": "SGZ500_0217_C01",
+      "text": "Mình đã nói không muốn bị tag vào bài chê nhóm khác nữa.",
+      "reference": "CLEAN",
+      "raw_score": 0.447274,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0218",
+      "comment_id": "SGZ500_0218_C07",
+      "text": "Câu này vẫn hạ người dù không có từ tục.",
+      "reference": "CLEAN",
+      "raw_score": 0.621586,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0255",
+      "comment_id": "SGZ500_0255_C06",
+      "text": "Đã nhắc giọng rồi còn bảo người ta câm là quá.",
+      "reference": "CLEAN",
+      "raw_score": 0.791621,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0255",
+      "comment_id": "SGZ500_0255_C07",
+      "text": "Mình không nhận góp ý kiểu xúc phạm.",
+      "reference": "CLEAN",
+      "raw_score": 0.826779,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0296",
+      "comment_id": "SGZ500_0296_C02",
+      "text": "Tui không đi được, đừng suy ra con người tui.",
+      "reference": "CLEAN",
+      "raw_score": 0.515905,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0339",
+      "comment_id": "SGZ500_0339_C03",
+      "text": "Sai bài không cho biết giới hạn con người.",
+      "reference": "CLEAN",
+      "raw_score": 0.416973,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0342",
+      "comment_id": "SGZ500_0342_C01",
+      "text": "Đèn mạnh làm lớp nền trông nhạt.",
+      "reference": "CLEAN",
+      "raw_score": 0.729744,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0346",
+      "comment_id": "SGZ500_0346_C05",
+      "text": "Tỉ lệ mặt khác bản gốc quá.",
+      "reference": "CLEAN",
+      "raw_score": 0.590497,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0349",
+      "comment_id": "SGZ500_0349_C06",
+      "text": "Đổi giọng vẫn là hạ nhục người khác.",
+      "reference": "CLEAN",
+      "raw_score": 0.882283,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0358",
+      "comment_id": "SGZ500_0358_C02",
+      "text": "Your taste is garbage, idiot.",
+      "reference": "TOXIC",
+      "raw_score": 0.017929,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0373",
+      "comment_id": "SGZ500_0373_C03",
+      "text": "Chê kỹ thuật thì nói đúng kỹ thuật.",
+      "reference": "CLEAN",
+      "raw_score": 0.494597,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0423",
+      "comment_id": "SGZ500_0423_C01",
+      "text": "Câu này dịch làm mất ý châm biếm.",
+      "reference": "CLEAN",
+      "raw_score": 0.88843,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0423",
+      "comment_id": "SGZ500_0423_C07",
+      "text": "Tui không nói người dịch kém mọi mặt.",
+      "reference": "CLEAN",
+      "raw_score": 0.70225,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0438",
+      "comment_id": "SGZ500_0438_C02",
+      "text": "Tao tìm tới đánh mày nếu không xóa bài.",
+      "reference": "TOXIC",
+      "raw_score": 0.117957,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0456",
+      "comment_id": "SGZ500_0456_C02",
+      "text": "Giao chậm tao tới đánh mày cho nhớ.",
+      "reference": "TOXIC",
+      "raw_score": 0.224769,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0462",
+      "comment_id": "SGZ500_0462_C06",
+      "text": "phấn lên màu yếu thật",
+      "reference": "CLEAN",
+      "raw_score": 0.642233,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0462",
+      "comment_id": "SGZ500_0462_C07",
+      "text": "Nhận xét đó được, lời miệt thị thì không.",
+      "reference": "CLEAN",
+      "raw_score": 0.540844,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0482",
+      "comment_id": "SGZ500_0482_C03",
+      "text": "Bạn thấy đẹp hay đang chọc tui vậy?",
+      "reference": "CLEAN",
+      "raw_score": 0.499612,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0498",
+      "comment_id": "SGZ500_0498_C05",
+      "text": "Nói lịch sự nhé, khả năng hiểu của mày không đáng để giải thích.",
+      "reference": "TOXIC",
+      "raw_score": 0.27431,
+      "before": "CLEAN",
+      "after": "CLEAN",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "SGZ500_0498",
+      "comment_id": "SGZ500_0498_C09",
+      "text": "Từ chối trả lời được, công kích thì không.",
+      "reference": "CLEAN",
+      "raw_score": 0.46578,
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "changed_comments": [
+    {
+      "thread_id": "SHIELDVI_GENZ_02_02_SHOP_GIAY_SECONDHAND",
+      "comment_id": "c16",
+      "text": "Ê shop, câu này hơi toxic rồi nha. T đang cân nhắc mua mà rén ngang",
+      "reference": "CLEAN",
+      "raw_score": 0.465991,
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    },
+    {
+      "thread_id": "CTX_RECOVERY_V1_05",
+      "comment_id": "CTX_RECOVERY_V1_05_C05",
+      "text": "Câu sau vẫn là xúc phạm, mình không chấp nhận.",
+      "reference": "CLEAN",
+      "raw_score": 0.733019,
+      "before": "CLEAN",
+      "after": "TOXIC",
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "raw_invariant": true,
+  "human_gold": false,
+  "training_performed": false,
+  "before_processor": "v6.1",
+  "after_processor": "v6.2"
+}

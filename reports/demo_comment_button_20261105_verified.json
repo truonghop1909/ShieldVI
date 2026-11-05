@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "browser_checks": [
+    "write_comment_button_focuses_input_and_reveals_submit_on_short_screen",
+    "composer_is_above_comment_list_and_pagination",
+    "selected_post_composer_enters_viewport_and_keyboard_focus",
+    "comment_is_persisted_and_analyzed_by_actual_worker",
+    "reopening_same_post_refocuses_composer",
+    "background_refresh_does_not_steal_focus_or_clear_draft",
+    "mobile_post_open_reveals_composer"
+  ],
+  "short_viewport": [
+    1060,
+    480
+  ],
+  "textarea_and_submit_fully_visible": true,
+  "user_demo_retained": true,
+  "owned_test_processes_stopped": true,
+  "training_performed": false,
+  "production_changed": false,
+  "readiness_files": 1311,
+  "sha256": {
+    "apps/social-web/src/live.jsx": "82e12fae8d50ed62cb87a8cb804351cd49d9d0a7fadd8937b1779ddef11e0961",
+    "apps/social-web/src/live.css": "09c61d99113724b57d806f8460aa1e2f06b18bdd691681deca6a92b1822bd4de",
+    "reports/task_rollout_20261104/run_browser_actual.py": "720973b4001ff5aa35ade0ca4175c4f2bca144aa77a0151ec8ab084133fd3856",
+    "reports/task_rollout_20261104/browser_comment_ux_20261105.mjs": "54fb658908cc6256d36d41897c50853a1db76a52bbdb598f71af371a7a183826",
+    "docs/ai-update/final-report/REALTIME_DEMO_GUIDE.md": "9897084f5cf2338c6ba6fd84407bd540847e3a962ec27549a9bc493ffebec6b5",
+    "tasks/AUTO_PROGRESS.md": "216d69a8038f1e7112b89103451929c40e9164221c45f425bce27dec1d5f5fcb",
+    "tasks/moderation-ai/T037-live-conversation-client.md": "6dde4206b79ee4f64e111051aec48f0731ef73d715e5b8014e362c1ebf0c7563",
+    "reports/demo_comment_button_20261105_red.log": "f13180cdb2d32386b01e72d009637838e134407047e583adefbd9ae5dcd1d787",
+    "reports/demo_comment_button_20261105_green.log": "2d887267bd1576caec3dc98ebc8726c507e131e292b788191255017f096ab8a8",
+    "reports/demo_comment_button_20261105_build.log": "86ffcef2e24801d5806b7b206b2ce21b2df219f41cb63b81d20a35f1ec6143ec",
+    "reports/demo_comment_button_20261105_readiness.log": "3bff5fb7104cc34745b28df93e7876d70d11e63c4c5ab8a2e38eb9e179f23195",
+    "reports\\task_rollout_20261104\\demo_0401e6730c105108\\comment_ux_result.json": "7face23b8858ec545edb164f4a93aef15743dbcc32cf0fbc0e54d5cb586dffcc",
+    "reports\\task_rollout_20261104\\demo_0401e6730c105108\\comment_ux.png": "df83f38d5193ae8df95e323ee076f5e9ddaf51359bb7eb9ec0e07348ae87ec53"
+  }
+}

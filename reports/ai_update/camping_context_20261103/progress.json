@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "root_tests_passed": 540,
+  "raw_invariant": true,
+  "paired_comments": 890,
+  "new_label_errors": 0,
+  "live_demo_ports": [
+    8020,
+    8021
+  ],
+  "all30_AI_reference_labels_match": true,
+  "exact4attack_evidence": true,
+  "human_gold": false,
+  "training_performed": false,
+  "production_changed": false,
+  "report": "docs/ai-update/final-report/CAMPING_CONTEXT_RECOVERY.md",
+  "next": "Refresh demo and reanalyze; keep promotion rejection and remaining development errors visible"
+}

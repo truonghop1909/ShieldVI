@@ -1,0 +1,1736 @@
+{
+  "status": "COMPLETE_EXPERIMENTAL_SYNTHETIC_COMPARISON",
+  "dataset_sha256": "c634273c71b858b56f5850eb280843c1b179be1f487f954c014e997f12b51652",
+  "training_report_sha256": "b3c3a415574a87ab31b435863bc406cf7ad6b62a750ac66eb2692ec829548ad7",
+  "metrics": {
+    "V1": {
+      "synthetic_validation": {
+        "raw": {
+          "n": 306,
+          "threshold": 0.41,
+          "tp": 7,
+          "fp": 12,
+          "tn": 279,
+          "fn": 8,
+          "macro_f1": 0.6885813148788927,
+          "toxic_precision": 0.3684210526315789,
+          "toxic_recall": 0.4666666666666667,
+          "accuracy": 0.934640522875817,
+          "brier": 0.04222059431757474,
+          "log_loss": 0.15730117688091483,
+          "toxic_f1": 0.4117647058823529
+        },
+        "hybrid": {
+          "n": 306,
+          "tp": 12,
+          "fp": 8,
+          "tn": 283,
+          "fn": 3,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.6,
+          "toxic_recall": 0.8,
+          "macro_f1": 0.8333250804654617,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        },
+        "groups": {
+          "direct_insults": {
+            "raw": {
+              "n": 12,
+              "threshold": 0.41,
+              "tp": 6,
+              "fp": 0,
+              "tn": 0,
+              "fn": 6,
+              "macro_f1": 0.3333333333333333,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.5,
+              "accuracy": 0.5,
+              "brier": 0.3912483642780815,
+              "log_loss": 1.2857468543241029
+            },
+            "hybrid": {
+              "n": 12,
+              "tp": 10,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.8333333333333334,
+              "macro_f1": 0.45454545454545453,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "indirect_insults": {
+            "raw": {
+              "n": 3,
+              "threshold": 0.41,
+              "tp": 1,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "macro_f1": 0.25,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.3333333333333333,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.5551695575785794,
+              "log_loss": 1.4625079736918902
+            },
+            "hybrid": {
+              "n": 3,
+              "tp": 2,
+              "fp": 0,
+              "tn": 0,
+              "fn": 1,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "macro_f1": 0.4,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "sarcasm": {
+            "raw": {
+              "n": 3,
+              "threshold": 0.41,
+              "tp": 1,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "macro_f1": 0.25,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.3333333333333333,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.5551695575785794,
+              "log_loss": 1.4625079736918902
+            },
+            "hybrid": {
+              "n": 3,
+              "tp": 2,
+              "fp": 0,
+              "tn": 0,
+              "fn": 1,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "macro_f1": 0.4,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "teencode": {
+            "raw": {
+              "n": 2,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 0,
+              "tn": 2,
+              "fn": 0,
+              "macro_f1": 0.5,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 1.0,
+              "brier": 0.010332481134676892,
+              "log_loss": 0.0966701812993703
+            },
+            "hybrid": {
+              "n": 2,
+              "tp": 0,
+              "fp": 0,
+              "tn": 2,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "apology": {
+            "raw": {
+              "n": 7,
+              "threshold": 0.41,
+              "tp": 1,
+              "fp": 1,
+              "tn": 4,
+              "fn": 1,
+              "macro_f1": 0.65,
+              "toxic_precision": 0.5,
+              "toxic_recall": 0.5,
+              "accuracy": 0.7142857142857143,
+              "brier": 0.16949041906891657,
+              "log_loss": 0.4699219800009438
+            },
+            "hybrid": {
+              "n": 7,
+              "tp": 2,
+              "fp": 0,
+              "tn": 5,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 1.0,
+              "macro_f1": 1.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "quote": {
+            "raw": {
+              "n": 0
+            },
+            "hybrid": {
+              "n": 0,
+              "tp": 0,
+              "fp": 0,
+              "tn": 0,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "intervention": {
+            "raw": {
+              "n": 14,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 2,
+              "tn": 12,
+              "fn": 0,
+              "macro_f1": 0.46153846153846156,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.8571428571428571,
+              "brier": 0.0505127018063828,
+              "log_loss": 0.2054498250785284
+            },
+            "hybrid": {
+              "n": 14,
+              "tp": 0,
+              "fp": 0,
+              "tn": 14,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "self_defense": {
+            "raw": {
+              "n": 15,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 3,
+              "tn": 12,
+              "fn": 0,
+              "macro_f1": 0.4444444444444444,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.8,
+              "brier": 0.0650022280265341,
+              "log_loss": 0.23221817291545188
+            },
+            "hybrid": {
+              "n": 15,
+              "tp": 0,
+              "fp": 2,
+              "tn": 13,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.4642857142857143,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          }
+        },
+        "target_repeated": {
+          "reference_comments_with_target_coverage": 306,
+          "reference_attacks": 15,
+          "target_emissions": 8,
+          "target_correct": 8,
+          "target_precision": 1.0,
+          "target_recall": 0.5333333333333333,
+          "target_abstentions_on_reference_attacks": 7,
+          "repeated": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "evidence_correct": 2,
+            "evidence_total": 2,
+            "evidence_precision": 1.0
+          }
+        },
+        "UNCERTAIN_reference_excluded": 2
+      },
+      "synthetic_challenge": {
+        "raw": {
+          "n": 311,
+          "threshold": 0.41,
+          "tp": 13,
+          "fp": 11,
+          "tn": 280,
+          "fn": 7,
+          "macro_f1": 0.7798836111984901,
+          "toxic_precision": 0.5416666666666666,
+          "toxic_recall": 0.65,
+          "accuracy": 0.9421221864951769,
+          "brier": 0.04124421943330523,
+          "log_loss": 0.14623381072696265,
+          "toxic_f1": 0.5909090909090908
+        },
+        "hybrid": {
+          "n": 311,
+          "tp": 17,
+          "fp": 8,
+          "tn": 283,
+          "fn": 3,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.68,
+          "toxic_recall": 0.85,
+          "macro_f1": 0.8682457153860967,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        },
+        "groups": {
+          "direct_insults": {
+            "raw": {
+              "n": 14,
+              "threshold": 0.41,
+              "tp": 11,
+              "fp": 0,
+              "tn": 0,
+              "fn": 3,
+              "macro_f1": 0.44,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.7857142857142857,
+              "accuracy": 0.7857142857142857,
+              "brier": 0.18598185225818606,
+              "log_loss": 0.5801190527397663
+            },
+            "hybrid": {
+              "n": 14,
+              "tp": 13,
+              "fp": 0,
+              "tn": 0,
+              "fn": 1,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.9285714285714286,
+              "macro_f1": 0.48148148148148145,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "indirect_insults": {
+            "raw": {
+              "n": 6,
+              "threshold": 0.41,
+              "tp": 2,
+              "fp": 0,
+              "tn": 0,
+              "fn": 4,
+              "macro_f1": 0.25,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.3333333333333333,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.500017161762636,
+              "log_loss": 1.3178257958578004
+            },
+            "hybrid": {
+              "n": 6,
+              "tp": 4,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "macro_f1": 0.4,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "sarcasm": {
+            "raw": {
+              "n": 6,
+              "threshold": 0.41,
+              "tp": 2,
+              "fp": 0,
+              "tn": 0,
+              "fn": 4,
+              "macro_f1": 0.25,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.3333333333333333,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.500017161762636,
+              "log_loss": 1.3178257958578004
+            },
+            "hybrid": {
+              "n": 6,
+              "tp": 4,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "macro_f1": 0.4,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "teencode": {
+            "raw": {
+              "n": 0
+            },
+            "hybrid": {
+              "n": 0,
+              "tp": 0,
+              "fp": 0,
+              "tn": 0,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "apology": {
+            "raw": {
+              "n": 4,
+              "threshold": 0.41,
+              "tp": 1,
+              "fp": 1,
+              "tn": 0,
+              "fn": 2,
+              "macro_f1": 0.2,
+              "toxic_precision": 0.5,
+              "toxic_recall": 0.3333333333333333,
+              "accuracy": 0.25,
+              "brier": 0.5662884398667849,
+              "log_loss": 1.570717728909535
+            },
+            "hybrid": {
+              "n": 4,
+              "tp": 3,
+              "fp": 0,
+              "tn": 1,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 1.0,
+              "macro_f1": 1.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "quote": {
+            "raw": {
+              "n": 1,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 1,
+              "tn": 0,
+              "fn": 0,
+              "macro_f1": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.0,
+              "brier": 0.24763487548796892,
+              "log_loss": 0.68841689612947
+            },
+            "hybrid": {
+              "n": 1,
+              "tp": 0,
+              "fp": 0,
+              "tn": 1,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "intervention": {
+            "raw": {
+              "n": 19,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 6,
+              "tn": 13,
+              "fn": 0,
+              "macro_f1": 0.40625,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.6842105263157895,
+              "brier": 0.15943594500281652,
+              "log_loss": 0.47247865373954356
+            },
+            "hybrid": {
+              "n": 19,
+              "tp": 0,
+              "fp": 5,
+              "tn": 14,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.42424242424242425,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "self_defense": {
+            "raw": {
+              "n": 14,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 1,
+              "tn": 13,
+              "fn": 0,
+              "macro_f1": 0.48148148148148145,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.9285714285714286,
+              "brier": 0.059644298372208984,
+              "log_loss": 0.19446269025086707
+            },
+            "hybrid": {
+              "n": 14,
+              "tp": 0,
+              "fp": 1,
+              "tn": 13,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.48148148148148145,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          }
+        },
+        "target_repeated": {
+          "reference_comments_with_target_coverage": 311,
+          "reference_attacks": 20,
+          "target_emissions": 9,
+          "target_correct": 9,
+          "target_precision": 1.0,
+          "target_recall": 0.45,
+          "target_abstentions_on_reference_attacks": 11,
+          "repeated": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evidence_correct": 0,
+            "evidence_total": 0,
+            "evidence_precision": 0.0
+          }
+        },
+        "UNCERTAIN_reference_excluded": 1
+      }
+    },
+    "r05": {
+      "synthetic_validation": {
+        "raw": {
+          "n": 306,
+          "threshold": 0.41,
+          "tp": 6,
+          "fp": 11,
+          "tn": 280,
+          "fn": 9,
+          "macro_f1": 0.6702586206896552,
+          "toxic_precision": 0.35294117647058826,
+          "toxic_recall": 0.4,
+          "accuracy": 0.934640522875817,
+          "brier": 0.039926524631387725,
+          "log_loss": 0.14532146398682355,
+          "toxic_f1": 0.37500000000000006
+        },
+        "hybrid": {
+          "n": 306,
+          "tp": 11,
+          "fp": 8,
+          "tn": 283,
+          "fn": 4,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.5789473684210527,
+          "toxic_recall": 0.7333333333333333,
+          "macro_f1": 0.8131487889273357,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        },
+        "groups": {
+          "direct_insults": {
+            "raw": {
+              "n": 12,
+              "threshold": 0.41,
+              "tp": 6,
+              "fp": 0,
+              "tn": 0,
+              "fn": 6,
+              "macro_f1": 0.3333333333333333,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.5,
+              "accuracy": 0.5,
+              "brier": 0.3905937215391108,
+              "log_loss": 1.334210661462526
+            },
+            "hybrid": {
+              "n": 12,
+              "tp": 10,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.8333333333333334,
+              "macro_f1": 0.45454545454545453,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "indirect_insults": {
+            "raw": {
+              "n": 3,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 0,
+              "tn": 0,
+              "fn": 3,
+              "macro_f1": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.0,
+              "brier": 0.5906721078988112,
+              "log_loss": 1.5778851608767919
+            },
+            "hybrid": {
+              "n": 3,
+              "tp": 1,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.3333333333333333,
+              "macro_f1": 0.25,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "sarcasm": {
+            "raw": {
+              "n": 3,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 0,
+              "tn": 0,
+              "fn": 3,
+              "macro_f1": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.0,
+              "brier": 0.5906721078988112,
+              "log_loss": 1.5778851608767919
+            },
+            "hybrid": {
+              "n": 3,
+              "tp": 1,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.3333333333333333,
+              "macro_f1": 0.25,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "teencode": {
+            "raw": {
+              "n": 2,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 0,
+              "tn": 2,
+              "fn": 0,
+              "macro_f1": 0.5,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 1.0,
+              "brier": 0.0060390731342701565,
+              "log_loss": 0.07349514008051954
+            },
+            "hybrid": {
+              "n": 2,
+              "tp": 0,
+              "fp": 0,
+              "tn": 2,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "apology": {
+            "raw": {
+              "n": 7,
+              "threshold": 0.41,
+              "tp": 1,
+              "fp": 1,
+              "tn": 4,
+              "fn": 1,
+              "macro_f1": 0.65,
+              "toxic_precision": 0.5,
+              "toxic_recall": 0.5,
+              "accuracy": 0.7142857142857143,
+              "brier": 0.17171165334141045,
+              "log_loss": 0.4742151982668467
+            },
+            "hybrid": {
+              "n": 7,
+              "tp": 2,
+              "fp": 0,
+              "tn": 5,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 1.0,
+              "macro_f1": 1.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "quote": {
+            "raw": {
+              "n": 0
+            },
+            "hybrid": {
+              "n": 0,
+              "tp": 0,
+              "fp": 0,
+              "tn": 0,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "intervention": {
+            "raw": {
+              "n": 14,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 1,
+              "tn": 13,
+              "fn": 0,
+              "macro_f1": 0.48148148148148145,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.9285714285714286,
+              "brier": 0.03843018052816547,
+              "log_loss": 0.1677615613577654
+            },
+            "hybrid": {
+              "n": 14,
+              "tp": 0,
+              "fp": 0,
+              "tn": 14,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "self_defense": {
+            "raw": {
+              "n": 15,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 3,
+              "tn": 12,
+              "fn": 0,
+              "macro_f1": 0.4444444444444444,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.8,
+              "brier": 0.05736968999487306,
+              "log_loss": 0.20580824802077938
+            },
+            "hybrid": {
+              "n": 15,
+              "tp": 0,
+              "fp": 2,
+              "tn": 13,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.4642857142857143,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          }
+        },
+        "target_repeated": {
+          "reference_comments_with_target_coverage": 306,
+          "reference_attacks": 15,
+          "target_emissions": 8,
+          "target_correct": 8,
+          "target_precision": 1.0,
+          "target_recall": 0.5333333333333333,
+          "target_abstentions_on_reference_attacks": 7,
+          "repeated": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "evidence_correct": 2,
+            "evidence_total": 2,
+            "evidence_precision": 1.0
+          }
+        },
+        "UNCERTAIN_reference_excluded": 2
+      },
+      "synthetic_challenge": {
+        "raw": {
+          "n": 311,
+          "threshold": 0.41,
+          "tp": 13,
+          "fp": 10,
+          "tn": 281,
+          "fn": 7,
+          "macro_f1": 0.7876450978029481,
+          "toxic_precision": 0.5652173913043478,
+          "toxic_recall": 0.65,
+          "accuracy": 0.9453376205787781,
+          "brier": 0.039864429948911644,
+          "log_loss": 0.1367557113419273,
+          "toxic_f1": 0.6046511627906976
+        },
+        "hybrid": {
+          "n": 311,
+          "tp": 17,
+          "fp": 7,
+          "tn": 284,
+          "fn": 3,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.7083333333333334,
+          "toxic_recall": 0.85,
+          "macro_f1": 0.8777131173324945,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        },
+        "groups": {
+          "direct_insults": {
+            "raw": {
+              "n": 14,
+              "threshold": 0.41,
+              "tp": 11,
+              "fp": 0,
+              "tn": 0,
+              "fn": 3,
+              "macro_f1": 0.44,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.7857142857142857,
+              "accuracy": 0.7857142857142857,
+              "brier": 0.18680354464813212,
+              "log_loss": 0.5963207386093352
+            },
+            "hybrid": {
+              "n": 14,
+              "tp": 13,
+              "fp": 0,
+              "tn": 0,
+              "fn": 1,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.9285714285714286,
+              "macro_f1": 0.48148148148148145,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "indirect_insults": {
+            "raw": {
+              "n": 6,
+              "threshold": 0.41,
+              "tp": 2,
+              "fp": 0,
+              "tn": 0,
+              "fn": 4,
+              "macro_f1": 0.25,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.3333333333333333,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.5261646116971049,
+              "log_loss": 1.440507109340871
+            },
+            "hybrid": {
+              "n": 6,
+              "tp": 4,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "macro_f1": 0.4,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "sarcasm": {
+            "raw": {
+              "n": 6,
+              "threshold": 0.41,
+              "tp": 2,
+              "fp": 0,
+              "tn": 0,
+              "fn": 4,
+              "macro_f1": 0.25,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.3333333333333333,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.5261646116971049,
+              "log_loss": 1.440507109340871
+            },
+            "hybrid": {
+              "n": 6,
+              "tp": 4,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "macro_f1": 0.4,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "teencode": {
+            "raw": {
+              "n": 0
+            },
+            "hybrid": {
+              "n": 0,
+              "tp": 0,
+              "fp": 0,
+              "tn": 0,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "apology": {
+            "raw": {
+              "n": 4,
+              "threshold": 0.41,
+              "tp": 1,
+              "fp": 1,
+              "tn": 0,
+              "fn": 2,
+              "macro_f1": 0.2,
+              "toxic_precision": 0.5,
+              "toxic_recall": 0.3333333333333333,
+              "accuracy": 0.25,
+              "brier": 0.5989995510591388,
+              "log_loss": 1.7382830493733867
+            },
+            "hybrid": {
+              "n": 4,
+              "tp": 3,
+              "fp": 0,
+              "tn": 1,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 1.0,
+              "macro_f1": 1.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "quote": {
+            "raw": {
+              "n": 1,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 1,
+              "tn": 0,
+              "fn": 0,
+              "macro_f1": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.0,
+              "brier": 0.25443134085324814,
+              "log_loss": 0.7020100927943981
+            },
+            "hybrid": {
+              "n": 1,
+              "tp": 0,
+              "fp": 0,
+              "tn": 1,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "intervention": {
+            "raw": {
+              "n": 19,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 5,
+              "tn": 14,
+              "fn": 0,
+              "macro_f1": 0.42424242424242425,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.7368421052631579,
+              "brier": 0.16413544362413793,
+              "log_loss": 0.48988439376535864
+            },
+            "hybrid": {
+              "n": 19,
+              "tp": 0,
+              "fp": 4,
+              "tn": 15,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.4411764705882353,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "self_defense": {
+            "raw": {
+              "n": 14,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 1,
+              "tn": 13,
+              "fn": 0,
+              "macro_f1": 0.48148148148148145,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.9285714285714286,
+              "brier": 0.060136970733247495,
+              "log_loss": 0.19240653172929334
+            },
+            "hybrid": {
+              "n": 14,
+              "tp": 0,
+              "fp": 1,
+              "tn": 13,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.48148148148148145,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          }
+        },
+        "target_repeated": {
+          "reference_comments_with_target_coverage": 311,
+          "reference_attacks": 20,
+          "target_emissions": 9,
+          "target_correct": 9,
+          "target_precision": 1.0,
+          "target_recall": 0.45,
+          "target_abstentions_on_reference_attacks": 11,
+          "repeated": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evidence_correct": 0,
+            "evidence_total": 0,
+            "evidence_precision": 0.0
+          }
+        },
+        "UNCERTAIN_reference_excluded": 1
+      }
+    },
+    "r06": {
+      "synthetic_validation": {
+        "raw": {
+          "n": 306,
+          "threshold": 0.41,
+          "tp": 11,
+          "fp": 7,
+          "tn": 284,
+          "fn": 4,
+          "macro_f1": 0.8238341968911918,
+          "toxic_precision": 0.6111111111111112,
+          "toxic_recall": 0.7333333333333333,
+          "accuracy": 0.9640522875816994,
+          "brier": 0.026092048896024102,
+          "log_loss": 0.10996578748674345,
+          "toxic_f1": 0.6666666666666666
+        },
+        "hybrid": {
+          "n": 306,
+          "tp": 14,
+          "fp": 5,
+          "tn": 286,
+          "fn": 1,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.7368421052631579,
+          "toxic_recall": 0.9333333333333333,
+          "macro_f1": 0.9065743944636677,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        },
+        "groups": {
+          "direct_insults": {
+            "raw": {
+              "n": 12,
+              "threshold": 0.41,
+              "tp": 9,
+              "fp": 0,
+              "tn": 0,
+              "fn": 3,
+              "macro_f1": 0.42857142857142855,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.75,
+              "accuracy": 0.75,
+              "brier": 0.2429719318755044,
+              "log_loss": 1.0080275880218226
+            },
+            "hybrid": {
+              "n": 12,
+              "tp": 11,
+              "fp": 0,
+              "tn": 0,
+              "fn": 1,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.9166666666666666,
+              "macro_f1": 0.4782608695652174,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "indirect_insults": {
+            "raw": {
+              "n": 3,
+              "threshold": 0.41,
+              "tp": 2,
+              "fp": 0,
+              "tn": 0,
+              "fn": 1,
+              "macro_f1": 0.4,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.2364217147211646,
+              "log_loss": 0.6390879073486655
+            },
+            "hybrid": {
+              "n": 3,
+              "tp": 3,
+              "fp": 0,
+              "tn": 0,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 1.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "sarcasm": {
+            "raw": {
+              "n": 3,
+              "threshold": 0.41,
+              "tp": 2,
+              "fp": 0,
+              "tn": 0,
+              "fn": 1,
+              "macro_f1": 0.4,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.2364217147211646,
+              "log_loss": 0.6390879073486655
+            },
+            "hybrid": {
+              "n": 3,
+              "tp": 3,
+              "fp": 0,
+              "tn": 0,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 1.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "teencode": {
+            "raw": {
+              "n": 2,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 0,
+              "tn": 2,
+              "fn": 0,
+              "macro_f1": 0.5,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 1.0,
+              "brier": 0.012512476015435259,
+              "log_loss": 0.10857779718034526
+            },
+            "hybrid": {
+              "n": 2,
+              "tp": 0,
+              "fp": 0,
+              "tn": 2,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "apology": {
+            "raw": {
+              "n": 7,
+              "threshold": 0.41,
+              "tp": 2,
+              "fp": 1,
+              "tn": 4,
+              "fn": 0,
+              "macro_f1": 0.8444444444444444,
+              "toxic_precision": 0.6666666666666666,
+              "toxic_recall": 1.0,
+              "accuracy": 0.8571428571428571,
+              "brier": 0.11755298803556717,
+              "log_loss": 0.33987047576506707
+            },
+            "hybrid": {
+              "n": 7,
+              "tp": 2,
+              "fp": 0,
+              "tn": 5,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 1.0,
+              "macro_f1": 1.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "quote": {
+            "raw": {
+              "n": 0
+            },
+            "hybrid": {
+              "n": 0,
+              "tp": 0,
+              "fp": 0,
+              "tn": 0,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "intervention": {
+            "raw": {
+              "n": 14,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 0,
+              "tn": 14,
+              "fn": 0,
+              "macro_f1": 0.5,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 1.0,
+              "brier": 0.019286642371466756,
+              "log_loss": 0.11688473347073185
+            },
+            "hybrid": {
+              "n": 14,
+              "tp": 0,
+              "fp": 0,
+              "tn": 14,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "self_defense": {
+            "raw": {
+              "n": 15,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 1,
+              "tn": 14,
+              "fn": 0,
+              "macro_f1": 0.4827586206896552,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.9333333333333333,
+              "brier": 0.03534177884180149,
+              "log_loss": 0.14905711014281506
+            },
+            "hybrid": {
+              "n": 15,
+              "tp": 0,
+              "fp": 0,
+              "tn": 15,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          }
+        },
+        "target_repeated": {
+          "reference_comments_with_target_coverage": 306,
+          "reference_attacks": 15,
+          "target_emissions": 8,
+          "target_correct": 8,
+          "target_precision": 1.0,
+          "target_recall": 0.5333333333333333,
+          "target_abstentions_on_reference_attacks": 7,
+          "repeated": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "evidence_correct": 2,
+            "evidence_total": 2,
+            "evidence_precision": 1.0
+          }
+        },
+        "UNCERTAIN_reference_excluded": 2
+      },
+      "synthetic_challenge": {
+        "raw": {
+          "n": 311,
+          "threshold": 0.41,
+          "tp": 15,
+          "fp": 9,
+          "tn": 282,
+          "fn": 5,
+          "macro_f1": 0.8287983642654922,
+          "toxic_precision": 0.625,
+          "toxic_recall": 0.75,
+          "accuracy": 0.954983922829582,
+          "brier": 0.027742263740973043,
+          "log_loss": 0.09950877415997342,
+          "toxic_f1": 0.6818181818181818
+        },
+        "hybrid": {
+          "n": 311,
+          "tp": 17,
+          "fp": 6,
+          "tn": 285,
+          "fn": 3,
+          "abstained_clean": 0,
+          "abstained_toxic": 0,
+          "coverage": 1.0,
+          "toxic_precision": 0.7391304347826086,
+          "toxic_recall": 0.85,
+          "macro_f1": 0.8875768164839137,
+          "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+        },
+        "groups": {
+          "direct_insults": {
+            "raw": {
+              "n": 14,
+              "threshold": 0.41,
+              "tp": 12,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "macro_f1": 0.46153846153846156,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.8571428571428571,
+              "accuracy": 0.8571428571428571,
+              "brier": 0.13474040680615804,
+              "log_loss": 0.41578478612534153
+            },
+            "hybrid": {
+              "n": 14,
+              "tp": 13,
+              "fp": 0,
+              "tn": 0,
+              "fn": 1,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.9285714285714286,
+              "macro_f1": 0.48148148148148145,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "indirect_insults": {
+            "raw": {
+              "n": 6,
+              "threshold": 0.41,
+              "tp": 3,
+              "fp": 0,
+              "tn": 0,
+              "fn": 3,
+              "macro_f1": 0.3333333333333333,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.5,
+              "accuracy": 0.5,
+              "brier": 0.26068867022362463,
+              "log_loss": 0.7100512616428148
+            },
+            "hybrid": {
+              "n": 6,
+              "tp": 4,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "macro_f1": 0.4,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "sarcasm": {
+            "raw": {
+              "n": 6,
+              "threshold": 0.41,
+              "tp": 3,
+              "fp": 0,
+              "tn": 0,
+              "fn": 3,
+              "macro_f1": 0.3333333333333333,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.5,
+              "accuracy": 0.5,
+              "brier": 0.26068867022362463,
+              "log_loss": 0.7100512616428148
+            },
+            "hybrid": {
+              "n": 6,
+              "tp": 4,
+              "fp": 0,
+              "tn": 0,
+              "fn": 2,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 0.6666666666666666,
+              "macro_f1": 0.4,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "teencode": {
+            "raw": {
+              "n": 0
+            },
+            "hybrid": {
+              "n": 0,
+              "tp": 0,
+              "fp": 0,
+              "tn": 0,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "apology": {
+            "raw": {
+              "n": 4,
+              "threshold": 0.41,
+              "tp": 2,
+              "fp": 1,
+              "tn": 0,
+              "fn": 1,
+              "macro_f1": 0.3333333333333333,
+              "toxic_precision": 0.6666666666666666,
+              "toxic_recall": 0.6666666666666666,
+              "accuracy": 0.5,
+              "brier": 0.4598919673201829,
+              "log_loss": 1.302827408505758
+            },
+            "hybrid": {
+              "n": 4,
+              "tp": 3,
+              "fp": 0,
+              "tn": 1,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 1.0,
+              "toxic_recall": 1.0,
+              "macro_f1": 1.0,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "quote": {
+            "raw": {
+              "n": 1,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 1,
+              "tn": 0,
+              "fn": 0,
+              "macro_f1": 0.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.0,
+              "brier": 0.43242606072732315,
+              "log_loss": 1.0717496552256363
+            },
+            "hybrid": {
+              "n": 1,
+              "tp": 0,
+              "fp": 0,
+              "tn": 1,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.5,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "intervention": {
+            "raw": {
+              "n": 19,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 5,
+              "tn": 14,
+              "fn": 0,
+              "macro_f1": 0.42424242424242425,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.7368421052631579,
+              "brier": 0.1314060984359344,
+              "log_loss": 0.38344175726367824
+            },
+            "hybrid": {
+              "n": 19,
+              "tp": 0,
+              "fp": 4,
+              "tn": 15,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.4411764705882353,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          },
+          "self_defense": {
+            "raw": {
+              "n": 14,
+              "threshold": 0.41,
+              "tp": 0,
+              "fp": 1,
+              "tn": 13,
+              "fn": 0,
+              "macro_f1": 0.48148148148148145,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "accuracy": 0.9285714285714286,
+              "brier": 0.03547030813588993,
+              "log_loss": 0.11242349821995275
+            },
+            "hybrid": {
+              "n": 14,
+              "tp": 0,
+              "fp": 1,
+              "tn": 13,
+              "fn": 0,
+              "abstained_clean": 0,
+              "abstained_toxic": 0,
+              "coverage": 1.0,
+              "toxic_precision": 0.0,
+              "toxic_recall": 0.0,
+              "macro_f1": 0.48148148148148145,
+              "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+            }
+          }
+        },
+        "target_repeated": {
+          "reference_comments_with_target_coverage": 311,
+          "reference_attacks": 20,
+          "target_emissions": 9,
+          "target_correct": 9,
+          "target_precision": 1.0,
+          "target_recall": 0.45,
+          "target_abstentions_on_reference_attacks": 11,
+          "repeated": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evidence_correct": 0,
+            "evidence_total": 0,
+            "evidence_precision": 0.0
+          }
+        },
+        "UNCERTAIN_reference_excluded": 1
+      }
+    }
+  },
+  "encoder_sha256": {
+    "V1": "4d7b08643b1aca03e62de0c5e0159f2517e14376a90e8028b410742b655c04d4",
+    "r05": "4d7b08643b1aca03e62de0c5e0159f2517e14376a90e8028b410742b655c04d4",
+    "r06": "4d7b08643b1aca03e62de0c5e0159f2517e14376a90e8028b410742b655c04d4"
+  },
+  "full_forward_probe_max_errors": {
+    "V1": 2.9802322387695312e-08,
+    "r05": 2.9802322387695312e-08,
+    "r06": 3.725290298461914e-08
+  },
+  "r05_holdout_exact_overlap": 0,
+  "r05_holdout_near_overlap": 0,
+  "historical_original_test_scored": false,
+  "independent_real_metrics": false,
+  "human_gold": false,
+  "promotion_allowed": false,
+  "decision": "EXPERIMENTAL_KEEP_EXISTING_DEFAULT",
+  "elapsed_seconds": 24.25,
+  "numerical_threshold_near_rows": 0,
+  "limitations": [
+    "Validation/challenge were already seen in rule research, never independent human gold.",
+    "Shared encoder requires identical encoder hash/tokenization; actual full-forward probes verified.",
+    "No semantic novelty or real-world superiority claim.",
+    "Sarcasm subgroup is approximated by authored indirect-attack role; it is not a separate human sarcasm annotation."
+  ]
+}

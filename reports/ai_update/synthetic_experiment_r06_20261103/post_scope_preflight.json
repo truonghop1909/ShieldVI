@@ -1,0 +1,12 @@
+{
+  "status": "BLOCKED",
+  "blockers": [
+    "Current task scope permits preparation only; new training is not authorized",
+    "Candidate output already exists; choose a new run ID"
+  ],
+  "versions": {
+    "transformers": "4.57.3",
+    "huggingface-hub": "0.36.2"
+  },
+  "training_performed": false
+}

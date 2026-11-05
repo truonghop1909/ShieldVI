@@ -1,0 +1,226 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_01",
+  "topic": "game",
+  "title": "Đội mới can ngăn rồi thống nhất chiến thuật",
+  "data_origin": "synthetic",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C01",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_01_U01",
+      "timestamp": "2025-01-02T01:00:44Z",
+      "text": "Tối nay tập phối hợp thôi nha.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Tối nay tập phối hợp thôi nha.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C02",
+      "parent_id": "CTX_RECOVERY_V1_01_C01",
+      "user_id": "CTX_RECOVERY_V1_01_U04",
+      "timestamp": "2025-01-02T01:01:30Z",
+      "text": "Mình thử vai trò hỗ trợ lần đầu.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình thử vai trò hỗ trợ lần đầu.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C03",
+      "parent_id": "CTX_RECOVERY_V1_01_C02",
+      "user_id": "CTX_RECOVERY_V1_01_U02",
+      "timestamp": "2025-01-02T01:02:18Z",
+      "text": "Mày đánh ngu như chó, chỉ tổ phá đội.",
+      "annotation": {
+        "label": "TOXIC",
+        "category": "directed_insult",
+        "directed_at_user_id": "CTX_RECOVERY_V1_01_U04",
+        "is_directed_attack": true,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Lời hạ nhục trực tiếp nhắm đến người, vượt khỏi góp ý nội dung. Căn cứ: Mày đánh ngu như chó, chỉ tổ phá đội.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C04",
+      "parent_id": "CTX_RECOVERY_V1_01_C03",
+      "user_id": "CTX_RECOVERY_V1_01_U03",
+      "timestamp": "2025-01-02T01:03:08Z",
+      "text": "Bàn chiến thuật thì được, xúc phạm người ta thì dừng nhé.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "intervention",
+        "directed_at_user_id": "CTX_RECOVERY_V1_01_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Can ngăn công kích, hướng trao đổi về vấn đề. Căn cứ: Bàn chiến thuật thì được, xúc phạm người ta thì dừng nhé.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C05",
+      "parent_id": "CTX_RECOVERY_V1_01_C03",
+      "user_id": "CTX_RECOVERY_V1_01_U04",
+      "timestamp": "2025-01-02T01:03:37Z",
+      "text": "Mình đang học, đừng hạ nhục mình.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "defense",
+        "directed_at_user_id": "CTX_RECOVERY_V1_01_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Người bị nhắm đến đặt giới hạn hoặc tự bảo vệ, không đáp trả bằng xúc phạm. Căn cứ: Mình đang học, đừng hạ nhục mình.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C06",
+      "parent_id": "CTX_RECOVERY_V1_01_C03",
+      "user_id": "CTX_RECOVERY_V1_01_U01",
+      "timestamp": "2025-01-02T01:04:31Z",
+      "text": "Thôi nhục mạ đồng đội, nói lỗi di chuyển cụ thể đi.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "intervention",
+        "directed_at_user_id": "CTX_RECOVERY_V1_01_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Can ngăn công kích, hướng trao đổi về vấn đề. Căn cứ: Thôi nhục mạ đồng đội, nói lỗi di chuyển cụ thể đi.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C07",
+      "parent_id": "CTX_RECOVERY_V1_01_C06",
+      "user_id": "CTX_RECOVERY_V1_01_U02",
+      "timestamp": "2025-01-02T01:05:04Z",
+      "text": "D giữ gần lối vào hơn chút nhé.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "criticism",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Phê bình sản phẩm/hành vi cụ thể, không phủ định giá trị con người. Căn cứ: D giữ gần lối vào hơn chút nhé.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C08",
+      "parent_id": "CTX_RECOVERY_V1_01_C07",
+      "user_id": "CTX_RECOVERY_V1_01_U04",
+      "timestamp": "2025-01-02T01:06:02Z",
+      "text": "Mình sẽ theo vị trí đó.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình sẽ theo vị trí đó.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C09",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_01_U03",
+      "timestamp": "2025-01-02T01:06:39Z",
+      "text": "tui giữ góc bên cạnh cho dễ phối hợp",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: tui giữ góc bên cạnh cho dễ phối hợp",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_01_C10",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_01_U01",
+      "timestamp": "2025-01-02T01:07:18Z",
+      "text": "Ván sau mình đổi nhiệm vụ sau khi xem lại.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Ván sau mình đổi nhiệm vụ sau khi xem lại.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    }
+  ],
+  "participants": [
+    {
+      "user_id": "CTX_RECOVERY_V1_01_U01",
+      "fictional_speaker": "A",
+      "style": "đội trưởng"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_01_U02",
+      "fictional_speaker": "B",
+      "style": "nóng nhưng nghe"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_01_U03",
+      "fictional_speaker": "C",
+      "style": "trấn an"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_01_U04",
+      "fictional_speaker": "D",
+      "style": "người bị chê"
+    }
+  ],
+  "timestamp_origin": "synthetic_schedule_not_real",
+  "evaluation_eligible": false,
+  "human_gold": false,
+  "source_catalogue_sha256": "861b79c4aee35ac9342c9c170c09c49499215a07a3423d10817ca532aeab514c",
+  "label_source": "synthetic",
+  "training_eligible": false
+}

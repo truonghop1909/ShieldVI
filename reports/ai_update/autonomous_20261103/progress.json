@@ -1,0 +1,42 @@
+{
+  "request_sha256": "681dbb3be90b3eb6aa4a04dc7062aeff254b5f2494f4605dd89fab9f83785137",
+  "request_path": "C:\\Users\\admin\\.codex\\attachments\\36b46345-2d16-47af-9d04-b8f437b063a6\\Pasted text.txt",
+  "mode": "REAL_ATTEMPT_THEN_SYNTHETIC_FALLBACK",
+  "real_threads": 0,
+  "real_target": 200,
+  "real_blocker": "Missing genuine Wikimedia operator contact; collector exit2 before network",
+  "synthetic_target": 500,
+  "legacy_synthetic_available": 200,
+  "version_output": "datasets/synthetic_conversations/genz_v2",
+  "new_thread_target": 300,
+  "tasks": {
+    "T028": "BLOCKED",
+    "synthetic_generation": "DONE",
+    "T029": "BLOCKED",
+    "T030": "DONE",
+    "T031": "BLOCKED",
+    "T032": "DONE",
+    "T033": "DONE"
+  },
+  "limits": {
+    "external_paid_api": false,
+    "production_deploy": false,
+    "preserve_v1_threshold": 0.41,
+    "no_human_gold_forgery": true
+  },
+  "next_action": "No safe independent work remains in this request. Continue REAL only with legitimate source/contact/rights; train only with CUDA and matching resource/cost approval. Candidate activation follows measured evaluation and explicit release decision.",
+  "synthetic_threads": 500,
+  "synthetic_comments": 5115,
+  "synthetic_batches": 11,
+  "human_labels": 0,
+  "synthetic_labels": 5115,
+  "candidate": "NOT_TRAINED",
+  "optimizer_steps": 0,
+  "tests": {
+    "root_passed": 358,
+    "social_passed": 177,
+    "browser_passed": 1,
+    "builds_passed": 3
+  },
+  "handoff": "docs/ai-update/final-report/README.md"
+}

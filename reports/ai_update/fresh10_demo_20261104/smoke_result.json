@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:8023/dashboard/",
+  "health": {
+    "status": "ready",
+    "model_loaded": true,
+    "model_path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\candidates\\T029_synthetic_only_head_cpu_20261103_r06",
+    "details": "Sẵn sàng phân tích"
+  },
+  "demo": {
+    "mode": "local_research_only",
+    "model": "r06",
+    "model_loaded": true,
+    "threshold": 0.41,
+    "rules": {
+      "context": "context-v6.1-research",
+      "target": "target-v6.1-research",
+      "repeated": "repeated-v6.1-research"
+    },
+    "readiness_lock_modified": false,
+    "default_modified": false,
+    "training_performed": false,
+    "human_gold": false
+  },
+  "cases": [
+    {
+      "test": 9,
+      "status": "PASS",
+      "comments": 20
+    },
+    {
+      "test": 10,
+      "status": "PASS",
+      "comments": 20
+    },
+    {
+      "test": 7,
+      "status": "PASS",
+      "comments": 20
+    }
+  ],
+  "actual_model_inference": true,
+  "training_performed": false,
+  "readiness": {
+    "status": "PASS",
+    "files_checked": 1311,
+    "errors": [],
+    "lock_sha256": "ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3",
+    "training_performed": false,
+    "model_inference_performed": false,
+    "production_changed": false,
+    "human_gold": false
+  },
+  "launcher_sha256": "37a9f2123d5a23e192d3e8ea753443ab12aef9a2700b9b35a9c335b3e83f6e5d"
+}

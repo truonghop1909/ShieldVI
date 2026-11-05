@@ -1,0 +1,9 @@
+{
+  "name":"shieldvi-legacy-dashboard-compat", "private":true, "version":"1.0.0", "type":"module",
+  "scripts":{
+    "build":"npm --prefix ../apps/moderation-web/legacy-v3 run build --",
+    "dev":"npm --prefix ../apps/moderation-web/legacy-v3 run dev --",
+    "preview":"npm --prefix ../apps/moderation-web/legacy-v3 run preview --",
+    "install:legacy":"npm --prefix ../apps/moderation-web/legacy-v3 ci"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "training_performed": false,
+  "milestones": [
+    {
+      "stage": "TWO_MISSES_AUDITED",
+      "detail": "Both misses are known coverage/safety limits, no technical bug proven: unseen metaphor and66minute gap beyond30minute root exchange. No rule/label edits, no challenge re-inference; preserve4/6/evidence8/8."
+    },
+    {
+      "stage": "T028_TOOLS_VERIFIED",
+      "detail": "47protocol testsPASS; local Chrome UI readinessPASS with0review submissions/no AI predictions. Same-human Round2 rejects stale Round1 revisions at API lock; no runtime fix needed. Real valid0/200, manual intake quarantine is not an admitted cohort. Manual-source promotion still needs verified source receipt/supported adapter; no labels requested or fabricated."
+    },
+    {
+      "stage": "VERSION_AND_EVIDENCE_FROZEN",
+      "detail": "Frozen r06/ViSoBERT/V1.1/r05, context-v5,target-v5,repeated-v5, manifests/schema/evaluation/E2E/tests in READINESS_LOCK.json(1306hashes). Read-only verifierPASS; no runtime/model modifications. Latest stabilization tests will be attached by separate attestation, never reseal this lock."
+    },
+    {
+      "stage": "T028_PROVENANCE_TECHNICAL_FIX_VERIFIED",
+      "detail": "API empty-source URL reproduced500before fix; min_length1 now returns422before quarantine/key writes.48review testsPASS. Original1306file lock unchanged; new tooling-v2 lock appends5proofs, updates only intake/test hashes. Models/context/target/repeated/data/manifests/evaluations remain unchanged; no new gold or network."
+    },
+    {
+      "stage": "T030_AND_T032_FROZEN",
+      "detail": "T030 V1/r05/r06 raw/ablation/confusion/FPFN/target/repeated reports and T032 API contracts/browserE2E/review/appeal/failure recovery/rollback evidence frozen by1311SHA lock. No new performance inference. Independent real metrics remain BLOCKED. New full root620PASS/0FAIL/one deprecation warning;48review tests included. Prior177Social/browser/actual shadow results preserved and hash-verified, not rerun this stage."
+    },
+    {
+      "stage": "FINAL_HANDOFF_COMPLETE",
+      "detail": "\n## Stabilization & Evaluation Readiness — DONE safe scope\n\nTwo residual repeated events audited: unseen cục_chì metaphor;66minute gap beyond30minute reciprocal window. No technical bug proven; no rule/label changes or re-inference to obtain6/6. Preserve old5/5/fresh4/6(P1,R.667,evidence8/8).\n\nREADINESS_LOCK_T028_v2.json seals1311files(model/rule versions, datasets/manifests/reference labels, raw/ablation/confusions/FPFN/target/repeated and integration evidence). Read-only verificationPASS; no resealing. Latest620rootPASS/0FAIL/1warning,48review protocolPASS included; Chrome empty-corpus UIPASS/0submissions/0AI. Prior177Social/browserE2E/actual shadow+rollback preserved and hash-verified, not rerun. Protected259artifacts/V1/default/0.41/test/SQLite unchanged.\n\nT028/T029formalBLOCKED; T030/T031/T032/T033PARTIAL. Technical T032, frozen T030synthetic and provisional T033 handoffDONE; independent acceptance still absent. Real0/200/humanlabels0, collectorPAUSED. Manualintake/anonymization/CSRF/provenance checks and same-humanRound1/Round2 tested; manual inbox still needs verified receipt/supported adapter before source admission. StaleRound2 cannot lock after Round1 revision. Empty-source URL API500 reproduced, one-line min_length1 fix now422/no key/inbox writes; original lock preserved, tooling-v2 lock with SHA lineage. No labels requested/fabricated, no r07/train/deploy/default switch.\n\nReport/checklist/architecture/dataset/training/comparison/error analysis/demo: docs/ai-update/final-report/FINAL_READINESS_REPORT.md. Evidence/reproduction: reports/ai_update/stabilization_20261103/README.md; lock READINESS_LOCK_T028_v2.json, latest-test/report binding READINESS_ATTESTATION.json. New code scripts/verify_ai_readiness_lock.py; scripts/real_dataset/intake.py(min_length1fix); new tests test_ai_readiness_lock.py/test_real_review_lock_readiness.py; AI/Social/frontend/model unchanged. Current authority tasks/CURRENT_AI_SCOPE.json. Next: permitted/source-verifiable real200, privacy/leakage, same-human two rounds and evaluation lock; then predeclared independent evaluation and formal sign-off. No automatic training.\n"
+    }
+  ],
+  "current": "FINAL_HANDOFF_COMPLETE"
+}

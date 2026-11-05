@@ -1,0 +1,342 @@
+[
+  {
+    "path": "app/__init__.py",
+    "bytes": 70,
+    "sha256": "54cfb003ed7c8c72830e3ab3752a2cf78cde7ab6ac2cdb7b86ffe5294df3026b"
+  },
+  {
+    "path": "app/data/lexicon/active.json",
+    "bytes": 16218,
+    "sha256": "299ed25e32ce0ad0cde1957cf9199755dd7c9e2c3316ddc7ccafbd6dcd264f68"
+  },
+  {
+    "path": "app/data/lexicon/candidates.json",
+    "bytes": 5003845,
+    "sha256": "a8c37290d736dbbb40ed860f94e90fbed037e305b00ed9daa379efcab08ca749"
+  },
+  {
+    "path": "app/data/lexicon/manifest.json",
+    "bytes": 4140,
+    "sha256": "b831c10cb8af38d8ecd43b5f1e35b50a35b71f122f4743730cf798b211f24531"
+  },
+  {
+    "path": "app/data/lexicon/README.md",
+    "bytes": 5592,
+    "sha256": "5f680290f86e2969da0e2a9ff36d7ef57fffa6c9593f2e3ba0e3e86c49214322"
+  },
+  {
+    "path": "app/data/lexicon/reviewed_rules.json",
+    "bytes": 13667,
+    "sha256": "3f56070253ae774d24ac4f997071e7bf215b636d8d77e9121695915f8df08a5d"
+  },
+  {
+    "path": "app/data/lexicon/sources/blue_eyes_vi_LICENSE.md",
+    "bytes": 1066,
+    "sha256": "617a6e974eb91d7dd50388e0d2fa05eabfe8a6d65640b4dd31d34fd272d798c3"
+  },
+  {
+    "path": "app/data/lexicon/sources/blue_eyes_vi_README.md",
+    "bytes": 2954,
+    "sha256": "0c4bb4b4df63688b66d5488acaa0d057eab16144238164a70658c93890cad759"
+  },
+  {
+    "path": "app/data/lexicon/sources/blue_eyes_vi_vn_offensive_words.txt",
+    "bytes": 4426,
+    "sha256": "9e5fd21803717edfeb579d6e72b56f302008958adb178ffde2f25e021d91cdf6"
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_data_en.txt",
+    "bytes": 124982,
+    "sha256": "49fe4672510350b1756b3fdf5c69db41625a41f3ba48740d2b9100c2d49c9d36"
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_data_vi.txt",
+    "bytes": 7263,
+    "sha256": "aa76ba6cae9f8b54798c2aa316fcacd7b2a71311900dc693c836481e22b75c8e"
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_LICENSE",
+    "bytes": 7048,
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_README.md",
+    "bytes": 6814,
+    "sha256": "fae3bd711ce9560dad51bc4266485fb4038f84cd5ab3fe73792b67923a839a54"
+  },
+  {
+    "path": "app/data/lexicon/sources/ldnoobw_v2_SOURCES.md",
+    "bytes": 5581,
+    "sha256": "2278c49dc20f419d7995b03855335060c5cae0ab7ebb2a4fba412454ad148ef4"
+  },
+  {
+    "path": "app/data/lexicon/sources/snapshots.json",
+    "bytes": 2380,
+    "sha256": "3c73ce0e4da45787d312e2ebb64fde4f81251704e9987a474b7e07fa34098478"
+  },
+  {
+    "path": "app/database.py",
+    "bytes": 1678,
+    "sha256": "c9a436c9731140301f876fff4dea20c4167c76c847175a2f95f6a8f32b01428e"
+  },
+  {
+    "path": "app/engine.py",
+    "bytes": 6839,
+    "sha256": "34f96dc1250cb6d653afc4075f6c6df27c50668be3adba9c3f49610aef029b2b"
+  },
+  {
+    "path": "app/lexical.py",
+    "bytes": 5510,
+    "sha256": "44534c75db58469e5098905ec416596406d3c68850f2c367e254a70788872d9f"
+  },
+  {
+    "path": "app/main.py",
+    "bytes": 4413,
+    "sha256": "8330043d293876a3f88662b4ccd42e38c5fd98ba80ebbef100a303b29e0b9741"
+  },
+  {
+    "path": "app/predictor.py",
+    "bytes": 2761,
+    "sha256": "9293fcf757eb7c1e9323563f234be85d9a825d0ecc30dd4df3967a989763b86e"
+  },
+  {
+    "path": "app/review_store.py",
+    "bytes": 4345,
+    "sha256": "9e4385aafdfb40ed854047f3f052ed1d692e5b8b8ea72e5f5436458247f74ce3"
+  },
+  {
+    "path": "app/schemas.py",
+    "bytes": 4487,
+    "sha256": "74cbaa4843134582e56f50026b8c863c5e929ba61d0753cffc3d3bbb2bcaf5f9"
+  },
+  {
+    "path": "app/static/assets/index-B6t7Eu4q.js",
+    "bytes": 196877,
+    "sha256": "d7791ba798880b7a966478fef44474b1378840a25f6bf85a82439f3a6b5ea6c0"
+  },
+  {
+    "path": "app/static/assets/index-BaiwjHcP.css",
+    "bytes": 24713,
+    "sha256": "43bb047edc8925510e73fbed17fb37cd30bc74e73ac80bd8585cb599407a661c"
+  },
+  {
+    "path": "app/static/index.html",
+    "bytes": 695,
+    "sha256": "7b981ec04ec96a8434490201e673aca3e00d2226fccc882141097fb3d5e34e7c"
+  },
+  {
+    "path": "frontend/index.html",
+    "bytes": 577,
+    "sha256": "082679d71a6e20f9483eb5fd0595a1338af0a68b9ce86537acc9e019f957aaf5"
+  },
+  {
+    "path": "frontend/package.json",
+    "bytes": 421,
+    "sha256": "c81b5466d5bf43ec5c1b4373b3ad0df2c90eb5b71e8d89375c55a003eb356331"
+  },
+  {
+    "path": "frontend/src/App.jsx",
+    "bytes": 39592,
+    "sha256": "a2ed668d481d8725dce27f70d175cefbd3ad12bd6cd9caede2da1d34722e338a"
+  },
+  {
+    "path": "frontend/src/main.jsx",
+    "bytes": 232,
+    "sha256": "e0872e5d0d073dc8b21df9f60d4ec76a66daeed8c26c46ea1cace58788e38685"
+  },
+  {
+    "path": "frontend/src/styles.css",
+    "bytes": 25233,
+    "sha256": "09174820125fc398ada9f4ad880993e44e50c4a86d57b0c20468ffa061b6bb2d"
+  },
+  {
+    "path": "frontend/src/utils.js",
+    "bytes": 4792,
+    "sha256": "a0e8a24d38b77579ef950f5b163f1494eeecb23d1ca80c493bffe37a891d5d05"
+  },
+  {
+    "path": "frontend/vite.config.js",
+    "bytes": 376,
+    "sha256": "cbc64509e64910c8cb0b77eec3f101fa8bab5c6f682e9417dbfb85f440ea919a"
+  },
+  {
+    "path": "tests/conftest.py",
+    "bytes": 680,
+    "sha256": "110ca68114cf87bb5933da7e1c835bf93e9b0307d49c2476b5a8033e0d6aef6e"
+  },
+  {
+    "path": "tests/test_api.py",
+    "bytes": 3298,
+    "sha256": "57624b886a769bc2bef4283417dd4a03780d9e78c564f9da4854e1638445757d"
+  },
+  {
+    "path": "tests/test_engine.py",
+    "bytes": 2220,
+    "sha256": "0296dda798e6921ffe44f8f8361c4f0c3707ca848defc993091353ddaf71361f"
+  },
+  {
+    "path": "tests/test_lexical.py",
+    "bytes": 3664,
+    "sha256": "0d49a9cda1ca26a3fff303a5d1e81cc411be0c060955ea0569375f18437011cf"
+  },
+  {
+    "path": "tests/test_lexicon_data.py",
+    "bytes": 10438,
+    "sha256": "666cb5c398597fa07cebc92a5c12d54ad346ff47f5618bd02a8fbe6c133b8c35"
+  },
+  {
+    "path": "tests/test_model_refinement.py",
+    "bytes": 3786,
+    "sha256": "44ec8c575bea8a4898c472fe33da3517b5a0fc9b19710eef3cd4ba6ac49b5223"
+  },
+  {
+    "path": "tests/test_social_datasets.py",
+    "bytes": 6239,
+    "sha256": "a1bc27c9ff4bdee86c1b2c56d366e7f103da2dbde9598ca3f80e8aa2e99825c8"
+  },
+  {
+    "path": "notebooks/08_ShieldVI_Dashboard_Colab.ipynb",
+    "bytes": 9285,
+    "sha256": "376248491a50dd8238e41e10f366ffdec4a353ccc176181748f21ac690432724"
+  },
+  {
+    "path": "notebooks/09_ShieldVI_V3_Hybrid_Review_Colab.ipynb",
+    "bytes": 10660,
+    "sha256": "e785466ed6a1fce9a225735669f17893bd7f5e6e31df1a26e312effa0fed6169"
+  },
+  {
+    "path": "scripts/check_dashboard.py",
+    "bytes": 711,
+    "sha256": "3c5cfcd86a0cfcc87b630a620b9c6a32b068457686734f2a64901697aaf64292"
+  },
+  {
+    "path": "scripts/import_lexicon.py",
+    "bytes": 7894,
+    "sha256": "fbb3cd5144164b5080d206bb1a936894627785a0fe2638955a79fcd0a6c1703c"
+  },
+  {
+    "path": "scripts/prepare_social_datasets.py",
+    "bytes": 14896,
+    "sha256": "f9ac3eec73d1b47f30d97119f258ff79715beb60526a6287b99bd8ba4f08465b"
+  },
+  {
+    "path": "scripts/refine_last_block.py",
+    "bytes": 10784,
+    "sha256": "e983f0e147adb9a93c3b0487245047f89c7461424182a7eebd680bbd9bf66d44"
+  },
+  {
+    "path": "scripts/refine_model.py",
+    "bytes": 15106,
+    "sha256": "66a00705b5673a6cc3395a7fda56a526768588df67fc93f7f188aeaeba58a190"
+  },
+  {
+    "path": "models/MODEL_REFINEMENT_REPORT.md",
+    "bytes": 6241,
+    "sha256": "1137ef8e9b55cff3ea327ab317f8d5835a168e311ceb3884808911883869342a"
+  },
+  {
+    "path": "models/README.md",
+    "bytes": 4386,
+    "sha256": "1baff244282db91c8d0f5bd38a8455220f1fa40e274c690a081df274c4ea724e"
+  },
+  {
+    "path": "models/visobert_head_refined/config.json",
+    "bytes": 844,
+    "sha256": "1f801a60d206052245b39647217e853a65774f567f697cc935f0f81c43f59e95"
+  },
+  {
+    "path": "models/visobert_head_refined/initial_ce_report.json",
+    "bytes": 14522,
+    "sha256": "7cd6f2412d0387a8a98e8aa670832b15458e413550b28bbd0a9b571ccc6275cf"
+  },
+  {
+    "path": "models/visobert_head_refined/j97_baseline_diagnostic.json",
+    "bytes": 22227,
+    "sha256": "dcb6e6ea3f889d512a0861b61e60c4f867de5ed29e63452d9867a39c30ba7678"
+  },
+  {
+    "path": "models/visobert_head_refined/j97_refined_api_diagnostic.json",
+    "bytes": 22331,
+    "sha256": "8aeac5753ea6b400f2320306da2e5fc080adc0def3f7b1d6024a395532785c46"
+  },
+  {
+    "path": "models/visobert_head_refined/last_block_report.json",
+    "bytes": 4263,
+    "sha256": "cffc6666d4de07aed85b146210c4ca8e75902fe6b0f179e9edf889a382b7390e"
+  },
+  {
+    "path": "models/visobert_head_refined/model.safetensors",
+    "bytes": 390294040,
+    "sha256": "ed93c9badcdd198d42dddd7ea3744ea961475ed69f4b3baad8726d9e57b3bce1"
+  },
+  {
+    "path": "models/visobert_head_refined/refinement_report.json",
+    "bytes": 10429,
+    "sha256": "6424b2fd37040e8e01f921f9affd4708b9f48192986e25647c88b5cfba6873c0"
+  },
+  {
+    "path": "models/visobert_head_refined/regularized_head_report.json",
+    "bytes": 10813,
+    "sha256": "4ba10637e294bc566542324d3925aaec4deb958eac96e0cdecff78b057bb8b11"
+  },
+  {
+    "path": "models/visobert_head_refined/special_tokens_map.json",
+    "bytes": 1015,
+    "sha256": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307"
+  },
+  {
+    "path": "models/visobert_head_refined/test_predictions.csv",
+    "bytes": 48370,
+    "sha256": "6be22ff1ffd387dcd0df4f52bcaef5ff7018717123c4b9d77ac92654d8137001"
+  },
+  {
+    "path": "models/visobert_head_refined/threshold_config.json",
+    "bytes": 264,
+    "sha256": "c6eb56f345912e009bbedc2ece09df581aac0ccc3a72a3c930d705ee1c509fa9"
+  },
+  {
+    "path": "models/visobert_head_refined/tokenizer.json",
+    "bytes": 1803052,
+    "sha256": "f8483eb97495576dc3da7d67f2ebd8b34f65eb7c36c12f5bd68841e648f277f2"
+  },
+  {
+    "path": "models/visobert_head_refined/tokenizer_config.json",
+    "bytes": 1398,
+    "sha256": "255791408a94cd4d4a7e37f5f796b0baf9a870220617cae250ba2c952270c564"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 138,
+    "sha256": "39a8175a036935cccbb2e7f3a67b567bd7d604ea8f789ff0e9c54f49d80c6228"
+  },
+  {
+    "path": "pytest.ini",
+    "bytes": 42,
+    "sha256": "b160d82f7811555051f8966d8e02750a985227c1d022208c784e606946f2eada"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7852,
+    "sha256": "6a078d5df9bca60e8f3e3d9abda6051a158024ca03066fbf12007b27f4bf4742"
+  },
+  {
+    "path": "requirements-dev.txt",
+    "bytes": 49,
+    "sha256": "c23feb58b6f9cab899b3e457b6cad56158f5315b366cd0f7a210feef72af395b"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 158,
+    "sha256": "16f2d1c24323b178434eec1b85fbc54294b9f052f0619894560543bf87e725e1"
+  },
+  {
+    "path": "run_windows_dashboard.bat",
+    "bytes": 610,
+    "sha256": "bc865b795b0f6adb26df4950f3dbc1fd9fb7010f95df261338c914aeb35b323f"
+  },
+  {
+    "path": "shieldvi_reviews.sqlite3",
+    "bytes": 16384,
+    "sha256": "e6ddbf88e91b3b435cd81db300189ecc9c4f93442d0f432c8fbcf1815616026e"
+  }
+]

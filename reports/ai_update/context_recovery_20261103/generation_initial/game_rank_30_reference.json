@@ -1,0 +1,60 @@
+{
+  "thread_id": "SHIELDVI_GENZ_01_01_GAME_RANK_LAG",
+  "input_file": "datasets/fixtures/genz_regression/SHIELDVI_01_GAME_RANK_LAG_30.json",
+  "input_sha256": "db0a31f70e462aaa2eb575dd443ded27100b30493dc176093b36b7c2311927c2",
+  "label_source": "user_provided_reference",
+  "human_gold": false,
+  "review_status": "REFERENCE_ONLY",
+  "independent_evaluation_eligible": false,
+  "provenance_note": "User correction for development regression, not an independently adjudicated human-gold dataset.",
+  "attachment_sha256": "103caa8125b2c971251ddb306b1b2360494e06619384e5ff3374b180b23174c8",
+  "labels": {
+    "c01": "CLEAN",
+    "c02": "CLEAN",
+    "c03": "CLEAN",
+    "c04": "CLEAN",
+    "c05": "CLEAN",
+    "c06": "CLEAN",
+    "c07": "CLEAN",
+    "c08": "TOXIC",
+    "c09": "CLEAN",
+    "c10": "CLEAN",
+    "c11": "TOXIC",
+    "c12": "CLEAN",
+    "c13": "CLEAN",
+    "c14": "CLEAN",
+    "c15": "TOXIC",
+    "c16": "CLEAN",
+    "c17": "CLEAN",
+    "c18": "TOXIC",
+    "c19": "CLEAN",
+    "c20": "CLEAN",
+    "c21": "CLEAN",
+    "c22": "CLEAN",
+    "c23": "CLEAN",
+    "c24": "CLEAN",
+    "c25": "CLEAN",
+    "c26": "CLEAN",
+    "c27": "CLEAN",
+    "c28": "CLEAN",
+    "c29": "CLEAN",
+    "c30": "CLEAN"
+  },
+  "expected_repeated": {
+    "actor_user_id": "U02",
+    "target_user_id": "U03",
+    "evidence_comment_ids": [
+      "c08",
+      "c11",
+      "c15",
+      "c18"
+    ]
+  },
+  "focus_context_AI_reference": {
+    "c12": "INTERVENTION",
+    "c16": "INTERVENTION",
+    "c21": "ACKNOWLEDGEMENT",
+    "c23": "APOLOGY",
+    "c24": "DEFENSE"
+  }
+}

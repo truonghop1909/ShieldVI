@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETE_REQUESTED_FIX_NOT_MODEL_TRAINING",
+  "task": "T028",
+  "task_status": "DONE",
+  "protocol": "synthetic_research_context_recovery_v1",
+  "real_required": false,
+  "real_collected_in_session": 0,
+  "existing_GenZ_threads_unchanged": 500,
+  "new_AI_threads": 12,
+  "new_AI_comments": 120,
+  "user_reference_comments": 30,
+  "human_gold": false,
+  "game_raw_before_after": {
+    "tp": 4,
+    "fp": 5,
+    "tn": 21,
+    "fn": 0
+  },
+  "game_advisory_after": {
+    "tp": 4,
+    "fp": 0,
+    "tn": 26,
+    "fn": 0
+  },
+  "raw_scores_changed": false,
+  "game_evidence": [
+    "c08",
+    "c11",
+    "c15",
+    "c18"
+  ],
+  "cross_thread_new_errors": 0,
+  "GenZ_remaining_repeated_fn": 7,
+  "tests": {
+    "root_passed": 417,
+    "Social_passed": 177,
+    "Dashboard_browser": "PASS recorded-response replay",
+    "Social_E2E": "PASS fixture AI",
+    "actual_V1_after_API": "PASS",
+    "Dashboard_build": "PASS",
+    "jsonschema_validator": "NOT_INSTALLED_TYPED_DTO_PASSED"
+  },
+  "initial_regressions_preserved_in": "attempt1_before_after.json",
+  "candidate": "NOT_TRAINED",
+  "threshold": 0.41,
+  "production_deployed": false,
+  "local_demo_static_updated": true,
+  "next_action": "Restart the local backend and hard-refresh /dashboard/ to use V2. No further task started; T029 still requires CUDA and exact resource approval. Never turn these development references into independent gold."
+}

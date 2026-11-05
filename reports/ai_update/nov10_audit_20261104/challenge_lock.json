@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-11-04T01:44:54.644884+00:00",
+  "experimental_module_sha256": "8f3a4fe5b78b99b126a418b8ef1c40c756c995c22c876265e09f419a60b7c493",
+  "rules_modified": false,
+  "post_inference_tuning_allowed": false,
+  "training_allowed": false,
+  "human_gold": false,
+  "readiness_lock_sha256": "ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3",
+  "nov10_metrics_sha256": "5afcc5869bb28ca91128c80d9afb0ef695ee32aef99a2081dc3ddf28cc2a0025"
+}

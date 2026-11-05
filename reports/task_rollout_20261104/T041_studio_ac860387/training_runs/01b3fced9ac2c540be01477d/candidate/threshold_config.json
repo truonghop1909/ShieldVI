@@ -1,0 +1,8 @@
+{
+  "threshold": 0.41,
+  "model_version": "T041_01b3fced9ac2c540be01477d (frozen encoder, CPU head)",
+  "approval_status": "shadow_only_not_activated",
+  "training_strategy": "frozen_encoder_head_cpu",
+  "selected_epoch": 1,
+  "validation_macro_f1": 1.0
+}

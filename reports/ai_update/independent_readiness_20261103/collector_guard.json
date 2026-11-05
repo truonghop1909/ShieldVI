@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED",
+  "reason": "User paused Wikimedia collection: no operator contact; do not invent contact, accounts, URLs or browser User-Agent.",
+  "threads": 0,
+  "collection_paused": true,
+  "network_requests": 0
+}

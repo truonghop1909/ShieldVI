@@ -1,0 +1,131 @@
+{
+  "models_not_packaged": true,
+  "candidate_weights_sha256": "604223f61d8972993c3ed35310e8c8acd90965c14b56643041d0e6493337226b",
+  "broken_links": [],
+  "files": {
+    "configs/t029_genz500_cpu_head_r04.json": {
+      "sha256": "696cd8a9dc0664771eead80158753a57083f23128ac15ecef773f5df6808ae25",
+      "bytes": 1745
+    },
+    "docs/ai-update/02_ANNOTATION_GUIDE.md": {
+      "sha256": "71ef19b2ba490480c131245e3debbecd4ef0a772b1adf97a983c7279221d9357",
+      "bytes": 4411
+    },
+    "docs/ai-update/03_EXPERIMENT_PLAN.md": {
+      "sha256": "dff9713c624544c50159598cf85dfd385ffc6a79ccf8a565f64d204e8a6111c8",
+      "bytes": 4572
+    },
+    "docs/ai-update/05_RELEASE_GATES.md": {
+      "sha256": "47a584b820deffd476ba1b5c8f7a6df343646d3112b7ab48be973d10ff97c208",
+      "bytes": 6222
+    },
+    "docs/ai-update/final-report/CANDIDATE_REVISION_R04.md": {
+      "sha256": "0680bcbdf0c3687133ed1006573f4e2f6a5a7ca097ea396bbb3ecfac6b84e3eb",
+      "bytes": 3960
+    },
+    "models/candidates/T029_genz500_head_cpu_20261103_r04/threshold_config.json": {
+      "sha256": "9ab0cc4d7467674838779320adc82de949798422283f832ba92ff55ede5e6a1b",
+      "bytes": 284
+    },
+    "models/candidates/T029_genz500_head_cpu_20261103_r04/training_report.json": {
+      "sha256": "3e90bb8b646acc29d3b00ae64421558f9b0cce5b6c1c257e2991822ed99fb06c",
+      "bytes": 5857
+    },
+    "reports/ai_update/candidate_revision_20261103/cpu_authorization.json": {
+      "sha256": "2f821062b3338f0e9692c23cd98abc017b5e492620dc3681badb589f40288d70",
+      "bytes": 932
+    },
+    "reports/ai_update/candidate_revision_20261103/finalize_revision.py": {
+      "sha256": "ca59810c538242bb811ef457df5c055ee3fee59f4dc1544687cb02d1ca249117",
+      "bytes": 12819
+    },
+    "reports/ai_update/candidate_revision_20261103/integrity_audit.json": {
+      "sha256": "53799eddf4d11badbcbb2d91987faf47d58780731f3632c38263c1ba94cb4fb6",
+      "bytes": 837
+    },
+    "reports/ai_update/candidate_revision_20261103/predeclared_experiment.json": {
+      "sha256": "4f555131baa62291f3dbe91a63b60748b3fb95ed9e9082d128905b8d80cd8a6f",
+      "bytes": 1578
+    },
+    "reports/ai_update/candidate_revision_20261103/preflight.json": {
+      "sha256": "0330aa5fcd61a3761ad26d0ef5677441b9f17bae13d6336a30ccd7d8b38fd92e",
+      "bytes": 172
+    },
+    "reports/ai_update/candidate_revision_20261103/preflight.log": {
+      "sha256": "ee62c0c428609800adf1749250a10c795dbde54dfa2fab03b916270ad92da4b3",
+      "bytes": 286
+    },
+    "reports/ai_update/candidate_revision_20261103/prepared/manifest.json": {
+      "sha256": "471db4034f17b56eb164d6e0ad266db543c339770a655d3e429958ea41406214",
+      "bytes": 4944
+    },
+    "reports/ai_update/candidate_revision_20261103/prepared/train.jsonl": {
+      "sha256": "7805551e7e8db15c7fd731a578ef5e707a9adf72fdf38dd547af7f6cfa9ca2ed",
+      "bytes": 3029652
+    },
+    "reports/ai_update/candidate_revision_20261103/prepared/validation.jsonl": {
+      "sha256": "e554bf12121d21581808d982d92187121d1aa69350468a4333fbfce18fd8623e",
+      "bytes": 427710
+    },
+    "reports/ai_update/candidate_revision_20261103/progress.json": {
+      "sha256": "16ec535f652a544fc904ab99f3432d41c8ef8ceeb5473ef90539698157d8d55c",
+      "bytes": 597
+    },
+    "reports/ai_update/candidate_revision_20261103/root_tests.log": {
+      "sha256": "0329bf78f72f0135f7a8690738a32af90d2e4b2f5c7c191c17c77bc0651c422c",
+      "bytes": 2156
+    },
+    "reports/ai_update/candidate_revision_20261103/setup_revision.py": {
+      "sha256": "68f083b2d843f5469ec45a973f668d890bf3a6b572971c96f8da892ebc0ac693",
+      "bytes": 5320
+    },
+    "reports/ai_update/candidate_revision_20261103/task_inventory.json": {
+      "sha256": "7eb2bb39657f6a2e4d6770999c7112c70300714a431c684d199b4111faf898d2",
+      "bytes": 2829
+    },
+    "reports/ai_update/candidate_revision_20261103/training.log": {
+      "sha256": "91fb566a6b53a81ed407e020201c6ba2602bf9705bb6e0fa8c7d1c61b2764a25",
+      "bytes": 20206
+    },
+    "reports/ai_update/candidate_revision_20261103/training_execution.json": {
+      "sha256": "3e90bb8b646acc29d3b00ae64421558f9b0cce5b6c1c257e2991822ed99fb06c",
+      "bytes": 5857
+    },
+    "reports/ai_update/candidate_revision_20261103/validation_references.json": {
+      "sha256": "e79202be719062dd4a1911756c4241faf31b529e31f674d9337a583f7a356c39",
+      "bytes": 711
+    },
+    "reports/ai_update/candidate_revision_20261103/validation_review.json": {
+      "sha256": "58c0efdf3a609c6adceeb51a1d2134954249b6f03e0b663092623e8df64206df",
+      "bytes": 2196
+    },
+    "scripts/review_t029_validation.py": {
+      "sha256": "ae477d254e464aacd04cca9cd3bdccd627ca92d481421206a8053a13966c6231",
+      "bytes": 5112
+    },
+    "tasks/AUTO_PROGRESS.md": {
+      "sha256": "362d6083882fe755c8e2a128acc427d355eaa2293a56ff1a0d83f9de47a72e97",
+      "bytes": 50478
+    },
+    "tasks/moderation-ai/T029-optional-train-candidate-visobert-on-colab.md": {
+      "sha256": "6063ffb90a7447c070d13b9d9dbe0ed1fb3453fc8833f1959f0a20e3d009bd6e",
+      "bytes": 10670
+    },
+    "tasks/moderation-ai/T031-optional-model-registry-shadow-and-rollbac.md": {
+      "sha256": "2745f1aa2d4e7b5c09df3caff380d54b701f347890b51419abe1f72b6c87ee44",
+      "bytes": 7750
+    },
+    "tasks/moderation-ai/TASK_ORDER_AI.md": {
+      "sha256": "2428be6aef1c08686260df453d60c55470a373056ba8848b917810ce068e2a4b",
+      "bytes": 6198
+    },
+    "tasks/TASK_ORDER.md": {
+      "sha256": "e626f67d7a2cc8407476288211f4a54ba652856232f0bf2c3ae779fdf1378077",
+      "bytes": 11543
+    },
+    "tests/test_t029_validation_review.py": {
+      "sha256": "d3d9afaa35435ee9832c6da9cc13852e54667a33f7ff008a8d821419c139f101",
+      "bytes": 5709
+    }
+  }
+}

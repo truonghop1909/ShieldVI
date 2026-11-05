@@ -1,0 +1,20 @@
+{
+  "command": [
+    "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "pytest",
+    "-q",
+    "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\ai_update\\baseline\\2026-11-02_T020\\test_tmp_before"
+  ],
+  "cwd": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai",
+  "exit_code": 0,
+  "elapsed_seconds": 5.157,
+  "log": "pytest_before.txt",
+  "summary": "170 passed, 1 warning in 3.64s"
+}

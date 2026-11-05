@@ -1,0 +1,13 @@
+{
+  "status": "BLOCKED",
+  "blockers": [
+    "G2: T028 independent real verified evaluation missing",
+    "G3: exact config/data/resource approval receipt missing",
+    "CUDA GPU unavailable; CPU training is disabled"
+  ],
+  "versions": {
+    "transformers": "4.57.3",
+    "huggingface-hub": "0.36.2"
+  },
+  "training_performed": false
+}

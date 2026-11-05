@@ -1,0 +1,50 @@
+{
+  "id": "04bc7dafe4cb8360d7acb0c0",
+  "status": "ACCEPTED",
+  "report": {
+    "schema_version": "studio-quality-1.0",
+    "errors": [],
+    "quarantine": [],
+    "warnings": [],
+    "comments": 2,
+    "threads": 1,
+    "labels": {
+      "CLEAN": 2
+    },
+    "review_ratio": 0,
+    "near_comparisons": 4449,
+    "near_duplicate_policy": "Normalized comment >=40 chars and development whole-thread Jaccard >=0.90; 1M comparison cap fails closed; unknown pretraining not auditable",
+    "training_eligible": true
+  },
+  "manifest": {
+    "schema_version": "studio-dataset-1.0",
+    "data_origin": "synthetic",
+    "dataset_type": "PRELABELED",
+    "source_sha256": "35dd5cc5e3c2cf7be56df16a227b312bdf3ab7dd0dd4c7b3fe8cf3768c7b0b0b",
+    "normalized_sha256": "63fb44e080bb684ab5d6817b5b7e8f1ef44962095bff87ab9a726a524ea9d5bb",
+    "request_sha256": "04bc7dafe4cb8360d7acb0c081cb8cca00f50569f01a2a40fb4aaa157c1c3350",
+    "parent_version": "61856c8cb54825ae0e4a3203",
+    "provenance": {
+      "annotation_receipt_sha256": "f2b321304b2279dfbfb0c11ad140ed1bba23431a390baa8bc7323d58cf4ac792",
+      "solo_review": true,
+      "human_gold": false,
+      "synthetic_reference_remains_synthetic": true
+    },
+    "exclusions_sha256": "c9d42dcfa7bbb97cd19786d00d422d660e48a47b26e8a61d5dabca1cb6363020",
+    "split_policy": "thread-sha256-70-15-15-v1",
+    "split_locked": true,
+    "label_source": "synthetic_reference",
+    "counts": {
+      "train": 2,
+      "validation": 0,
+      "test": 0
+    },
+    "comments": 2,
+    "threads": 1,
+    "not_human_gold": true
+  },
+  "replayed": false,
+  "annotation_receipt_sha256": "f2b321304b2279dfbfb0c11ad140ed1bba23431a390baa8bc7323d58cf4ac792",
+  "snapshot_state": "LOCKED",
+  "human_gold": false
+}

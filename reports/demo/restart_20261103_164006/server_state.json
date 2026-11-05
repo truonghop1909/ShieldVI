@@ -1,0 +1,32 @@
+﻿[
+    {
+        "name":  "approved_V1_1",
+        "port":  8020,
+        "process_id":  10304,
+        "model_path":  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+        "model_sha256":  "ed93c9badcdd198d42dddd7ea3744ea961475ed69f4b3baad8726d9e57b3bce1",
+        "approved_default":  true,
+        "status":  "READY",
+        "stdout":  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\demo\\restart_20261103_164006\\approved_V1_1.stdout.log",
+        "stderr":  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\demo\\restart_20261103_164006\\approved_V1_1.stderr.log",
+        "server_process_id":  17896,
+        "pid_source":  "uvicorn startup log; CIM TCP inventory unavailable",
+        "dashboard_status":  200,
+        "analyze_v2_status":  200
+    },
+    {
+        "name":  "experimental_r05",
+        "port":  8021,
+        "process_id":  1980,
+        "model_path":  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\candidates\\T029_genz500_head_cpu_20261103_r05",
+        "model_sha256":  "a7150ede39a348931ce7794d75d69a66cf53c9f646413b0d064caa43e3255be8",
+        "approved_default":  false,
+        "status":  "READY",
+        "stdout":  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\demo\\restart_20261103_164006\\experimental_r05.stdout.log",
+        "stderr":  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\reports\\demo\\restart_20261103_164006\\experimental_r05.stderr.log",
+        "server_process_id":  26480,
+        "pid_source":  "uvicorn startup log; CIM TCP inventory unavailable",
+        "dashboard_status":  200,
+        "analyze_v2_status":  200
+    }
+]

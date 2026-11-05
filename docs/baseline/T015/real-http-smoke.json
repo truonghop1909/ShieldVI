@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "real_cpu_inference": true,
+  "synthetic_comments": 3,
+  "model_name": "ViSoBERT V1.1 — ViCTSD",
+  "threshold": 0.41,
+  "legacy_response_equal": true,
+  "internal_response_equal_except_timestamp": true,
+  "openapi_equal": true,
+  "static_byte_equal": true,
+  "static_hashes": {
+    "/dashboard/": "7b981ec04ec96a8434490201e673aca3e00d2226fccc882141097fb3d5e34e7c",
+    "/dashboard/assets/index-B6t7Eu4q.js": "d7791ba798880b7a966478fef44474b1378840a25f6bf85a82439f3a6b5ea6c0",
+    "/dashboard/assets/index-BaiwjHcP.css": "43bb047edc8925510e73fbed17fb37cd30bc74e73ac80bd8585cb599407a661c"
+  },
+  "scores": [
+    0.007649,
+    0.283179,
+    0.970688
+  ],
+  "review_roundtrip_both_layouts": true,
+  "summary_roundtrip_both_layouts": true,
+  "database_writes": "temporary_only",
+  "canonical_used_default_approved_checkpoint": true,
+  "rollback_source_rehearsed_over_http": true,
+  "owned_servers_stopped": true
+}

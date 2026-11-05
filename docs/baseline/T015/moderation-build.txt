@@ -1,0 +1,13 @@
+
+> shieldvi-moderation-web@0.1.0 build
+> vite build --configLoader runner
+
+vite v6.4.5 building for production...
+transforming...
+✓ 1579 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.42 kB │ gzip:  0.30 kB
+dist/assets/index-K_B6gTWA.css    9.09 kB │ gzip:  2.67 kB
+dist/assets/index-TdIkgFRx.js   166.61 kB │ gzip: 53.84 kB
+✓ built in 1.86s

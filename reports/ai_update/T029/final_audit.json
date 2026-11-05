@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "task": "T029",
+  "task_status": "BLOCKED",
+  "preparation_status": "PREPARED_NOT_TRAINED",
+  "pytest": "344 passed, 1 warning",
+  "base_smoke": "PASS real V1 CPU forward only",
+  "optimizer_steps": 0,
+  "training_performed": false,
+  "notebook_executed": false,
+  "protected_files_unchanged": 31,
+  "source_hashes_unchanged": true,
+  "prepared_counts": {
+    "gold_train_rows": 6942,
+    "synthetic_train_rows": 1994,
+    "total_train_rows": 8936,
+    "synthetic_fraction": 0.22314234556848703
+  },
+  "blockers": [
+    "G2/T028 independent real evaluation not ready",
+    "G3 exact dataset/config/resource receipt not approved",
+    "CUDA GPU unavailable locally"
+  ],
+  "candidate_created": false,
+  "threshold": 0.41,
+  "test_labels_used": false,
+  "test_scored": false,
+  "default_model_changed": false,
+  "subsequent_tasks_started": false
+}

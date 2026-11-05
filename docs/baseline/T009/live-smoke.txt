@@ -1,0 +1,14 @@
+CLI alembic upgrade head: EXIT_CODE=0
+GET /health 200
+POST /api/v1/auth/register 201
+POST /api/v1/auth/login 200
+POST /api/v1/posts 201
+POST /api/v1/posts 200
+POST /api/v1/posts/5bf291a8-7f37-43df-a4d6-c7b9a433db0f/comments 201
+POST /api/v1/posts/5bf291a8-7f37-43df-a4d6-c7b9a433db0f/comments 201
+GET /api/v1/posts/5bf291a8-7f37-43df-a4d6-c7b9a433db0f/comments 200
+GET /api/v1/feed 200
+PATCH /api/v1/posts/5bf291a8-7f37-43df-a4d6-c7b9a433db0f 200
+DELETE /api/v1/comments/dde8afdc-391d-4976-b1e8-f9c45bea051c 200
+GET /openapi.json 200
+PASS: pending content stays out of public feed; no AI calls; only synthetic account in temporary DB

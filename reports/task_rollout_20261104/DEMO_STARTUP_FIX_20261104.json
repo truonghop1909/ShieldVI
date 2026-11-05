@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "change": "T043 demo startup follow-up",
+  "previous_inventory_preserved": true,
+  "unit_tests_pass": 3,
+  "actual_browser_contexts_pass": 4,
+  "operator_interrupt_cleanup_pass": true,
+  "training_performed": false,
+  "production_changed": false,
+  "files": {
+    "reports/task_rollout_20261104/run_browser_actual.py": {
+      "sha256": "8d772aa6226fbd6204a73c9393393a46adfd2f60d19faf944899d4688bc30de3",
+      "previous_handoff_sha256": "7ee005fd5f048a48e6e7a50669c46992e2f8484fbe13873d9aeacc55e801c729"
+    },
+    "reports/task_rollout_20261104/test_demo_startup.py": {
+      "sha256": "1c02ad821b0c43dd2b1dbe363dd327231b459867f63fa2e0fcbc835eb94a1a2b",
+      "previous_handoff_sha256": null
+    },
+    "reports/task_rollout_20261104/check_demo_interrupt.py": {
+      "sha256": "333c5437ce37761d90bcd799ee17cf1ce9eeddfd1aebfa56cc4ab9341f3952f3",
+      "previous_handoff_sha256": null
+    },
+    "reports/task_rollout_20261104/DEMO_STARTUP_FIX_tests.log": {
+      "sha256": "d2cf84178d5078a24b68fe7c4c3280a4c37657029ce132021ab9f2ddb1105773",
+      "previous_handoff_sha256": null
+    },
+    "reports/task_rollout_20261104/DEMO_STARTUP_FIX_e2e.log": {
+      "sha256": "d8fe7cb23a298a9d1499ffa57260da08c2bf7978d78e8084565b3bb8aa406b20",
+      "previous_handoff_sha256": null
+    },
+    "reports/task_rollout_20261104/DEMO_STARTUP_FIX_interrupt.log": {
+      "sha256": "6c020f658b93dbf2928efb665478005d538a02bf4f4fb6da30be1574017a8bd4",
+      "previous_handoff_sha256": null
+    },
+    "reports/task_rollout_20261104/DEMO_STARTUP_FIX_interrupt.json": {
+      "sha256": "b071761f33c347ba329e47ff3f9102b0cff627ee56fe426aa2468e58c827df40",
+      "previous_handoff_sha256": null
+    },
+    "reports/task_rollout_20261104/demo_9f5f32d579c29855/interactive_check.json": {
+      "sha256": "c5ba1c4429ed60bd6be13274fd2b9221ac91554cc491396002b35a415503e3c2",
+      "previous_handoff_sha256": null
+    },
+    "tasks/AUTO_PROGRESS.md": {
+      "sha256": "95550a639ff2782f51c3b84b7ac90f4d8a15f26ce9e9df9eea47eff23f6c6500",
+      "previous_handoff_sha256": "b095bb7a11f3a45aabf78d0ce9f1e6b3bbc6e4bd4e185bc364c1b1dba327ed22"
+    },
+    "tasks/moderation-ai/T043-realtime-studio-e2e-handoff.md": {
+      "sha256": "2cd15a66c5d508d9270c1806fd7c721a352a1494072b21d29a409321c434b92a",
+      "previous_handoff_sha256": "38507d8df2b2168b5c134f77ef4fdea0fb5af047d0d8c4f760d87d83fc5e9bce"
+    },
+    "docs/ai-update/final-report/REALTIME_DEMO_GUIDE.md": {
+      "sha256": "44a4199b83916a928c3e4cb3cb1f5885e11a6aacad24b393b68f4ed843f8feb5",
+      "previous_handoff_sha256": "8ddd5b040be6a7da18435a2fe5b2e0392cc56484ba64167894eb2664b6bf0627"
+    }
+  }
+}

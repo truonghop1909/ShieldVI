@@ -1,0 +1,527 @@
+{
+  "fresh10": {
+    "classification": {
+      "before": {
+        "n": 195,
+        "tp": 18,
+        "fp": 1,
+        "tn": 172,
+        "fn": 4,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.9473684210526315,
+        "toxic_recall": 0.8181818181818182,
+        "macro_f1": 0.9318610664616676,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      },
+      "after": {
+        "n": 195,
+        "tp": 18,
+        "fp": 1,
+        "tn": 172,
+        "fn": 4,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.9473684210526315,
+        "toxic_recall": 0.8181818181818182,
+        "macro_f1": 0.9318610664616676,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      }
+    },
+    "grounding": {
+      "before": {
+        "reference_comments_with_target_coverage": 195,
+        "reference_attacks": 22,
+        "target_emissions": 16,
+        "target_correct": 16,
+        "target_precision": 1.0,
+        "target_recall": 0.7272727272727273,
+        "target_abstentions_on_reference_attacks": 6,
+        "repeated": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.8571428571428571,
+          "f1": 0.9230769230769231,
+          "evidence_correct": 15,
+          "evidence_total": 15,
+          "evidence_precision": 1.0
+        }
+      },
+      "after": {
+        "reference_comments_with_target_coverage": 195,
+        "reference_attacks": 22,
+        "target_emissions": 16,
+        "target_correct": 16,
+        "target_precision": 1.0,
+        "target_recall": 0.7272727272727273,
+        "target_abstentions_on_reference_attacks": 6,
+        "repeated": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.8571428571428571,
+          "f1": 0.9230769230769231,
+          "evidence_correct": 15,
+          "evidence_total": 15,
+          "evidence_precision": 1.0
+        }
+      }
+    },
+    "new_label_errors": []
+  },
+  "nov10": {
+    "classification": {
+      "before": {
+        "n": 199,
+        "tp": 7,
+        "fp": 3,
+        "tn": 174,
+        "fn": 15,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.7,
+        "toxic_recall": 0.3181818181818182,
+        "macro_f1": 0.6941598360655737,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      },
+      "after": {
+        "n": 199,
+        "tp": 8,
+        "fp": 3,
+        "tn": 174,
+        "fn": 14,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.7272727272727273,
+        "toxic_recall": 0.36363636363636365,
+        "macro_f1": 0.7191365711913658,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      }
+    },
+    "grounding": {
+      "before": {
+        "reference_comments_with_target_coverage": 199,
+        "reference_attacks": 22,
+        "target_emissions": 0,
+        "target_correct": 0,
+        "target_precision": 0.0,
+        "target_recall": 0.0,
+        "target_abstentions_on_reference_attacks": 22,
+        "repeated": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "evidence_correct": 0,
+          "evidence_total": 0,
+          "evidence_precision": 0.0
+        }
+      },
+      "after": {
+        "reference_comments_with_target_coverage": 199,
+        "reference_attacks": 22,
+        "target_emissions": 2,
+        "target_correct": 2,
+        "target_precision": 1.0,
+        "target_recall": 0.09090909090909091,
+        "target_abstentions_on_reference_attacks": 20,
+        "repeated": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.125,
+          "f1": 0.2222222222222222,
+          "evidence_correct": 2,
+          "evidence_total": 2,
+          "evidence_precision": 1.0
+        }
+      }
+    },
+    "new_label_errors": []
+  },
+  "old890": {
+    "classification": {
+      "before": {
+        "n": 886,
+        "tp": 62,
+        "fp": 18,
+        "tn": 802,
+        "fn": 4,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.775,
+        "toxic_recall": 0.9393939393939394,
+        "macro_f1": 0.9178924665958987,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      },
+      "after": {
+        "n": 886,
+        "tp": 62,
+        "fp": 18,
+        "tn": 802,
+        "fn": 4,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.775,
+        "toxic_recall": 0.9393939393939394,
+        "macro_f1": 0.9178924665958987,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      }
+    },
+    "grounding": {
+      "before": {
+        "reference_comments_with_target_coverage": 797,
+        "reference_attacks": 54,
+        "target_emissions": 41,
+        "target_correct": 41,
+        "target_precision": 1.0,
+        "target_recall": 0.7592592592592593,
+        "target_abstentions_on_reference_attacks": 13,
+        "repeated": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888,
+          "evidence_correct": 20,
+          "evidence_total": 20,
+          "evidence_precision": 1.0
+        }
+      },
+      "after": {
+        "reference_comments_with_target_coverage": 797,
+        "reference_attacks": 54,
+        "target_emissions": 41,
+        "target_correct": 41,
+        "target_precision": 1.0,
+        "target_recall": 0.7592592592592593,
+        "target_abstentions_on_reference_attacks": 13,
+        "repeated": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888,
+          "evidence_correct": 20,
+          "evidence_total": 20,
+          "evidence_precision": 1.0
+        }
+      }
+    },
+    "new_label_errors": []
+  },
+  "postfix48": {
+    "classification": {
+      "before": {
+        "n": 47,
+        "tp": 8,
+        "fp": 1,
+        "tn": 38,
+        "fn": 0,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.8888888888888888,
+        "toxic_recall": 1.0,
+        "macro_f1": 0.9640947288006112,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      },
+      "after": {
+        "n": 47,
+        "tp": 8,
+        "fp": 1,
+        "tn": 38,
+        "fn": 0,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.8888888888888888,
+        "toxic_recall": 1.0,
+        "macro_f1": 0.9640947288006112,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      }
+    },
+    "grounding": {
+      "before": {
+        "reference_comments_with_target_coverage": 47,
+        "reference_attacks": 8,
+        "target_emissions": 8,
+        "target_correct": 8,
+        "target_precision": 1.0,
+        "target_recall": 1.0,
+        "target_abstentions_on_reference_attacks": 0,
+        "repeated": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "evidence_correct": 6,
+          "evidence_total": 6,
+          "evidence_precision": 1.0
+        }
+      },
+      "after": {
+        "reference_comments_with_target_coverage": 47,
+        "reference_attacks": 8,
+        "target_emissions": 8,
+        "target_correct": 8,
+        "target_precision": 1.0,
+        "target_recall": 1.0,
+        "target_abstentions_on_reference_attacks": 0,
+        "repeated": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "evidence_correct": 6,
+          "evidence_total": 6,
+          "evidence_precision": 1.0
+        }
+      }
+    },
+    "new_label_errors": []
+  },
+  "postfix24": {
+    "classification": {
+      "before": {
+        "n": 24,
+        "tp": 5,
+        "fp": 1,
+        "tn": 17,
+        "fn": 1,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.8333333333333334,
+        "toxic_recall": 0.8333333333333334,
+        "macro_f1": 0.8888888888888888,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      },
+      "after": {
+        "n": 24,
+        "tp": 6,
+        "fp": 1,
+        "tn": 17,
+        "fn": 0,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.8571428571428571,
+        "toxic_recall": 1.0,
+        "macro_f1": 0.9472527472527472,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      }
+    },
+    "grounding": {
+      "before": {
+        "reference_comments_with_target_coverage": 24,
+        "reference_attacks": 6,
+        "target_emissions": 5,
+        "target_correct": 5,
+        "target_precision": 1.0,
+        "target_recall": 0.8333333333333334,
+        "target_abstentions_on_reference_attacks": 1,
+        "repeated": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "evidence_correct": 2,
+          "evidence_total": 2,
+          "evidence_precision": 1.0
+        }
+      },
+      "after": {
+        "reference_comments_with_target_coverage": 24,
+        "reference_attacks": 6,
+        "target_emissions": 6,
+        "target_correct": 6,
+        "target_precision": 1.0,
+        "target_recall": 1.0,
+        "target_abstentions_on_reference_attacks": 0,
+        "repeated": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "evidence_correct": 4,
+          "evidence_total": 4,
+          "evidence_precision": 1.0
+        }
+      }
+    },
+    "new_label_errors": []
+  },
+  "nov_audit24": {
+    "classification": {
+      "before": {
+        "n": 23,
+        "tp": 6,
+        "fp": 1,
+        "tn": 16,
+        "fn": 0,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.8571428571428571,
+        "toxic_recall": 1.0,
+        "macro_f1": 0.9463869463869464,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      },
+      "after": {
+        "n": 23,
+        "tp": 6,
+        "fp": 0,
+        "tn": 17,
+        "fn": 0,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 1.0,
+        "toxic_recall": 1.0,
+        "macro_f1": 1.0,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      }
+    },
+    "grounding": {
+      "before": {
+        "reference_comments_with_target_coverage": 23,
+        "reference_attacks": 6,
+        "target_emissions": 6,
+        "target_correct": 5,
+        "target_precision": 0.8333333333333334,
+        "target_recall": 0.8333333333333334,
+        "target_abstentions_on_reference_attacks": 1,
+        "repeated": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "evidence_correct": 2,
+          "evidence_total": 2,
+          "evidence_precision": 1.0
+        }
+      },
+      "after": {
+        "reference_comments_with_target_coverage": 23,
+        "reference_attacks": 6,
+        "target_emissions": 5,
+        "target_correct": 5,
+        "target_precision": 1.0,
+        "target_recall": 0.8333333333333334,
+        "target_abstentions_on_reference_attacks": 1,
+        "repeated": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "evidence_correct": 2,
+          "evidence_total": 2,
+          "evidence_precision": 1.0
+        }
+      }
+    },
+    "new_label_errors": []
+  },
+  "repeated74": {
+    "classification": {
+      "before": {
+        "n": 74,
+        "tp": 17,
+        "fp": 3,
+        "tn": 53,
+        "fn": 1,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.85,
+        "toxic_recall": 0.9444444444444444,
+        "macro_f1": 0.9291866028708133,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      },
+      "after": {
+        "n": 74,
+        "tp": 17,
+        "fp": 3,
+        "tn": 53,
+        "fn": 1,
+        "abstained_clean": 0,
+        "abstained_toxic": 0,
+        "coverage": 1.0,
+        "toxic_precision": 0.85,
+        "toxic_recall": 0.9444444444444444,
+        "macro_f1": 0.9291866028708133,
+        "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+      }
+    },
+    "grounding": {
+      "before": {
+        "reference_comments_with_target_coverage": 74,
+        "reference_attacks": 16,
+        "target_emissions": 14,
+        "target_correct": 14,
+        "target_precision": 1.0,
+        "target_recall": 0.875,
+        "target_abstentions_on_reference_attacks": 2,
+        "repeated": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "evidence_correct": 8,
+          "evidence_total": 8,
+          "evidence_precision": 1.0
+        }
+      },
+      "after": {
+        "reference_comments_with_target_coverage": 74,
+        "reference_attacks": 16,
+        "target_emissions": 14,
+        "target_correct": 14,
+        "target_precision": 1.0,
+        "target_recall": 0.875,
+        "target_abstentions_on_reference_attacks": 2,
+        "repeated": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "evidence_correct": 8,
+          "evidence_total": 8,
+          "evidence_precision": 1.0
+        }
+      }
+    },
+    "new_label_errors": []
+  }
+}

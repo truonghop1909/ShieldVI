@@ -1,0 +1,24 @@
+{
+  "data_lock_sha256": "64924d4a2c975208bb1f3bc64dc821346c22480526b0cdd82e4208734066c274",
+  "model_sha256": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "threshold": 0.41,
+  "seed": 20261103,
+  "protocol": "synthetic_development_only",
+  "human_gold": false,
+  "training_performed": false,
+  "candidate": "NOT_TRAINED",
+  "selection_or_tuning": false,
+  "code_sha256": {
+    "services\\moderation-ai\\app\\engine.py": "34f96dc1250cb6d653afc4075f6c6df27c50668be3adba9c3f49610aef029b2b",
+    "services\\moderation-ai\\app\\signal_engine.py": "653a87d674ac83c2aa6a433bbfab55ee26448705d2a2212a05b960e52877acd1",
+    "services\\moderation-ai\\app\\context_signals.py": "428fb37343c49a118ac34aa011b84a436f54691110c88ca0afc2e4e790583350",
+    "services\\moderation-ai\\app\\target_signals.py": "0f0a2ae6c9a08568c415744d34030736c591e9f08753aa28b65670bec3ecf227",
+    "services\\moderation-ai\\app\\lexical.py": "0a0e8254a8c8b93ee6cae3919555a3430a9d2d1c509faf36b4e0b335909150f4"
+  },
+  "variants": {
+    "V1_raw": "Original V1 classifier, same scores used by both APIs",
+    "legacy_api": "Current legacy API recipient heuristic (not reconstructed pre-update V3)",
+    "hybrid_v2": "Current context/target/repeated pipeline, raw model unchanged",
+    "B1_B2": "NOT_RUN: pre-update lexical/context snapshot unavailable"
+  }
+}

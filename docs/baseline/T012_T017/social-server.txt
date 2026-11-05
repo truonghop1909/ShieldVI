@@ -1,0 +1,19 @@
+INFO:     Started server process [22136]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:58612 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58616 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58620 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58621 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58622 - "POST /api/v1/posts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58623 - "POST /api/v1/posts/d36b009f-8d9b-441f-8f63-4b280f320a92/comments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58625 - "GET /api/v1/posts/d36b009f-8d9b-441f-8f63-4b280f320a92 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58632 - "GET /api/v1/posts/d36b009f-8d9b-441f-8f63-4b280f320a92 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58633 - "GET /api/v1/comments/268bd3f5-1f7a-4e6c-9a9f-17071c240566 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58634 - "GET /api/v1/feed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58635 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58085 - "POST /api/v1/posts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58133 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58142 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58143 - "POST /api/v1/moderation/decisions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58152 - "GET /api/v1/posts/e10b9ccd-8650-48cc-a433-6f99d9fcea1f HTTP/1.1" 200 OK

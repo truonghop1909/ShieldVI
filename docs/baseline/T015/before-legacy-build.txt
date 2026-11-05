@@ -1,0 +1,13 @@
+
+> shieldvi-dashboard@1.0.0 build
+> vite build --configLoader runner --outDir ../../ShieldVI_SocialAI_Design_Docs_v1/docs/baseline/T015/before-legacy-build --emptyOutDir false
+
+vite v6.4.5 building for production...
+transforming...
+✓ 1578 modules transformed.
+rendering chunks...
+computing gzip size...
+../../ShieldVI_SocialAI_Design_Docs_v1/docs/baseline/T015/before-legacy-build/index.html                   0.70 kB │ gzip:  0.44 kB
+../../ShieldVI_SocialAI_Design_Docs_v1/docs/baseline/T015/before-legacy-build/assets/index-BaiwjHcP.css   24.71 kB │ gzip:  6.39 kB
+../../ShieldVI_SocialAI_Design_Docs_v1/docs/baseline/T015/before-legacy-build/assets/index-B6t7Eu4q.js   196.88 kB │ gzip: 61.02 kB
+✓ built in 6.30s

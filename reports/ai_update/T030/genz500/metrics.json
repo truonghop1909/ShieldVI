@@ -1,0 +1,177 @@
+{
+  "protocol": "synthetic_development_only",
+  "human_gold": false,
+  "threads": 60,
+  "comments": 620,
+  "uncertain_excluded": 3,
+  "reference_label_counts": {
+    "CLEAN": 582,
+    "TOXIC": 35,
+    "UNCERTAIN": 3
+  },
+  "V1_raw": {
+    "n": 617,
+    "threshold": 0.41,
+    "tp": 20,
+    "fp": 23,
+    "tn": 559,
+    "fn": 15,
+    "macro_f1": 0.7399742702510869,
+    "toxic_precision": 0.46511627906976744,
+    "toxic_recall": 0.5714285714285714,
+    "accuracy": 0.9384116693679092,
+    "clean_precision": 0.9738675958188153,
+    "clean_recall": 0.9604810996563574,
+    "clean_f1": 0.967128027681661,
+    "toxic_f1": 0.5128205128205128,
+    "confusion_matrix_rows_clean_toxic": [
+      [
+        559,
+        23
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  "V1_probability_diagnostics": {
+    "n": 617,
+    "threshold": 0.41,
+    "tp": 20,
+    "fp": 23,
+    "tn": 559,
+    "fn": 15,
+    "macro_f1": 0.7399742702510869,
+    "toxic_precision": 0.46511627906976744,
+    "toxic_recall": 0.5714285714285714,
+    "accuracy": 0.9384116693679092,
+    "brier": 0.0417284492167488,
+    "log_loss": 0.15172264262417584
+  },
+  "hybrid_v2_raw": {
+    "n": 617,
+    "threshold": 0.41,
+    "tp": 20,
+    "fp": 23,
+    "tn": 559,
+    "fn": 15,
+    "macro_f1": 0.7399742702510869,
+    "toxic_precision": 0.46511627906976744,
+    "toxic_recall": 0.5714285714285714,
+    "accuracy": 0.9384116693679092,
+    "clean_precision": 0.9738675958188153,
+    "clean_recall": 0.9604810996563574,
+    "clean_f1": 0.967128027681661,
+    "toxic_f1": 0.5128205128205128,
+    "confusion_matrix_rows_clean_toxic": [
+      [
+        559,
+        23
+      ],
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  "raw_scores_and_labels_unchanged": true,
+  "hybrid_attack_candidate": {
+    "n": 617,
+    "threshold": 0.41,
+    "tp": 13,
+    "fp": 2,
+    "tn": 580,
+    "fn": 22,
+    "macro_f1": 0.7498648648648649,
+    "toxic_precision": 0.8666666666666667,
+    "toxic_recall": 0.37142857142857144,
+    "accuracy": 0.9611021069692058,
+    "clean_precision": 0.9634551495016611,
+    "clean_recall": 0.9965635738831615,
+    "clean_f1": 0.9797297297297297,
+    "toxic_f1": 0.52,
+    "confusion_matrix_rows_clean_toxic": [
+      [
+        580,
+        2
+      ],
+      [
+        22,
+        13
+      ]
+    ]
+  },
+  "hybrid_target": {
+    "emitted": 11,
+    "reference_directed_attacks": 35,
+    "correct": 11,
+    "precision": 1.0,
+    "coverage_on_reference_attacks": 0.3142857142857143,
+    "correct_target_recall": 0.3142857142857143,
+    "abstentions_on_reference_attacks": 24
+  },
+  "repeated_events": {
+    "reference": 7,
+    "legacy_api_diagnostic": {
+      "tp": 2,
+      "fp": 2,
+      "fn": 5,
+      "precision": 0.5,
+      "recall": 0.2857142857142857
+    },
+    "hybrid_v2": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "precision": null,
+      "recall": 0.0
+    },
+    "hybrid_evidence_correct": 0,
+    "hybrid_evidence_total": 0,
+    "hybrid_evidence_correctness": null
+  },
+  "lexicon": {
+    "clean_comments": 582,
+    "clean_review_flags": 1,
+    "review_flag_rate_on_clean_not_toxic_FPR": 0.001718213058419244,
+    "profanity_detection": {
+      "n": 620,
+      "threshold": 0.41,
+      "tp": 2,
+      "fp": 0,
+      "tn": 618,
+      "fn": 0,
+      "macro_f1": 1.0,
+      "toxic_precision": 1.0,
+      "toxic_recall": 1.0,
+      "accuracy": 1.0,
+      "clean_precision": 1.0,
+      "clean_recall": 1.0,
+      "clean_f1": 1.0,
+      "toxic_f1": 1.0,
+      "confusion_matrix_rows_clean_toxic": [
+        [
+          618,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    }
+  },
+  "paired_raw_classifier": {
+    "wins": 0,
+    "losses": 0,
+    "ties": 617,
+    "definition": "raw ViSoBERT label intentionally unchanged, not a new hybrid toxicity classifier"
+  },
+  "candidate": "NOT_TRAINED",
+  "B1_B2": "NOT_RUN_PRE_UPDATE_SNAPSHOT_MISSING",
+  "real_benchmark": "BLOCKED_NO_REAL_GOLD",
+  "ViCTSD_test": "NOT_SCORED_NO_CANDIDATE_SELECTION",
+  "elapsed_seconds": 9.28,
+  "base_unchanged": true
+}

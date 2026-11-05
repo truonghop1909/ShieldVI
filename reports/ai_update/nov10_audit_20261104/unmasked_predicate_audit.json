@@ -1,0 +1,6 @@
+{
+  "hits": [],
+  "count": 0,
+  "masked_hit_count": 0,
+  "meaning": "Checks whether homograph masking removed any attack predicate match before context gating."
+}

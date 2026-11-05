@@ -1,0 +1,23 @@
+{
+  "run_id": "T029_genz500_head_cpu_20261103_r04",
+  "source_request": "task nào bị từ chối thì sửa task rồi thực hiện tiếp đi",
+  "config_sha256": "696cd8a9dc0664771eead80158753a57083f23128ac15ecef773f5df6808ae25",
+  "prepared_manifest_sha256": "471db4034f17b56eb164d6e0ad266db543c339770a655d3e429958ea41406214",
+  "original_protocol_sha256": "82132e8abdb6b85ce79ef8161f8c061516b2e5a02c59cc5e772a8ae77339191d",
+  "validation_references_sha256": "e79202be719062dd4a1911756c4241faf31b529e31f674d9337a583f7a356c39",
+  "training_implementation_sha256": "7f73dbd573f1e6170f1b7a550f01f14035e74ba2748a32850c00846dbe2823d4",
+  "review_implementation_sha256": "ae477d254e464aacd04cca9cd3bdccd627ca92d481421206a8053a13966c6231",
+  "rationale": "Reduce synthetic influence .5 to .1 and LR3e-5 to1e-5; increase baseline distillation .5 to1.0. General anti-drift recipe from training/validation behavior, no example-specific rules or label edits.",
+  "max_candidate_runs": 1,
+  "epochs_max": 3,
+  "threads_max": 4,
+  "seconds_max": 900,
+  "selection": "Historical validation macroF1 at fixed0.41, exploratory reuse disclosed.",
+  "test_scoring_allowed": false,
+  "regression_scoring_allowed_this_followup": false,
+  "historical_test_previously_inspected": true,
+  "fresh_blind_benchmark_claim_allowed": false,
+  "promotion_allowed": false,
+  "gates_unchanged": true,
+  "stop_rule": "One recipe only. If validation fails reject; never relax gates, relabel data or tune on test. A passing screen still needs remaining unchanged release evidence."
+}

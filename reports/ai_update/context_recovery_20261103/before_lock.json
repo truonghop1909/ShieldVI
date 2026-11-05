@@ -1,0 +1,18 @@
+{
+  "score_cache_sha256": "37c9e32afb81fa84387f9ce0731ef34478c4cae3558c564c71e659726ef951b4",
+  "inputs_sha256": "72405187e24b8a7112dade2b19e99b87704af8ad31ae5317431fe9741a2126af",
+  "new_dataset_manifest_sha256": "849006cf85214d4b793596ff067034bae12ec9e3b89adcecf2219b88a1e2b8ba",
+  "V1_weights_sha256": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "threshold": 0.41,
+  "actual_model_inference": true,
+  "sources": {
+    "services\\moderation-ai\\app\\context_signals.py": "428fb37343c49a118ac34aa011b84a436f54691110c88ca0afc2e4e790583350",
+    "services\\moderation-ai\\app\\signal_engine.py": "653a87d674ac83c2aa6a433bbfab55ee26448705d2a2212a05b960e52877acd1",
+    "services\\moderation-ai\\app\\target_signals.py": "0f0a2ae6c9a08568c415744d34030736c591e9f08753aa28b65670bec3ecf227",
+    "services\\moderation-ai\\app\\schemas.py": "63d4df1426bd7dafb06aadf5f84adb74655a50afaa4b2fe6a2ea03815de6322b",
+    "services\\moderation-ai\\app\\engine.py": "34f96dc1250cb6d653afc4075f6c6df27c50668be3adba9c3f49610aef029b2b",
+    "services\\moderation-ai\\app\\lexical.py": "0a0e8254a8c8b93ee6cae3919555a3430a9d2d1c509faf36b4e0b335909150f4",
+    "apps\\moderation-web\\legacy-v3\\src\\App.jsx": "605a83ade8c7a8315b54f2434bff4cbdbff7654b806053f8307f799cc1dbb499"
+  },
+  "dataset_labels_frozen_before_app_changes": true
+}

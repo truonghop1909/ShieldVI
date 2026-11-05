@@ -1,0 +1,12 @@
+CWD=E:\lamDoAn\ShieldVI_V3_Hybrid_Review\apps\social-web
+COMMAND=npm.cmd ls --depth=0
+shieldvi-social-web@0.1.0 E:\lamDoAn\ShieldVI_V3_Hybrid_Review\apps\social-web
+├── @playwright/test@1.64.1
+├── @vitejs/plugin-react@4.7.0
+├── lucide-react@0.468.0
+├── react-dom@18.3.1
+├── react@18.3.1
+└── vite@6.4.5
+
+
+EXIT_CODE=0

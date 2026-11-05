@@ -1,0 +1,84 @@
+{
+  "status": "VALIDATION_SCREEN_COMPLETE",
+  "decision": "REJECT_PROMOTION_KEEP_EXISTING_DEFAULT",
+  "base_reference_id": "existing_default_V1_1",
+  "baseline_validation": {
+    "n": 2000,
+    "threshold": 0.41,
+    "tp": 118,
+    "fp": 64,
+    "tn": 1704,
+    "fn": 114,
+    "macro_f1": 0.760205415046706,
+    "toxic_precision": 0.6483516483516484,
+    "toxic_recall": 0.5086206896551724,
+    "accuracy": 0.911,
+    "brier": 0.06864601732605209,
+    "log_loss": 0.23574398452635292
+  },
+  "candidate_validation": {
+    "n": 2000,
+    "threshold": 0.41,
+    "tp": 115,
+    "fp": 63,
+    "tn": 1705,
+    "fn": 117,
+    "macro_f1": 0.7554181669950404,
+    "toxic_precision": 0.6460674157303371,
+    "toxic_recall": 0.4956896551724138,
+    "accuracy": 0.91,
+    "brier": 0.06863614120191211,
+    "log_loss": 0.23650292989886892
+  },
+  "gates": {
+    "original_V1": {
+      "macro_f1": false,
+      "toxic_precision": true,
+      "toxic_recall": false
+    },
+    "existing_default_V1_1": {
+      "macro_f1": false,
+      "toxic_precision": false,
+      "toxic_recall": false
+    }
+  },
+  "reference_validation": {
+    "original_V1": {
+      "n": 2000,
+      "threshold": 0.41,
+      "tp": 124,
+      "fp": 73,
+      "tn": 1695,
+      "fn": 108,
+      "macro_f1": 0.7637012478793492,
+      "toxic_precision": 0.6294416243654822,
+      "toxic_recall": 0.5344827586206896,
+      "accuracy": 0.9095,
+      "brier": 0.06883178418148976,
+      "log_loss": 0.23610279020802036
+    },
+    "existing_default_V1_1": {
+      "n": 2000,
+      "threshold": 0.41,
+      "tp": 118,
+      "fp": 64,
+      "tn": 1704,
+      "fn": 114,
+      "macro_f1": 0.760205415046706,
+      "toxic_precision": 0.6483516483516484,
+      "toxic_recall": 0.5086206896551724,
+      "accuracy": 0.911,
+      "brier": 0.06864601732605209,
+      "log_loss": 0.23574398452635292
+    }
+  },
+  "original_protocol_sha256": "82132e8abdb6b85ce79ef8161f8c061516b2e5a02c59cc5e772a8ae77339191d",
+  "training_report_sha256": "2c6aaa7639d1044da20d1fb1c8e4aad52f37e786eb7a94f348ecfcb69b34f053",
+  "candidate_sha256": "a7150ede39a348931ce7794d75d69a66cf53c9f646413b0d064caa43e3255be8",
+  "threshold": 0.41,
+  "promotion_allowed": false,
+  "test_scored": false,
+  "development_challenge_scored": false,
+  "production_changed": false,
+  "limitation": "Historical validation reused for exploratory model selection; no new blind performance claim. No r05 regression or API inference claimed."
+}

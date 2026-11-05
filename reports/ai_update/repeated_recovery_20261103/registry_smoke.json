@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "actual_local_models_loaded": true,
+  "implicit_candidate_refused": true,
+  "shadow": {
+    "requested": "candidate_r06",
+    "selected": "candidate_r06",
+    "shadow": true,
+    "fallback_used": false,
+    "failure_type": null,
+    "production_changed": false
+  },
+  "fallback": {
+    "requested": "candidate_r06",
+    "selected": "v1",
+    "shadow": true,
+    "fallback_used": true,
+    "failure_type": "RuntimeError",
+    "production_changed": false
+  },
+  "scores_mechanics_only": {
+    "baseline_scores": [
+      0.009978043846786022,
+      0.012500861659646034
+    ],
+    "candidate_scores": [
+      0.007338861469179392,
+      0.006036488804966211
+    ],
+    "threshold": 0.41,
+    "production_changed": false
+  },
+  "candidate_API": 200,
+  "unavailable": 503,
+  "rollback_API": 200,
+  "evidence_before_and_after_rollback": [
+    "b",
+    "d"
+  ],
+  "excluded_non_attacks": [
+    "c",
+    "e"
+  ],
+  "default_before": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+  "default_after": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+  "production_changed": false,
+  "training_performed": false,
+  "limitations": "Isolated ASGI/new-process mechanics; no running demo reconfigured, no real-world quality/release approval."
+}

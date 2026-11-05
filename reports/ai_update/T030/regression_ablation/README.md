@@ -1,0 +1,287 @@
+# B0–B3 existing synthetic regression
+
+{
+  "status": "COMPLETE_DEVELOPMENT_ABLATION_NOT_REAL_BENCHMARK",
+  "threads": 5,
+  "comments": 150,
+  "binary_reference_comments": 149,
+  "uncertain_excluded": 1,
+  "human_gold": false,
+  "new_model_inference": false,
+  "cached_real_V1_T020": true,
+  "variants": {
+    "B0": {
+      "comment_metrics": {
+        "n": 149,
+        "threshold": 0.41,
+        "tp": 19,
+        "fp": 14,
+        "tn": 115,
+        "fn": 1,
+        "macro_f1": 0.8278783211397767,
+        "toxic_precision": 0.5757575757575758,
+        "toxic_recall": 0.95,
+        "accuracy": 0.8993288590604027,
+        "clean_precision": 0.9913793103448276,
+        "clean_recall": 0.8914728682170543,
+        "clean_f1": 0.9387755102040817,
+        "toxic_f1": 0.7169811320754716,
+        "confusion_matrix_rows_clean_toxic": [
+          [
+            115,
+            14
+          ],
+          [
+            1,
+            19
+          ]
+        ]
+      },
+      "attack_signal_diagnostic": {
+        "n": 149,
+        "threshold": 0.41,
+        "tp": 1,
+        "fp": 0,
+        "tn": 129,
+        "fn": 19,
+        "macro_f1": 0.5133230187381812,
+        "toxic_precision": 1.0,
+        "toxic_recall": 0.05,
+        "accuracy": 0.87248322147651,
+        "clean_precision": 0.8716216216216216,
+        "clean_recall": 1.0,
+        "clean_f1": 0.9314079422382672,
+        "toxic_f1": 0.09523809523809523,
+        "confusion_matrix_rows_clean_toxic": [
+          [
+            129,
+            0
+          ],
+          [
+            19,
+            1
+          ]
+        ]
+      },
+      "attack_signal_definition": "lexical_directed_candidate",
+      "clean_lexical_review_flags": 1,
+      "evidence_comments": 26,
+      "evidence_with_directed_insult_reference": 19,
+      "non_attack_reference_evidence": {
+        "APOLOGY": 3,
+        "CLEAN": 1,
+        "SET_BOUNDARY": 2,
+        "DIRECTED_ACCUSATION": 1
+      },
+      "target_precision": "NOT_AVAILABLE_NO_TARGET_GOLD",
+      "repeated_event_precision_recall": "NOT_AVAILABLE_NO_EVENT_GOLD",
+      "event_count": 7
+    },
+    "B1": {
+      "comment_metrics": {
+        "n": 149,
+        "threshold": 0.41,
+        "tp": 19,
+        "fp": 14,
+        "tn": 115,
+        "fn": 1,
+        "macro_f1": 0.8278783211397767,
+        "toxic_precision": 0.5757575757575758,
+        "toxic_recall": 0.95,
+        "accuracy": 0.8993288590604027,
+        "clean_precision": 0.9913793103448276,
+        "clean_recall": 0.8914728682170543,
+        "clean_f1": 0.9387755102040817,
+        "toxic_f1": 0.7169811320754716,
+        "confusion_matrix_rows_clean_toxic": [
+          [
+            115,
+            14
+          ],
+          [
+            1,
+            19
+          ]
+        ]
+      },
+      "attack_signal_diagnostic": {
+        "n": 149,
+        "threshold": 0.41,
+        "tp": 1,
+        "fp": 0,
+        "tn": 129,
+        "fn": 19,
+        "macro_f1": 0.5133230187381812,
+        "toxic_precision": 1.0,
+        "toxic_recall": 0.05,
+        "accuracy": 0.87248322147651,
+        "clean_precision": 0.8716216216216216,
+        "clean_recall": 1.0,
+        "clean_f1": 0.9314079422382672,
+        "toxic_f1": 0.09523809523809523,
+        "confusion_matrix_rows_clean_toxic": [
+          [
+            129,
+            0
+          ],
+          [
+            19,
+            1
+          ]
+        ]
+      },
+      "attack_signal_definition": "lexical_directed_candidate",
+      "clean_lexical_review_flags": 2,
+      "evidence_comments": 26,
+      "evidence_with_directed_insult_reference": 19,
+      "non_attack_reference_evidence": {
+        "APOLOGY": 3,
+        "CLEAN": 1,
+        "SET_BOUNDARY": 2,
+        "DIRECTED_ACCUSATION": 1
+      },
+      "target_precision": "NOT_AVAILABLE_NO_TARGET_GOLD",
+      "repeated_event_precision_recall": "NOT_AVAILABLE_NO_EVENT_GOLD",
+      "event_count": 7
+    },
+    "B2": {
+      "comment_metrics": {
+        "n": 149,
+        "threshold": 0.41,
+        "tp": 19,
+        "fp": 14,
+        "tn": 115,
+        "fn": 1,
+        "macro_f1": 0.8278783211397767,
+        "toxic_precision": 0.5757575757575758,
+        "toxic_recall": 0.95,
+        "accuracy": 0.8993288590604027,
+        "clean_precision": 0.9913793103448276,
+        "clean_recall": 0.8914728682170543,
+        "clean_f1": 0.9387755102040817,
+        "toxic_f1": 0.7169811320754716,
+        "confusion_matrix_rows_clean_toxic": [
+          [
+            115,
+            14
+          ],
+          [
+            1,
+            19
+          ]
+        ]
+      },
+      "attack_signal_diagnostic": {
+        "n": 149,
+        "threshold": 0.41,
+        "tp": 8,
+        "fp": 0,
+        "tn": 129,
+        "fn": 12,
+        "macro_f1": 0.7634920634920634,
+        "toxic_precision": 1.0,
+        "toxic_recall": 0.4,
+        "accuracy": 0.9194630872483222,
+        "clean_precision": 0.9148936170212766,
+        "clean_recall": 1.0,
+        "clean_f1": 0.9555555555555556,
+        "toxic_f1": 0.5714285714285714,
+        "confusion_matrix_rows_clean_toxic": [
+          [
+            129,
+            0
+          ],
+          [
+            12,
+            8
+          ]
+        ]
+      },
+      "attack_signal_definition": "context_attack",
+      "clean_lexical_review_flags": 1,
+      "evidence_comments": 26,
+      "evidence_with_directed_insult_reference": 19,
+      "non_attack_reference_evidence": {
+        "APOLOGY": 3,
+        "CLEAN": 1,
+        "SET_BOUNDARY": 2,
+        "DIRECTED_ACCUSATION": 1
+      },
+      "target_precision": "NOT_AVAILABLE_NO_TARGET_GOLD",
+      "repeated_event_precision_recall": "NOT_AVAILABLE_NO_EVENT_GOLD",
+      "event_count": 7
+    },
+    "B3": {
+      "comment_metrics": {
+        "n": 149,
+        "threshold": 0.41,
+        "tp": 19,
+        "fp": 14,
+        "tn": 115,
+        "fn": 1,
+        "macro_f1": 0.8278783211397767,
+        "toxic_precision": 0.5757575757575758,
+        "toxic_recall": 0.95,
+        "accuracy": 0.8993288590604027,
+        "clean_precision": 0.9913793103448276,
+        "clean_recall": 0.8914728682170543,
+        "clean_f1": 0.9387755102040817,
+        "toxic_f1": 0.7169811320754716,
+        "confusion_matrix_rows_clean_toxic": [
+          [
+            115,
+            14
+          ],
+          [
+            1,
+            19
+          ]
+        ]
+      },
+      "attack_signal_diagnostic": {
+        "n": 149,
+        "threshold": 0.41,
+        "tp": 8,
+        "fp": 0,
+        "tn": 129,
+        "fn": 12,
+        "macro_f1": 0.7634920634920634,
+        "toxic_precision": 1.0,
+        "toxic_recall": 0.4,
+        "accuracy": 0.9194630872483222,
+        "clean_precision": 0.9148936170212766,
+        "clean_recall": 1.0,
+        "clean_f1": 0.9555555555555556,
+        "toxic_f1": 0.5714285714285714,
+        "confusion_matrix_rows_clean_toxic": [
+          [
+            129,
+            0
+          ],
+          [
+            12,
+            8
+          ]
+        ]
+      },
+      "attack_signal_definition": "context_attack",
+      "clean_lexical_review_flags": 2,
+      "evidence_comments": 7,
+      "evidence_with_directed_insult_reference": 7,
+      "non_attack_reference_evidence": {},
+      "target_precision": "NOT_AVAILABLE_NO_TARGET_GOLD",
+      "repeated_event_precision_recall": "NOT_AVAILABLE_NO_EVENT_GOLD",
+      "event_count": 2
+    }
+  },
+  "raw_unchanged_all_variants": true,
+  "limitations": [
+    "Reference labels are a documented projection of already-used synthetic script tags.",
+    "B2 uses original per-input lexical detection outputs, not an available original lexical module.",
+    "Lexical directed candidates and context attacks are different signals; diagnostic values are not a new toxicity classifier.",
+    "No target/event gold exists for these5fixtures, so those metrics remain unavailable.",
+    "No fresh benchmark or improvement claim."
+  ]
+}
+
+See frozen_experiment for hash bindings and exact variant definitions. These150 previously used examples are separate from the60-thread GenZ challenge.

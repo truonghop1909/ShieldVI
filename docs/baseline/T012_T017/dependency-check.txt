@@ -1,0 +1,5 @@
+CWD=E:\lamDoAn\ShieldVI_V3_Hybrid_Review\services\social-api
+COMMAND=E:\lamDoAn\ShieldVI_V3_Hybrid_Review\services\social-api\.venv\Scripts\python.exe -m pip check
+No broken requirements found.
+
+EXIT_CODE=0

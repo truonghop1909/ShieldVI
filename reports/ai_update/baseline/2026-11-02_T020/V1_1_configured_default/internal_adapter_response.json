@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "request_id": "req-example-001",
+  "content_id": "cmt-example-123",
+  "content_revision": 1,
+  "model_name": "ViSoBERT V1.1 — ViCTSD",
+  "model_version": "ViSoBERT V1.1 — ViCTSD",
+  "lexicon_version": "299ed25e32ce0ad0cde1957cf9199755dd7c9e2c3316ddc7ccafbd6dcd264f68",
+  "analyzed_at": "2026-11-02T07:38:08.613333Z",
+  "model_threshold": 0.41,
+  "toxicity_score": 0.9706883430480957,
+  "ai_label": "TOXIC",
+  "lexical_review_recommended": true,
+  "directed_insult_candidate": true,
+  "reported_or_apology_context": false,
+  "lexical_signals": [
+    {
+      "rule_id": "vi_oc_cho",
+      "category": "directed_insult",
+      "matched_form": "đồ ngu",
+      "strength": "context",
+      "canonical_form": "đồ ngu",
+      "language": "vi",
+      "reason": "Cụm có thể hạ nhục người khác; phải kiểm tra đối tượng và trích dẫn. Có dấu hiệu hướng tới người gần cụm từ; cần xác nhận thủ công.",
+      "source_ids": [
+        "blue_eyes_vi",
+        "ldnoobw_v2_vi",
+        "shieldvi_reviewed"
+      ],
+      "start": 12,
+      "end": 18
+    }
+  ],
+  "target_evidence": {
+    "target_user_id": null,
+    "method": "undetermined",
+    "confidence": "none"
+  },
+  "suspected_repeated_harassment": false,
+  "evidence": [],
+  "suggested_action": "needs_review",
+  "decision_authority": "advisory",
+  "limitations": [
+    "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+    "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+    "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+    "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+    "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại.",
+    "No thread context; repeated harassment cannot be established from one content item.",
+    "Context is a bounded or incomplete window; evidence is advisory."
+  ]
+}

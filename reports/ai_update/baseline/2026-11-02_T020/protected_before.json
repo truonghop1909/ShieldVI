@@ -1,0 +1,286 @@
+{
+  "C:\\Users\\admin\\Downloads\\visobert_toxic_final\\config.json": {
+    "sha256": "134e14833d4f7d34dc5969390fb4d33920236def2b935ce77bcbb0c3e5dc3502",
+    "size": 809
+  },
+  "C:\\Users\\admin\\Downloads\\visobert_toxic_final\\model.safetensors": {
+    "sha256": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+    "size": 390294040
+  },
+  "C:\\Users\\admin\\Downloads\\visobert_toxic_final\\sentencepiece.bpe.model": {
+    "sha256": "02aaf05cda4db99e86b7c76eba6258867ce4d043da0fed19c87a7d46c8b53a65",
+    "size": 470732
+  },
+  "C:\\Users\\admin\\Downloads\\visobert_toxic_final\\special_tokens_map.json": {
+    "sha256": "06e405a36dfe4b9604f484f6a1e619af1a7f7d09e34a8555eb0b77b66318067f",
+    "size": 280
+  },
+  "C:\\Users\\admin\\Downloads\\visobert_toxic_final\\threshold_config.json": {
+    "sha256": "01d27073b2774620959cb04afe2815043daf5d86e3738b3f60080236ded59fe8",
+    "size": 159
+  },
+  "C:\\Users\\admin\\Downloads\\visobert_toxic_final\\tokenizer.json": {
+    "sha256": "3aa4fb7e7c6bee975fbb1bd6252f99acd7957573580bbcac755bdc59a5e1e03c",
+    "size": 1802897
+  },
+  "C:\\Users\\admin\\Downloads\\visobert_toxic_final\\tokenizer_config.json": {
+    "sha256": "a01b61bae21770afdb367d1987659cde76d8dd618e66e532df830b9ab84e0a64",
+    "size": 1230
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\app\\__init__.py": {
+    "sha256": "a03f38eef696e8f826e1db625ba30a004bede815abffc5ca2ca48cf69e259fce",
+    "size": 502
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\ai_signals_v2_draft.example.json": {
+    "sha256": "e84192fe9e9513cf56b500af8c3523df1b16b94661fe1320b7b51dfc2250a23d",
+    "size": 648
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\moderation_policy.example.json": {
+    "sha256": "a786051a403d681c62b1ea7c6aa184ee8794fe0f51d3336749467999cfabeae5",
+    "size": 806
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\moderation_request.example.json": {
+    "sha256": "1b388cf26d0f8a39aaf0d63a11caab48af068dff2c9c8e485afcfa6cad886636",
+    "size": 486
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\moderation_request.schema.json": {
+    "sha256": "a334ecd06abaf207e97dfc9bff6e39ed76722db96d419cc234f46d6a1f8d73dd",
+    "size": 4828
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\moderation_response.example.json": {
+    "sha256": "d2a51f2bc3b0641c0e73fa259aabcdb0ea5cfe4e39cba7ed04e63b0532f960f8",
+    "size": 862
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\moderation_response.schema.json": {
+    "sha256": "47f73a7778d92bdc517f67feb7d9c9137899d75ecace19aac3e35f99901989c1",
+    "size": 8077
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\policy_acceptance_cases.json": {
+    "sha256": "a2b681b20f5cb7a29fecb0c6247b31d9c0733ac73909ce304d943299c61e3b13",
+    "size": 4182
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\social-auth.openapi.json": {
+    "sha256": "cf99724f0829c03b4fbac4ec5299f3a5b18cd0f578d38e2f8cf338bd40eae486",
+    "size": 8393
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\social-content.openapi.json": {
+    "sha256": "d0ee47875a109e38b513fa5e46cb5f3bf294023ee0a09eddc9de139ad6a18249",
+    "size": 32093
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\social-review.openapi.json": {
+    "sha256": "af73df626a47a89ced2a6ddb04503581e5b22be524a5688b6d06b57213890f27",
+    "size": 25296
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\contracts\\social-worker.openapi.json": {
+    "sha256": "088de7dd306f35f20a36b878a03b8b025e331d3632112b46fb06cc3064732011",
+    "size": 37346
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\README.md": {
+    "sha256": "89ffbf37f0e053f6d571ceea7ed6480b5395d87aafa447dc8e1f56737881d60d",
+    "size": 774
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_01_GAME_RANK_LAG_30.json": {
+    "sha256": "db0a31f70e462aaa2eb575dd443ded27100b30493dc176093b36b7c2311927c2",
+    "size": 6751
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_02_SHOP_GIAY_SECONDHAND_30.json": {
+    "sha256": "28a2179025e74db2dc8262bcc49a600e2ec6563e3fdc5cbb6b52bde669658d33",
+    "size": 7101
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_03_DANCE_COVER_TIKTOK_30.json": {
+    "sha256": "270db107f4655033e323a129e87b7c15b23a67360c2c90ecbe7e1eaaf5403fa6",
+    "size": 6904
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_04_DI_CAMPING_CHIA_TIEN_30.json": {
+    "sha256": "20182a7fa088789f118349aeed6fb981439e7bc0398c18d4e715ce4d33c12cba",
+    "size": 6990
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_05_FANART_AI_DISPUTE_30.json": {
+    "sha256": "4d6e860c47c5f722a00900166a1b68d8bf24317d9845f9b69410a25279bf3fc0",
+    "size": 6991
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\synthetic_reference_tags.csv": {
+    "sha256": "168923a89e7342193fa16d880cccffe10c61df1b7468e542c8215254b80106f4",
+    "size": 18840
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\prepared\\victsd_test.csv": {
+    "sha256": "18abc0ff5c0442d71d6acc1aa059f0c53ec324f4ab9465bad2667a18f3ecb707",
+    "size": 194622
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\prepared\\victsd_validation.csv": {
+    "sha256": "82a539b75449218b2642cce9b615bd11316531c7af249ca0d93239a328240244",
+    "size": 417807
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\raw\\victsd\\ViCTSD_test.csv": {
+    "sha256": "e341013ca7441a5f2621b9347bd933f4d920d080b9931136ee8827d0ac0b2672",
+    "size": 239211
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\raw\\victsd\\ViCTSD_valid.csv": {
+    "sha256": "e3950ee6a16375d566f58d3fc1206dab76fc8e41e340bb580ca0ae2e5ea61f83",
+    "size": 495885
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined\\config.json": {
+    "sha256": "1f801a60d206052245b39647217e853a65774f567f697cc935f0f81c43f59e95",
+    "size": 844
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined\\model.safetensors": {
+    "sha256": "ed93c9badcdd198d42dddd7ea3744ea961475ed69f4b3baad8726d9e57b3bce1",
+    "size": 390294040
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined\\special_tokens_map.json": {
+    "sha256": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307",
+    "size": 1015
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined\\threshold_config.json": {
+    "sha256": "c6eb56f345912e009bbedc2ece09df581aac0ccc3a72a3c930d705ee1c509fa9",
+    "size": 264
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined\\tokenizer.json": {
+    "sha256": "f8483eb97495576dc3da7d67f2ebd8b34f65eb7c36c12f5bd68841e648f277f2",
+    "size": 1803052
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined\\tokenizer_config.json": {
+    "sha256": "255791408a94cd4d4a7e37f5f796b0baf9a870220617cae250ba2c952270c564",
+    "size": 1398
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_v2_synthetic_experiment\\config.json": {
+    "sha256": "1f801a60d206052245b39647217e853a65774f567f697cc935f0f81c43f59e95",
+    "size": 844
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_v2_synthetic_experiment\\model.safetensors": {
+    "sha256": "8ca3b1bc10c511d1ac84488148de824ad81237afcf48f7a3283fd77868c9904d",
+    "size": 390294040
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_v2_synthetic_experiment\\special_tokens_map.json": {
+    "sha256": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307",
+    "size": 1015
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_v2_synthetic_experiment\\threshold_config.json": {
+    "sha256": "59352b68ca1fcccf16e8d1e0d6e1a135429dd74c4d07f63167094631c8d773d3",
+    "size": 341
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_v2_synthetic_experiment\\tokenizer.json": {
+    "sha256": "f8483eb97495576dc3da7d67f2ebd8b34f65eb7c36c12f5bd68841e648f277f2",
+    "size": 1803052
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_v2_synthetic_experiment\\tokenizer_config.json": {
+    "sha256": "d479c85c6bfc646c149a8ff9a96967a64106140d9109eff84bca7b2adb937637",
+    "size": 1488
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\pytest.ini": {
+    "sha256": "b160d82f7811555051f8966d8e02750a985227c1d022208c784e606946f2eada",
+    "size": 42
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\requirements-dev.txt": {
+    "sha256": "c23feb58b6f9cab899b3e457b6cad56158f5315b366cd0f7a210feef72af395b",
+    "size": 49
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\data\\lexicon\\active.json": {
+    "sha256": "299ed25e32ce0ad0cde1957cf9199755dd7c9e2c3316ddc7ccafbd6dcd264f68",
+    "size": 16218
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\data\\lexicon\\manifest.json": {
+    "sha256": "b831c10cb8af38d8ecd43b5f1e35b50a35b71f122f4743730cf798b211f24531",
+    "size": 4140
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\database.py": {
+    "sha256": "6b9af57807d62fdf98bae0d81eef6f0b04db5dfd761d8f78606b457de4810288",
+    "size": 1708
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\engine.py": {
+    "sha256": "34f96dc1250cb6d653afc4075f6c6df27c50668be3adba9c3f49610aef029b2b",
+    "size": 6839
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\lexical.py": {
+    "sha256": "44534c75db58469e5098905ec416596406d3c68850f2c367e254a70788872d9f",
+    "size": 5510
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\main.py": {
+    "sha256": "ba1f0b254e33681482db1795c00e8a33ae267da0add761afb1cb4df352772f48",
+    "size": 5792
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\moderation_adapter.py": {
+    "sha256": "2bbbbbd3e9e2e8b9b1211d04d0e90b612f3d749ad88c6b7a0e79ab2b64d03ab3",
+    "size": 6268
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\moderation_contract.py": {
+    "sha256": "91d58bef4e4bcf883d3a77f678a0dde3649740580d4aa066fe05bd987d52d8b8",
+    "size": 5420
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\paths.py": {
+    "sha256": "9950a12fcb2b4892361be46c0e7fb06dc1c6811b0e9eaa4ba665328f44967775",
+    "size": 424
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\predictor.py": {
+    "sha256": "39b266562cf7918cd43fd24047c595ef9dc22ee0d05cd24aa80a5e15fb8eb1fa",
+    "size": 2818
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\review_store.py": {
+    "sha256": "ded9e894ca85e4bda9bc74c510debe92cfaa75f0ecce41f22ec8fe91999ec03a",
+    "size": 4375
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\app\\schemas.py": {
+    "sha256": "74cbaa4843134582e56f50026b8c863c5e929ba61d0753cffc3d3bbb2bcaf5f9",
+    "size": 4487
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\services\\moderation-ai\\requirements.txt": {
+    "sha256": "16f2d1c24323b178434eec1b85fbc54294b9f052f0619894560543bf87e725e1",
+    "size": 158
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\shieldvi_reviews.sqlite3": {
+    "sha256": "e6ddbf88e91b3b435cd81db300189ecc9c4f93442d0f432c8fbcf1815616026e",
+    "size": 16384
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\conftest.py": {
+    "sha256": "110ca68114cf87bb5933da7e1c835bf93e9b0307d49c2476b5a8033e0d6aef6e",
+    "size": 680
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_api.py": {
+    "sha256": "57624b886a769bc2bef4283417dd4a03780d9e78c564f9da4854e1638445757d",
+    "size": 3298
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_demo_evidence.py": {
+    "sha256": "9d58a62c49d792de788a172ca2217318213c0241462b0df5bdefd59b703b9acb",
+    "size": 2012
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_engine.py": {
+    "sha256": "0296dda798e6921ffe44f8f8361c4f0c3707ca848defc993091353ddaf71361f",
+    "size": 2220
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_evaluation.py": {
+    "sha256": "80631f6b0337991e86e8c4ec41b5015403e69c62f5ebb42ae8f7310703e952b9",
+    "size": 1159
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_internal_privacy.py": {
+    "sha256": "372ea68fbb54c683ee2a1fed6d16873043d170bcc664af3036381dd1b3ba40d4",
+    "size": 1323
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_lexical.py": {
+    "sha256": "0d49a9cda1ca26a3fff303a5d1e81cc411be0c060955ea0569375f18437011cf",
+    "size": 3664
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_lexicon_data.py": {
+    "sha256": "666cb5c398597fa07cebc92a5c12d54ad346ff47f5618bd02a8fbe6c133b8c35",
+    "size": 10438
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_migration.py": {
+    "sha256": "ef8ea9a43d5c680f8c8b2339990ad4d6f06fea9d4ef32b0d15266f8e6eb11d65",
+    "size": 3397
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_model_refinement.py": {
+    "sha256": "3e6c724f61a49b9b5dd3ccb066d41a6185fa51b4f52a168f78cbc582d6d90057",
+    "size": 3845
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_moderation_adapter.py": {
+    "sha256": "1998bd107a4087faaa5ffde668e9f67ac9cf3c87f2748452faf1c7fdfd8508ce",
+    "size": 5567
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_policy_design.py": {
+    "sha256": "e4ec1b73a7957106eed2868bc0464f483300ec87952dfb0e2385392eedfd41b0",
+    "size": 5014
+  },
+  "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\tests\\test_social_datasets.py": {
+    "sha256": "a1bc27c9ff4bdee86c1b2c56d366e7f103da2dbde9598ca3f80e8aa2e99825c8",
+    "size": 6239
+  }
+}

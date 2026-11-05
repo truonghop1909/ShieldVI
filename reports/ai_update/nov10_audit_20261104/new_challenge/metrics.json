@@ -1,0 +1,156 @@
+{
+  "classification": {
+    "before": {
+      "n": 23,
+      "tp": 6,
+      "fp": 2,
+      "tn": 15,
+      "fn": 0,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.75,
+      "toxic_recall": 1.0,
+      "macro_f1": 0.8973214285714286,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    },
+    "after": {
+      "n": 23,
+      "tp": 6,
+      "fp": 1,
+      "tn": 16,
+      "fn": 0,
+      "abstained_clean": 0,
+      "abstained_toxic": 0,
+      "coverage": 1.0,
+      "toxic_precision": 0.8571428571428571,
+      "toxic_recall": 1.0,
+      "macro_f1": 0.9463869463869464,
+      "macro_f1_definition": "Mean binary class F1; abstention counts as a miss for its reference class, not silently dropped."
+    }
+  },
+  "grounding": {
+    "before": {
+      "reference_comments_with_target_coverage": 23,
+      "reference_attacks": 6,
+      "target_emissions": 6,
+      "target_correct": 5,
+      "target_precision": 0.8333333333333334,
+      "target_recall": 0.8333333333333334,
+      "target_abstentions_on_reference_attacks": 1,
+      "repeated": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "evidence_correct": 2,
+        "evidence_total": 2,
+        "evidence_precision": 1.0
+      }
+    },
+    "after": {
+      "reference_comments_with_target_coverage": 23,
+      "reference_attacks": 6,
+      "target_emissions": 6,
+      "target_correct": 5,
+      "target_precision": 0.8333333333333334,
+      "target_recall": 0.8333333333333334,
+      "target_abstentions_on_reference_attacks": 1,
+      "repeated": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "evidence_correct": 2,
+        "evidence_total": 2,
+        "evidence_precision": 1.0
+      }
+    }
+  },
+  "comments": 24,
+  "raw_invariant": true,
+  "new_label_errors": [],
+  "remaining_errors": [
+    {
+      "thread_id": "NOV10_AUDIT_CHALLENGE_02",
+      "comment_id": "c02",
+      "text": "Tác giả viết câu “mày đúng là đồ ngu” để cho thấy cách quản đốc đối xử với thợ.",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "TOXIC",
+      "raw_score": 0.871267,
+      "before_target": "N01",
+      "after_target": "N01"
+    }
+  ],
+  "changed_comments": [
+    {
+      "thread_id": "NOV10_AUDIT_CHALLENGE_03",
+      "comment_id": "c06",
+      "text": "Tôi xin lỗi vì đã gọi bạn là đồ ngu. Tôi sẽ gửi vị trí cần đổi bằng tọa độ.",
+      "reference": "CLEAN",
+      "before": "TOXIC",
+      "after": "CLEAN",
+      "raw_score": 0.319763,
+      "before_target": null,
+      "after_target": null
+    }
+  ],
+  "uncertain_reference_excluded": 1,
+  "reference_evidence": {
+    "before": {
+      "evidence_correct": 2,
+      "evidence_emitted": 2,
+      "evidence_reference": 4,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.5,
+      "fully_covered_events": 1,
+      "expected_events": 2,
+      "missing_evidence": [
+        {
+          "pair": [
+            "NOV10_AUDIT_CHALLENGE_01",
+            "N02",
+            "N01"
+          ],
+          "missing": [
+            "c02",
+            "c05"
+          ]
+        }
+      ]
+    },
+    "after": {
+      "evidence_correct": 2,
+      "evidence_emitted": 2,
+      "evidence_reference": 4,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.5,
+      "fully_covered_events": 1,
+      "expected_events": 2,
+      "missing_evidence": [
+        {
+          "pair": [
+            "NOV10_AUDIT_CHALLENGE_01",
+            "N02",
+            "N01"
+          ],
+          "missing": [
+            "c02",
+            "c05"
+          ]
+        }
+      ]
+    }
+  },
+  "human_gold": false,
+  "training_performed": false,
+  "model_sha256": "e5090150ab0d951887060a4cefd25c223fe7d11aa23dd174fedf8b4f18abe3b2",
+  "dataset_manifest_sha256": "778cc8e043872643dc023f2e60ff444bfb3501313f8a5c38780d3841d538699a",
+  "experiment_lock_sha256": "5a10f5c286a8f717b7b2dc85c655b3445185200236980514ea54b8bcda74b36e",
+  "scope": "synthetic_reference; same author; no independent real-world evaluation"
+}

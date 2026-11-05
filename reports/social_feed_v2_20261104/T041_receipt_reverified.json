@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "actual_training_rerun": false,
+  "historical_actual_training_verified": true,
+  "candidate_sha256": "908760d455d661df9385e58658d24ca8f1c39783fc2b9abf6079c51609c6d85c",
+  "run_id": "01b3fced9ac2c540be01477d",
+  "files_verified": 8,
+  "concurrency": {
+    "ack_ms": 47,
+    "claim": "single local fixture-AI workflow alongside actual CPU head training; not production SLO"
+  },
+  "source_receipt_sha256": "b7a099c003cbc402dbe2841e8569f7496feca4010f85497a812f43b3c9e50646"
+}

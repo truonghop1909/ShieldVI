@@ -1,0 +1,99 @@
+{
+  "candidate_sha256": "a7150ede39a348931ce7794d75d69a66cf53c9f646413b0d064caa43e3255be8",
+  "models_not_packaged": true,
+  "broken_links": [],
+  "files": {
+    "configs/t029_genz500_cpu_head_r05.json": {
+      "sha256": "b07f074fdcd6fd61e8c8e97e80bffb041e161ba93d2f825bc3a01b8dd2eeb657",
+      "bytes": 1800
+    },
+    "docs/ai-update/final-report/GENZ500_TRAIN_R05.md": {
+      "sha256": "3b6cb156479143904ad31787f3085aad6b79a8c12ef815fa3c83dfd7eef3288b",
+      "bytes": 3704
+    },
+    "models/candidates/T029_genz500_head_cpu_20261103_r05/threshold_config.json": {
+      "sha256": "4d44a4c0fcec6fbe8fa843a801916c200f0290c0398d29b36775949645b0c0ed",
+      "bytes": 284
+    },
+    "models/candidates/T029_genz500_head_cpu_20261103_r05/training_report.json": {
+      "sha256": "2c6aaa7639d1044da20d1fb1c8e4aad52f37e786eb7a94f348ecfcb69b34f053",
+      "bytes": 6377
+    },
+    "reports/ai_update/train_genz500_r05_20261103/cpu_authorization.json": {
+      "sha256": "934ff5de2e5319873c54d97c0b359bcbd36743dd8cee14378a497dbb72d28af0",
+      "bytes": 851
+    },
+    "reports/ai_update/train_genz500_r05_20261103/finalize_training.py": {
+      "sha256": "603c1179e00bcecf6c99d1e47bbf31252f52c0a2de1e23500886efc165b26e35",
+      "bytes": 11692
+    },
+    "reports/ai_update/train_genz500_r05_20261103/integrity_audit.json": {
+      "sha256": "d559dde69551081914a5df58a406aa3a79422afe591917b45df09988ed430e62",
+      "bytes": 426
+    },
+    "reports/ai_update/train_genz500_r05_20261103/predeclared_experiment.json": {
+      "sha256": "47153adb4913292700b29b1e4ce319cbf637c700f539df917a2dabaa9a03cd89",
+      "bytes": 1351
+    },
+    "reports/ai_update/train_genz500_r05_20261103/preflight.json": {
+      "sha256": "0330aa5fcd61a3761ad26d0ef5677441b9f17bae13d6336a30ccd7d8b38fd92e",
+      "bytes": 172
+    },
+    "reports/ai_update/train_genz500_r05_20261103/preflight_tests.log": {
+      "sha256": "319487a176bda5c1caa3c247c3ac76134c12482263bd657b5066ecc19476744d",
+      "bytes": 1180
+    },
+    "reports/ai_update/train_genz500_r05_20261103/prepared/manifest.json": {
+      "sha256": "fded02e7183065e2dc70616314908fa17a9a9ac21ec09874d63abcee95af3f6a",
+      "bytes": 4964
+    },
+    "reports/ai_update/train_genz500_r05_20261103/prepared/train.jsonl": {
+      "sha256": "7805551e7e8db15c7fd731a578ef5e707a9adf72fdf38dd547af7f6cfa9ca2ed",
+      "bytes": 3029652
+    },
+    "reports/ai_update/train_genz500_r05_20261103/prepared/validation.jsonl": {
+      "sha256": "e554bf12121d21581808d982d92187121d1aa69350468a4333fbfce18fd8623e",
+      "bytes": 427710
+    },
+    "reports/ai_update/train_genz500_r05_20261103/progress.json": {
+      "sha256": "6f53251bc7a36afebc1f6a5096435fb251c39735b1d3e03e4e3e9541132c0808",
+      "bytes": 575
+    },
+    "reports/ai_update/train_genz500_r05_20261103/run_training.py": {
+      "sha256": "c8db2428253da1cf5d5de8c708d99f42c51a7d52b631ef23e44c2a061ca4187f",
+      "bytes": 7894
+    },
+    "reports/ai_update/train_genz500_r05_20261103/training.log": {
+      "sha256": "38996900bf01e4d6b24debc0807b18cfe9a23f84e9a796fbc4532329416c1bce",
+      "bytes": 10928
+    },
+    "reports/ai_update/train_genz500_r05_20261103/training_execution.json": {
+      "sha256": "2c6aaa7639d1044da20d1fb1c8e4aad52f37e786eb7a94f348ecfcb69b34f053",
+      "bytes": 6377
+    },
+    "reports/ai_update/train_genz500_r05_20261103/validation_references.json": {
+      "sha256": "e79202be719062dd4a1911756c4241faf31b529e31f674d9337a583f7a356c39",
+      "bytes": 711
+    },
+    "reports/ai_update/train_genz500_r05_20261103/validation_review.json": {
+      "sha256": "1db544fffe3aa5bed29111818a69f1da13d7b710a0c039999eab33e71b68400c",
+      "bytes": 2522
+    },
+    "tasks/AUTO_PROGRESS.md": {
+      "sha256": "933108f3d620c741f8e554c9ba7fc552c0610afd09430f37a8013def69399b75",
+      "bytes": 52339
+    },
+    "tasks/moderation-ai/T029-optional-train-candidate-visobert-on-colab.md": {
+      "sha256": "f36694e728c5c5ca84f878c379d79170995f4b163d4eaa886ae79e2b2da19924",
+      "bytes": 12531
+    },
+    "tasks/moderation-ai/TASK_ORDER_AI.md": {
+      "sha256": "d7c43db7c8f878387e6c0397e5ecf4fc63231c32530c1dee281f56b2f2a03431",
+      "bytes": 8059
+    },
+    "tasks/TASK_ORDER.md": {
+      "sha256": "9393b3d9e9d6b6b7db0ff38f5287973ba0cdcbf154e2b75e66e6de1d9c032922",
+      "bytes": 13404
+    }
+  }
+}

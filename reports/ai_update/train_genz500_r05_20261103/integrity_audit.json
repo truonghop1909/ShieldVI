@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "protected_artifacts": 31,
+  "original_V1_and_approved_V1_1_unchanged": true,
+  "encoder_unchanged": true,
+  "threshold": 0.41,
+  "synthetic500_and_legacy200_unchanged": true,
+  "development_lock_unchanged": true,
+  "context_fixtures_and_user_reference_unchanged": true,
+  "original_validation_test_SQLite_unchanged": true,
+  "candidate_reload_error": 0.0,
+  "production_changed": false
+}

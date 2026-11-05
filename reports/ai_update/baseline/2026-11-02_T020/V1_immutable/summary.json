@@ -1,0 +1,71 @@
+{
+  "captured_at": "2026-11-02T14:38:00.584868+07:00",
+  "label": "V1_immutable",
+  "model_name": "ViSoBERT V1 — ViCTSD",
+  "threshold": 0.41,
+  "checkpoint_path": "C:\\Users\\admin\\Downloads\\visobert_toxic_final",
+  "weights_sha256": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "health": {
+    "status": "ready",
+    "model_loaded": true,
+    "model_path": "C:\\Users\\admin\\Downloads\\visobert_toxic_final",
+    "details": "Sẵn sàng phân tích"
+  },
+  "fixtures": [
+    {
+      "input_file": "datasets\\fixtures\\genz_regression\\SHIELDVI_01_GAME_RANK_LAG_30.json",
+      "input_sha256": "db0a31f70e462aaa2eb575dd443ded27100b30493dc176093b36b7c2311927c2",
+      "thread_id": "SHIELDVI_GENZ_01_01_GAME_RANK_LAG",
+      "comments": 30,
+      "flagged": 9,
+      "risk_level": "suspected_repeated",
+      "suspected_repeated_harassment": true,
+      "elapsed_seconds": 0.641
+    },
+    {
+      "input_file": "datasets\\fixtures\\genz_regression\\SHIELDVI_02_SHOP_GIAY_SECONDHAND_30.json",
+      "input_sha256": "28a2179025e74db2dc8262bcc49a600e2ec6563e3fdc5cbb6b52bde669658d33",
+      "thread_id": "SHIELDVI_GENZ_02_02_SHOP_GIAY_SECONDHAND",
+      "comments": 30,
+      "flagged": 5,
+      "risk_level": "suspected_repeated",
+      "suspected_repeated_harassment": true,
+      "elapsed_seconds": 0.656
+    },
+    {
+      "input_file": "datasets\\fixtures\\genz_regression\\SHIELDVI_03_DANCE_COVER_TIKTOK_30.json",
+      "input_sha256": "270db107f4655033e323a129e87b7c15b23a67360c2c90ecbe7e1eaaf5403fa6",
+      "thread_id": "SHIELDVI_GENZ_03_03_DANCE_COVER_TIKTOK",
+      "comments": 30,
+      "flagged": 8,
+      "risk_level": "suspected_repeated",
+      "suspected_repeated_harassment": true,
+      "elapsed_seconds": 0.61
+    },
+    {
+      "input_file": "datasets\\fixtures\\genz_regression\\SHIELDVI_04_DI_CAMPING_CHIA_TIEN_30.json",
+      "input_sha256": "20182a7fa088789f118349aeed6fb981439e7bc0398c18d4e715ce4d33c12cba",
+      "thread_id": "SHIELDVI_GENZ_04_04_DI_CAMPING_CHIA_TIEN",
+      "comments": 30,
+      "flagged": 6,
+      "risk_level": "suspected_repeated",
+      "suspected_repeated_harassment": true,
+      "elapsed_seconds": 0.64
+    },
+    {
+      "input_file": "datasets\\fixtures\\genz_regression\\SHIELDVI_05_FANART_AI_DISPUTE_30.json",
+      "input_sha256": "4d6e860c47c5f722a00900166a1b68d8bf24317d9845f9b69410a25279bf3fc0",
+      "thread_id": "SHIELDVI_GENZ_05_05_FANART_AI_DISPUTE",
+      "comments": 30,
+      "flagged": 6,
+      "risk_level": "suspected_repeated",
+      "suspected_repeated_harassment": true,
+      "elapsed_seconds": 0.657
+    }
+  ],
+  "internal_adapter": {
+    "unauthenticated_status": 401,
+    "authenticated_status": 200,
+    "ephemeral_test_token_not_saved": true
+  }
+}

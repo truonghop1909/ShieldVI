@@ -1,0 +1,550 @@
+﻿@@101|fanart_cosplay|Lỡ mang nhầm đạo cụ của bạn diễn|A=hay quên;B=chủ đạo cụ;C=hậu trường|A|prop_mixup|returned
+A0 Ai có cây kiếm bọc vải xanh không?
+B0 Tui tìm từ nãy, A cầm nhầm à?
+C0 Hai cây giống nhau thật đó.
+A0 Tui lấy nhầm túi ở cánh gà.
+B0 Cây tui có miếng băng vàng ở chuôi.
+C0 Còn cây A cán quấn đỏ.
+A0 Đúng rồi, tui mang ra bàn đăng ký.
+B0 Chờ tui thay đồ xong đã nhé.
+C0 Tui giữ bàn, hai người cứ đổi.
+A0 Lần sau phải dán tên lên túi 😅
+@@102|cam_trai_du_lich|Cãi nhau chuyện chụp ảnh trên đường mòn|A=thích ảnh;B=muốn đi nhanh;C=giữ lịch|B|trail_photo_pacing|two_groups
+A0 Chờ tui chụp nốt khúc suối này.
+B.C1- Cứ dừng vậy mình về không kịp.
+C0 Còn bốn cây đến bãi xe.
+A.C2- Lịch ban đầu có thời gian chụp mà.
+B0 Tụi mình đã trễ một tiếng rồi.
+C0 Có thể tách nhóm tại điểm có hướng dẫn.
+A0 Tui không muốn đi một mình.
+B0 Vậy chọn hai điểm nữa thôi được không?
+A0 Hai điểm nhưng đừng giục lúc đang chụp.
+C0 Mình đặt giờ hẹn ở trạm cuối nhé.
+@@103|am_thuc|Bánh xẹp và lời chửi không có đối tượng|A=tập nướng;B=giải thích;C=hóng ăn|C|cake_collapse_vent|retry
+A.P0- shit, bánh sụp ngay giữa mặt
+B0 Bạn mở lò lúc bánh đang nở à?
+C0 tui vẫn ăn phần viền nha 😭
+A0 Có hé cửa nhìn một lần.
+B0 Lần sau thử đợi ổn định nhiệt.
+C0 Lần này vị có thay đổi không?
+A0 Mùi vẫn thơm, trong hơi ẩm.
+B0 Cần kiểm tra độ chín trước khi ăn.
+C0 thôi đừng cứu bằng kem phủ vội
+A0 Tui cắt thử rồi làm mẻ nhỏ sau.
+@@104|doi_song|Người mới thuê bị coi thường tiền bạc|A=thuê phòng;B=cùng khu;C=quản lý|L|tenant_classist_insult|reported
+A0 Phí giữ xe tháng này tăng hả mọi người?
+B.H1A Nghèo như mày hỏi mãi cũng chẳng khá lên đâu.
+C.I2B Hỏi phí là quyền của người thuê.
+A.D2B Mình hỏi khoản thu, không mời đánh giá thu nhập.
+B0 bảng dán dưới sảnh rồi
+C0 Bảng cũ chưa cập nhật, mình gửi bản mới.
+A0 Mức mới áp dụng từ tháng nào?
+C0 Từ tháng sau, không truy thu.
+B0 vậy tui đọc nhầm ngày
+A0 Tui lưu thông báo, cảm ơn đã làm rõ.
+@@105|so_thich|Nhại ảnh chụp của một người hai lần|A=tập nhiếp ảnh;B=chê ác;C=góp ý|E|photography_repeated_mockery|muted
+A0 Thử phơi sáng đường phố lần đầu.
+B.T1A Mày chụp như đứa mù vậy.
+C.C1- Chân máy chưa chắc, đèn bị rung.
+A.D2B Mình muốn nghe góp ý như C nói.
+B.T+4A Tay mày phế rồi, bán máy đi cho nhẹ.
+C.I5B Đừng tiếp tục xúc phạm bạn ấy.
+A0 Tui tắt thông báo với B nhé.
+C0 Lần sau dùng hẹn giờ tránh rung tay.
+A0 Máy có hẹn hai giây, tui sẽ thử.
+C0 Giữ file gốc để so trước sau nha.
+@@106|game|Bàn lối chơi thủ hay tấn công|A=chơi thủ;B=thích ép;C=xem bản đồ|B|defense_push_strategy|unresolved
+A.C0- Tui nghĩ giữ trụ tốt hơn đẩy lúc này.
+B.C1- Thủ hoài thì họ lấy hết tài nguyên.
+C0 Hai bên đang ngang tiền.
+A0 Chờ hồi kỹ năng rồi mới tranh.
+B0 Chờ nữa mất mục tiêu lớn đó.
+C0 Có thể đổi trụ bên kia.
+A0 Vậy cần người giữ tầm nhìn.
+B0 Tui đi cắm mắt, đừng tách thêm.
+C0 Tui ping thời gian hồi chiêu.
+A0 Chốt sau khi thấy vị trí đối thủ.
+@@107|fandom|Hai fan trả đũa nhau bằng nhục mạ|A=fan bản cũ;B=fan bản mới;C=mod|F|fandom_version_mutual|locked
+A.C0- Phối khí mới bỏ mất điểm nhấn.
+B.T1A Tai mày có vấn đề mới chê bản này.
+A.T2B Còn mày là thứ fan não rỗng.
+C.I3A Dừng công kích, bình luận về bản nhạc thôi.
+B.C1- Tui thích đoạn bass mới hơn.
+A.C5- Đoạn đó lấn giọng hát ở điệp khúc.
+C0 Hai nhận xét đó có thể trao đổi được.
+B0 thôi tui không tranh luận tiếp
+A0 Tui cũng tắt chuỗi trả lời này.
+C0 Mình khóa nhánh xúc phạm, giữ nhận xét chuyên môn.
+@@108|tiktok_youtube|Đám đông đòi người mới ngừng đăng|A=clip đầu;B=anti;C=hùa;D=can ngăn|G|new_creator_pileon|pause
+A0 Video đầu tay còn nhiều lỗi, mong góp ý.
+B.T1A Mặt mày lên hình chỉ tổ làm bẩn feed.
+C.T1A Biến khỏi mạng đi, chẳng ai muốn thấy mày.
+D.I3C Không thích có thể lướt, đừng hạ nhục.
+A.D2B Mình muốn sửa cách dựng, không nhận lời đuổi người.
+B.C5- Chuyển cảnh chóng mặt thật.
+D.C6- Có thể giảm số lần zoom.
+A0 Phần âm lượng thì sao mọi người?
+D0 Nhạc hơi lấn lời ở đoạn giữa.
+A0 Mình ghi lại, tạm dừng đọc nhánh kia.
+@@109|hoc_tap|Xin lỗi bạn bị bỏ sót tên trong báo cáo|A=nhóm trưởng;B=bị sót tên;C=thành viên|A|report_credit_omission|corrected
+B.C0- Trang thành viên thiếu tên mình.
+A0 Mình kiểm lại file ngay.
+C0 B làm phần khảo sát đó.
+A.A1B Xin lỗi B, mình bỏ sót khi sửa bìa.
+B0 Còn kịp nộp bản thay thế không?
+A0 Hệ thống vẫn mở đến tối.
+C0 Chụp bản mới trước khi bấm gửi nha.
+A0 Mình thêm tên và phần phân công rồi.
+B0 Mình xem đúng rồi, nộp giúp nhé.
+C0 Nhớ tải biên nhận bản cuối.
+@@110|mua_ban_online|Người bán xin lỗi hành vi công kích|A=khách;B=shop;C=hỗ trợ|I|seller_explicit_apology|replacement
+A.C0- Sản phẩm nhận được không giống ảnh màu.
+B.T1A Khách dốt như bạn chỉ biết kiếm chuyện.
+C.I2B Vui lòng trao đổi hàng hóa, không xúc phạm.
+A.D2B Ảnh mình chụp dưới ánh sáng thường đây.
+B.A4A Shop xin lỗi vì đã gọi bạn dốt, câu đó sai.
+A.R5B Mình ghi nhận, giờ cần cách đổi hàng.
+C0 Shop xác nhận còn đúng mã màu không?
+B0 Còn, shop gửi mã đổi trên hệ thống.
+A0 Mình chờ mã rồi đóng gói lại.
+C0 Giữ chứng từ gửi trả đến khi xong nhé.
+@@111|ban_be|Trò đùa cũ không còn vui|A=bị gọi biệt danh;B=hay trêu;C=bạn chung|Q|nickname_boundary|respected
+A0 Đừng gọi tui bằng biệt danh hồi cấp hai nữa.
+B.U1A ôi nhân vật chính đổi nghệ danh rồi 😅|Có thể đùa thân mật nhưng người nghe vừa nêu ranh giới; chưa có hạ nhục rõ.
+C0 A nói không thích thì mình đổi cách gọi.
+A.D2B Tui nghiêm túc, tên đó gắn với chuyện không vui.
+B0 Ừ, tui gọi tên bạn thôi.
+C0 Trong nhóm còn tên hiển thị cũ đó.
+A0 Nhờ quản trị đổi giúp tui.
+B0 Tui vừa xóa biệt danh trên máy.
+C0 Đã sửa tên nhóm cho A rồi.
+A0 Cảm ơn, quay lại lịch gặp nhé.
+@@112|thoi_trang_lam_dep|Hỏi kích cỡ rồi bị công kích bằng tiếng Anh|A=khách hỏi;B=cộc;C=người trả lời|N|sizing_english_attack|answered
+A0 Bảng này là số đo áo hay cơ thể?
+B.T1A Are you stupid? Đọc vậy cũng không hiểu.
+C.I2B Bảng không ghi rõ nên bạn ấy hỏi thôi.
+A.D2B Mình cần xác nhận trước khi mua.
+C0 Theo mô tả thì đây là số đo áo.
+B0 kéo xuống cuối có dòng chú thích
+A0 Trên bản điện thoại mình không thấy.
+C0 Mình chụp cả chú thích gửi nhé.
+A0 Vậy mình chọn theo độ rộng vai.
+C0 Kiểm tra cả độ co giãn nữa nha.
+@@113|phim_am_nhac|Trích lời thoại chửi khác với chửi người xem|A=phân tích phim;B=hỏi cảnh;C=tránh spoiler|K|movie_dialogue_quote|analysis
+A.Q0- Câu “đồ ngu, tránh ra” cho thấy nhân vật đang mất bình tĩnh.|Trích lời thoại hư cấu để phân tích diễn xuất, không nhắm người tham gia.
+B0 Cảnh đó trước hay sau vụ mất ví?
+C0 Nhớ che nội dung phần sau nha.
+A0 Trước, mình chỉ nói tập một.
+B0 Tui tưởng bản dịch giảm mức nặng.
+C0 Hai phụ đề có cách dùng từ khác.
+A0 Phần biểu cảm vẫn giữ sự tức giận.
+B0 Giọng diễn viên hơi run đoạn đó.
+C0 Có link clip chính thức không?
+A0 Mình dẫn trailer, không đăng bản cắt lậu.
+@@114|cong_nghe|Mã độc giả và lời đe dọa trong nhóm sửa máy|A=hỏi lỗi;B=đe dọa;C=mod|D|repair_chat_threat|removed
+A0 Mình nhờ xem màn hình lỗi này.
+B.K1A Còn hỏi nữa tao tìm tới đập mày đấy.|Lời đe dọa bạo lực trực tiếp vì người dùng hỏi lỗi, không phải câu trích dẫn.
+C.I2B Đe dọa người hỏi là vi phạm nhóm.
+A.D2B Không biết thì mình hỏi, không chấp nhận bị đe dọa.
+C0 Mình lưu nội dung để quản trị xử lý.
+B0 nhóm gì hỏi câu dễ suốt
+C0 Bạn có thể bỏ qua câu hỏi.
+A0 Máy vẫn khởi động vào màn hình sửa lỗi.
+C0 Nhờ bạn đăng mã lỗi, che số serial.
+A0 Mình bổ sung ảnh không có thông tin riêng.
+@@115|the_thao|Quà giải phong trào và lời xin lỗi giả|A=nhận giải;B=khó chịu;C=ban tổ chức|S|amateur_prize_mixed_apology|disputed
+A0 Cảm ơn mọi người đã cổ vũ đội mình.
+B.M1A Xin lỗi nhé, nhưng mày thắng nhờ may chứ đầu óc có gì đâu.
+C.I2B Nếu phản ánh thể lệ thì nói rõ, đừng xúc phạm.
+A.D2B Bạn có thể xem lại bảng điểm từng vòng.
+B.C4- Vòng cuối hệ số cao quá.
+C0 Hệ số đã được thông báo trước giải.
+A0 Đội mình cũng tính theo bảng đó.
+B0 tui vẫn không thích cách chia điểm
+C0 Mình nhận góp ý cho mùa sau.
+A0 Ảnh chung đội mình gửi trong album nhé.
+@@116|fanart_cosplay|Cảm thán khi keo dính hỏng mô hình|A=đang làm;B=giúp;C=tếu|C|prop_glue_accident|salvage
+A.P0- đm keo chảy vào mặt sơn rồi
+B0 Đừng cạy ngay lúc chưa khô.
+C0 dự án đang chuyển hệ trừu tượng 🥲
+A0 Một mảng trắng ngay giữa giáp.
+B0 Bạn dùng loại keo nào?
+C0 còn miếng thử vật liệu không?
+A0 Có, tui thử cách xử lý trên miếng đó.
+B0 Ừ, tránh làm hỏng thêm phần chính.
+C0 tui giữ đèn cho bạn soi mép
+A0 Chắc phải sơn lại riêng mảng này.
+@@117|cam_trai_du_lich|Chọn đi rừng hay đi biển trong mùa mưa|A=muốn rừng;B=thích biển;C=lo lịch|B|rainy_trip_destination|postponed
+A0 Rừng gần hơn, đỡ ngồi xe lâu.
+B.C1- Nhưng mưa vậy đường mòn khó đi.
+C0 Biển cũng có cảnh báo sóng mạnh.
+A0 Hay chọn chỗ nghỉ có hoạt động trong nhà?
+B0 Vậy khác gì ở thành phố đâu.
+C0 Mục tiêu là nghỉ ngơi hay phải đi xa?
+A0 Tui muốn đổi không khí thôi.
+B0 Tui muốn bơi, lịch này chắc không hợp.
+C0 Có thể lùi chuyến chính sang tháng sau.
+A0 Cuối tuần này gặp ăn sáng cũng được.
+@@118|am_thuc|Lời chê món ăn bị chuyển sang chê người|A=nấu thử;B=chê;C=bạn cùng bàn|R|recipe_overt_subtle_attack|boundary
+A0 Nước sốt lần này hơi mặn nhỉ?
+B.T1A Mày ngu bếp núc thật sự.
+C.I2B Nói vị món ăn thôi nhé.
+A.D2B Tui muốn biết nên giảm phần nào.
+B.H+4A Nói cũng vô ích, mày chẳng có chút giá trị gì ở đây.
+C.I5B Đó không phải nhận xét về món ăn.
+A0 Tui không tiếp tục nhận xét với B nữa.
+C.C1- Giảm phần nước tương trước đi.
+A0 Tui ghi lượng vào sổ cho lần sau.
+C0 Thử nửa mẻ trước cho dễ điều chỉnh.
+@@119|doi_song|Nhặt ví nhưng không đăng thông tin cá nhân|A=nhặt ví;B=nhắc riêng tư;C=quản trị|T|lost_wallet_privacy|handover
+A0 Mình nhặt ví trước cổng khu nhà.
+B0 Đừng đăng ảnh giấy tờ đầy đủ nha.
+C0 Có thể gửi bảo vệ lập biên nhận.
+A0 Mình chỉ chụp mặt ngoài ví.
+B0 Ai nhận cần mô tả đồ bên trong.
+C0 Bảo vệ có sổ đồ thất lạc đó.
+A0 Ví màu nâu, chủ liên hệ bảo vệ nhé.
+B0 Bạn ghi thêm thời gian nhặt được.
+C0 Mình ghim tin trong ngày hôm nay.
+A0 Đã bàn giao lúc 18 giờ 10.
+@@120|so_thich|Bình luận mỉa điểm số trò chơi trí tuệ|A=chia sẻ điểm;B=khó đoán;C=phân tích|M|puzzle_score_irony|open
+A0 Hôm nay tui giải được trong sáu bước.
+B.U1A đỉnh cao trí tuệ luôn ha 😏|Khen cường điệu có thể thân mật hoặc mỉa; thiếu bằng chứng công kích rõ.
+C0 Cậu bắt đầu bằng từ nào?
+A0 Tui chọn từ nhiều nguyên âm.
+B0 tui toàn đoán theo cảm giác
+C0 Cách đó lọc nhanh nhưng bước sau quan trọng.
+A0 Từ thứ ba tui đổi phụ âm bị sai.
+B0 tui sai ngay lượt đầu rồi =))
+C0 Mai thử ghi lại chiến lược xem.
+A0 Nhớ đừng lộ đáp án trước trưa nha.
+@@121|game|Mời người khiếm thính vào đội|A=tổ chức;B=không dùng voice;C=đồng đội|A|accessible_game_comms|included
+B0 Mình không theo voice chat được.
+A0 Dùng ping với chữ trong game nhé?
+C0 Tui gán sẵn mấy câu báo đường.
+B0 Có thông báo bắt đầu bằng chữ là ổn.
+A0 Tui ghi kế hoạch trước mỗi vòng.
+C0 Âm báo mục tiêu có biểu tượng trên màn hình.
+B0 Mình bật biểu tượng rồi.
+A0 Ai đổi chiến thuật nhớ ping lại.
+C0 Để thử một trận không tính điểm trước.
+B0 Tui vào phòng rồi nha.
+@@122|fandom|Bị mắng vì không thức xem livestream|A=ngủ sớm;B=fan cực đoan;C=nhắc giới hạn|E|fan_sleep_harassment|optout
+A0 Tui xem lại sáng mai, nay phải ngủ sớm.
+B.T1A Thứ fan rác như mày chỉ biết hưởng.
+C.I2B Người ta có lịch riêng mà.
+A.D2B Mai mình đi làm, không thức cùng được.
+B.H+4A Mày chẳng xứng đứng chung nhóm này đâu.
+C.I5B Đừng dùng giờ xem để hạ nhục người khác.
+A0 Tui tắt chat đêm nay.
+B0 thích thì out luôn đi
+C0 Mình báo quản trị nhánh này.
+A0 Sáng mình vẫn xem bản chính thức như dự định.
+@@123|tiktok_youtube|Lời chỉ trích nội dung quảng cáo có căn cứ|A=creator;B=người xem;C=soát mô tả|P|ad_disclosure_feedback|edited
+B.C0- Video có tài trợ nhưng mô tả chưa ghi rõ.
+A0 Mình có nói ở cuối clip.
+C.C1- Người chưa xem hết khó biết đó là quảng cáo.
+B0 Nên thêm nhãn ở đầu và phần mô tả.
+A0 Tui tưởng ghi cuối là đủ rõ.
+C0 Mình nói về mức dễ nhận biết thôi.
+A0 Mình thêm chú thích tài trợ trên bài.
+B0 Cảm ơn, nội dung nên tách trải nghiệm và quảng cáo.
+C0 Link mua cũng ghi đúng nguồn nha.
+A0 Đã cập nhật cả dòng liên kết.
+@@124|hoc_tap|Tranh luận dùng giấy hay máy tính ghi bài|A=ghi giấy;B=ghi máy;C=chọn tùy môn|B|note_medium_debate|mixed
+A0 Viết tay tui nhớ công thức lâu hơn.
+B.C1- Gõ máy tìm lại nhanh hơn nhiều.
+C0 Môn vẽ hình tui vẫn cần giấy.
+A0 Máy làm tui dễ chuyển tab lắm.
+B0 Tui tắt thông báo khi học.
+C0 Có thể thử một tuần mỗi cách.
+A0 Nhưng tìm chữ viết tay cực ghê.
+B0 Chụp lại rồi đặt tên theo buổi học.
+C0 Cuối kỳ cần mục lục chung hơn là dụng cụ.
+A0 Tui thêm mục lục vào sổ trước.
+@@125|mua_ban_online|Nhắc lời đe dọa đã nhận để bảo vệ mình|A=người mua;B=hỗ trợ;C=nhắc lưu bằng chứng|K|buyer_quote_threat|evidence
+A.Q0- Người bán nhắn “tao tìm tới đánh mày” sau khi mình yêu cầu hoàn.|Báo lại lời đe dọa nhận được, không tự đe dọa người đọc.
+B0 Bạn còn giữ toàn bộ đoạn chat không?
+C0 Đừng chỉ lưu một ảnh mất thời gian gửi.
+A0 Còn lịch sử trong ứng dụng.
+B0 Gửi vào mục báo cáo an toàn của sàn nhé.
+C0 Che địa chỉ khi hỏi công khai.
+A.D2B Mình cần được xử lý an toàn, không muốn đôi co.
+B0 Việc hoàn hàng vẫn đi qua quy trình riêng.
+C0 Nhờ hỗ trợ xác nhận đã nhận báo cáo.
+A0 Mình lưu mã tiếp nhận rồi.
+@@126|ban_be|Chọn quà chung cho bạn chuyển nhà|A=khởi xướng;B=ít tiền;C=thích thiết thực|T|housewarming_gift|decided
+A0 Tặng cây hay nồi nhỉ?
+C0 Nhà mới thiếu kệ giày đó.
+B0 tui góp được 80k thôi
+A0 Mình chọn trong ngân sách nha.
+C0 Hỏi kích thước cửa trước đã.
+B0 kệ lắp ráp tui phụ được
+C0 Để tui hỏi chiều ngang.
+A0 Đừng mua món to bất ngờ.
+B0 đúng, lại thành tặng việc dọn 😭
+A0 Chốt kệ sau khi có số đo.
+@@127|thoi_trang_lam_dep|Giày cọ gót nhưng lời chê nhắm người|A=hỏi mẹo;B=chê;C=tư vấn|D|shoe_blister_insult|answered
+A0 Giày mới cọ gót quá.
+B.T1A Chân mày dị dạng mới thế.
+C.I2B Đừng xúc phạm cơ thể người hỏi.
+A.D2B Mình chỉ hỏi cách xử lý giày.
+C0 Cỡ giày có bị rộng gót không?
+A0 Đi nhanh là gót tuột.
+B0 mua online thì chịu thôi
+C.C7- Mua online không có nghĩa chịu bị chửi.
+A0 Tui hỏi shop điều kiện đổi.
+C0 Giữ giày sạch trước khi thử tiếp.
+@@128|phim_am_nhac|Đoán kết phim không có lời chửi|A=đoán vui;B=phản biện;C=theo manh mối|B|mystery_ending_theory|open
+C0 Chiếc đồng hồ dừng lúc nào?
+A0 Tui đoán ngay cảnh mất điện.
+B.C2- Không khớp cảnh bảo vệ đi qua.
+C0 Camera ở đó lệch năm phút.
+A0 Vậy mốc giờ không đáng tin.
+B0 Nhưng tiếng chuông vẫn đúng.
+C0 Có thể chuông từ điện thoại.
+A0 Tui phải coi lại đoạn bếp.
+B0 Mai tập cuối mới biết.
+C0 Đừng đọc leak trong nhánh này nha.
+@@129|cong_nghe|Máy in lỗi làm người dùng văng tục|A=bực;B=kỹ thuật;C=đồng nghiệp|C|printer_queue_vent|fixed
+A.P0- vkl in thêm ba bản trắng
+C0 giấy sắp hết luôn 😭
+B0 Xem hàng đợi có lệnh cũ không.
+A0 Có chín lệnh đang treo.
+B0 Hủy lệnh trước, đừng gửi thêm.
+C0 tui dùng máy tầng dưới nhé
+A0 Hủy hết vẫn báo chờ.
+B0 Thử khởi động lại hàng đợi in.
+A0 Được rồi, bản thử có chữ.
+C0 giữ tui một bản danh sách nha
+@@130|the_thao|Nhóm cầu lông ép một người nghỉ|A=mới chơi;B=khó chịu;C=hùa;D=trưởng nhóm|G|badminton_newcomer_pileon|reassigned
+B.T0A Mày đánh tệ thế thì biến đi.
+A.D1B Mình đăng ký buổi cho người mới mà.
+C.H2A Có mày ở đây chỉ tổ phí sân.
+D.I3C Buổi này dành cho người tập, không đuổi bạn.
+A0 Mình có thể tập riêng nửa sân.
+D0 Mình ghép bạn với người hướng dẫn.
+B0 vậy tụi tui đánh đôi sân bên
+C0 nhớ chia tiền đúng sân nhé
+D0 Tiền theo danh sách đã báo.
+A0 Mình ở sân tập số hai.
+@@131|fanart_cosplay|Tán dương hay mỉa nét vẽ run|A=tập nét;B=hay đùa;C=giúp|M|lineart_ambiguous_praise|practice
+A0 Nét vẫn run nhưng đỡ hơn tuần trước.
+C0 Thử kéo từ khuỷu tay xem.
+B.U1A họa sĩ vĩ đại xuất hiện rồi 😎|Có thể trêu vui hoặc mỉa khả năng vẽ, thiếu ngữ cảnh quan hệ.
+A0 Tui còn đang tập đường thẳng thôi.
+B0 tui vẽ vòng tròn thành khoai 😭
+C0 Đừng cố sửa một nét quá nhiều lần.
+A0 Tui cứ tô lại nên bị dày.
+C0 Tập riêng trên trang nháp nhé.
+B0 có bài tập năm phút không
+A0 Tui gửi link nguồn đang học.
+@@132|cam_trai_du_lich|Người dẫn đoàn nhận lỗi chỉ sai điểm đón|A=dẫn đoàn;B=khách;C=phụ trách xe|A|pickup_location_correction|rerouted
+B0 Mã vị trí dẫn sang cổng khóa.
+C0 Xe đang ở cổng phía đông.
+A.A1B Xin lỗi, mình gửi vị trí cũ.
+B0 Tụi mình đi bộ vòng xa không?
+A0 Đứng nguyên nhé, xe sẽ vòng lại.
+C0 Mất khoảng mười phút di chuyển.
+B0 Có hai bạn vẫn ở cổng tây.
+A0 Mình gọi riêng xác nhận với họ.
+C0 Xe có biển số trong tin ghim.
+B0 Tụi mình chờ ở mái hiên.
+@@133|am_thuc|Chửi người ăn chay rồi xin lỗi kèm nhục mạ|A=ăn chay;B=cộc;C=chọn quán|S|vegetarian_mixed_apology|separate_meals
+A0 Quán này có món chay không?
+B.M1A Xin lỗi nha, mày phiền như cái của nợ ấy.
+C.I2B Hỏi món ăn thôi, đừng xúc phạm.
+A.D2B Không có thì mình tự chọn món khác.
+C0 Tui xem thực đơn trước.
+B0 quán nướng lấy đâu đồ chay
+C0 Có cơm nấm, nhưng cần hỏi nước sốt.
+A0 Mình hỏi trực tiếp quán nhé.
+B0 thế đừng đổi quán nữa
+A0 Chưa có món phù hợp thì mình ăn riêng.
+@@134|doi_song|Tài xế và khách chửi trả nhau|A=khách;B=tài xế;C=điều phối|F|pickup_mutual_insults|cancelled
+A.C0- Xe đứng lệch điểm đón rồi.
+B.T1A Mày mù đường còn bày đặt chỉ.
+A.T2B Còn ông ngu mới dừng sai cổng.
+C.I3A Hai bên dừng xúc phạm giúp mình.
+B0 Cổng trong ảnh đang đóng.
+A0 Ứng dụng không báo đổi điểm.
+C0 Có thể hẹn ở cổng phụ.
+A0 Mình hủy chuyến, không đi nữa.
+B0 nhờ điều phối ghi lý do
+C0 Mình lưu vị trí và trao đổi thực tế.
+@@135|so_thich|Khoe bộ tem có người chế giễu dài ngày|A=sưu tầm;B=chế nhạo;C=cùng sở thích|E|stamp_collection_harassment|ignored
+A0 Mình tìm được con tem thiếu rồi.
+B.H1A Đời mày rảnh rỗi đến mức vô nghĩa thật.
+C0 Con này thuộc bộ năm nào?
+A0 Bộ phát hành năm 1999.
+B.T+4A Mày đúng là đồ dở hơi, giữ toàn rác.
+C.I5B Không thích sưu tầm thì bỏ qua.
+A.D5B Mình không cần bạn đánh giá con người mình.
+C0 Mép tem còn nguyên không bạn?
+A0 Góc phải hơi gập nhẹ.
+C0 Vậy ghi tình trạng vào sổ nhé.
+@@136|game|Hỏi phím điều khiển bị chửi che chữ|A=mới chơi;B=khinh;C=giúp|O|controller_masked_insult|guided
+C0 A chơi tay cầm hay bàn phím?
+A0 Tay cầm, tui tìm nút né.
+B.T2A n.g.u thế, nút hiện ngay đó mà.
+C.I3B Hướng dẫn không cần chửi bạn ấy.
+A.D3B Màn tui đang hiện ký hiệu bàn phím.
+C0 Đổi mục hiển thị nút sang tay cầm.
+B0 game tự nhận chứ đổi gì
+A0 Tui dùng phần mềm giả lập phím.
+C0 Vậy kiểm tra ánh xạ trong phần mềm.
+A0 Tìm thấy rồi, nút đang bị trống.
+@@137|fandom|Fan đòi chứng minh nguồn tin bằng lời đe dọa|A=đăng tin;B=giận;C=mod|D|rumor_source_threat|removed
+A0 Mình nghe lịch diễn có thể đổi.
+C0 Nguồn chưa xác nhận thì ghi rõ nhé.
+B.K1A Tao sẽ đánh mày nếu tin này sai.|Đe dọa bạo lực trực tiếp người đăng tin, không phải lời hư cấu trong trích dẫn.
+A.D3B Tin chưa chắc đúng nhưng đe dọa là không được.
+C.I3B Dừng đe dọa, mình đang xử lý nguồn tin.
+A0 Mình sửa thành chưa xác nhận.
+B0 tin đồn làm người ta mất công
+C0 Có thể phê bình tin, không đe dọa người.
+A0 Mình gỡ ảnh không có nguồn.
+C0 Chờ thông báo chính thức rồi cập nhật.
+@@138|tiktok_youtube|Dùng phụ đề tự động sai tên địa danh|A=chủ clip;B=người địa phương;C=xem không tiếng|P|caption_place_name|updated
+B.C0- Phụ đề ghi sai tên xã rồi.
+A0 Mình dùng nhận dạng tự động.
+C0 Tui xem tắt tiếng nên tưởng đúng.
+B0 Chữ cuối là Sơn, không phải Sông.
+A0 Sửa phụ đề trên clip được không nhỉ?
+C0 Nền tảng cho tải lại bản phụ đề.
+B0 Mình gửi tên đầy đủ qua đây.
+A0 Đã thay, phần mô tả cũng sửa.
+C0 Nhớ kiểm cả phụ đề tiếng Anh.
+B0 Tên riêng giữ nguyên dấu nhé.
+@@139|hoc_tap|Người bị điểm thấp tự bảo vệ trước so sánh|A=điểm thấp;B=so sánh;C=bạn học|Q|grade_comparison_attack|boundary
+A0 Mình làm sai phần chứng minh.
+B.H1A Chắc đầu óc mày chỉ đến mức này thôi.
+C.I2B Sai bài không cho biết giới hạn con người.
+A.D2B Mình tự xem lỗi, đừng kết luận về mình.
+B0 tui nói học kiểu đó không lên nổi
+C0 Có thể bàn phương pháp cụ thể.
+A0 Mình thiếu giả thiết ở dòng ba.
+C0 Ừ, nên đánh dấu trước khi biến đổi.
+B0 tùy, tui làm bài khác
+A0 Mình hỏi thầy phần chưa hiểu.
+@@140|mua_ban_online|Khen đóng gói nhưng không thích sản phẩm|A=khách;B=shop;C=khách khác|A|packaging_product_difference|return_query
+A0 Đóng gói chắc, nhưng chất vải cứng.
+B0 Bạn đã giặt sản phẩm chưa?
+C0 Mình cũng thấy cổ áo đứng quá.
+A0 Chưa giặt, mới thử lên người.
+B0 Còn nhãn thì shop hỗ trợ đổi.
+C0 Bảng mô tả có ghi chất liệu đó.
+A0 Mình đọc rồi, thực tế vẫn khác tưởng tượng.
+B0 Bạn gửi mã đơn trong tin nhắn nhé.
+A0 Mình hỏi đổi sang mẫu mềm hơn.
+C0 Mẫu cotton trơn mềm hơn chút đó.
+@@141|ban_be|Trích chuyện cũ trong buổi hòa giải|A=bị tổn thương;B=bạn cũ;C=điều phối|K|friend_old_abuse_quote|listening
+A.Q0- Hồi đó B nói “mày chẳng đáng làm bạn”.|Nhắc lại lời từng nhận để giải thích cảm xúc, không công kích người hiện tại.
+B0 Tui nhớ đã nói lúc giận.
+C0 Để A nói hết trước nhé.
+A0 Câu đó khiến tui ngại quay lại nhóm.
+B.A4A Tui xin lỗi vì đã nói bạn không đáng làm bạn.
+A0 Mình cần thời gian tin lại.
+C0 Không phải giải quyết hết hôm nay.
+B0 Tui sẽ không nhắc ép bạn nữa.
+A0 Mình đồng ý nói chuyện thêm lần sau.
+C0 Lịch mới để hai người tự chọn.
+@@142|thoi_trang_lam_dep|Trang điểm kiểu đậm hay nhẹ khi lên ảnh|A=thích nhẹ;B=chụp ảnh;C=trang điểm|B|photo_makeup_intensity|trial
+B0 Đèn mạnh làm lớp nền trông nhạt.
+A0 Tui vẫn muốn giữ tàn nhang.
+C0 Có thể tăng má mà không che hết da.
+B.C2- Nhưng ảnh nhóm dễ bị chìm mặt.
+A.C4- Tui ưu tiên nhìn giống mình hơn.
+C0 Thử chụp trước một tấm test.
+B0 Được, dùng đúng đèn hôm diễn nhé.
+A0 Mình thử hai mức màu môi.
+C0 Tui chuẩn bị tẩy trang từng vùng.
+B0 Giữ cùng thông số máy để so.
+@@143|phim_am_nhac|Nhạc buồn bị hiểu nhầm là nhắm ai|A=đăng bài;B=lo lắng;C=tếu|T|sad_song_no_target|clarified
+A0 Bài này hợp trời mưa ghê.
+B0 Bạn đang buồn chuyện gì hả?
+C0 hay thuật toán chọn tâm trạng hộ 😭
+A0 Không, tui thích tiếng guitar thôi.
+B0 Tui tưởng lời bài hát nhắm ai.
+A0 Không gắn chuyện riêng nha.
+C0 đoạn dạo đúng kiểu cửa sổ mờ
+B0 Có bản biểu diễn mộc không?
+A0 Có trong kênh chính thức của ban nhạc.
+C0 tui tìm bản không tiếng mưa nền thử
+@@144|cong_nghe|Người hướng dẫn chế giễu lỗi cáp rồi nhận lỗi|A=hỏi;B=giỏi nhưng nóng;C=nhắc|I|cable_mockery_apology|resolved
+A0 Màn phụ chỉ hiện màu đen.
+B.T1A Ngu thế thì đừng đụng máy nữa.
+C.I2B Không biết mới cần hướng dẫn mà.
+A.D2B Mình cắm đúng cổng theo ảnh.
+B.A4A Xin lỗi, mình đã gọi bạn ngu rất vô lý.
+A.R5B Mình ghi nhận, giờ xem lỗi cổng nhé.
+C0 Cáp này chỉ sạc hay có xuất hình?
+A0 Hộp ghi chỉ truyền dữ liệu USB.
+B0 Vậy cần kiểm tra loại cáp hỗ trợ màn hình.
+A0 Tui mượn dây khác thử trước.
+@@145|the_thao|Cảm thán vì mưa hủy buổi đá|A=tổ chức;B=tiếc;C=lo sân|C|rain_cancelled_match|reschedule
+A0 Sân báo ngập, tối nay hủy.
+B.P1- đệt, vừa giặt bộ đồ xong
+C0 Tiền cọc có chuyển lịch được không?
+A0 Chủ sân cho dời trong tuần.
+B0 tui rảnh thứ năm sau tám giờ
+C0 Đội bên kia có đủ người không?
+A0 Để hỏi đội trưởng bên đó.
+B0 Đừng chốt khi chưa đủ hai đội.
+C0 Mình giữ danh sách đăng ký cũ nhé.
+A0 Có lịch mới tui mở xác nhận lại.
+@@146|fanart_cosplay|Bị chê quyền vẽ nhân vật bằng tiếng Anh|A=fanartist;B=anti;C=mod|N|fanart_english_gatekeeping|reported
+A0 Mình thử vẽ nhân vật theo nét riêng.
+B.T1A You are trash. Stop drawing him.
+C.I2B Nhận xét tranh, đừng hạ nhục tác giả.
+A.D2B Bạn không thích nét vẽ có thể bỏ qua.
+B.C4- Tỉ lệ mặt khác bản gốc quá.
+C0 Có thể nói điểm đó từ đầu.
+A0 Mình cố ý cách điệu phần mắt.
+B0 vậy đừng gắn thẻ bản gốc
+C0 Fanart không bắt buộc giống hoàn toàn.
+A0 Mình giữ chú thích phiên bản cách điệu.
+@@147|cam_trai_du_lich|Lịch quá dày bị phản biện hợp lý|A=lên lịch;B=lo sức;C=đi cùng|P|overpacked_itinerary|reduced
+A0 Một ngày mình ghé sáu điểm nhé.
+C0 Có tính giờ ăn trưa chưa?
+B.C1- Sáu điểm xa nhau khó đi kịp.
+A0 Tui muốn tranh thủ vì chỉ có một hôm.
+B.C4- Di chuyển nhiều hơn thời gian ở mỗi nơi.
+C0 Chọn hai điểm chính, còn lại dự phòng.
+A0 Vậy bỏ điểm đồi phía bắc.
+B0 Giữ giờ quay về trước tối nhé.
+C0 Tui tính lại khoảng cách đường bộ.
+A0 Có bản mới mình cùng xem lại.
+@@148|am_thuc|Bàn độ giòn nhưng bị quy thành chê người|A=review;B=người nấu;C=đọc cùng|B|crispness_feedback_misread|clarified
+A.C0- Món chiên hơi ỉu khi tới bàn.
+B.C1- Bạn ăn chậm thì đồ nguội thôi.
+C0 A nói lúc vừa nhận mà.
+A0 Mình chưa chụp ảnh, thử ngay rồi.
+B0 Có thể khay đậy làm hấp hơi.
+C0 Vậy thử để thoáng trước khi phục vụ.
+A0 Gia vị thì mình thấy vừa.
+B0 Mình kiểm lại bước giữ nóng.
+C0 Nhận xét tách từng phần dễ hiểu hơn.
+A0 Tui thêm giờ nhận món vào review.
+@@149|doi_song|Hàng xóm ném lời nhục mạ rồi dịu giọng vẫn công kích|A=nhắc rác;B=cộc;C=tổ trưởng|R|trash_dispute_subtle_attack|documented
+A0 Túi rác trước cửa làm chặn lối.
+B.T1A Mày rảnh quá thì ngậm miệng đi.
+C.I2B Mình bàn lối đi chung thôi.
+A.D2B Mình cần đưa xe ra, không kiếm chuyện.
+B.H+4A Nói nhẹ nhé, sự tồn tại của mày chỉ gây phiền.
+C.I5B Đổi giọng vẫn là hạ nhục người khác.
+A0 Mình gửi ảnh lối bị chắn cho ban quản lý.
+B0 tui dọn sau giờ cơm
+C0 Lối thoát cần thông ngay nhé.
+A0 Mình chờ xác nhận đã dọn.
+@@150|so_thich|Đồ chơi cũ có vết xước nhưng đáng giữ|A=sưu tầm;B=thích mới;C=kể chuyện|T|worn_toy_sentiment|no_conflict
+B0 Con robot này sơn tróc nhiều rồi.
+A0 Quà ông tui tặng hồi nhỏ đó.
+C0 Vậy giữ dấu dùng cũng hay.
+B0 Tui quen trưng đồ còn nguyên hộp.
+A0 Tui thích bản đã chơi hơn.
+C0 Có thể làm hộp chống bụi riêng.
+B0 Kích thước này tui dư một hộp mica.
+A0 Nếu vừa thì cho tui mượn đo nhé.
+C0 Đừng chà lại lớp sơn cũ vội.
+A0 Tui chỉ lau bụi bằng chổi mềm thôi.

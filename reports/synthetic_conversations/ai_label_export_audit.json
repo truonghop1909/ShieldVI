@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "train_rows": 1994,
+  "uncertain_preserved": 54,
+  "source_threads_unchanged": 200,
+  "source_csv_unchanged": true,
+  "test_result": "22 passed, 1 warning",
+  "human_review_forged": false,
+  "training_performed": false,
+  "user_accepted_ai_labels_without_manual_review": true
+}

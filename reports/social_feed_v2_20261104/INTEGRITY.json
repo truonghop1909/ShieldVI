@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "canonical_task_ids": 10,
+  "source_entries_unchanged": 13,
+  "backed_up_originals_verified": 17,
+  "historical_tasks_and_evidence_state_unchanged": true,
+  "new_local_done_verified": 10,
+  "broken_local_links": [],
+  "readiness": {
+    "status": "PASS",
+    "files_checked": 1311,
+    "errors": [],
+    "lock_sha256": "ac21e3c29b358e9f9a1d8c1850d661e9c858f1c7270d4ae27b78d66dfe823ba3",
+    "training_performed": false,
+    "model_inference_performed": false,
+    "production_changed": false,
+    "human_gold": false
+  },
+  "training_performed": false,
+  "production_changed": false,
+  "git_metadata_available": false
+}

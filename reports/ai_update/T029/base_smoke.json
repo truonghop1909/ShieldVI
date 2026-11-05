@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "is_mock": false,
+  "operation": "real V1 forward inference only",
+  "device": "cpu",
+  "optimizer_steps": 0,
+  "training_performed": false,
+  "threshold": 0.41,
+  "base_sha256_before": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "base_sha256_after": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "probes": [
+    {
+      "text": "Mình cảm ơn bạn đã giải thích rõ hơn.",
+      "probability": 0.009465452283620834,
+      "prediction": 0
+    },
+    {
+      "text": "Mày đúng là đồ ngu, im đi.",
+      "probability": 0.941821813583374,
+      "prediction": 1
+    },
+    {
+      "text": "Đm, mạng hôm nay lag quá.",
+      "probability": 0.2736111581325531,
+      "prediction": 0
+    }
+  ],
+  "elapsed_seconds": 1.47
+}

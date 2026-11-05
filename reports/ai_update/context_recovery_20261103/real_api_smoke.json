@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "real_V1_after_inference": true,
+  "comments": 30,
+  "matches_all_user_reference_labels": true,
+  "raw_before_after_equal": true,
+  "weights_unchanged": true,
+  "threshold": 0.41,
+  "jsonschema_validation": "NOT_INSTALLED_PYDANTIC_PASSED",
+  "pydantic_validation": "PASS",
+  "static_http": 200,
+  "legacy_http": 200,
+  "policy_executed": false,
+  "live_db_written": false,
+  "optimizer_steps": 0
+}

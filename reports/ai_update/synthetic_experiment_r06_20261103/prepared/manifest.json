@@ -1,0 +1,131 @@
+{
+  "status": "PREPARED_EXPERIMENTAL_SYNTHETIC_ONLY",
+  "evaluation_protocol": "synthetic_development",
+  "data_recipe": "synthetic_only",
+  "config_sha256": "bc589aea4f4ebd8a90021c9baa527a334406305eca14f3af6df5d1318e0fe09a",
+  "base_model_path": "C:\\Users\\admin\\Downloads\\visobert_toxic_final",
+  "base_model_sha256": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "threshold": 0.41,
+  "gold_train_rows": 0,
+  "synthetic_train_rows": 4398,
+  "total_train_rows": 4398,
+  "validation_rows": 306,
+  "synthetic_fraction": 1.0,
+  "training_input_rows": 4398,
+  "cleanup": {
+    "overlap_removed": 0,
+    "conflicting_removed": 0,
+    "duplicates_removed": 0
+  },
+  "near_heldout_exclusions": [],
+  "training_class_counts": {
+    "0": 4085,
+    "1": 313
+  },
+  "positive_sample_weight": 3.6126331409184935,
+  "class_weight_policy": "sqrt(clean/toxic), capped4; class weights apply to CE+distillation",
+  "sources": {
+    "canonical_manifest": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_conversations\\genz_v2\\dataset_manifest.json",
+      "sha256": "dd31aae46052a2dfd05692fc88686e1d3b5f76dd8e941ac9851784f949e571e6"
+    },
+    "experimental_manifest": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_genz\\dataset_manifest.json",
+      "sha256": "c634273c71b858b56f5850eb280843c1b179be1f487f954c014e997f12b51652"
+    },
+    "split_manifest": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_genz\\split_manifest.json",
+      "sha256": "d7bc61d067373a3affa2aca9d0aaa5b50a971ad3177d9b13ea1d3200da8f7b62"
+    },
+    "synthetic_train": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_genz\\train_comments.csv",
+      "sha256": "8d75e894950dc17be444d8a4feeec169ad46410255183aa75cb5c8277fabae2e"
+    },
+    "synthetic_validation": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_genz\\validation_comments.csv",
+      "sha256": "31788080f14517dc40e889d2ce3bda8af05cf1a17ce4abab67eea03fbc87c04b"
+    },
+    "synthetic_challenge": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_genz\\challenge_comments.csv",
+      "sha256": "4b24102115eddc3742c868183588682607ffcedcb42500543ef1054e8c68caa7"
+    },
+    "regression_0": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_01_GAME_RANK_LAG_30.json",
+      "sha256": "db0a31f70e462aaa2eb575dd443ded27100b30493dc176093b36b7c2311927c2"
+    },
+    "regression_1": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_02_SHOP_GIAY_SECONDHAND_30.json",
+      "sha256": "28a2179025e74db2dc8262bcc49a600e2ec6563e3fdc5cbb6b52bde669658d33"
+    },
+    "regression_2": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_03_DANCE_COVER_TIKTOK_30.json",
+      "sha256": "270db107f4655033e323a129e87b7c15b23a67360c2c90ecbe7e1eaaf5403fa6"
+    },
+    "regression_3": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_04_DI_CAMPING_CHIA_TIEN_30.json",
+      "sha256": "20182a7fa088789f118349aeed6fb981439e7bc0398c18d4e715ce4d33c12cba"
+    },
+    "regression_4": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\genz_regression\\SHIELDVI_05_FANART_AI_DISPUTE_30.json",
+      "sha256": "4d6e860c47c5f722a00900166a1b68d8bf24317d9845f9b69410a25279bf3fc0"
+    },
+    "regression_5": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_01.json",
+      "sha256": "43777432721d4faf44a8b7944c9b3629b94ded51712ee78d49230e43291f7a0b"
+    },
+    "regression_6": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_02.json",
+      "sha256": "4936ba8100fc0de23f55690237736b9840372cc3b5307ce0a0cb5e6854aabf04"
+    },
+    "regression_7": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_03.json",
+      "sha256": "9c11fbace04f6fae482ccf6b0397dfdc66139f0269a2539285f84392d12fdef4"
+    },
+    "regression_8": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_04.json",
+      "sha256": "393bd63d9adec82be7fdd16f0d575d896984e363e6987aab6412d8c5798dbf11"
+    },
+    "regression_9": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_05.json",
+      "sha256": "0b1440acb27514c1ba016262826287fd0ce4c57ebbde399ba37bca122a3ef984"
+    },
+    "regression_10": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_06.json",
+      "sha256": "d9d7f4277eec077238ba84a4ee19781d7d4d6459b18462c2282ce4b605eeb476"
+    },
+    "regression_11": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_07.json",
+      "sha256": "fecdcb637b4cc25ed8cbebef5fb66ee3b942de5dd8f08110dd5b451734ef0932"
+    },
+    "regression_12": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_08.json",
+      "sha256": "ea9af271d99bbaf69480d1274998972880bf08d6257fa520b797cdc45ac31a8f"
+    },
+    "regression_13": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_09.json",
+      "sha256": "032b77ccde728d7b4c924541286c93b492726d422b948b3407799d61b9fb3369"
+    },
+    "regression_14": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_10.json",
+      "sha256": "d4d5bad25e461a6e9f44e528b69714717772276d1e6acd9e604c184f17d2a4ca"
+    },
+    "regression_15": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_11.json",
+      "sha256": "cdf23dbbfd53ee1a23868059dd420bf101dc50aaaa9fc45f6ae708407b8ce712"
+    },
+    "regression_16": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\fixtures\\context_recovery_v1\\dashboard_threads\\CTX_RECOVERY_V1_12.json",
+      "sha256": "c6941583d9f44e299229c3fc981db702276a4de864ba17e4504949c778b405a0"
+    }
+  },
+  "output_sha256": {
+    "train.jsonl": "8c33880a7c09c049f5162b9c2e8387bbd6bddcab58468c02227f0829c5603918",
+    "validation.jsonl": "4f991a21a98abe4b3f408880352849ad9a927adf985fc067745fe5dc84371875"
+  },
+  "human_gold": false,
+  "real_training_used": false,
+  "independent_real_ready": false,
+  "training_performed": false,
+  "test_labels_used": false,
+  "test_predictions_generated": false
+}

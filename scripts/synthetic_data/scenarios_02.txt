@@ -1,0 +1,550 @@
+﻿@@51|game|Tranh cãi chuyện nhường bùa xanh
+A.T0B Mày ích kỷ vãi, bùa nào cũng húp như đồ vô dụng.
+B.N1- Tui tưởng pháp sư đã hết cần bùa lúc đó.
+C.N1- Bùa xuất hiện trước giao tranh, nên ping phân công trước.
+D.Q1- Câu “đồ vô dụng” nhắm người rồi, đừng gọi là call team.
+A.N3- Vậy từ đợt sau tui ping trước khi lấy.
+B.D1- Tui nhường được, nhưng không chấp nhận bị chửi vậy.
+C.C2- Cần nhìn mana với vị trí đồng đội, không đoán hộ họ.
+A.A6- Tui nóng vì thua mục tiêu, xin lỗi đã gọi bạn như thế.
+D.N8- Nghỉ năm phút rồi quyết định đánh tiếp nhé.
+B.N9- Tui nghỉ hẳn tối nay, mai nói chiến thuật sau.
+@@52|idol|Chọn ảnh đại diện cho dự án sinh nhật
+A.N0- Có nên dùng ảnh thời debut cho banner sinh nhật không?
+B.N1- Tui thích ảnh mới, trông đúng hình ảnh hiện tại hơn.
+C.N1- Bộ ảnh debut cần kiểm quyền sử dụng đã.
+D.N2- Mình thử ghép hai thời kỳ vào cùng bố cục nhé.
+A.C4- Đừng ghép mặt khiến người xem tưởng ảnh chụp chung thật.
+E.N3- Tui sẽ hỏi đơn vị giữ ảnh qua đầu mối dự án.
+F.P4- Vcl ghép hai bộ khác ánh sáng khó phết.
+B.N7- Chọn hai khung riêng đỡ phải sửa ảnh nhiều.
+D.N8- Ổn, bên dưới thêm mốc năm để dễ đọc.
+C.N6- Có xác nhận quyền rồi mới chuyển bản in nha.
+@@53|fan_antifan|Hai người cùng chửi trong cuộc so nhạc
+A.C0- Mình thấy album này thiếu điểm nhấn hơn bản trước.
+B.T1A Tai mày chỉ xứng nghe tiếng thùng rác thôi.
+C.I2- Đừng biến gu nghe nhạc thành cuộc chửi người.
+A.T2B Còn mày là con vẹt không não, ai khen gì cũng nhai lại.
+D.N1- Ai thích đoạn nào thì nêu cụ thể sẽ dễ bàn hơn.
+B.H+4A Nói với thằng điếc cảm thụ như mày đúng phí lời.
+C.I6- Hai bên đều công kích rồi, tách khỏi thread giúp mình.
+A.N5- Mình thích cách chuyển hợp âm ở track hai bản cũ.
+D.N8- Đoạn mới dùng nhịp lặp, có thể đó là chỗ bạn không thích.
+C.N9- Bàn phần nhạc tiếp được nếu mọi người giữ cách nói lịch sự.
+@@54|mua_ban_online|Giao nhầm sách và nhãn trả hàng
+A.N0- Đơn sách lịch sử nhận thành truyện, mình chưa bóc bọc.
+B.N1- Shop gửi nhãn hoàn mới, bạn đừng dùng mã vận đơn cũ.
+C.N1- Có bị tính phí đổi không bạn?
+A.N3- Shop báo chịu phí, mình đang chờ mã.
+D.U4A Khách may mắn nhất hôm nay rồi.|Không rõ nói vui về việc có thêm sách hay mỉa mai khách gặp lỗi.
+B.N4- Mã gửi qua đơn trong chiều nay, nhờ giữ nguyên kiện.
+C.C6- Giữ nguyên bọc sách thôi, hộp ngoài cần mở để kiểm mà.
+B.N7- Đúng, shop nói chưa rõ, chỉ cần giữ sách chưa sử dụng.
+A.N8- Mình đã chụp đủ bốn góc, chờ người nhận lại.
+D.N9- Đổi xong kể tên sách gốc đi, tui cũng tìm sách lịch sử.
+@@55|hoc_tap|Xin lời giải trong giờ thi trực tuyến
+A.N0- Có ai gửi đáp án câu ba ngay bây giờ không?
+B.C1- Đang giờ kiểm tra mà, tụi mình không trao đáp án.
+C.N1- Thi xong mình giải thích cách làm được.
+A.T2B Mày giả thanh cao, đồ mọt sách ích kỷ.
+D.I4- Từ chối chia đáp án không phải lý do để bị xúc phạm.
+B.D4- Mình giữ quy định làm bài, bạn đừng công kích cá nhân.
+A.H+6B Người như mày chắc cũng chẳng có bạn nào thật lòng.
+C.C7- Đừng đoán đời sống người khác từ chuyện bài kiểm tra.
+D.N3- Sau giờ thi mở thảo luận phương pháp nhé.
+B.N9- Mình tham gia sau khi đề được phép trao đổi.
+@@56|tiktok|Bình luận chỉ có một từ đỉnh
+A.N0- Tui đăng clip trượt ván ngã, có người chỉ ghi “đỉnh”.
+B.U1- Có thể khen cú ngã đẹp, cũng có thể cà khịa.|Một từ không đủ xác định thái độ hoặc có công kích hay không.
+C.N1- Người đó có nhắn gì khác trong chuỗi không?
+A.N3- Không, đây là lần đầu họ comment.
+D.C4- Vậy đừng đoán họ ghét bạn chỉ từ một chữ.
+B.N4- Tui thường ghi rõ “ngã mà vẫn ngầu” để khỏi hiểu lầm.
+C.N1- Bạn có thể hỏi họ đang nói đoạn nào.
+A.N7- Tui hỏi rồi, chưa có trả lời nên để vậy.
+D.N8- Giữ phần hướng dẫn đồ bảo hộ ở mô tả nhé.
+B.N9- Đúng, cú ngã vui nhưng bảo hộ vẫn phải nghiêm túc.
+@@57|bong_da|Lịch tập đội nữ và đội nam trùng sân
+A.N0- Hai đội cùng đặt sân lúc bảy giờ, ai có xác nhận?
+B.N1- Đội nữ có tin nhắn đặt từ thứ hai.
+C.N1- Đội nam cọc hôm qua, chủ sân chắc ghi nhầm.
+D.C3- Hỏi chủ sân xử lý lịch, đừng bắt hai đội tự tranh.
+E.N2- Tui gửi xác nhận cho quản lý, nhớ che số tài khoản.
+F.N3- Bên mình đổi sớm hơn nửa giờ được nếu có sân phụ.
+A.N6- Mình hỏi luôn chất lượng sân phụ, không đổi khi chưa xem.
+B.P1- Đệt, chạy tới nơi mới biết trùng thì khổ thật.
+C.N6- Đội tui cần đủ giờ, có thể đổi ngày thay vì rút ngắn.
+D.N9- Đưa cả hai lựa chọn để quản lý xác nhận bằng tin nhắn.
+@@58|cong_nghe|Phần mềm miễn phí bị chê quảng cáo
+A.C0- App ghi miễn phí mà cứ bấm lưu là hiện quảng cáo.
+B.N1- Miễn phí có quảng cáo khác với bản không quảng cáo.
+C.T1A Mày chỉ biết đòi của chùa, đúng đồ ăn bám.
+D.N1- Có thể góp ý tần suất quảng cáo dù không mua gói.
+A.N2- Mình không đòi bỏ hết, chỉ muốn biết trước giới hạn.
+B.C3- C nhận xét hành vi thanh toán được, đừng chửi người dùng.
+C.T+5A Thằng ký sinh như mày xứng bị khóa app luôn.
+A.D7- Mình không nhận việc bạn gọi mình ký sinh.
+D.N5- Gửi phản hồi về mô tả gói và trải nghiệm lưu file nhé.
+B.N9- Có ứng dụng khác phù hợp thì so quyền riêng tư trước khi chuyển.
+@@59|fanart|Bạn bè góp ý quá nhiều vào OC
+A.N0- OC này mình cố tình vẽ mắt lệch, không phải lỗi đâu.
+B.C1- Nếu là chủ ý thì thêm vài tranh góc khác sẽ dễ hiểu.
+C.N1- Tui thích nét lệch đó, nhìn nhân vật láu lỉnh.
+D.U1A Dị đến mức khó quên luôn nha.|Có thể khen thiết kế khác biệt hoặc chê mỉa nhân vật/tác giả.
+A.N2- Mình sẽ thêm bản xoay đầu khi xong sheet.
+B.N5- Mình chỉ góp ý cách thể hiện, bạn không cần sửa thiết kế.
+E.N1- Nhân vật có truyện nền chưa, tui tò mò cái sẹo.
+A.N7- Có, sẹo liên quan lần tập phép đầu tiên.
+C.N8- Chi tiết đó làm dáng cười hợp lý hơn rồi.
+D.N5- Nhớ giữ cái áo khoác rộng, tui thích silhouette ấy.
+@@60|doi_song|Bạn cùng phòng nghe nhạc không tai nghe
+A.C0- Mười hai giờ rồi, bạn giảm loa giúp mình ngủ nhé.
+B.N1- Tui tưởng bạn chưa ngủ, để tui cắm tai nghe.
+C.N1- Mình cũng nghe rõ qua tường, tối nên dùng tai nghe luôn.
+D.H1A Ngủ sớm như ông cụ còn thích kiểm soát người khác.
+A.D4- Mình chỉ nhờ giảm âm lượng ở giờ nghỉ chung.
+B.I4- Mình mở to thật, D đừng chê người đang bị ồn.
+C.N2- Cảm ơn, phòng yên hơn rồi.
+D.A5- Mình nói đùa quá trớn, xin lỗi A.
+A.N8- Mình nhận lời xin lỗi, tối mai thống nhất giờ nghỉ nhé.
+B.N9- Từ mười giờ tui dùng tai nghe, mọi người thấy ổn không?
+@@61|game|Tố người chơi gian lận từ clip ngắn
+A.N0- Pha này quay đầu trúng ngay, có phải cheat không?
+B.C1- Một pha highlight chưa đủ kết luận gian lận.
+C.N1- Có tiếng bước chân ở tai trái trước lúc quay.
+D.T2B Mày bênh cheat chắc cũng là thứ rác gian lận.
+A.N3- Tui xem bản không tiếng nên bỏ sót chi tiết đó.
+B.D4- Mình đòi thêm bằng chứng, không phải đang bênh ai.
+C.N5- Thử xem cả góc nhìn và âm thanh gốc nhé.
+D.V6B Gọi mày “rác game” đúng quá còn gì.
+A.C8- D đang lặp xúc phạm chứ không đưa chứng cứ mới.
+B.N7- Mình gửi mốc âm thanh để mọi người tự xem lại.
+@@62|idol|Fan muốn tổ chức sinh nhật ở thư viện
+A.N0- Dự án năm nay quyên sách thay xe quảng cáo được không?
+B.N1- Tui thích, nhưng hỏi thư viện cần sách gì trước.
+C.N1- Đừng gửi sách cũ ẩm hoặc sách học đã quá hạn.
+D.P1- Vcl ý tưởng vừa đẹp vừa đỡ tắc đường 😄
+E.N2- Mình xin danh mục tiếp nhận rồi mới mở đăng ký.
+A.N5- Ghi rõ quà tặng tự nguyện, không công khai ai góp ít.
+F.C6- Và cần công khai tổng thu chi để người góp kiểm.
+B.N7- Tui giúp bảng thu chi, không đăng danh tính người nhận.
+C.N5- Có ngày giao nhận thì chụp sách, tránh chụp người chưa đồng ý.
+D.N9- Tui nhận việc đóng thùng, nhớ cân trước khi gọi xe.
+@@63|fan_antifan|Ảnh chụp cắt mất lời khen
+A.N0- Ảnh đang lan cắt mất câu mình khen đoạn rap ở dưới.
+B.N1- Bạn đăng nguyên bình luận kèm thời điểm được không?
+C.H1A Diễn giải dài là biết mày đang chữa cháy rồi.
+A.N2- Mình đã thêm ảnh đầy đủ, có cả lịch sử chỉnh sửa.
+D.C3- Đọc bản đủ trước, đừng xem giải thích là tự thú.
+E.Q1- Câu “rap ổn nhưng mix khó nghe” đâu giống chê hết bài.
+C.T+4A Mày là con lươn trơn tuột, nói gì cũng chối.
+B.I7- Lại nhắm vào người rồi, có mâu thuẫn thì chỉ đúng câu.
+A.D7- Mình không tiếp tục với người gọi mình như vậy.
+D.N4- Mình sẽ dẫn bản đầy đủ khi đính chính ảnh cắt.
+@@64|mua_ban_online|Thất lạc đơn trong đợt sale
+A.N0- Đơn đứng ở kho sáu ngày, shop với vận chuyển ai xử lý?
+B.N1- Shop mở yêu cầu tra soát, chưa thể xác nhận mất.
+C.N1- Mã vận đơn có lần quét gần nhất ở kho nào?
+A.N3- Chỉ thấy trạng thái kho phân loại, không ghi tên chi tiết.
+D.U2B Trả lời nghe như tổng đài tự động ấy.|Có thể phê bình cách trả lời máy móc hoặc mỉa mai người trả lời.
+B.N4- Mình sẽ gửi mã yêu cầu và thời hạn phản hồi dự kiến.
+C.C6- Có mốc cụ thể thì tốt, đừng hẹn “sớm nhất” mãi.
+A.N6- Mình cần hàng cuối tuần, nếu không kịp sẽ xin hủy.
+B.N8- Mình ghi nhu cầu đó vào yêu cầu, chưa hứa kịp ngày.
+D.N9- Có kết quả tra soát nhớ cập nhật để người mua chủ động.
+@@65|hoc_tap|Một bạn đọc sai từ tiếng Anh
+A.N0- Mình thuyết trình bị đọc sai chữ archive, ngại quá.
+B.N1- Từ này nhiều người nhầm, tập lại từng âm thôi.
+C.T1A Tiếng Anh nát vậy còn đứng nói, mày đúng đồ ngu.
+D.N1- Có thể thu lại một đoạn để tự nghe nhịp câu.
+A.D3- Bạn sửa phát âm được, đừng dùng lỗi đó xúc phạm mình.
+B.I3- Không ai học tốt hơn vì bị mắng ngu cả.
+C.H+5A Cái giọng mày chắc làm người nghe muốn bỏ phòng.
+D.C7- Nhận xét đó không chỉ ra âm nào cần sửa.
+E.N4- Mình tập cùng A mười phút trước buổi tới được.
+A.N9- Cảm ơn, mình sẽ chuẩn bị bản ghi thay vì bỏ thuyết trình.
+@@66|tiktok|Dùng filter làm da sáng hơn
+A.N0- Filter mới làm ảnh sáng quá, tui đang định bỏ.
+B.C1- Khi review mỹ phẩm thì nên có đoạn không filter để đối chiếu.
+C.N1- Tui chỉ dùng quay vui, thấy khác da thật nhiều thật.
+A.N2- Video này review son nên tui sẽ quay lại ánh sáng tự nhiên.
+D.N4- Giữ màu môi trước và sau cùng điều kiện nhé.
+B.N4- Nếu bản cũ đã đăng thì ghi rõ có filter ở mô tả.
+C.U6B Đội kiểm định xuất hiện đầy đủ rồi.|Chưa rõ trêu vui việc góp ý hay mỉa mai người yêu cầu minh bạch.
+D.N4- Đừng chỉnh trắng riêng đoạn sau, khó so hiệu quả lắm.
+A.N8- Tui giữ thông số quay giống nhau và ghi điều kiện trong clip.
+B.N9- Vậy người xem tự đánh giá màu thật dễ hơn.
+@@67|bong_da|Tập đá sân bảy lần đầu
+A.N0- Mình quen sân năm, lên sân bảy nên đứng cánh hay giữa?
+B.N1- Chọn chỗ theo thể lực với thói quen chuyền, không chỉ số người.
+C.N1- Đá thử bên cánh sẽ dễ quan sát khoảng trống hơn.
+D.P1- Vkl sân bảy chạy vài vòng thấy tuổi tác luôn.
+A.N3- Tui chịu chạy nhưng hay quên nhìn sau lưng.
+B.C5- Vậy tập quan sát trước khi nhận bóng là ưu tiên.
+E.N1- Tối giao hữu đổi vị trí từng hiệp cho bạn thử.
+C.N7- Được, nhưng báo đồng đội lúc đổi để giữ cự ly.
+D.N6- Tui làm người nhắc vai, không la giữa pha bóng nhé.
+A.N9- Chốt, mình mang áo hai màu để đổi đội dễ hơn.
+@@68|cong_nghe|Nghi máy tính bị nghe lén vì quảng cáo
+A.N0- Vừa nói chuyện du lịch là thấy quảng cáo vé, máy nghe lén à?
+B.C1- Trùng quảng cáo chưa đủ chứng minh micro đang bị dùng.
+C.N1- Kiểm quyền micro và lịch sử hoạt động trong hệ điều hành thử.
+D.H1A Đầu mày chắc chỉ chứa thuyết âm mưu với rơm rạ.
+A.N3- Mình đang xem quyền, không muốn kết luận vội.
+B.I4- Giải thích cơ chế được, đừng hạ trí tuệ người hỏi.
+C.N5- Lịch sử không thấy dùng mic, còn quảng cáo có nhiều tín hiệu khác.
+D.T+5A Đồ ngu như mày đưa mạng dùng phí quá.
+A.D8- Mình sẽ đọc tài liệu, không nhận việc bạn chửi mình.
+B.N7- Tách kiểm quyền riêng tư với kết luận nguyên nhân cụ thể nhé.
+@@69|fanart|Tranh chứa lời xúc phạm trong truyện
+A.N0- Khung truyện có nhân vật nói “đồ vô dụng”, nên gắn cảnh báo không?
+B.Q1- Câu đó là lời phản diện hạ nhục nhân vật, không phải bạn chửi độc giả.
+C.N1- Nếu truyện xoay quanh bắt nạt thì mô tả chủ đề trước khi đọc.
+D.C1- Cảnh báo cần đúng nội dung, đừng chỉ ghi “có drama”.
+A.N3- Mình thêm mô tả có lời hạ nhục và cảnh cô lập.
+E.N1- Đoạn sau có cho thấy tác động tới người bị hại không?
+A.N6- Có, nhân vật tìm người hỗ trợ chứ chưa trả thù ngay.
+B.N7- Vậy phần giới thiệu không nên hứa kết thúc hài hước.
+C.N5- Để cảnh báo trước ảnh đầu, đừng giấu cuối album.
+D.N9- Và đừng dùng cảnh công kích làm caption câu tương tác.
+@@70|doi_song|Hẹn ăn bị hủy phút cuối
+A.C0- Bạn hủy lúc mình tới quán rồi, lần sau báo sớm giúp mình.
+B.N1- Tui bị đổi ca đột ngột, không cầm điện thoại lúc đó.
+C.N1- Hai người xem có đặt đồ ăn chưa để xử lý tiền trước.
+A.N3- Mình mới đặt bàn, chưa gọi món.
+D.T1A Mày làm quá như trẻ con, bị cho leo cây cũng đáng.
+B.I5- Mình báo muộn thật, đừng trách A vì họ chờ.
+A.D5- Mình nói về thời gian đã mất, không cần bị chửi.
+B.A1- Xin lỗi đã để bạn đợi, mình nên nhờ người báo hộ.
+C.N8- Lần tới chốt lại trước khi mọi người rời nhà nhé.
+A.N8- Mình nhận lời xin lỗi, hôm nay vẫn ăn trước rồi về.
+@@71|game|Bạn nhỏ mượn tài khoản chơi hộ
+A.N0- Em họ xin acc để chơi thử, tui nên tạo tài khoản riêng nhỉ?
+B.N1- Đừng cho mật khẩu tài khoản chính, tạo cái riêng an toàn hơn.
+C.N1- Kiểm điều kiện tuổi và chế độ giám sát của game nữa.
+D.N1- Nhớ tắt thanh toán nhanh nếu dùng máy chung.
+A.N4- Máy tui có ví lưu sẵn, vừa tắt xác nhận một chạm.
+E.P5- Đệt, cái nút mua sát nút nhận quà mới căng.
+B.C6- Tắt thanh toán vẫn cần giải thích cho người dùng máy.
+C.N5- Không dùng ngày sinh giả để vượt giới hạn nhé.
+A.N8- Mình sẽ chọn trò phù hợp trước, chưa cần cho chơi game này.
+D.N9- Có trò chơi chung không tài khoản thì thử cái đó cũng được.
+@@72|idol|Phỏng vấn bị dịch thiếu một câu
+A.N0- Bản dịch bỏ câu “đó là lời đùa”, nên ý bị khác hẳn.
+B.N1- Bạn có video nguyên ngôn ngữ gốc không?
+C.N1- Tui nghe được đoạn đó, dịch sát sẽ đỡ hiểu nhầm.
+D.T1A Mày bênh thần tượng đến ngu người rồi.
+A.N2- Mình ghim video và mốc thời gian, mọi người kiểm nhé.
+E.C4- D phản biện bản dịch thì chỉ ra chỗ dịch sai.
+B.N5- Đúng là có câu giải thích sau, ảnh cắt không cho thấy.
+D.T+5A Loại fan não tàn như mày chỉ biết ngụy biện.
+A.D8- Bạn đang bỏ qua nguồn và tiếp tục xúc phạm mình.
+C.N7- Mình làm bản có cả hai câu, ghi rõ đây là bản dịch tham khảo.
+@@73|fan_antifan|Giữ lịch sử lỗi của người nổi tiếng
+A.C0- Người đó đã đính chính, nhưng bài cũ vẫn nên ghi lỗi từng xảy ra.
+B.N1- Đồng ý, đính chính không có nghĩa xóa dấu vết hoàn toàn.
+C.U1A Nhớ dai đúng là một loại tài năng.|Có thể khen theo dõi thông tin hoặc mỉa mai động cơ ghi nhớ.
+D.C1- Cần ghi cả việc sửa sai, đừng chỉ lưu phần bất lợi.
+A.N4- Mình thêm mốc đính chính ngay dưới ảnh gốc.
+B.N5- Dẫn nguồn đầu tiên thay vì ảnh đăng lại nhiều lần nhé.
+E.N1- Ai có link thông báo đầy đủ gửi mình với.
+D.N7- Ở bài ghim trang chính thức, kiểm cả ngày đăng.
+C.N5- Có cả trước và sau thì người mới hiểu diễn biến hơn.
+A.N9- Mình không thêm suy đoán về ý định cá nhân.
+@@74|mua_ban_online|Đồ secondhand có vết xước không chụp
+A.C0- Vết xước bên hông không có trong ảnh rao, mình muốn trao đổi lại.
+B.N1- Mình tưởng ảnh cuối thấy rồi, bạn chụp góc nhận được nhé.
+C.N1- Hai bên so dưới cùng ánh sáng sẽ rõ hơn.
+D.T1A Đồ cũ mà đòi mới, mày đúng là khách ngu.
+A.N2- Mình gửi ảnh, vết này sâu hơn phần được mô tả.
+B.C5- Đúng là ảnh rao không thể hiện đủ độ sâu.
+E.I4- D đừng mắng khách vì họ hỏi thông tin bị thiếu.
+B.N6- Mình đề nghị nhận lại hoặc giảm một khoản nếu bạn vẫn dùng.
+A.N8- Mình chọn trả lại, không phù hợp làm quà như dự định.
+C.N9- Chốt phí vận chuyển và tình trạng trong cùng đoạn trao đổi nhé.
+@@75|hoc_tap|Cả nhóm muốn bỏ phần trình bày của một bạn
+A.N0- Sao lịch tập mới không còn phần của mình vậy?
+B.C1- Bạn vắng hai buổi nên nhóm tạm chia người dự phòng.
+C.N1- Mình vẫn có thể ghép lại nếu A báo được lịch.
+D.H1A Có người chỉ giỏi hưởng điểm, cần gì đứng nói.
+A.N3- Mình đi làm ca tối, thứ bảy tập được cả chiều.
+B.N5- Vậy thứ bảy kiểm phần của bạn trước rồi quyết định.
+D.T+5A Mày là cục nợ của nhóm chứ đóng góp được gì.
+C.I7- Không gán nhãn con người, đánh giá đúng phần việc đã làm.
+A.D7- Mình gửi bản dữ liệu đã làm, mong được xét theo việc cụ thể.
+B.N9- Mình bổ sung cột đóng góp để mọi người đối chiếu công bằng.
+@@76|tiktok|Livestream bán hàng dùng lời chê ngoại hình
+A.C0- Host chê người không mua là xấu, nghe khó chịu thật.
+B.N1- Có clip đầy đủ không, mình mới thấy đoạn cắt.
+C.Q1- Mình nghe câu “xấu thì khỏi dùng”, đó là lời host nói với khách.
+D.T1A Mày xấu thật nên mới nhột, bớt sủa.
+A.D4- Mình phản đối cách bán hàng, không mời bạn xúc phạm ngoại hình.
+E.I4- D đừng lặp đúng kiểu công kích đang được phản ánh.
+B.N2- Mình tìm bản dài rồi, câu đó vẫn nằm trong phần tư vấn.
+D.T+5A Đồ vừa xấu vừa lắm chuyện như mày ai chịu nổi.
+C.N7- Báo đúng mốc và giữ bối cảnh, không kéo sang chửi host.
+A.N9- Mình chỉ gửi phản ánh cách tư vấn, không đăng ảnh người comment.
+@@77|bong_da|Mua áo đấu bản fan hay bản cầu thủ
+A.N0- Áo bản cầu thủ ôm quá, bản fan có rộng hơn không?
+B.N1- Thường form khác, nhưng phải xem bảng size từng hãng.
+C.N1- Mình mặc bản fan đi làm hằng ngày dễ chịu hơn.
+D.U3C Đi làm cũng giữ phong độ cầu thủ nhỉ.|Có thể trêu tích cực hoặc mỉa mai cách mặc đồ, chưa rõ quan hệ.
+A.N2- Tui đang xem số đo ngực, không chọn theo chữ M nữa.
+B.N5- Nhớ kiểm chiều dài áo, hai bản có thể khác cả phần đó.
+E.N1- Ai mua online hỏi chính sách đổi trước nha.
+C.P7- Đệt, áo in tên thường không cho đổi mới tiếc.
+A.N8- Vậy tui lấy bản chưa in tên trước cho chắc.
+D.N9- Giữ tag tới khi thử form xong rồi hãy mặc ra sân.
+@@78|cong_nghe|Bạn khoe code dùng nhiều thư viện
+A.N0- Mình dùng thư viện dựng biểu đồ, demo xong trong chiều.
+B.C1- Nhớ xem giấy phép và dung lượng gói khi đưa lên web.
+C.H1A Lập trình viên chắp vá như mày chỉ biết copy công sức người khác.
+D.N1- Dùng thư viện là bình thường, quan trọng hiểu và ghi nguồn đúng.
+A.N2- Mình đã thêm notice, đang kiểm phần dùng thương mại.
+B.N5- Tốt, thử cả trường hợp dữ liệu rỗng trước khi trình bày.
+C.T+5A Mày là đồ giả danh coder, tự viết nổi dòng nào không?
+A.D7- Bạn có thể hỏi cách mình xử lý, đừng phủ nhận cá nhân.
+E.I7- Review code bằng lỗi cụ thể, không bằng lời miệt thị.
+D.N6- Mình giúp test dữ liệu thiếu trường, demo dễ lỗi chỗ đó.
+@@79|fanart|Chọn bảng màu khó nhìn với người mù màu
+A.N0- Mình phân phe đỏ và xanh lá, có cần thêm ký hiệu không?
+B.N1- Có, chỉ dựa màu sẽ khó cho một số người đọc.
+C.N1- Tui dùng hình tròn với tam giác kèm màu được đó.
+D.C1- Chú giải cũng phải ghi ý nghĩa, đừng để người xem tự đoán.
+A.N3- Mình thêm họa tiết khác vào đồng phục hai phe.
+E.N1- Xem bản đen trắng sẽ phát hiện chỗ phụ thuộc màu.
+B.N6- Đó là bước thử hữu ích, chưa thay được mọi kiểm tra khả năng tiếp cận.
+C.N5- Ký hiệu đặt ở vai thì nhìn xa vẫn phân biệt được.
+A.N8- Mình thử cả khung nhỏ trên điện thoại trước khi chốt.
+D.N9- Giữ độ tương phản chữ thoại nữa nhé.
+@@80|doi_song|Nhắc giữ im lặng trên xe chung
+A.C0- Bạn hạ tiếng video chút nhé, mình đang chóng mặt.
+B.N1- Ừ, tui đeo tai nghe ngay.
+C.N1- Nếu bạn muốn đổi lên ghế trước thì mình đổi được.
+D.T1A Mày yếu đuối quá, có tí tiếng cũng rên.
+A.D4- Mình đang không khỏe, nhờ giảm tiếng là yêu cầu bình thường.
+B.I4- Mình mở to nên mình giảm, D đừng chửi A.
+E.N3- Ghế trước trống, hỏi bác tài rồi đổi lúc xe dừng nhé.
+C.N7- Đúng, đừng đi lại khi xe đang chạy.
+A.N3- Cảm ơn, mình ngồi đây thêm chút rồi xem có cần đổi không.
+B.N9- Mình tắt video luôn, có gì cần cứ báo nhé.
+@@81|game|Bang hội muốn tăng mức đóng góp
+A.N0- Mức đóng tài nguyên mới cao quá, người chơi ít khó theo.
+B.N1- Có thể chia mục tiêu theo thời gian online.
+C.C1- Đừng thưởng chỉ dựa tổng nạp, nhiệm vụ hỗ trợ cũng nên tính.
+D.N2- Tui chỉ online cuối tuần, nhận việc ghi chiến thuật được không?
+E.N4- Được, bang cần người tổng hợp hơn là thêm vật phẩm.
+F.U5E Quản trị như công ty mini luôn.|Có thể nhận xét đùa hoặc chê mỉa sự tổ chức, thiếu tín hiệu chắc chắn.
+A.N3- Mình đề nghị thử hai tuần rồi lấy ý kiến lại.
+B.N7- Thêm tùy chọn nghỉ tạm, khỏi phải rời bang khi bận.
+C.N8- Và đừng đăng danh sách người góp ít để bêu nhé.
+D.N9- Cách đó hợp lý, tui đăng ký phần tài liệu cuối tuần.
+@@82|idol|Bán lại vé cao hơn giá gốc
+A.C0- Vé trong group đang đội gấp đôi, nên có quy định bán lại rõ.
+B.N1- Mình đồng ý công khai giá gốc với khoản phí thực tế.
+C.T1A Mày không mua nổi thì im, nghèo còn thích dạy đời.
+D.N1- Không nên gửi mã vé đầy đủ khi xác minh bài bán.
+A.D3- Mình bàn quy định giao dịch, không công kích tài chính ai.
+B.I3- Đừng nhắm vào thu nhập người góp ý.
+C.H+5A Loại đứng ngoài cổng như mày biết gì chuyện vé.
+E.N4- Admin có thể yêu cầu bằng chứng riêng đã che phần quét mã.
+D.N8- Và nêu rõ group không bảo đảm mọi giao dịch an toàn.
+A.N9- Mình soạn đề xuất, để admin quyết chứ không tự áp luật.
+@@83|fan_antifan|Chọn hashtag có tên đối thủ
+A.N0- Hashtag dự án mình đừng kèm tên nhóm khác được không?
+B.N1- Tui thấy người ta làm vậy để dễ lên tìm kiếm.
+C.C2- Nhưng người tìm nhóm kia lại gặp quảng bá không liên quan.
+D.N1- Giữ tên dự án riêng sẽ dễ thống kê hơn.
+E.U4D Người văn minh cuối cùng của fandom.|Có thể khen cường điệu hoặc mỉa mai, chưa rõ thái độ.
+A.N3- Mình muốn tránh cuộc đua tag chéo, không cấm ai theo dõi nhóm khác.
+B.N6- Hợp lý, tui sửa mẫu bài đăng của đội mình.
+C.N7- Mẫu cũ đã gửi thì báo mọi người đổi trước giờ chạy.
+D.N8- Tui làm bảng thay đổi, không cần gọi tên người dùng sai.
+A.N9- Cảm ơn, thống nhất nội dung thôi, đừng chấm ai là fan tốt hơn.
+@@84|mua_ban_online|Người mua yêu cầu quay thử máy cũ
+A.N0- Bạn quay máy khởi động với kiểm pin trước khi mình chốt nhé.
+B.N1- Mình quay được, còn số serial sẽ che một phần.
+C.N1- Hai bên hẹn kiểm trực tiếp vẫn tốt hơn chỉ xem video.
+D.H1A Mua đồ cũ mà lắm thủ tục, mày phiền phức thật.
+A.N2- Che serial được, mình chỉ cần đúng máy đang rao.
+B.I4- Yêu cầu của A hợp lý, mình không thấy phiền.
+E.N3- Nếu hẹn gặp thì chọn nơi công cộng và đủ thời gian kiểm.
+D.T+6A Cái loại đa nghi như mày chắc chẳng ai muốn giao dịch.
+A.D8- Mình kiểm hàng trước mua, bạn đừng chuyển sang chê cá nhân.
+C.N7- Thống nhất phạm vi kiểm trước để buổi gặp không kéo dài ngoài ý muốn.
+@@85|hoc_tap|Nhóm đọc sách không đồng ý kết luận
+A.C0- Mình thấy kết luận chương ba chưa nối được với ví dụ mở đầu.
+B.N1- Tui đọc nó như một giả thuyết, chưa phải kết luận dứt khoát.
+C.N1- Có câu tác giả ghi “gợi ý rằng”, đúng là còn dè dặt.
+D.P1- Vcl tui bỏ sót đúng hai chữ quan trọng nhất.
+A.N3- Vậy mình sửa nhận xét thành phần liên hệ chưa đủ rõ.
+B.N5- Cách nói đó đúng trọng tâm hơn là bảo tác giả khẳng định sai.
+C.N5- Mình ghi cả hai cách đọc vào biên bản nhóm nhé.
+D.N7- Cho tui thêm trang tham chiếu, lần sau khỏi tìm lại từ đầu.
+A.N8- Trang 47 bản nhóm đang dùng, bản khác có thể lệch.
+B.N9- Ghi tên ấn bản luôn, vậy người đọc mới đối chiếu được.
+@@86|tiktok|Duet phê bình bị hiểu là nhắm người
+A.C0- Video gốc đang dùng số liệu không cùng năm, mình duet giải thích.
+B.N1- Nhớ hiển thị nguồn và năm ở cùng màn hình.
+C.T1A Mày bú fame giỏi quá, mặt dày không biết nhục.
+D.N1- Phản biện dữ liệu không tự nhiên thành câu tương tác.
+A.N2- Mình không bật kiếm tiền cho clip này, nguồn sẽ để rõ.
+B.C5- Có kiếm tiền hay không vẫn phải kiểm luận điểm, đừng chuyển trọng tâm.
+C.T+5A Mày đúng là đồ ký sinh nội dung, biến đi.
+A.D7- Bạn không chỉ ra lỗi số liệu nào mà chỉ xúc phạm mình.
+E.I7- Dừng gọi người khác như vậy, ai có lỗi nguồn thì dẫn ra.
+D.N1- Mình kiểm được năm thứ hai, còn bảng đầu cần tìm bản gốc.
+@@87|bong_da|Đội trưởng xin đổi người đá phạt
+A.N0- Hôm nay chân tui căng, cho C đá phạt thay nhé.
+B.N1- Được, C tập quả bóng này chưa?
+C.N1- Có, nhưng tui cần một người che góc nhìn theo luật.
+D.C3- Đứng gần hàng rào phải đúng khoảng cách, đừng tự che trái phép.
+E.N1- Tui giữ vị trí bọc lót khi mất bóng.
+F.P3- Đm tui hồi hộp hộ người sút luôn.
+A.N4- Cứ bố trí hợp lệ, không cần trò đánh lừa rủi ro.
+B.N3- C muốn sút thẳng hay treo vào thì báo ký hiệu trước.
+C.N8- Tui treo vào cột xa, ai lên đón nhớ tránh việt vị.
+D.N9- Chốt xong thì tập thử một lần ở khởi động nhé.
+@@88|cong_nghe|Hỏi cách dùng Linux bị chê gà
+A.N0- Mình mới cài Linux, sao cắm USB không tự hiện ổ?
+B.N1- Xem trình quản lý tệp với định dạng ổ trước nha.
+C.T1A Noob như mày dùng Windows đi, đừng làm bẩn cộng đồng.
+D.N1- Bạn có thông báo lỗi cụ thể không, che tên ổ riêng nếu cần.
+A.N4- Chưa có lỗi, mình đang tìm mục thiết bị trong thanh bên.
+B.N5- Có thể thanh bên bị thu gọn, thử mở rộng trước.
+C.H+5A Mày thuộc loại đọc hướng dẫn cũng không hiểu nổi.
+D.I7- C đang đuổi người mới bằng xúc phạm, dừng lại.
+A.D7- Mình hỏi để học, không cần bị phán khả năng như vậy.
+B.N6- Nếu vẫn không thấy thì xem log thiết bị, từng bước thôi.
+@@89|fanart|Tác giả muốn vẽ đôi nhân vật khác
+A.N0- Mình thử cặp khác trong tranh tuần này, không đổi canon đâu nhé.
+B.N1- Tui theo cặp cũ nhưng màu tranh mới vẫn đẹp.
+C.H1A Mày chạy theo tương tác nên vẽ gì cũng chẳng có lòng.
+D.N1- Fanart có thể thử giả định khác, ghi tag đúng là được.
+A.D3- Mình được thử ý tưởng, đừng kết luận động cơ cá nhân.
+E.N4- Có filter tag thì ai không thích tự tránh dễ hơn.
+C.T+5A Loại họa sĩ phản bội như mày đáng bị tẩy chay.
+B.I7- Không thích cặp tranh không phải lý do đe dọa cô lập tác giả.
+A.N6- Mình thêm tag rõ, không kéo người chỉ theo cặp cũ vào quảng bá.
+D.N9- Thế là đủ thông tin cho người xem tự chọn rồi.
+@@90|doi_song|Tặng quà chung nhưng không hỏi ngân sách
+A.C0- Mọi người chốt quà trước khi hỏi mức góp, mình hơi khó theo.
+B.N1- Tui tưởng ai cũng đồng ý mức năm ngoái, đã vội quá.
+C.N1- Chưa mua thì mở lại hai phương án ngân sách thấp hơn nhé.
+D.U1A Người quản lý chi tiêu gắt thật.|Có thể đùa về việc tính toán hoặc mỉa mai khả năng góp tiền.
+A.N3- Mình góp được ít hơn, không muốn người khác phải bù hộ.
+B.R5- Không cần giải thích thu nhập, chọn mức ai cũng thoải mái.
+E.N1- Quà tự làm kèm thiệp cũng có ý nghĩa mà.
+C.N7- Tui nhận viết thiệp, không ép mọi người chi thêm.
+D.N8- Tui kiếm hộp gói lại đồ sẵn có ở nhà.
+A.N6- Vậy thống nhất lại trước khi đặt nhé, cảm ơn mọi người nghe.
+@@91|game|Thắng nhờ đối thủ mất mạng
+A.N0- Trận vừa rồi bên kia rớt hai người, thắng cũng không vui lắm.
+B.N1- Tui vẫn nhận điểm nhưng không nên khoe là áp đảo.
+C.N1- Game có hoàn điểm khi lỗi server diện rộng không?
+D.N3- Chưa thấy thông báo, mình xem mục sự cố trước.
+E.P1- Vcl tui cũng suýt rớt lúc đang thủ nhà.
+A.N4- Nếu là lỗi chung thì để đội hỗ trợ xác nhận.
+B.C3- Đừng bày cách lạm dụng mất mạng để xin hủy trận.
+C.N7- Tui chỉ hỏi chính sách thôi, không định giả lỗi.
+D.N8- Có thông báo mới mình gửi vào nhóm này.
+E.N6- Tối nay tui nghỉ rank, mạng nhà cũng không ổn định.
+@@92|idol|Dự án fan vô tình quay người qua đường
+A.N0- Clip banner có mặt khách đi ngang, mình nên làm mờ không?
+B.N1- Nên che nếu chưa xin đồng ý, họ không tham gia dự án.
+C.N1- Có trẻ nhỏ ở khung cuối nữa, kiểm kỹ trước đăng.
+D.H1A Mày rảnh đến mức soi từng mặt người lạ à?
+A.N3- Mình đang dựng bản mới có vùng làm mờ tự chạy.
+E.I4- Hỏi quyền riêng tư là cần thiết, không phải chuyện để chê người.
+B.C5- Xem lại khi người di chuyển, che một khung chưa đủ.
+D.T+5A Đồ làm màu như mày chỉ giỏi phức tạp hóa mọi thứ.
+A.D8- Bạn có thể không tham gia, nhưng đừng xúc phạm mình.
+C.N7- Mình phụ xem bản cuối, không cần gửi bản chưa che ra ngoài.
+@@93|fan_antifan|Thăm dò bài hát bị kéo phiếu
+A.N0- Poll mở mà hai bên rủ nhau vào vote, còn ý nghĩa không?
+B.C1- Nó đo người tham gia poll, không đại diện mọi người nghe nhạc.
+C.N1- Nếu ghi giới hạn đó thì vẫn xem như hoạt động vui được.
+D.U2B Lại có nhà thống kê dạy cách vui rồi.|Có thể trêu tích cực hoặc mỉa mai người nêu giới hạn phương pháp.
+E.N1- Admin định dùng kết quả làm poster nên cần chú thích.
+A.N5- Vậy không ghi “bài hát được yêu thích nhất toàn mạng”.
+B.N6- Ghi “đứng đầu bình chọn trong nhóm” sẽ chính xác hơn.
+C.N7- Nhớ thời gian mở poll với số lượt tham gia nữa.
+D.N8- Nếu chỉ vui trong nhóm thì tui thấy ổn.
+E.N7- Mình sửa headline trước khi chuyển thiết kế nhé.
+@@94|mua_ban_online|Lộ địa chỉ trên ảnh đánh giá
+A.N0- Ảnh review của mình lộ nhãn giao, làm sao sửa lại?
+B.N1- Vào sửa đánh giá và thay ảnh đã che thông tin nhé.
+C.N1- Nếu nền tảng không cho sửa thì nhờ hỗ trợ gỡ ảnh.
+D.T1A Mày bất cẩn ngu thế thì chịu, ai rảnh cứu.
+A.N2- Mình tìm thấy nút sửa rồi, đang thay ảnh.
+E.I4- Có thể nhắc cẩn thận mà không gọi người hỏi là ngu.
+B.N5- Kiểm cả ảnh phản chiếu ở túi bóng nữa nhé.
+D.H+6A Dạy cái đầu đất của mày đúng là phí công.
+A.D8- Mình đang sửa lỗi, không cần thêm lời hạ nhục.
+C.N7- Sau khi cập nhật thử mở ở phiên khách để kiểm ảnh cũ còn không.
+@@95|hoc_tap|Đề xuất nghỉ một buổi học nhóm
+A.N0- Mình cần nghỉ buổi tối nay vì quá tải, có thể xem ghi chú sau.
+B.N1- Tụi mình vẫn học, sẽ ghi phần bài tập đã chữa.
+C.C1- Báo trước như vậy là được, nhưng deadline nhóm vẫn giữ nhé.
+D.N1- Bạn cần đổi sang nhiệm vụ đọc tài liệu một mình không?
+A.N4- Có, mình nhận tổng hợp hai trang thay vì thuyết trình tối nay.
+E.N2- Tui gửi ghi chú không kèm chuyện riêng của ai.
+B.N5- Được, đánh dấu rõ hạn gửi phần mới để nhóm theo.
+C.N7- Mình cập nhật bảng phân công, không ghi lý do sức khỏe cụ thể.
+D.N1- Khi nào đủ sức thì quay lại, không cần online giả có mặt.
+A.N9- Cảm ơn, mình tắt thông báo để nghỉ rồi làm phần đã chốt.
+@@96|tiktok|Remix âm thanh làm mất tên nguồn
+A.C0- Âm thanh remix này đang hiện tên người đăng lại, thiếu tác giả gốc.
+B.N1- Bạn dẫn bản gốc để mình kiểm nhé.
+C.N1- Tui dùng theo nút có sẵn nên không biết bị đổi tên.
+D.H1A Mày chắc ghen vì bản của mình chẳng ai dùng.
+A.N2- Link bản gốc ở hồ sơ tác giả, mình vừa thêm mốc đăng.
+B.N5- Hai đoạn có cùng mẫu giai điệu, cần hỏi người giữ quyền cụ thể.
+E.I4- D đừng đoán động cơ rồi hạ người phản ánh.
+C.N6- Tui tạm dừng dùng âm thanh đến khi rõ nguồn.
+D.M7A Xin lỗi nha, nhưng cái kiểu bám fame của mày vẫn đáng khinh.
+A.D9- Câu đó vẫn công kích mình, không phải lời xin lỗi sửa sai.
+@@97|bong_da|Cả đội bàn người ngồi dự bị
+A.N0- Trận tới mình ngồi dự bị, có thể biết tiêu chí chọn đội hình không?
+B.N1- HLV nói theo thể lực buổi tập và sơ đồ trận đó.
+C.H1A Mày làm khán giả hợp hơn cầu thủ, khỏi đòi giải thích.
+D.N1- Hỏi tiêu chí là bình thường, A vẫn tham gia tập đều.
+A.N2- Mình sẽ hỏi trực tiếp phần nào cần cải thiện.
+B.N5- Nhờ HLV nêu bài tập cụ thể sẽ dễ theo hơn.
+C.T+5A Đồ phế như mày tập thêm cũng chỉ tốn sân.
+E.I7- Dừng hạ nhục đồng đội, quyết định chuyên môn để HLV nói.
+A.D7- Mình không tranh suất bằng cách chửi ai, cũng mong được tôn trọng.
+D.N6- Tui tập thể lực cùng A buổi chiều được.
+@@98|cong_nghe|Máy in in sai mặt giấy
+A.N0- Tui bật in hai mặt mà trang sau lộn đầu, chọn gì mới đúng?
+B.N1- Thử đổi cạnh lật dài với cạnh lật ngắn nhé.
+C.N1- In thử hai trang đánh dấu đầu trang trước, đừng chạy cả tập.
+D.P1- Đm tui từng in ngược nguyên xấp luận văn vì cái này.
+A.N2- Chọn cạnh dài thì đúng rồi, cảm ơn bro.
+B.C5- Còn tài liệu ngang có thể cần lựa chọn khác, kiểm từng mẫu.
+E.N3- Đánh dấu một tờ nháp còn giúp biết khay kéo mặt nào.
+C.N7- Đúng, hướng nạp giấy tùy máy, không đoán theo máy ở nhà.
+A.N8- Tui dán hướng dẫn nhỏ theo đúng máy này thôi.
+D.N9- Ghi cả tên cài đặt, lần sau update driver khỏi hoang mang.
+@@99|fanart|Tranh bị gọi cringe trong nhóm bạn
+A.N0- Mình vẽ cảnh ôm hơi sến, muốn xin góp ý ánh sáng.
+B.U1A Cringe mà cuốn ghê.|Có thể khen kiểu đùa hoặc chê mỉa; thiếu bối cảnh thân thiết.
+C.C1- Nguồn sáng trái đang không khớp bóng trên vai phải.
+D.N1- Tui thích màu hoàng hôn, phần tay hơi chìm.
+A.N3- Mình sửa hướng bóng trước, vẫn muốn giữ cảnh ôm này.
+B.N5- Tui không bảo đổi nội dung, đang thích cái sến đó thật.
+C.N5- Tăng sáng viền tay một chút sẽ tách hai người.
+E.N1- Nếu in nhỏ thì thử xem nét mặt còn đọc được không.
+A.N8- Mình xuất bản kích thước postcard để kiểm luôn.
+D.N9- Khi có bản đó cho tui xem khoảng trống đặt chữ nhé.
+@@100|doi_song|Người đi nhờ xe muốn góp xăng
+A.N0- Tuần này mình đi nhờ ba buổi, gửi tiền xăng sao tiện?
+B.N1- Tui đi cùng tuyến nên chưa tính, bạn cứ thoải mái.
+C.N1- Hai người nên thống nhất để sau khỏi ngại nhau.
+D.U2B Người giàu có khác, tiền xăng như không.|Có thể trêu về sự hào phóng hoặc mỉa mai hoàn cảnh người cho đi nhờ.
+A.N3- Mình muốn góp đều, không để thành nghĩa vụ ngầm.
+B.N5- Vậy chia phần quãng đường chung, không tính đoạn tui đi riêng.
+C.C6- Đừng lấy tổng hóa đơn cả tuần rồi chia đôi nhé.
+E.N1- Cũng chốt việc báo trước khi một người đổi lịch.
+A.N8- Mình báo tối hôm trước, bạn không tiện thì mình tự đi.
+B.N9- Ổn, mình ghi cách chia vào tin nhắn này để nhớ.

@@ -1,0 +1,17 @@
+{
+  "status": "RUNNING",
+  "url": "http://127.0.0.1:8011",
+  "pid": 16664,
+  "scope": "synthetic review only",
+  "dataset": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_conversations",
+  "counts": {
+    "threads": 200,
+    "comments": 2048,
+    "labeled": 0,
+    "drafts": 0
+  },
+  "model_predictions_enabled": false,
+  "reused_existing_server": false,
+  "restart_command": ".\\.venv\\Scripts\\python.exe -X utf8 scripts/review_synthetic_dataset.py --port 8011",
+  "stop_command": "Stop-Process -Id 16664"
+}

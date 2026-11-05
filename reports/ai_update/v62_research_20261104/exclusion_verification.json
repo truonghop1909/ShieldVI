@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "manifest": "datasets/real_conversations/manifests/development_exclusions.research_v62_20261104.json",
+  "manifest_sha256": "c9d42dcfa7bbb97cd19786d00d422d660e48a47b26e8a61d5dabca1cb6363020",
+  "verified_threads": 16,
+  "default_loader_modified": false,
+  "checks": [
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c01"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c01",
+        "c02",
+        "c03",
+        "c05"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c05",
+        "c06"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c04",
+        "c06"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c01",
+        "c05",
+        "c06"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c01",
+        "c02",
+        "c03"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c10"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c17"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c09"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c12"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    },
+    {
+      "status": "EXCLUDED_DEVELOPMENT",
+      "thread_id_match": true,
+      "matching_long_comment_ids": [
+        "c01",
+        "c15"
+      ],
+      "independent_evaluation_approved": false,
+      "note": "No match is not proof of independence; full provenance/privacy/near-duplicate audit still required."
+    }
+  ]
+}

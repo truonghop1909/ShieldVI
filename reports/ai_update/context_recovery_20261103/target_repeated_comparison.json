@@ -1,0 +1,91 @@
+{
+  "human_gold": false,
+  "groups": {
+    "EXISTING_GENZ_DEVELOPMENT": {
+      "before": {
+        "reference_attacks": 35,
+        "target_emissions": 11,
+        "target_correct": 11,
+        "target_precision": 1.0,
+        "target_correct_recall": 0.3142857142857143,
+        "event_reference": 7,
+        "event_tp": 0,
+        "event_fp": 0,
+        "event_fn": 7,
+        "evidence_support": 0,
+        "evidence_total": 0
+      },
+      "after": {
+        "reference_attacks": 35,
+        "target_emissions": 13,
+        "target_correct": 13,
+        "target_precision": 1.0,
+        "target_correct_recall": 0.37142857142857144,
+        "event_reference": 7,
+        "event_tp": 0,
+        "event_fp": 0,
+        "event_fn": 7,
+        "evidence_support": 0,
+        "evidence_total": 0
+      }
+    },
+    "GAME_USER_REFERENCE": {
+      "before": {
+        "reference_attacks": 4,
+        "target_emissions": 4,
+        "target_correct": 4,
+        "target_precision": 1.0,
+        "target_correct_recall": 1.0,
+        "event_reference": 1,
+        "event_tp": 1,
+        "event_fp": 0,
+        "event_fn": 0,
+        "evidence_support": 4,
+        "evidence_total": 4
+      },
+      "after": {
+        "reference_attacks": 4,
+        "target_emissions": 4,
+        "target_correct": 4,
+        "target_precision": 1.0,
+        "target_correct_recall": 1.0,
+        "event_reference": 1,
+        "event_tp": 1,
+        "event_fp": 0,
+        "event_fn": 0,
+        "evidence_support": 4,
+        "evidence_total": 4
+      }
+    },
+    "NEW_SYNTHETIC_RECOVERY": {
+      "before": {
+        "reference_attacks": 11,
+        "target_emissions": 7,
+        "target_correct": 7,
+        "target_precision": 1.0,
+        "target_correct_recall": 0.6363636363636364,
+        "event_reference": 1,
+        "event_tp": 0,
+        "event_fp": 0,
+        "event_fn": 1,
+        "evidence_support": 0,
+        "evidence_total": 0
+      },
+      "after": {
+        "reference_attacks": 11,
+        "target_emissions": 9,
+        "target_correct": 9,
+        "target_precision": 1.0,
+        "target_correct_recall": 0.8181818181818182,
+        "event_reference": 1,
+        "event_tp": 0,
+        "event_fp": 0,
+        "event_fn": 1,
+        "evidence_support": 0,
+        "evidence_total": 0
+      }
+    }
+  },
+  "new_context_error_ids": [],
+  "missing_reference_for_other_four_targets_events": true
+}

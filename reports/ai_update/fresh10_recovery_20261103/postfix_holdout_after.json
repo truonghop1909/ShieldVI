@@ -1,0 +1,4134 @@
+[
+  {
+    "output": {
+      "thread_id": "FRESH10_POSTFIX_01",
+      "model_name": "imported_actual_scores_cached_no_new_forward",
+      "model_threshold": 0.41,
+      "repeated_rule_threshold": 0.41,
+      "profile": "conservative",
+      "research_only": false,
+      "suspected_repeated_harassment": true,
+      "risk_level": "suspected_repeated",
+      "risk_score_heuristic": 75,
+      "evidence": [
+        {
+          "actor_user_id": "H02",
+          "target_user_id": "H01",
+          "evidence_comment_ids": [
+            "c02",
+            "c05"
+          ],
+          "n_distinct_timestamps": 2,
+          "target_confidence": "medium"
+        }
+      ],
+      "comments": [
+        {
+          "comment_id": "c01",
+          "user_id": "H01",
+          "parent_id": null,
+          "timestamp": "2026-11-03T01:02:00Z",
+          "toxicity_score": 0.034892,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": null,
+          "target_method": "undetermined",
+          "target_confidence": "none",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": null,
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c02",
+          "user_id": "H02",
+          "parent_id": "c01",
+          "timestamp": "2026-11-03T01:04:00Z",
+          "toxicity_score": 0.938965,
+          "toxic_for_moderation": true,
+          "toxic_for_repeated_rule": true,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": "H01",
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "new_directed_attack",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "attack_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "DIRECT_ATTACK"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "DIRECT_ATTACK"
+              ],
+              "attack_candidate": true,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "new_directed_attack",
+                "personal_conduct"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": [
+                [
+                  0,
+                  56
+                ]
+              ]
+            },
+            "directed_attack_candidate": true,
+            "attack_confidence": "medium",
+            "target_candidate": "H01",
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": "H01",
+              "method": "addressed_reply",
+              "confidence": "medium",
+              "evidence_comment_ids": [
+                "c02",
+                "c01"
+              ],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": true,
+            "attack_instance_basis": "context_with_grounded_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "personal_conduct",
+                  "normalized_match": "song kieu vo y thuc",
+                  "normalized_span": [
+                    4,
+                    23
+                  ],
+                  "clause_span": [
+                    0,
+                    56
+                  ],
+                  "decision": "new_personal_attack_candidate"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c03",
+          "user_id": "H01",
+          "parent_id": "c02",
+          "timestamp": "2026-11-03T01:06:00Z",
+          "toxicity_score": 0.052757,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c04",
+          "user_id": "H03",
+          "parent_id": "c03",
+          "timestamp": "2026-11-03T01:08:00Z",
+          "toxicity_score": 0.045599,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "bàn",
+                  "nfc_span": [
+                    9,
+                    12
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c05",
+          "user_id": "H02",
+          "parent_id": "c03",
+          "timestamp": "2026-11-03T01:10:00Z",
+          "toxicity_score": 0.244443,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": "H01",
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "new_directed_attack",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "attack_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "DIRECT_ATTACK"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "DIRECT_ATTACK"
+              ],
+              "attack_candidate": true,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "new_directed_attack",
+                "personal_conduct"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": [
+                [
+                  0,
+                  52
+                ]
+              ]
+            },
+            "directed_attack_candidate": true,
+            "attack_confidence": "medium",
+            "target_candidate": "H01",
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": "H01",
+              "method": "addressed_reply",
+              "confidence": "medium",
+              "evidence_comment_ids": [
+                "c05",
+                "c03",
+                "c02"
+              ],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": true,
+            "attack_instance_basis": "context_with_grounded_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "personal_conduct",
+                  "normalized_match": "cai cun",
+                  "normalized_span": [
+                    8,
+                    15
+                  ],
+                  "clause_span": [
+                    0,
+                    52
+                  ],
+                  "decision": "new_personal_attack_candidate"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c06",
+          "user_id": "H03",
+          "parent_id": "c05",
+          "timestamp": "2026-11-03T01:12:00Z",
+          "toxicity_score": 0.081949,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c07",
+          "user_id": "H01",
+          "parent_id": "c04",
+          "timestamp": "2026-11-03T01:14:00Z",
+          "toxicity_score": 0.205609,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H03",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H03",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c08",
+          "user_id": "H03",
+          "parent_id": "c04",
+          "timestamp": "2026-11-03T01:16:00Z",
+          "toxicity_score": 0.006428,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "thread_root_fallback",
+          "target_confidence": "low",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H03",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        }
+      ],
+      "warnings": [
+        "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+        "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+        "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+        "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+        "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại.",
+        "Version 2 evidence uses context and grounded attack targets; legacy recipient fields are retained separately. Heuristics require human review, not a harassment verdict.",
+        "Opt-in v6 research only; default v5/readiness lock unchanged, synthetic references are not human gold."
+      ],
+      "analysis_version": "2.0",
+      "rule_versions": {
+        "context": "context-v6-research",
+        "target": "target-v6-research",
+        "repeated": "repeated-v6-research",
+        "assessment": "context-assessment-v1"
+      },
+      "source_model_threshold": 0.41,
+      "policy_executed": false,
+      "checkpoint_id": "imported_actual_scores_cached_no_new_forward"
+    }
+  },
+  {
+    "output": {
+      "thread_id": "FRESH10_POSTFIX_02",
+      "model_name": "imported_actual_scores_cached_no_new_forward",
+      "model_threshold": 0.41,
+      "repeated_rule_threshold": 0.41,
+      "profile": "conservative",
+      "research_only": false,
+      "suspected_repeated_harassment": false,
+      "risk_level": "needs_review",
+      "risk_score_heuristic": 35,
+      "evidence": [],
+      "comments": [
+        {
+          "comment_id": "c01",
+          "user_id": "H01",
+          "parent_id": null,
+          "timestamp": "2026-11-03T02:02:00Z",
+          "toxicity_score": 0.037148,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": null,
+          "target_method": "undetermined",
+          "target_confidence": "none",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": null,
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "Bản",
+                  "nfc_span": [
+                    0,
+                    3
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c02",
+          "user_id": "H02",
+          "parent_id": "c01",
+          "timestamp": "2026-11-03T02:04:00Z",
+          "toxicity_score": 0.131984,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "Bản",
+                  "nfc_span": [
+                    0,
+                    3
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                },
+                {
+                  "source_form": "bản",
+                  "nfc_span": [
+                    43,
+                    46
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c03",
+          "user_id": "H03",
+          "parent_id": "c02",
+          "timestamp": "2026-11-03T02:06:00Z",
+          "toxicity_score": 0.047762,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "Mấy",
+                  "nfc_span": [
+                    0,
+                    3
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c04",
+          "user_id": "H02",
+          "parent_id": "c03",
+          "timestamp": "2026-11-03T02:08:00Z",
+          "toxicity_score": 0.066441,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H03",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H03",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "bounded_non_attack_context",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "QUOTE"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "QUOTE"
+              ],
+              "attack_candidate": false,
+              "confidence": "medium",
+              "negated_attack": true,
+              "cues": [
+                "quoted_or_recalled_speech"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": true,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "medium",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [
+                "QUOTE"
+              ],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "sarcastic_incompetence",
+                  "normalized_match": "chuyen gia tu phong",
+                  "normalized_span": [
+                    28,
+                    47
+                  ],
+                  "clause_span": [
+                    0,
+                    76
+                  ],
+                  "decision": "suppressed_report_quote_negation_or_intervention"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c05",
+          "user_id": "H01",
+          "parent_id": "c04",
+          "timestamp": "2026-11-03T02:10:00Z",
+          "toxicity_score": 0.046386,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "bàn",
+                  "nfc_span": [
+                    15,
+                    18
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c06",
+          "user_id": "H03",
+          "parent_id": "c01",
+          "timestamp": "2026-11-03T02:12:00Z",
+          "toxicity_score": 0.165621,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "bounded_non_attack_context",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "ACKNOWLEDGEMENT"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "ACKNOWLEDGEMENT"
+              ],
+              "attack_candidate": false,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "self_deprecating_object"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": true,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "medium",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "máy",
+                  "nfc_span": [
+                    19,
+                    22
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c07",
+          "user_id": "H02",
+          "parent_id": "c06",
+          "timestamp": "2026-11-03T02:14:00Z",
+          "toxicity_score": 0.007449,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H03",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H03",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "Máy",
+                  "nfc_span": [
+                    0,
+                    3
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c08",
+          "user_id": "H01",
+          "parent_id": "c07",
+          "timestamp": "2026-11-03T02:16:00Z",
+          "toxicity_score": 0.012408,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "bản",
+                  "nfc_span": [
+                    34,
+                    37
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        }
+      ],
+      "warnings": [
+        "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+        "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+        "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+        "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+        "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại.",
+        "Version 2 evidence uses context and grounded attack targets; legacy recipient fields are retained separately. Heuristics require human review, not a harassment verdict.",
+        "Opt-in v6 research only; default v5/readiness lock unchanged, synthetic references are not human gold."
+      ],
+      "analysis_version": "2.0",
+      "rule_versions": {
+        "context": "context-v6-research",
+        "target": "target-v6-research",
+        "repeated": "repeated-v6-research",
+        "assessment": "context-assessment-v1"
+      },
+      "source_model_threshold": 0.41,
+      "policy_executed": false,
+      "checkpoint_id": "imported_actual_scores_cached_no_new_forward"
+    }
+  },
+  {
+    "output": {
+      "thread_id": "FRESH10_POSTFIX_03",
+      "model_name": "imported_actual_scores_cached_no_new_forward",
+      "model_threshold": 0.41,
+      "repeated_rule_threshold": 0.41,
+      "profile": "conservative",
+      "research_only": false,
+      "suspected_repeated_harassment": true,
+      "risk_level": "suspected_repeated",
+      "risk_score_heuristic": 75,
+      "evidence": [
+        {
+          "actor_user_id": "H02",
+          "target_user_id": "H01",
+          "evidence_comment_ids": [
+            "c02",
+            "c05"
+          ],
+          "n_distinct_timestamps": 2,
+          "target_confidence": "medium"
+        }
+      ],
+      "comments": [
+        {
+          "comment_id": "c01",
+          "user_id": "H01",
+          "parent_id": null,
+          "timestamp": "2026-11-03T03:02:00Z",
+          "toxicity_score": 0.034859,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": null,
+          "target_method": "undetermined",
+          "target_confidence": "none",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": null,
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "bản",
+                  "nfc_span": [
+                    13,
+                    16
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c02",
+          "user_id": "H02",
+          "parent_id": "c01",
+          "timestamp": "2026-11-03T03:04:00Z",
+          "toxicity_score": 0.182221,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": "H01",
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "new_directed_attack",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "attack_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "DIRECT_ATTACK"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "DIRECT_ATTACK"
+              ],
+              "attack_candidate": true,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "new_directed_attack",
+                "sarcastic_incompetence"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": [
+                [
+                  0,
+                  64
+                ]
+              ]
+            },
+            "directed_attack_candidate": true,
+            "attack_confidence": "medium",
+            "target_candidate": "H01",
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": "H01",
+              "method": "personal_ellipsis_reply",
+              "confidence": "medium",
+              "evidence_comment_ids": [
+                "c02",
+                "c01"
+              ],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": true,
+            "attack_instance_basis": "context_with_grounded_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "sarcastic_incompetence",
+                  "normalized_match": "thien tai tu phong",
+                  "normalized_span": [
+                    8,
+                    26
+                  ],
+                  "clause_span": [
+                    0,
+                    64
+                  ],
+                  "decision": "new_personal_attack_candidate"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c03",
+          "user_id": "H03",
+          "parent_id": "c02",
+          "timestamp": "2026-11-03T03:06:00Z",
+          "toxicity_score": 0.428879,
+          "toxic_for_moderation": true,
+          "toxic_for_repeated_rule": true,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "raw_model_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c04",
+          "user_id": "H01",
+          "parent_id": "c03",
+          "timestamp": "2026-11-03T03:08:00Z",
+          "toxicity_score": 0.037788,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H03",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H03",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c05",
+          "user_id": "H02",
+          "parent_id": "c04",
+          "timestamp": "2026-11-03T03:10:00Z",
+          "toxicity_score": 0.785142,
+          "toxic_for_moderation": true,
+          "toxic_for_repeated_rule": true,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": "H01",
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "new_directed_attack",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "attack_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "DIRECT_ATTACK"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "DIRECT_ATTACK"
+              ],
+              "attack_candidate": true,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "new_directed_attack",
+                "personal_humiliation"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": [
+                [
+                  0,
+                  58
+                ]
+              ]
+            },
+            "directed_attack_candidate": true,
+            "attack_confidence": "medium",
+            "target_candidate": "H01",
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": "H01",
+              "method": "addressed_reply",
+              "confidence": "medium",
+              "evidence_comment_ids": [
+                "c05",
+                "c04",
+                "c02"
+              ],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": true,
+            "attack_instance_basis": "context_with_grounded_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "personal_humiliation",
+                  "normalized_match": "hat do con thich lam trung tam",
+                  "normalized_span": [
+                    4,
+                    34
+                  ],
+                  "clause_span": [
+                    0,
+                    58
+                  ],
+                  "decision": "new_personal_attack_candidate"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c06",
+          "user_id": "H03",
+          "parent_id": "c05",
+          "timestamp": "2026-11-03T03:12:00Z",
+          "toxicity_score": 0.010529,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c07",
+          "user_id": "H02",
+          "parent_id": "c06",
+          "timestamp": "2026-11-03T03:14:00Z",
+          "toxicity_score": 0.101637,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H03",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H03",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "new_directed_attack",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "attack_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "APOLOGY",
+              "QUOTE",
+              "DIRECT_ATTACK"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "APOLOGY",
+                "QUOTE",
+                "DIRECT_ATTACK"
+              ],
+              "attack_candidate": true,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "explicit_apology",
+                "quoted_or_recalled_speech",
+                "new_directed_attack",
+                "sarcastic_incompetence"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": [
+                [
+                  0,
+                  55
+                ]
+              ]
+            },
+            "directed_attack_candidate": true,
+            "attack_confidence": "medium",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "history_reply_conflict",
+              "confidence": "none",
+              "evidence_comment_ids": [
+                "c06"
+              ],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [
+                "APOLOGY",
+                "QUOTE"
+              ],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "sarcastic_incompetence",
+                  "normalized_match": "thien tai tu phong",
+                  "normalized_span": [
+                    29,
+                    47
+                  ],
+                  "clause_span": [
+                    0,
+                    55
+                  ],
+                  "decision": "new_personal_attack_candidate"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c08",
+          "user_id": "H01",
+          "parent_id": "c07",
+          "timestamp": "2026-11-03T03:16:00Z",
+          "toxicity_score": 0.004989,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        }
+      ],
+      "warnings": [
+        "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+        "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+        "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+        "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+        "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại.",
+        "Version 2 evidence uses context and grounded attack targets; legacy recipient fields are retained separately. Heuristics require human review, not a harassment verdict.",
+        "Opt-in v6 research only; default v5/readiness lock unchanged, synthetic references are not human gold."
+      ],
+      "analysis_version": "2.0",
+      "rule_versions": {
+        "context": "context-v6-research",
+        "target": "target-v6-research",
+        "repeated": "repeated-v6-research",
+        "assessment": "context-assessment-v1"
+      },
+      "source_model_threshold": 0.41,
+      "policy_executed": false,
+      "checkpoint_id": "imported_actual_scores_cached_no_new_forward"
+    }
+  },
+  {
+    "output": {
+      "thread_id": "FRESH10_POSTFIX_04",
+      "model_name": "imported_actual_scores_cached_no_new_forward",
+      "model_threshold": 0.41,
+      "repeated_rule_threshold": 0.41,
+      "profile": "conservative",
+      "research_only": false,
+      "suspected_repeated_harassment": false,
+      "risk_level": "needs_review",
+      "risk_score_heuristic": 35,
+      "evidence": [],
+      "comments": [
+        {
+          "comment_id": "c01",
+          "user_id": "H01",
+          "parent_id": null,
+          "timestamp": "2026-11-03T04:02:00Z",
+          "toxicity_score": 0.031227,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": null,
+          "target_method": "undetermined",
+          "target_confidence": "none",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": null,
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "Máy",
+                  "nfc_span": [
+                    0,
+                    3
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c02",
+          "user_id": "H02",
+          "parent_id": "c01",
+          "timestamp": "2026-11-03T04:04:00Z",
+          "toxicity_score": 0.222556,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [
+            {
+              "rule_id": "vi_short_uncertain",
+              "category": "ambiguous",
+              "matched_form": "ngu",
+              "strength": "ambiguous",
+              "canonical_form": "ngu",
+              "language": "vi",
+              "reason": "Từ đa nghĩa hoặc viết tắt: chỉ ghi nhận để đọc ngữ cảnh, không tự cảnh báo công kích.",
+              "source_ids": [
+                "blue_eyes_vi",
+                "ldnoobw_v2_en",
+                "ldnoobw_v2_vi",
+                "shieldvi_reviewed"
+              ],
+              "start": 4,
+              "end": 7
+            }
+          ],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [
+                "new_directed_attack"
+              ],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [
+                "DIRECT_ATTACK"
+              ],
+              "normalization": [
+                {
+                  "source_form": "Máy",
+                  "nfc_span": [
+                    0,
+                    3
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": [
+                {
+                  "rule": "v5_attack",
+                  "normalized_match": "ngu",
+                  "normalized_span": [
+                    4,
+                    7
+                  ],
+                  "clause_span": [
+                    0,
+                    30
+                  ],
+                  "decision": "no_personal_addressee"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c03",
+          "user_id": "H03",
+          "parent_id": "c02",
+          "timestamp": "2026-11-03T04:06:00Z",
+          "toxicity_score": 0.006996,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c04",
+          "user_id": "H02",
+          "parent_id": "c03",
+          "timestamp": "2026-11-03T04:08:00Z",
+          "toxicity_score": 0.024867,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H03",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H03",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "bounded_non_attack_context",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "ACKNOWLEDGEMENT"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "ACKNOWLEDGEMENT"
+              ],
+              "attack_candidate": false,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "self_deprecating_object"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": true,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "medium",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c05",
+          "user_id": "H01",
+          "parent_id": "c03",
+          "timestamp": "2026-11-03T04:10:00Z",
+          "toxicity_score": 0.008784,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H03",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H03",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "ngò",
+                  "nfc_span": [
+                    12,
+                    15
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                },
+                {
+                  "source_form": "ngô",
+                  "nfc_span": [
+                    19,
+                    22
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c06",
+          "user_id": "H03",
+          "parent_id": "c05",
+          "timestamp": "2026-11-03T04:12:00Z",
+          "toxicity_score": 0.012186,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "ngò",
+                  "nfc_span": [
+                    21,
+                    24
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                },
+                {
+                  "source_form": "ống",
+                  "nfc_span": [
+                    40,
+                    43
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                },
+                {
+                  "source_form": "máy",
+                  "nfc_span": [
+                    52,
+                    55
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c07",
+          "user_id": "H02",
+          "parent_id": "c04",
+          "timestamp": "2026-11-03T04:14:00Z",
+          "toxicity_score": 0.011181,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "thread_root_fallback",
+          "target_confidence": "low",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "Mấy",
+                  "nfc_span": [
+                    0,
+                    3
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                },
+                {
+                  "source_form": "ống",
+                  "nfc_span": [
+                    4,
+                    7
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c08",
+          "user_id": "H01",
+          "parent_id": "c07",
+          "timestamp": "2026-11-03T04:16:00Z",
+          "toxicity_score": 0.007341,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "ống",
+                  "nfc_span": [
+                    15,
+                    18
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        }
+      ],
+      "warnings": [
+        "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+        "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+        "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+        "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+        "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại.",
+        "Version 2 evidence uses context and grounded attack targets; legacy recipient fields are retained separately. Heuristics require human review, not a harassment verdict.",
+        "Opt-in v6 research only; default v5/readiness lock unchanged, synthetic references are not human gold."
+      ],
+      "analysis_version": "2.0",
+      "rule_versions": {
+        "context": "context-v6-research",
+        "target": "target-v6-research",
+        "repeated": "repeated-v6-research",
+        "assessment": "context-assessment-v1"
+      },
+      "source_model_threshold": 0.41,
+      "policy_executed": false,
+      "checkpoint_id": "imported_actual_scores_cached_no_new_forward"
+    }
+  },
+  {
+    "output": {
+      "thread_id": "FRESH10_POSTFIX_05",
+      "model_name": "imported_actual_scores_cached_no_new_forward",
+      "model_threshold": 0.41,
+      "repeated_rule_threshold": 0.41,
+      "profile": "conservative",
+      "research_only": false,
+      "suspected_repeated_harassment": false,
+      "risk_level": "needs_review",
+      "risk_score_heuristic": 35,
+      "evidence": [],
+      "comments": [
+        {
+          "comment_id": "c01",
+          "user_id": "H01",
+          "parent_id": null,
+          "timestamp": "2026-11-03T05:02:00Z",
+          "toxicity_score": 0.016881,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": null,
+          "target_method": "undetermined",
+          "target_confidence": "none",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": null,
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c02",
+          "user_id": "H02",
+          "parent_id": "c01",
+          "timestamp": "2026-11-03T05:04:00Z",
+          "toxicity_score": 0.483767,
+          "toxic_for_moderation": true,
+          "toxic_for_repeated_rule": true,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": true,
+          "directed_insult_candidate": true,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [
+            {
+              "rule_id": "vi_oc_cho",
+              "category": "directed_insult",
+              "matched_form": "đồ ngu",
+              "strength": "context",
+              "canonical_form": "đồ ngu",
+              "language": "vi",
+              "reason": "Cụm có thể hạ nhục người khác; phải kiểm tra đối tượng và trích dẫn. Có dấu hiệu hướng tới người gần cụm từ; cần xác nhận thủ công.",
+              "source_ids": [
+                "blue_eyes_vi",
+                "ldnoobw_v2_vi",
+                "shieldvi_reviewed"
+              ],
+              "start": 12,
+              "end": 18
+            }
+          ],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": "H01",
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "new_directed_attack",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "attack_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "DIRECT_ATTACK"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "DIRECT_ATTACK"
+              ],
+              "attack_candidate": true,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "new_directed_attack"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": [
+                [
+                  0,
+                  54
+                ]
+              ]
+            },
+            "directed_attack_candidate": true,
+            "attack_confidence": "medium",
+            "target_candidate": "H01",
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": "H01",
+              "method": "addressed_reply",
+              "confidence": "medium",
+              "evidence_comment_ids": [
+                "c02",
+                "c01"
+              ],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": true,
+            "attack_instance_basis": "context_with_grounded_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [
+                "DIRECT_ATTACK"
+              ],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "v5_attack",
+                  "normalized_match": "do ngu",
+                  "normalized_span": [
+                    12,
+                    18
+                  ],
+                  "clause_span": [
+                    0,
+                    54
+                  ],
+                  "decision": "new_personal_attack_candidate"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c03",
+          "user_id": "H03",
+          "parent_id": "c01",
+          "timestamp": "2026-11-03T05:06:00Z",
+          "toxicity_score": 0.781343,
+          "toxic_for_moderation": true,
+          "toxic_for_repeated_rule": true,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": "H01",
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "new_directed_attack",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "attack_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "DIRECT_ATTACK"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "DIRECT_ATTACK"
+              ],
+              "attack_candidate": true,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "new_directed_attack"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": [
+                [
+                  0,
+                  56
+                ]
+              ]
+            },
+            "directed_attack_candidate": true,
+            "attack_confidence": "medium",
+            "target_candidate": "H01",
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": "H01",
+              "method": "addressed_reply",
+              "confidence": "medium",
+              "evidence_comment_ids": [
+                "c03",
+                "c01"
+              ],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": true,
+            "attack_instance_basis": "context_with_grounded_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [
+                "DIRECT_ATTACK"
+              ],
+              "normalization": [
+                {
+                  "source_form": "mấy",
+                  "nfc_span": [
+                    21,
+                    24
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": [
+                {
+                  "rule": "v5_attack",
+                  "normalized_match": "vo dung",
+                  "normalized_span": [
+                    4,
+                    11
+                  ],
+                  "clause_span": [
+                    0,
+                    56
+                  ],
+                  "decision": "new_personal_attack_candidate"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c04",
+          "user_id": "H01",
+          "parent_id": "c02",
+          "timestamp": "2026-11-03T05:08:00Z",
+          "toxicity_score": 0.012272,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "bản",
+                  "nfc_span": [
+                    63,
+                    66
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c05",
+          "user_id": "H02",
+          "parent_id": "c04",
+          "timestamp": "2026-11-03T05:10:00Z",
+          "toxicity_score": 0.021017,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c06",
+          "user_id": "H03",
+          "parent_id": "c04",
+          "timestamp": "2026-11-03T05:12:00Z",
+          "toxicity_score": 0.011258,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c07",
+          "user_id": "H01",
+          "parent_id": "c05",
+          "timestamp": "2026-11-03T05:14:00Z",
+          "toxicity_score": 0.005125,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c08",
+          "user_id": "H03",
+          "parent_id": "c07",
+          "timestamp": "2026-11-03T05:16:00Z",
+          "toxicity_score": 0.007114,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        }
+      ],
+      "warnings": [
+        "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+        "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+        "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+        "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+        "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại.",
+        "Version 2 evidence uses context and grounded attack targets; legacy recipient fields are retained separately. Heuristics require human review, not a harassment verdict.",
+        "Opt-in v6 research only; default v5/readiness lock unchanged, synthetic references are not human gold."
+      ],
+      "analysis_version": "2.0",
+      "rule_versions": {
+        "context": "context-v6-research",
+        "target": "target-v6-research",
+        "repeated": "repeated-v6-research",
+        "assessment": "context-assessment-v1"
+      },
+      "source_model_threshold": 0.41,
+      "policy_executed": false,
+      "checkpoint_id": "imported_actual_scores_cached_no_new_forward"
+    }
+  },
+  {
+    "output": {
+      "thread_id": "FRESH10_POSTFIX_06",
+      "model_name": "imported_actual_scores_cached_no_new_forward",
+      "model_threshold": 0.41,
+      "repeated_rule_threshold": 0.41,
+      "profile": "conservative",
+      "research_only": false,
+      "suspected_repeated_harassment": true,
+      "risk_level": "suspected_repeated",
+      "risk_score_heuristic": 75,
+      "evidence": [
+        {
+          "actor_user_id": "H02",
+          "target_user_id": "H01",
+          "evidence_comment_ids": [
+            "c02",
+            "c05"
+          ],
+          "n_distinct_timestamps": 2,
+          "target_confidence": "medium"
+        }
+      ],
+      "comments": [
+        {
+          "comment_id": "c01",
+          "user_id": "H01",
+          "parent_id": null,
+          "timestamp": "2026-11-03T06:02:00Z",
+          "toxicity_score": 0.017433,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": null,
+          "target_method": "undetermined",
+          "target_confidence": "none",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": null,
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c02",
+          "user_id": "H02",
+          "parent_id": "c01",
+          "timestamp": "2026-11-03T06:04:00Z",
+          "toxicity_score": 0.729044,
+          "toxic_for_moderation": true,
+          "toxic_for_repeated_rule": true,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": "H01",
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "new_directed_attack",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "attack_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "SET_BOUNDARY",
+              "DIRECT_ATTACK"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "SET_BOUNDARY",
+                "DIRECT_ATTACK"
+              ],
+              "attack_candidate": true,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "boundary_request",
+                "new_directed_attack",
+                "personal_conduct"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": [
+                [
+                  36,
+                  70
+                ]
+              ]
+            },
+            "directed_attack_candidate": true,
+            "attack_confidence": "medium",
+            "target_candidate": "H01",
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": "H01",
+              "method": "addressed_reply",
+              "confidence": "medium",
+              "evidence_comment_ids": [
+                "c02",
+                "c01"
+              ],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": true,
+            "attack_instance_basis": "context_with_grounded_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [
+                "SET_BOUNDARY"
+              ],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "personal_conduct",
+                  "normalized_match": "cai cun",
+                  "normalized_span": [
+                    44,
+                    51
+                  ],
+                  "clause_span": [
+                    36,
+                    70
+                  ],
+                  "decision": "new_personal_attack_candidate"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c03",
+          "user_id": "H01",
+          "parent_id": "c02",
+          "timestamp": "2026-11-03T06:06:00Z",
+          "toxicity_score": 0.018578,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "cầu",
+                  "nfc_span": [
+                    14,
+                    17
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c04",
+          "user_id": "H03",
+          "parent_id": "c03",
+          "timestamp": "2026-11-03T06:08:00Z",
+          "toxicity_score": 0.007357,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": []
+            }
+          }
+        },
+        {
+          "comment_id": "c05",
+          "user_id": "H02",
+          "parent_id": "c03",
+          "timestamp": "2026-11-03T06:10:00Z",
+          "toxicity_score": 0.133316,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H01",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H01",
+          "directed_at_user_id": "H01",
+          "moderation_assessment": {
+            "label": "TOXIC",
+            "basis": "new_directed_attack",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "REVIEW",
+            "reason": "attack_review",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "DIRECT_ATTACK"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "DIRECT_ATTACK"
+              ],
+              "attack_candidate": true,
+              "confidence": "medium",
+              "negated_attack": false,
+              "cues": [
+                "new_directed_attack",
+                "personal_conduct"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": [
+                [
+                  0,
+                  61
+                ]
+              ]
+            },
+            "directed_attack_candidate": true,
+            "attack_confidence": "medium",
+            "target_candidate": "H01",
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": "H01",
+              "method": "addressed_reply",
+              "confidence": "medium",
+              "evidence_comment_ids": [
+                "c05",
+                "c03",
+                "c02"
+              ],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": true,
+            "attack_instance_basis": "context_with_grounded_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "personal_conduct",
+                  "normalized_match": "thich ra oai qua",
+                  "normalized_span": [
+                    4,
+                    20
+                  ],
+                  "clause_span": [
+                    0,
+                    61
+                  ],
+                  "decision": "new_personal_attack_candidate"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c06",
+          "user_id": "H03",
+          "parent_id": "c05",
+          "timestamp": "2026-11-03T06:12:00Z",
+          "toxicity_score": 0.089668,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "bounded_non_attack_context",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "SET_BOUNDARY",
+              "INTERVENTION"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "SET_BOUNDARY",
+                "INTERVENTION"
+              ],
+              "attack_candidate": false,
+              "confidence": "medium",
+              "negated_attack": true,
+              "cues": [
+                "boundary_request",
+                "third_party_intervention"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": true,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "medium",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [
+                "SET_BOUNDARY",
+                "INTERVENTION"
+              ],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "personal_conduct",
+                  "normalized_match": "thich ra oai",
+                  "normalized_span": [
+                    25,
+                    37
+                  ],
+                  "clause_span": [
+                    0,
+                    63
+                  ],
+                  "decision": "suppressed_report_quote_negation_or_intervention"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c07",
+          "user_id": "H02",
+          "parent_id": "c06",
+          "timestamp": "2026-11-03T06:14:00Z",
+          "toxicity_score": 0.122117,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H03",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": true,
+          "lexical_signals": [],
+          "reply_to_user_id": "H03",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "bounded_non_attack_context",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [
+              "APOLOGY"
+            ],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [
+                "APOLOGY"
+              ],
+              "attack_candidate": false,
+              "confidence": "medium",
+              "negated_attack": true,
+              "cues": [
+                "explicit_apology"
+              ],
+              "needs_human_review": true,
+              "non_attack_context_confirmed": true,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "medium",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": true,
+            "research_trace": {
+              "v5_tags": [
+                "APOLOGY"
+              ],
+              "normalization": [],
+              "matches": [
+                {
+                  "rule": "personal_conduct",
+                  "normalized_match": "thich ra oai qua",
+                  "normalized_span": [
+                    27,
+                    43
+                  ],
+                  "clause_span": [
+                    0,
+                    58
+                  ],
+                  "decision": "suppressed_report_quote_negation_or_intervention"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "comment_id": "c08",
+          "user_id": "H01",
+          "parent_id": "c07",
+          "timestamp": "2026-11-03T06:16:00Z",
+          "toxicity_score": 0.009839,
+          "toxic_for_moderation": false,
+          "toxic_for_repeated_rule": false,
+          "target_user_id": "H02",
+          "target_method": "reply_parent_author",
+          "target_confidence": "medium",
+          "profanity_detected": false,
+          "lexical_review_recommended": false,
+          "directed_insult_candidate": false,
+          "reported_or_apology_context": false,
+          "review_recommended": false,
+          "lexical_signals": [],
+          "reply_to_user_id": "H02",
+          "directed_at_user_id": null,
+          "moderation_assessment": {
+            "label": "CLEAN",
+            "basis": "raw_model_fallback",
+            "version": "context-assessment-v1",
+            "human_gold": false,
+            "advisory_only": true
+          },
+          "policy_risk": {
+            "band": "LOW",
+            "reason": "no_review_trigger",
+            "executed": false
+          },
+          "analysis_signals": {
+            "context_tags": [],
+            "context": {
+              "version": "context-v6-research",
+              "tags": [],
+              "attack_candidate": false,
+              "confidence": "low",
+              "negated_attack": false,
+              "cues": [],
+              "needs_human_review": false,
+              "non_attack_context_confirmed": false,
+              "unresolved_new_clause": false,
+              "attack_clause_spans": []
+            },
+            "directed_attack_candidate": false,
+            "attack_confidence": "low",
+            "target_candidate": null,
+            "target_evidence": {
+              "version": "target-v6-research",
+              "candidate": null,
+              "method": "non_attack_or_uncertain",
+              "confidence": "none",
+              "evidence_comment_ids": [],
+              "needs_human_review": true
+            },
+            "attack_instance_candidate": false,
+            "attack_instance_basis": "insufficient_context_or_target",
+            "rule_version": "repeated-v6-research",
+            "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+            "needs_human_review": false,
+            "research_trace": {
+              "v5_tags": [],
+              "normalization": [
+                {
+                  "source_form": "bản",
+                  "nfc_span": [
+                    57,
+                    60
+                  ],
+                  "reason": "accented non-personal homograph; never a whole-message CLEAN rule"
+                }
+              ],
+              "matches": []
+            }
+          }
+        }
+      ],
+      "warnings": [
+        "Đây là cảnh báo hỗ trợ kiểm duyệt, KHÔNG kết luận một cá nhân thực hiện bắt nạt.",
+        "Target suy luận từ cấu trúc trả lời/lượt tương tác; có thể sai với trích dẫn, đùa giỡn hoặc nhắc tới bên thứ ba.",
+        "Risk score là heuristic chưa được hiệu chuẩn; mô hình chưa phân loại category/severity.",
+        "Không đánh giá hiệu năng thực tế bằng test mô phỏng hoặc nhãn AI dự thảo.",
+        "Từ điển đa ngôn ngữ chỉ tạo tín hiệu rà soát, không tự động nâng nhãn toxic hoặc tính là bằng chứng bắt nạt lặp lại.",
+        "Version 2 evidence uses context and grounded attack targets; legacy recipient fields are retained separately. Heuristics require human review, not a harassment verdict.",
+        "Opt-in v6 research only; default v5/readiness lock unchanged, synthetic references are not human gold."
+      ],
+      "analysis_version": "2.0",
+      "rule_versions": {
+        "context": "context-v6-research",
+        "target": "target-v6-research",
+        "repeated": "repeated-v6-research",
+        "assessment": "context-assessment-v1"
+      },
+      "source_model_threshold": 0.41,
+      "policy_executed": false,
+      "checkpoint_id": "imported_actual_scores_cached_no_new_forward"
+    }
+  }
+]

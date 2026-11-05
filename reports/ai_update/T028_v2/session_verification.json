@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "protected_files_checked": 31,
+  "protected_files_changed": [],
+  "differences_from_earlier_session_source_snapshot": [
+    "docs/ai-update/V2_COMPATIBILITY.md",
+    "reports/ai_update/T026/real_smoke.json",
+    "services/moderation-ai/app/context_signals.py",
+    "tests/test_context_signals.py"
+  ],
+  "all_differences_predate_T028_source_audit": true,
+  "unexpected_current_source_changes": [],
+  "historical_snapshot_note": "Four prior final-session source updates predate the current T028 source audit; preserved without rollback. Old source snapshot is not a T028 start snapshot.",
+  "checkpoints_threshold_holdouts_fixtures_original_sqlite_unchanged": true,
+  "training_performed": false,
+  "external_upload_performed": false,
+  "deployment_performed": false,
+  "only_task": "T028",
+  "tests": {
+    "pytest": "299 passed, 1 warning",
+    "pipeline_tests": 34,
+    "pytest_exit": 0,
+    "browser": "PASS; temporary unit fixtures only",
+    "production_records_created_by_tests": 0
+  },
+  "actual_dataset": {
+    "threads": 0,
+    "comments": 0,
+    "verified_source_metadata": 1,
+    "represented_sources": 0,
+    "completed_batches": 0,
+    "human_labels": 0
+  },
+  "blocker": "User-supplied Wikimedia operator contact missing; collection stops before network. Human reviews/privacy/completeness pending after collection.",
+  "owned_preview_stopped": true
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "studio-quality-1.0",
+  "errors": [],
+  "quarantine": [],
+  "warnings": [],
+  "comments": 36,
+  "threads": 18,
+  "labels": {
+    "CLEAN": 18,
+    "TOXIC": 18
+  },
+  "review_ratio": 0,
+  "near_comparisons": 99515,
+  "near_duplicate_policy": "Normalized comment >=40 chars and development whole-thread Jaccard >=0.90; 1M comparison cap fails closed; unknown pretraining not auditable",
+  "training_eligible": true
+}

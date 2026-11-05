@@ -1,0 +1,27 @@
+{
+  "scope": "controlled_v62_research",
+  "training_performed": false,
+  "milestones": [
+    {
+      "stage": "QUOTE_FIXED_AND_ADJUDICATION_PREPARED",
+      "detail": "Two migrated quote red expectations first2FAIL, nowPASS on separatev6.2; oldv6.1/source/outputs unchanged.18quote/control testsPASS; spansNFD/NFC, assignment outsidequote, attribution, nouncau vs addresseecau and freshattacks afterquote preserved. Quote-only paired replay all7cohorts: no new labelerrors; old/Fresh10/NOV10 metrics unchanged, previouslyseenNOVaudit24 Macro.946387→1.0. Initial nounmask caused2safe-cue regressions, preserved in phase1_quote; fixed by retaining original safe semantics, verified phase1_quote_verified. Phase1source snapshot saved.24adjudication cases exported CSV/HTML with full20commentcontext, empty decisions/reviewer, no humanreview/gold/reference changes. Proceed bounded indirectresearch with negativecontrols before freeze."
+    },
+    {
+      "stage": "INDIRECT_CONTROLS_VERIFIED_AND_V62_FROZEN",
+      "detail": "Separatev6.2 quote fixes/control expectationsPASS;45targeted tests incl43processor/2adjudicationPASS.7developmentcohorts no new labelerrors. NOV10 Macro.694160→.719137,target0→2/22,repeated0→1/8; Fresh10/old890 unchanged. Otherseen challenge gains retained; no reference edits. Initial nounmask/safe-cue and content-view failures fixed and archived before freeze. HTMLv1JS escape failure retained; adjudication_v2 parse/emptyexportPASS,24fullcontexts/blankownerdecisions/nohumanlabels. V62_LOCK now freezes code/tests/model/reference/readiness before authoring a new challenge. Default/runtime/V1/r06/0.41 unchanged; no training/deploy."
+    },
+    {
+      "stage": "POSTFREEZE_CHALLENGE_SCORED_ONCE",
+      "detail": "New6threads/36comments authored after V62_LOCK, source references and manifests frozen before actualr06 CPUoffline scoring. First-pass classification/target/repeated/FPFN/evidence results retained; no post-score rule or label changes. Same-author synthetic only, not human gold/independent real. See postfreeze_challenge/first_pass_metrics.json; review all failures before conclusions."
+    },
+    {
+      "stage": "STABILIZED_EXPERIMENTAL_NO_PROMOTION",
+      "detail": "722standardrootPASS/0FAIL/1deprecationwarning; v6.2 originalquote expectationsPASS while sealedv6.1 historicalred behavior retained.45targeted testsPASS incl43processor/2adjudication; finaltimestampedannotationexport2testsPASS,24ownerdecisions/reviewer fieldsblank/nohumanreview. Frozen36commentchallenge v6.1→v6.2 Macro.731744→.911330,TP3→6,FP0→0,FN5→2,TN28→28,target1→6/8,repeated0→2/3,P1/R.667,evidence4/4correct and4/6coverage; two unseen metaphor/exclusion misses retained, no post-score edits. NOV10 Macro.694160→.719137,target0→2/22,repeated0→1/8,evidence2/2correct but2/21coverage; Fresh10/old890 unchanged. Source/reference/default/readiness1311SHA remain unchanged;6newseen challenge threads +NOV10 verified excluded by explicitversionedoverlay, defaultloader unchanged. No modeltraining/defaultactivation/deploy; T028/T029BLOCKED,T030–T033PARTIAL. All remaining FP/FN/ambiguous references/emitted target/evidence errors saved. Latest owner review artifact adjudication_v3/NOV10_ADJUDICATION.html."
+    },
+    {
+      "stage": "HANDOFF_COMPLETE_EXPERIMENTAL",
+      "detail": "All5authorized safe phases complete with documented remainingmisses and no formal task promotion.722rootPASS, samequoteassertionsPASS on v6.2 (sealedv6.1 untouched), originalsource/reference/model/readiness SHAverified. Owner adjudication prepared24fullcontexts/blankdecisions in adjudication_v3; no humanlabels/gold created. Locked36commentchallenge scoredonce, no rule/test editsafterfreeze;2FN/1missedevent retained. Report docs/ai-update/final-report/CONTROLLED_V62_RESEARCH.md; changelog/lock/errors/exclusion/preflight/inventory/reproduction in evidence directory. RemainT028/T029BLOCKED,T030–T033PARTIAL; no default/Dashboard/model/training/deploy changes."
+    }
+  ],
+  "current": "HANDOFF_COMPLETE_EXPERIMENTAL"
+}

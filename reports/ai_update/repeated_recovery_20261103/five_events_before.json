@@ -1,0 +1,470 @@
+[
+  {
+    "thread_id": "SGZ500_0218",
+    "actor": "SGZ500_0218_U02",
+    "target": "SGZ500_0218_U01",
+    "reference_ids": [
+      "SGZ500_0218_C01",
+      "SGZ500_0218_C06"
+    ],
+    "observed": [
+      {
+        "comment_id": "SGZ500_0218_C01",
+        "reply_to_user_id": null,
+        "directed_at_user_id": null,
+        "analysis_signals": {
+          "context_tags": [
+            "DIRECT_ATTACK"
+          ],
+          "context": {
+            "version": "context-v4",
+            "tags": [
+              "DIRECT_ATTACK"
+            ],
+            "attack_candidate": true,
+            "confidence": "medium",
+            "negated_attack": false,
+            "cues": [
+              "new_directed_attack"
+            ],
+            "needs_human_review": true,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": [
+              [
+                0,
+                38
+              ]
+            ]
+          },
+          "directed_attack_candidate": true,
+          "attack_confidence": "medium",
+          "target_candidate": null,
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": null,
+            "method": "no_grounded_addressee",
+            "confidence": "none",
+            "evidence_comment_ids": [],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": false,
+          "attack_instance_basis": "insufficient_context_or_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": true
+        }
+      },
+      {
+        "comment_id": "SGZ500_0218_C06",
+        "reply_to_user_id": "SGZ500_0218_U01",
+        "directed_at_user_id": "SGZ500_0218_U01",
+        "analysis_signals": {
+          "context_tags": [
+            "DIRECT_ATTACK"
+          ],
+          "context": {
+            "version": "context-v4",
+            "tags": [
+              "DIRECT_ATTACK"
+            ],
+            "attack_candidate": true,
+            "confidence": "medium",
+            "negated_attack": false,
+            "cues": [
+              "new_directed_attack"
+            ],
+            "needs_human_review": true,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": [
+              [
+                0,
+                66
+              ]
+            ]
+          },
+          "directed_attack_candidate": true,
+          "attack_confidence": "medium",
+          "target_candidate": "SGZ500_0218_U01",
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": "SGZ500_0218_U01",
+            "method": "addressed_reply",
+            "confidence": "medium",
+            "evidence_comment_ids": [
+              "SGZ500_0218_C06",
+              "SGZ500_0218_C05"
+            ],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": true,
+          "attack_instance_basis": "context_with_grounded_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": true
+        }
+      }
+    ]
+  },
+  {
+    "thread_id": "SGZ500_0255",
+    "actor": "SGZ500_0255_U02",
+    "target": "SGZ500_0255_U01",
+    "reference_ids": [
+      "SGZ500_0255_C02",
+      "SGZ500_0255_C05"
+    ],
+    "observed": [
+      {
+        "comment_id": "SGZ500_0255_C02",
+        "reply_to_user_id": "SGZ500_0255_U01",
+        "directed_at_user_id": null,
+        "analysis_signals": {
+          "context_tags": [],
+          "context": {
+            "version": "context-v4",
+            "tags": [],
+            "attack_candidate": false,
+            "confidence": "low",
+            "negated_attack": false,
+            "cues": [],
+            "needs_human_review": false,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": []
+          },
+          "directed_attack_candidate": false,
+          "attack_confidence": "low",
+          "target_candidate": null,
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": null,
+            "method": "non_attack_or_uncertain",
+            "confidence": "none",
+            "evidence_comment_ids": [],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": false,
+          "attack_instance_basis": "insufficient_context_or_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": true
+        }
+      },
+      {
+        "comment_id": "SGZ500_0255_C05",
+        "reply_to_user_id": "SGZ500_0255_U01",
+        "directed_at_user_id": null,
+        "analysis_signals": {
+          "context_tags": [],
+          "context": {
+            "version": "context-v4",
+            "tags": [],
+            "attack_candidate": false,
+            "confidence": "low",
+            "negated_attack": false,
+            "cues": [],
+            "needs_human_review": false,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": []
+          },
+          "directed_attack_candidate": false,
+          "attack_confidence": "low",
+          "target_candidate": null,
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": null,
+            "method": "non_attack_or_uncertain",
+            "confidence": "none",
+            "evidence_comment_ids": [],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": false,
+          "attack_instance_basis": "insufficient_context_or_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": true
+        }
+      }
+    ]
+  },
+  {
+    "thread_id": "SGZ500_0318",
+    "actor": "SGZ500_0318_U02",
+    "target": "SGZ500_0318_U01",
+    "reference_ids": [
+      "SGZ500_0318_C02",
+      "SGZ500_0318_C05"
+    ],
+    "observed": [
+      {
+        "comment_id": "SGZ500_0318_C02",
+        "reply_to_user_id": "SGZ500_0318_U01",
+        "directed_at_user_id": "SGZ500_0318_U01",
+        "analysis_signals": {
+          "context_tags": [
+            "DIRECT_ATTACK"
+          ],
+          "context": {
+            "version": "context-v4",
+            "tags": [
+              "DIRECT_ATTACK"
+            ],
+            "attack_candidate": true,
+            "confidence": "medium",
+            "negated_attack": false,
+            "cues": [
+              "new_directed_attack"
+            ],
+            "needs_human_review": true,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": [
+              [
+                0,
+                23
+              ]
+            ]
+          },
+          "directed_attack_candidate": true,
+          "attack_confidence": "medium",
+          "target_candidate": "SGZ500_0318_U01",
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": "SGZ500_0318_U01",
+            "method": "addressed_reply",
+            "confidence": "medium",
+            "evidence_comment_ids": [
+              "SGZ500_0318_C02",
+              "SGZ500_0318_C01"
+            ],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": true,
+          "attack_instance_basis": "context_with_grounded_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": true
+        }
+      },
+      {
+        "comment_id": "SGZ500_0318_C05",
+        "reply_to_user_id": "SGZ500_0318_U01",
+        "directed_at_user_id": null,
+        "analysis_signals": {
+          "context_tags": [],
+          "context": {
+            "version": "context-v4",
+            "tags": [],
+            "attack_candidate": false,
+            "confidence": "low",
+            "negated_attack": false,
+            "cues": [],
+            "needs_human_review": false,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": []
+          },
+          "directed_attack_candidate": false,
+          "attack_confidence": "low",
+          "target_candidate": null,
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": null,
+            "method": "non_attack_or_uncertain",
+            "confidence": "none",
+            "evidence_comment_ids": [],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": false,
+          "attack_instance_basis": "insufficient_context_or_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": true
+        }
+      }
+    ]
+  },
+  {
+    "thread_id": "SGZ500_0349",
+    "actor": "SGZ500_0349_U02",
+    "target": "SGZ500_0349_U01",
+    "reference_ids": [
+      "SGZ500_0349_C02",
+      "SGZ500_0349_C05"
+    ],
+    "observed": [
+      {
+        "comment_id": "SGZ500_0349_C02",
+        "reply_to_user_id": "SGZ500_0349_U01",
+        "directed_at_user_id": null,
+        "analysis_signals": {
+          "context_tags": [],
+          "context": {
+            "version": "context-v4",
+            "tags": [],
+            "attack_candidate": false,
+            "confidence": "low",
+            "negated_attack": false,
+            "cues": [],
+            "needs_human_review": false,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": []
+          },
+          "directed_attack_candidate": false,
+          "attack_confidence": "low",
+          "target_candidate": null,
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": null,
+            "method": "non_attack_or_uncertain",
+            "confidence": "none",
+            "evidence_comment_ids": [],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": false,
+          "attack_instance_basis": "insufficient_context_or_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": true
+        }
+      },
+      {
+        "comment_id": "SGZ500_0349_C05",
+        "reply_to_user_id": "SGZ500_0349_U01",
+        "directed_at_user_id": null,
+        "analysis_signals": {
+          "context_tags": [],
+          "context": {
+            "version": "context-v4",
+            "tags": [],
+            "attack_candidate": false,
+            "confidence": "low",
+            "negated_attack": false,
+            "cues": [],
+            "needs_human_review": false,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": []
+          },
+          "directed_attack_candidate": false,
+          "attack_confidence": "low",
+          "target_candidate": null,
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": null,
+            "method": "non_attack_or_uncertain",
+            "confidence": "none",
+            "evidence_comment_ids": [],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": false,
+          "attack_instance_basis": "insufficient_context_or_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": false
+        }
+      }
+    ]
+  },
+  {
+    "thread_id": "SGZ500_0491",
+    "actor": "SGZ500_0491_U02",
+    "target": "SGZ500_0491_U01",
+    "reference_ids": [
+      "SGZ500_0491_C03",
+      "SGZ500_0491_C06"
+    ],
+    "observed": [
+      {
+        "comment_id": "SGZ500_0491_C03",
+        "reply_to_user_id": "SGZ500_0491_U01",
+        "directed_at_user_id": "SGZ500_0491_U01",
+        "analysis_signals": {
+          "context_tags": [
+            "DIRECT_ATTACK"
+          ],
+          "context": {
+            "version": "context-v4",
+            "tags": [
+              "DIRECT_ATTACK"
+            ],
+            "attack_candidate": true,
+            "confidence": "medium",
+            "negated_attack": false,
+            "cues": [
+              "new_directed_attack"
+            ],
+            "needs_human_review": true,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": [
+              [
+                0,
+                22
+              ]
+            ]
+          },
+          "directed_attack_candidate": true,
+          "attack_confidence": "medium",
+          "target_candidate": "SGZ500_0491_U01",
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": "SGZ500_0491_U01",
+            "method": "addressed_reply",
+            "confidence": "medium",
+            "evidence_comment_ids": [
+              "SGZ500_0491_C03",
+              "SGZ500_0491_C02"
+            ],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": true,
+          "attack_instance_basis": "context_with_grounded_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": true
+        }
+      },
+      {
+        "comment_id": "SGZ500_0491_C06",
+        "reply_to_user_id": "SGZ500_0491_U01",
+        "directed_at_user_id": null,
+        "analysis_signals": {
+          "context_tags": [],
+          "context": {
+            "version": "context-v4",
+            "tags": [],
+            "attack_candidate": false,
+            "confidence": "low",
+            "negated_attack": false,
+            "cues": [],
+            "needs_human_review": false,
+            "non_attack_context_confirmed": false,
+            "unresolved_new_clause": false,
+            "attack_clause_spans": []
+          },
+          "directed_attack_candidate": false,
+          "attack_confidence": "low",
+          "target_candidate": null,
+          "target_evidence": {
+            "version": "target-v4",
+            "candidate": null,
+            "method": "non_attack_or_uncertain",
+            "confidence": "none",
+            "evidence_comment_ids": [],
+            "needs_human_review": true
+          },
+          "attack_instance_candidate": false,
+          "attack_instance_basis": "insufficient_context_or_target",
+          "rule_version": "repeated-v4",
+          "lexicon_version": "05416c7554c0fa682a2640eb57ff382db16f191486e29df4227e0561db0545cc",
+          "needs_human_review": false
+        }
+      }
+    ]
+  }
+]

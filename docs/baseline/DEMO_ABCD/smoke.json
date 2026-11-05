@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "A": true,
+  "B": true,
+  "C": true,
+  "D": true,
+  "model": "ViSoBERT V1.1 — ViCTSD",
+  "threshold": 0.41,
+  "real_cpu_inference": true,
+  "browser_automation": false,
+  "synthetic_accounts_and_text_only": true,
+  "live_db_used": false,
+  "high_auto_hold_enabled": false,
+  "owned_processes_stopped": true
+}

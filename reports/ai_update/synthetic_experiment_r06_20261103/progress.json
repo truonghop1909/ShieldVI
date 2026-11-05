@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE_EXPERIMENTAL_NOT_ACTIVATED",
+  "run_id": "T029_synthetic_only_head_cpu_20261103_r06",
+  "dataset_threads": 500,
+  "dataset_comments": 5115,
+  "splits": {
+    "synthetic_train": 440,
+    "synthetic_challenge": 30,
+    "synthetic_validation": 30
+  },
+  "training_rows": 4398,
+  "validation_rows": 306,
+  "training_performed": true,
+  "next": "Review saved synthetic results; provide permitted real material/human rounds for independent criteria, or explicitly authorize a new bounded experiment",
+  "blockers": [
+    "Independent real0/200 and human labels0",
+    "Formal T029/T030 real acceptance not met",
+    "Challenge repeated events TP0/FN5; target recall0.45",
+    "Full GPU fine-tuning not executed"
+  ],
+  "pretrain_tests_passed": 60,
+  "optimizer_steps": 207,
+  "training_seconds": 79.75,
+  "evaluation_performed": true,
+  "root_tests_passed": 591,
+  "milestones_done": 5,
+  "formal_T028_real": "BLOCKED",
+  "formal_T029_T030_real_acceptance": "BLOCKED",
+  "human_gold": false,
+  "post_scope_related_tests_passed": 45,
+  "consumed_training_preflight": "EXPECTED_BLOCKED"
+}

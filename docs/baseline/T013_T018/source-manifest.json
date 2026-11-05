@@ -1,0 +1,307 @@
+[
+  {
+    "path": "services/social-api/src/shieldvi_social/__init__.py",
+    "bytes": 69,
+    "sha256": "228a4e05a88b9569f44f7d7758f89a9a9b6d409fbec7be8aebbe701a9d68b4f5"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/ai_client.py",
+    "bytes": 5570,
+    "sha256": "5b1bd42cf52870739c7bd8d5800f3453b412ef45fbec031d132480c8c4c78a7e"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/config.py",
+    "bytes": 3616,
+    "sha256": "86274bd2f1e67ef8eaa170f180bc537ec15fd6e3b36dbdedf08a415054701e52"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/content_routes.py",
+    "bytes": 9057,
+    "sha256": "373b0e620020d2734800ab6f822b74e804baf1e8ca240d670cba000bcf990a9c"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/content_schemas.py",
+    "bytes": 1841,
+    "sha256": "0b5e2f9dfc6fe4adae796358b89e833dcb9d6150f329aa50d138104c3d96abdb"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/content_store.py",
+    "bytes": 7490,
+    "sha256": "9a13ff520ad2a3c8b36cf967568237c52d29733846028c99ff884dcf9e790aed"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/db.py",
+    "bytes": 1101,
+    "sha256": "d7cd129798c9b785c768916d893d67233860276a2ecf0136c0bbbda677792f05"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/dependencies.py",
+    "bytes": 1931,
+    "sha256": "2a7fa622a81c31d7bc819fa06042f970d7d1703b6ca2810b769198e1b6076fab"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/main.py",
+    "bytes": 2975,
+    "sha256": "321a8536ab9cf89609f600e5e84d57949d5d76a3150d86c2db79f5c03a66b6f0"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/middleware.py",
+    "bytes": 1600,
+    "sha256": "eeb730f0b4a6c836964c3860e816a67e9dc3325452226fe3d6bb8e09742efa48"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/models.py",
+    "bytes": 13207,
+    "sha256": "4376ac506ab72c3fd0730cb9095dac9c11e2f4ae624aa17a15f17ee37b51ea26"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/moderation_contract.py",
+    "bytes": 5420,
+    "sha256": "91d58bef4e4bcf883d3a77f678a0dde3649740580d4aa066fe05bd987d52d8b8"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/moderation_routes.py",
+    "bytes": 4854,
+    "sha256": "31393dc0ea10ac962e3ce2922d25d5f136d31835b420932ffbae67ffa4505926"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/rate_limit.py",
+    "bytes": 1846,
+    "sha256": "1697381a0fc5b2dfea19e0fa3c77e2c7058ba033dc11055c3540bf80d00708b8"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/review_routes.py",
+    "bytes": 12614,
+    "sha256": "2270942eae004bacde28880381e661c3b0d56e30832261c6d442010dae50d31a"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/review_store.py",
+    "bytes": 6025,
+    "sha256": "9f4291aa6765b74802db2eed9f73b1c5e7f77187685367fb06c8aa49bb48700d"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/routes.py",
+    "bytes": 3127,
+    "sha256": "b1f1cf815bc7e61527a3fbe9fb7f9c0c4b7db12b240b1cfa85cc1890a5670bd5"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/schemas.py",
+    "bytes": 1422,
+    "sha256": "dbde4a2886588a4cf02e3def18e9971bca85164cfbe5b04f14818a5e10e52f2a"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/security.py",
+    "bytes": 527,
+    "sha256": "ff4c154bdaadb68462d0acebb4ca51afdb18dfc23fc58968a5eccb5443c3b1f5"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/worker.py",
+    "bytes": 13309,
+    "sha256": "e4771afcc82649de3d554443564114d12eb706e934264200c181c8b8687a6406"
+  },
+  {
+    "path": "services/social-api/src/shieldvi_social/worker_context.py",
+    "bytes": 2591,
+    "sha256": "c0a633c955a7d936f82056ac6c8c58b5582f50de505f629de17f4d8d7f12a654"
+  },
+  {
+    "path": "services/social-api/tests/ai_fixture.py",
+    "bytes": 556,
+    "sha256": "7c27f55c99a152ca7a7a75f5ebc3151a13b9d0e2c5a6e928b57c412ef5ae205b"
+  },
+  {
+    "path": "services/social-api/tests/conftest.py",
+    "bytes": 1737,
+    "sha256": "1044cd155f72c3f430d50bff2ceb952db0df3c0c18137b383a8a60e86aafd4cd"
+  },
+  {
+    "path": "services/social-api/tests/run_worker_smoke.py",
+    "bytes": 8058,
+    "sha256": "746a9d48342348ec829d092e2521e2172ed2ef19ff9e78613ec34e8010dd403c"
+  },
+  {
+    "path": "services/social-api/tests/test_auth.py",
+    "bytes": 7530,
+    "sha256": "b6efccabdadbfc833789c0351e31ca0869fb22f3fd5eb46af51962d832753912"
+  },
+  {
+    "path": "services/social-api/tests/test_content.py",
+    "bytes": 21810,
+    "sha256": "7495d25abcd4fb3dc7c7e0260e820d12962cb0ad9e2e84447fb7c5b3b45f9901"
+  },
+  {
+    "path": "services/social-api/tests/test_limits_config.py",
+    "bytes": 2864,
+    "sha256": "2405c257e7d5464fa4a38a3d3144ddba5b5e518ecdf7d7cb766909aeb07886b8"
+  },
+  {
+    "path": "services/social-api/tests/test_migrations.py",
+    "bytes": 5262,
+    "sha256": "3fc60a611a9d834a31371082aa5d7974d6574c9f78d6dc3455db3ccbfc9b0817"
+  },
+  {
+    "path": "services/social-api/tests/test_permissions.py",
+    "bytes": 2039,
+    "sha256": "738c1fd1091cec9af6c9878c0e33cd077dee285cc21a4f3a0ee25d6c4f275b89"
+  },
+  {
+    "path": "services/social-api/tests/test_review.py",
+    "bytes": 16881,
+    "sha256": "ffb0896ce7b2311a9dd777965408dc85e7347a82fb88580484fd7ca6e1b734f6"
+  },
+  {
+    "path": "services/social-api/tests/test_worker.py",
+    "bytes": 19032,
+    "sha256": "be3069e95ead8b35e93ca5f3aab96a8e8a3249189048699a83794e531426b3f9"
+  },
+  {
+    "path": "services/social-api/migrations/env.py",
+    "bytes": 1022,
+    "sha256": "0b65061b9d129b41a9ab871bfd68231402d2a0a92ecf76aea367c6fba4c2f136"
+  },
+  {
+    "path": "services/social-api/migrations/script.py.mako",
+    "bytes": 358,
+    "sha256": "d7558dcb7ce01d3e44830898336d3027de66e5ffdb1491c0cd27f6159b021902"
+  },
+  {
+    "path": "services/social-api/migrations/versions/0001_users.py",
+    "bytes": 1942,
+    "sha256": "fe468ffb6368f1282cfbd8a275d35393f193d3434542663f94307588a0eb269c"
+  },
+  {
+    "path": "services/social-api/migrations/versions/0002_content.py",
+    "bytes": 5509,
+    "sha256": "e47f77d8c87061f7f670f652211238a1fb55e39297d4e733937c975f67f862a9"
+  },
+  {
+    "path": "services/social-api/migrations/versions/0003_worker.py",
+    "bytes": 3196,
+    "sha256": "ff96f5ae369b7771e616dda1729cdabaa64ca9d9230b9a3638b2c244efeaa64e"
+  },
+  {
+    "path": "services/social-api/migrations/versions/0004_review.py",
+    "bytes": 3740,
+    "sha256": "86d85edea932f8b9e2d6fa49f3f63954309a96b327d61ebe72329dc20a4131b4"
+  },
+  {
+    "path": "apps/social-web/src/api.js",
+    "bytes": 5408,
+    "sha256": "ee08c1de0136b9c25c553dd56b27d73dca282c259ea7c79f810fe04e15166f71"
+  },
+  {
+    "path": "apps/social-web/src/App.jsx",
+    "bytes": 16129,
+    "sha256": "1b51e085d0265ceef6dc762eab6d153f4ef4ac2efacec19e0f4067b78dac7317"
+  },
+  {
+    "path": "apps/social-web/src/components.jsx",
+    "bytes": 8123,
+    "sha256": "73bd99d3b016258dc5ca3262ac0883b82a78d296aad60ed21fa44f39114b5220"
+  },
+  {
+    "path": "apps/social-web/src/main.jsx",
+    "bytes": 220,
+    "sha256": "c8d1b38b10eda8adba87b0b9b4a4a1739477df84640b3444807fc473f8403bf7"
+  },
+  {
+    "path": "apps/social-web/src/MyModeration.jsx",
+    "bytes": 4198,
+    "sha256": "e3437d62f2e50e1386eede8bfffaef1a07c46ad5b20985925d0afee386fe2c15"
+  },
+  {
+    "path": "apps/social-web/src/styles.css",
+    "bytes": 24570,
+    "sha256": "c6d221793f3f764a3c1ad3f2c6ce9ca80899c5d2f053e53fa1612e3a2152d438"
+  },
+  {
+    "path": "apps/social-web/src/Thread.jsx",
+    "bytes": 5616,
+    "sha256": "f7363833c831848354fdd5c0218d4677a2ab9718087bd049983e20db3103b5c9"
+  },
+  {
+    "path": "apps/social-web/src/utils.js",
+    "bytes": 1185,
+    "sha256": "6fe38697c5530d73995278dcfa3065afd720069a9600761f74e0f712a5f233f4"
+  },
+  {
+    "path": "apps/moderation-web/.env.example",
+    "bytes": 68,
+    "sha256": "ecc4ecbbf0eedf81202364ecdcfa76bef01db085596b2a44c0493c0100c2bd30"
+  },
+  {
+    "path": "apps/moderation-web/.gitignore",
+    "bytes": 39,
+    "sha256": "b36d4e94a695f17309b1f314e3c823cc437814eebcba239a7c273ddc4959a134"
+  },
+  {
+    "path": "apps/moderation-web/index.html",
+    "bytes": 317,
+    "sha256": "374ba9fbfa5658cf1a27887bf380e2ea90e3baf3e4c739f8fc3cecb3f0346eac"
+  },
+  {
+    "path": "apps/moderation-web/package-lock.json",
+    "bytes": 62730,
+    "sha256": "2476af8d8bba120bfdcf81f1c638cbd284bd77106ce712772bb1c156d00badc7"
+  },
+  {
+    "path": "apps/moderation-web/package.json",
+    "bytes": 405,
+    "sha256": "75ac00ae29617f7f9edb415a8bc63987f6fa801900d74e3e89410cb9c257afda"
+  },
+  {
+    "path": "apps/moderation-web/playwright.config.js",
+    "bytes": 448,
+    "sha256": "6bd5e5043b3dddc6663ba481ddc97ee7ea3b6a73c0b1b3d6771d0694ef420adb"
+  },
+  {
+    "path": "apps/moderation-web/README.md",
+    "bytes": 4340,
+    "sha256": "f1d236c2f51059116088b2136e024fbe311c6b80e27b1991da36c4fbef91cc5f"
+  },
+  {
+    "path": "apps/moderation-web/src/api.js",
+    "bytes": 2061,
+    "sha256": "a79d6428055ba621eb82ca2dc602b7f45b3b8d8a811558e74dc2b68c3680125b"
+  },
+  {
+    "path": "apps/moderation-web/src/App.jsx",
+    "bytes": 8702,
+    "sha256": "8a49c5930f375be763a5d0e45bcb180aa02788337e6a26ee3198718a39e9e4d4"
+  },
+  {
+    "path": "apps/moderation-web/src/main.jsx",
+    "bytes": 216,
+    "sha256": "64c8b7252f3347b4f09ffefa5dd66561f052196d4e6b1af16ebfcb767b04212b"
+  },
+  {
+    "path": "apps/moderation-web/src/ReviewDetail.jsx",
+    "bytes": 7531,
+    "sha256": "f6e581439f77f948a5893fd760f6df236c1f356c142ae55748813a221a37cd60"
+  },
+  {
+    "path": "apps/moderation-web/src/styles.css",
+    "bytes": 9093,
+    "sha256": "dfcaf1291b5e0462aec4f7fc34ee467fbda7149b9c39f0b7f818ba50f5935cf3"
+  },
+  {
+    "path": "apps/moderation-web/tests/review.spec.js",
+    "bytes": 10118,
+    "sha256": "a1f41bc52e19ab2dbe6ff5731d2a529150ddd0edc888ec1b6d41773553ddbfbb"
+  },
+  {
+    "path": "apps/moderation-web/tests/run_browser.py",
+    "bytes": 5300,
+    "sha256": "cd87beefa31f67ff66326f0972f4e23a8bb56b630e85ccebfc041947cfc35212"
+  },
+  {
+    "path": "apps/moderation-web/tests/seed_demo.py",
+    "bytes": 3454,
+    "sha256": "1cd2008aa1bd1935c20027436b94c6dbb2aa00f6cd7b5f0f2acf39f28e20c556"
+  },
+  {
+    "path": "apps/moderation-web/vite.config.js",
+    "bytes": 378,
+    "sha256": "bc241ba4f77adfa95acb385e4606167bb3576cc4d7b0f215d5beca0c09bcdd29"
+  }
+]

@@ -1,0 +1,221 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_09",
+  "topic": "the_thao",
+  "title": "Lời trích dẫn được dùng để chửi người nhận",
+  "data_origin": "synthetic",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C01",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_09_U01",
+      "timestamp": "2025-01-10T09:00:44Z",
+      "text": "Cho tui thử lại pha chuyền vừa rồi.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Cho tui thử lại pha chuyền vừa rồi.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C02",
+      "parent_id": "CTX_RECOVERY_V1_09_C01",
+      "user_id": "CTX_RECOVERY_V1_09_U02",
+      "timestamp": "2025-01-10T09:01:30Z",
+      "text": "Mày đúng là “đồ ngu”, nói thế mới chính xác.",
+      "annotation": {
+        "label": "TOXIC",
+        "category": "endorsed_quote",
+        "directed_at_user_id": "CTX_RECOVERY_V1_09_U01",
+        "is_directed_attack": true,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": true,
+        "label_reason": "Dùng câu trích để khẳng định lời hạ nhục người nhận, không phải báo lại nhằm phản đối. Căn cứ: Mày đúng là “đồ ngu”, nói thế mới chính xác.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C03",
+      "parent_id": "CTX_RECOVERY_V1_09_C02",
+      "user_id": "CTX_RECOVERY_V1_09_U03",
+      "timestamp": "2025-01-10T09:02:18Z",
+      "text": "Có thể nói lỗi chuyền, không được xúc phạm.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "intervention",
+        "directed_at_user_id": "CTX_RECOVERY_V1_09_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Can ngăn công kích, hướng trao đổi về vấn đề. Căn cứ: Có thể nói lỗi chuyền, không được xúc phạm.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C04",
+      "parent_id": "CTX_RECOVERY_V1_09_C02",
+      "user_id": "CTX_RECOVERY_V1_09_U01",
+      "timestamp": "2025-01-10T09:03:08Z",
+      "text": "Mình sẵn sàng tập lại, không nhận lời hạ nhục.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "defense",
+        "directed_at_user_id": "CTX_RECOVERY_V1_09_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Người bị nhắm đến đặt giới hạn hoặc tự bảo vệ, không đáp trả bằng xúc phạm. Căn cứ: Mình sẵn sàng tập lại, không nhận lời hạ nhục.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C05",
+      "parent_id": "CTX_RECOVERY_V1_09_C04",
+      "user_id": "CTX_RECOVERY_V1_09_U02",
+      "timestamp": "2025-01-10T09:03:37Z",
+      "text": "Bóng đang bay hơi cao.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "criticism",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Phê bình sản phẩm/hành vi cụ thể, không phủ định giá trị con người. Căn cứ: Bóng đang bay hơi cao.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C06",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_09_U03",
+      "timestamp": "2025-01-10T09:04:31Z",
+      "text": "Vậy hai người thử chậm theo góc cố định.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Vậy hai người thử chậm theo góc cố định.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C07",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_09_U01",
+      "timestamp": "2025-01-10T09:05:04Z",
+      "text": "Tui hạ lực cổ tay xuống chút.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Tui hạ lực cổ tay xuống chút.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C08",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_09_U02",
+      "timestamp": "2025-01-10T09:06:02Z",
+      "text": "pha này vừa tầm rồi",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: pha này vừa tầm rồi",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C09",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_09_U03",
+      "timestamp": "2025-01-10T09:06:39Z",
+      "text": "Giữ cách góp ý về động tác như vậy nhé.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Giữ cách góp ý về động tác như vậy nhé.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_09_C10",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_09_U01",
+      "timestamp": "2025-01-10T09:07:18Z",
+      "text": "Mình nghỉ uống nước rồi tập tiếp.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình nghỉ uống nước rồi tập tiếp.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    }
+  ],
+  "participants": [
+    {
+      "user_id": "CTX_RECOVERY_V1_09_U01",
+      "fictional_speaker": "A",
+      "style": "tập chuyền"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_09_U02",
+      "fictional_speaker": "B",
+      "style": "chê"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_09_U03",
+      "fictional_speaker": "C",
+      "style": "đội trưởng"
+    }
+  ],
+  "timestamp_origin": "synthetic_schedule_not_real",
+  "evaluation_eligible": false,
+  "human_gold": false,
+  "source_catalogue_sha256": "35d396f44890653d8af73e0a4d3d3850ee423d96b49dc6315251015672eafa37",
+  "label_source": "synthetic",
+  "training_eligible": false
+}

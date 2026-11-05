@@ -1,0 +1,531 @@
+{
+  "$defs": {
+    "AnalysisSignalsOut": {
+      "properties": {
+        "context_tags": {
+          "items": {
+            "enum": [
+              "APOLOGY",
+              "QUOTE",
+              "DEFENSE",
+              "SET_BOUNDARY",
+              "INTERVENTION",
+              "DIRECT_ATTACK",
+              "PROFANITY_NON_DIRECTED",
+              "UNCERTAIN"
+            ],
+            "type": "string"
+          },
+          "title": "Context Tags",
+          "type": "array"
+        },
+        "context": {
+          "$ref": "#/$defs/ContextSignals"
+        },
+        "directed_attack_candidate": {
+          "title": "Directed Attack Candidate",
+          "type": "boolean"
+        },
+        "attack_confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Attack Confidence",
+          "type": "string"
+        },
+        "target_candidate": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Target Candidate"
+        },
+        "target_evidence": {
+          "$ref": "#/$defs/TargetSignals"
+        },
+        "attack_instance_candidate": {
+          "title": "Attack Instance Candidate",
+          "type": "boolean"
+        },
+        "rule_version": {
+          "title": "Rule Version",
+          "type": "string"
+        },
+        "lexicon_version": {
+          "title": "Lexicon Version",
+          "type": "string"
+        },
+        "needs_human_review": {
+          "title": "Needs Human Review",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "context_tags",
+        "context",
+        "directed_attack_candidate",
+        "attack_confidence",
+        "target_candidate",
+        "target_evidence",
+        "attack_instance_candidate",
+        "rule_version",
+        "lexicon_version",
+        "needs_human_review"
+      ],
+      "title": "AnalysisSignalsOut",
+      "type": "object"
+    },
+    "CommentOutV2": {
+      "properties": {
+        "comment_id": {
+          "title": "Comment Id",
+          "type": "string"
+        },
+        "user_id": {
+          "title": "User Id",
+          "type": "string"
+        },
+        "parent_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Parent Id"
+        },
+        "timestamp": {
+          "format": "date-time",
+          "title": "Timestamp",
+          "type": "string"
+        },
+        "toxicity_score": {
+          "title": "Toxicity Score",
+          "type": "number"
+        },
+        "toxic_for_moderation": {
+          "title": "Toxic For Moderation",
+          "type": "boolean"
+        },
+        "toxic_for_repeated_rule": {
+          "title": "Toxic For Repeated Rule",
+          "type": "boolean"
+        },
+        "target_user_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Target User Id"
+        },
+        "target_method": {
+          "title": "Target Method",
+          "type": "string"
+        },
+        "target_confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "none"
+          ],
+          "title": "Target Confidence",
+          "type": "string"
+        },
+        "profanity_detected": {
+          "default": false,
+          "title": "Profanity Detected",
+          "type": "boolean"
+        },
+        "lexical_review_recommended": {
+          "default": false,
+          "title": "Lexical Review Recommended",
+          "type": "boolean"
+        },
+        "directed_insult_candidate": {
+          "default": false,
+          "title": "Directed Insult Candidate",
+          "type": "boolean"
+        },
+        "reported_or_apology_context": {
+          "default": false,
+          "title": "Reported Or Apology Context",
+          "type": "boolean"
+        },
+        "review_recommended": {
+          "default": false,
+          "title": "Review Recommended",
+          "type": "boolean"
+        },
+        "lexical_signals": {
+          "items": {
+            "$ref": "#/$defs/LexicalSignalOut"
+          },
+          "title": "Lexical Signals",
+          "type": "array"
+        },
+        "analysis_signals": {
+          "$ref": "#/$defs/AnalysisSignalsOut"
+        }
+      },
+      "required": [
+        "comment_id",
+        "user_id",
+        "parent_id",
+        "timestamp",
+        "toxicity_score",
+        "toxic_for_moderation",
+        "toxic_for_repeated_rule",
+        "target_user_id",
+        "target_method",
+        "target_confidence",
+        "analysis_signals"
+      ],
+      "title": "CommentOutV2",
+      "type": "object"
+    },
+    "ContextSignals": {
+      "properties": {
+        "version": {
+          "default": "context-v1",
+          "title": "Version",
+          "type": "string"
+        },
+        "tags": {
+          "items": {
+            "enum": [
+              "APOLOGY",
+              "QUOTE",
+              "DEFENSE",
+              "SET_BOUNDARY",
+              "INTERVENTION",
+              "DIRECT_ATTACK",
+              "PROFANITY_NON_DIRECTED",
+              "UNCERTAIN"
+            ],
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        },
+        "attack_candidate": {
+          "default": false,
+          "title": "Attack Candidate",
+          "type": "boolean"
+        },
+        "confidence": {
+          "default": "low",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "negated_attack": {
+          "default": false,
+          "title": "Negated Attack",
+          "type": "boolean"
+        },
+        "cues": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Cues",
+          "type": "array"
+        },
+        "needs_human_review": {
+          "default": true,
+          "title": "Needs Human Review",
+          "type": "boolean"
+        }
+      },
+      "title": "ContextSignals",
+      "type": "object"
+    },
+    "EvidenceOut": {
+      "properties": {
+        "actor_user_id": {
+          "title": "Actor User Id",
+          "type": "string"
+        },
+        "target_user_id": {
+          "title": "Target User Id",
+          "type": "string"
+        },
+        "evidence_comment_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Comment Ids",
+          "type": "array"
+        },
+        "n_distinct_timestamps": {
+          "title": "N Distinct Timestamps",
+          "type": "integer"
+        },
+        "target_confidence": {
+          "title": "Target Confidence",
+          "type": "string"
+        }
+      },
+      "required": [
+        "actor_user_id",
+        "target_user_id",
+        "evidence_comment_ids",
+        "n_distinct_timestamps",
+        "target_confidence"
+      ],
+      "title": "EvidenceOut",
+      "type": "object"
+    },
+    "LexicalSignalOut": {
+      "properties": {
+        "rule_id": {
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "category": {
+          "title": "Category",
+          "type": "string"
+        },
+        "matched_form": {
+          "title": "Matched Form",
+          "type": "string"
+        },
+        "strength": {
+          "title": "Strength",
+          "type": "string"
+        },
+        "canonical_form": {
+          "default": "",
+          "title": "Canonical Form",
+          "type": "string"
+        },
+        "language": {
+          "default": "",
+          "title": "Language",
+          "type": "string"
+        },
+        "reason": {
+          "default": "",
+          "title": "Reason",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Start"
+        },
+        "end": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "End"
+        }
+      },
+      "required": [
+        "rule_id",
+        "category",
+        "matched_form",
+        "strength"
+      ],
+      "title": "LexicalSignalOut",
+      "type": "object"
+    },
+    "TargetSignals": {
+      "properties": {
+        "version": {
+          "default": "target-v3",
+          "title": "Version",
+          "type": "string"
+        },
+        "candidate": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Candidate"
+        },
+        "method": {
+          "default": "abstain",
+          "title": "Method",
+          "type": "string"
+        },
+        "confidence": {
+          "default": "none",
+          "enum": [
+            "none",
+            "low",
+            "medium",
+            "high"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "evidence_comment_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Comment Ids",
+          "type": "array"
+        },
+        "needs_human_review": {
+          "default": true,
+          "title": "Needs Human Review",
+          "type": "boolean"
+        }
+      },
+      "title": "TargetSignals",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "thread_id": {
+      "title": "Thread Id",
+      "type": "string"
+    },
+    "model_name": {
+      "title": "Model Name",
+      "type": "string"
+    },
+    "model_threshold": {
+      "title": "Model Threshold",
+      "type": "number"
+    },
+    "repeated_rule_threshold": {
+      "title": "Repeated Rule Threshold",
+      "type": "number"
+    },
+    "profile": {
+      "title": "Profile",
+      "type": "string"
+    },
+    "research_only": {
+      "title": "Research Only",
+      "type": "boolean"
+    },
+    "suspected_repeated_harassment": {
+      "title": "Suspected Repeated Harassment",
+      "type": "boolean"
+    },
+    "risk_level": {
+      "enum": [
+        "none",
+        "needs_review",
+        "suspected_repeated"
+      ],
+      "title": "Risk Level",
+      "type": "string"
+    },
+    "risk_score_heuristic": {
+      "title": "Risk Score Heuristic",
+      "type": "integer"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/EvidenceOut"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "comments": {
+      "items": {
+        "$ref": "#/$defs/CommentOutV2"
+      },
+      "title": "Comments",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    },
+    "analysis_version": {
+      "const": "2.0",
+      "title": "Analysis Version",
+      "type": "string"
+    },
+    "rule_versions": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Rule Versions",
+      "type": "object"
+    },
+    "source_model_threshold": {
+      "title": "Source Model Threshold",
+      "type": "number"
+    },
+    "policy_executed": {
+      "const": false,
+      "title": "Policy Executed",
+      "type": "boolean"
+    },
+    "checkpoint_id": {
+      "title": "Checkpoint Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "thread_id",
+    "model_name",
+    "model_threshold",
+    "repeated_rule_threshold",
+    "profile",
+    "research_only",
+    "suspected_repeated_harassment",
+    "risk_level",
+    "risk_score_heuristic",
+    "evidence",
+    "comments",
+    "warnings",
+    "analysis_version",
+    "rule_versions",
+    "source_model_threshold",
+    "policy_executed",
+    "checkpoint_id"
+  ],
+  "title": "AnalyzeResponseV2",
+  "type": "object"
+}

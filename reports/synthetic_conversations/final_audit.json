@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "actual_threads": 200,
+  "comments": 2048,
+  "batches": [
+    {
+      "batch": 1,
+      "threads": 50,
+      "comments": 513
+    },
+    {
+      "batch": 2,
+      "threads": 50,
+      "comments": 500
+    },
+    {
+      "batch": 3,
+      "threads": 50,
+      "comments": 535
+    },
+    {
+      "batch": 4,
+      "threads": 50,
+      "comments": 500
+    }
+  ],
+  "labels": {
+    "CLEAN": 1798,
+    "TOXIC": 196,
+    "UNCERTAIN": 54
+  },
+  "json_csv_join_lossless": true,
+  "csv_rows_each": 2048,
+  "resume_real_200": "PASS; unchanged thread/batch snapshot checksums",
+  "protected_files_unchanged": 31,
+  "protected_files_changed": [],
+  "existing_synthetic_exact_overlap_comments": [],
+  "comparison_source_sha256": "85045ae9cc7b60fcb497f5d7a5b397de2164829f5d4467294daeeed9e80d95aa",
+  "original_test_content_used_for_generation": false,
+  "real_T028_dataset_changed": false,
+  "training_performed": false,
+  "external_api_calls": 0,
+  "tests": {
+    "pipeline_subset": "16 passed, 1 warning",
+    "full_backend": "315 passed, 1 warning",
+    "standalone_validator": "PASS",
+    "synthetic_gold": false
+  },
+  "limitations": "AI reference labels, class imbalance, short threads and recurring roles; no human semantic/naturalness agreement or real-world benchmark."
+}

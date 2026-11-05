@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_BOUNDED_FOLLOWUP",
+  "existing_tasks": {
+    "DONE": 27,
+    "BLOCKED": 0,
+    "WAITING_APPROVAL": 0
+  },
+  "followup_execution": "COMPLETE",
+  "promotion_decision": "REJECT_PROMOTION_KEEP_EXISTING_DEFAULT",
+  "production_activation_allowed": false,
+  "optimizer_steps": 356,
+  "candidate_validation_macro_f1": 0.7568648304977315,
+  "test_scored": false,
+  "root_tests_passed": 448,
+  "next": "Stop this recipe; retain default and negative result. Do not relax gates or rescore test.",
+  "report": "docs/ai-update/final-report/CANDIDATE_REVISION_R04.md"
+}

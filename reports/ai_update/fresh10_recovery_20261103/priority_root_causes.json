@@ -1,0 +1,139 @@
+[
+  {
+    "thread_id": "SHIELDVI_FRESH10_09_AM_NHAC_OPEN_MIC",
+    "comment_id": "c17",
+    "text": "Nhưng t xin lỗi không có nghĩa b hát hay đâu, cái kiểu lên sân khấu phông bạt vẫn cringe lắm.",
+    "normalized_context_view": "nhung t xin loi khong co nghia b hat hay dau, cai kieu len san khau phong bat van cringe lam.",
+    "raw_score": 0.798809,
+    "rule_matches": [
+      {
+        "rule": "DEFENSE",
+        "pattern": "\\b(?:cau|ve|loi) (?:sau|dau|do|ay).{0,30}(?:xuc pham|ha nhuc).{0,25}(?:khong chap nhan|minh|toi)|\\b(?:ban|cau|ong|ba).{0,18}(?:dang )?xuc pham (?:minh|toi|tui)|\\b(?:bi (?:chui|si nhuc|xuc pham|cong kich|nhan)|phai chiu bi|khong co nghia|cam on vi (?:da )?xin loi|cam on vi loi xin loi|loi do lam|may loi do|minh van buon|(?:ban|cau|ong|ba) (?:da )?chui (?:minh|toi))\\b|\\b(?:minh|toi|tui|to|t) (?:van |con |that su )?(?:buon|ton thuong|hut hang|khong thoai mai)\\b|\\b(?:nhung loi|loi do|loi ay).{0,45}(?:ton thuong|buon|tut mood)",
+        "normalized_span": [
+          16,
+          30
+        ],
+        "normalized_match": "khong co nghia"
+      },
+      {
+        "rule": "BREAK",
+        "pattern": "[!?;\\n]|\\.(?:\\s|$)|\\b(?:nhung|but|tuy nhien|chu)\\b|,\\s*(?=(?:may|m|ban|you|cau|ong|ba|tao|toi)\\b)|\\b(?:va|con|roi|bay gio)\\s+(?=(?:may|m|ban|you|cau|ong|ba|tao|toi)\\b)",
+        "normalized_span": [
+          0,
+          5
+        ],
+        "normalized_match": "nhung"
+      },
+      {
+        "rule": "BREAK",
+        "pattern": "[!?;\\n]|\\.(?:\\s|$)|\\b(?:nhung|but|tuy nhien|chu)\\b|,\\s*(?=(?:may|m|ban|you|cau|ong|ba|tao|toi)\\b)|\\b(?:va|con|roi|bay gio)\\s+(?=(?:may|m|ban|you|cau|ong|ba|tao|toi)\\b)",
+        "normalized_span": [
+          92,
+          93
+        ],
+        "normalized_match": "."
+      }
+    ],
+    "context": {
+      "version": "context-v5",
+      "tags": [
+        "DEFENSE"
+      ],
+      "attack_candidate": false,
+      "confidence": "medium",
+      "negated_attack": false,
+      "cues": [
+        "defense_or_recovery"
+      ],
+      "needs_human_review": true,
+      "non_attack_context_confirmed": true,
+      "unresolved_new_clause": false,
+      "attack_clause_spans": []
+    },
+    "target": {
+      "version": "target-v5",
+      "candidate": null,
+      "method": "non_attack_or_uncertain",
+      "confidence": "none",
+      "evidence_comment_ids": [],
+      "needs_human_review": true
+    },
+    "reply_to_user_id": "U02",
+    "final": {
+      "label": "CLEAN",
+      "basis": "bounded_non_attack_context",
+      "version": "context-assessment-v1",
+      "human_gold": false,
+      "advisory_only": true
+    },
+    "cause": "Bare causal connector matches DEFENSE; no attack vocabulary hit or unresolved-clause guard, so non_attack_context_confirmed overrides rawTOXIC."
+  },
+  {
+    "thread_id": "SHIELDVI_FRESH10_10_GOC_TRONG_CAY",
+    "comment_id": "c14",
+    "text": "Quá tuyệt, t đổi bạn ít hạt ngò nha.",
+    "normalized_context_view": "qua tuyet, t doi ban it hat ngo nha.",
+    "raw_score": 0.01156,
+    "rule_matches": [
+      {
+        "rule": "ATTACK",
+        "pattern": "\\b(?:do ngu|ngu(?: ngoc)?|oc cho|thieu nao|vo dung|mat day|noob|n0ob|l[o0]ser|idiot|fake artist|do ham|ganh nang|cam di|sh1t player|choi nhu bot|ngo|nhay nhu (?:mot )?npc|nhin.{0,16}cringe|ich ky|an hai|khon nan|rac ruoi|trash|garbage|worthless)\\b|\\b(?:may|m|you|ban) (?:dung la |la )?dao duc gia\\b|\\b(?:tao|toi) se (?:danh|dap)\\b|\\b(?:f[*.\\s]*[u*][*.\\s]*c[*.\\s]*k|fuck)\\s+you\\b",
+        "normalized_span": [
+          28,
+          31
+        ],
+        "normalized_match": "ngo"
+      },
+      {
+        "rule": "BREAK",
+        "pattern": "[!?;\\n]|\\.(?:\\s|$)|\\b(?:nhung|but|tuy nhien|chu)\\b|,\\s*(?=(?:may|m|ban|you|cau|ong|ba|tao|toi)\\b)|\\b(?:va|con|roi|bay gio)\\s+(?=(?:may|m|ban|you|cau|ong|ba|tao|toi)\\b)",
+        "normalized_span": [
+          35,
+          36
+        ],
+        "normalized_match": "."
+      }
+    ],
+    "context": {
+      "version": "context-v5",
+      "tags": [
+        "DIRECT_ATTACK"
+      ],
+      "attack_candidate": true,
+      "confidence": "medium",
+      "negated_attack": false,
+      "cues": [
+        "new_directed_attack"
+      ],
+      "needs_human_review": true,
+      "non_attack_context_confirmed": false,
+      "unresolved_new_clause": false,
+      "attack_clause_spans": [
+        [
+          0,
+          35
+        ]
+      ]
+    },
+    "target": {
+      "version": "target-v5",
+      "candidate": "U05",
+      "method": "addressed_reply",
+      "confidence": "medium",
+      "evidence_comment_ids": [
+        "c14",
+        "c13"
+      ],
+      "needs_human_review": true
+    },
+    "reply_to_user_id": "U05",
+    "final": {
+      "label": "TOXIC",
+      "basis": "new_directed_attack",
+      "version": "context-assessment-v1",
+      "human_gold": false,
+      "advisory_only": true
+    },
+    "cause": "Vietnamese accent folding maps the culinary word ngò to ngo, matching ATTACK. Addressed reply to U05 grounds a spurious attack."
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "actual_local_models_loaded": true,
+  "implicit_candidate_refused": true,
+  "shadow": {
+    "requested": "candidate_r05",
+    "selected": "candidate_r05",
+    "shadow": true,
+    "fallback_used": false,
+    "failure_type": null,
+    "production_changed": false
+  },
+  "fallback": {
+    "requested": "candidate_r05",
+    "selected": "v1",
+    "shadow": true,
+    "fallback_used": true,
+    "failure_type": "RuntimeError",
+    "production_changed": false
+  },
+  "scores_are_mechanics_only": {
+    "baseline_scores": [
+      0.016620153561234474,
+      0.01808703877031803
+    ],
+    "candidate_scores": [
+      0.010556504130363464,
+      0.01150593627244234
+    ],
+    "threshold": 0.41,
+    "production_changed": false
+  },
+  "candidate_API": 200,
+  "unavailable": 503,
+  "rollback_API": 200,
+  "default_before": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+  "default_after": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\models\\visobert_head_refined",
+  "production_changed": false,
+  "training_performed": false,
+  "limitations": "Actual new-process local ASGI mechanics only; does not change running demo or approve model quality."
+}

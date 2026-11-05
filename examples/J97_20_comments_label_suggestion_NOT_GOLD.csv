@@ -1,0 +1,21 @@
+﻿thread_id,comment_id,suggested_human_label,note
+DEMO_J97_20,s1,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s2,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s3,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s4,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s5,toxic,"Nghi công kích trực tiếp, cần xác nhận"
+DEMO_J97_20,s6,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s7,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s8,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s9,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s10,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s11,toxic,"Nghi công kích trực tiếp, cần xác nhận"
+DEMO_J97_20,s12,toxic,"Nghi công kích trực tiếp, cần xác nhận"
+DEMO_J97_20,s13,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s14,toxic,"Nghi công kích trực tiếp, cần xác nhận"
+DEMO_J97_20,s15,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s16,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s17,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s18,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s19,clean,Nghi bình luận không công kích; cần kiểm tra
+DEMO_J97_20,s20,clean,Nghi bình luận không công kích; cần kiểm tra

@@ -1,0 +1,30 @@
+{
+  "policy_version": "draft-0.1",
+  "mode": "shadow",
+  "note": "Thiết kế minh họa. HIGH phải hiệu chuẩn trước khi tự động tạm giữ.",
+  "model_threshold": 0.41,
+  "decision_rules": [
+    {
+      "risk_tier": "LOW",
+      "visibility_status": "PUBLISHED",
+      "moderator_queue": false
+    },
+    {
+      "risk_tier": "REVIEW",
+      "visibility_status": "PUBLISHED_FLAGGED",
+      "moderator_queue": true
+    },
+    {
+      "risk_tier": "HIGH",
+      "visibility_status": "HELD_FOR_REVIEW",
+      "moderator_queue": true,
+      "enforcement_enabled": false
+    },
+    {
+      "risk_tier": "UNKNOWN",
+      "visibility_status": "PENDING_MODERATION",
+      "moderator_queue": true
+    }
+  ],
+  "caution": "Không gán HIGH chỉ theo điểm >=0.41 hoặc chỉ theo từ khóa."
+}

@@ -1,0 +1,83 @@
+{
+  "status": "PREPARED_NOT_TRAINED",
+  "task_status": "BLOCKED",
+  "blockers": [
+    "T028 independent real evaluation not complete",
+    "G3 exact config/resource approval not recorded"
+  ],
+  "config_sha256": "1f3a214bd5d3d5ac5d6e3dd157145751a2e4de0c2180627af9b7a3ab8ef9a8fe",
+  "fingerprint": "1f3a214bd5d3d5ac5d6e3dd157145751a2e4de0c2180627af9b7a3ab8ef9a8fe:84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2:{\"gold_train\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\prepared\\\\victsd_train.csv\", \"sha256\": \"fb3f968a0746b1ae348acad132e2f23984725dd9a8685852b1f0c3050f64564b\"}, \"synthetic_manifest\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\synthetic_conversations\\\\training_ai_labels_v1\\\\manifest.json\", \"sha256\": \"362a83b14df63bdd4fadd27dce6f54ffff5d2fc734b8986a0481979d49e1a136\"}, \"synthetic_train\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\synthetic_conversations\\\\training_ai_labels_v1\\\\train.jsonl\", \"sha256\": \"d7bd243539f4a6c72d82691230258f45e323e07aa1ad06901821925082368cd3\"}, \"test_text_only\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\raw\\\\victsd\\\\ViCTSD_test.csv\", \"sha256\": \"e341013ca7441a5f2621b9347bd933f4d920d080b9931136ee8827d0ac0b2672\"}, \"validation\": {\"path\": \"E:\\\\lamDoAn\\\\ShieldVI_V3_Hybrid_Review\\\\datasets\\\\raw\\\\victsd\\\\ViCTSD_valid.csv\", \"sha256\": \"e3950ee6a16375d566f58d3fc1206dab76fc8e41e340bb580ca0ae2e5ea61f83\"}}",
+  "base_model_path": "C:\\Users\\admin\\Downloads\\visobert_toxic_final",
+  "base_model_sha256": "84c149584bb22bde4017ffef1f4ffac7b13e0239df7a73a95eeb32e020e81fd2",
+  "threshold": 0.41,
+  "gold_train_rows": 6942,
+  "synthetic_train_rows": 1994,
+  "total_train_rows": 8936,
+  "synthetic_fraction": 0.22314234556848703,
+  "labels": {
+    "0": 7983,
+    "1": 953
+  },
+  "synthetic_input_rows": 1994,
+  "excluded_uncertain": 54,
+  "cleanup": {
+    "gold_exact": {
+      "overlap_removed": 0,
+      "conflicting_removed": 0,
+      "duplicates_removed": 0
+    },
+    "gold_near_heldout_removed": 0,
+    "synthetic_exact": {
+      "overlap_removed": 0,
+      "conflicting_removed": 0,
+      "duplicates_removed": 0
+    },
+    "synthetic_near_heldout_removed": 0,
+    "synthetic_gold_exact_removed": 0,
+    "synthetic_gold_near_removed": 0
+  },
+  "sources": {
+    "gold_train": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\prepared\\victsd_train.csv",
+      "sha256": "fb3f968a0746b1ae348acad132e2f23984725dd9a8685852b1f0c3050f64564b"
+    },
+    "validation": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\raw\\victsd\\ViCTSD_valid.csv",
+      "sha256": "e3950ee6a16375d566f58d3fc1206dab76fc8e41e340bb580ca0ae2e5ea61f83"
+    },
+    "test_text_only": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\raw\\victsd\\ViCTSD_test.csv",
+      "sha256": "e341013ca7441a5f2621b9347bd933f4d920d080b9931136ee8827d0ac0b2672"
+    },
+    "synthetic_manifest": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_conversations\\training_ai_labels_v1\\manifest.json",
+      "sha256": "362a83b14df63bdd4fadd27dce6f54ffff5d2fc734b8986a0481979d49e1a136"
+    },
+    "synthetic_train": {
+      "path": "E:\\lamDoAn\\ShieldVI_V3_Hybrid_Review\\datasets\\synthetic_conversations\\training_ai_labels_v1\\train.jsonl",
+      "sha256": "d7bd243539f4a6c72d82691230258f45e323e07aa1ad06901821925082368cd3"
+    }
+  },
+  "heldout_modified": false,
+  "test_labels_used": false,
+  "test_predictions_generated": false,
+  "training_performed": false,
+  "T028_manifest_status": "BLOCKED",
+  "T028_data_files": 0,
+  "independent_blind_evaluation_ready": false,
+  "approval_recorded": false,
+  "output_sha256": {
+    "train.jsonl": "40da5a51a5567034b0aea53b8cc014a47070b849557a9cf9189c55984b5cc13d",
+    "validation.jsonl": "e554bf12121d21581808d982d92187121d1aa69350468a4333fbfce18fd8623e"
+  },
+  "similarity_scope": {
+    "normalization": "NFC/casefold/space for comparison only",
+    "char5_jaccard": 0.9,
+    "min_chars": 40
+  },
+  "limitations": [
+    "Historical ViCTSD holdouts are not the missing T028 independent real benchmark.",
+    "AI labels remain synthetic, not human gold.",
+    "Character similarity cannot rule out all semantic paraphrases."
+  ]
+}

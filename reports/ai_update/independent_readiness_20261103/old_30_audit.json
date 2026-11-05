@@ -1,0 +1,31 @@
+{
+  "old_30_threads_313_comments": "NOT_FOUND",
+  "eligible_real_old_threads": 0,
+  "matches": [],
+  "searched_file_inventory": 1478,
+  "documentary_mentions_are_not_corpus_evidence": true,
+  "known_synthetic": [
+    {
+      "threads": 100,
+      "comments": 1495,
+      "path": "datasets/review/conversations_100"
+    },
+    {
+      "threads": 200,
+      "comments": 2048,
+      "path": "datasets/synthetic_conversations"
+    },
+    {
+      "threads": 500,
+      "comments": 5115,
+      "path": "datasets/synthetic_conversations/genz_v2"
+    },
+    {
+      "threads": 5,
+      "comments": 150,
+      "path": "datasets/fixtures/genz_regression"
+    }
+  ],
+  "no_user_path_request_required": true,
+  "no_candidate_reclassified_as_real": true
+}

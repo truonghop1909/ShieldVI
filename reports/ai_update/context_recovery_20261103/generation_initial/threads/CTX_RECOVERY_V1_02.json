@@ -1,0 +1,221 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_02",
+  "topic": "hoc_tap",
+  "title": "Nhận lỗi chụp mũ bạn trong bài nhóm",
+  "data_origin": "synthetic",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C01",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_02_U01",
+      "timestamp": "2025-01-03T02:00:44Z",
+      "text": "Đây là lịch sử chỉnh sửa báo cáo.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Đây là lịch sử chỉnh sửa báo cáo.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C02",
+      "parent_id": "CTX_RECOVERY_V1_02_C01",
+      "user_id": "CTX_RECOVERY_V1_02_U02",
+      "timestamp": "2025-01-03T02:01:30Z",
+      "text": "Mày vô dụng thật, giao việc chỉ tổ hỏng.",
+      "annotation": {
+        "label": "TOXIC",
+        "category": "directed_insult",
+        "directed_at_user_id": "CTX_RECOVERY_V1_02_U01",
+        "is_directed_attack": true,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Lời hạ nhục trực tiếp nhắm đến người, vượt khỏi góp ý nội dung. Căn cứ: Mày vô dụng thật, giao việc chỉ tổ hỏng.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C03",
+      "parent_id": "CTX_RECOVERY_V1_02_C02",
+      "user_id": "CTX_RECOVERY_V1_02_U03",
+      "timestamp": "2025-01-03T02:02:18Z",
+      "text": "Chưa kiểm lịch sử thì đừng xúc phạm bạn.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "intervention",
+        "directed_at_user_id": "CTX_RECOVERY_V1_02_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Can ngăn công kích, hướng trao đổi về vấn đề. Căn cứ: Chưa kiểm lịch sử thì đừng xúc phạm bạn.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C04",
+      "parent_id": "CTX_RECOVERY_V1_02_C02",
+      "user_id": "CTX_RECOVERY_V1_02_U01",
+      "timestamp": "2025-01-03T02:03:08Z",
+      "text": "Mình có làm phần số liệu, đây là đường dẫn.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "defense",
+        "directed_at_user_id": "CTX_RECOVERY_V1_02_U02",
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Người bị nhắm đến đặt giới hạn hoặc tự bảo vệ, không đáp trả bằng xúc phạm. Căn cứ: Mình có làm phần số liệu, đây là đường dẫn.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C05",
+      "parent_id": "CTX_RECOVERY_V1_02_C04",
+      "user_id": "CTX_RECOVERY_V1_02_U02",
+      "timestamp": "2025-01-03T02:03:37Z",
+      "text": "Tôi xem rồi, lúc nãy nóng quá nên đã nói bậy.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "acknowledgement",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Tôi xem rồi, lúc nãy nóng quá nên đã nói bậy.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C06",
+      "parent_id": "CTX_RECOVERY_V1_02_C05",
+      "user_id": "CTX_RECOVERY_V1_02_U02",
+      "timestamp": "2025-01-03T02:04:31Z",
+      "text": "Mình nhận lỗi vì đã chụp mũ bạn không làm việc.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "acknowledgement",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình nhận lỗi vì đã chụp mũ bạn không làm việc.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C07",
+      "parent_id": "CTX_RECOVERY_V1_02_C06",
+      "user_id": "CTX_RECOVERY_V1_02_U03",
+      "timestamp": "2025-01-03T02:05:04Z",
+      "text": "Mình ghi nhận, quay lại phần báo cáo nhé.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mình ghi nhận, quay lại phần báo cáo nhé.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C08",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_02_U01",
+      "timestamp": "2025-01-03T02:06:02Z",
+      "text": "Tui cần chốt bảng trước tối nay.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Tui cần chốt bảng trước tối nay.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C09",
+      "parent_id": "CTX_RECOVERY_V1_02_C08",
+      "user_id": "CTX_RECOVERY_V1_02_U02",
+      "timestamp": "2025-01-03T02:06:39Z",
+      "text": "Để mình kiểm lại chú thích đơn vị.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Để mình kiểm lại chú thích đơn vị.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_02_C10",
+      "parent_id": null,
+      "user_id": "CTX_RECOVERY_V1_02_U03",
+      "timestamp": "2025-01-03T02:07:18Z",
+      "text": "Mọi thay đổi nhớ ghi vào lịch sử chung.",
+      "annotation": {
+        "label": "CLEAN",
+        "category": "normal",
+        "directed_at_user_id": null,
+        "is_directed_attack": false,
+        "is_repeated_attack": false,
+        "is_apology": false,
+        "is_quote": false,
+        "label_reason": "Trao đổi thông tin/ý kiến, không có hành vi hạ nhục người. Căn cứ: Mọi thay đổi nhớ ghi vào lịch sử chung.",
+        "label_source": "synthetic",
+        "evidence_comment_ids": []
+      }
+    }
+  ],
+  "participants": [
+    {
+      "user_id": "CTX_RECOVERY_V1_02_U01",
+      "fictional_speaker": "A",
+      "style": "giữ file"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_02_U02",
+      "fictional_speaker": "B",
+      "style": "đã nghi oan"
+    },
+    {
+      "user_id": "CTX_RECOVERY_V1_02_U03",
+      "fictional_speaker": "C",
+      "style": "nhóm trưởng"
+    }
+  ],
+  "timestamp_origin": "synthetic_schedule_not_real",
+  "evaluation_eligible": false,
+  "human_gold": false,
+  "source_catalogue_sha256": "45af2a0a06685fe034cc9c654752c20dc7f6a4bad97a187ee227a1737f98ff86",
+  "label_source": "synthetic",
+  "training_eligible": false
+}

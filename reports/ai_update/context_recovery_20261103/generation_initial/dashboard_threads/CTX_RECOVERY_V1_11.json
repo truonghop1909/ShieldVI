@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_11",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C01",
+      "user_id": "CTX_RECOVERY_V1_11_U01",
+      "parent_id": null,
+      "text": "File có đủ phần của từng người đây.",
+      "timestamp": "2025-01-12T11:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C02",
+      "user_id": "CTX_RECOVERY_V1_11_U02",
+      "parent_id": "CTX_RECOVERY_V1_11_C01",
+      "text": "Tôi sai khi chưa kiểm tra đã kết luận vội.",
+      "timestamp": "2025-01-12T11:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C03",
+      "user_id": "CTX_RECOVERY_V1_11_U03",
+      "parent_id": "CTX_RECOVERY_V1_11_C02",
+      "text": "Vậy bạn cập nhật lại tin nhắn trong nhóm nhé.",
+      "timestamp": "2025-01-12T11:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C04",
+      "user_id": "CTX_RECOVERY_V1_11_U02",
+      "parent_id": "CTX_RECOVERY_V1_11_C01",
+      "text": "Mình nhận lỗi vì đã chửi, mày vẫn là đồ ngu.",
+      "timestamp": "2025-01-12T11:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C05",
+      "user_id": "CTX_RECOVERY_V1_11_U01",
+      "parent_id": "CTX_RECOVERY_V1_11_C04",
+      "text": "Nhận lỗi rồi công kích tiếp thì mình chưa thể trao đổi.",
+      "timestamp": "2025-01-12T11:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C06",
+      "user_id": "CTX_RECOVERY_V1_11_U03",
+      "parent_id": "CTX_RECOVERY_V1_11_C04",
+      "text": "Ghi nhận lỗi cũ không biện minh câu xúc phạm mới.",
+      "timestamp": "2025-01-12T11:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C07",
+      "user_id": "CTX_RECOVERY_V1_11_U02",
+      "parent_id": "CTX_RECOVERY_V1_11_C06",
+      "text": "Tui sẽ dừng nhánh tranh luận này.",
+      "timestamp": "2025-01-12T11:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C08",
+      "user_id": "CTX_RECOVERY_V1_11_U01",
+      "parent_id": null,
+      "text": "Mình chuyển sang kiểm lỗi chính tả thôi.",
+      "timestamp": "2025-01-12T11:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C09",
+      "user_id": "CTX_RECOVERY_V1_11_U03",
+      "parent_id": null,
+      "text": "Bản cuối dùng file có ghi ngày hôm nay.",
+      "timestamp": "2025-01-12T11:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_11_C10",
+      "user_id": "CTX_RECOVERY_V1_11_U01",
+      "parent_id": null,
+      "text": "Mình thấy đúng tên file rồi.",
+      "timestamp": "2025-01-12T11:07:18Z"
+    }
+  ]
+}

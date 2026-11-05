@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "ports": [
+    8020,
+    8021
+  ],
+  "threads_each": 5,
+  "comments_each": 90,
+  "raw_invariant": true,
+  "indirect_targets_checked": 3,
+  "shipping_game_camping_chains_exact": true,
+  "human_gold": false,
+  "independent_test_scored": false
+}

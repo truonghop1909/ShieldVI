@@ -1,0 +1,182 @@
+{
+  "models_not_packaged": true,
+  "broken_links": [],
+  "files": {
+    "apps/moderation-web/legacy-v3/src/App.jsx": {
+      "sha256": "844762491187f69a512022018b9b945c0eb2743a242ec00849b6d7383ac6659e",
+      "bytes": 41257
+    },
+    "contracts/analysis_response_v2.schema.json": {
+      "sha256": "f0b81469fbd0b8c909371a1c1029be807f32c338102cb889dd6c37eec8883cfb",
+      "bytes": 16575
+    },
+    "docs/ai-update/04_API_VERSIONING.md": {
+      "sha256": "24baf666797acd722b4418fb4b9f32633348acc99b98a7a874ed7c73c1fd8f96",
+      "bytes": 4206
+    },
+    "docs/ai-update/final-report/CAMPING_CONTEXT_RECOVERY.md": {
+      "sha256": "fd0e159e4fd1d0c8c47cdc29ee3daf98c22a4aacdae6eebe865458346393a19f",
+      "bytes": 5324
+    },
+    "reports/ai_update/camping_context_20261103/after.json": {
+      "sha256": "bb6af33b93e93608315ed33564b4cb1a334a3aa1a31be093333c89d7c0fb2351",
+      "bytes": 2354855
+    },
+    "reports/ai_update/camping_context_20261103/after_live.json": {
+      "sha256": "1b3ec25dd97ff8b054a59f9d37101fde7f7c7cccbdc847f4086f1ec96ced9162",
+      "bytes": 145318
+    },
+    "reports/ai_update/camping_context_20261103/approved_V1_1.stderr.log": {
+      "sha256": "688d3b8b84f68efb7e38c9136bdac5baa116f37a582aec2acdaf3c310cad7d6b",
+      "bytes": 202
+    },
+    "reports/ai_update/camping_context_20261103/approved_V1_1.stdout.log": {
+      "sha256": "e6088ee6a593ffa643cee1bfb4e61a1518512352d84830dfa8fbfd8fbc9887ac",
+      "bytes": 342
+    },
+    "reports/ai_update/camping_context_20261103/before.json": {
+      "sha256": "d07049daf129d5c13eebe71404fdd990101872b8e723b8c7a6ec6b5f68f34e4c",
+      "bytes": 2289051
+    },
+    "reports/ai_update/camping_context_20261103/before_after.json": {
+      "sha256": "2a19225c8955e32538388b302e1c629b168a08692c2d6dd23c8058ee0e8b6895",
+      "bytes": 5110
+    },
+    "reports/ai_update/camping_context_20261103/before_live.json": {
+      "sha256": "c0289ee0381ffb553f0ba582fc62cc192977986880fdc6199c6cbca35689e162",
+      "bytes": 137828
+    },
+    "reports/ai_update/camping_context_20261103/before_lock.json": {
+      "sha256": "a483620017b633f39c3bf8074e5372180b6b7fbf751d8538f7fa54ac70e018b1",
+      "bytes": 1036
+    },
+    "reports/ai_update/camping_context_20261103/before_sources/App.jsx": {
+      "sha256": "ce16f04c8d2b93b54bcc36a8a48758ed84eb19cbcd0d21d72656d2472e4b631a",
+      "bytes": 41212
+    },
+    "reports/ai_update/camping_context_20261103/before_sources/context_signals.py": {
+      "sha256": "784cc1109b979f717ecf28ca4c0d53efd088dc892391dae99827ac8aaf580a71",
+      "bytes": 7076
+    },
+    "reports/ai_update/camping_context_20261103/before_sources/schemas.py": {
+      "sha256": "361206812bab41779ed468e513223c891eb18afa21bfad2760e9dad7e0b10b6c",
+      "bytes": 5762
+    },
+    "reports/ai_update/camping_context_20261103/before_sources/signal_engine.py": {
+      "sha256": "e31d7b2448168257ab672e485e0c7d677a563c91ca0a47b837ae3e715c010e6e",
+      "bytes": 3857
+    },
+    "reports/ai_update/camping_context_20261103/before_sources/target_signals.py": {
+      "sha256": "0f0a2ae6c9a08568c415744d34030736c591e9f08753aa28b65670bec3ecf227",
+      "bytes": 2439
+    },
+    "reports/ai_update/camping_context_20261103/before_static/index.html": {
+      "sha256": "dd8a854869f58fa1a3bbea3497559b32581f8354b0d67e950a45288af7438a7e",
+      "bytes": 695
+    },
+    "reports/ai_update/camping_context_20261103/build.log": {
+      "sha256": "b88795080c720bbd2acec35c487c6fbf69bb49a1df556ca8263aed8c5ba0dcc7",
+      "bytes": 1396
+    },
+    "reports/ai_update/camping_context_20261103/capture_before.py": {
+      "sha256": "7eeac1de074dd25be55d65e31aebd7f05ea2b70ef9a02aed07ed0023a9fc7fe8",
+      "bytes": 4570
+    },
+    "reports/ai_update/camping_context_20261103/compare_rules.py": {
+      "sha256": "3a974361f3f0e883c58af91af2554f6fd37b096b5156b537cd733c1ffd3b6284",
+      "bytes": 3988
+    },
+    "reports/ai_update/camping_context_20261103/dashboard_build/assets/index-BaiwjHcP.css": {
+      "sha256": "43bb047edc8925510e73fbed17fb37cd30bc74e73ac80bd8585cb599407a661c",
+      "bytes": 24713
+    },
+    "reports/ai_update/camping_context_20261103/dashboard_build/assets/index-DJEu5Tzd.js": {
+      "sha256": "f07be80333c45282b3231efac7a3236f4c7f0e7696b1d745c2a3d82d38a9beea",
+      "bytes": 199114
+    },
+    "reports/ai_update/camping_context_20261103/dashboard_build/index.html": {
+      "sha256": "ea5ad4338ffc4b8b2880ecab44cfb77809d10825ced78149525c4d570b167241",
+      "bytes": 695
+    },
+    "reports/ai_update/camping_context_20261103/demo_after_server_state.json": {
+      "sha256": "92e8afdfec3fb7d3b82c22f0de9dad90e3fee7acfb9bccf20caca6b5c30b4bf1",
+      "bytes": 1264
+    },
+    "reports/ai_update/camping_context_20261103/experimental_r05.stderr.log": {
+      "sha256": "8401ba15e76ad15bf612f3c8a118632b31d0a8ac41486c19c3930d2c4d341bdd",
+      "bytes": 202
+    },
+    "reports/ai_update/camping_context_20261103/experimental_r05.stdout.log": {
+      "sha256": "6281a9c6b4b2e52700e1b3ce5ed2098783f73d3f1166e3caffa4eeccb70fa884",
+      "bytes": 342
+    },
+    "reports/ai_update/camping_context_20261103/finalize.py": {
+      "sha256": "72d5bef0d9c768b73315237e50973298053db7f398309e481488a004a401ad48",
+      "bytes": 13001
+    },
+    "reports/ai_update/camping_context_20261103/focused_tests.log": {
+      "sha256": "5ec248cf7f35cd528a73a89f5fc2d119b9ac0f161e00b792f0103b7791e7bce4",
+      "bytes": 1506
+    },
+    "reports/ai_update/camping_context_20261103/integrity_audit.json": {
+      "sha256": "2f5e96b9b36fc8576108552cd4cdf046db4aeebf6a0d5d3466748a1e1cabefbe",
+      "bytes": 443
+    },
+    "reports/ai_update/camping_context_20261103/live_smoke.json": {
+      "sha256": "c5b4c797b68ad198d2f40e5641ab1f6144a96e04c26d50e27f69f8e8134ac7bc",
+      "bytes": 1492
+    },
+    "reports/ai_update/camping_context_20261103/paired_comments.json": {
+      "sha256": "ecc6c690a5714b141df63505e1934ae203c860170eac23b16affe2f58c0895e1",
+      "bytes": 303064
+    },
+    "reports/ai_update/camping_context_20261103/progress.json": {
+      "sha256": "09c173753c6740fc2b54a44e5d2504af6cb534b006b15e4fcbbd4a74c55f17c9",
+      "bytes": 535
+    },
+    "reports/ai_update/camping_context_20261103/red_tests.log": {
+      "sha256": "a8125035e5cbe4a7e81a599aaa74b6dc4c3da257b77b945e97bd72787155d9d4",
+      "bytes": 44800
+    },
+    "reports/ai_update/camping_context_20261103/restart_demo.ps1": {
+      "sha256": "4880b90158f57a528be4bf51d1fa74c707ef1d55a8ddbc1349dfa53cd25e52d9",
+      "bytes": 3282
+    },
+    "reports/ai_update/camping_context_20261103/root_tests.log": {
+      "sha256": "7c6a667c516f7b1adf72d99cdf185c19d40718b6d1f7042219bd35aa0e582b89",
+      "bytes": 2318
+    },
+    "reports/ai_update/camping_context_20261103/verify_live.py": {
+      "sha256": "fc6c0aa9ab12cd714832a5ee64b99e128f725013b23b79149132a4e570c93f4e",
+      "bytes": 4263
+    },
+    "services/moderation-ai/app/context_signals.py": {
+      "sha256": "da48f2399346d08f84deb39c6e57e49653f7558d06cdcec87477676f6d051788",
+      "bytes": 8523
+    },
+    "services/moderation-ai/app/schemas.py": {
+      "sha256": "8b056cf8fca3835ee7d73b8f4bef98de8b33c8aef8ab05896e2d7eff1dc03bdd",
+      "bytes": 5898
+    },
+    "services/moderation-ai/app/signal_engine.py": {
+      "sha256": "8a0e012192d93120635b3b0cf1bff382822dad117de5be9cff577ad6559f4ee8",
+      "bytes": 4069
+    },
+    "services/moderation-ai/app/static/assets/index-DJEu5Tzd.js": {
+      "sha256": "f07be80333c45282b3231efac7a3236f4c7f0e7696b1d745c2a3d82d38a9beea",
+      "bytes": 199114
+    },
+    "services/moderation-ai/app/static/index.html": {
+      "sha256": "ea5ad4338ffc4b8b2880ecab44cfb77809d10825ced78149525c4d570b167241",
+      "bytes": 695
+    },
+    "tests/fixtures/ai_update/camping_reference.json": {
+      "sha256": "73e67e1b3023c88cc11c2c73f7e7414e16acb5b4c5b1dbbbc51f2df93db2bfad",
+      "bytes": 1552
+    },
+    "tests/test_camping_context_regression.py": {
+      "sha256": "80702f97e3654f7515425fc53db4f11d3e9cf9f898a2d0ae5d8074b9a921e2c5",
+      "bytes": 6726
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "date": "2026-11-05",
+  "reported_session": "demo_58665ca349fb9d4a",
+  "reported_evidence": "empty API log; cancellation approximately two seconds after Social launch, no demonstrated API startup exception",
+  "verified_session": "demo_2c9eb13b081ee26e",
+  "social_ready_seconds": 2.5,
+  "ai_ready_seconds": 8.1,
+  "browser_contexts": 7,
+  "cleanup_verified": true,
+  "runtime_source_changed": false,
+  "training_performed": false,
+  "production_changed": false,
+  "log": "reports/demo_startup_20261105_check.log"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "threads": 12,
+  "comments": 74,
+  "exact_duplicates": 0,
+  "exact_overlap_existing": 0,
+  "near_overlap_existing": 0,
+  "char5_jaccard_threshold": 0.85,
+  "min_chars": 35,
+  "no_post_score_rule_changes": true,
+  "fresh_manifest_sha256": "bfbc609aadec23c5b26ceb9a3c06a922d7454572b5e01a47e5a74bd6d01fd234",
+  "all12_registered_as_excluded_from_independent_real_cohort": true,
+  "human_gold": false,
+  "semantic_novelty_proven": false
+}

@@ -1,0 +1,194 @@
+{
+  "human_gold": false,
+  "independent_test_scored": false,
+  "raw_invariant": true,
+  "before_final_definition": "No separate final field existed; the UI badge was raw ViSoBERT.",
+  "groups": {
+    "EXISTING_GENZ_DEVELOPMENT": {
+      "raw_before_and_after": {
+        "reference_comments": 617,
+        "covered": 617,
+        "abstentions": 0,
+        "tp": 20,
+        "fp": 23,
+        "tn": 559,
+        "fn": 15,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "after_assessment": {
+        "reference_comments": 617,
+        "covered": 617,
+        "abstentions": 0,
+        "tp": 26,
+        "fp": 16,
+        "tn": 566,
+        "fn": 9,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "context_before": {
+        "reference_comments": 617,
+        "covered": 617,
+        "abstentions": 0,
+        "tp": 13,
+        "fp": 2,
+        "tn": 580,
+        "fn": 22,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "context_after": {
+        "reference_comments": 617,
+        "covered": 617,
+        "abstentions": 0,
+        "tp": 16,
+        "fp": 0,
+        "tn": 582,
+        "fn": 19,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      }
+    },
+    "GAME_USER_REFERENCE": {
+      "raw_before_and_after": {
+        "reference_comments": 30,
+        "covered": 30,
+        "abstentions": 0,
+        "tp": 4,
+        "fp": 5,
+        "tn": 21,
+        "fn": 0,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "after_assessment": {
+        "reference_comments": 30,
+        "covered": 30,
+        "abstentions": 0,
+        "tp": 4,
+        "fp": 0,
+        "tn": 26,
+        "fn": 0,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "context_before": {
+        "reference_comments": 30,
+        "covered": 30,
+        "abstentions": 0,
+        "tp": 4,
+        "fp": 0,
+        "tn": 26,
+        "fn": 0,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "context_after": {
+        "reference_comments": 30,
+        "covered": 30,
+        "abstentions": 0,
+        "tp": 4,
+        "fp": 0,
+        "tn": 26,
+        "fn": 0,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      }
+    },
+    "NEW_SYNTHETIC_RECOVERY": {
+      "raw_before_and_after": {
+        "reference_comments": 120,
+        "covered": 120,
+        "abstentions": 0,
+        "tp": 9,
+        "fp": 11,
+        "tn": 98,
+        "fn": 2,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "after_assessment": {
+        "reference_comments": 120,
+        "covered": 120,
+        "abstentions": 0,
+        "tp": 11,
+        "fp": 0,
+        "tn": 109,
+        "fn": 0,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "context_before": {
+        "reference_comments": 120,
+        "covered": 120,
+        "abstentions": 0,
+        "tp": 8,
+        "fp": 0,
+        "tn": 109,
+        "fn": 3,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "context_after": {
+        "reference_comments": 120,
+        "covered": 120,
+        "abstentions": 0,
+        "tp": 11,
+        "fp": 0,
+        "tn": 109,
+        "fn": 0,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      }
+    },
+    "OTHER_FOUR_REGRESSION": {
+      "raw_before_and_after": {
+        "reference_comments": 119,
+        "covered": 119,
+        "abstentions": 0,
+        "tp": 15,
+        "fp": 9,
+        "tn": 94,
+        "fn": 1,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "after_assessment": {
+        "reference_comments": 119,
+        "covered": 119,
+        "abstentions": 0,
+        "tp": 15,
+        "fp": 4,
+        "tn": 99,
+        "fn": 1,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "context_before": {
+        "reference_comments": 119,
+        "covered": 119,
+        "abstentions": 0,
+        "tp": 4,
+        "fp": 0,
+        "tn": 103,
+        "fn": 12,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      },
+      "context_after": {
+        "reference_comments": 119,
+        "covered": 119,
+        "abstentions": 0,
+        "tp": 4,
+        "fp": 0,
+        "tn": 103,
+        "fn": 12,
+        "unresolved_toxic": 0,
+        "unresolved_clean": 0
+      }
+    }
+  },
+  "new_errors_or_abstentions_versus_raw": [],
+  "new_errors_count": 0
+}

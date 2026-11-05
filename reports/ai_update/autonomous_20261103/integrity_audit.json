@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "protected_artifacts": 31,
+  "changed": [],
+  "legacy_threads_checked": 200,
+  "legacy_csv_checked": 2,
+  "legacy_changes": [],
+  "threshold": 0.41,
+  "live_db_modified": false
+}

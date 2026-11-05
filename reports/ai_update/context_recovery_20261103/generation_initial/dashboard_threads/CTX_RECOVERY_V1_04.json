@@ -1,0 +1,75 @@
+{
+  "thread_id": "CTX_RECOVERY_V1_04",
+  "comments": [
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C01",
+      "user_id": "CTX_RECOVERY_V1_04_U01",
+      "parent_id": null,
+      "text": "Tui không tham gia chuyến đi lần này.",
+      "timestamp": "2025-01-05T04:00:44Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C02",
+      "user_id": "CTX_RECOVERY_V1_04_U02",
+      "parent_id": "CTX_RECOVERY_V1_04_C01",
+      "text": "Mày là đồ ích kỷ, chỉ biết bản thân.",
+      "timestamp": "2025-01-05T04:01:30Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C03",
+      "user_id": "CTX_RECOVERY_V1_04_U03",
+      "parent_id": "CTX_RECOVERY_V1_04_C02",
+      "text": "A báo không đi được thôi, đừng chụp mũ.",
+      "timestamp": "2025-01-05T04:02:18Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C04",
+      "user_id": "CTX_RECOVERY_V1_04_U02",
+      "parent_id": "CTX_RECOVERY_V1_04_C03",
+      "text": "Xin lỗi vì đã nói nặng với bạn.",
+      "timestamp": "2025-01-05T04:03:08Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C05",
+      "user_id": "CTX_RECOVERY_V1_04_U01",
+      "parent_id": "CTX_RECOVERY_V1_04_C04",
+      "text": "Cảm ơn vì đã xin lỗi, nhưng những lời đó vẫn làm mình tổn thương.",
+      "timestamp": "2025-01-05T04:03:37Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C06",
+      "user_id": "CTX_RECOVERY_V1_04_U01",
+      "parent_id": "CTX_RECOVERY_V1_04_C05",
+      "text": "Mình đọc rồi, nghe vậy vẫn buồn và chưa thoải mái.",
+      "timestamp": "2025-01-05T04:04:31Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C07",
+      "user_id": "CTX_RECOVERY_V1_04_U03",
+      "parent_id": "CTX_RECOVERY_V1_04_C06",
+      "text": "Hai bạn không cần giải quyết hết trong tối nay.",
+      "timestamp": "2025-01-05T04:05:04Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C08",
+      "user_id": "CTX_RECOVERY_V1_04_U02",
+      "parent_id": "CTX_RECOVERY_V1_04_C05",
+      "text": "Tui để bạn có thời gian, không ép trả lời.",
+      "timestamp": "2025-01-05T04:06:02Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C09",
+      "user_id": "CTX_RECOVERY_V1_04_U01",
+      "parent_id": null,
+      "text": "Lúc nào sẵn sàng mình sẽ chủ động nhắn.",
+      "timestamp": "2025-01-05T04:06:39Z"
+    },
+    {
+      "comment_id": "CTX_RECOVERY_V1_04_C10",
+      "user_id": "CTX_RECOVERY_V1_04_U03",
+      "parent_id": null,
+      "text": "Chuyện đặt vé tụi mình tạm tách ra nhé.",
+      "timestamp": "2025-01-05T04:07:18Z"
+    }
+  ]
+}

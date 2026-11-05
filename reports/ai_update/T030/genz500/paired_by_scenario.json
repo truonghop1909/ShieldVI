@@ -1,0 +1,121 @@
+{
+  "ambiguous_banter": {
+    "n": 29,
+    "raw_fp": 1,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "apology_response": {
+    "n": 30,
+    "raw_fp": 4,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "constructive_criticism": {
+    "n": 40,
+    "raw_fp": 2,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "direct_insult": {
+    "n": 50,
+    "raw_fp": 0,
+    "raw_fn": 3,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "english_abuse": {
+    "n": 20,
+    "raw_fp": 2,
+    "raw_fn": 2,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "group_attack": {
+    "n": 10,
+    "raw_fp": 2,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "heated_debate": {
+    "n": 60,
+    "raw_fp": 1,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "indirect_attack": {
+    "n": 10,
+    "raw_fp": 0,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "intervention": {
+    "n": 10,
+    "raw_fp": 0,
+    "raw_fn": 1,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "mixed_apology_attack": {
+    "n": 50,
+    "raw_fp": 1,
+    "raw_fn": 3,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "no_conflict": {
+    "n": 24,
+    "raw_fp": 0,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "normal_chat": {
+    "n": 152,
+    "raw_fp": 0,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "profanity_venting": {
+    "n": 20,
+    "raw_fp": 0,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "quoted_abuse": {
+    "n": 12,
+    "raw_fp": 1,
+    "raw_fn": 0,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "repeated_attack": {
+    "n": 20,
+    "raw_fp": 2,
+    "raw_fn": 1,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "self_defense": {
+    "n": 30,
+    "raw_fp": 3,
+    "raw_fn": 1,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  },
+  "subtle_escalation": {
+    "n": 50,
+    "raw_fp": 4,
+    "raw_fn": 4,
+    "new_raw_wins": 0,
+    "new_raw_losses": 0
+  }
+}
